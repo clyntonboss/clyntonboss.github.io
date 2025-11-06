@@ -70,5 +70,18 @@
             <a href="https://github.com/clyntonboss" target="_blank">GitHub</a>
         </div>
     </footer>
+    
+    <script>
+      document.addEventListener("scroll", function () {
+        const sobre = document.getElementById("sobre");
+        const posicao = sobre.getBoundingClientRect().top;
+        const alturaTela = window.innerHeight;
+    
+        if (posicao < alturaTela - 100) {
+          sobre.classList.add("visible");
+        }
+      });
+    </script>
+
 </body>
 </html>
