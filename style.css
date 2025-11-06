@@ -251,7 +251,7 @@ body {
 /* Menu lateral esquerdo */
 .curriculo-menu {
   position: sticky;
-  top: 140px; /* fixa abaixo do header */
+  top: 120px; /* ajuste para estar dentro do main */
   flex: 0 0 250px;
   background-color: #ffffff;
   padding: 20px;
