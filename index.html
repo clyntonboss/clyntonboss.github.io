@@ -1,108 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rogério Clynton Ribeiro | Analista de Dados</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Open Sans', sans-serif;
-            background-color: #F5F5F5;
-            color: #0E2A47;
-        }
-        header {
-            background-color: #0E2A47;
-            color: #FFFFFF;
-            padding: 1.5rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        header h1 {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            margin: 0;
-            font-size: 1.5rem;
-        }
-        nav a {
-            color: #FFFFFF;
-            text-decoration: none;
-            margin-left: 1.5rem;
-            font-weight: 500;
-        }
-        nav a:hover {
-            color: #C5A253;
-        }
-        .hero {
-            text-align: center;
-            padding: 6rem 2rem;
-            background-color: white;
-        }
-        .hero h2 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            color: #0E2A47;
-        }
-        .hero p {
-            max-width: 700px;
-            margin: 0 auto 2rem;
-            font-size: 1.1rem;
-            color: #333;
-        }
-        .hero a {
-            background-color: #0E2A47;
-            color: white;
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 4px;
-        }
-        .hero a:hover {
-            background-color: #C5A253;
-        }
-        footer {
-            background-color: #0E2A47;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 3rem;
-        }
-        footer a {
-            color: #C5A253;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!-- Cabeçalho -->
     <header>
-        <h1>Rogério Clynton Ribeiro</h1>
-        <nav>
-            <a href="#">Sobre</a>
-            <a href="#">Projetos</a>
-            <a href="#">Certificados</a>
-            <a href="#">Contato</a>
+        <nav class="navbar">
+            <h1>Rogério Clynton Ribeiro</h1>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#curriculo">Currículo</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#artigos">Artigos Científicos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Transformo dados em decisões estratégicas.</h2>
-        <p>Analista de Dados especializado em Python, Power BI e processos de ETL. Desenvolvo soluções analíticas que geram valor e apoiam a tomada de decisões com base em evidências.</p>
-        <a href="#">Ver Projetos</a>
-    </section>
+    <!-- Conteúdo principal -->
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-container">
+                <div class="hero-image">
+                    <img src="assets/images/foto-rogerio.jpg" alt="Rogério Clynton Ribeiro">
+                </div>
+                <div class="hero-text">
+                    <h2>Transformo dados em decisões estratégicas.</h2>
+                    <p>
+                        Analista de Dados especializado em Python, Power BI e processos de ETL.
+                        Desenvolvo soluções analíticas que geram valor e apoiam a tomada de decisões
+                        com base em evidências.
+                    </p>
+                    <a href="#projetos" class="btn">Ver Projetos</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <!-- Rodapé -->
     <footer>
         <p>© 2025 Rogério Clynton Ribeiro</p>
-        <p>
+        <div class="footer-links">
             <a href="mailto:clyntonribeiror@gmail.com">E-mail</a> |
             <a href="https://www.linkedin.com/in/rog%C3%A9rio-clynton-ribeiro/" target="_blank">LinkedIn</a> |
             <a href="https://github.com/clyntonboss" target="_blank">GitHub</a>
-        </p>
+        </div>
     </footer>
-
 </body>
 </html>
