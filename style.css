@@ -172,3 +172,49 @@ footer {
 .footer-links a:hover {
   color: #66b2ff;
 }
+
+/* ===== Seção Sobre ===== */
+#sobre {
+  background-color: #f8f9fb; /* tom neutro suave */
+  padding: 80px 20px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#sobre .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#sobre h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#sobre p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+#sobre strong {
+  color: #222;
+  font-weight: 600;
+}
+
+/* Animação suave ao rolar */
+#sobre {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-in-out;
+}
+
+#sobre.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
