@@ -228,3 +228,94 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ==========================
+   Currículo - Layout Lateral
+   ========================== */
+.curriculo {
+  display: flex;
+  justify-content: center;
+  padding: 80px 10%;
+  background-color: #f0f2f5;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.curriculo-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 30px;
+}
+
+/* Menu lateral esquerdo */
+.curriculo-menu {
+  position: sticky;
+  top: 140px; /* fixa abaixo do header */
+  flex: 0 0 250px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  height: fit-content;
+  transition: all 0.3s ease;
+}
+
+.curriculo-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.curriculo-menu li {
+  margin-bottom: 15px;
+}
+
+/* Links com efeito de botão */
+.curriculo-menu a {
+  color: #0c2941;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.curriculo-menu a:hover {
+  color: white;
+  background-color: #0c2941;
+  transform: translateX(5px) scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Conteúdo à direita */
+.curriculo-conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* Estilo dos títulos de seção */
+.curriculo-conteudo section h2 {
+  font-size: 1.8rem;
+  color: #0c2941;
+  border-bottom: 2px solid #0c2941;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Para melhorar responsividade */
+@media screen and (max-width: 900px) {
+  .curriculo-container {
+    flex-direction: column;
+  }
+  .curriculo-menu {
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
