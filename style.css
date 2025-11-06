@@ -319,3 +319,56 @@ body {
     margin-bottom: 30px;
   }
 }
+
+/* ==========================
+   Lista de Artigos
+   ========================== */
+#artigos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#artigos li {
+    margin-bottom: 20px;
+}
+
+#artigos a {
+    display: block;
+    text-decoration: none;
+    color: #0c2941;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+/* Efeito visual ao passar o mouse */
+#artigos a:hover {
+    background-color: #66b2ff;
+    color: white;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Pequeno destaque de linha animada */
+#artigos a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #0c2941;
+    border-radius: 10px 0 0 10px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease;
+}
+
+#artigos a:hover::before {
+    transform: scaleY(1);
+}
