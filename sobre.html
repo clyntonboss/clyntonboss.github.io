@@ -4,7 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre | Rogério Clynton Ribeiro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Ajuste específico para centralizar o conteúdo da seção Sobre */
+        .sobre {
+            text-align: center;
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .sobre h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .sobre p {
+            text-align: justify;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
 <body>
 
@@ -13,36 +34,34 @@
         <nav class="navbar">
             <h1>Rogério Clynton Ribeiro</h1>
             <ul class="nav-links">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html" class="active">Sobre</a></li>
-                <li><a href="curriculo.html">Currículo</a></li>
-                <li><a href="index.html#certificados">Certificados</a></li>
-                <li><a href="index.html#projetos">Projetos</a></li>
-                <li><a href="index.html#artigos">Artigos Científicos</a></li>
+                <li><a href="/">Início</a></li>
+                <li><a href="../index.html#sobre">Sobre</a></li>
+                <li><a href="../pages/curriculo.html">Currículo</a></li>
+                <li><a href="../index.html#certificados">Certificados</a></li>
+                <li><a href="../index.html#projetos">Projetos</a></li>
+                <li><a href="../index.html#artigos">Artigos Científicos</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Conteúdo da página Sobre -->
-    <main class="sobre-page">
-        <section id="sobre" class="sobre fade-section">
-            <div class="container">
-                <h2>Sobre Mim</h2>
-                <p>
-                    Sou <strong>Rogério Clynton Ribeiro</strong>, Analista de Dados com foco em transformar informações complexas em estratégias inteligentes e aplicáveis. 
-                    Acredito que cada conjunto de dados conta uma história — e meu papel é traduzi-la em decisões que impulsionem resultados e inovação.
-                </p>
-                <p>
-                    Minha atuação combina <strong>análise estatística, engenharia de dados e visualização interativa</strong>, integrando ferramentas como <strong>Python™, R, SQL e Power BI</strong> para construir soluções sólidas e acessíveis.
-                </p>
-                <p>
-                    Além do domínio técnico, valorizo a <strong>clareza na comunicação e a visão estratégica</strong>, garantindo que os insights analíticos gerem valor tangível e orientem o crescimento organizacional.  
-                    Meu compromisso é unir técnica, propósito e impacto em cada projeto.
-                </p>
-                <p>
-                    Em constante evolução, busco aprimorar minhas habilidades e explorar novas tecnologias, mantendo um olhar atento às tendências em ciência de dados, inteligência artificial e transformação digital.
-                </p>
-            </div>
+    <main>
+        <section id="sobre" class="sobre">
+            <h2>Rogério Clynton Ribeiro</h2>
+            <p>
+                Analista de Dados com foco em transformar informações complexas em estratégias inteligentes e aplicáveis. 
+                Acredito que cada conjunto de dados conta uma história — e meu papel é traduzi-la em decisões que impulsionem resultados e inovação.
+            </p>
+            <p>
+                Minha atuação combina <strong>análise estatística, engenharia de dados e visualização interativa</strong>, integrando ferramentas como <strong>Python™, R, SQL e Power BI</strong> para construir soluções sólidas e acessíveis.
+            </p>
+            <p>
+                Além do domínio técnico, valorizo a <strong>clareza na comunicação e a visão estratégica</strong>, garantindo que os insights analíticos gerem valor tangível e orientem o crescimento organizacional.  
+                Meu compromisso é unir técnica, propósito e impacto em cada projeto.
+            </p>
+            <p>
+                Em constante evolução, busco aprimorar minhas habilidades e explorar novas tecnologias, mantendo um olhar atento às tendências em ciência de dados, inteligência artificial e transformação digital.
+            </p>
         </section>
     </main>
 
@@ -50,29 +69,11 @@
     <footer>
         <p>© 2025 Rogério Clynton Ribeiro</p>
         <div class="footer-links">
-            <a href="mailto:clyntonribeiror@gmail.com">E-mail</a> |
+            | <a href="mailto:clyntonribeiror@gmail.com">E-mail</a> |
             <a href="https://www.linkedin.com/in/rog%C3%A9rio-clynton-ribeiro/" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/clyntonboss" target="_blank">GitHub</a>
+            <a href="https://github.com/clyntonboss" target="_blank">GitHub</a> |
         </div>
     </footer>
-
-    <!-- Script de animação suave -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const fadeElements = document.querySelectorAll(".fade-section");
-
-            const fadeInOnScroll = () => {
-                fadeElements.forEach(el => {
-                    const rect = el.getBoundingClientRect();
-                    const visible = rect.top < window.innerHeight - 100;
-                    if (visible) el.classList.add("visible");
-                });
-            };
-
-            fadeInOnScroll();
-            window.addEventListener("scroll", fadeInOnScroll);
-        });
-    </script>
 
 </body>
 </html>
