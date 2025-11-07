@@ -7,11 +7,9 @@
   <link rel="stylesheet" href="style.css">
 
   <style>
-    /* ==========================
-       Estilo específico da página Sobre
-       ========================== */
+    /* Seção Sobre Mim */
     .sobre {
-      text-align: left; /* título e texto alinhados à esquerda */
+      text-align: justify;
       padding: 60px 20px;
       max-width: 900px;
       margin: 0 auto;
@@ -23,28 +21,27 @@
       margin-bottom: 20px;
       color: #0c2941;
       font-weight: 700;
+      text-align: left;
       display: flex;
       align-items: center;
       gap: 10px;
     }
 
-    /* Ícone antes do título */
-    .sobre h2::before {
-      content: url('assets/icons/about-icon.svg');
-      width: 26px;
-      height: 26px;
+    /* Ícone pequeno e alinhado ao título */
+    .sobre h2 img {
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
     }
 
     .sobre p {
-      text-align: justify; /* mantém o texto justificado */
+      text-align: justify;
       line-height: 1.8;
       margin-bottom: 15px;
       color: #333;
     }
 
-    /* ==========================
-       Animação de entrada
-       ========================== */
+    /* Animação de entrada */
     .fade-section, .sobre {
       opacity: 0;
       transform: translateY(30px);
@@ -59,8 +56,6 @@
 </head>
 
 <body>
-
-  <!-- Cabeçalho -->
   <header>
     <nav class="navbar">
       <h1>Rogério Clynton Ribeiro</h1>
@@ -75,25 +70,18 @@
     </nav>
   </header>
 
-  <!-- Conteúdo principal -->
   <main>
     <section id="sobre" class="sobre fade-section">
-      <h2>Sobre Mim</h2>
-      <p>
-        Desde o início da minha carreira, tenho buscado traduzir dados complexos em soluções estratégicas que geram valor real para as organizações.
-        Minha paixão está em compreender padrões, identificar oportunidades e transformar números em decisões inteligentes.
-      </p>
-      <p>
-        Além da análise técnica, valorizo a comunicação clara e o impacto prático de cada insight, integrando processos de ETL, visualizações interativas e análise preditiva para apoiar decisões fundamentadas.
-      </p>
-      <p>
-        Estou sempre em constante aprendizado, explorando novas ferramentas e metodologias, porque acredito que inovação e clareza caminham juntas.
-        Meu objetivo é criar soluções analíticas que conectem dados à visão de negócio de forma precisa e estratégica.
-      </p>
+      <h2>
+        <img src="icons/sobre.png" alt="Ícone Sobre Mim">
+        Sobre Mim
+      </h2>
+      <p>Desde o início da minha carreira, tenho buscado traduzir dados complexos em soluções estratégicas que geram valor real para as organizações. Minha paixão está em compreender padrões, identificar oportunidades e transformar números em decisões inteligentes.</p>
+      <p>Além da análise técnica, valorizo a comunicação clara e o impacto prático de cada insight, integrando processos de ETL, visualizações interativas e análise preditiva para apoiar decisões fundamentadas.</p>
+      <p>Estou sempre em constante aprendizado, explorando novas ferramentas e metodologias, porque acredito que inovação e clareza caminham juntas. Meu objetivo é criar soluções analíticas que conectem dados à visão de negócio de forma precisa e estratégica.</p>
     </section>
   </main>
 
-  <!-- Rodapé -->
   <footer>
     <p>© 2025 Rogério Clynton Ribeiro</p>
     <div class="footer-links">
@@ -103,13 +91,12 @@
     </div>
   </footer>
 
-  <!-- Script para animação -->
   <script>
+    // Aplica a animação de fade-in
     document.addEventListener("DOMContentLoaded", function() {
       const el = document.getElementById('sobre');
       if (el) el.classList.add('visible');
     });
   </script>
-
 </body>
 </html>
