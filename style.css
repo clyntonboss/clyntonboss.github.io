@@ -146,6 +146,30 @@ header {
   transform: translateY(-2px);
 }
 
+.hero-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* espaço entre a foto e o botão */
+}
+
+.hero-image-container img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.hero-image-container img:hover {
+  transform: scale(1.03);
+}
+
+.hero-image-container .btn-projetos {
+  align-self: center; /* garante centralização */
+}
+
 /* Botão Projetos - estilo aprimorado */
 .btn-projetos {
   background-color: #0c2941;              /* cor base escura */
