@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo | Rogério Clynton Ribeiro</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Sobre | Rogério Clynton Ribeiro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -13,55 +13,66 @@
         <nav class="navbar">
             <h1>Rogério Clynton Ribeiro</h1>
             <ul class="nav-links">
-                <li><a href="/">Início</a></li>
-                <li><a href="../index.html#sobre">Sobre</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html" class="active">Sobre</a></li>
                 <li><a href="curriculo.html">Currículo</a></li>
-                <li><a href="../index.html#certificados">Certificados</a></li>
-                <li><a href="../index.html#projetos">Projetos</a></li>
-                <li><a href="../index.html#artigos">Artigos Científicos</a></li>
+                <li><a href="index.html#certificados">Certificados</a></li>
+                <li><a href="index.html#projetos">Projetos</a></li>
+                <li><a href="index.html#artigos">Artigos Científicos</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Conteúdo da página Currículo -->
-    <main class="curriculo">
-        <div class="curriculo-container">
-
-            <!-- Conteúdo inicial explicativo -->
-            <div class="sobre-conteudo">
-                <!-- ==========================
-                     Seção Sobre
-                ========================== -->
-                <section id="sobre" class="sobre">
-                    <div class="container">
-                        <h2>Sobre Mim</h2>
-                        <p>
-                            Desde o início da minha carreira, tenho buscado traduzir dados complexos em soluções estratégicas que geram valor real para as organizações. 
-                            Minha paixão está em compreender padrões, identificar oportunidades e transformar números em decisões inteligentes.
-                        </p>
-                        <p>
-                            Além da análise técnica, valorizo a comunicação clara e o impacto prático de cada insight, integrando processos de ETL, visualizações interativas e análise preditiva para apoiar decisões fundamentadas.
-                        </p>
-                        <p>
-                            Estou sempre em constante aprendizado, explorando novas ferramentas e metodologias, porque acredito que inovação e clareza caminham juntas. 
-                            Meu objetivo é criar soluções analíticas que conectem dados à visão de negócio de forma precisa e estratégica.
-                        </p>
-                    </div>
-                </section>
+    <!-- Conteúdo da página Sobre -->
+    <main class="sobre-page">
+        <section id="sobre" class="sobre fade-section">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Sou <strong>Rogério Clynton Ribeiro</strong>, Analista de Dados com foco em transformar informações complexas em estratégias inteligentes e aplicáveis. 
+                    Acredito que cada conjunto de dados conta uma história — e meu papel é traduzi-la em decisões que impulsionem resultados e inovação.
+                </p>
+                <p>
+                    Minha atuação combina <strong>análise estatística, engenharia de dados e visualização interativa</strong>, integrando ferramentas como <strong>Python™, R, SQL e Power BI</strong> para construir soluções sólidas e acessíveis.
+                </p>
+                <p>
+                    Além do domínio técnico, valorizo a <strong>clareza na comunicação e a visão estratégica</strong>, garantindo que os insights analíticos gerem valor tangível e orientem o crescimento organizacional.  
+                    Meu compromisso é unir técnica, propósito e impacto em cada projeto.
+                </p>
+                <p>
+                    Em constante evolução, busco aprimorar minhas habilidades e explorar novas tecnologias, mantendo um olhar atento às tendências em ciência de dados, inteligência artificial e transformação digital.
+                </p>
             </div>
-
-        </div>
+        </section>
     </main>
 
     <!-- Rodapé -->
     <footer>
         <p>© 2025 Rogério Clynton Ribeiro</p>
         <div class="footer-links">
-            | <a href="mailto:clyntonribeiror@gmail.com">E-mail</a> |
+            <a href="mailto:clyntonribeiror@gmail.com">E-mail</a> |
             <a href="https://www.linkedin.com/in/rog%C3%A9rio-clynton-ribeiro/" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/clyntonboss" target="_blank">GitHub</a> |
+            <a href="https://github.com/clyntonboss" target="_blank">GitHub</a>
         </div>
     </footer>
+
+    <!-- Script de animação suave -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const fadeElements = document.querySelectorAll(".fade-section");
+
+            const fadeInOnScroll = () => {
+                fadeElements.forEach(el => {
+                    const rect = el.getBoundingClientRect();
+                    const visible = rect.top < window.innerHeight - 100;
+                    if (visible) el.classList.add("visible");
+                });
+            };
+
+            fadeInOnScroll();
+            window.addEventListener("scroll", fadeInOnScroll);
+        });
+    </script>
 
 </body>
 </html>
