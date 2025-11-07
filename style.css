@@ -386,17 +386,18 @@ body {
 }
 
 /* ==========================
-   Estilo da página Sobre (revisado)
+   Estilo da página Sobre (corrigido e alinhado à esquerda)
    ========================== */
 .sobre-page {
   padding: 80px 10%;
   background-color: #f8f9fa;
   display: flex;
-  justify-content: justify;
+  justify-content: flex-start; /* conteúdo alinhado à esquerda */
 }
 
 .sobre-page .container {
   max-width: 850px;
+  text-align: left; /* garante alinhamento à esquerda */
 }
 
 /* Título com ícone */
@@ -406,13 +407,14 @@ body {
   margin-bottom: 25px;
   font-weight: 700;
   display: flex;
-  align-items: justify;
+  align-items: center;
+  justify-content: flex-start; /* ícone e texto à esquerda */
   gap: 12px;
 }
 
-/* Ícone ajustado — caminho e tamanho garantidos */
+/* Ícone ao lado do título */
 .sobre-page h2::before {
-  content: url('../assets/icons/about-icon.svg');
+  content: url('assets/icons/about-icon.svg'); /* usa caminho raiz */
   display: inline-block;
   width: 72px;
   height: 48px;
