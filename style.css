@@ -179,8 +179,8 @@ header {
 
 /* Ícone SVG perfeitamente alinhado */
 .hero-text h2 img.icon {
-  width: 48px;
-  height: 72px;
+  width: 64px;
+  height: 64px;
   vertical-align: middle;
 }
 
@@ -383,58 +383,4 @@ body {
     .contato-info {
         text-align: center;
     }
-}
-
-/* ==========================
-   Estilo da página Sobre
-   ========================== */
-.sobre {
-  padding: 80px 10%;
-  background-color: #f8f9fa;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* mantém tudo alinhado à esquerda */
-  justify-content: center;
-  max-width: 850px;
-  margin: 0 auto;
-}
-
-.sobre h2 {
-  font-size: 2rem;
-  color: #0c2941;
-  margin-bottom: 25px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-/* Ícone antes do título */
-.sobre h2::before {
-  content: url('assets/icons/about-icon.svg');
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-}
-
-.sobre p {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #333;
-  margin-bottom: 20px;
-  text-align: justify; /* mantém o texto justificado */
-}
-
-/* ==========================
-   Animação suave de entrada
-   ========================== */
-.fade-section {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.9s ease, transform 0.9s ease;
-}
-
-.fade-section.visible, .sobre.visible {
-  opacity: 1;
-  transform: translateY(0);
 }
