@@ -84,7 +84,7 @@ header {
 }
 
 /* ==========================
-   Seção principal (Hero)
+   Seção principal (Hero) atualizada
    ========================== */
 .hero {
   display: flex;
@@ -100,52 +100,18 @@ header {
   align-items: center;
   gap: 50px;
   max-width: 1000px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1s ease;
 }
 
-.hero-image img {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s ease;
+/* Quando a página carregar, adicionar classe 'visible' via JS */
+.hero-container.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.hero-image img:hover {
-  transform: scale(1.03);
-}
-
-.hero-text {
-  max-width: 550px;
-}
-
-.hero-text h2 {
-  color: #0c2941;
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-}
-
-.hero-text p {
-  font-size: 1rem;
-  margin-bottom: 25px;
-  line-height: 1.5;
-}
-
-.btn {
-  background-color: #0c2941;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.btn:hover {
-  background-color: #133b5a;
-  transform: translateY(-2px);
-}
-
+/* Agrupando foto e botão */
 .hero-image-container {
   display: flex;
   flex-direction: column;
@@ -163,19 +129,19 @@ header {
 }
 
 .hero-image-container img:hover {
-  transform: scale(1.03);
+  transform: scale(1.03) rotate(2deg); /* leve rotação para efeito diferenciado */
 }
 
+/* Botão Projetos centralizado abaixo da foto */
 .hero-image-container .btn-projetos {
   align-self: center; /* garante centralização */
 }
 
-/* Botão Projetos - estilo aprimorado */
 .btn-projetos {
-  background-color: #0c2941;              /* cor base escura */
+  background-color: #0c2941;              
   color: #ffffff;
-  padding: 12px 24px;                     /* aumenta o tamanho e presença */
-  font-size: 1.1rem;                      /* leve aumento da fonte */
+  padding: 12px 24px;                     
+  font-size: 1.1rem;                      
   border-radius: 8px;
   font-weight: 500;
   text-decoration: none;
@@ -184,9 +150,26 @@ header {
 }
 
 .btn-projetos:hover {
-  background-color: #133b5a;              /* tom mais claro ao passar o mouse */
+  background-color: #133b5a;              
   transform: translateY(-2px) scale(1.02);
   box-shadow: 0 8px 20px rgba(0,0,0,0.20);
+}
+
+/* Texto ao lado da foto */
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h2 {
+  color: #0c2941;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  line-height: 1.5;
 }
 
 /* ==========================
