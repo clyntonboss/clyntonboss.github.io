@@ -4,11 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Sobre | Rogério Clynton Ribeiro</title>
-  <link rel="stylesheet" href="style.css"> <!-- ajuste para "../style.css" somente se o arquivo estiver em subpasta -->
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+  <!-- Cabeçalho -->
   <header>
     <nav class="navbar">
       <h1>Rogério Clynton Ribeiro</h1>
@@ -23,6 +23,7 @@
     </nav>
   </header>
 
+  <!-- Conteúdo principal -->
   <main>
     <section id="sobre" class="sobre fade-section">
       <h2>Sobre Mim</h2>
@@ -40,6 +41,7 @@
     </section>
   </main>
 
+  <!-- Rodapé -->
   <footer>
     <p>© 2025 Rogério Clynton Ribeiro</p>
     <div class="footer-links">
@@ -49,12 +51,13 @@
     </div>
   </footer>
 
+  <!-- Script de animação -->
   <script>
-    // Garante que a seção apareça: adiciona .visible após DOM pronto
     document.addEventListener("DOMContentLoaded", function() {
       const el = document.getElementById('sobre');
       if (el) el.classList.add('visible');
     });
   </script>
+
 </body>
 </html>
