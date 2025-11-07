@@ -372,3 +372,98 @@ body {
 #artigos a:hover::before {
     transform: scaleY(1);
 }
+
+/* ==========================
+   Seção Contato
+   ========================== */
+#contato {
+    background-color: #f8f9fb;
+    padding: 80px 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#contato .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contato h2 {
+    font-size: 2rem;
+    color: #0c2941;
+    margin-bottom: 25px;
+}
+
+#contato p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.contato-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #0c2941;
+    box-shadow: 0 0 8px rgba(12, 41, 65, 0.3);
+}
+
+form .btn {
+    align-self: flex-start;
+}
+
+.contato-info {
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato-info a {
+    color: #0c2941;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contato-info a:hover {
+    color: #66b2ff;
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media screen and (max-width: 900px) {
+    .contato-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contato-info {
+        text-align: center;
+    }
+}
