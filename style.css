@@ -392,7 +392,7 @@ body {
   padding: 80px 10%;
   background-color: #f8f9fa;
   display: flex;
-  justify-content: center;
+  justify-content: justify;
 }
 
 .sobre-page .container {
@@ -406,7 +406,7 @@ body {
   margin-bottom: 25px;
   font-weight: 700;
   display: flex;
-  align-items: center;
+  align-items: justify;
   gap: 12px;
 }
 
@@ -414,8 +414,8 @@ body {
 .sobre-page h2::before {
   content: url('../assets/icons/about-icon.svg');
   display: inline-block;
-  width: 28px;
-  height: 28px;
+  width: 72px;
+  height: 48px;
   transform: translateY(3px);
 }
 
