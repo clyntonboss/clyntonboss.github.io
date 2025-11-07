@@ -164,7 +164,7 @@ header {
 
 /* Texto ao lado da foto */
 .hero-text {
-  max-width: 640px;
+  max-width: 560px;
 }
 
 .hero-text h2 {
@@ -383,4 +383,8 @@ body {
     .contato-info {
         text-align: center;
     }
+}
+
+.sobre-page .hero-text {
+  max-width: 750px;
 }
