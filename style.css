@@ -84,7 +84,7 @@ header {
 }
 
 /* ==========================
-   Seção principal (Hero) atualizada
+   Seção principal (Hero)
    ========================== */
 .hero {
   display: flex;
@@ -100,23 +100,25 @@ header {
   align-items: center;
   gap: 50px;
   max-width: 1000px;
-  opacity: 0;
-  transform: translateY(40px);
-  transition: all 1s ease;
+  animation: heroFadeIn 1s ease forwards;
 }
 
-/* Quando a página carregar, adicionar classe 'visible' via JS */
-.hero-container.visible {
-  opacity: 1;
-  transform: translateY(0);
+@keyframes heroFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* Agrupando foto e botão */
 .hero-image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px; /* espaço entre a foto e o botão */
+  gap: 20px;
 }
 
 .hero-image-container img {
@@ -125,51 +127,60 @@ header {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hero-image-container img:hover {
-  transform: scale(1.03) rotate(2deg); /* leve rotação para efeito diferenciado */
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
-/* Botão Projetos centralizado abaixo da foto */
-.hero-image-container .btn-projetos {
-  align-self: center; /* garante centralização */
-}
-
-.btn-projetos {
-  background-color: #0c2941;              
-  color: #ffffff;
-  padding: 12px 24px;                     
-  font-size: 1.1rem;                      
-  border-radius: 8px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.btn-projetos:hover {
-  background-color: #133b5a;              
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.20);
-}
-
-/* Texto ao lado da foto */
 .hero-text {
   max-width: 550px;
 }
 
 .hero-text h2 {
   color: #0c2941;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin-bottom: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
+/* Adicionando ícone SVG ao lado do título */
+.hero-text h2::before {
+  content: url('assets/icons/data-icon.svg');
+  width: 24px;
+  height: 24px;
+}
+
+/* Texto hero */
 .hero-text p {
   font-size: 1rem;
   margin-bottom: 25px;
   line-height: 1.5;
+}
+
+/* Botão Projetos aprimorado */
+.btn-projetos {
+  background: linear-gradient(135deg, #0c2941, #133b5a);
+  color: #ffffff;
+  padding: 14px 28px;
+  font-size: 1.15rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-projetos:hover {
+  background: linear-gradient(135deg, #133b5a, #0c2941);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  filter: brightness(1.05);
 }
 
 /* ==========================
