@@ -4,13 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Sobre | Rogério Clynton Ribeiro</title>
-  <link rel="stylesheet" href="style.css"> 
-  <!-- ajuste para "../style.css" somente se o arquivo estiver em subpasta -->
+  <link rel="stylesheet" href="style.css">
 
   <style>
-    /* Pequeno ajuste local para garantir centralização e legibilidade */
+    /* ==========================
+       Estilo específico da página Sobre
+       ========================== */
     .sobre {
-      text-align: center;
+      text-align: left; /* título e texto alinhados à esquerda */
       padding: 60px 20px;
       max-width: 900px;
       margin: 0 auto;
@@ -20,19 +21,30 @@
     .sobre h2 {
       font-size: 2rem;
       margin-bottom: 20px;
-      text-align: center;
       color: #0c2941;
       font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Ícone antes do título */
+    .sobre h2::before {
+      content: url('assets/icons/about-icon.svg');
+      width: 26px;
+      height: 26px;
     }
 
     .sobre p {
-      text-align: justify;
+      text-align: justify; /* mantém o texto justificado */
       line-height: 1.8;
       margin-bottom: 15px;
       color: #333;
     }
 
-    /* Animação (mantém comportamento elegante) */
+    /* ==========================
+       Animação de entrada
+       ========================== */
     .fade-section, .sobre {
       opacity: 0;
       transform: translateY(30px);
@@ -45,8 +57,10 @@
     }
   </style>
 </head>
+
 <body>
 
+  <!-- Cabeçalho -->
   <header>
     <nav class="navbar">
       <h1>Rogério Clynton Ribeiro</h1>
@@ -61,25 +75,25 @@
     </nav>
   </header>
 
+  <!-- Conteúdo principal -->
   <main>
-    <section class="sobre-page fade-section">
-      <div class="container">
-        <h2>Sobre Mim</h2>
-        <p>
-          Desde o início da minha carreira, tenho buscado traduzir dados complexos em soluções estratégicas que geram valor real para as organizações.
-          Minha paixão está em compreender padrões, identificar oportunidades e transformar números em decisões inteligentes.
-        </p>
-        <p>
-          Além da análise técnica, valorizo a comunicação clara e o impacto prático de cada insight, integrando processos de ETL, visualizações interativas e análise preditiva para apoiar decisões fundamentadas.
-        </p>
-        <p>
-          Estou sempre em constante aprendizado, explorando novas ferramentas e metodologias, porque acredito que inovação e clareza caminham juntas.
-          Meu objetivo é criar soluções analíticas que conectem dados à visão de negócio de forma precisa e estratégica.
-        </p>
-      </div>
+    <section id="sobre" class="sobre fade-section">
+      <h2>Sobre Mim</h2>
+      <p>
+        Desde o início da minha carreira, tenho buscado traduzir dados complexos em soluções estratégicas que geram valor real para as organizações.
+        Minha paixão está em compreender padrões, identificar oportunidades e transformar números em decisões inteligentes.
+      </p>
+      <p>
+        Além da análise técnica, valorizo a comunicação clara e o impacto prático de cada insight, integrando processos de ETL, visualizações interativas e análise preditiva para apoiar decisões fundamentadas.
+      </p>
+      <p>
+        Estou sempre em constante aprendizado, explorando novas ferramentas e metodologias, porque acredito que inovação e clareza caminham juntas.
+        Meu objetivo é criar soluções analíticas que conectem dados à visão de negócio de forma precisa e estratégica.
+      </p>
     </section>
   </main>
 
+  <!-- Rodapé -->
   <footer>
     <p>© 2025 Rogério Clynton Ribeiro</p>
     <div class="footer-links">
@@ -89,8 +103,8 @@
     </div>
   </footer>
 
+  <!-- Script para animação -->
   <script>
-    // Garante que a seção apareça: adiciona .visible após DOM pronto
     document.addEventListener("DOMContentLoaded", function() {
       const el = document.getElementById('sobre');
       if (el) el.classList.add('visible');
