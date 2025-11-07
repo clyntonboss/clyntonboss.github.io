@@ -1,102 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Sobre | Rogério Clynton Ribeiro</title>
-  <link rel="stylesheet" href="style.css">
-
-  <style>
-    /* Seção Sobre Mim */
-    .sobre {
-      text-align: justify;
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: 0 auto;
-      background: transparent;
-    }
-
-    .sobre h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #0c2941;
-      font-weight: 700;
-      text-align: left;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    /* Ícone pequeno e alinhado ao título */
-    .sobre h2 img {
-      width: 40px;
-      height: 40px;
-      vertical-align: middle;
-    }
-
-    .sobre p {
-      text-align: justify;
-      line-height: 1.8;
-      margin-bottom: 15px;
-      color: #333;
-    }
-
-    /* Animação de entrada */
-    .fade-section, .sobre {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: opacity 0.9s ease, transform 0.9s ease;
-    }
-
-    .fade-section.visible, .sobre.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre | Rogério Clynton Ribeiro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-    <nav class="navbar">
-      <h1>Rogério Clynton Ribeiro</h1>
-      <ul class="nav-links">
-        <li><a href="/">Início</a></li>
-        <li><a href="sobre.html" class="active">Sobre</a></li>
-        <li><a href="curriculo/">Currículo</a></li>
-        <li><a href="index.html#certificados">Certificados</a></li>
-        <li><a href="index.html#projetos">Projetos</a></li>
-        <li><a href="index.html#artigos">Artigos Científicos</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar">
+            <h1>Rogério Clynton Ribeiro</h1>
+            <ul class="nav-links">
+                <li><a href="/">Início</a></li>
+                <li><a href="sobre.html" class="active">Sobre</a></li>
+                <li><a href="curriculo/curriculo.html">Currículo</a></li>
+                <li><a href="index.html#certificados">Certificados</a></li>
+                <li><a href="index.html#projetos">Projetos</a></li>
+                <li><a href="artigos-cientificos.html">Artigos Científicos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section id="sobre" class="sobre fade-section">
-      <h2>
-        <img src="icons/sobre.png" alt="Ícone Sobre Mim">
-        Sobre Mim
-      </h2>
-      <p>Desde o início da minha carreira, tenho buscado traduzir dados complexos em soluções estratégicas que geram valor real para as organizações. Minha paixão está em compreender padrões, identificar oportunidades e transformar números em decisões inteligentes.</p>
-      <p>Além da análise técnica, valorizo a comunicação clara e o impacto prático de cada insight, integrando processos de ETL, visualizações interativas e análise preditiva para apoiar decisões fundamentadas.</p>
-      <p>Estou sempre em constante aprendizado, explorando novas ferramentas e metodologias, porque acredito que inovação e clareza caminham juntas. Meu objetivo é criar soluções analíticas que conectem dados à visão de negócio de forma precisa e estratégica.</p>
-    </section>
-  </main>
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- ==========================
+             Seção Sobre Mim
+        ========================== -->
+        <section id="sobre" class="hero">
+            <div class="hero-container">
+                
+                <!-- Ícone e título -->
+                <div class="hero-image-container">
+                    <img src="assets/icons/data-icon.svg" alt="Ícone de dados" class="icon">
+                </div>
+        
+                <!-- Texto Sobre Mim -->
+                <div class="hero-text">
+                    <h2>
+                        <img src="assets/icons/data-icon.svg" alt="Ícone Sobre Mim" class="icon">
+                        Sobre Mim
+                    </h2>
 
-  <footer>
-    <p>© 2025 Rogério Clynton Ribeiro</p>
-    <div class="footer-links">
-      <a href="mailto:clyntonribeiror@gmail.com">E-mail</a> |
-      <a href="https://www.linkedin.com/in/rog%C3%A9rio-clynton-ribeiro/" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/clyntonboss" target="_blank">GitHub</a>
-    </div>
-  </footer>
+                    <p>
+                        Desde o início da minha carreira, tenho buscado traduzir dados complexos em soluções estratégicas que geram valor real para as organizações.  
+                        Minha paixão está em compreender padrões, identificar oportunidades e transformar números em decisões inteligentes.
+                    </p>
 
-  <script>
-    // Aplica a animação de fade-in
-    document.addEventListener("DOMContentLoaded", function() {
-      const el = document.getElementById('sobre');
-      if (el) el.classList.add('visible');
-    });
-  </script>
+                    <p>
+                        Além da análise técnica, valorizo a comunicação clara e o impacto prático de cada insight, integrando processos de ETL, visualizações interativas e análise preditiva para apoiar decisões fundamentadas.
+                    </p>
+
+                    <p>
+                        Estou sempre em constante aprendizado, explorando novas ferramentas e metodologias, porque acredito que inovação e clareza caminham juntas.  
+                        Meu objetivo é criar soluções analíticas que conectem dados à visão de negócio de forma precisa e estratégica.
+                    </p>
+                </div>
+        
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Rogério Clynton Ribeiro</p>
+        <div class="footer-links">
+            | <a href="mailto:clyntonribeiror@gmail.com">E-mail</a> |
+            <a href="https://www.linkedin.com/in/rog%C3%A9rio-clynton-ribeiro/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/clyntonboss" target="_blank">GitHub</a> |
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Animação de aparição suave
+        const heroContainer = document.querySelector('.hero-container');
+        window.addEventListener('load', () => {
+            heroContainer.classList.add('visible');
+        });
+    </script>
 </body>
 </html>
