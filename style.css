@@ -146,6 +146,25 @@ header {
   transform: translateY(-2px);
 }
 
+/* Botão Projetos - estilo aprimorado */
+.btn-projetos {
+  background-color: #0c2941;              /* cor base escura */
+  color: #ffffff;
+  padding: 12px 24px;                     /* aumenta o tamanho e presença */
+  font-size: 1.1rem;                      /* leve aumento da fonte */
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-projetos:hover {
+  background-color: #133b5a;              /* tom mais claro ao passar o mouse */
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.20);
+}
+
 /* ==========================
    Rodapé
    ========================== */
