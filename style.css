@@ -163,6 +163,19 @@ header {
   line-height: 1.5;
 }
 
+/* Ajuste de alinhamento textual na Hero */
+.hero-text h2,
+.hero-text p {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.hero-text {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* Botão Projetos aprimorado */
 .btn-projetos {
   background: linear-gradient(135deg, #0c2941, #133b5a);
