@@ -386,7 +386,7 @@ body {
 }
 
 /* ==========================
-   Estilo da página Sobre
+   Estilo da página Sobre (revisado)
    ========================== */
 .sobre-page {
   padding: 80px 10%;
@@ -395,12 +395,12 @@ body {
   justify-content: center;
 }
 
-.sobre .container {
+.sobre-page .container {
   max-width: 850px;
 }
 
 /* Título com ícone */
-.sobre h2 {
+.sobre-page h2 {
   font-size: 2rem;
   color: #0c2941;
   margin-bottom: 25px;
@@ -410,17 +410,17 @@ body {
   gap: 12px;
 }
 
-/* Ícone antes do título - ajustado */
-.sobre h2::before {
-  content: url('assets/icons/about-icon.svg');
+/* Ícone ajustado — caminho e tamanho garantidos */
+.sobre-page h2::before {
+  content: url('../assets/icons/about-icon.svg');
   display: inline-block;
-  width: 72px;
-  height: 48px;
-  transform: translateY(2px);
+  width: 28px;
+  height: 28px;
+  transform: translateY(3px);
 }
 
 /* Parágrafos justificados */
-.sobre p {
+.sobre-page p {
   font-size: 1rem;
   line-height: 1.7;
   color: #333;
@@ -438,7 +438,7 @@ body {
 }
 
 .fade-section.visible,
-.sobre.visible {
+.sobre-page.visible {
   opacity: 1;
   transform: translateY(0);
 }
