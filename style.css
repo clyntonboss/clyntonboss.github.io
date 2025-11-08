@@ -476,13 +476,23 @@ body {
 }
 
 /* ==========================
-   Currículo - Força texto em uma coluna
+   Currículo - Corrige três colunas na página inicial
    ========================== */
+.curriculo-conteudo,
+.curriculo-conteudo .hero,
+.curriculo-conteudo .hero-container,
 .curriculo-conteudo .hero-container p {
+    all: unset;               /* remove qualquer estilo herdado problemático */
+    display: block !important; 
+    width: 100% !important;
+    max-width: 100% !important;
     column-count: 1 !important;
     columns: 1 !important;
     column-gap: 0 !important;
-    display: block !important;
-    width: 100% !important;
     text-align: justify !important;
+    line-height: 1.6 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
 }
