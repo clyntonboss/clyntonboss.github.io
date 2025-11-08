@@ -1,5 +1,5 @@
 /* ==============================
-   global.css — identidade visual Clynton
+   global.css — versão refinada com tons neutros
    ============================== */
 
 /* Reset e tipografia */
@@ -11,7 +11,7 @@
 
 body {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #f2f2f2; /* fundo principal suavizado */
   color: #222;
   line-height: 1.6;
   display: flex;
@@ -26,44 +26,47 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 64px;
-  background-color: #ffffffcc;
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid #e2e2e2;
+  height: 80px;
+  background-color: #003f63; /* azul-petróleo elegante */
+  color: #e6e6e6; /* cinza claro */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 40px;
+  padding: 0 50px;
   font-weight: 600;
   letter-spacing: 0.4px;
   z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header-left {
   font-size: 1.25rem;
-  color: #005b96;
+  color: #e6e6e6;
 }
 
 .header-right a {
   margin-left: 25px;
   text-decoration: none;
-  color: #333;
+  color: #e6e6e6;
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .header-right a:hover {
-  color: #005b96;
+  color: #aad4ff;
   transform: translateY(-2px);
 }
 
 /* Área principal */
 main {
   flex: 1;
-  padding: 110px 20px 90px;
-  max-width: 900px;
-  margin: 0 auto;
+  padding: 120px 20px 100px;
   text-align: center;
-  animation: fadeIn 0.8s ease-in;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .main-section h1 {
@@ -77,44 +80,31 @@ main {
   color: #555;
 }
 
-/* Contêiner central com largura máxima */
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 /* Rodapé fixo */
 .footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 54px;
-  background-color: #ffffffcc;
-  backdrop-filter: blur(6px);
-  border-top: 1px solid #e2e2e2;
+  height: 80px;
+  background-color: #003f63;
+  color: #e6e6e6;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 35px;
+  gap: 40px;
   font-size: 0.95rem;
   z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .footer a {
   text-decoration: none;
-  color: #333;
+  color: #e6e6e6;
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .footer a:hover {
-  color: #005b96;
+  color: #aad4ff;
   transform: translateY(-2px);
-}
-
-/* Animação de entrada suave */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
 }
