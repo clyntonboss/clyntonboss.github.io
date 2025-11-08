@@ -84,113 +84,82 @@ header {
 }
 
 /* ==========================
-   Seção principal (Hero) atualizada premium
+   Seção principal (Hero) ajustada
    ========================== */
 .hero {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 80px 10%;
+  padding: 80px 0;
   background-color: #f8f9fa;
 }
 
 .hero-container {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 50px;
+  flex-direction: column; /* título e linha acima da imagem e texto */
+  gap: 40px;
+  width: 100%;
+  max-width: 1024px; /* limite de largura */
+  padding: 0 20px;   /* espaçamento interno */
   opacity: 0;
   transform: translateY(30px);
   animation: heroFadeIn 1s ease forwards;
 }
 
-@keyframes heroFadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Título Hero alinhado à esquerda */
+.hero-text h2 {
+  margin: 0;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #0c2941;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-/* Agrupando foto e botão */
+/* Linha decorativa já existente */
+.linha-decorativa {
+  margin: 10px 0 30px 0; /* margem ajustada acima e abaixo */
+}
+
+/* Container da imagem e texto em linha */
+.hero-body {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+/* Foto à esquerda */
 .hero-image-container {
+  flex: 0 0 220px; /* largura fixa da imagem */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
 
-.hero-image-container img {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.hero-image-container img:hover {
-  transform: scale(1.05) rotate(-1deg);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-}
-
-/* Botão Projetos centralizado abaixo da foto */
-.hero-image-container .btn-projetos {
-  align-self: center;
-}
-
-.btn-projetos {
-  background: linear-gradient(135deg, #0c2941, #133b5a);
-  color: #ffffff;
-  padding: 14px 28px;
-  font-size: 1.15rem;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
-
-.btn-projetos:hover {
-  background: linear-gradient(135deg, #133b5a, #0c2941);
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-  filter: brightness(1.05);
-}
-
-/* Texto ao lado da foto */
+/* Texto à direita */
 .hero-text {
-  max-width: 720px;
+  flex: 1; /* ocupa o restante do espaço */
+  max-width: calc(1024px - 220px - 50px); /* largura máxima restante */
 }
 
-.hero-text h2 {
-  color: #0c2941;
-  font-size: 1.9rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+/* Responsividade */
+@media screen and (max-width: 900px) {
+  .hero-container {
+    padding: 0 15px;
+  }
+  .hero-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-text {
+    max-width: 100%;
+  }
+  .hero-image-container {
+    flex: none;
+  }
 }
 
-/* Ícone SVG perfeitamente alinhado */
-.hero-text h2 img.icon {
-  width: 64px;
-  height: 64px;
-  vertical-align: middle;
-}
-
-/* Texto hero */
-.hero-text p {
-  font-size: 1rem;
-  margin-bottom: 25px;
-  line-height: 1.6;
-  text-align: justify;
-  text-justify: inter-word; /* 🔹 melhora a distribuição das palavras */
-}
 
 /* ==========================
    Rodapé
