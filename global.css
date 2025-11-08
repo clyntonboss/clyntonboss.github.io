@@ -90,9 +90,9 @@ main {
 .main-section h1::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 1024px;
   height: 3px;
-  background-color: #888;
+  background-color: #2f2f2f;
   margin-top: 8px;
   border-radius: 2px;
 }
