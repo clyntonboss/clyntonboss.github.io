@@ -53,15 +53,32 @@ body {
 }
 
 .header-right a {
+  position: relative;
   margin-left: 25px;
   text-decoration: none;
   color: #e6e6e6;
   transition: color 0.3s ease, transform 0.2s ease;
+  padding-bottom: 4px; /* espaço pra linha */
+}
+
+.header-right a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #aad4ff; /* mesma cor do hover */
+  transition: width 0.3s ease;
 }
 
 .header-right a:hover {
   color: #aad4ff;
   transform: translateY(-2px);
+}
+
+.header-right a:hover::after {
+  width: 100%;
 }
 
 /* Área principal */
