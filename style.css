@@ -488,3 +488,16 @@ body {
     transform: translateY(0);
   }
 }
+
+/* ==========================
+   💎 Correção definitiva - remove múltiplas colunas no currículo
+   ========================== */
+.curriculo .hero-container p {
+  column-count: unset !important;
+  columns: unset !important;
+  column-width: auto !important;
+  column-gap: normal !important;
+  display: block !important;
+  width: 100% !important;
+  text-align: justify !important;
+}
