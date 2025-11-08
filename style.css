@@ -401,3 +401,24 @@ body {
   padding: 0 20px;
   box-sizing: border-box;
 }
+
+<style>
+  /* ===============================
+     PADRONIZAÇÃO DE CONTEÚDO GERAL
+     =============================== */
+  .pagina-conteudo {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  /* Linha decorativa padrão */
+  .linha-decorativa {
+    width: 80px;
+    height: 3px;
+    background-color: #0c2941; /* Azul do tema */
+    margin: 10px 0 25px 0;
+    border-radius: 2px;
+  }
+</style>
