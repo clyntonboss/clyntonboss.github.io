@@ -84,37 +84,35 @@ header {
 }
 
 /* ==========================
-   Seção principal (Hero) atualizada
+   Seção principal (Hero) atualizada premium
    ========================== */
 .hero {
   display: flex;
-  flex-direction: column; /* Empilha título+linha e depois foto+texto */
   align-items: center;
   justify-content: center;
   padding: 80px 10%;
   background-color: #f8f9fa;
-  gap: 40px;
-}
-
-.hero-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1024px;
-  width: 100%;
 }
 
 .hero-container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
   gap: 50px;
-  max-width: 1024px;
-  width: 100%;
   opacity: 0;
   transform: translateY(30px);
   animation: heroFadeIn 1s ease forwards;
+}
+
+@keyframes heroFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Agrupando foto e botão */
@@ -123,7 +121,6 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  flex-shrink: 0; /* Evita que a imagem encolha */
 }
 
 .hero-image-container img {
@@ -140,6 +137,7 @@ header {
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
+/* Botão Projetos centralizado abaixo da foto */
 .hero-image-container .btn-projetos {
   align-self: center;
 }
@@ -176,34 +174,22 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  justify-content: center;
 }
 
+/* Ícone SVG perfeitamente alinhado */
 .hero-text h2 img.icon {
   width: 64px;
   height: 64px;
   vertical-align: middle;
 }
 
+/* Texto hero */
 .hero-text p {
   font-size: 1rem;
   margin-bottom: 25px;
   line-height: 1.6;
   text-align: justify;
-  text-justify: inter-word;
-}
-
-/* Linha decorativa abaixo do título */
-.linha-decorativa {
-  width: 100%;
-  max-width: 1024px;
-  height: 3px;
-  background-color: #0c2941;
-  margin: 15px 0 25px 0;
-  border-radius: 2px;
-  opacity: 0;
-  transform: translateY(15px);
-  animation: linhaFadeIn 0.8s ease forwards;
+  text-justify: inter-word; /* 🔹 melhora a distribuição das palavras */
 }
 
 /* ==========================
@@ -243,6 +229,209 @@ body {
   padding-bottom: 80px; /* Ajuste conforme altura do footer */
 }
 
+/* ==========================
+   CURRÍCULO - Layout Final Corrigido
+   ========================== */
+.curriculo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f0f2f5;
+  padding: 60px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.curriculo-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1024px; /* largura máxima total (menu + texto) */
+  width: 100%;
+  gap: 40px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* ==========================
+   MENU LATERAL
+   ========================== */
+.curriculo-menu {
+  position: sticky;
+  top: 120px;
+  flex: 0 0 260px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  height: fit-content;
+  transition: all 0.3s ease;
+}
+
+.curriculo-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.curriculo-menu li {
+  margin-bottom: 15px;
+}
+
+.curriculo-menu a {
+  color: #0c2941;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.curriculo-menu a:hover {
+  color: white;
+  background-color: #0c2941;
+  transform: translateX(5px) scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* ==========================
+   CONTEÚDO PRINCIPAL
+   ========================== */
+.curriculo-conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  text-align: justify;
+}
+
+/* Remove qualquer resquício de colunas ou fundo da hero */
+.curriculo-conteudo .hero,
+.curriculo-conteudo .hero-container {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  column-count: 1 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+}
+
+.curriculo-conteudo .hero-container h2 {
+  margin-top: 0;
+  color: #0c2941;
+}
+
+.curriculo-conteudo .hero-container p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* ==========================
+   TÍTULOS DE SEÇÃO
+   ========================== */
+.curriculo-conteudo section h2 {
+  font-size: 1.8rem;
+  color: #0c2941;
+  border-bottom: 2px solid #0c2941;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* ==========================
+   RESPONSIVIDADE
+   ========================== */
+@media screen and (max-width: 900px) {
+  .curriculo-container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+  }
+
+  .curriculo-menu {
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* ==========================
+   Lista de Artigos
+   ========================== */
+#artigos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#artigos li {
+    margin-bottom: 20px;
+}
+
+#artigos a {
+    display: block;
+    text-decoration: none;
+    color: #0c2941;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+/* Efeito visual ao passar o mouse */
+#artigos a:hover {
+    background-color: #66b2ff;
+    color: white;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Pequeno destaque de linha animada */
+#artigos a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #0c2941;
+    border-radius: 10px 0 0 10px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease;
+}
+
+#artigos a:hover::before {
+    transform: scaleY(1);
+}
+
+/* Responsividade */
+@media screen and (max-width: 900px) {
+    .contato-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contato-info {
+        text-align: center;
+    }
+}
+
+.sobre-page .hero-text {
+  max-width: 1024px;
+}
+
+
 /* ===============================
    PADRONIZAÇÃO DE CONTEÚDO GERAL
    =============================== */
@@ -258,19 +447,23 @@ body {
 }
 
 /* ===============================
-   Animações Hero e linha decorativa
+   LINHA DECORATIVA PADRONIZADA
    =============================== */
-@keyframes heroFadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.linha-decorativa {
+  width: 100%;
+  max-width: 1024px;
+  height: 2px;
+  background-color: #0c2941;
+  margin: 15px auto 25px auto;
+  border-radius: 2px;
+
+  /* Animação suave */
+  opacity: 0;
+  transform: translateY(15px);
+  animation: linhaFadeIn 0.8s ease forwards;
 }
 
+/* Definição da animação */
 @keyframes linhaFadeIn {
   from {
     opacity: 0;
@@ -283,15 +476,23 @@ body {
 }
 
 /* ==========================
-   Responsividade Hero
+   Currículo - Corrige três colunas na página inicial
    ========================== */
-@media screen and (max-width: 1024px) {
-  .hero-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-text {
-    max-width: 100%;
-  }
+.curriculo-conteudo,
+.curriculo-conteudo .hero,
+.curriculo-conteudo .hero-container,
+.curriculo-conteudo .hero-container p {
+    all: unset;               /* remove qualquer estilo herdado problemático */
+    display: block !important; 
+    width: 100% !important;
+    max-width: 100% !important;
+    column-count: 1 !important;
+    columns: 1 !important;
+    column-gap: 0 !important;
+    text-align: justify !important;
+    line-height: 1.6 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
 }
