@@ -383,6 +383,11 @@ body {
     }
 }
 
+.sobre-page .hero-text {
+  max-width: 1024px;
+}
+
+
 /* ===============================
    PADRONIZAÇÃO DE CONTEÚDO GERAL
    =============================== */
