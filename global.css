@@ -95,16 +95,16 @@ main {
 }
 
 .main-section h1 {
-  text-align: left;
-  font-size: 2rem;
-  font-weight: 600;
-  color: #3c3c3c;
-  margin-bottom: 0.5rem;
-  position: relative;
   display: flex;
   align-items: center;
   gap: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #264653;
+  margin-bottom: 0.5rem;
   max-width: 1024px;
+  position: relative;
+  flex-wrap: wrap;
 }
 
 .title-icon {
@@ -119,7 +119,12 @@ main {
   opacity: 1;
 }
 
-.main-section h1::after {
+.main-section .title-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.main-section .title-wrapper::after {
   content: "";
   display: block;
   width: 80px;
