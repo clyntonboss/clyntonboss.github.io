@@ -77,6 +77,13 @@ main {
   color: #555;
 }
 
+/* Contêiner central com largura máxima */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* Rodapé fixo */
 .footer {
   position: fixed;
