@@ -434,12 +434,19 @@ body {
 /* ==========================
    Currículo - Conteúdo textual único
    ========================== */
+.curriculo-conteudo {
+    max-width: 1024px;   /* largura máxima do conteúdo textual */
+    margin: 0 auto;      /* centraliza horizontalmente */
+    padding: 0 20px;     /* mantém margem interna */
+    box-sizing: border-box;
+}
+
 .curriculo-conteudo .hero-container {
-    display: block;       /* força uma única coluna */
-    gap: 0;               /* remove espaçamento horizontal que poderia criar colunas */
+    display: block;      
+    gap: 0;              
 }
 
 .curriculo-conteudo .hero-container p {
-    column-count: 1;      /* garante que cada parágrafo fique em uma coluna */
-    text-align: justify;  /* mantém o texto justificado */
+    column-count: 1;     
+    text-align: justify; 
 }
