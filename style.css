@@ -476,13 +476,13 @@ body {
 }
 
 /* ==========================
-   Correção: remover colunas do texto no currículo
+   Currículo - Força texto em uma coluna
    ========================== */
 .curriculo-conteudo .hero-container p {
-  column-count: 1 !important;
-  column-gap: 0 !important;
-  columns: 1 !important;
-  display: block !important;
-  width: 100% !important;
-  text-align: justify !important;
+    column-count: 1 !important;
+    columns: 1 !important;
+    column-gap: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    text-align: justify !important;
 }
