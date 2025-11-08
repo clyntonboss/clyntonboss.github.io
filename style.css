@@ -230,11 +230,12 @@ body {
 }
 
 /* ==========================
-   Currículo - Layout Lateral Fixo e Conteúdo Expandido
+   CURRÍCULO - Layout Final Corrigido
    ========================== */
 .curriculo {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   background-color: #f0f2f5;
   padding: 60px 0;
   width: 100%;
@@ -244,7 +245,7 @@ body {
 .curriculo-container {
   display: flex;
   align-items: flex-start;
-  max-width: 1024px;
+  max-width: 1024px; /* largura máxima total (menu + texto) */
   width: 100%;
   gap: 40px;
   margin: 0 auto;
@@ -252,13 +253,13 @@ body {
 }
 
 /* ==========================
-   Menu lateral esquerdo
+   MENU LATERAL
    ========================== */
 .curriculo-menu {
   position: sticky;
   top: 120px;
-  flex: 0 0 260px; /* largura fixa */
-  background-color: #fff;
+  flex: 0 0 260px;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -284,35 +285,47 @@ body {
   padding: 10px 14px;
   border-radius: 8px;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .curriculo-menu a:hover {
   color: white;
   background-color: #0c2941;
   transform: translateX(5px) scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 /* ==========================
-   Conteúdo principal
+   CONTEÚDO PRINCIPAL
    ========================== */
 .curriculo-conteudo {
   flex: 1;
-  background: transparent !important; /* remove o fundo branco */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  background: none !important;
   box-shadow: none !important;
-  display: block;
+  border: none !important;
   text-align: justify;
-  margin-top: 0; /* alinha ao topo */
 }
 
+/* Remove qualquer resquício de colunas ou fundo da hero */
+.curriculo-conteudo .hero,
 .curriculo-conteudo .hero-container {
   background: transparent !important;
-  padding: 0;
-  margin: 0;
+  box-shadow: none !important;
+  border: none !important;
+  column-count: 1 !important;
+  padding: 0 !important;
+  margin: 0 !important;
   width: 100%;
 }
 
 .curriculo-conteudo .hero-container h2 {
   margin-top: 0;
+  color: #0c2941;
 }
 
 .curriculo-conteudo .hero-container p {
@@ -322,7 +335,7 @@ body {
 }
 
 /* ==========================
-   Títulos e seções
+   TÍTULOS DE SEÇÃO
    ========================== */
 .curriculo-conteudo section h2 {
   font-size: 1.8rem;
@@ -333,7 +346,7 @@ body {
 }
 
 /* ==========================
-   Responsividade
+   RESPONSIVIDADE
    ========================== */
 @media screen and (max-width: 900px) {
   .curriculo-container {
@@ -341,6 +354,7 @@ body {
     align-items: center;
     max-width: 90%;
   }
+
   .curriculo-menu {
     position: relative;
     top: 0;
