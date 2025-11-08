@@ -364,6 +364,20 @@ body {
 }
 
 /* ==========================
+   🔧 Correção Final: força texto em uma única coluna
+   ========================== */
+.hero-container,
+.curriculo-conteudo .hero,
+.curriculo-conteudo .hero-container p,
+.curriculo-conteudo p {
+  column-count: 1 !important;
+  column-gap: 0 !important;
+  columns: auto !important;
+  width: 100% !important;
+  text-align: justify !important;
+}
+
+/* ==========================
    Lista de Artigos
    ========================== */
 #artigos ul {
