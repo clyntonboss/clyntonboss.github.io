@@ -98,18 +98,33 @@ main {
   text-align: left;
   font-size: 2rem;
   font-weight: 600;
-  color: #264653;
+  color: #3c3c3c;
   margin-bottom: 0.5rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   max-width: 1024px;
+}
+
+.title-icon {
+  width: 32px;
+  height: 32px;
+  opacity: 0.85;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.title-icon:hover {
+  transform: scale(1.08);
+  opacity: 1;
 }
 
 .main-section h1::after {
   content: "";
   display: block;
-  width: 1024px;
+  width: 80px;
   height: 3px;
-  background-color: #3b5b72;
+  background-color: #5a646b;
   margin-top: 8px;
   border-radius: 2px;
 }
