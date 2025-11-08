@@ -230,12 +230,12 @@ body {
 }
 
 /* ==========================
-   Currículo - Layout Lateral
+   Currículo - Layout Lateral (Ajustado p/ 1024px)
    ========================== */
 .curriculo {
   display: flex;
   justify-content: center;
-  padding: 80px 10%;
+  padding: 80px 0; /* remove o padding lateral exagerado */
   background-color: #f0f2f5;
   width: 100%;
   box-sizing: border-box;
@@ -243,14 +243,17 @@ body {
 
 .curriculo-container {
   display: flex;
+  max-width: 1024px; /* limite máximo da largura total (menu + conteúdo) */
   width: 100%;
   gap: 30px;
+  margin: 0 auto; /* centraliza o container */
+  box-sizing: border-box;
 }
 
 /* Menu lateral esquerdo */
 .curriculo-menu {
   position: sticky;
-  top: 120px; /* ajuste para estar dentro do main */
+  top: 120px;
   flex: 0 0 250px;
   background-color: #ffffff;
   padding: 20px;
@@ -295,6 +298,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 60px;
+  text-align: justify;
 }
 
 /* Estilo dos títulos de seção */
@@ -306,10 +310,11 @@ body {
   margin-bottom: 20px;
 }
 
-/* Para melhorar responsividade */
+/* Responsividade */
 @media screen and (max-width: 900px) {
   .curriculo-container {
     flex-direction: column;
+    max-width: 90%; /* mantém centralizado e proporcional em telas pequenas */
   }
   .curriculo-menu {
     position: relative;
