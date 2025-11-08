@@ -474,3 +474,15 @@ body {
     transform: translateY(0);
   }
 }
+
+/* ==========================
+   Correção: remover colunas do texto no currículo
+   ========================== */
+.curriculo-conteudo .hero-container p {
+  column-count: 1 !important;
+  column-gap: 0 !important;
+  columns: 1 !important;
+  display: block !important;
+  width: 100% !important;
+  text-align: justify !important;
+}
