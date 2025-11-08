@@ -230,12 +230,11 @@ body {
 }
 
 /* ==========================
-   Currículo - Layout Lateral Ajustado e Corrigido
+   Currículo - Layout Lateral Fixo e Conteúdo Expandido
    ========================== */
 .curriculo {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   background-color: #f0f2f5;
   padding: 60px 0;
   width: 100%;
@@ -258,8 +257,8 @@ body {
 .curriculo-menu {
   position: sticky;
   top: 120px;
-  flex: 0 0 260px;
-  background-color: #ffffff;
+  flex: 0 0 260px; /* largura fixa */
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -285,51 +284,41 @@ body {
   padding: 10px 14px;
   border-radius: 8px;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .curriculo-menu a:hover {
   color: white;
   background-color: #0c2941;
   transform: translateX(5px) scale(1.03);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 /* ==========================
-   Conteúdo principal à direita
+   Conteúdo principal
    ========================== */
 .curriculo-conteudo {
   flex: 1;
-  max-width: calc(1024px - 260px - 40px); /* 1024px total - menu - gap */
-  background: transparent !important;
+  background: transparent !important; /* remove o fundo branco */
   box-shadow: none !important;
-  border: none !important;
-  padding: 0;
-  margin: 0;
+  display: block;
   text-align: justify;
+  margin-top: 0; /* alinha ao topo */
 }
 
 .curriculo-conteudo .hero-container {
-  display: block;
-  width: 100%;
-  max-width: 100%;
   background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .curriculo-conteudo .hero-container h2 {
   margin-top: 0;
-  color: #0c2941;
 }
 
 .curriculo-conteudo .hero-container p {
   text-align: justify;
   line-height: 1.6;
   margin-bottom: 16px;
-  column-count: 1 !important; /* força texto em uma coluna */
 }
 
 /* ==========================
@@ -357,9 +346,6 @@ body {
     top: 0;
     width: 100%;
     margin-bottom: 30px;
-  }
-  .curriculo-conteudo {
-    max-width: 100%;
   }
 }
 
