@@ -430,3 +430,16 @@ body {
     transform: translateY(0);
   }
 }
+
+/* ==========================
+   Currículo - Conteúdo textual único
+   ========================== */
+.curriculo-conteudo .hero-container {
+    display: block;       /* força uma única coluna */
+    gap: 0;               /* remove espaçamento horizontal que poderia criar colunas */
+}
+
+.curriculo-conteudo .hero-container p {
+    column-count: 1;      /* garante que cada parágrafo fique em uma coluna */
+    text-align: justify;  /* mantém o texto justificado */
+}
