@@ -99,7 +99,6 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 50px;
-  max-width: 1000px;
   opacity: 0;
   transform: translateY(30px);
   animation: heroFadeIn 1s ease forwards;
@@ -245,7 +244,6 @@ body {
 .curriculo-container {
   display: flex;
   width: 100%;
-  max-width: 1200px;
   gap: 30px;
 }
 
@@ -383,10 +381,6 @@ body {
     .contato-info {
         text-align: center;
     }
-}
-
-.sobre-page .hero-text {
-  max-width: 800px;
 }
 
 /* ===============================
