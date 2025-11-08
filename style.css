@@ -1,5 +1,5 @@
 /* ==========================
-   ESTILO GLOBAL E ESTRUTURA
+   Estilo global e estrutura
    ========================== */
 html, body {
   height: 100%;
@@ -17,21 +17,7 @@ main {
 }
 
 /* ==========================
-   PADRONIZAÇÃO DE CONTEÚDO
-   ========================== */
-.container-geral,
-.hero-container,
-.conteudo,
-.page-wrapper,
-.section-container {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
-
-/* ==========================
-   CABEÇALHO E NAVEGAÇÃO
+   Cabeçalho e navegação
    ========================== */
 header {
   background-color: #0c2941;
@@ -56,6 +42,7 @@ header {
   letter-spacing: 0.5px;
 }
 
+/* Links do menu e do rodapé — estilo sofisticado */
 .nav-links {
   list-style: none;
   display: flex;
@@ -73,6 +60,7 @@ header {
   transition: color 0.3s ease;
 }
 
+/* Linha animada ao passar o mouse */
 .nav-links a::after,
 .footer-links a::after {
   content: "";
@@ -96,7 +84,7 @@ header {
 }
 
 /* ==========================
-   HERO / SEÇÃO PRINCIPAL
+   Seção principal (Hero) atualizada premium
    ========================== */
 .hero {
   display: flex;
@@ -117,11 +105,17 @@ header {
 }
 
 @keyframes heroFadeIn {
-  0% { opacity: 0; transform: translateY(30px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* FOTO E BOTÃO HERO */
+/* Agrupando foto e botão */
 .hero-image-container {
   display: flex;
   flex-direction: column;
@@ -143,6 +137,11 @@ header {
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
+/* Botão Projetos centralizado abaixo da foto */
+.hero-image-container .btn-projetos {
+  align-self: center;
+}
+
 .btn-projetos {
   background: linear-gradient(135deg, #0c2941, #133b5a);
   color: #ffffff;
@@ -162,9 +161,9 @@ header {
   filter: brightness(1.05);
 }
 
-/* TEXTO HERO */
+/* Texto ao lado da foto */
 .hero-text {
-  max-width: 1024px; /* largura padronizada */
+  max-width: 720px;
 }
 
 .hero-text h2 {
@@ -177,22 +176,24 @@ header {
   gap: 10px;
 }
 
+/* Ícone SVG perfeitamente alinhado */
 .hero-text h2 img.icon {
   width: 64px;
   height: 64px;
   vertical-align: middle;
 }
 
+/* Texto hero */
 .hero-text p {
   font-size: 1rem;
   margin-bottom: 25px;
   line-height: 1.6;
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: inter-word; /* 🔹 melhora a distribuição das palavras */
 }
 
 /* ==========================
-   RODAPÉ
+   Rodapé
    ========================== */
 footer {
   position: fixed;
@@ -203,7 +204,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
-  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 
@@ -223,13 +224,13 @@ footer {
   color: #66b2ff;
 }
 
-/* Espaço reservado para rodapé fixo */
+/* Espaço reservado para o rodapé fixo */
 body {
-  padding-bottom: 80px;
+  padding-bottom: 80px; /* Ajuste conforme altura do footer */
 }
 
 /* ==========================
-   CURRÍCULO / LAYOUT LATERAL
+   Currículo - Layout Lateral
    ========================== */
 .curriculo {
   display: flex;
@@ -246,9 +247,10 @@ body {
   gap: 30px;
 }
 
+/* Menu lateral esquerdo */
 .curriculo-menu {
   position: sticky;
-  top: 120px;
+  top: 120px; /* ajuste para estar dentro do main */
   flex: 0 0 250px;
   background-color: #ffffff;
   padding: 20px;
@@ -268,6 +270,7 @@ body {
   margin-bottom: 15px;
 }
 
+/* Links com efeito de botão */
 .curriculo-menu a {
   color: #0c2941;
   text-decoration: none;
@@ -286,6 +289,7 @@ body {
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
+/* Conteúdo à direita */
 .curriculo-conteudo {
   flex: 1;
   display: flex;
@@ -293,6 +297,7 @@ body {
   gap: 60px;
 }
 
+/* Estilo dos títulos de seção */
 .curriculo-conteudo section h2 {
   font-size: 1.8rem;
   color: #0c2941;
@@ -301,80 +306,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* ==========================
-   LISTA DE ITENS / ARTIGOS
-   ========================== */
-.lista-itens ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.lista-itens li {
-  margin-bottom: 20px;
-}
-
-.lista-itens a {
-  display: block;
-  text-decoration: none;
-  color: #0c2941;
-  font-weight: 500;
-  padding: 15px 20px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
-  transition: all 0.4s ease;
-  position: relative;
-}
-
-.lista-itens a:hover {
-  background-color: #66b2ff;
-  color: white;
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-.lista-itens a::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 5px;
-  height: 100%;
-  background-color: #0c2941;
-  border-radius: 10px 0 0 10px;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: transform 0.3s ease;
-}
-
-.lista-itens a:hover::before {
-  transform: scaleY(1);
-}
-
-/* ==========================
-   LINHA DECORATIVA
-   ========================== */
-.linha-decorativa {
-  width: 100%;
-  max-width: 1024px;
-  height: 2px;
-  background-color: #0c2941;
-  margin: 15px auto 25px auto;
-  border-radius: 2px;
-  opacity: 0;
-  transform: translateY(15px);
-  animation: linhaFadeIn 0.8s ease forwards;
-}
-
-@keyframes linhaFadeIn {
-  from { opacity: 0; transform: translateY(15px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* ==========================
-   RESPONSIVIDADE
-   ========================== */
+/* Para melhorar responsividade */
 @media screen and (max-width: 900px) {
   .curriculo-container {
     flex-direction: column;
@@ -385,11 +317,116 @@ body {
     width: 100%;
     margin-bottom: 30px;
   }
-  .contato-content {
-    flex-direction: column;
-    align-items: center;
+}
+
+/* ==========================
+   Lista de Artigos
+   ========================== */
+#artigos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#artigos li {
+    margin-bottom: 20px;
+}
+
+#artigos a {
+    display: block;
+    text-decoration: none;
+    color: #0c2941;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+/* Efeito visual ao passar o mouse */
+#artigos a:hover {
+    background-color: #66b2ff;
+    color: white;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Pequeno destaque de linha animada */
+#artigos a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #0c2941;
+    border-radius: 10px 0 0 10px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease;
+}
+
+#artigos a:hover::before {
+    transform: scaleY(1);
+}
+
+/* Responsividade */
+@media screen and (max-width: 900px) {
+    .contato-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contato-info {
+        text-align: center;
+    }
+}
+
+.sobre-page .hero-text {
+  max-width: 1024px;
+}
+
+
+/* ===============================
+   PADRONIZAÇÃO DE CONTEÚDO GERAL
+   =============================== */
+.container,
+.hero-container,
+.conteudo,
+.page-wrapper,
+.section-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   LINHA DECORATIVA PADRONIZADA
+   =============================== */
+.linha-decorativa {
+  width: 100%;
+  max-width: 1024px;
+  height: 2px;
+  background-color: #0c2941;
+  margin: 15px auto 25px auto;
+  border-radius: 2px;
+
+  /* Animação suave */
+  opacity: 0;
+  transform: translateY(15px);
+  animation: linhaFadeIn 0.8s ease forwards;
+}
+
+/* Definição da animação */
+@keyframes linhaFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
   }
-  .contato-info {
-    text-align: center;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
