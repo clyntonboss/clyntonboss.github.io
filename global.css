@@ -1,8 +1,8 @@
 /* ==============================
-   global.css — estilo base
+   global.css — identidade visual Clynton
    ============================== */
 
-/* Fonte e reset básico */
+/* Reset e tipografia */
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +14,10 @@ body {
   background-color: #f9f9f9;
   color: #222;
   line-height: 1.6;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 /* Cabeçalho fixo */
@@ -25,49 +26,54 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  height: 64px;
+  background-color: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #e2e2e2;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
   font-weight: 600;
+  letter-spacing: 0.4px;
   z-index: 1000;
 }
 
 .header-left {
-  font-size: 1.2rem;
-  letter-spacing: 0.5px;
+  font-size: 1.25rem;
+  color: #005b96;
 }
 
 .header-right a {
   margin-left: 25px;
   text-decoration: none;
   color: #333;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .header-right a:hover {
-  color: #007acc;
+  color: #005b96;
+  transform: translateY(-2px);
 }
 
 /* Área principal */
 main {
   flex: 1;
-  padding: 100px 20px 80px;
+  padding: 110px 20px 90px;
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
+  animation: fadeIn 0.8s ease-in;
 }
 
 .main-section h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-size: 2.1rem;
+  margin-bottom: 12px;
+  color: #222;
 }
 
 .main-section p {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: #555;
 }
 
@@ -77,13 +83,14 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50px;
-  background-color: #fff;
-  border-top: 1px solid #ddd;
+  height: 54px;
+  background-color: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border-top: 1px solid #e2e2e2;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 35px;
   font-size: 0.95rem;
   z-index: 1000;
 }
@@ -91,9 +98,16 @@ main {
 .footer a {
   text-decoration: none;
   color: #333;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .footer a:hover {
-  color: #007acc;
+  color: #005b96;
+  transform: translateY(-2px);
+}
+
+/* Animação de entrada suave */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
