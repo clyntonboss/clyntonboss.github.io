@@ -392,3 +392,15 @@ body {
 .artigos-cientificos-page .hero-text {
   max-width: 800px;
 }
+
+/* ===============================
+   PADRONIZAÇÃO DE CONTEÚDO GERAL
+   =============================== */
+.container,
+.hero-container,
+.section-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
