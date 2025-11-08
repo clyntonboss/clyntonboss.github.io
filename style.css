@@ -325,6 +325,15 @@ body {
   }
 }
 
+/* ======== Ajuste final da área de conteúdo do currículo ======== */
+.curriculo-conteudo,
+.curriculo-conteudo .hero,
+.curriculo-conteudo .hero-container {
+  background-color: transparent !important; /* força transparência */
+  box-shadow: none !important;              /* remove sombras indesejadas */
+  border: none !important;                  /* remove bordas se houver */
+}
+
 /* ==========================
    Lista de Artigos
    ========================== */
