@@ -245,17 +245,22 @@ main {
     transform: translateY(0);
 }
 
-/* Fixação */
+/* ==============================
+   Fixação da seção de título
+   ============================== */
+
 .fixed-header-section {
     position: sticky;
-    top: 80px;
-    background-color: transparent;
+    top: 80px; /* altura do cabeçalho */
+    background-color: transparent; /* fundo transparente */
     z-index: 50;
     padding-bottom: 10px;
+    display: flex;
+    /* Removido justify-content: center para alinhar à esquerda */
 }
 
 .fixed-header-container {
-    max-width: 1024px;
+    max-width: 1024px; /* respeita largura máxima */
     width: 100%;
 }
 
@@ -270,9 +275,9 @@ main {
 }
 
 .fixed-header-section .decorative-line {
-    width: 320px;
+    width: 320px; /* largura da linha igual à largura do título */
     height: 3px;
     background-color: #5a646b;
     border-radius: 2px;
-    margin: 8px 0 0 0; /* começa na esquerda do contêiner */
+    margin: 8px 0 0 0; /* 8px de distância do título, alinhada à esquerda */
 }
