@@ -288,7 +288,7 @@ main {
    ============================== */
 .side-menu {
   width: 250px;                  /* largura fixa do menu */
-  height: 564px;                 /* altura total do bloco */
+  height: 556px;                 /* altura total do bloco */
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
@@ -319,7 +319,7 @@ main {
   display: flex;
   align-items: center;           /* centraliza verticalmente o texto */
   height: 48px;                  /* altura fixa do botão */
-  width: 226px;
+  width: 218px;
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
@@ -335,10 +335,6 @@ main {
   color: #ffffff;
   transform: translateX(4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.side-menu a:last-child {
-    margin-bottom: 0;
 }
 
 /* ==============================
