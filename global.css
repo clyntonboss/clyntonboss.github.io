@@ -426,44 +426,51 @@ main {
 }
 
 /* Estilo das experiências */
-.experience-item {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 12px;
-    overflow: hidden;
+.experience {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
 }
 
-.experience-header {
+.exp-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 16px;
-    background-color: #f5f5f5; /* fundo suave */
     cursor: pointer;
 }
 
-.experience-header span {
+.exp-period {
+    font-weight: 600;
+    margin-right: 10px;
+    color: #264653;
+}
+
+.exp-role {
+    flex: 1;
     font-weight: 500;
-    color: #264653;
+    color: #333;
 }
 
-.toggle-details {
-    background: none;
+.exp-toggle {
+    background-color: #264653;
+    color: #fff;
     border: none;
-    font-size: 1.2rem;
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+    font-weight: bold;
     cursor: pointer;
-    color: #264653;
+    transition: background-color 0.3s ease;
 }
 
-.experience-details {
+.exp-toggle:hover {
+    background-color: #3b5b72;
+}
+
+.exp-details {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease, padding 0.3s ease;
-    padding: 0 16px;
-    background-color: #ffffff;
-}
-
-.experience-details.open {
-    padding: 12px 16px;
-    max-height: 200px; /* ajusta conforme o conteúdo */
+    transition: max-height 0.3s ease;
+    padding-left: 10px;
+    margin-top: 4px;
+    color: #555;
 }
