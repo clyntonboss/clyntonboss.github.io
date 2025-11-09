@@ -180,7 +180,7 @@ main {
 
 .intro-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
   max-width: 1024px;
   width: 100%;
