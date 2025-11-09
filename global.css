@@ -254,3 +254,32 @@ main {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Contêiner fixo para título e linha decorativa */
+.fixed-header-section {
+    position: sticky; /* Fica fixo até que o scroll passe */
+    top: 80px; /* Ajuste de acordo com a altura do cabeçalho fixo */
+    background-color: #f7f7f7; /* mesma cor de fundo da seção */
+    z-index: 50;
+    padding-bottom: 10px;
+}
+
+/* Título com ícone */
+.fixed-header-section h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin: 0;
+}
+
+/* Linha decorativa abaixo do título */
+.fixed-header-section .decorative-line {
+    width: 80px;
+    height: 3px;
+    background-color: #5a646b;
+    border-radius: 2px;
+    margin-top: 8px;
+}
