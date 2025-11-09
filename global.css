@@ -351,17 +351,19 @@ main {
 
 /* Link ativo no cabeçalho */
 .header-right a.active {
-    color: #ffffff; /* destaque levemente mais claro */
+    color: #ffffff;
     cursor: default;
-    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
-    pointer-events: none; /* impede clique e hover */
+    pointer-events: none; /* impede clique */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Simula o efeito de hover do nome, mas não permite clicar */
+.header-right a.active:hover {
+    color: #ffffff;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* efeito de “acender” */
+    transform: none;
 }
 
 .header-right a.active::after {
-    content: none; /* remove linha deslizante */
-}
-
-.header-right a.active:hover {
-    color: #ffffff; /* mantém a mesma cor ao passar o mouse */
-    transform: none; /* remove deslocamento */
+    content: none; /* remove a linha deslizante */
 }
