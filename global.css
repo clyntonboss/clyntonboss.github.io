@@ -284,36 +284,44 @@ main {
 }
 
 /* ==============================
-   Menu Lateral
+   Menu Lateral — Alinhamento perfeito
    ============================== */
-
 .side-menu {
   flex: 0 0 250px;          /* largura fixa do menu */
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-  padding: 20px;
-  text-align: left;
-   
-  position: sticky;         /* deixa fixo enquanto o conteúdo rola */
-  top: 100px;               /* distância do topo da tela, abaixo do cabeçalho fixo de 80px + margem */
-  height: fit-content;      /* altura se ajusta ao conteúdo do menu */
+  padding: 0;               /* vamos controlar espaçamento interno com flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* distribui uniformemente os botões verticalmente */
+  position: sticky;
+  top: 100px;
+  height: calc(100vh - 100px); /* ocupa toda altura visível do menu */
 }
 
 .side-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;                  /* expande para ocupar todo espaço disponível */
 }
 
 .side-menu li {
-  margin-bottom: 12px;
+  flex: 1;                   /* cada item ocupa mesma altura */
 }
 
 .side-menu a {
-  display: block;
-  padding: 10px 15px;
-  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* centraliza texto dentro do botão */
+  height: 100%;              /* preenche a altura do li */
+  text-align: center;
+  padding: 0 15px;           /* espaçamento horizontal interno */
+  margin: 0;                  /* sem margem, já que vamos usar flex */
+  border-radius: 0;           /* sem bordas arredondadas internas, só o bloco */
   text-decoration: none;
   color: #264653;
   font-weight: 500;
