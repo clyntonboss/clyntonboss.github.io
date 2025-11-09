@@ -27,8 +27,8 @@ body {
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: #003f63;
-  color: #e6e6e6;
+  background-color: #003f63; /* azul-petróleo elegante */
+  color: #e6e6e6; /* cinza claro */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,7 +58,7 @@ body {
   text-decoration: none;
   color: #e6e6e6;
   transition: color 0.3s ease, transform 0.2s ease;
-  padding-bottom: 4px;
+  padding-bottom: 4px; /* espaço pra linha */
 }
 
 .header-right a::after {
@@ -68,7 +68,7 @@ body {
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: #aad4ff;
+  background-color: #aad4ff; /* mesma cor do hover */
   transition: width 0.3s ease;
 }
 
@@ -94,46 +94,104 @@ main {
   padding: 0 20px;
 }
 
-/* Seção principal fixa (ícone + título + linha decorativa) */
-.fixed-header-section {
-  position: sticky;
-  top: 80px; /* abaixo do cabeçalho */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 1024px;
-  width: 100%;
-  padding-bottom: 10px;
-  background-color: transparent; /* removido fundo branco */
-  z-index: 50;
-}
-
-.fixed-header-section h1 {
+.main-section h1 {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 2rem;
   font-weight: 600;
-  color: #3c3c3c;
-  margin: 0;
+  color: #264653;
+  margin-bottom: 0.5rem;
+  max-width: 1024px;
+  position: relative;
+  flex-wrap: wrap;
 }
 
-.fixed-header-section .decorative-line {
-  width: 320px; /* tamanho da linha decorativa */
+.title-icon {
+  width: 32px;
+  height: 32px;
+  opacity: 0.85;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.title-icon:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.main-section .title-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.main-section .title-wrapper::after {
+  content: "";
+  display: block;
+  width: 320px;
   height: 3px;
   background-color: #5a646b;
-  border-radius: 2px;
   margin-top: 8px;
+  border-radius: 2px;
 }
 
-/* Foto e texto da seção inicial */
+.main-section p {
+  font-size: 1.05rem;
+  color: #555;
+}
+
+/* Rodapé fixo */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #003f63;
+  color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 0.95rem;
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espaço entre ícone e texto */
+  text-decoration: none;
+  color: #e6e6e6;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer a:hover {
+  color: #aad4ff;
+  transform: translateY(-2px);
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* ==============================
+   Configurações da Página Inicial
+   ============================== */
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
 .intro-container {
   display: flex;
   align-items: center;
   gap: 40px;
   max-width: 1024px;
   width: 100%;
-  margin-top: 20px;
 }
 
 .intro-photo {
@@ -184,51 +242,49 @@ main {
   color: #264653;
 }
 
-/* Rodapé fixo */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  background-color: #003f63;
-  color: #e6e6e6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  font-size: 0.95rem;
-  z-index: 1000;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.footer a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  color: #e6e6e6;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-
-.footer a:hover {
-  color: #aad4ff;
-  transform: translateY(-2px);
-}
-
-.footer-icon {
-  width: 20px;
-  height: 20px;
-}
-
-/* Efeito fade-in */
+/* Efeito fade-in geral para itens da seção */
 .fade-item {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
+/* Quando ativo, todos aparecem */
 .fade-item.visible {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fixação */
+.fixed-header-section {
+    position: sticky;
+    top: 80px; /* altura do cabeçalho */
+    background-color: #f7f7f7; /* mesma cor da seção */
+    z-index: 50;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center; /* centraliza o conteúdo dentro do contêiner */
+}
+
+.fixed-header-container {
+    max-width: 1024px; /* respeita largura máxima */
+    width: 100%;
+}
+
+.fixed-header-section h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3c3c3c;
+    margin: 0;
+}
+
+.fixed-header-section .decorative-line {
+    width: 80px;
+    height: 3px;
+    background-color: #5a646b;
+    border-radius: 2px;
+    margin-top: 8px;
 }
