@@ -319,7 +319,7 @@ main {
   display: flex;
   align-items: center;           /* centraliza verticalmente o texto */
   height: 48px;                  /* altura fixa do botão */
-  width: 234px;
+  width: 226px;
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
