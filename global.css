@@ -255,16 +255,22 @@ main {
     transform: translateY(0);
 }
 
-/* Contêiner fixo para título e linha decorativa */
+/* Fixação */
 .fixed-header-section {
-    position: sticky; /* Fica fixo até que o scroll passe */
-    top: 80px; /* Ajuste de acordo com a altura do cabeçalho fixo */
-    background-color: #f7f7f7; /* mesma cor de fundo da seção */
+    position: sticky;
+    top: 80px; /* altura do cabeçalho */
+    background-color: #f7f7f7; /* mesma cor da seção */
     z-index: 50;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center; /* centraliza o conteúdo dentro do contêiner */
 }
 
-/* Título com ícone */
+.fixed-header-container {
+    max-width: 1024px; /* respeita largura máxima */
+    width: 100%;
+}
+
 .fixed-header-section h1 {
     display: flex;
     align-items: center;
@@ -275,7 +281,6 @@ main {
     margin: 0;
 }
 
-/* Linha decorativa abaixo do título */
 .fixed-header-section .decorative-line {
     width: 80px;
     height: 3px;
