@@ -359,6 +359,11 @@ main {
     font-size: 1rem;
 }
 
+.curriculo-text p {
+    margin-bottom: 1.2em; /* mesma distância que nas outras páginas */
+    line-height: 1.8;     /* mantém o espaçamento entre linhas */
+}
+
 /* Link ativo no cabeçalho */
 .header-right a.active {
     color: #ffffff;
