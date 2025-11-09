@@ -175,6 +175,8 @@ main {
 }
 
 .footer-left {
+    position: absolute;
+    left: 50px; /* distancia da borda esquerda */
     display: flex;
     align-items: center;
     gap: 6px;
