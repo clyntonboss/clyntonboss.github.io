@@ -281,3 +281,43 @@ main {
     border-radius: 2px;
     margin: 8px 0 0 0; /* 8px de distância do título, alinhada à esquerda */
 }
+
+/* ==============================
+   Menu Lateral
+   ============================== */
+
+.side-menu {
+  flex: 0 0 250px;          /* largura fixa do menu */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu li {
+  margin-bottom: 12px;
+}
+
+.side-menu a {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #264653;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.side-menu a:hover {
+  background-color: #264653;
+  color: #ffffff;
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
