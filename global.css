@@ -424,3 +424,46 @@ main {
 .header-right a.active::after {
     content: none; /* remove a linha deslizante */
 }
+
+/* Estilo das experiências */
+.experience-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #f5f5f5; /* fundo suave */
+    cursor: pointer;
+}
+
+.experience-header span {
+    font-weight: 500;
+    color: #264653;
+}
+
+.toggle-details {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #264653;
+}
+
+.experience-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 16px;
+    background-color: #ffffff;
+}
+
+.experience-details.open {
+    padding: 12px 16px;
+    max-height: 200px; /* ajusta conforme o conteúdo */
+}
