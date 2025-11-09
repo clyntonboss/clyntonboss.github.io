@@ -58,28 +58,26 @@
                     <li><a href="#publicacoes">Publicações</a></li>
                   </ul>
                 </div>
-                <!-- Área de experiências -->
                 <div class="curriculo-text fade-item">
-                    <!-- Experiências -->
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <span class="experience-period">2003 - 2005</span>
-                            <span class="experience-role">Técnico de Suporte | Help Desk</span>
-                            <button class="toggle-details">+</button>
+                    <div class="experience">
+                        <div class="exp-header">
+                            <span class="exp-period">2003 - 2005</span>
+                            <span class="exp-role">Técnico de Suporte | Help Desk</span>
+                            <button class="exp-toggle">+</button>
                         </div>
-                        <div class="experience-details">
-                            <p>Detalhes da experiência 1...</p>
+                        <div class="exp-details">
+                            Atuei no suporte a usuários internos, manutenção de equipamentos, instalação de softwares e resolução de problemas técnicos, garantindo a continuidade das operações da empresa.
                         </div>
                     </div>
-            
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <span class="experience-period">2006 - 2008</span>
-                            <span class="experience-role">Analista de Sistemas Jr.</span>
-                            <button class="toggle-details">+</button>
+                
+                    <div class="experience">
+                        <div class="exp-header">
+                            <span class="exp-period">2006 - 2010</span>
+                            <span class="exp-role">Analista de Sistemas | Empresa X</span>
+                            <button class="exp-toggle">+</button>
                         </div>
-                        <div class="experience-details">
-                            <p>Detalhes da experiência 2...</p>
+                        <div class="exp-details">
+                            Responsável pelo desenvolvimento de sistemas internos, automação de processos e análise de dados para melhoria contínua das operações.
                         </div>
                     </div>
                 </div>
@@ -118,15 +116,24 @@
         });
     </script>
     <script>
-        // Expande ou recolhe detalhes das experiências
-        document.querySelectorAll('.toggle-details').forEach(button => {
-            button.addEventListener('click', () => {
-                const details = button.parentElement.nextElementSibling;
-                const isVisible = details.style.display === 'block';
-                details.style.display = isVisible ? 'none' : 'block';
-                button.textContent = isVisible ? '+' : '−';
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggles = document.querySelectorAll('.exp-toggle');
+    
+        toggles.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const details = btn.parentElement.nextElementSibling;
+                const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
+    
+                if (isOpen) {
+                    details.style.maxHeight = '0';
+                    btn.textContent = '+';
+                } else {
+                    details.style.maxHeight = details.scrollHeight + 'px';
+                    btn.textContent = '−';
+                }
             });
         });
+    });
     </script>
 </body>
 </html>
