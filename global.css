@@ -124,16 +124,6 @@ main {
   position: relative;
 }
 
-.main-section .title-wrapper::after {
-  content: "";
-  display: block;
-  width: 320px;
-  height: 3px;
-  background-color: #5a646b;
-  margin-top: 8px;
-  border-radius: 2px;
-}
-
 .main-section p {
   font-size: 1.05rem;
   color: #555;
