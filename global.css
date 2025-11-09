@@ -249,16 +249,18 @@ main {
 .fixed-header-section {
     position: sticky;
     top: 80px; /* altura do cabeçalho */
-    background-color: transparent; /* fundo transparente */
+    background-color: transparent;
     z-index: 50;
     padding-bottom: 10px;
     display: flex;
-    justify-content: center; /* centraliza o conteúdo dentro do contêiner */
+    justify-content: center; /* mantém o contêiner centralizado */
 }
 
 .fixed-header-container {
-    max-width: 1024px; /* respeita largura máxima */
+    max-width: 1024px;
     width: 100%;
+    display: flex;
+    flex-direction: column; /* empilha h1 e linha */
 }
 
 .fixed-header-section h1 {
@@ -268,7 +270,7 @@ main {
     font-size: 2rem;
     font-weight: 600;
     color: #3c3c3c;
-    margin: 0;
+    margin: 0 0 8px 0; /* espaço abaixo do h1 */
 }
 
 .fixed-header-section .decorative-line {
@@ -276,5 +278,6 @@ main {
     height: 3px;
     background-color: #5a646b;
     border-radius: 2px;
-    margin: 8px 0 0 0; /* centraliza horizontalmente */
+    align-self: flex-start; /* força a linha à esquerda */
+    margin: 0; /* remove margens desnecessárias */
 }
