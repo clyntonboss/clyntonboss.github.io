@@ -52,6 +52,14 @@ body {
   cursor: default;
 }
 
+.header-left .last-update {
+    font-size: 0.7rem;          /* menor que o nome */
+    color: #cfcfcf;             /* tom discreto */
+    font-weight: 400;
+    margin-top: 4px;            /* espaço entre o nome e a data */
+    line-height: 1.2;
+}
+
 .header-right a {
   position: relative;
   margin-left: 25px;
