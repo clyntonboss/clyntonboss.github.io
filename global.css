@@ -322,3 +322,26 @@ main {
   transform: translateX(4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+/* ==============================
+   Currículo — Ajuste do conteúdo principal
+   ============================== */
+
+.curriculo-container {
+    display: flex;
+    flex-direction: row; /* para menu lateral + texto */
+    align-items: flex-start; /* alinha o topo do texto com o topo do menu */
+    gap: 40px;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 120px; /* mesma distância do topo que nas outras páginas */
+}
+
+.curriculo-text {
+    flex: 1;
+    text-align: justify;
+    line-height: 1.7;
+    color: #333;
+    font-size: 1rem;
+}
