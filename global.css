@@ -253,7 +253,7 @@ main {
     z-index: 50;
     padding-bottom: 10px;
     display: flex;
-    justify-content: center; /* mantém o contêiner centralizado */
+    justify-content: center; /* centraliza o contêiner */
 }
 
 .fixed-header-container {
@@ -270,14 +270,17 @@ main {
     font-size: 2rem;
     font-weight: 600;
     color: #3c3c3c;
-    margin: 0 0 8px 0; /* espaço abaixo do h1 */
+    margin: 0;
+    position: relative; /* necessário para a linha absoluta */
 }
 
+/* Linha decorativa posicionada absoluta em relação ao h1 */
 .fixed-header-section .decorative-line {
-    width: 320px; /* largura da linha igual à largura do título */
+    position: absolute;
+    bottom: -8px; /* 8px abaixo do h1 */
+    left: 0; /* começa na extremidade esquerda do h1 */
+    width: 320px;
     height: 3px;
     background-color: #5a646b;
     border-radius: 2px;
-    align-self: flex-start; /* força a linha à esquerda */
-    margin: 0; /* remove margens desnecessárias */
 }
