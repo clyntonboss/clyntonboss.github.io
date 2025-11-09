@@ -127,7 +127,7 @@ main {
 .main-section .title-wrapper::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 320px;
   height: 3px;
   background-color: #5a646b;
   margin-top: 8px;
@@ -223,6 +223,11 @@ main {
   line-height: 1.7;
   color: #333;
   font-size: 1rem;
+}
+
+.intro-text p {
+  margin-bottom: 1.2em;
+  line-height: 1.8;
 }
 
 .intro-text strong {
