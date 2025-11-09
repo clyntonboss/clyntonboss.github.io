@@ -327,6 +327,7 @@ main {
   font-weight: 500;
   transition: all 0.3s ease;
   justify-content: flex-start;   /* texto alinhado à esquerda */
+  margin-bottom: 4px;
 }
 
 .side-menu a:hover {
@@ -334,6 +335,10 @@ main {
   color: #ffffff;
   transform: translateX(4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.side-menu a:last-child {
+    margin-bottom: 0;
 }
 
 /* ==============================
