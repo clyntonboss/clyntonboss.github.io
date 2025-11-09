@@ -78,5 +78,15 @@
             <img src="assets/icons/phone.svg" alt="Telefone" class="footer-icon"> Telefone
         </a>
     </footer>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const items = document.querySelectorAll('.fade-item');
+            items.forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add('visible');
+                }, index * 150); // 150ms entre cada elemento
+            });
+        });
+    </script>
 </body>
 </html>
