@@ -349,21 +349,19 @@ main {
     font-size: 1rem;
 }
 
-/* ==============================
-   Link Ativo
-   ============================== */
-
+/* Link ativo no cabeçalho */
 .header-right a.active {
-    color: #ffffff; /* ou uma tonalidade levemente mais clara que o hover */
+    color: #ffffff; /* destaque levemente mais claro */
     cursor: default;
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+    pointer-events: none; /* impede clique e hover */
+}
+
+.header-right a.active::after {
+    content: none; /* remove linha deslizante */
 }
 
 .header-right a.active:hover {
     color: #ffffff; /* mantém a mesma cor ao passar o mouse */
-    transform: none; /* não aplica o efeito de deslocamento */
-}
-
-.header-right a.active::after {
-    content: none; /* remove a linha de hover para o link ativo */
+    transform: none; /* remove deslocamento */
 }
