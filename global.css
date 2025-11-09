@@ -291,37 +291,32 @@ main {
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-  padding: 0;               /* vamos controlar espaçamento interno com flex */
-  display: flex;
+  padding: 20px;
+  text-align: left;
+   
+  position: sticky;         /* deixa fixo enquanto o conteúdo rola */
+  top: 100px;               /* abaixo do cabeçalho fixo */
+  height: fit-content;      /* altura se ajusta ao conteúdo do menu */
+  display: flex;             /* organizar verticalmente */
   flex-direction: column;
-  justify-content: space-between; /* distribui uniformemente os botões verticalmente */
-  position: sticky;
-  top: 100px;
-  height: calc(100vh - 100px); /* ocupa toda altura visível do menu */
+  justify-content: flex-start; /* mantém os itens no topo do bloco */
+  gap: 12px;                 /* mantém o espaçamento original entre os links */
 }
 
 .side-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  flex: 1;                  /* expande para ocupar todo espaço disponível */
 }
 
 .side-menu li {
-  flex: 1;                   /* cada item ocupa mesma altura */
+  margin: 0; /* removendo margens extras, o gap acima mantém o espaçamento */
 }
 
 .side-menu a {
-  display: flex;
-  align-items: center;
-  justify-content: center;   /* centraliza texto dentro do botão */
-  height: 100%;              /* preenche a altura do li */
-  text-align: center;
-  padding: 0 15px;           /* espaçamento horizontal interno */
-  margin: 0;                  /* sem margem, já que vamos usar flex */
-  border-radius: 0;           /* sem bordas arredondadas internas, só o bloco */
+  display: block;
+  padding: 10px 15px; /* mantém o tamanho original */
+  border-radius: 8px;
   text-decoration: none;
   color: #264653;
   font-weight: 500;
