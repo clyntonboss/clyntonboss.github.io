@@ -287,40 +287,45 @@ main {
    Menu Lateral — Alinhamento perfeito
    ============================== */
 .side-menu {
-  flex: 0 0 250px;          /* largura fixa do menu */
+  width: 250px;                  /* largura fixa do menu */
+  height: 564px;                 /* altura total do bloco */
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-  padding: 20px;
-  text-align: left;
-   
-  position: sticky;         /* deixa fixo enquanto o conteúdo rola */
-  top: 100px;               /* abaixo do cabeçalho fixo */
-  height: fit-content;      /* altura se ajusta ao conteúdo do menu */
-  display: flex;             /* organizar verticalmente */
+  padding: 8px;                  /* distância interna do bloco */
+  box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
+  position: sticky;              /* fixo ao rolar */
+  top: 100px;                     /* abaixo do cabeçalho */
+  display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* mantém os itens no topo do bloco */
-  gap: 12px;                 /* mantém o espaçamento original entre os links */
+  justify-content: flex-start;    /* itens do topo */
+  gap: 4px;                       /* distância entre os botões */
 }
 
 .side-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;                  /* para que os botões preencham verticalmente se necessário */
 }
 
 .side-menu li {
-  margin: 0; /* removendo margens extras, o gap acima mantém o espaçamento */
+  margin: 0;
 }
 
 .side-menu a {
-  display: block;
-  padding: 10px 15px; /* mantém o tamanho original */
+  display: flex;
+  align-items: center;           /* centraliza verticalmente o texto */
+  height: 48px;                  /* altura fixa do botão */
+  padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
   color: #264653;
   font-weight: 500;
   transition: all 0.3s ease;
+  justify-content: flex-start;   /* texto alinhado à esquerda */
 }
 
 .side-menu a:hover {
