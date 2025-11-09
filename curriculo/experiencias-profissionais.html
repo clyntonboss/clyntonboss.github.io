@@ -131,5 +131,16 @@
             });
         });
     </script>
+    <script>
+        // Expande ou recolhe detalhes das experiências
+        document.querySelectorAll('.toggle-details').forEach(button => {
+            button.addEventListener('click', () => {
+                const details = button.parentElement.nextElementSibling;
+                const isVisible = details.style.display === 'block';
+                details.style.display = isVisible ? 'none' : 'block';
+                button.textContent = isVisible ? '+' : '−';
+            });
+        });
+    </script>
 </body>
 </html>
