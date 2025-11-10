@@ -143,13 +143,13 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
+  height: 80px;
   background-color: #003f63;
   color: #e6e6e6;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 8px 0;
+  gap: 40px;
   font-size: 0.95rem;
   z-index: 1000;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
@@ -158,7 +158,7 @@ main {
 .footer a {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 8px; /* espaço entre ícone e texto */
   text-decoration: none;
   color: #e6e6e6;
   transition: color 0.3s ease, transform 0.2s ease;
@@ -175,18 +175,18 @@ main {
 }
 
 .footer-left {
-  align-self: flex-start; /* alinha à esquerda dentro do rodapé */
-  margin-left: 50px;      /* mesma distância da borda esquerda */
-  display: flex;
-  flex-direction: column; /* empilha o texto e a nota */
-  font-size: 0.85rem;
-  color: #cfcfcf;
+    position: absolute;
+    left: 50px; /* distancia da borda esquerda */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: #cfcfcf;
 }
 
 .footer-left::before {
-  content: "®"; /* símbolo do R dentro do círculo */
-  font-size: 0.85rem;
-  margin-right: 4px;
+    content: "®"; /* símbolo do R dentro do círculo */
+    font-size: 0.85rem;
 }
 
 .footer-left p {
@@ -196,32 +196,9 @@ main {
 
 .privacy-note {
   font-size: 0.85rem;
-  color: #c9d8e6;
+  color: #666;
+  margin-top: 4px;
   font-style: italic;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.footer-bottom {
-  width: 100%;
-  max-width: 1200px;
-  text-align: left;
-  padding-left: 50px;
-  margin-bottom: 4px;
-}
-
-.footer-bottom p {
-  margin: 2px 0;
-  line-height: 1.4;
-}
-
-.footer-bottom p:first-child {
-  color: #cfcfcf;
 }
 
 /* ==============================
