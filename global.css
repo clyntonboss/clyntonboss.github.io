@@ -175,21 +175,6 @@ main {
 }
 
 .footer-left {
-    position: absolute;
-    left: 50px; /* distancia da borda esquerda */
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.85rem;
-    color: #cfcfcf;
-}
-
-.footer-left::before {
-    content: "®"; /* símbolo do R dentro do círculo */
-    font-size: 0.85rem;
-}
-
-.footer-left {
   position: absolute;
   left: 50px;
   display: flex;
@@ -198,6 +183,13 @@ main {
   gap: 2px; /* 👈 pequeno espaçamento entre as linhas */
   font-size: 0.85rem;
   color: #cfcfcf;
+}
+
+.footer-left::before {
+  content: "® "; /* símbolo R + espaço */
+  font-size: 0.85rem;
+  display: inline; /* garante que fique na mesma linha */
+  vertical-align: middle; /* alinha com o texto */
 }
 
 .footer-left p {
