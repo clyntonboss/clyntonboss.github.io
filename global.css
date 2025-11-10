@@ -487,3 +487,7 @@ main {
     margin-top: 4px;
     color: #555;
 }
+
+html {
+  scrollbar-gutter: stable;
+}
