@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação Acadêmica | Rogério Clynton Ribeiro</title>
+    <link rel="icon" href="../assets/icons/academic-background-icon.png" type="image/png">
+    <link rel="stylesheet" href="../global.css">
+</head>
+<body>
+    <!-- Cabeçalho fixo -->
+    <header class="header">
+        <div class="header-left">
+            Rogério Clynton Ribeiro
+            <div class="last-update">
+                Última atualização em: 09 de novembro de 2025
+            </div>
+        </div>
+        <nav class="header-right">
+            <a href="/">Inicio</a>
+            <a href="../sobre.html">Sobre</a>
+            <a class="active">Currículo</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#artigos">Artigos Científicos</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <div class="container">
+        <!-- Seção Currículo -->
+        <section id="curriculo" class="main-section">
+            <div class="fixed-header-section">
+                <div class="fixed-header-container">
+                    <h1>
+                        <img src="../assets/icons/academic-background-icon.png" alt="Ícone de Projetos Pessoais" class="title-icon">
+                        <span class="title-wrapper">Currículo | Formação Acadêmica</span>
+                    </h1>
+                    <div class="decorative-line"></div>
+                </div>
+            </div>
+    
+            <!-- Container ajustado para o currículo -->
+            <div class="curriculo-container">
+                <!-- Menu lateral -->
+                <div class="side-menu">
+                  <ul>
+                    <li><a href="../curriculo/objetivo.html">Objetivo</a></li>
+                    <li><a href="../curriculo/experiencias-profissionais.html">Experiências Profissionais</a></li>
+                    <li><a href="../curriculo/projetos-pessoais.html">Projetos Pessoais</a></li>
+                    <li><a href="../curriculo/resultados-alcancados.html">Resultados Alcançados</a></li>
+                    <li><a href="../curriculo/trabalho-voluntario.html">Trabalho Voluntário</a></li>
+                    <li><a class="active">Formação Acadêmica</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#certificacoes">Certificações</a></li>
+                    <li><a href="#hard-skills">Hard Skills</a></li>
+                    <li><a href="#soft-skills">Soft Skills</a></li>
+                    <li><a href="#publicacoes">Publicações</a></li>
+                  </ul>
+                </div>
+            
+                <!-- Texto introdutório -->
+                <div class="curriculo-text fade-item">
+                    <p>
+                        A partir de <strong>fevereiro de 2012</strong>, desenvolvimento de projeto (Sistema) em <strong>VBA (Visual Basic for Applications)</strong> e <strong>Access</strong> para <strong>Gerenciamento (preenchimento e impressão) de Certificados e Diplomas</strong> e <strong>Arquivo Permanente (GerCeDi)</strong> e <strong>Gerenciamento de Biblioteca (GerBi)</strong> com suporte para os seguintes colégios:
+                    </p>
+                
+                    <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
+                        <li style="margin-bottom: 16px;">III Seminário de Pesquisa e Iniciação Científica (2020)</li>
+                        <li style="margin-bottom: 16px;">IV Seminário de Pesquisa e Iniciação Científica (2021)</li>
+                        <li style="margin-bottom: 16px;">V Seminário de Pesquisa e Iniciação Científica (2022)</li>
+                        <li style="margin-bottom: 16px;">VI Seminário de Pesquisa e Iniciação Científica (2023)</li>
+                        <li style="margin-bottom: 16px;">I Seminário de Ensino e Extensão (2023)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+      </div>
+    </main>
+    <!-- Rodapé fixo -->
+    <footer class="footer">
+        <div class="footer-left">
+          <p class="footer-main-text">® 2025 Phoenix Information Technology Solutions | Rogério Clynton Ribeiro</p>
+          <p class="privacy-note">Este site não utiliza cookies para coleta de dados pessoais.</p>
+        </div>
+        <a href="https://www.linkedin.com/in/rogério-clynton-ribeiro/" target="_blank">
+            <img src="../assets/icons/linkedin.svg" alt="LinkedIn" class="footer-icon"> LinkedIn
+        </a>
+        <a href="https://github.com/clyntonboss/" target="_blank">
+            <img src="../assets/icons/github.svg" alt="GitHub" class="footer-icon"> GitHub
+        </a>
+        <a href="mailto:clyntonribeiror@gmail.com">
+            <img src="../assets/icons/email.svg" alt="E-mail" class="footer-icon"> E-mail
+        </a>
+        <a href="tel:+5524999240768">
+            <img src="../assets/icons/phone.svg" alt="Telefone" class="footer-icon"> Telefone
+        </a>
+    </footer>
+
+    <!-- Fade-in JS -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const items = document.querySelectorAll('.fade-item');
+            items.forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add('visible');
+                }, index * 150); // 150ms entre cada elemento
+            });
+        });
+    </script>
+</body>
+</html>
