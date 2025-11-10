@@ -189,6 +189,28 @@ main {
     font-size: 0.85rem;
 }
 
+.footer-left {
+  position: absolute;
+  left: 50px;
+  display: flex;
+  flex-direction: column; /* 👈 força o conteúdo a ficar um embaixo do outro */
+  align-items: flex-start; /* 👈 alinha à esquerda */
+  gap: 2px; /* 👈 pequeno espaçamento entre as linhas */
+  font-size: 0.85rem;
+  color: #cfcfcf;
+}
+
+.footer-left p {
+  margin: 0;
+  line-height: 1.3;
+}
+
+.privacy-note {
+  font-size: 0.8rem;
+  color: #bdbdbd;
+  font-style: italic;
+}
+
 /* ==============================
    Configurações da Página Inicial
    ============================== */
