@@ -488,12 +488,13 @@ main {
     color: #555;
 }
 
+/* Oculta a barra de rolagem, mas mantém a rolagem funcional */
 body {
-  overflow-y: scroll; /* mantém rolagem */
+  overflow: auto;        /* Permite rolagem */
   scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer e Edge antigo */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 
 body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari e Edge moderno */
+  display: none; /* Chrome, Safari e Edge */
 }
