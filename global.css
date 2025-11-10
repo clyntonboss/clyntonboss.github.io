@@ -189,6 +189,17 @@ main {
     font-size: 0.85rem;
 }
 
+.footer-left::before {
+  content: "®";
+  font-size: 0.85rem;
+  margin-right: 4px;
+}
+
+.footer-note {
+  font-size: 0.75rem;
+  color: #bdbdbd;
+}
+
 /* ==============================
    Configurações da Página Inicial
    ============================== */
