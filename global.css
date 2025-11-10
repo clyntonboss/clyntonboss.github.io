@@ -488,6 +488,42 @@ main {
     color: #555;
 }
 
+/* Apenas na página Formação Acadêmica */
+body.formacao-academica .fixed-header-section {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2; /* fundo igual ao body */
+    z-index: 500;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+body.formacao-academica .side-menu {
+    position: fixed;
+    top: 160px;
+    left: 50px;
+    width: 250px;
+    height: calc(100vh - 160px);
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+    overflow-y: auto;
+    z-index: 400;
+}
+
+body.formacao-academica .curriculo-container {
+    padding-left: 320px; /* espaço para menu lateral fixo */
+    padding-top: 180px;  /* espaço para título fixo */
+}
+
+/* Ocultação da Barra de Rolamento Lateral */
 html, body {
   height: 100%;
   margin: 0;
