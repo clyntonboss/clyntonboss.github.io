@@ -196,6 +196,16 @@ main {
   font-style: italic;
 }
 
+.footer-main-text {
+  font-size: 1rem; /* aumenta discretamente o tamanho da linha superior */
+  color: #e6e6e6;
+}
+
+.footer-sub-text {
+  font-size: 0.8rem;
+  color: #cfcfcf;
+}
+
 /* ==============================
    Configurações da Página Inicial
    ============================== */
