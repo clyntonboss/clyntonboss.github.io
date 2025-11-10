@@ -189,18 +189,6 @@ main {
     font-size: 0.85rem;
 }
 
-.footer-left p {
-  margin: 0;
-  line-height: 1.4;
-}
-
-.privacy-note {
-  font-size: 0.85rem;
-  color: #666;
-  margin-top: 4px;
-  font-style: italic;
-}
-
 /* ==============================
    Configurações da Página Inicial
    ============================== */
