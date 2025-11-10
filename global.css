@@ -185,13 +185,6 @@ main {
   color: #cfcfcf;
 }
 
-.footer-left::before {
-  content: "® "; /* símbolo R + espaço */
-  font-size: 0.85rem;
-  display: inline; /* garante que fique na mesma linha */
-  vertical-align: middle; /* alinha com o texto */
-}
-
 .footer-left p {
   margin: 0;
   line-height: 1.3;
