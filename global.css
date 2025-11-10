@@ -143,13 +143,14 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: auto;
   background-color: #003f63;
   color: #e6e6e6;
   display: flex;
+  flex-direction: column; /* empilha o conteúdo verticalmente */
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  padding: 10px 0;
   font-size: 0.95rem;
   z-index: 1000;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
@@ -175,18 +176,18 @@ main {
 }
 
 .footer-left {
-    position: absolute;
-    left: 50px; /* distancia da borda esquerda */
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.85rem;
-    color: #cfcfcf;
+  align-self: flex-start; /* alinha à esquerda dentro do rodapé */
+  margin-left: 50px;      /* mesma distância da borda esquerda */
+  display: flex;
+  flex-direction: column; /* empilha o texto e a nota */
+  font-size: 0.85rem;
+  color: #cfcfcf;
 }
 
 .footer-left::before {
-    content: "®"; /* símbolo do R dentro do círculo */
-    font-size: 0.85rem;
+  content: "®"; /* símbolo do R dentro do círculo */
+  font-size: 0.85rem;
+  margin-right: 4px;
 }
 
 .footer-left p {
@@ -196,7 +197,7 @@ main {
 
 .privacy-note {
   font-size: 0.85rem;
-  color: #aaa;
+  color: #ccc;
   margin-top: 4px;
   font-style: italic;
 }
