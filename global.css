@@ -334,6 +334,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;    /* itens do topo */
+  align-self: flex-start;         /* impede centralização vertical */
   gap: 4px;                       /* distância entre os botões */
 }
 
@@ -406,6 +407,7 @@ main {
     height: calc(100vh - 300px); /* ocupa o espaço entre cabeçalho e rodapé */
     overflow: hidden; /* impede rolagem da página inteira */
     position: relative;
+    padding-top: 0; /* garante que não crie espaço acima */
 }
 
 .curriculo-text {
