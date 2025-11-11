@@ -125,7 +125,8 @@ body {
 }
 
 .header-name a:hover {
-    text-decoration: underline; /* opcional: efeito ao passar o mouse */
+    text-decoration: none; /* opcional: efeito ao passar o mouse */
+    color: inherit;          /* mantém a cor original ao passar o mouse */
 }
 
 .last-update {
