@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Skills | Rogério Clynton Ribeiro</title>
+    <link rel="icon" href="../assets/icons/hard-skills-icon.png" type="image/png">
+    <link rel="stylesheet" href="../global.css">
+</head>
+<body>
+    <!-- Cabeçalho fixo -->
+    <header class="header">
+        <div class="header-left">
+            <img src="../assets/images/foto-rogerio.jpg" alt="Foto de Rogério Clynton Ribeiro" class="header-photo">
+            <div class="header-text">
+                <div class="header-name">
+                    <a href="/">Rogério Clynton Ribeiro</a>
+                </div>
+                <div class="last-update">Atualizando...</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <div class="container">
+        <!-- Seção Currículo -->
+        <section id="curriculo" class="main-section">
+            <div class="fixed-header-section">
+                <div class="fixed-header-container">
+                    <h1>
+                        <img src="../assets/icons/hard-skills-icon.png" alt="Ícone Hard Skills" class="title-icon">
+                        <span class="title-wrapper">Hard Skills</span>
+                    </h1>
+                    <div class="decorative-line"></div>
+                </div>
+            </div>
+    
+            <!-- Container ajustado para o currículo -->
+            <div class="curriculo-container">
+                <!-- Menu lateral -->
+                <div class="side-menu">
+                  <ul>
+                    <li><a href="../portfolio/sobre.html">Sobre</a></li>
+                    <li><a href="../portfolio/objetivo.html">Objetivo</a></li>
+                    <li><a href="../portfolio/experiencias-profissionais.html">Experiências Profissionais</a></li>
+                    <li><a href="../portfolio/projetos-pessoais.html">Projetos Pessoais</a></li>
+                    <li><a href="../portfolio/bi-projects.html">BI Projects</a></li>
+                    <li><a href="../portfolio/resultados-alcancados.html">Resultados Alcançados</a></li>
+                    <li><a href="../portfolio/trabalho-voluntario.html">Trabalho Voluntário</a></li>
+                    <li><a href="../portfolio/formacao-academica.html">Formação Acadêmica</a></li>
+                    <li><a href="../portfolio/cursos.html">Cursos</a></li>
+                    <li><a href="../portfolio/certificacoes.html">Certificações</a></li>
+                    <li><a class="active">Hard Skills</a></li>
+                    <li><a href="../portfolio/soft-skills.html">Soft Skills</a></li>
+                    <li><a href="../portfolio/publicacoes.html">Publicações</a></li>
+                  </ul>
+                </div>
+            
+                <!-- Texto introdutório -->
+                <div class="curriculo-text fade-item">
+                    <div style="display: flex; gap: 40px; margin-top: 16px; flex-wrap: wrap;">
+                        <!-- Coluna 1 -->
+                        <ul style="flex: 1; list-style-type: disc; padding-left: 20px; line-height: 1.8; margin: 0;">
+                            <li>Nicrosoft Office</li>
+                            <li>Microsoft Power BI</li>
+                            <li>VBA (Visual Basic for Applications)</li>
+                            <li>Python™</li>
+                            <li>M Language</li>
+                            <li>R Language</li>
+                        </ul>
+                    
+                        <!-- Coluna 2 -->
+                        <ul style="flex: 1; list-style-type: disc; padding-left: 20px; line-height: 1.8; margin: 0;">
+                            <li>ETL (Extract, Transform and Load)</li>
+                            <li>Power Query</li>
+                            <li>DAX (Data Analysis Expressions)</li>
+                            <li>Data Storytelling</li>
+                            <li>Data Visualization</li>
+                            <li>Data-Driven</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+    </main>
+    <!-- Rodapé fixo -->
+    <footer class="footer">
+        <div class="footer-left">
+          <p class="footer-main-text">® 2025 Phoenix Information Technology Solutions | Rogério Clynton Ribeiro</p>
+          <p class="privacy-note">Este site não utiliza cookies para coleta de dados pessoais.</p>
+        </div>
+        <a href="https://www.linkedin.com/in/rogério-clynton-ribeiro/" target="_blank">
+            <img src="../assets/icons/linkedin.svg" alt="LinkedIn" class="footer-icon"> LinkedIn
+        </a>
+        <a href="https://github.com/clyntonboss/" target="_blank">
+            <img src="../assets/icons/github.svg" alt="GitHub" class="footer-icon"> GitHub
+        </a>
+        <a href="mailto:clyntonribeiror@gmail.com">
+            <img src="../assets/icons/email.svg" alt="E-mail" class="footer-icon"> E-mail
+        </a>
+        <a href="https://wa.me/5524999240768" target="_blank"">
+            <img src="../assets/icons/phone.svg" alt="Telefone" class="footer-icon"> Telefone
+        </a>
+    </footer>
+
+    <!-- Fade-in JS -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const items = document.querySelectorAll('.fade-item');
+            items.forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add('visible');
+                }, index * 150); // 150ms entre cada elemento
+            });
+        });
+    </script>
+    <script>
+        // Bloqueia o clique direito e altera o cursor discretamente
+        document.addEventListener('contextmenu', (e) => {
+            e.preventDefault(); // cancela o menu do clique direito
+        });
+    
+        // Altera o cursor para indicar que o clique direito não está disponível
+        document.body.addEventListener('mousedown', (e) => {
+            if (e.button === 2) { // botão direito
+                document.body.style.cursor = 'not-allowed';
+                setTimeout(() => {
+                    document.body.style.cursor = 'default';
+                }, 500);
+            }
+        });
+    </script>
+    <script src="../assets/js/update-date.js"></script>
+</body>
+</html>
