@@ -506,35 +506,3 @@ html, body {
 .scroll-wrapper::-webkit-scrollbar {
   display: none; /* Chrome, Safari e Edge */
 }
-
-/* ==============================
-   Rolagem apenas na seção principal (área entre header e footer)
-   ============================== */
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* mantém barra do body oculta — a rolagem ficará na .scroll-wrapper */
-}
-
-.scroll-wrapper {
-  position: fixed;
-  top: 80px;    /* altura do cabeçalho */
-  bottom: 80px; /* altura do rodapé */
-  left: 0;
-  right: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding: 20px 0;          /* opcional: mantém espaçamento semelhante ao anterior */
-  -webkit-overflow-scrolling: touch; /* rolagem suave em iOS */
-}
-
-/* opcional: esconder scrollbar visual em navegadores WebKit (se quiser) */
-.scroll-wrapper::-webkit-scrollbar {
-  width: 10px;
-}
-.scroll-wrapper::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.08);
-  border-radius: 6px;
-}
