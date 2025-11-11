@@ -126,6 +126,16 @@
                 const details = btn.parentElement.nextElementSibling;
                 const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
     
+                // Fecha todos os detalhes primeiro
+                toggles.forEach(otherBtn => {
+                    const otherDetails = otherBtn.parentElement.nextElementSibling;
+                    if (otherDetails !== details) {
+                        otherDetails.style.maxHeight = '0';
+                        otherBtn.textContent = '+';
+                    }
+                });
+    
+                // Alterna o item clicado
                 if (isOpen) {
                     details.style.maxHeight = '0';
                     btn.textContent = '+';
