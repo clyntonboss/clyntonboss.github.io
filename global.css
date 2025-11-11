@@ -506,3 +506,23 @@ html, body {
 .scroll-wrapper::-webkit-scrollbar {
   display: none; /* Chrome, Safari e Edge */
 }
+
+/* ==============================
+   Rolagem apenas na seção principal
+   ============================== */
+
+.scroll-wrapper {
+  position: fixed;
+  top: 80px; /* altura do cabeçalho */
+  bottom: 80px; /* altura do rodapé */
+  left: 0;
+  right: 0;
+  overflow-y: auto; /* apenas a área central rola */
+  overflow-x: hidden;
+  padding: 20px 0;
+}
+
+main {
+  height: 100%;
+  overflow: visible; /* libera o conteúdo dentro do main */
+}
