@@ -506,3 +506,28 @@ html, body {
 .scroll-wrapper::-webkit-scrollbar {
   display: none; /* Chrome, Safari e Edge */
 }
+
+/* --- Rolagem apenas no conteúdo principal --- */
+body {
+  overflow: hidden; /* impede o scroll global */
+}
+
+main {
+  overflow: hidden; /* o main não rola */
+  height: calc(100vh - 120px); /* preserva seu padding e mantém proporção */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.curriculo-container {
+  overflow: hidden; /* evita dupla rolagem */
+  height: 100%;
+}
+
+.curriculo-text {
+  overflow-y: auto; /* apenas o conteúdo rola */
+  max-height: calc(100vh - 180px); /* mantém o menu e o título visíveis */
+  padding-right: 10px; /* evita que o texto grude na borda */
+  scroll-behavior: smooth;
+}
