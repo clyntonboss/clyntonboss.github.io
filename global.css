@@ -89,6 +89,15 @@ body {
   width: 100%;
 }
 
+.header-photo {
+    width: 50px;            /* altura do cabeçalho = 80px, então 50px fica proporcional */
+    height: 50px;
+    border-radius: 50%;     /* deixa a foto redonda */
+    object-fit: cover;      /* mantém proporção sem distorcer */
+    margin-right: 12px;     /* espaço entre a foto e o nome */
+    vertical-align: middle; /* alinha verticalmente com o texto */
+}
+
 /* Área principal */
 main {
   flex: 1;
