@@ -330,7 +330,7 @@ main {
   padding: 12px;                  /* distância interna do bloco */
   box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
   position: sticky;              /* fixo ao rolar */
-  top: 20px;                     /* abaixo do cabeçalho */
+  top: 8px;                     /* abaixo do cabeçalho */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;    /* itens do topo */
