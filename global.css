@@ -118,6 +118,16 @@ body {
     color: #e6e6e6;
 }
 
+.header-name a {
+    color: inherit;           /* mantém a cor definida no .header-name */
+    text-decoration: none;    /* remove sublinhado */
+    font-weight: inherit;     /* mantém a mesma espessura da fonte */
+}
+
+.header-name a:hover {
+    text-decoration: underline; /* opcional: efeito ao passar o mouse */
+}
+
 .last-update {
     font-size: 0.7rem;
     color: #cfcfcf;
