@@ -107,6 +107,24 @@ body {
     line-height: 1.2;
 }
 
+.header-text {
+    display: flex;
+    flex-direction: column;  /* nome em cima, data embaixo */
+}
+
+.header-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #e6e6e6;
+}
+
+.last-update {
+    font-size: 0.7rem;
+    color: #cfcfcf;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
 /* Área principal */
 main {
   flex: 1;
