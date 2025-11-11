@@ -403,8 +403,9 @@ main {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
-    height: calc(100vh - 180px); /* ocupa o espaço entre cabeçalho e rodapé */
+    height: calc(100vh - 200px); /* ocupa o espaço entre cabeçalho e rodapé */
     overflow: hidden; /* impede rolagem da página inteira */
+    position: relative;
 }
 
 .curriculo-text {
@@ -415,7 +416,8 @@ main {
     font-size: 1rem;
     overflow-y: auto; /* ativa rolagem só no conteúdo */
     height: 100%; /* usa a altura total disponível */
-    padding-right: 10px; /* evita que o texto encoste na borda */
+    padding-right: 16px; /* evita que o texto encoste na borda */
+    box-sizing: border-box;
     scroll-behavior: smooth; /* rolagem suave */
 }
 
