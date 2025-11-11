@@ -369,7 +369,7 @@ main {
    ============================== */
 .side-menu {
   width: 250px;                  /* largura fixa do menu */
-  height: 596px;                 /* altura total do bloco */
+  height: 696px;                 /* altura total do bloco */
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
