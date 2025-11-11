@@ -44,6 +44,9 @@ body {
   font-weight: 600;
   letter-spacing: 0.5px;
   color: #e6e6e6;
+    display: flex;
+    align-items: center; /* centraliza verticalmente a foto com o nome */
+    gap: 12px;           /* espaço entre foto e texto */
 }
 
 .header-left:hover {
@@ -90,12 +93,18 @@ body {
 }
 
 .header-photo {
-    width: 50px;            /* altura do cabeçalho = 80px, então 50px fica proporcional */
-    height: 50px;
+    width: 70px;            /* altura do cabeçalho = 80px, então 50px fica proporcional */
+    height: 70px;
     border-radius: 50%;     /* deixa a foto redonda */
     object-fit: cover;      /* mantém proporção sem distorcer */
     margin-right: 12px;     /* espaço entre a foto e o nome */
     vertical-align: middle; /* alinha verticalmente com o texto */
+}
+
+.header-name-date {
+    display: flex;
+    flex-direction: column; /* nome em cima, data embaixo */
+    line-height: 1.2;
 }
 
 /* Área principal */
