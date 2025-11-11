@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetivo | Rogério Clynton Ribeiro</title>
+    <link rel="icon" href="../assets/icons/objective-icon.png" type="image/png">
+    <link rel="stylesheet" href="../global.css">
+</head>
+<body>
+    <!-- Cabeçalho fixo -->
+    <header class="header">
+        <div class="header-left">
+            Rogério Clynton Ribeiro
+            <div class="last-update">
+                Última atualização em: 09 de novembro de 2025
+            </div>
+        </div>
+        <nav class="header-right">
+            <a href="/">Inicio</a>
+            <a href="../sobre.html">Sobre</a>
+            <a class="active">Currículo</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#artigos">Artigos Científicos</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <div class="container">
+        <!-- Seção Currículo -->
+        <section id="curriculo" class="main-section">
+            <div class="fixed-header-section">
+                <div class="fixed-header-container">
+                    <h1>
+                        <img src="../assets/icons/objective-icon.png" alt="Ícone Objetivo" class="title-icon">
+                        <span class="title-wrapper">Currículo | Objetivo</span>
+                    </h1>
+                    <div class="decorative-line"></div>
+                </div>
+            </div>
+    
+            <!-- Container ajustado para o currículo -->
+            <div class="curriculo-container">
+                <!-- Menu lateral -->
+                <div class="side-menu">
+                  <ul>
+                    <li><a class="active">Objetivo</a></li>
+                    <li><a href="../curriculo/experiencias-profissionais.html">Experiências Profissionais</a></li>
+                    <li><a href="../curriculo/projetos-pessoais.html">Projetos Pessoais</a></li>
+                    <li><a href="../curriculo/resultados-alcancados.html">Resultados Alcançados</a></li>
+                    <li><a href="../curriculo/trabalho-voluntario.html">Trabalho Voluntário</a></li>
+                    <li><a href="../curriculo/formacao-academica.html">Formação Acadêmica</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="../curriculo/certificacoes.html">Certificações</a></li>
+                    <li><a href="../curriculo/hard-skills.html">Hard Skills</a></li>
+                    <li><a href="../curriculo/soft-skills.html">Soft Skills</a></li>
+                    <li><a href="../curriculo/publicacoes.html">Publicações</a></li>
+                  </ul>
+                </div>
+            
+                <!-- Texto introdutório -->
+                <div class="curriculo-text fade-item">
+                    <p>
+                        Atuar como Analista de Dados, Business Intelligence ou Engenheiro de Produção, utilizando minha considerável experiência em TI (Tecnologia da Informação), análise de sistemas e dados, com foco em otimizar os processos produtivos e as tomadas de decisões estratégicas orientadas à dados.
+                    </p>
+                    <p>
+                        Meu objetivo é aplicar minhas habilidades em ferramentas como Power BI, Python™, SQL e outros, aliadas à visão analítica, para impulsionar resultados eficientes, agregar valor e promover inovações tecnológicas dentro da organização.
+                    </p>
+                </div>
+            </div>
+        </section>
+      </div>
+    </main>
+    <!-- Rodapé fixo -->
+    <footer class="footer">
+        <div class="footer-left">
+          <p class="footer-main-text">® 2025 Phoenix Information Technology Solutions | Rogério Clynton Ribeiro</p>
+          <p class="privacy-note">Este site não utiliza cookies para coleta de dados pessoais.</p>
+        </div>
+        <a href="https://www.linkedin.com/in/rogério-clynton-ribeiro/" target="_blank">
+            <img src="../assets/icons/linkedin.svg" alt="LinkedIn" class="footer-icon"> LinkedIn
+        </a>
+        <a href="https://github.com/clyntonboss/" target="_blank">
+            <img src="../assets/icons/github.svg" alt="GitHub" class="footer-icon"> GitHub
+        </a>
+        <a href="mailto:clyntonribeiror@gmail.com">
+            <img src="../assets/icons/email.svg" alt="E-mail" class="footer-icon"> E-mail
+        </a>
+        <a href="https://wa.me/5524999240768" target="_blank"">
+            <img src="../assets/icons/phone.svg" alt="Telefone" class="footer-icon"> Telefone
+        </a>
+    </footer>
+
+    <!-- Fade-in JS -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const items = document.querySelectorAll('.fade-item');
+            items.forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add('visible');
+                }, index * 150); // 150ms entre cada elemento
+            });
+        });
+    </script>
+    <script>
+        // Bloqueia o clique direito e altera o cursor discretamente
+        document.addEventListener('contextmenu', (e) => {
+            e.preventDefault(); // cancela o menu do clique direito
+        });
+    
+        // Altera o cursor para indicar que o clique direito não está disponível
+        document.body.addEventListener('mousedown', (e) => {
+            if (e.button === 2) { // botão direito
+                document.body.style.cursor = 'not-allowed';
+                setTimeout(() => {
+                    document.body.style.cursor = 'default';
+                }, 500);
+            }
+        });
+    </script>
+</body>
+</html>
