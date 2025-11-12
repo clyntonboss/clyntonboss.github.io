@@ -78,7 +78,7 @@
                         </div>
 
                         <div class="exp-details" style="margin-bottom:10px;">
-                            <a href="../certificados/powerbi.pdf" target="_blank">
+                            <a href="#" onclick="abrirCertificado('https://drive.google.com/uc?id=1GGB-7_EKEuxRU51fQKx65zJw6lLwf6x9'); return false;">
                                 <img src="../certificados/thumb-rl-associados-white-belt-six-sigma-certificado-rogerio-clynton-ribeiro-18-11-2021.png" 
                                      alt="Certificado Power BI" 
                                      style="width:auto; height:149px; display:block; margin-bottom:15px;">
@@ -227,5 +227,25 @@
         });
     </script>
     <script src="../assets/js/update-date.js"></script>
+    <script>
+    function abrirCertificado(url) {
+      const largura = 1000;
+      const altura = 700;
+      const left = (screen.width / 2) - (largura / 2);
+      const top = (screen.height / 2) - (altura / 2);
+    
+      const janela = window.open(
+        'certificado.html?img=' + encodeURIComponent(url),
+        'Certificado',
+        `width=${largura},height=${altura},top=${top},left=${left},resizable=no,menubar=no,toolbar=no,location=no,status=no`
+      );
+    
+      if (janela) {
+        janela.focus();
+      } else {
+        alert("Por favor, permita pop-ups para este site.");
+      }
+    }
+    </script>
 </body>
 </html>
