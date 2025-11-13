@@ -77,7 +77,8 @@
                                 principal trazer cultura, informação e principalmente educação de qualidade a todos.
                             </p>
                             <p style="margin-top: 12px; font-size: 16px;">
-                                <a href="https://drive.google.com/file/d/1JCRW8R63R3sWioahq8X73pFMDN_BDb7-/preview" target="_blank" 
+                                <a href="javascript:void(0);" 
+                                   onclick="abrirArtigo('../artigos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" 
                                    style="color: #264653; text-decoration: none; font-weight: 600; transition: color 0.3s;">
                                    Para visualizar o artigo na íntegra, clique aqui.
                                 </a>
@@ -408,5 +409,18 @@
         });
     </script>
     <script src="../assets/js/update-date.js"></script>
+    <script>
+    function abrirArtigo(url) {
+      const largura = screen.width;
+      const altura = screen.height;
+      const janela = window.open(
+        '../artigo.html?file=' + encodeURIComponent(url),
+        'Artigo',
+        `width=${largura},height=${altura},top=0,left=0,menubar=no,toolbar=no,location=no,status=no,resizable=no`
+      );
+      if (janela) janela.focus();
+      else alert("Por favor, permita pop-ups para este site.");
+    }
+    </script>
 </body>
 </html>
