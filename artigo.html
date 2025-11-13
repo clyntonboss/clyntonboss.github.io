@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artigo Científico</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    iframe {
+      width: 90vw;
+      height: 90vh;
+      border: none;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background: white;
+    }
+
+    button {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+  <script>
+    // Desativa o clique com o botão direito
+    document.addEventListener('contextmenu', e => e.preventDefault());
+
+    // Desativa a seleção de texto
+    document.addEventListener('selectstart', e => e.preventDefault());
+
+    // Exibe o artigo recebido como parâmetro
+    window.onload = function() {
+      const params = new URLSearchParams(window.location.search);
+      const artigoUrl = params.get('file');
+      const iframe = document.getElementById('artigo');
+      if (artigoUrl) {
+        iframe.src = artigoUrl;
+      } else {
+        iframe.srcdoc = "<h2 style='text-align:center;margin-top:40vh;'>Nenhum artigo foi informado.</h2>";
+      }
+    };
+
+    // Fecha a janela
+    function fecharJanela() {
+      window.close();
+    }
+  </script>
+</head>
+<body>
+  <iframe id="artigo" title="Artigo Científico"></iframe>
+  <button onclick="fecharJanela()">Fechar</button>
+</body>
+</html>
