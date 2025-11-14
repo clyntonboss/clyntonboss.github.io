@@ -377,7 +377,7 @@ main {
   padding: 12px;                  /* distância interna do bloco */
   box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
   position: sticky;              /* fixo ao rolar */
-  top: 8px;                     /* abaixo do cabeçalho */
+  top: 4px;                     /* abaixo do cabeçalho */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;    /* itens do topo */
@@ -451,7 +451,7 @@ main {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
-  height: calc(100vh - 260px); /* ocupa o espaço entre cabeçalho e rodapé */
+  height: calc(100vh - 252px); /* ocupa o espaço entre cabeçalho e rodapé */
   overflow: hidden; /* impede rolagem da página inteira */
   position: relative;
   padding-top: 0; /* garante que não crie espaço acima */
