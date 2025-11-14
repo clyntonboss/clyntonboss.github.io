@@ -579,11 +579,3 @@ body {
     -moz-user-select: none;     /* Firefox */
     -ms-user-select: none;      /* IE/Edge antigo */
 }
-
-/* Redução */
-
-@media screen and (max-height: 1080px) {
-    html {
-        font-size: 85%;
-    }
-}
