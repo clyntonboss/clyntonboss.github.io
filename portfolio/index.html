@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Rogério Clynton Ribeiro</title>
     <link rel="icon" href="../assets/icons/curriculum-icon.png" type="image/png">
-    <link id="responsive-css" rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
     <!-- Cabeçalho fixo -->
@@ -121,17 +121,5 @@
         });
     </script>
     <script src="../assets/js/update-date.js"></script>
-    <script>
-      const cssLink = document.getElementById('responsive-css');
-      const height = window.innerHeight;
-    
-      if (height >= 1200) {
-        cssLink.href = 'global.css';
-      } else if (height >= 1080 && height < 1200) {
-        cssLink.href = 'media.css';
-      } else {
-        cssLink.href = 'global.css'; // fallback
-      }
-    </script>
 </body>
 </html>
