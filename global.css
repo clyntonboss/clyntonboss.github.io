@@ -44,9 +44,9 @@ body {
   font-weight: 600;
   letter-spacing: 0.5px;
   color: #e6e6e6;
-    display: flex;
-    align-items: center; /* centraliza verticalmente a foto com o nome */
-    gap: 12px;           /* espaço entre foto e texto */
+  display: flex;
+  align-items: center; /* centraliza verticalmente a foto com o nome */
+  gap: 12px;           /* espaço entre foto e texto */
 }
 
 .header-left:hover {
@@ -56,11 +56,11 @@ body {
 }
 
 .header-left .last-update {
-    font-size: 0.7rem;          /* menor que o nome */
-    color: #cfcfcf;             /* tom discreto */
-    font-weight: 400;
-    margin-top: 4px;            /* espaço entre o nome e a data */
-    line-height: 1.2;
+  font-size: 0.7rem;          /* menor que o nome */
+  color: #cfcfcf;             /* tom discreto */
+  font-weight: 400;
+  margin-top: 4px;            /* espaço entre o nome e a data */
+  line-height: 1.2;
 }
 
 .header-right a {
@@ -93,47 +93,47 @@ body {
 }
 
 .header-photo {
-    width: 70px;            /* altura do cabeçalho = 80px, então 50px fica proporcional */
-    height: 70px;
-    border-radius: 50%;     /* deixa a foto redonda */
-    object-fit: cover;      /* mantém proporção sem distorcer */
-    margin-right: 12px;     /* espaço entre a foto e o nome */
-    vertical-align: middle; /* alinha verticalmente com o texto */
+  width: 70px;            /* altura do cabeçalho = 80px, então 50px fica proporcional */
+  height: 70px;
+  border-radius: 50%;     /* deixa a foto redonda */
+  object-fit: cover;      /* mantém proporção sem distorcer */
+  margin-right: 12px;     /* espaço entre a foto e o nome */
+  vertical-align: middle; /* alinha verticalmente com o texto */
 }
 
 .header-name-date {
-    display: flex;
-    flex-direction: column; /* nome em cima, data embaixo */
-    line-height: 1.2;
+  display: flex;
+  flex-direction: column; /* nome em cima, data embaixo */
+  line-height: 1.2;
 }
 
 .header-text {
-    display: flex;
-    flex-direction: column;  /* nome em cima, data embaixo */
+  display: flex;
+  flex-direction: column;  /* nome em cima, data embaixo */
 }
 
 .header-name {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #e6e6e6;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #e6e6e6;
 }
 
 .header-name a {
-    color: inherit;           /* mantém a cor definida no .header-name */
-    text-decoration: none;    /* remove sublinhado */
-    font-weight: inherit;     /* mantém a mesma espessura da fonte */
+  color: inherit;           /* mantém a cor definida no .header-name */
+  text-decoration: none;    /* remove sublinhado */
+  font-weight: inherit;     /* mantém a mesma espessura da fonte */
 }
 
 .header-name a:hover {
-    text-decoration: none; /* opcional: efeito ao passar o mouse */
-    color: inherit;          /* mantém a cor original ao passar o mouse */
+  text-decoration: none; /* opcional: efeito ao passar o mouse */
+  color: inherit;          /* mantém a cor original ao passar o mouse */
 }
 
 .last-update {
-    font-size: 0.7rem;
-    color: #cfcfcf;
-    font-weight: 400;
-    margin-top: 2px;
+  font-size: 0.7rem;
+  color: #cfcfcf;
+  font-weight: 400;
+  margin-top: 2px;
 }
 
 /* Área principal */
@@ -317,15 +317,15 @@ main {
 
 /* Efeito fade-in geral para itens da seção */
 .fade-item {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 /* Quando ativo, todos aparecem */
 .fade-item.visible {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* ==============================
@@ -333,36 +333,36 @@ main {
    ============================== */
 
 .fixed-header-section {
-    position: sticky;
-    top: 80px; /* altura do cabeçalho */
-    background-color: transparent; /* fundo transparente */
-    z-index: 50;
-    padding-bottom: 10px;
-    display: flex;
+  position: sticky;
+  top: 80px; /* altura do cabeçalho */
+  background-color: transparent; /* fundo transparente */
+  z-index: 50;
+  padding-bottom: 10px;
+  display: flex;
     /* Removido justify-content: center para alinhar à esquerda */
 }
 
 .fixed-header-container {
-    max-width: 1024px; /* respeita largura máxima */
-    width: 100%;
+  max-width: 1024px; /* respeita largura máxima */
+  width: 100%;
 }
 
 .fixed-header-section h1 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #3c3c3c;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3c3c3c;
+  margin: 0;
 }
 
 .fixed-header-section .decorative-line {
-    width: 320px; /* largura da linha igual à largura do título */
-    height: 3px;
-    background-color: #5a646b;
-    border-radius: 2px;
-    margin: 8px 0 0 0; /* 8px de distância do título, alinhada à esquerda */
+  width: 320px; /* largura da linha igual à largura do título */
+  height: 3px;
+  background-color: #5a646b;
+  border-radius: 2px;
+  margin: 8px 0 0 0; /* 8px de distância do título, alinhada à esquerda */
 }
 
 /* ==============================
@@ -424,19 +424,19 @@ main {
    Menu Lateral — Link Ativo
    ============================== */
 .side-menu a.active {
-    background-color: #f5f5f5;        /* fundo diferente dos outros botões */
-    color: #333333;                    /* cor do texto contrastante */
-    cursor: default;                   /* desabilita o clique */
-    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* efeito "acende" igual ao nome no topo */
-    transform: none;                   /* remove deslocamento do hover */
+  background-color: #f5f5f5;        /* fundo diferente dos outros botões */
+  color: #333333;                    /* cor do texto contrastante */
+  cursor: default;                   /* desabilita o clique */
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* efeito "acende" igual ao nome no topo */
+  transform: none;                   /* remove deslocamento do hover */
 }
 
 /* Mantém efeito ao passar o mouse, mas sem deslocamento nem sublinhado */
 .side-menu a.active:hover {
-    background-color: #f5f5f5;         /* mantém o mesmo fundo */
-    color: #333333;                     /* mantém a cor do texto */
-    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* mesmo efeito "acende" */
-    transform: none;                    /* sem movimentação */
+  background-color: #f5f5f5;         /* mantém o mesmo fundo */
+  color: #333333;                     /* mantém a cor do texto */
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* mesmo efeito "acende" */
+  transform: none;                    /* sem movimentação */
 }
 
 /* ==============================
@@ -444,30 +444,30 @@ main {
    ============================== */
 
 .curriculo-container {
-    display: flex;
-    flex-direction: row; /* para menu lateral + texto */
-    align-items: flex-start; /* alinha o topo do texto com o topo do menu */
-    gap: 40px;
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-    height: calc(100vh - 300px); /* ocupa o espaço entre cabeçalho e rodapé */
-    overflow: hidden; /* impede rolagem da página inteira */
-    position: relative;
-    padding-top: 0; /* garante que não crie espaço acima */
+  display: flex;
+  flex-direction: row; /* para menu lateral + texto */
+  align-items: flex-start; /* alinha o topo do texto com o topo do menu */
+  gap: 40px;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  height: calc(100vh - 300px); /* ocupa o espaço entre cabeçalho e rodapé */
+  overflow: hidden; /* impede rolagem da página inteira */
+  position: relative;
+  padding-top: 0; /* garante que não crie espaço acima */
 }
 
 .curriculo-text {
-    flex: 1;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-    font-size: 1rem;
-    overflow-y: auto; /* ativa rolagem só no conteúdo */
-    height: 100%; /* usa a altura total disponível */
-    padding-right: 16px; /* evita que o texto encoste na borda */
-    box-sizing: border-box;
-    scroll-behavior: smooth; /* rolagem suave */
+  flex: 1;
+  text-align: justify;
+  line-height: 1.8;
+  color: #333;
+  font-size: 1rem;
+  overflow-y: auto; /* ativa rolagem só no conteúdo */
+  height: 100%; /* usa a altura total disponível */
+  padding-right: 16px; /* evita que o texto encoste na borda */
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* rolagem suave */
 
   /* esconde a barra de rolagem sem desativar o scroll */
   scrollbar-width: none; /* Firefox */
@@ -479,78 +479,78 @@ main {
 }
 
 .curriculo-text p {
-    margin-bottom: 1.2em; /* mesma distância que nas outras páginas */
-    line-height: 1.8;     /* mantém o espaçamento entre linhas */
+  margin-bottom: 1.2em; /* mesma distância que nas outras páginas */
+  line-height: 1.8;     /* mantém o espaçamento entre linhas */
 }
 
 /* Link ativo no cabeçalho */
 .header-right a.active {
-    color: #ffffff;
-    cursor: default;
-    pointer-events: none; /* impede clique */
-    transition: color 0.3s ease, text-shadow 0.3s ease;
+  color: #ffffff;
+  cursor: default;
+  pointer-events: none; /* impede clique */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 /* Simula o efeito de hover do nome, mas não permite clicar */
 .header-right a.active:hover {
-    color: #ffffff;
-    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* efeito de “acender” */
-    transform: none;
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* efeito de “acender” */
+  transform: none;
 }
 
 .header-right a.active::after {
-    content: none; /* remove a linha deslizante */
+  content: none; /* remove a linha deslizante */
 }
 
 /* Estilo das experiências */
 .experience {
-    border-bottom: 1px solid #ccc;
-    padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
 }
 
 .exp-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
 
 .exp-period {
-    font-weight: 600;
-    margin-right: 10px;
-    color: #264653;
+  font-weight: 600;
+  margin-right: 10px;
+  color: #264653;
 }
 
 .exp-role {
-    flex: 1;
-    font-weight: 500;
-    color: #333;
+  flex: 1;
+  font-weight: 500;
+  color: #333;
 }
 
 .exp-toggle {
-    background: none;
-    border: none;
-    color: #333;              /* mesma cor do texto */
-    font-weight: bold;
-    font-size: 20px;          /* um pouco maior para boa leitura */
-    cursor: pointer;
-    padding: 0;
-    margin-left: 8px;         /* leve afastamento do texto */
-    transition: transform 0.2s ease;
+  background: none;
+  border: none;
+  color: #333;              /* mesma cor do texto */
+  font-weight: bold;
+  font-size: 20px;          /* um pouco maior para boa leitura */
+  cursor: pointer;
+  padding: 0;
+  margin-left: 8px;         /* leve afastamento do texto */
+  transition: transform 0.2s ease;
 }
 
 .exp-toggle:hover {
-    transform: scale(1.2);    /* leve aumento ao passar o mouse */
-    color: #264653;           /* realce suave na cor do hover */
+  transform: scale(1.2);    /* leve aumento ao passar o mouse */
+  color: #264653;           /* realce suave na cor do hover */
 }
 
 .exp-details {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    padding-left: 10px;
-    margin-top: 4px;
-    color: #555;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding-left: 10px;
+  margin-top: 4px;
+  color: #555;
 }
 
 /* Ocultação da Barra de Rolamento Lateral */
@@ -574,8 +574,8 @@ html, body {
 
 /* Impede seleção de texto em toda a página */
 body {
-    user-select: none;          /* padrão moderno */
-    -webkit-user-select: none;  /* Chrome, Safari */
-    -moz-user-select: none;     /* Firefox */
-    -ms-user-select: none;      /* IE/Edge antigo */
+  user-select: none;          /* padrão moderno */
+  -webkit-user-select: none;  /* Chrome, Safari */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* IE/Edge antigo */
 }
