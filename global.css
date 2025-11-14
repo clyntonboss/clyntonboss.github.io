@@ -451,7 +451,7 @@ main {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
-  height: calc(100vh - 292px); /* ocupa o espaço entre cabeçalho e rodapé */
+  height: calc(100vh - 288px); /* ocupa o espaço entre cabeçalho e rodapé */
   overflow: hidden; /* impede rolagem da página inteira */
   position: relative;
   padding-top: 0; /* garante que não crie espaço acima */
