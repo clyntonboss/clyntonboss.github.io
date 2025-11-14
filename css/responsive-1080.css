@@ -1,0 +1,12 @@
+/* CSS para telas menores que 1080px */
+@media screen and (max-height: 1920px) {
+
+    body {
+        zoom: 0.90;
+    }
+
+    /* Ajuste opcional se algo ficar deslocado */
+    main {
+        padding-bottom: 80px;
+    }
+}
