@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const lastUpdateElements = document.querySelectorAll('.last-update');
     
     // Define a data de atualização aqui:
-    const dataAtualizacao = "11 de novembro de 2025";
+    const dataAtualizacao = "14 de novembro de 2025";
 
     lastUpdateElements.forEach(el => {
         el.textContent = `Última atualização em: ${dataAtualizacao}`;
