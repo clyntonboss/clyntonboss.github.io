@@ -580,34 +580,10 @@ body {
     -ms-user-select: none;      /* IE/Edge antigo */
 }
 
-/* ==============================
-   Ajuste automático para telas <= 1080px
-   Redução de 10% do layout
-   ============================== */
+/* Redução */
 
 @media screen and (max-height: 1080px) {
-
-    /* Reduz toda a escala do site */
-    body {
-        transform: scale(0.90);
-        transform-origin: top center;
-    }
-
-    /* Garante que o conteúdo não fique cortado após o scale */
-    html, body {
-        height: auto !important;
-        overflow: visible !important;
-    }
-
-    /* Ajusta cabeçalho e rodapé para manter proporção */
-    .header,
-    .footer {
-        transform: scale(1.0); /* mantém tamanho original para não ficar pequeno demais */
-        transform-origin: top center;
-    }
-
-    /* Ajusta posição para compensar o novo scale */
-    main {
-        padding-top: 130px; /* pequeno ajuste vertical */
+    html {
+        font-size: 90%;
     }
 }
