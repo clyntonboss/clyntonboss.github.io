@@ -190,14 +190,14 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 72px;
   background-color: #003f63;
   color: #e6e6e6;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
-  font-size: 0.95rem;
+  font-size: 0.855rem;
   z-index: 1000;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -217,8 +217,8 @@ main {
 }
 
 .footer-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .footer-left {
@@ -238,13 +238,13 @@ main {
 }
 
 .privacy-note {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   color: #bdbdbd;
   font-style: italic;
 }
 
 .footer-main-text {
-  font-size: 1rem; /* aumenta discretamente o tamanho da linha superior */
+  font-size: 0,9rem; /* aumenta discretamente o tamanho da linha superior */
   color: #e6e6e6;
 }
 
@@ -334,7 +334,7 @@ main {
 
 .fixed-header-section {
   position: sticky;
-  top: 80px; /* altura do cabeçalho */
+  top: 72px; /* altura do cabeçalho */
   background-color: transparent; /* fundo transparente */
   z-index: 50;
   padding-bottom: 10px;
@@ -351,7 +351,7 @@ main {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: #3c3c3c;
   margin: 0;
@@ -401,7 +401,7 @@ main {
 .side-menu a {
   display: flex;
   align-items: center;           /* centraliza verticalmente o texto */
-  height: 48px;                  /* altura fixa do botão */
+  height: 43.2px;                  /* altura fixa do botão */
   width: 218px;
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
@@ -532,7 +532,7 @@ main {
   border: none;
   color: #333;              /* mesma cor do texto */
   font-weight: bold;
-  font-size: 20px;          /* um pouco maior para boa leitura */
+  font-size: 18px;          /* um pouco maior para boa leitura */
   cursor: pointer;
   padding: 0;
   margin-left: 8px;         /* leve afastamento do texto */
