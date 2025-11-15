@@ -401,7 +401,7 @@ main {
 .side-menu a {
   display: flex;
   align-items: center;           /* centraliza verticalmente o texto */
-  height: 16px;                  /* altura fixa do botão */
+  height: 40px;                  /* altura fixa do botão */
   width: 218px;
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
