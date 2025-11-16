@@ -597,7 +597,7 @@ body {
 /* Categorias dos Certificados */
 
 .cert-categories {
-    margin-bottom: 35px;
+    margin-bottom: 0px;
     padding: 20px 0;
 }
 
