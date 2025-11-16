@@ -579,3 +579,17 @@ body {
   -moz-user-select: none;     /* Firefox */
   -ms-user-select: none;      /* IE/Edge antigo */
 }
+
+/* Borda dos Certificados */
+
+.cert-thumb {
+    border: 1px solid rgba(0,0,0,0.15); /* borda bem discreta */
+    border-radius: 6px;                /* cantos levemente arredondados */
+    padding: 2px;                      /* pequena área interna */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cert-thumb:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0,0,0,0.20);
+}
