@@ -604,7 +604,8 @@ body {
 .cert-links {
     display: flex;
     flex-direction: column;   /* Agora fica um embaixo do outro */
-    gap: 10px;
+    gap: 6px;
+    align-items: flex-start;
 }
 
 .cert-links a {
