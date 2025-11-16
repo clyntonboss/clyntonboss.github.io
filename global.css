@@ -627,4 +627,5 @@ body {
 /* Remove margem superior apenas na página de certificados */
 #curriculo .cert-categories {
     margin-top: 0 !important;
+    padding-top: 0 !important;
 }
