@@ -68,6 +68,13 @@ body {
   transition: opacity 1.2s ease, transform 1.2s ease; /* mesma suavidade do nome */
 }
 
+.last-update {
+   font-size: 0.7rem;
+   color: #cfcfcf;
+   font-weight: 400;
+   margin-top: 2px;
+}
+
 .header-right a {
   position: relative;
   margin-left: 25px;
