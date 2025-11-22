@@ -118,7 +118,7 @@ body {
   color: #e6e6e6;
   opacity: 0;                 /* começa invisível */
   transform: translateX(100%); /* começa fora da tela à direita */
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition: opacity 1.2s ease, transform 1.2s ease;
 }
 
 .header-name.visible {
