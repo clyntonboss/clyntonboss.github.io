@@ -114,6 +114,14 @@ body {
   object-fit: cover;      /* mantém proporção sem distorcer */
   margin-right: 12px;     /* espaço entre a foto e o nome */
   vertical-align: middle; /* alinha verticalmente com o texto */
+  opacity: 0;
+  transform: translateX(40px); /* começa deslocado para a direita */
+  transition: opacity 1.2s ease, transform 1.2s ease; /* duração maior e easing suave */
+}
+
+.header-photo.visible {
+  opacity: 1;
+  transform: translateX(0); /* termina na posição original */
 }
 
 .header-name-date {
