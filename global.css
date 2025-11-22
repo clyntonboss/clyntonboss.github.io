@@ -653,3 +653,12 @@ body {
     margin-top: 0 !important;
     padding-top: 0 !important;
 }
+
+/* Página estática */
+body.static-header .header-photo {
+body.static-header .header-name,
+body.static-header .last-update {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+    transition: none !important; /* desativa animação */
+}
