@@ -142,6 +142,9 @@ body {
   color: #cfcfcf;
   font-weight: 400;
   margin-top: 2px;
+  opacity: 0;
+  transform: translateX(50px); /* começa deslocado para a direita */
+  transition: opacity 1.2s ease, transform 1.2s ease; /* mesma suavidade do nome */
 }
 
 /* Área principal */
