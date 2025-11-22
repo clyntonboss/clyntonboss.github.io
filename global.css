@@ -39,7 +39,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.header-left {
+.header-left .last-update.visible {
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -47,6 +47,8 @@ body {
   display: flex;
   align-items: center; /* centraliza verticalmente a foto com o nome */
   gap: 12px;           /* espaço entre foto e texto */
+  opacity: 1;
+  transform: translateX(0); /* volta para a posição original */
 }
 
 .header-left:hover {
