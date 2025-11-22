@@ -39,7 +39,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.header-left .last-update.visible {
+.header-left {
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -47,8 +47,6 @@ body {
   display: flex;
   align-items: center; /* centraliza verticalmente a foto com o nome */
   gap: 12px;           /* espaço entre foto e texto */
-  opacity: 1;
-  transform: translateX(0); /* volta para a posição original */
 }
 
 .header-left:hover {
@@ -63,9 +61,6 @@ body {
   font-weight: 400;
   margin-top: 4px;            /* espaço entre o nome e a data */
   line-height: 1.2;
-  opacity: 0;
-  transform: translateX(50px); /* começa deslocado para a direita */
-  transition: opacity 1.2s ease, transform 1.2s ease; /* mesma suavidade do nome */
 }
 
 .last-update {
