@@ -358,7 +358,7 @@ main {
 }
 
 .fixed-header-section .decorative-line {
-  width: 320px; /* largura da linha igual à largura do título */
+  width: 400px; /* largura da linha igual à largura do título */
   height: 3px;
   background-color: #5a646b;
   border-radius: 2px;
