@@ -369,7 +369,7 @@ main {
    Menu Lateral — Alinhamento perfeito
    ============================== */
 .side-menu {
-  width: 270px;                  /* largura fixa do menu */
+  width: 290px;                  /* largura fixa do menu */
   height: 592px;                 /* altura total do bloco */
   background-color: #ffffff;
   border-radius: 12px;
@@ -402,7 +402,7 @@ main {
   display: flex;
   align-items: center;           /* centraliza verticalmente o texto */
   height: 40px;                  /* altura fixa do botão */
-  width: 238px;
+  width: 258px;
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
