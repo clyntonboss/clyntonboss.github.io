@@ -94,9 +94,13 @@
             });
             // Slide-in do nome no cabeçalho
             const headerName = document.querySelector('.header-name');
+            const lastUpdate = document.querySelector('.last-update');
             setTimeout(() => {
                 headerName.classList.add('visible');
-            }, 100); // pequeno delay para parecer natural
+            }, 200); // pequeno delay para parecer natural
+            setTimeout(() => {
+                lastUpdate.classList.add('visible');
+            }, 500); // depois desliza a data
         });
     </script>
     <script>
