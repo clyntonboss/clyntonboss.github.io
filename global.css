@@ -402,7 +402,7 @@ main {
   display: flex;
   align-items: center;           /* centraliza verticalmente o texto */
   height: 40px;                  /* altura fixa do botão */
-  width: 218px;
+  width: 238px;
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
