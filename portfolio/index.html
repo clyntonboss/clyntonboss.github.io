@@ -102,12 +102,20 @@
                     el.classList.add('visible');
                 }, index * 150); // 150ms entre cada elemento
             });
+
+            // Slide-in da foto no cabeçalho
+            const headerPhoto = document.querySelector('.header-photo');
+            setTimeout(() => {
+                headerPhoto.classList.add('visible');
+            }, 100); // pequeno delay para parecer natural
+
             // Slide-in do nome no cabeçalho
             const headerName = document.querySelector('.header-name');
             setTimeout(() => {
                 headerName.classList.add('visible');
             }, 100); // pequeno delay para parecer natural
-            // Slide-in do nome no cabeçalho
+
+            // Slide-in da data no cabeçalho
             const lastUpdate = document.querySelector('.last-update');
             setTimeout(() => {
                 lastUpdate.classList.add('visible');
