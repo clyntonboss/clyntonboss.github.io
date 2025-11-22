@@ -655,7 +655,7 @@ body {
 }
 
 /* Página estática */
-body.static-header .header-photo {
+body.static-header .header-photo,
 body.static-header .header-name,
 body.static-header .last-update {
     opacity: 1 !important;
