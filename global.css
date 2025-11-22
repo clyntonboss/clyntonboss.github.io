@@ -116,6 +116,14 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
   color: #e6e6e6;
+  opacity: 0;                 /* começa invisível */
+  transform: translateX(100%); /* começa fora da tela à direita */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.header-name.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .header-name a {
