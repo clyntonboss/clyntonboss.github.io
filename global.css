@@ -369,7 +369,7 @@ main {
    Menu Lateral — Alinhamento perfeito
    ============================== */
 .side-menu {
-  width: 250px;                  /* largura fixa do menu */
+  width: 270px;                  /* largura fixa do menu */
   height: 592px;                 /* altura total do bloco */
   background-color: #ffffff;
   border-radius: 12px;
