@@ -61,6 +61,9 @@ body {
   font-weight: 400;
   margin-top: 4px;            /* espaço entre o nome e a data */
   line-height: 1.2;
+  opacity: 0;
+  transform: translateX(50px); /* começa deslocado para a direita */
+  transition: opacity 1.2s ease, transform 1.2s ease; /* mesma suavidade do nome */
 }
 
 .header-right a {
@@ -135,16 +138,6 @@ body {
 .header-name a:hover {
   text-decoration: none; /* opcional: efeito ao passar o mouse */
   color: inherit;          /* mantém a cor original ao passar o mouse */
-}
-
-.last-update {
-  font-size: 0.7rem;
-  color: #cfcfcf;
-  font-weight: 400;
-  margin-top: 2px;
-  opacity: 0;
-  transform: translateX(50px); /* começa deslocado para a direita */
-  transition: opacity 1.2s ease, transform 1.2s ease; /* mesma suavidade do nome */
 }
 
 /* Área principal */
