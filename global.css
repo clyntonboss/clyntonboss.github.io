@@ -144,7 +144,7 @@ main {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1302px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -157,7 +157,7 @@ main {
   font-weight: 600;
   color: #264653;
   margin-bottom: 0.5rem;
-  max-width: 1200px;
+  max-width: 1302px;
   position: relative;
   flex-wrap: wrap;
 }
@@ -262,7 +262,7 @@ main {
   display: flex;
   align-items: center;
   gap: 40px;
-  max-width: 1200px;
+  max-width: 1302px;
   width: 100%;
   margin: 0 auto;
 }
@@ -343,7 +343,7 @@ main {
 }
 
 .fixed-header-container {
-  max-width: 1200px; /* respeita largura máxima */
+  max-width: 1302px; /* respeita largura máxima */
   width: 100%;
 }
 
@@ -448,7 +448,7 @@ main {
   flex-direction: row; /* para menu lateral + texto */
   align-items: flex-start; /* alinha o topo do texto com o topo do menu */
   gap: 40px;
-  max-width: 1200px;
+  max-width: 1302px;
   width: 100%;
   margin: 0 auto;
   height: calc(100vh - 262px); /* ocupa o espaço entre cabeçalho e rodapé */
