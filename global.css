@@ -132,7 +132,7 @@ body {
   font-weight: 600;
   color: #e6e6e6;
   opacity: 0;                 /* começa invisível */
-  transform: translateX(240px); /* começa fora da tela à direita */
+  transform: translateX(160px); /* começa fora da tela à direita */
   transition: opacity 1.2s ease, transform 1.2s ease;
 }
 
