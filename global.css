@@ -654,6 +654,7 @@ body {
     color: #444;
     transition: all 0.25s ease;
     padding: 4px 2px; /* Pequeno espaçamento para manter o alinhamento */
+    margin-left: 2px;
 }
 
 /* Hover suave, elegante e SEM efeito de botão */
