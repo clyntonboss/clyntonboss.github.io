@@ -1,25 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <script>
-    (function() {
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        document.documentElement.setAttribute('data-theme', savedTheme);
-    
-        // Ajuste do ícone ANTES da página carregar
-        const iconPath = savedTheme === 'dark'
-            ? 'assets/icons/sun.png'    // ícone para voltar ao light
-            : 'assets/icons/moon.png';  // ícone para ir ao dark
-    
-        // Espera o DOM existir e então troca o ícone
-        document.addEventListener("DOMContentLoaded", function() {
-            const themeToggleIcon = document.getElementById('theme-icon');
-            if (themeToggleIcon) {
-                themeToggleIcon.src = iconPath;
-            }
-        });
-    })();
-    </script>
+    <script defer src="transition.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Rogério Clynton Ribeiro</title>
