@@ -1,24 +1,29 @@
-const toggleButton = document.getElementById('theme-toggle');
-const icon = document.getElementById('theme-icon');
+document.addEventListener("DOMContentLoaded", () => {
+    const toggleButton = document.getElementById('theme-toggle');
+    const icon = document.getElementById('theme-icon');
 
-function setTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-
-    if (theme === 'dark') {
-        icon.classList.remove('fa-sun');
-        icon.classList.add('fa-moon');
-    } else {
-        icon.classList.remove('fa-moon');
-        icon.classList.add('fa-sun');
+    function setIcon(theme) {
+        if (theme === "dark") {
+            icon.classList.remove("fa-sun");
+            icon.classList.add("fa-moon");
+        } else {
+            icon.classList.remove("fa-moon");
+            icon.classList.add("fa-sun");
+        }
     }
-}
 
-// Carrega o tema imediatamente
-const savedTheme = localStorage.getItem('theme') || 'light';
-setTheme(savedTheme);
+    const savedTheme = localStorage.getItem("theme") || "light";
 
-toggleButton.addEventListener('click', () => {
-    const currentTheme = localStorage.getItem('theme') || 'light';
-    setTheme(currentTheme === 'light' ? 'dark' : 'light');
+    // Apenas ajusta o ícone — sem mexer no tema (pois isso causaria piscada!)
+    setIcon(savedTheme);
+
+    toggleButton.addEventListener("click", () => {
+        const current = document.documentElement.getAttribute("data-theme");
+        const newTheme = current === "light" ? "dark" : "light";
+
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+
+        setIcon(newTheme);
+    });
 });
