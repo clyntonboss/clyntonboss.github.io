@@ -704,7 +704,7 @@ body.static-header .last-update {
 
 /* Tema Light padrão */
 :root {
-    --bg-color-page: #003E62;
+    --bg-color-header: #003E62;
     --bg-color-page: #EAEAEA;
     --bg-color-footer: #003E62;
     --text-color: #181818;
@@ -714,7 +714,7 @@ body.static-header .last-update {
 
 /* Tema Dark */
 [data-theme="dark"] {
-    --bg-color-page: #101010;
+    --bg-color-header: #101010;
     --bg-color-page: #181818;
     --bg-color-footer: #101010;
     --text-color: #00FF00;
