@@ -6,6 +6,7 @@
 :root {
     --bg-color-header: #003E62;
     --bg-color-page: #EAEAEA;
+    --bg-color-footer: #003E62;
     --text-color: #222;
     --header-color: #264653;
 }
@@ -13,7 +14,8 @@
 /* Tema dark */
 .dark-mode {
     --bg-color-header: #101010;
-    --bg-color-page: #1C1C1C;
+    --bg-color-page: #181818;
+    --bg-color-footer: #101010;
     --text-color: #e0e0e0;
     --header-color: #90caf9;
 }
