@@ -717,7 +717,7 @@ body.static-header .last-update {
     --bg-color-header: #101010;
     --bg-color-page: #181818;
     --bg-color-footer: #101010;
-    --text-color: #00FF00;
+    --text-color: #EAEAEA;
     --card-bg: #1e1e1e;
     --accent-color: #8bb9ff;
 }
@@ -730,13 +730,13 @@ body.static-header .last-update {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 36px;
+    font-size: 32px;
     color: var(--text-color);
     transition: transform .2s ease, color .3s ease;
 }
 
 /* Efeito hover elegante */
 #theme-toggle:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
     color: var(--accent-color);
 }
