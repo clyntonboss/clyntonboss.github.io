@@ -725,7 +725,7 @@ body.static-header .last-update {
 }
 
 html:not(.dark-mode) #theme-icon {
-    color: #282828; /* cor no modo LIGHT */
+    color: #EAEAEA; /* cor no modo LIGHT */
 }
 
 html.dark-mode #theme-icon {
