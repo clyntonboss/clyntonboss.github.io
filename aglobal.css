@@ -720,7 +720,7 @@ body.static-header .last-update {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 36px;
     transition: color 0.3s ease;
 }
 
@@ -738,7 +738,7 @@ html.dark-mode #theme-icon {
     top: 50%;
     right: 50px;
     transform: translateY(-50%);
-    font-size: 1.55rem;
+    font-size: 36px;
     background: transparent;
     border: none;
     cursor: pointer;
