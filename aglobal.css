@@ -4,14 +4,14 @@
 
 /* Tema padrão (light) */
 :root {
-    --bg-color-page: #f8f9fa;
+    --bg-color-page: #EAEAEA;
     --text-color: #222;
     --header-color: #264653;
 }
 
 /* Tema dark */
 .dark-mode {
-    --bg-color-page: #121212;
+    --bg-color-page: #323232;
     --text-color: #e0e0e0;
     --header-color: #90caf9;
 }
