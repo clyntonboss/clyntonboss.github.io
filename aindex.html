@@ -138,20 +138,13 @@
         function updateIcon() {
           if (document.documentElement.classList.contains("dark-mode")) {
             themeIcon.textContent = "☾"; 
-            themeIcon.style.color = "#282828"; // Lua: cinza profundo, elegante
           } else {
             themeIcon.textContent = "☼"; 
-            themeIcon.style.color = "#EAEAEA"; // Sol: branco suave (cor que você quis)
           }
         }
         
         toggleBtn.addEventListener("click", () => {
           const isDark = document.documentElement.classList.toggle("dark-mode");
-    
-          // Se quiser também pode manter uma .light-mode, mas não é obrigatório
-          if (!isDark) {
-            document.documentElement.classList.remove("dark-mode");
-          }
     
           // Salvar no navegador
           localStorage.setItem("theme", isDark ? "dark" : "light");
