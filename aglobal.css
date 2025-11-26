@@ -713,19 +713,18 @@ body.static-header .last-update {
 
 /* Botão de alternância de tema */
 .theme-toggle {
-    position: fixed;
-    top: 20px;
+    position: absolute;
     right: 50px;
-    background: none;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
     border: none;
-    font-size: 1.6rem;
     cursor: pointer;
-    color: #264653; /* tom elegante que combina com o projeto */
-    transition: transform 0.3s ease, color 0.3s ease;
-    z-index: 9999;
+    color: inherit;
+    padding: 6px;
+    transition: transform .2s ease;
 }
 
 .theme-toggle:hover {
-    transform: scale(1.2);
-    color: #1b323c; /* tom mais escuro no hover */
+    transform: translateY(-50%) scale(1.14);
 }
