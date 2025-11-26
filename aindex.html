@@ -135,9 +135,11 @@
         
         function updateIcon() {
           if (document.documentElement.classList.contains("dark-mode")) {
-            themeIcon.textContent = "☾"; // Lua
+            themeIcon.textContent = "☾"; 
+            themeIcon.style.color = "#8ab4f8"; // azul suave para a lua
           } else {
-            themeIcon.textContent = "☼"; // Sol
+            themeIcon.textContent = "☼"; 
+            themeIcon.style.color = "#e9a14d"; // laranja elegante para o sol
           }
         }
         
