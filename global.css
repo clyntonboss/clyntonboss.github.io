@@ -716,9 +716,9 @@ body.static-header .last-update {
 
 /* Tema Dark */
 [data-theme="dark"] {
-    --bg-color-header: #101010;
+    --bg-color-header: #001820;
     --bg-color-page: #181818;
-    --bg-color-footer: #101010;
+    --bg-color-footer: #001820;
     --text-color: #EAEAEA;
     --card-bg: #1e1e1e;
     --accent-color: #8bb9ff;
