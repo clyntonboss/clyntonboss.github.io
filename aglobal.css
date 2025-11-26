@@ -8,7 +8,6 @@
     --bg-color-page: #EAEAEA;
     --bg-color-footer: #003E62;
     --text-color: #181818;
-    --header-color: #264653;
 }
 
 /* Tema dark */
@@ -17,7 +16,6 @@
     --bg-color-page: #181818;
     --bg-color-footer: #101010;
     --text-color: #00FF00;
-    --header-color: #90caf9;
 }
 
 /* Reset e tipografia */
@@ -46,7 +44,7 @@ body {
   width: 100%;
   height: 80px;
   background-color: var(--bg-color-header); /* azul-petróleo elegante */
-  color: var(--header-color); /* cinza claro */
+  color: #EAEAEA; /* cinza claro */
   display: flex;
   align-items: center;
   justify-content: space-between;
