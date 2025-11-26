@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <script defer src="transition.js"></script>
+    <script>
+    (function() {
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Rogério Clynton Ribeiro</title>
@@ -134,5 +139,6 @@
     </script>
     <script src="assets/js/update-date.js"></script>
     <script src="theme.js"></script>
+    <script defer src="transition.js"></script>
 </body>
 </html>
