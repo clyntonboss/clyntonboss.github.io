@@ -718,7 +718,7 @@ body.static-header .last-update {
     right: 50px;
     background: none;
     border: none;
-    font-size: 1.6rem;
+    font-size: 26px;
     cursor: pointer;
     color: #264653; /* tom elegante que combina com o projeto */
     transition: transform 0.3s ease, color 0.3s ease;
