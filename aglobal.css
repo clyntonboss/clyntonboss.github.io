@@ -4,14 +4,14 @@
 
 /* Tema padrão (light) */
 :root {
-    --bg-color: #f8f9fa;
+    --bg-color-page: #f8f9fa;
     --text-color: #222;
     --header-color: #264653;
 }
 
 /* Tema dark */
 .dark-mode {
-    --bg-color: #121212;
+    --bg-color-page: #121212;
     --text-color: #e0e0e0;
     --header-color: #90caf9;
 }
@@ -25,7 +25,7 @@
 
 body {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background-color: var(--bg-color); /* fundo principal suavizado */
+  background-color: var(--bg-color-page); /* fundo principal suavizado */
   color: var(--text-color);
   line-height: 1.6;
   display: flex;
