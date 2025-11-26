@@ -708,7 +708,7 @@ body.static-header .last-update {
     font-size: 26px;
     cursor: pointer;
     transition: transform 0.2s ease;
-    color: var(--text-color);
+    color: #e6e6e6;
 }
 
 .theme-toggle:hover {
