@@ -28,7 +28,7 @@ body {
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: var(--br-color-header); /* azul-petróleo elegante */
+  background-color: var(--bg-color-header); /* azul-petróleo elegante */
   color: #e6e6e6; /* cinza claro */
   display: flex;
   align-items: center;
@@ -216,7 +216,7 @@ main {
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: var(--br-color-footer);
+  background-color: var(--bg-color-footer);
   color: #e6e6e6;
   display: flex;
   align-items: center;
