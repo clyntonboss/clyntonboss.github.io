@@ -5,6 +5,33 @@
     (function() {
         const savedTheme = localStorage.getItem('theme') || 'light';
         document.documentElement.setAttribute('data-theme', savedTheme);
+    
+        const themeIcon = document.getElementById('theme-icon');
+    
+        // Inicializa o ícone correto imediatamente
+        if (savedTheme === 'dark') {
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        } else {
+            themeIcon.classList.remove('fa-sun');
+            themeIcon.classList.add('fa-moon');
+        }
+    
+        // Alternância ao clicar
+        document.getElementById('theme-toggle').addEventListener('click', function() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+    
+            if (newTheme === 'dark') {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        });
     })();
     </script>
     <meta charset="UTF-8">
@@ -25,7 +52,7 @@
             </div>
         </div>
         <button id="theme-toggle" aria-label="Alternar tema">
-            <i id="theme-icon" class="fas fa-moon"></i>
+            <i id="theme-icon" class="fas" data-theme-icon="moon"></i>
         </button>
     </header>
 
