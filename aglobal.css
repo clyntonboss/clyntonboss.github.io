@@ -715,50 +715,56 @@ body.static-header .last-update {
     transform: translateY(0);
 }
 
-/* Botão de alternância de tema */
-#theme-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 26px;
-    transition: color 0.3s ease;
-}
-
-html:not(.dark-mode) #theme-icon {
-    color: #282828; /* cor no modo LIGHT */
-}
-
-html.dark-mode #theme-icon {
-    color: #EAEAEA; /* cor no modo DARK */
-}
-
-/* Hover Ícones */
+/* Botão de tema — forçando comportamento estável e hover "acendendo" */
 .theme-toggle {
-    position: absolute;
-    top: 50%;
-    right: 50px;
-    transform: translateY(-50%);
-    font-size: 1.55rem;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    transition: transform 0.25s ease, 
-                filter 0.25s ease,
-                opacity 0.25s ease;
-    opacity: 0.85;
+  position: fixed;                 /* mantém no canto, compatível com header fixed */
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;                   /* garante que fique acima de quase tudo */
+  pointer-events: auto;            /* garante que receba eventos */
+  transition: transform 0.22s ease, filter 0.22s ease, opacity 0.22s ease;
+  opacity: 0.95;
+  color: inherit;                  /* herda cor definida por variáveis */
 }
 
-/* efeito hover suave */
+/* ícone interno */
+#theme-icon {
+  font-size: 22px;
+  line-height: 1;
+  display: inline-block;
+  transition: color 0.22s ease, text-shadow 0.22s ease;
+  color: inherit;                  /* importante: deixa o CSS controlar a cor */
+}
+
+/* hover — efeito "acendendo" (leve glow) */
 .theme-toggle:hover {
-    transform: translateY(-50%) scale(1.13);
-    filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.35));
-    opacity: 1;
+  transform: translateY(-50%) scale(1.12);
+  filter: drop-shadow(0 0 8px rgba(0,0,0,0.12));
+  opacity: 1;
 }
 
-.dark-mode .theme-toggle:hover {
-    filter: drop-shadow(0px 0px 8px rgba(138, 180, 248, 0.45));
+/* hover quando em dark-mode (glow mais frio) */
+html.dark-mode .theme-toggle:hover {
+  filter: drop-shadow(0 0 10px rgba(138,180,248,0.40));
 }
 
-.light-mode .theme-toggle:hover {
-    filter: drop-shadow(0px 0px 8px rgba(233, 161, 77, 0.45));
+/* Cores do ícone por tema — não precisa JS para colorir */
+html:not(.dark-mode) #theme-icon {
+  color: #EAEAEA; /* cor no modo light */
+  text-shadow: none;
 }
+html.dark-mode #theme-icon {
+  color: #282828; /* cor no modo dark */
+  text-shadow: none;
+}
+
+/* Caso ainda haja algum overlay estranho, garantir que o botão capture o clique */
+.theme-toggle, .theme-toggle * { pointer-events: auto; }
