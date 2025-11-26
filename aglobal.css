@@ -721,14 +721,9 @@ body.static-header .last-update {
 }
 
 html:not(.dark-mode) #theme-icon {
-    color: #d49246; /* cor no modo LIGHT */
+    color: #282828; /* cor no modo LIGHT */
 }
 
 html.dark-mode #theme-icon {
-    color: #8ab4f8; /* cor no modo DARK */
-}
-
-#theme-toggle:hover {
-    transform: scale(1.2);
-    color: #1b323c; /* tom mais escuro no hover */
+    color: #EAEAEA; /* cor no modo DARK */
 }
