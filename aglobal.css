@@ -4,6 +4,7 @@
 
 /* Tema padrão (light) */
 :root {
+    --bg-color-header: #003E62;
     --bg-color-page: #EAEAEA;
     --text-color: #222;
     --header-color: #264653;
@@ -11,6 +12,7 @@
 
 /* Tema dark */
 .dark-mode {
+    --bg-color-header: #101010;
     --bg-color-page: #323232;
     --text-color: #e0e0e0;
     --header-color: #90caf9;
@@ -41,7 +43,7 @@ body {
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: #003f63; /* azul-petróleo elegante */
+  background-color: var(--bg-color-header); /* azul-petróleo elegante */
   color: var(--header-color); /* cinza claro */
   display: flex;
   align-items: center;
