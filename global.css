@@ -29,7 +29,7 @@ body {
   width: 100%;
   height: 80px;
   background-color: var(--bg-color-header); /* azul-petróleo elegante */
-  color: #e6e6e6; /* cinza claro */
+  color: #00FF00; /* cinza claro */
   display: flex;
   align-items: center;
   justify-content: space-between;
