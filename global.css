@@ -29,7 +29,7 @@ body {
   width: 100%;
   height: 80px;
   background-color: var(--bg-color-header); /* azul-petróleo elegante */
-  color: #00FF00; /* cinza claro */
+  color: #e6e6e6; /* cinza claro */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +45,7 @@ body {
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 0.5px;
-  color: #00FF00;
+  color: #e6e6e6;
   display: flex;
   align-items: center; /* centraliza verticalmente a foto com o nome */
   gap: 12px;           /* espaço entre foto e texto */
@@ -140,7 +140,7 @@ body {
 .header-name {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #e6e6e6;
+  color: #00FF00;
   opacity: 0;                 /* começa invisível */
   transform: translateX(160px); /* começa fora da tela à direita */
   transition: opacity 1.2s ease, transform 1.2s ease;
