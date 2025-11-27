@@ -731,7 +731,7 @@ body.static-header .last-update {
    --intro-text: #808080;
    --box-shadow-header: 0 6px 16px rgba(192,192,192,0.1);
    --box-shadow-side-menu: 0 6px 18px rgba(192,192,192,0.1);
-   --box-shadow-header: 0 -6px 16px rgba(192,192,192,0.1);
+   --box-shadow-footer: 0 -6px 16px rgba(192,192,192,0.1);
 
    --text-color: #EAEAEA;
    --card-bg: #1e1e1e;
