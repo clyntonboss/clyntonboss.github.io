@@ -3,15 +3,24 @@
 <head>
     <script>
     (function() {
-        const savedTheme = localStorage.getItem('theme');
-        if(savedTheme) {
-            document.documentElement.setAttribute('data-theme', savedTheme);
-        }
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
     
         const themeToggle = document.getElementById('theme-toggle');
         const themeIcon = document.getElementById('theme-icon');
     
-        if(themeToggle && themeIcon) {
+        if (themeIcon) {
+            // Define o ícone correto imediatamente
+            themeIcon.className = `fas ${savedTheme === 'dark' ? 'fa-sun' : 'fa-moon'}`;
+    
+            // Adiciona a classe de visibilidade para animar
+            setTimeout(() => {
+                themeIcon.classList.add('visible');
+            }, 50); // 50ms já é suficiente
+        }
+    
+        // Alternância de tema ao clicar
+        if (themeToggle && themeIcon) {
             themeToggle.addEventListener('click', function() {
                 const currentTheme = document.documentElement.getAttribute('data-theme');
                 const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
@@ -19,6 +28,7 @@
                 localStorage.setItem('theme', newTheme);
     
                 themeIcon.className = `fas ${newTheme === 'dark' ? 'fa-sun' : 'fa-moon'}`;
+                themeIcon.classList.add('visible'); // garante animação ao alternar
             });
         }
     })();
@@ -43,7 +53,7 @@
             </div>
         </div>
         <button id="theme-toggle" aria-label="Alternar tema">
-            <i id="theme-icon" class="fas" data-theme-icon="moon"></i>
+            <i id="theme-icon" class="fas"></i>
         </button>
     </header>
 
