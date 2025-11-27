@@ -354,7 +354,7 @@ main {
 }
 
 .intro-text strong {
-  color: #264653;
+  color: var(--intro-text);
 }
 
 /* Efeito fade-in geral para itens da seção */
