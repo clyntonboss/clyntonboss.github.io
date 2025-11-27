@@ -4,33 +4,38 @@
     <script>
     (function() {
         const savedTheme = localStorage.getItem('theme') || 'light';
+    
+        // Aplica tema imediatamente
         document.documentElement.setAttribute('data-theme', savedTheme);
     
-        const themeToggle = document.getElementById('theme-toggle');
-        const themeIcon = document.getElementById('theme-icon');
+        // Espera o DOM estar carregado
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = document.getElementById('theme-icon');
     
-        if (themeIcon) {
-            // Define o ícone correto imediatamente
-            themeIcon.className = `fas ${savedTheme === 'dark' ? 'fa-sun' : 'fa-moon'}`;
+            if (themeIcon) {
+                // Define o ícone correto
+                themeIcon.className = `fas ${savedTheme === 'dark' ? 'fa-sun' : 'fa-moon'}`;
     
-            // Adiciona a classe de visibilidade para animar
-            setTimeout(() => {
-                themeIcon.classList.add('visible');
-            }, 50); // 50ms já é suficiente
-        }
+                // Aplica a animação de surgimento
+                setTimeout(() => {
+                    themeIcon.classList.add('visible');
+                }, 50);
+            }
     
-        // Alternância de tema ao clicar
-        if (themeToggle && themeIcon) {
-            themeToggle.addEventListener('click', function() {
-                const currentTheme = document.documentElement.getAttribute('data-theme');
-                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-                document.documentElement.setAttribute('data-theme', newTheme);
-                localStorage.setItem('theme', newTheme);
+            // Alternância ao clicar
+            if (themeToggle && themeIcon) {
+                themeToggle.addEventListener('click', function() {
+                    const currentTheme = document.documentElement.getAttribute('data-theme');
+                    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                    document.documentElement.setAttribute('data-theme', newTheme);
+                    localStorage.setItem('theme', newTheme);
     
-                themeIcon.className = `fas ${newTheme === 'dark' ? 'fa-sun' : 'fa-moon'}`;
-                themeIcon.classList.add('visible'); // garante animação ao alternar
-            });
-        }
+                    themeIcon.className = `fas ${newTheme === 'dark' ? 'fa-sun' : 'fa-moon'}`;
+                    themeIcon.classList.add('visible'); // garante animação ao alternar
+                });
+            }
+        });
     })();
     </script>
     <meta charset="UTF-8">
