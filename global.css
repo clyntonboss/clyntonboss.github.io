@@ -415,7 +415,7 @@ main {
   height: 592px;                 /* altura total do bloco */
   background-color: var(--bg-color-header);
   border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 18px rgba(192,192,192,0.1);
   padding: 12px;                  /* distância interna do bloco */
   box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
   position: sticky;              /* fixo ao rolar */
@@ -448,7 +448,7 @@ main {
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
-  color: #808080;
+  color: #C0C0C0;
   font-weight: 500;
   transition: all 0.3s ease;
   justify-content: flex-start;   /* texto alinhado à esquerda */
