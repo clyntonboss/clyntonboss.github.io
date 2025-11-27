@@ -312,7 +312,7 @@ main {
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow-side-menu);
 }
 
 .btn-projetos {
