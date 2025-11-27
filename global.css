@@ -344,7 +344,7 @@ main {
   flex: 1;
   text-align: justify;
   line-height: 1.7;
-  color: var(--text-color);
+  color: var(--intro-text);
   font-size: 1rem;
 }
 
@@ -395,7 +395,7 @@ main {
   gap: 10px;
   font-size: 2rem;
   font-weight: 600;
-  color: #3c3c3c;
+  color: var(--fixed-header-section);
   margin: 0;
 }
 
@@ -711,6 +711,7 @@ body.static-header .last-update {
    --bg-color-footer: #0A3C5C;
    --header-name: #F8F8F8;
    --fixed-header-section: #080808;
+   --intro-text: #282828;
    
    --text-color: #181818;
    --card-bg: #f5f5f5;
@@ -724,6 +725,7 @@ body.static-header .last-update {
    --bg-color-footer: #000406;
    --header-name: #C0C0C0;
    --fixed-header-section: #4C4C4C;
+   --intro-text: #808080;
 
    --text-color: #EAEAEA;
    --card-bg: #1e1e1e;
