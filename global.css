@@ -466,10 +466,10 @@ main {
    Menu Lateral — Link Ativo
    ============================== */
 .side-menu a.active {
-  background-color: #f5f5f5;        /* fundo diferente dos outros botões */
-  color: #333333;                    /* cor do texto contrastante */
+  background-color: var(--intro-text);        /* fundo diferente dos outros botões */
+  color: #080808;                    /* cor do texto contrastante */
   cursor: default;                   /* desabilita o clique */
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* efeito "acende" igual ao nome no topo */
+  text-shadow: 0 0 8px rgba(248, 248, 248, 0.1); /* efeito "acende" igual ao nome no topo */
   transform: none;                   /* remove deslocamento do hover */
 }
 
