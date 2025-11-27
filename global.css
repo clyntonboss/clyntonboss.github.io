@@ -706,9 +706,9 @@ body.static-header .last-update {
 
 /* Tema Light padrão */
 :root {
-    --bg-color-header: #0A3D5C;
-    --bg-color-page: #F5F7F9;
-    --bg-color-footer: #0A3D5C;
+    --bg-color-header: #f5f5f5;
+    --bg-color-page: #ffffff;
+    --bg-color-footer: #f5f5f5;
     --text-color: #181818;
     --card-bg: #f5f5f5;
     --accent-color: #4e73df;
@@ -716,9 +716,9 @@ body.static-header .last-update {
 
 /* Tema Dark */
 [data-theme="dark"] {
-    --bg-color-header: #062C43;
-    --bg-color-page: #1B1C1E;
-    --bg-color-footer: #062C43;
+    --bg-color-header: #1e1e1e;
+    --bg-color-page: #121212;
+    --bg-color-footer: #1e1e1e;
     --text-color: #EAEAEA;
     --card-bg: #1e1e1e;
     --accent-color: #8bb9ff;
