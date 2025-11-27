@@ -737,7 +737,7 @@ body.static-header .last-update {
     border: none;
     cursor: pointer;
     font-size: 28px;
-    color: var(--text-color);
+    color: var(--header-name);
     transition: transform .2s ease, color .3s ease;
 }
 
