@@ -830,5 +830,13 @@
     }
     </script>
     <script src="../theme.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.getElementById('theme-toggle');
+        if(toggle){
+            toggle.classList.add('loaded');
+        }
+    });
+    </script>
 </body>
 </html>
