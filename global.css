@@ -448,7 +448,7 @@ main {
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
-  color: #F4F6F8;
+  color: #808080;
   font-weight: 500;
   transition: all 0.3s ease;
   justify-content: flex-start;   /* texto alinhado à esquerda */
@@ -456,8 +456,8 @@ main {
 }
 
 .side-menu a:hover {
-  background-color: #264653;
-  color: #ffffff;
+  background-color: var(--bg-color-page);
+  color: var(--intro-text);
   transform: translateX(4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
