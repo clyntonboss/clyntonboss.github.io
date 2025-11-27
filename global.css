@@ -140,7 +140,7 @@ body {
 .header-name {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #00FF00;
+  color: #F4F6F8;
   opacity: 0;                 /* começa invisível */
   transform: translateX(160px); /* começa fora da tela à direita */
   transition: opacity 1.2s ease, transform 1.2s ease;
