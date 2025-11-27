@@ -415,7 +415,7 @@ main {
   height: 592px;                 /* altura total do bloco */
   background-color: var(--bg-color-header);
   border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(192,192,192,0.1);
+  box-shadow: var(--box-shadow);
   padding: 12px;                  /* distância interna do bloco */
   box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
   position: sticky;              /* fixo ao rolar */
@@ -712,6 +712,7 @@ body.static-header .last-update {
    --header-name: #F8F8F8;
    --fixed-header-section: #080808;
    --intro-text: #282828;
+   --box-shadow: 0 6px 18px rgba(40,40,40,0.1);
    
    --text-color: #181818;
    --card-bg: #f5f5f5;
@@ -726,6 +727,7 @@ body.static-header .last-update {
    --header-name: #C0C0C0;
    --fixed-header-section: #4C4C4C;
    --intro-text: #808080;
+   --box-shadow: 0 6px 18px rgba(192,192,192,0.1);
 
    --text-color: #EAEAEA;
    --card-bg: #1e1e1e;
