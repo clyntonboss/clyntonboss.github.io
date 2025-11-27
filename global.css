@@ -719,7 +719,7 @@ body.static-header .last-update {
    --fixed-header-section: #080808;
    --intro-text: #282828;
    --box-shadow-header: 0 6px 16px rgba(8,8,8,0.25);
-   --box-shadow-side-menu: 0 6px 16px rgba(8,8,8,0.25);
+   --box-shadow-side-menu: 0 0px 16px rgba(8,8,8,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(8,8,8,0.25);
    
    --text-color: #181818;
@@ -736,7 +736,7 @@ body.static-header .last-update {
    --fixed-header-section: #4C4C4C;
    --intro-text: #808080;
    --box-shadow-header: 0 6px 16px rgba(248,248,248,0.25);
-   --box-shadow-side-menu: 0 6px 16px rgba(248,248,248,0.25);
+   --box-shadow-side-menu: 0 0px 16px rgba(248,248,248,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(248,248,248,0.25);
 
    --text-color: #EAEAEA;
