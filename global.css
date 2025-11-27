@@ -2,6 +2,11 @@
    global.css — versão refinada com tons neutros
    ============================== */
 
+/* Declaração da Escalabilidade Font Size */
+html {
+  font-size: 100%;
+}
+
 /* Reset e tipografia */
 * {
   margin: 0;
@@ -504,7 +509,7 @@ main {
   text-align: justify;
   line-height: 1.8;
   color: var(--intro-text);
-  font-size: 1rem;
+  font-size: 1.25rem;
   overflow-y: auto; /* ativa rolagem só no conteúdo */
   height: 100%; /* usa a altura total disponível */
   padding-right: 16px; /* evita que o texto encoste na borda */
