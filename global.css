@@ -218,7 +218,7 @@ main {
   width: 100%;
   height: 80px;
   background-color: var(--bg-color-footer);
-  color: #e6e6e6;
+  color: var(--header-name);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,7 +234,7 @@ main {
   align-items: center;
   gap: 8px; /* espaço entre ícone e texto */
   text-decoration: none;
-  color: #e6e6e6;
+  color: var(--header-name);
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
