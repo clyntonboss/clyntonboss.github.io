@@ -406,8 +406,8 @@ main {
 
 .fixed-header-section .decorative-line {
   width: 400px; /* largura da linha igual à largura do título */
-  height: 3px;
-  background-color: #5a646b;
+  height: 2px;
+  background-color: var(--fixed-header-section);
   border-radius: 2px;
   margin: 8px 0 0 0; /* 8px de distância do título, alinhada à esquerda */
 }
