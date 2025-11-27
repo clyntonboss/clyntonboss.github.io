@@ -694,6 +694,7 @@ body.static-header .last-update {
     font-family: 'Dancing Script', cursive;
     font-size: 2.4rem;
     margin-top: 32px;
+    color: var(--fixed-header-section) !important;
     text-align: center;
     opacity: 0;
     transform: translateY(20px);
