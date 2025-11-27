@@ -717,9 +717,9 @@ body.static-header .last-update {
    --header-name: #F8F8F8;
    --fixed-header-section: #080808;
    --intro-text: #282828;
-   --box-shadow-header: 0 6px 16px rgba(40,40,40,0.1);
-   --box-shadow-side-menu: 0 6px 18px rgba(40,40,40,0.1);
-   --box-shadow-footer: 0 -6px 16px rgba(40,40,40,0.1);
+   --box-shadow-header: 0 6px 16px rgba(40,40,40,0.25);
+   --box-shadow-side-menu: 0 6px 18px rgba(40,40,40,0.25);
+   --box-shadow-footer: 0 -6px 16px rgba(40,40,40,0.25);
    
    --text-color: #181818;
    --card-bg: #f5f5f5;
