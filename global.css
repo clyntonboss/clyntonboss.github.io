@@ -448,7 +448,7 @@ main {
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
-  color: #264653;
+  color: #F4F6F8;
   font-weight: 500;
   transition: all 0.3s ease;
   justify-content: flex-start;   /* texto alinhado à esquerda */
