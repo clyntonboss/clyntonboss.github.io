@@ -4,11 +4,8 @@
     <script>
     (function() {
         const savedTheme = localStorage.getItem('theme') || 'light';
-    
-        // Aplica tema imediatamente
         document.documentElement.setAttribute('data-theme', savedTheme);
     
-        // Espera o DOM estar carregado
         document.addEventListener('DOMContentLoaded', () => {
             const themeToggle = document.getElementById('theme-toggle');
             const themeIcon = document.getElementById('theme-icon');
@@ -23,16 +20,15 @@
                 }, 50);
             }
     
-            // Alternância ao clicar
             if (themeToggle && themeIcon) {
-                themeToggle.addEventListener('click', function() {
+                themeToggle.addEventListener('click', () => {
                     const currentTheme = document.documentElement.getAttribute('data-theme');
                     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
                     document.documentElement.setAttribute('data-theme', newTheme);
                     localStorage.setItem('theme', newTheme);
     
-                    themeIcon.className = `fas ${newTheme === 'dark' ? 'fa-sun' : 'fa-moon'}`;
-                    themeIcon.classList.add('visible'); // garante animação ao alternar
+                    // Atualiza o ícone sem remover a classe 'visible'
+                    themeIcon.className = `fas ${newTheme === 'dark' ? 'fa-sun' : 'fa-moon'} visible`;
                 });
             }
         });
