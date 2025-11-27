@@ -413,7 +413,7 @@ main {
 .side-menu {
   width: 290px;                  /* largura fixa do menu */
   height: 592px;                 /* altura total do bloco */
-  background-color: #ffffff;
+  background-color: var(--bg-color-page);
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
   padding: 12px;                  /* distância interna do bloco */
