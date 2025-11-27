@@ -658,7 +658,7 @@ body {
 
 .cert-links a {
     text-decoration: none;
-    font-size: 1.05rem;
+    font-size: 1.25rem;
     color: var(--intro-text);
     transition: all 0.25s ease;
     padding: 4px 2px; /* Pequeno espaçamento para manter o alinhamento */
@@ -667,7 +667,7 @@ body {
 
 /* Hover suave, elegante e SEM efeito de botão */
 .cert-links a:hover {
-    color: #000;              /* Leve escurecida */
+    color: #0A3C5C;              /* Leve escurecida */
     transform: scale(1.04);   /* Cresce de forma suave */
     text-shadow: 0px 1px 3px rgba(0,0,0,0.18); /* Sombra suave do texto */
 }
