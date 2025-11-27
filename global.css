@@ -266,7 +266,7 @@ main {
 
 .privacy-note {
   font-size: 0.8rem;
-  color: #bdbdbd;
+  color: var(--header-name);
   font-style: italic;
 }
 
