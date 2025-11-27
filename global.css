@@ -424,7 +424,8 @@ main {
   padding: 12px;                  /* distância interna do bloco */
   box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
   position: sticky;              /* fixo ao rolar */
-  top: 0px;                     /* abaixo do cabeçalho */
+  top: 16px;                     /* abaixo do cabeçalho */
+  left: 16px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;    /* itens do topo */
@@ -718,7 +719,7 @@ body.static-header .last-update {
    --fixed-header-section: #080808;
    --intro-text: #282828;
    --box-shadow-header: 0 6px 16px rgba(8,8,8,0.25);
-   --box-shadow-side-menu: 0 6px 18px rgba(8,8,8,0.25);
+   --box-shadow-side-menu: 0 6px 16px rgba(8,8,8,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(8,8,8,0.25);
    
    --text-color: #181818;
@@ -735,7 +736,7 @@ body.static-header .last-update {
    --fixed-header-section: #4C4C4C;
    --intro-text: #808080;
    --box-shadow-header: 0 6px 16px rgba(248,248,248,0.25);
-   --box-shadow-side-menu: 0 6px 18px rgba(248,248,248,0.25);
+   --box-shadow-side-menu: 0 6px 16px rgba(248,248,248,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(248,248,248,0.25);
 
    --text-color: #EAEAEA;
