@@ -659,7 +659,7 @@ body {
 
 .cert-links a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--intro-text);
     transition: all 0.25s ease;
     padding: 4px 2px; /* Pequeno espaçamento para manter o alinhamento */
