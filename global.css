@@ -566,7 +566,7 @@ main {
 .exp-period {
   font-weight: 600;
   margin-right: 10px;
-  color: #264653;
+  color: var(--exp-period);
 }
 
 .exp-role {
@@ -721,6 +721,7 @@ body.static-header .last-update {
    --box-shadow-header: 0 6px 16px rgba(8,8,8,0.25);
    --box-shadow-side-menu: 0 0px 16px rgba(8,8,8,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(8,8,8,0.25);
+   --exp-period: #264653;
    
    --text-color: #181818;
    --card-bg: #f5f5f5;
@@ -738,6 +739,7 @@ body.static-header .last-update {
    --box-shadow-header: 0 6px 16px rgba(248,248,248,0.25);
    --box-shadow-side-menu: 0 0px 16px rgba(248,248,248,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(248,248,248,0.25);
+   --exp-period: #547888;
 
    --text-color: #EAEAEA;
    --card-bg: #1e1e1e;
