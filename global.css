@@ -379,6 +379,16 @@ main {
     color: var(--intro-text) !important;
 }
 
+.hard-skills-list {
+    font-size: 20px;
+    flex: 1;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 2.2; /* ← espaçamento vertical */
+    color: var(--intro-text);
+}
+
 /* Efeito fade-in geral para itens da seção */
 .fade-item {
   opacity: 0;
