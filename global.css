@@ -212,7 +212,7 @@ main {
 
 .main-section p {
   font-size: 1.05rem;
-  color: var(--intro-text);
+  color: var(--text-color);
 }
 
 /* Rodapé fixo */
