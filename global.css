@@ -366,7 +366,7 @@ main {
     margin-top: 15px;
     padding-left: 20px;
     list-style-type: disc;
-    color: var(--intro-text) !important;
+    color: #00FF00;
 }
 
 .intro-list li {
