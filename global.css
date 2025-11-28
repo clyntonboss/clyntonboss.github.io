@@ -572,7 +572,7 @@ main {
 .exp-role {
   flex: 1;
   font-weight: 500;
-  color: #333;
+  color: var(--exp-role);
 }
 
 .exp-toggle {
@@ -598,7 +598,7 @@ main {
   transition: max-height 0.3s ease;
   padding-left: 10px;
   margin-top: 4px;
-  color: #555;
+  color: var(--exp-details);
 }
 
 /* Ocultação da Barra de Rolamento Lateral */
@@ -722,6 +722,8 @@ body.static-header .last-update {
    --box-shadow-side-menu: 0 0px 16px rgba(8,8,8,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(8,8,8,0.25);
    --exp-period: #264653;
+   --exp-role: #282828;
+   --exp-details: #4C4C4C;
    
    --text-color: #181818;
    --card-bg: #f5f5f5;
@@ -740,6 +742,8 @@ body.static-header .last-update {
    --box-shadow-side-menu: 0 0px 16px rgba(248,248,248,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(248,248,248,0.25);
    --exp-period: #547888;
+   --exp-role: #808080;
+   --exp-details: #C0C0C0;
 
    --text-color: #EAEAEA;
    --card-bg: #1e1e1e;
