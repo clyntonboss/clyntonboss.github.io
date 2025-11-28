@@ -723,6 +723,7 @@ body.static-header .last-update {
    --box-shadow-footer: 0 -6px 16px rgba(8,8,8,0.25);
    --exp-period: #264653;
    --exp-role: #282828;
+   --exp-toggle: #282828;
    --exp-details: #4C4C4C;
    
    --text-color: #181818;
@@ -743,6 +744,7 @@ body.static-header .last-update {
    --box-shadow-footer: 0 -6px 16px rgba(248,248,248,0.25);
    --exp-period: #547888;
    --exp-role: #808080;
+   --exp-toggle: #808080;
    --exp-details: #C0C0C0;
 
    --text-color: #EAEAEA;
