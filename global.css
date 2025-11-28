@@ -366,17 +366,17 @@ main {
     margin-top: 15px;
     padding-left: 20px;
     list-style-type: disc;
-    color: #00FF00;
+    color: var(--intro-text);
 }
 
 .intro-list li {
     margin-bottom: 16px;
     line-height: 1.7;
-    color: var(--intro-text);
+    color: var(--intro-text) !important;
 }
 
 .intro-list li::marker {
-    color: var(--intro-text);
+    color: var(--intro-text) !important;
 }
 
 /* Efeito fade-in geral para itens da seção */
