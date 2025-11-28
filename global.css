@@ -386,6 +386,9 @@ main {
     padding-left: 20px;
     margin: 0;
     line-height: 2.4; /* ← espaçamento vertical */
+}
+
+.hard-skills-list li {
     color: var(--intro-text) !important;
 }
 
