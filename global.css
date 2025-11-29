@@ -750,7 +750,9 @@ body.static-header .last-update {
    /* Cor do Texto do Caabeçalho e do Rodapé */
    --header-name: #F8F8F8;
 
-   --fixed-header-section: #080808;
+   /* Cor do Título da Seção Principal */
+   --fixed-header-section: #1C1C1C;
+
    --intro-text: #282828;
    --curriculo-list: #282828;
    --box-shadow-header: 0 6px 16px rgba(8,8,8,0.25);
@@ -776,7 +778,9 @@ body.static-header .last-update {
    /* Cor do Texto do Cabeçalho e do Rodapé */
    --header-name: #B2B2B2;
 
-   --fixed-header-section: #4C4C4C;
+   /* Cor do Título da Seção Principal */
+   --fixed-header-section: #DCDCDC;
+   
    --intro-text: #808080;
    --curriculo-list: #C0C0C0;
    --box-shadow-header: 0 6px 16px rgba(248,248,248,0.25);
