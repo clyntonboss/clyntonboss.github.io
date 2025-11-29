@@ -750,7 +750,7 @@ body.static-header .last-update {
    --header-name: #F8F8F8;
    --fixed-header-section: #080808;
    --intro-text: #282828;
-   --curriculo-list: #282828;
+   --curriculo-list: #00FF00;
    --box-shadow-header: 0 6px 16px rgba(8,8,8,0.25);
    --box-shadow-side-menu: 0 0px 16px rgba(8,8,8,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(8,8,8,0.25);
@@ -772,7 +772,7 @@ body.static-header .last-update {
    --header-name: #C0C0C0;
    --fixed-header-section: #4C4C4C;
    --intro-text: #808080;
-   --curriculo-list: #00FF00;
+   --curriculo-list: #808080;
    --box-shadow-header: 0 6px 16px rgba(248,248,248,0.25);
    --box-shadow-side-menu: 0 0px 16px rgba(248,248,248,0.25);
    --box-shadow-footer: 0 -6px 16px rgba(248,248,248,0.25);
