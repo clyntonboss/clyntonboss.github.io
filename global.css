@@ -536,7 +536,7 @@ main {
   padding-right: 16px; /* evita que o texto encoste na borda */
   box-sizing: border-box;
   scroll-behavior: smooth; /* rolagem suave */
-
+  margin-top: 12px;
   /* esconde a barra de rolagem sem desativar o scroll */
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE e Edge antigos */
