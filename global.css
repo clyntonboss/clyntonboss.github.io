@@ -742,12 +742,16 @@ body.static-header .last-update {
    CONFIGURAÇÃO DE TEMAS
 ============================ */
 
-/* Tema Light padrão */
+/* Tema Light */
 :root {
+   /* Cores de Fundo */
    --bg-color-header: #0A3C5C;
    --bg-color-page: #F8F8F8;
    --bg-color-footer: #0A3C5C;
+
+   /* Cor do Texto do Caabeçalho e do Rodapé */
    --header-name: #F8F8F8;
+
    --fixed-header-section: #080808;
    --intro-text: #282828;
    --curriculo-list: #282828;
@@ -766,10 +770,14 @@ body.static-header .last-update {
 
 /* Tema Dark */
 [data-theme="dark"] {
+   /* Cores de Fundo */
    --bg-color-header: #101010;
    --bg-color-page: #1C1C1C;
    --bg-color-footer: #101010;
-   --header-name: #C0C0C0;
+
+   /* Cor do Texto do Cabeçalho e do Rodapé */
+   --header-name: #B2B2B2;
+
    --fixed-header-section: #4C4C4C;
    --intro-text: #808080;
    --curriculo-list: #C0C0C0;
