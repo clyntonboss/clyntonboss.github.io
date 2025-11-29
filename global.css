@@ -303,6 +303,7 @@ main {
   flex-direction: column;
   margin-top: 16px;
   gap: 15px;
+  align-items: center; /* ← centraliza foto e botão */
 }
 
 .intro-photo img {
