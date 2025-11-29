@@ -362,20 +362,20 @@ main {
 }
 
 .intro-list {
-    margin-top: 15px;
+    margin-top: 16px;
     padding-left: 20px;
     list-style-type: disc;
-    color: var(--intro-text);
+    color: var(--curriculo-list);
 }
 
 .intro-list li {
     margin-bottom: 16px;
     line-height: 1.7;
-    color: var(--intro-text);
+    color: var(--curriculo-list);
 }
 
 .intro-list li::marker {
-    color: var(--intro-text);
+    color: var(--curriculo-list);
 }
 
 /* Efeito fade-in geral para itens da seção */
