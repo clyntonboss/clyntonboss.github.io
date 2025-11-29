@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   scroll-behavior: smooth;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: background 0.8s ease, color 0.8s ease;
 }
 
 /* Cabeçalho fixo */
@@ -43,7 +43,6 @@ body {
   letter-spacing: 0.4px;
   z-index: 1000;
   box-shadow: var(--box-shadow-header);
-  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .header-left {
@@ -231,7 +230,6 @@ main {
   font-size: 0.95rem;
   z-index: 1000;
   box-shadow: var(--box-shadow-footer);
-  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .footer a {
