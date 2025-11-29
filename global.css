@@ -558,7 +558,7 @@ main {
 }
 
 .curriculo-list li {
-    color: var(--intro-text) !important;
+    color: #00FF00;
 }
 
 /* Link ativo no cabeçalho */
