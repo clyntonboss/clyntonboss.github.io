@@ -745,7 +745,7 @@ body.static-header .last-update {
 /* Tema Light padrão */
 :root {
    --bg-color-header: #0A3C5C;
-   --bg-color-page: #F4F6F8;
+   --bg-color-page: #F8F8F8;
    --bg-color-footer: #0A3C5C;
    --header-name: #F8F8F8;
    --fixed-header-section: #080808;
