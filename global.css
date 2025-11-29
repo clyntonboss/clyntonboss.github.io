@@ -119,7 +119,7 @@ body {
   border-radius: 50%;     /* deixa a foto redonda */
   object-fit: cover;      /* mantém proporção sem distorcer */
   margin-right: 12px;     /* espaço entre a foto e o nome */
-  margin-top: 16px;
+  vertical-align: middle;
   opacity: 0;
   transform: translateX(40px); /* começa deslocado para a direita */
   transition: opacity 1.2s ease, transform 1.2s ease; /* duração maior e easing suave */
