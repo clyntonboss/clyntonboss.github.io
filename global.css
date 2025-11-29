@@ -379,19 +379,6 @@ main {
     color: var(--intro-text);
 }
 
-.hard-skills-list {
-    font-size: 1.25rem;
-    flex: 1;
-    list-style-type: disc;
-    padding-left: 20px;
-    margin: 0;
-    line-height: 2.4; /* ← espaçamento vertical */
-}
-
-.hard-skills-list li {
-    color: var(--intro-text) !important;
-}
-
 /* Efeito fade-in geral para itens da seção */
 .fade-item {
   opacity: 0;
@@ -559,6 +546,19 @@ main {
 .curriculo-text p {
   margin-bottom: 1.2em; /* mesma distância que nas outras páginas */
   line-height: 1.8;     /* mantém o espaçamento entre linhas */
+}
+
+.curriculo-list {
+    font-size: 1.25rem;
+    flex: 1;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 2.4; /* ← espaçamento vertical */
+}
+
+.curriculo-list li {
+    color: var(--intro-text) !important;
 }
 
 /* Link ativo no cabeçalho */
