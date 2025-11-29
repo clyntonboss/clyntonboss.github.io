@@ -774,16 +774,11 @@ body.static-header .last-update {
 
 /* Tema Dark */
 [data-theme="dark"] {
-   /* Cores de Fundo */
-   --bg-color-header: #101010;
-   --bg-color-page: #1C1C1C;
-   --bg-color-footer: #101010;
-
-   /* Cor do Texto do Cabeçalho e do Rodapé */
-   --header-name: #B2B2B2;
-
-   /* Cor do Título da Seção Principal */
-   --fixed-header-section: #DCDCDC;
+   --bg-color-header: #101010;                                       /* Cor de Fundo do Cabeçalho */
+   --bg-color-page: #1C1C1C;                                         /* Cor de Fundo da Seção Principal */
+   --bg-color-footer: #101010;                                       /* Cor de Fundo do Rodapé */
+   --header-name: #B2B2B2;                                           /* Cor do Texto do Cabeçalho e do Rodapé */
+   --fixed-header-section: #DCDCDC;                                  /* Cor do Título da Seção Principal */
    
    --intro-text: #808080;
    --curriculo-list: #C0C0C0;
