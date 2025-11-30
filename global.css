@@ -541,6 +541,10 @@ main {
   -ms-overflow-style: none; /* IE e Edge antigos */
 }
 
+.curriculo-text strong {
+  color: var(--intro-text);
+}
+
 .curriculo-text::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
