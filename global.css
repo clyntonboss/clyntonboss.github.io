@@ -555,6 +555,10 @@ main {
   line-height: 1.8;     /* mantém o espaçamento entre linhas */
 }
 
+.curriculo-text-margin {
+    margin: 16px 0;                                                    /* Margin para o descritivo do certificado */
+}
+
 .curriculo-list {
     font-size: 1.25rem;
     flex: 1;
