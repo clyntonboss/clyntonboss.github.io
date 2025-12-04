@@ -670,9 +670,9 @@ body {
 /* Borda dos Certificados */
 
 .cert-thumb {
-    border: 1px solid rgba(0,0,0,0.15); /* borda bem discreta */
-    border-radius: 6px;                /* cantos levemente arredondados */
-    padding: 2px;                      /* pequena área interna */
+    border: 1px solid var(--fixed-header-section);                         /* borda bem discreta */
+    border-radius: 6px;                                         /* cantos levemente arredondados */
+    padding: 2px;                                               /* pequena área interna */
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
