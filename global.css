@@ -751,10 +751,15 @@ body.static-header .last-update {
 
 .decorative-line-cert {
     border: 0;
-    border-top: 2px solid var(--bg-color-header);
-    width: 60%;
+    height: 2px;
+    width: 80%;
     margin: 25px auto;
-    opacity: 0.6;
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--bg-color-header),
+        transparent
+    );
 }
 
 /* ============================
