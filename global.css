@@ -683,7 +683,6 @@ body {
     display: block;
     margin-bottom: 15px;
     cursor: pointer;
-    margin-left: 16px;
    
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
