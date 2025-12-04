@@ -723,7 +723,7 @@ body {
 .cert-link-verify {
     font-weight: bold;
     text-decoration: none;
-    color: var(--link-cert); /* acompanha tema claro/escuro */
+    color: #0A3C5C; /* acompanha tema claro/escuro */
     cursor: pointer;
     transition: opacity 0.2s ease;
 }
