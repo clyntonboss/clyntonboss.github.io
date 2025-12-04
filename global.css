@@ -723,7 +723,7 @@ body {
 .cert-link-verify {
     font-weight: bold;
     text-decoration: none;
-    color: var(--curriculo-list); /* acompanha tema claro/escuro */
+    color: var(--link-cert); /* acompanha tema claro/escuro */
     cursor: pointer;
     transition: opacity 0.2s ease;
 }
@@ -806,6 +806,8 @@ body.static-header .last-update {
    --exp-role: #282828;
    --exp-toggle: #282828;
    --exp-details: #4C4C4C;
+
+   --link-cert: #FF0000;
    
    --text-color: #181818;
    --card-bg: #f5f5f5;
@@ -831,6 +833,8 @@ body.static-header .last-update {
    --exp-role: #B2B2B2;
    --exp-toggle: #B2B2B2;
    --exp-details: #DCDCDC;
+
+   --link-cert: #00FF00;
 
    --text-color: #EAEAEA;
    --card-bg: #1e1e1e;
