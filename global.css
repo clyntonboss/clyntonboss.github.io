@@ -556,7 +556,7 @@ main {
 }
 
 .curriculo-text-margin {
-    margin: 16px 0;                                                    /* Margin para o descritivo do certificado */
+  margin-left: 16px;                                                    /* Margin para o descritivo do certificado */
 }
 
 .curriculo-list {
