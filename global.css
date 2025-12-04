@@ -746,6 +746,18 @@ body.static-header .last-update {
 }
 
 /* ============================
+   Linha Decorativa Entre os Certificados
+============================ */
+
+.decorative-line-cert {
+    border: 0;
+    border-top: 1px solid var(--bg-color-header);
+    width: 60%;
+    margin: 25px auto;
+    opacity: 0.6;
+}
+
+/* ============================
    CONFIGURAÇÃO DE TEMAS
 ============================ */
 
