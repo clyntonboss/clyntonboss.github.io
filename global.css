@@ -751,7 +751,7 @@ body.static-header .last-update {
 
 .decorative-line-cert {
     border: 0;
-    border-top: 1px solid var(--bg-color-header);
+    border-top: 2px solid var(--bg-color-header);
     width: 60%;
     margin: 25px auto;
     opacity: 0.6;
