@@ -689,6 +689,10 @@ body {
     box-shadow: var(--box-shadow-side-menu);
 }
 
+.cert-text-margin {
+    margin-left: 16px;
+}
+
 /* Categorias dos Certificados */
 
 .cert-categories {
