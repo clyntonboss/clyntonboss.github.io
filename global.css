@@ -720,6 +720,14 @@ body {
     text-shadow: 0px 1px 3px rgba(0,0,0,0.18); /* Sombra suave do texto */
 }
 
+.cert-link-verify {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--curriculo-list); /* acompanha tema claro/escuro */
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
 /* Remove margem superior apenas na página de certificados */
 #curriculo .cert-categories {
     margin-top: 0 !important;
