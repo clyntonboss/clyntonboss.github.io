@@ -896,15 +896,12 @@ body.static-header .last-update {
     font-size: 1rem;
     margin-bottom: 4px;
     color: var(--text-color);
-    margin-bottom: 2px;
+    margin-bottom: 1px;
 }
 
 .tech-desc {
     font-size: 0.85rem;
     opacity: 0.8;
     line-height: 1.4;
-}
-
-.tech-item {
-    margin-bottom: 16px; /* espaço agradável entre ferramentas */
+    margin-bottom: 16px;
 }
