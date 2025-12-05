@@ -74,10 +74,10 @@
                     <a href="#" onclick="abrirCertificado('../certificados/2025.08.28 · Simplifica Treinamentos · MasterClass PowerPoint.png'); return false;">
                         <img src="../certificados/2025.08.28 · Simplifica Treinamentos · MasterClass PowerPoint.png" 
                              alt="Análise de Dados" 
-                             class="cert-thumb">
+                             class="cert-thumb"
+                             >
                     </a>
 
-                    <div class="cert-text-margin">
                     <div>
                         <span style="font-weight: normal;">Instituição:</span>
                         <span style="font-weight: bold;">Simplifica Treinamentos</span>
@@ -101,7 +101,6 @@
                     <div>
                         <span style="font-weight: normal;">Verificação:</span>
                         <a class="cert-no-verify">-</a>
-                    </div>
                     </div>
 
                     <hr class="decorative-line-cert">
@@ -215,6 +214,50 @@
         if(toggle){
             toggle.classList.add('loaded');
         }
+    });
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    
+      const container = document.querySelector('.curriculo-text.fade-item');
+      if (!container) return;
+    
+      const children = Array.from(container.children);
+      let buffer = []; // armazena os <div> textuais entre as quebras
+      let insideGroup = false;
+    
+      children.forEach((el, index) => {
+    
+        if (el.tagName === 'A') {
+          // Encontrou a imagem → inicia um novo grupo textual
+          insideGroup = true;
+          buffer = [];
+        }
+    
+        else if (insideGroup && el.tagName === 'DIV') {
+          // Estamos no bloco textual → adiciona ao buffer
+          buffer.push(el);
+        }
+    
+        else if (insideGroup && el.tagName === 'HR') {
+          // Chegou ao fim de um certificado → fechar grupo
+          if (buffer.length) {
+    
+            const wrapper = document.createElement('div');
+            wrapper.className = 'cert-text-margin';
+    
+            // Inserir antes do primeiro DIV textual
+            container.insertBefore(wrapper, buffer[0]);
+    
+            // Mover os divs textuais para dentro do wrapper
+            buffer.forEach(div => wrapper.appendChild(div));
+          }
+    
+          insideGroup = false;
+          buffer = [];
+        }
+      });
+    
     });
     </script>
 </body>
