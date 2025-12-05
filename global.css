@@ -740,7 +740,6 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: var(--link-cert); /* acompanha tema claro/escuro */
-    cursor: default;
 }
 
 /* Remove margem superior apenas na página de certificados */
