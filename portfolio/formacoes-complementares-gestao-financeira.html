@@ -69,13 +69,13 @@
                 </div>
                 <div class="curriculo-text fade-item">
 
-                            <hr style="border:0; border-top:1px solid #e0e0e0; width:60%; margin:25px auto; opacity:0.6;">
+                            <hr class="decorative-line-cert">
 
                             <a href="#" onclick="abrirCertificado('../certificados/2025.04.21 · FIAP - Centro Universitário · Gestão Financeira de Empresas.png'); return false;">
                                 <img src="../certificados/2025.04.21 · FIAP - Centro Universitário · Gestão Financeira de Empresas.png"
                                      alt="Análise de Dados" 
                                      class="cert-thumb"
-                                     style="width:auto; height:149px; display:block; margin-bottom:15px;">
+                                     >
                             </a>
                             <div>
                                 <span style="font-weight: normal;">Instituição:</span>
@@ -99,10 +99,10 @@
                             </div>
                             <div>
                                 <span style="font-weight: normal;">Verificação:</span>
-                                <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=6c8a5531a603a83b7cdc386476bf1c14&action=view" target="_blank" style="font-weight: bold; text-decoration: none; color: #333;">Clique Aqui</a>
+                                <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=6c8a5531a603a83b7cdc386476bf1c14&action=view" target="_blank" class="cert-link-verify">Clique Aqui</a>
                             </div>
 
-                            <hr style="border:0; border-top:1px solid #e0e0e0; width:60%; margin:25px auto; opacity:0.6;">
+                            <hr class="decorative-line-cert">
 
                 </div>
             </div>
@@ -213,6 +213,50 @@
         if(toggle){
             toggle.classList.add('loaded');
         }
+    });
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    
+      const container = document.querySelector('.curriculo-text.fade-item');
+      if (!container) return;
+    
+      const children = Array.from(container.children);
+      let buffer = []; // armazena os <div> textuais entre as quebras
+      let insideGroup = false;
+    
+      children.forEach((el, index) => {
+    
+        if (el.tagName === 'A') {
+          // Encontrou a imagem → inicia um novo grupo textual
+          insideGroup = true;
+          buffer = [];
+        }
+    
+        else if (insideGroup && el.tagName === 'DIV') {
+          // Estamos no bloco textual → adiciona ao buffer
+          buffer.push(el);
+        }
+    
+        else if (insideGroup && el.tagName === 'HR') {
+          // Chegou ao fim de um certificado → fechar grupo
+          if (buffer.length) {
+    
+            const wrapper = document.createElement('div');
+            wrapper.className = 'cert-text-margin';
+    
+            // Inserir antes do primeiro DIV textual
+            container.insertBefore(wrapper, buffer[0]);
+    
+            // Mover os divs textuais para dentro do wrapper
+            buffer.forEach(div => wrapper.appendChild(div));
+          }
+    
+          insideGroup = false;
+          buffer = [];
+        }
+      });
+    
     });
     </script>
 </body>
