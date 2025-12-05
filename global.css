@@ -733,7 +733,7 @@ body {
 }
 
 .cert-link-verify:hover {
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+  text-shadow: var(--box-shadow-link-cert);
 }
 
 .cert-no-verify {
@@ -823,6 +823,7 @@ body.static-header .last-update {
    --exp-details: #4C4C4C;
 
    --link-cert: #0A3C5C;
+   --box-shadow-link-cert: 0 0px 8px rgba(0,0,0,0.25);
    
    --text-color: #181818;
    --card-bg: #f5f5f5;
@@ -850,6 +851,7 @@ body.static-header .last-update {
    --exp-details: #DCDCDC;
 
    --link-cert: #476C83;
+   --box-shadow-link-cert: 0 0px 8px rgba(255,255,255,0.25);
 
    --text-color: #EAEAEA;
    --card-bg: #1e1e1e;
