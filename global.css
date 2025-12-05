@@ -896,6 +896,7 @@ body.static-header .last-update {
     font-size: 1rem;
     margin-bottom: 4px;
     color: var(--text-color);
+    margin-top: 20px;
     margin-bottom: 1px;
 }
 
@@ -903,5 +904,4 @@ body.static-header .last-update {
     font-size: 0.85rem;
     opacity: 0.8;
     line-height: 1.4;
-    margin-bottom: 16px;
 }
