@@ -891,38 +891,20 @@ body.static-header .last-update {
    LISTA DE COMPETÊNCIAS TÉCNICAS (nova classe)
    ============================================ */
 
-.tech-list {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    margin-top: 12px;
-}
-
-.tech-item {
-    padding: 12px 14px;
-    border-left: 3px solid var(--text-color);
-    background-color: var(--bg-color-page);
-    border-radius: 6px;
-    transition: 0.3s ease;
-}
-
-.tech-item:hover {
-    background-color: rgba(0,0,0,0.04);
-}
-
-[data-theme="dark"] .tech-item:hover {
-    background-color: rgba(255,255,255,0.06);
-}
-
 .tech-title {
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 4px;
     color: var(--text-color);
+    margin-bottom: 2px;
 }
 
 .tech-desc {
     font-size: 0.85rem;
     opacity: 0.8;
     line-height: 1.4;
+}
+
+.tech-item {
+    margin-bottom: 16px; /* espaço agradável entre ferramentas */
 }
