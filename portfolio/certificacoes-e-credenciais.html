@@ -756,6 +756,24 @@
         });
     </script>
     <script src="../assets/js/update-date.js"></script>
+    <script>
+    function abrirCertificado(url) {
+      const largura = screen.availWidth;
+      const altura = screen.availHeight;
+    
+      const janela = window.open(
+        '/certificado.html?img=' + encodeURIComponent(url),
+        'Certificado',
+        `width=${largura},height=${altura},top=0,left=0,resizable=yes,menubar=no,toolbar=no,location=no,status=no,fullscreen=yes`
+      );
+    
+      if (janela) {
+        janela.focus();
+      } else {
+        alert("Por favor, permita pop-ups para este site.");
+      }
+    }
+    </script>
     <script src="../theme.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -763,6 +781,50 @@
         if(toggle){
             toggle.classList.add('loaded');
         }
+    });
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    
+      const container = document.querySelector('.curriculo-text.fade-item');
+      if (!container) return;
+    
+      const children = Array.from(container.children);
+      let buffer = []; // armazena os <div> textuais entre as quebras
+      let insideGroup = false;
+    
+      children.forEach((el, index) => {
+    
+        if (el.tagName === 'A') {
+          // Encontrou a imagem → inicia um novo grupo textual
+          insideGroup = true;
+          buffer = [];
+        }
+    
+        else if (insideGroup && el.tagName === 'DIV') {
+          // Estamos no bloco textual → adiciona ao buffer
+          buffer.push(el);
+        }
+    
+        else if (insideGroup && el.tagName === 'HR') {
+          // Chegou ao fim de um certificado → fechar grupo
+          if (buffer.length) {
+    
+            const wrapper = document.createElement('div');
+            wrapper.className = 'cert-text-margin';
+    
+            // Inserir antes do primeiro DIV textual
+            container.insertBefore(wrapper, buffer[0]);
+    
+            // Mover os divs textuais para dentro do wrapper
+            buffer.forEach(div => wrapper.appendChild(div));
+          }
+    
+          insideGroup = false;
+          buffer = [];
+        }
+      });
+    
     });
     </script>
 </body>
