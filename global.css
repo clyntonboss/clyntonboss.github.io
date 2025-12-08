@@ -900,6 +900,15 @@ body.static-header .last-update {
     margin-bottom: 1px;
 }
 
+.tech-subtitle {
+    font-size: 0.925rem; /* entre 1rem do título e 0.85rem da descrição */
+    color: rgba(0, 0, 0, 0.6); /* cor intermediária entre título e descrição */
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1.35;
+}
+
 .tech-desc {
     font-size: 0.85rem;
     opacity: 0.8;
