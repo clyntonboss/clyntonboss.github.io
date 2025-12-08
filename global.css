@@ -894,7 +894,7 @@ body.static-header .last-update {
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 4px;
-    color: var(--text-color);
+    color: var(--intro-text);
     margin-top: 20px;
     margin-bottom: 1px;
 }
@@ -913,4 +913,5 @@ body.static-header .last-update {
     opacity: 0.8;
     line-height: 1.4;
     margin-bottom: 8px;
+   color: var(--intro-text);
 }
