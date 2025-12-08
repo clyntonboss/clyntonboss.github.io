@@ -325,6 +325,8 @@ main {
   border-radius: 25px;
   box-shadow: var(--box-shadow-button);
   transition: background-color 0.4s ease, transform 0.4s ease;
+  margin-top: 16px;
+  margin-botton: 16px;
 }
 
 .btn-projetos:hover {
@@ -342,6 +344,8 @@ main {
   border-radius: 25px;
   box-shadow: var(--box-shadow-button);
   transition: background-color 0.4s ease, transform 0.4s ease;
+  margin-top: 16px;
+  margin-botton: 16px;
 }
 
 .btn-curriculo:hover {
