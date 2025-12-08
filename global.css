@@ -904,15 +904,6 @@ body.static-header .last-update {
    LISTA DE COMPETÊNCIAS TÉCNICAS (nova classe)
    ============================================ */
 
-.tech-title {
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 4px;
-    color: var(--intro-text);
-    margin-top: 20px;
-    margin-bottom: 1px;
-}
-
 .tech-subtitle {
     font-size: 0.925rem; /* entre 1rem do título e 0.85rem da descrição */
     color: var(--link-cert);
@@ -922,10 +913,19 @@ body.static-header .last-update {
     line-height: 1.35;
 }
 
+.tech-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 4px;
+    color: var(--curriculo-text);
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
 .tech-desc {
     font-size: 0.85rem;
     opacity: 0.8;
     line-height: 1.4;
     margin-bottom: 8px;
-   color: var(--intro-text);
+    color: var(--curriculo-text);
 }
