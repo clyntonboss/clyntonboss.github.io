@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <script>
+    (function() {
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificações e Credenciais | Rogério Clynton Ribeiro</title>
+    <link rel="icon" href="../assets/icons/professionals-experiences-icon.png" type="image/png">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="static-header">
+    <div class="scroll-wrapper">
+    <!-- Cabeçalho fixo -->
+    <header class="header">
+        <div class="header-left">
+            <img src="../assets/images/foto-rogerio.jpg" alt="Foto de Rogério Clynton Ribeiro" class="header-photo">
+            <div class="header-text">
+                <div class="header-name">
+                    <a href="/">Rogério Clynton Ribeiro</a>
+                </div>
+                <div class="last-update">Atualizando...</div>
+            </div>
+        </div>
+        <button id="theme-toggle" aria-label="Alternar tema">
+            <i id="theme-icon" class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <div class="container">
+        <!-- Seção Currículo -->
+        <section id="curriculo" class="main-section">
+            <div class="fixed-header-section">
+                <div class="fixed-header-container">
+                    <h1>
+                        <img src="../assets/icons/soft-skills-icon.png" alt="Ícone Hard Skills" class="title-icon">
+                        <span class="title-wrapper">Certificações e Credenciais</span>
+                    </h1>
+                    <div class="decorative-line"></div>
+                </div>
+            </div>
+    
+            <!-- Container ajustado para o currículo -->
+            <div class="curriculo-container">
+                <!-- Menu lateral -->
+                <div class="side-menu">
+                  <ul>
+                    <li><a href="../portfolio/perfil.html">Perfil</a></li>
+                    <li><a href="../portfolio/proposito.html">Propósito</a></li>
+                    <li><a href="../portfolio/formacao-academica.html">Formação Acadêmica</a></li>
+                    <li><a href="../portfolio/competencias-tecnicas.html">Competências Técnicas</a></li>
+                    <li><a href="../portfolio/competencias-comportamentais.html">Competências Comportamentais</a></li>
+                    <li><a href="../portfolio/formacoes-complementares.html">Formações Complementares</a></li>
+                    <li><a class="active">Certificações e Credenciais</a></li>
+                    <li><a href="../portfolio/trajetoria.html">Trajetória</a></li>
+                    <li><a href="../portfolio/atuacoes-voluntarias.html">Atuações Voluntárias</a></li>
+                    <li><a href="../portfolio/projetos-5-0.html">Projetos 5.0</a></li>
+                    <li><a href="../portfolio/iniciativas-pessoais.html">Iniciativas Pessoais</a></li>
+                    <li><a href="../portfolio/impactos-e-resultados.html">Impactos e Resultados</a></li>
+                    <li><a href="../portfolio/producoes-intelectuais.html">Produções Intelectuais</a></li>
+                  </ul>
+                </div>
+                <div class="curriculo-text fade-item">
+                
+                    <div class="experience">
+                        <div class="exp-header">
+                            <span class="exp-role">White Belt - Lean Six Sigma</span>
+                            <button class="exp-toggle">+</button>
+                        </div>
+                        <div class="exp-details">
+                            <div class="tech-subtitle">Foco em performance, metas e entrega de valor.</div>
+                            <div class="tech-title">Orientação a Resultados</div>
+                            <div class="tech-desc">
+                                Foco contínuo em metas estratégicas, disciplina para monitorar progresso, capacidade de ajustar rotas e compromisso em entregar valor real. Atuação consistente, resiliente e guiada pela busca de desempenho elevado com precisão e responsabilidade.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+      </div>
+    </main>
+    <!-- Rodapé fixo -->
+    <footer class="footer">
+        <div class="footer-left">
+          <p class="footer-main-text">® 2025 Phoenix Information Technology Solutions | Rogério Clynton Ribeiro</p>
+          <p class="privacy-note">Este site não utiliza cookies para coleta de dados pessoais.</p>
+        </div>
+        <a href="https://www.linkedin.com/in/rogério-clynton-ribeiro/" target="_blank">
+            <img src="../assets/icons/linkedin.svg" alt="LinkedIn" class="footer-icon"> LinkedIn
+        </a>
+        <a href="https://github.com/clyntonboss/" target="_blank">
+            <img src="../assets/icons/github.svg" alt="GitHub" class="footer-icon"> GitHub
+        </a>
+        <a href="mailto:clyntonribeiror@gmail.com">
+            <img src="../assets/icons/email.svg" alt="E-mail" class="footer-icon"> E-mail
+        </a>
+        <a href="https://wa.me/5524999240768" target="_blank">
+            <img src="../assets/icons/phone.svg" alt="Telefone" class="footer-icon"> Telefone
+        </a>
+    </footer>
+    </div>
+
+    <!-- Fade-in JS -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const items = document.querySelectorAll('.fade-item');
+            items.forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add('visible');
+                }, index * 150); // 150ms entre cada elemento
+            });
+        });
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggles = document.querySelectorAll('.exp-toggle');
+    
+        toggles.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const details = btn.parentElement.nextElementSibling;
+                const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
+    
+                // Fecha todos os detalhes primeiro
+                toggles.forEach(otherBtn => {
+                    const otherDetails = otherBtn.parentElement.nextElementSibling;
+                    if (otherDetails !== details) {
+                        otherDetails.style.maxHeight = '0';
+                        otherBtn.textContent = '+';
+                    }
+                });
+    
+                // Alterna o item clicado
+                if (isOpen) {
+                    details.style.maxHeight = '0';
+                    btn.textContent = '+';
+                } else {
+                    details.style.maxHeight = details.scrollHeight + 'px';
+                    btn.textContent = '−';
+                }
+            });
+        });
+    });
+    </script>
+    <script>
+        // Bloqueia o clique direito e altera o cursor discretamente
+        document.addEventListener('contextmenu', (e) => {
+            e.preventDefault(); // cancela o menu do clique direito
+        });
+    
+        // Altera o cursor para indicar que o clique direito não está disponível
+        document.body.addEventListener('mousedown', (e) => {
+            if (e.button === 2) { // botão direito
+                document.body.style.cursor = 'not-allowed';
+                setTimeout(() => {
+                    document.body.style.cursor = 'default';
+                }, 500);
+            }
+        });
+    </script>
+    <script src="../assets/js/update-date.js"></script>
+    <script src="../theme.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.getElementById('theme-toggle');
+        if(toggle){
+            toggle.classList.add('loaded');
+        }
+    });
+    </script>
+</body>
+</html>
