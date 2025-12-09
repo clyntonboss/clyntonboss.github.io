@@ -726,6 +726,7 @@ body {
 /* Hover suave, elegante e SEM efeito de botão */
 .cert-links a:hover {
     transform: scale(1.04);   /* Cresce de forma suave */
+    color: var(--link-cert);
     text-shadow: var(--box-shadow-link-cert);
 }
 
