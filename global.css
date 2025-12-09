@@ -526,10 +526,11 @@ main {
   max-width: 1302px;
   width: 100%;
   margin: 0 auto;
-  height: calc(100vh - 262px); /* ocupa o espaço entre cabeçalho e rodapé */
+  height: calc(100vh - 246px); /* ocupa o espaço entre cabeçalho e rodapé */
   overflow: hidden; /* impede rolagem da página inteira */
   position: relative;
   padding-top: 0; /* garante que não crie espaço acima */
+  margin-top: 16px;
 }
 
 .curriculo-text {
