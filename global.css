@@ -932,3 +932,17 @@ body.static-header .last-update {
     margin-bottom: 8px;
     color: var(--curriculo-text);
 }
+
+.exp-list {
+    margin: 12px 0;
+    padding-left: 22px;
+    list-style-type: disc;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    line-height: 1.65;
+    opacity: 0.9;
+}
+
+.exp-list li {
+    margin-bottom: 6px;
+}
