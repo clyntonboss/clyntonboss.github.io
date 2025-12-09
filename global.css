@@ -725,9 +725,8 @@ body {
 
 /* Hover suave, elegante e SEM efeito de botão */
 .cert-links a:hover {
-    color: #0A3C5C;              /* Leve escurecida */
     transform: scale(1.04);   /* Cresce de forma suave */
-    text-shadow: 0px 1px 3px rgba(0,0,0,0.18); /* Sombra suave do texto */
+    text-shadow: var(--box-shadow-link-cert);
 }
 
 .cert-link-verify {
