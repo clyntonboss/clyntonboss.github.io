@@ -934,7 +934,7 @@ body.static-header .last-update {
 }
 
 .exp-list {
-    margin: 12px 0;
+    margin: 16px 0;
     padding-left: 22px;
     list-style-type: disc;
     color: var(--text-color);
@@ -944,5 +944,5 @@ body.static-header .last-update {
 }
 
 .exp-list li {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
