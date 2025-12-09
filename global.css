@@ -547,6 +547,7 @@ main {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE e Edge antigos */
   margin-top: 8px;
+  margin-botton: 8px;
 }
 
 .curriculo-text strong {
