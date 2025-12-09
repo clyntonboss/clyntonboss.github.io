@@ -849,7 +849,7 @@ body.static-header .last-update {
    --header-name: #B2B2B2;                                           /* Cor do Texto do Cabeçalho e do Rodapé */
    --fixed-header-section: #DCDCDC;                                  /* Cor do Título da Seção Principal */
    
-   --intro-text: #808080;
+   --intro-text: #F8F8F8;
    --curriculo-list: #C0C0C0;
    
    --box-shadow-header: 0 6px 16px rgba(255,255,255,0.25);
