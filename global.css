@@ -530,7 +530,6 @@ main {
   overflow: hidden; /* impede rolagem da página inteira */
   position: relative;
   padding-top: 0; /* garante que não crie espaço acima */
-  margin-top: 16px;
 }
 
 .curriculo-text {
@@ -547,6 +546,7 @@ main {
     /* esconde a barra de rolagem sem desativar o scroll */
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE e Edge antigos */
+  margin-top: 8px;
 }
 
 .curriculo-text strong {
