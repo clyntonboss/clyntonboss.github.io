@@ -526,7 +526,7 @@ main {
   max-width: 1302px;
   width: 100%;
   margin: 0 auto;
-  height: calc(100vh - 246px); /* ocupa o espaço entre cabeçalho e rodapé */
+  height: calc(100vh - 262px); /* ocupa o espaço entre cabeçalho e rodapé */
   overflow: hidden; /* impede rolagem da página inteira */
   position: relative;
   padding-top: 0; /* garante que não crie espaço acima */
@@ -546,7 +546,6 @@ main {
     /* esconde a barra de rolagem sem desativar o scroll */
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE e Edge antigos */
-  margin-top: 8px;
 }
 
 .curriculo-text strong {
