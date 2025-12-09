@@ -549,7 +549,7 @@ main {
 }
 
 .curriculo-text strong {
-  color: var(--intro-text);
+  color: var(--curriculo-strong);
 }
 
 .curriculo-text::-webkit-scrollbar {
@@ -820,6 +820,7 @@ body.static-header .last-update {
 
    --intro-text: #282828;
    --curriculo-list: #282828;
+   --curriculo-strong: #080808;
    
    --box-shadow-header: 0 6px 16px rgba(0,0,0,0.25);
    --box-shadow-side-menu: 0 0px 16px rgba(0,0,0,0.25);
@@ -851,6 +852,7 @@ body.static-header .last-update {
    
    --intro-text: #EAEAEA;
    --curriculo-list: #F8F8F8;
+   --curriculo-strong: #4C4C4C;
    
    --box-shadow-header: 0 6px 16px rgba(255,255,255,0.25);
    --box-shadow-side-menu: 0 0px 16px rgba(255,255,255,0.25);
