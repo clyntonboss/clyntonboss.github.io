@@ -484,5 +484,32 @@
         }
     });
     </script>
+    <script>
+    function abrirCertificado(url) {
+      const largura = screen.availWidth;
+      const altura = screen.availHeight;
+    
+      const janela = window.open(
+        '/certificado.html?img=' + encodeURIComponent(url),
+        'Certificado',
+        `width=${largura},height=${altura},top=0,left=0,resizable=yes,menubar=no,toolbar=no,location=no,status=no,fullscreen=yes`
+      );
+    
+      if (janela) {
+        janela.focus();
+      } else {
+        alert("Por favor, permita pop-ups para este site.");
+      }
+    }
+    </script>
+    <script src="../theme.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.getElementById('theme-toggle');
+        if(toggle){
+            toggle.classList.add('loaded');
+        }
+    });
+    </script>
 </body>
 </html>
