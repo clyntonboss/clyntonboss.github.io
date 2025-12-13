@@ -444,7 +444,7 @@ main {
    ============================== */
 .side-menu {
   width: 290px;                  /* largura fixa do menu */
-  height: 592px;                 /* altura total do bloco */
+  height: 596px;                 /* altura total do bloco */
   background-color: var(--bg-color-header);
   border-radius: 12px;
   box-shadow: var(--box-shadow-side-menu);
@@ -476,7 +476,7 @@ main {
 .side-menu a {
   display: flex;
   align-items: center;           /* centraliza verticalmente o texto */
-  height: 40px;                  /* altura fixa do botão */
+  height: 44px;                  /* altura fixa do botão */
   width: 258px;
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
