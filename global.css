@@ -712,12 +712,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px 40px; /* espaço vertical | horizontal */
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .cert-links a {
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: var(--curriculo-list);
     transition: all 0.25s ease;
     padding: 4px 2px; /* Pequeno espaçamento para manter o alinhamento */
