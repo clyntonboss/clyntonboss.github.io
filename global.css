@@ -803,6 +803,12 @@ body.static-header .last-update {
    Linha Decorativa do Menu Lateral
 ============================ */
 
+.menu-divider-item {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+}
+
 .decorative-line-menu {
     border: 0;
     height: 2px;
