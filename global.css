@@ -810,7 +810,7 @@ body.static-header .last-update {
     margin: 4px auto;
     background: linear-gradient(
         to right,
-        transparent 0%,
+        #EAEAEA,
         #EAEAEA,
         transparent
     );
