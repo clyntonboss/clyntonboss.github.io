@@ -444,7 +444,7 @@ main {
    ============================== */
 .side-menu {
   width: 290px;                  /* largura fixa do menu */
-  height: 620px;                 /* altura total do bloco */
+  height: 626px;                 /* altura total do bloco */
   background-color: var(--bg-color-header);
   border-radius: 12px;
   box-shadow: var(--box-shadow-side-menu);
@@ -813,7 +813,8 @@ body.static-header .last-update {
     border: 0;
     height: 1px;
     width: 100%;
-    margin: 4px auto;
+    margin-top: 4px;
+    margin-botton: 6px;
     background: linear-gradient(
         to right,
         #EAEAEA,
