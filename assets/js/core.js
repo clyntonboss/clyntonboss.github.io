@@ -4,7 +4,7 @@ function abrirCertificado(url) {
     const altura = screen.availHeight;
 
     const janela = window.open(
-        '/certificado.html?img=' + encodeURIComponent(url),
+        '../assets/utils/certificado.html?img=' + encodeURIComponent(url),
         'Certificado',
         `width=${largura},height=${altura},top=0,left=0,resizable=yes,menubar=no,toolbar=no,location=no,status=no,fullscreen=yes`
     );
@@ -21,7 +21,7 @@ function abrirArtigo(url) {
     const largura = screen.width;
     const altura = screen.height;
     const janela = window.open(
-        '../artigo.html?file=' + encodeURIComponent(url),
+        '../assets/utils/artigo.html?file=' + encodeURIComponent(url),
         'Artigo',
         `width=${largura},height=${altura},top=0,left=0,menubar=no,toolbar=no,location=no,status=no,resizable=no`
     );
