@@ -24,6 +24,22 @@ function initFadeIn() {
             el.classList.add('visible');
         }, index * 150);
     });
+
+    // ==================== Slide-in do nome no cabeçalho ====================
+    const headerName = document.querySelector('.header-name');
+    if (headerName) {
+        setTimeout(() => {
+            headerName.classList.add('visible');
+        }, 200); // pequeno delay para parecer natural
+    }
+
+    // ==================== Slide-in do last-update ====================
+    const lastUpdate = document.querySelector('.last-update');
+    if (lastUpdate) {
+        setTimeout(() => {
+            lastUpdate.classList.add('visible');
+        }, 200); // pequeno delay para parecer natural
+    }
 }
 
 // ==================== Módulo Expand/Toggle ====================
