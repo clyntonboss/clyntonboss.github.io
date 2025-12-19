@@ -13,6 +13,7 @@
     <link rel="icon" href="../assets/icons/courses-icon.png" type="image/png">
     <link rel="stylesheet" href="../assets/css/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="../assets/js/core.js" defer></script>
 </head>
 <body class="static-header">
     <!-- Cabeçalho fixo -->
@@ -149,43 +150,5 @@
             <img src="../assets/icons/phone.svg" alt="Telefone" class="footer-icon"> Telefone
         </a>
     </footer>
-
-    <!-- Fade-in JS -->
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            const items = document.querySelectorAll('.fade-item');
-            items.forEach((el, index) => {
-                setTimeout(() => {
-                    el.classList.add('visible');
-                }, index * 150); // 150ms entre cada elemento
-            });
-        });
-    </script>
-    <script>
-        // Bloqueia o clique direito e altera o cursor discretamente
-        document.addEventListener('contextmenu', (e) => {
-            e.preventDefault(); // cancela o menu do clique direito
-        });
-    
-        // Altera o cursor para indicar que o clique direito não está disponível
-        document.body.addEventListener('mousedown', (e) => {
-            if (e.button === 2) { // botão direito
-                document.body.style.cursor = 'not-allowed';
-                setTimeout(() => {
-                    document.body.style.cursor = 'default';
-                }, 500);
-            }
-        });
-    </script>
-    <script src="../assets/js/update-date.js"></script>
-    <script src="../assets/js/theme.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const toggle = document.getElementById('theme-toggle');
-        if(toggle){
-            toggle.classList.add('loaded');
-        }
-    });
-    </script>
 </body>
 </html>
