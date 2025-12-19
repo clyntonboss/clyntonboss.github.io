@@ -4,7 +4,7 @@ function abrirCertificado(url) {
     const altura = screen.availHeight;
 
     const janela = window.open(
-        '../assets/utils/certificado.html?img=' + encodeURIComponent(url),
+        `/assets/utils/certificado.html?img=${encodeURIComponent(url)}`,
         'Certificado',
         `width=${largura},height=${altura},top=0,left=0,resizable=yes,menubar=no,toolbar=no,location=no,status=no,fullscreen=yes`
     );
