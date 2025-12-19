@@ -16,6 +16,19 @@ function abrirCertificado(url) {
     }
 }
 
+// ==================== FUNÇÃO GLOBAL: ABRIR ARTIGO ====================
+function abrirArtigo(url) {
+    const largura = screen.width;
+    const altura = screen.height;
+    const janela = window.open(
+        '../artigo.html?file=' + encodeURIComponent(url),
+        'Artigo',
+        `width=${largura},height=${altura},top=0,left=0,menubar=no,toolbar=no,location=no,status=no,resizable=no`
+    );
+    if (janela) janela.focus();
+    else alert("Por favor, permita pop-ups para este site.");
+}
+
 // ==================== Módulo Fade-in ====================
 function initFadeIn() {
     const items = document.querySelectorAll('.fade-item');
