@@ -32,26 +32,35 @@ function abrirArtigo(url) {
 // ==================== Módulo Fade-in ====================
 function initFadeIn() {
     const items = document.querySelectorAll('.fade-item');
+
     items.forEach((el, index) => {
         setTimeout(() => {
             el.classList.add('visible');
         }, index * 150);
     });
 
-    // ==================== Slide-in do nome no cabeçalho ====================
+    // Slide-in da foto no cabeçalho
+    const headerPhoto = document.querySelector('.header-photo');
+    if (headerPhoto) {
+        setTimeout(() => {
+            headerPhoto.classList.add('visible');
+        }, 100);
+    }
+
+    // Slide-in do nome no cabeçalho
     const headerName = document.querySelector('.header-name');
     if (headerName) {
         setTimeout(() => {
             headerName.classList.add('visible');
-        }, 200); // pequeno delay para parecer natural
+        }, 100);
     }
 
-    // ==================== Slide-in do last-update ====================
+    // Slide-in da data no cabeçalho
     const lastUpdate = document.querySelector('.last-update');
     if (lastUpdate) {
         setTimeout(() => {
             lastUpdate.classList.add('visible');
-        }, 200); // pequeno delay para parecer natural
+        }, 200);
     }
 }
 
