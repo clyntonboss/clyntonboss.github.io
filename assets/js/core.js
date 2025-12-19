@@ -1,19 +1,19 @@
 // ==================== FUNÇÃO GLOBAL: ABRIR CERTIFICADO ====================
 function abrirCertificado(url) {
-    const largura = screen.availWidth;
-    const altura = screen.availHeight;
+  const largura = screen.availWidth;
+  const altura = screen.availHeight;
 
-    const janela = window.open(
-        `/assets/utils/certificado.html?img=' + encodeURIComponent(url),
-        'Certificado',
-        `width=${largura},height=${altura},top=0,left=0,resizable=yes,menubar=no,toolbar=no,location=no,status=no,fullscreen=yes`
-    );
+  const janela = window.open(
+    '/assets/utils/certificado.html?img=' + encodeURIComponent(url),
+    'Certificado',
+    `width=${largura},height=${altura},top=0,left=0,resizable=yes,menubar=no,toolbar=no,location=no,status=no,fullscreen=yes`
+  );
 
-    if (janela) {
-        janela.focus();
-    } else {
-        alert("Por favor, permita pop-ups para este site.");
-    }
+  if (janela) {
+    janela.focus();
+  } else {
+    alert("Por favor, permita pop-ups para este site.");
+  }
 }
 
 // ==================== FUNÇÃO GLOBAL: ABRIR ARTIGO ====================
