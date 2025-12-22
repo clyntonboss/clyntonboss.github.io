@@ -135,7 +135,7 @@ function initCertificados() {
 // ==================== Módulo Update Date ====================
 function initUpdateDate() {
     const lastUpdateElements = document.querySelectorAll('.last-update');
-    const dataAtualizacao = "13 de dezembro de 2025"; // Definir data aqui
+    const dataAtualizacao = "22 de dezembro de 2025"; // Definir data aqui
     lastUpdateElements.forEach(el => el.textContent = `Última atualização em: ${dataAtualizacao}`);
 }
 
