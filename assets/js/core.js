@@ -67,25 +67,32 @@ function initFadeIn() {
 // ==================== Módulo Expand/Toggle ====================
 function initToggle() {
     const toggles = document.querySelectorAll('.exp-toggle');
+
     toggles.forEach(btn => {
         btn.addEventListener('click', () => {
+            const experience = btn.closest('.experience');
             const details = btn.parentElement.nextElementSibling;
             const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
 
             toggles.forEach(otherBtn => {
+                const otherExperience = otherBtn.closest('.experience');
                 const otherDetails = otherBtn.parentElement.nextElementSibling;
+
                 if (otherDetails !== details) {
                     otherDetails.style.maxHeight = '0';
                     otherBtn.textContent = '+';
+                    otherExperience.classList.remove('active');
                 }
             });
 
             if (isOpen) {
                 details.style.maxHeight = '0';
                 btn.textContent = '+';
+                experience.classList.remove('active');
             } else {
                 details.style.maxHeight = details.scrollHeight + 'px';
                 btn.textContent = '−';
+                experience.classList.add('active');
             }
         });
     });
