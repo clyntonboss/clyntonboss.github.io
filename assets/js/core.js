@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // ==================== Disclosure Sections ====================
 document.addEventListener('DOMContentLoaded', () => {
 
-    document.querySelectorAll('.project').forEach(project => {
+    document.querySelectorAll('.experience').forEach(project => {
         const sections = project.querySelectorAll('.project-section');
 
         sections.forEach(section => {
