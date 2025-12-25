@@ -647,6 +647,10 @@ main {
   color: var(--exp-details);
 }
 
+.experience.active .exp-details {
+  overflow: visible;
+}
+
 /* Ocultação da Barra de Rolamento Lateral */
 html, body {
   height: 100%;
