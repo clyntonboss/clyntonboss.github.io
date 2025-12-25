@@ -217,7 +217,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initToggle();
     initBlockRightClick();
     initCertificado();
-    initArtigo();
     initUpdateDate();
     initTheme();
     initSyncDisclosureAccordion();
