@@ -183,3 +183,24 @@ document.addEventListener('DOMContentLoaded', () => {
     initUpdateDate();
     initTheme();
 });
+
+// ==================== Disclosure Sections ====================
+document.addEventListener('DOMContentLoaded', () => {
+
+    document.querySelectorAll('.project').forEach(project => {
+        const sections = project.querySelectorAll('.project-section');
+
+        sections.forEach(section => {
+            section.addEventListener('toggle', () => {
+                if (section.open) {
+                    sections.forEach(other => {
+                        if (other !== section) {
+                            other.removeAttribute('open');
+                        }
+                    });
+                }
+            });
+        });
+    });
+
+});
