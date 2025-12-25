@@ -969,3 +969,46 @@ body.static-header .last-update {
 .exp-list li {
     margin-bottom: 8px;
 }
+
+/* ============================= */
+/* Seções com disclosure */
+/* ============================= */
+
+.project-section {
+    margin-bottom: 12px;
+}
+
+/* Summary */
+.project-section summary {
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-left: 18px;
+}
+
+/* Remove marcador padrão */
+.project-section summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Ícone + / − */
+.project-section summary::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+}
+
+/* Quando aberto */
+.project-section[open] summary::before {
+    content: "−";
+}
+
+/* Texto */
+.project-section p {
+    margin-top: 8px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+}
