@@ -175,16 +175,6 @@ function initTheme() {
     }
 }
 
-// ==================== Inicialização ====================
-document.addEventListener('DOMContentLoaded', () => {
-    initFadeIn();
-    initToggle();
-    initBlockRightClick();
-    initCertificados();
-    initUpdateDate();
-    initTheme();
-});
-
 // ==================== Disclosure Sections ====================
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -204,4 +194,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+});
+
+// ==================== Módulo Sync Disclosure com Accordion ====================
+function initSyncDisclosureAccordion() {
+    document.querySelectorAll('.project-section').forEach(section => {
+        section.addEventListener('toggle', () => {
+            const accordionContent = section.closest('.exp-details');
+            if (!accordionContent) return;
+
+            // Só recalcula se o acordeon estiver aberto
+            if (accordionContent.style.maxHeight && accordionContent.style.maxHeight !== '0px') {
+                accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+            }
+        });
+    });
+}
+
+// ==================== Inicialização ====================
+document.addEventListener('DOMContentLoaded', () => {
+    initFadeIn();
+    initToggle();
+    initBlockRightClick();
+    abrirCertificado();
+    abrirArtigo();
+    initUpdateDate();
+    initTheme();
+    initSyncDisclosureAccordion();
 });
