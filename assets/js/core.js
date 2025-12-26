@@ -92,17 +92,6 @@ function initToggle() {
     });
 }
 
-// ==================== Animação Disclosure Sections ====================
-
-document.querySelectorAll('.project-section').forEach(details => {
-  details.addEventListener('toggle', () => {
-    const expDetails = details.closest('.exp-details');
-    if (expDetails && expDetails.style.maxHeight) {
-      expDetails.style.maxHeight = expDetails.scrollHeight + 'px';
-    }
-  });
-});
-
 // ==================== Módulo Bloqueio Clique Direito ====================
 function initBlockRightClick() {
     document.body.addEventListener('contextmenu', e => e.preventDefault());
@@ -186,20 +175,28 @@ function initTheme() {
     }
 }
 
-// ==================== Disclosure Sections ====================
+// ==================== Disclosure Sections (controle manual) ====================
 document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelectorAll('.experience').forEach(project => {
         const sections = project.querySelectorAll('.project-section');
 
         sections.forEach(section => {
-            section.addEventListener('toggle', () => {
-                if (section.open) {
-                    sections.forEach(other => {
-                        if (other !== section) {
-                            other.removeAttribute('open');
-                        }
-                    });
+            const summary = section.querySelector('summary');
+
+            summary.addEventListener('click', e => {
+                e.preventDefault(); // 🔴 impede o toggle automático
+
+                const isOpen = section.hasAttribute('open');
+
+                // fecha todos
+                sections.forEach(other => {
+                    other.removeAttribute('open');
+                });
+
+                // abre somente se não estava aberto
+                if (!isOpen) {
+                    section.setAttribute('open', '');
                 }
             });
         });
