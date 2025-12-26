@@ -835,7 +835,8 @@ body.static-header .last-update {
     height: 1px;
     width: 40%;
 
-    margin: 20px 0; /* 👈 aqui está a chave */
+    margin-top: 16px;
+    margin-bottom: 24px;
 
     background: linear-gradient(
         to right,
