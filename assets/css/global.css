@@ -830,12 +830,6 @@ body.static-header .last-update {
    Linha Decorativa dos Projetos
 ============================ */
 
-.menu-divider-item {
-    list-style: none;
-    padding: 16px;
-    margin: 4px 0;
-}
-
 .decorative-line-projetos {
     border: 0;
     height: 1px;
