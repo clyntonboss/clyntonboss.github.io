@@ -832,15 +832,15 @@ body.static-header .last-update {
 
 .menu-divider-item {
     list-style: none;
-    padding: 0;
-    margin: 16px 0;
+    padding: 8;
+    margin: 4px 0;
 }
 
 .decorative-line-projetos {
     border: 0;
     height: 1px;
     width: 40%;
-    margin: 8px 0;
+    margin: 4px 0;
     background: linear-gradient(
         to right,
         #EAEAEA,
