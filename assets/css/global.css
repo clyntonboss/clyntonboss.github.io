@@ -1014,6 +1014,10 @@ body.static-header .last-update {
     content: "▾";
 }
 
+.project-section[open] .project-content {
+  max-height: 1024px; /* valor alto e seguro */
+}
+
 /* Texto */
 .project-section > p {
     margin-top: 8px;
@@ -1032,4 +1036,10 @@ body.static-header .last-update {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.project-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease;
 }
