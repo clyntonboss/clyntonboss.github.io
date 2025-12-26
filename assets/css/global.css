@@ -984,6 +984,9 @@ body.static-header .last-update {
 
 /* Summary */
 .project-section summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
     font-weight: 600;
     cursor: pointer;
     list-style: none;
@@ -998,15 +1001,17 @@ body.static-header .last-update {
 
 /* Ícone + / − */
 .project-section summary::before {
-    content: "+";
+    content: "▸";
+   font-size: 1rem;
     position: absolute;
     left: 0;
     font-weight: 600;
+   transition: transform 0.2s ease;
 }
 
 /* Quando aberto */
 .project-section[open] summary::before {
-    content: "−";
+    content: "▾";
 }
 
 /* Texto */
