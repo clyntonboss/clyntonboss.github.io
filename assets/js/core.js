@@ -92,6 +92,17 @@ function initToggle() {
     });
 }
 
+// ==================== Animação Disclosure Sections ====================
+
+document.querySelectorAll('.project-section').forEach(details => {
+  details.addEventListener('toggle', () => {
+    const expDetails = details.closest('.exp-details');
+    if (expDetails && expDetails.style.maxHeight) {
+      expDetails.style.maxHeight = expDetails.scrollHeight + 'px';
+    }
+  });
+});
+
 // ==================== Módulo Bloqueio Clique Direito ====================
 function initBlockRightClick() {
     document.body.addEventListener('contextmenu', e => e.preventDefault());
