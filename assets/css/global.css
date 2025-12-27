@@ -951,7 +951,7 @@ body.static-header .last-update {
 }
 
 /* ============================================
-   LISTA DE COMPETÊNCIAS TÉCNICAS (nova classe)
+   LISTA DE COMPETÊNCIAS TÉCNICAS
    ============================================ */
 
 .tech-subtitle {
@@ -995,7 +995,7 @@ body.static-header .last-update {
 }
 
 /* ============================= */
-/* Seções com disclosure */
+/* Disclosure Sections */
 /* ============================= */
 
 .project-section {
@@ -1019,7 +1019,7 @@ body.static-header .last-update {
     display: none;
 }
 
-/* Ícone + / − */
+/* Ícone ▸ / ▾ */
 .project-section summary::before {
     content: "▸";
     font-size: 1rem;
@@ -1040,7 +1040,7 @@ body.static-header .last-update {
     text-align: justify;
     font-size: 15px;
     line-height: 1.6;
-   animation: fadeInDetails 0.4s ease;
+    animation: fadeInDetails 0.4s ease;
 }
 
 @keyframes fadeInDetails {
