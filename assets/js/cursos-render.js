@@ -20,7 +20,7 @@ function setViewMode(mode) {
 
   if (mode === "block") {
     document.getElementById("course-block").classList.remove("hidden");
-    renderBlocoCurso(cursosBancoDeDados);
+    renderBlocoCurso(0);
   }
 }
 
