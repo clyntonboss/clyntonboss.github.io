@@ -1,6 +1,9 @@
+let cursoAtualIndex = 0;
+
 function setViewMode(mode) {
   const list = document.getElementById("courses-container");
   const grid = document.getElementById("courses-grid");
+  const block = document.getElementById("courses-block");
 
   list.classList.add("hidden");
   grid.classList.add("hidden");
@@ -13,6 +16,11 @@ function setViewMode(mode) {
   if (mode === "grid") {
     grid.classList.remove("hidden");
     renderGradeCursos(cursosBancoDeDados);
+  }
+
+  if (mode === "block") {
+    document.getElementById("course-block").classList.remove("hidden");
+    renderBlocoCurso(0);
   }
 }
 
@@ -57,3 +65,52 @@ function renderGradeCursos(cursos) {
     container.appendChild(item);
   });
 }
+
+function renderBlocoCurso(index) {
+  const container = document.getElementById("course-block");
+  const content = container.querySelector(".course-block-content");
+
+  if (!container || !content) return;
+
+  const curso = cursosBancoDeDados[index];
+  if (!curso) return;
+
+  cursoAtualIndex = index;
+
+  content.innerHTML = `
+    <img 
+      src="${curso.thumb}" 
+      alt="${curso.curso}"
+      onclick="abrirCertificado('${curso.thumb}')"
+    >
+
+    <div class="course-meta">
+      <p><strong>Instituição:</strong> ${curso.instituicao}</p>
+      <p><strong>Curso:</strong> ${curso.curso}</p>
+      <p><strong>Carga Horária:</strong> ${curso.carga}</p>
+      <p><strong>Conclusão:</strong> ${formatarData(curso.conclusao)}</p>
+
+      ${
+        curso.verificacao
+          ? `<p><a href="${curso.verificacao}" target="_blank">Verificar autenticidade</a></p>`
+          : ""
+      }
+    </div>
+  `;
+
+  // Controle de limites
+  document.getElementById("prev-course").disabled = index === 0;
+  document.getElementById("next-course").disabled = index === cursosBancoDeDados.length - 1;
+}
+
+document.getElementById("prev-course").addEventListener("click", () => {
+  if (cursoAtualIndex > 0) {
+    renderBlocoCurso(cursoAtualIndex - 1);
+  }
+});
+
+document.getElementById("next-course").addEventListener("click", () => {
+  if (cursoAtualIndex < cursosBancoDeDados.length - 1) {
+    renderBlocoCurso(cursoAtualIndex + 1);
+  }
+});
