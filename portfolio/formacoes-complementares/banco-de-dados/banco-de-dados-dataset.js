@@ -1,4 +1,4 @@
-const cursos = [
+const cursosBancoDeDados = [
   {
     id: 1,
 
