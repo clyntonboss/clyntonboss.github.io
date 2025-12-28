@@ -1058,3 +1058,27 @@ body.static-header .last-update {
   opacity: 0.8;
   font-size: 0.85rem;
 }
+
+/* Estilização da Grade de Cursos */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.course-grid-item {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.course-grid-item img {
+  width: 100%;
+  display: block;
+  margin-bottom: .75rem;
+}
+
+.hidden {
+  display: none;
+}
