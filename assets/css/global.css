@@ -1034,3 +1034,27 @@ body.static-header .last-update {
     transform: translateY(0);
   }
 }
+
+/* Estilização da Lista de Cursos */
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.course-list-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--divider-color);
+}
+
+.course-name {
+  font-weight: 500;
+}
+
+.course-date {
+  opacity: 0.8;
+  font-size: 0.85rem;
+}
