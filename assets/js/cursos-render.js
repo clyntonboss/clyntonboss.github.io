@@ -22,7 +22,11 @@ function renderListaCursos(cursos) {
 }
 
 function renderGradeCursos(cursos) {
+  console.log("renderGradeCursos chamada", cursos);
+
   const container = document.getElementById("courses-grid");
+  console.log("container:", container);
+
   if (!container) return;
 
   container.innerHTML = "";
