@@ -1,0 +1,30 @@
+.header-with-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-mode-controls {
+    display: flex;
+    gap: 12px;
+}
+
+.view-btn {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.view-btn:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.view-btn.active {
+    opacity: 1;
+    font-weight: 600;
+}
