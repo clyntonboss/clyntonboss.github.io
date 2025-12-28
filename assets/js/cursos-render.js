@@ -14,7 +14,7 @@ function renderListaCursos(cursos) {
 
     item.innerHTML = `
       <span class="course-name">${curso.curso}</span>
-      <span class="course-date">${curso.conclusaoExtenso}</span>
+      <span class="course-date">${curso.dataConclusao}</span>
     `;
 
     container.appendChild(item);
