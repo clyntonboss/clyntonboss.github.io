@@ -1,6 +1,20 @@
-document.addEventListener("DOMContentLoaded", () => {
-  renderGradeCursos(cursosBancoDeDados);
-});
+function setViewMode(mode) {
+  const list = document.getElementById("courses-container");
+  const grid = document.getElementById("courses-grid");
+
+  list.classList.add("hidden");
+  grid.classList.add("hidden");
+
+  if (mode === "list") {
+    list.classList.remove("hidden");
+    renderListaCursos(cursosBancoDeDados);
+  }
+
+  if (mode === "grid") {
+    grid.classList.remove("hidden");
+    renderGradeCursos(cursosBancoDeDados);
+  }
+}
 
 function renderListaCursos(cursos) {
   const container = document.getElementById("courses-container");
