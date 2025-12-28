@@ -334,25 +334,6 @@ main {
   transform: scale(1.06);
 }
 
-.btn-curriculo {
-  background-color: var(--bg-color-button);
-  color: #e6e6e6;
-  padding: 10px 20px;
-  width: 160px;
-  text-decoration: none;
-  font-weight: 400;
-  border-radius: 25px;
-  box-shadow: var(--box-shadow-button);
-  transition: background-color 0.4s ease, transform 0.4s ease;
-  margin-top: 16px;
-  margin-botton: 16px;
-}
-
-.btn-curriculo:hover {
-  background-color: var(--bg-color-button-hover);
-  transform: scale(1.06);
-}
-
 .intro-text {
   flex: 1;
   text-align: justify;
