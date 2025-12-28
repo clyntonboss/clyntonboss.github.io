@@ -1082,3 +1082,27 @@ body.static-header .last-update {
 .hidden {
   display: none;
 }
+
+/* Estilização do Bloco de Cursos */
+.course-block {
+  margin-top: 24px;
+}
+
+.course-block-content {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.course-block-content img {
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.course-block-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
