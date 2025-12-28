@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  renderGradeCursos(cursosBancoDeDados);
+  renderListaCursos(cursosBancoDeDados);
 });
 
 function renderListaCursos(cursos) {
