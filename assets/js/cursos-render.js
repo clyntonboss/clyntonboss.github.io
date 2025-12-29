@@ -108,6 +108,30 @@ function renderBlocoCurso(index) {
   if (indicator) {
     indicator.textContent = `${index + 1} / ${cursosBancoDeDados.length}`;
   }
+
+  // Opções de Navegação Desabilitadas
+  const firstBtn = document.getElementById("first-course");
+  const prevBtn = document.getElementById("prev-course");
+  const nextBtn = document.getElementById("next-course");
+  const lastBtn = document.getElementById("last-course");
+  
+  // Primeiro curso
+  if (index === 0) {
+    firstBtn.classList.add("disabled");
+    prevBtn.classList.add("disabled");
+  } else {
+    firstBtn.classList.remove("disabled");
+    prevBtn.classList.remove("disabled");
+  }
+  
+  // Último curso
+  if (index === cursosBancoDeDados.length - 1) {
+    nextBtn.classList.add("disabled");
+    lastBtn.classList.add("disabled");
+  } else {
+    nextBtn.classList.remove("disabled");
+    lastBtn.classList.remove("disabled");
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
