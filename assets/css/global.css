@@ -1095,8 +1095,9 @@ body.static-header .last-update {
 }
 
 .course-block-content img {
-  width: 100%;
-  border-radius: 6px;
+  width: 220px;
+  max-width: 100%;
+  border-radius: 8px;
   cursor: pointer;
 }
 
