@@ -59,8 +59,7 @@ function renderGradeCursos(cursos) {
     item.className = "course-grid-item";
 
     item.innerHTML = `
-      <img src="${curso.thumb}" alt="${curso.curso}">
-      <span class="course-name">${curso.curso}</span>
+      <img src="${curso.thumb}" alt="${curso.curso}" class="cert-thumb" onclick="abrirCertificado('${curso.thumb}')">
     `;
 
     container.appendChild(item);
