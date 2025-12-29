@@ -1078,7 +1078,7 @@ body.static-header .last-update {
 
 .course-grid-item img {
     width: auto;
-    height: 220px;
+    height: 180px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
