@@ -3,10 +3,11 @@ let cursoAtualIndex = 0;
 function setViewMode(mode) {
   const list = document.getElementById("courses-container");
   const grid = document.getElementById("courses-grid");
-  const block = document.getElementById("courses-block");
+  const block = document.getElementById("course-block");
 
   list.classList.add("hidden");
   grid.classList.add("hidden");
+  block.classList.add("hidden");
 
   if (mode === "list") {
     list.classList.remove("hidden");
@@ -19,7 +20,7 @@ function setViewMode(mode) {
   }
 
   if (mode === "block") {
-    document.getElementById("course-block").classList.remove("hidden");
+    block.classList.remove("hidden");
     renderBlocoCurso(0);
   }
 }
@@ -88,19 +89,21 @@ function renderBlocoCurso(index) {
       <p><strong>Instituição:</strong> ${curso.instituicao}</p>
       <p><strong>Curso:</strong> ${curso.curso}</p>
       <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
-      <p><strong>Conclusão:</strong> ${formatarData(curso.dataConclusao)}</p>
+      <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
 
       ${
-        curso.verificacao
-          ? `<p><a href="${curso.verificacao}" target="_blank">Verificar Autenticidade</a></p>`
+        curso.verificacao?.url
+          ? `<p><a href="${curso.verificacao.url}" target="_blank">
+               ${curso.verificacao.texto}
+             </a></p>`
           : ""
       }
     </div>
   `;
 
-  // Controle de limites
   document.getElementById("prev-course").disabled = index === 0;
-  document.getElementById("next-course").disabled = index === cursosBancoDeDados.length - 1;
+  document.getElementById("next-course").disabled =
+    index === cursosBancoDeDados.length - 1;
 }
 
 document.getElementById("prev-course").addEventListener("click", () => {
