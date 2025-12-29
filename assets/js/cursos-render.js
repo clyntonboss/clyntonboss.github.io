@@ -118,3 +118,7 @@ document.getElementById("next-course").addEventListener("click", () => {
     renderBlocoCurso(cursoAtualIndex + 1);
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  setViewMode("block");
+});
