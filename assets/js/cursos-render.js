@@ -92,14 +92,14 @@ function renderBlocoCurso(index) {
       <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
       <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
       <p><strong>Código:</strong> ${curso.codigo}</p>
-
-      ${
-        curso.verificacao?.url
-          ? `<p><a href="${curso.verificacao.url}" target="_blank">
-               ${curso.verificacao.texto}
-             </a></p>`
-          : ""
-      }
+      <p>
+        <strong>Verificação:</strong>
+        ${
+          curso.verificacao?.url
+            ? `<a href="${curso.verificacao.url}" target="_blank">${curso.verificacao.texto}</a>`
+            : `<span class="verificacao-indisponivel">Indisponível</span>`
+        }
+      </p>
     </div>
   `;
 
