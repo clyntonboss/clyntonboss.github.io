@@ -90,6 +90,7 @@ function renderBlocoCurso(index) {
       <p><strong>Curso:</strong> ${curso.curso}</p>
       <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
       <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
+      <p><strong>Código:</strong> ${curso.codigo}</p>
 
       ${
         curso.verificacao?.url
