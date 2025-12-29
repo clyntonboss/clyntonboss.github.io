@@ -1,10 +1,3 @@
-function renderBlocoCurso(index) {
-  console.log("Renderizando bloco:", index);
-
-  const container = document.querySelector(".course-block-content");
-  container.innerHTML = "<p style='color:white'>TESTE BLOCO OK</p>";
-}
-
 let cursoAtualIndex = 0;
 
 function setViewMode(mode) {
