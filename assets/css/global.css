@@ -1125,3 +1125,9 @@ body.static-header .last-update {
   font-weight: bold;
   opacity: 0.8;
 }
+
+.course-nav-action.disabled {
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
