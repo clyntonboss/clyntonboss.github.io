@@ -1067,10 +1067,12 @@ body.static-header .last-update {
 }
 
 .course-grid-item {
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 1rem;
-  cursor: pointer;
+  border: none;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .course-grid-item img {
