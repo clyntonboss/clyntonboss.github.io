@@ -96,8 +96,8 @@ function renderBlocoCurso(index) {
         <strong>Verificação:</strong>
         ${
           curso.verificacao?.url
-            ? `<a href="${curso.verificacao.url}" target="_blank">${curso.verificacao.texto}</a>`
-            : `<span class="verificacao-indisponivel">Indisponível</span>`
+            ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+            : `<span class="cert-no-verify">Indisponível</span>`
         }
       </p>
     </div>
