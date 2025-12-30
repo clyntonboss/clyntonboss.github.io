@@ -13,16 +13,6 @@ function setViewMode(mode) {
   grid.classList.add("hidden");
 
   // ativa o modo escolhido
-  if (mode === "list") {
-    list.classList.remove("hidden");
-    renderListaCursos(cursosBancoDeDados);
-  }
-
-  if (mode === "grid") {
-    grid.classList.remove("hidden");
-    renderGradeCursos(cursosBancoDeDados);
-  }
-
   if (mode === "block") {
     block.classList.remove("hidden");
     renderBlocoCurso(0);
@@ -31,6 +21,16 @@ function setViewMode(mode) {
   if (mode === "flow") {
     flow.classList.remove("hidden");
     renderFluxoCursos(cursosBancoDeDados);
+  }
+  
+  if (mode === "list") {
+    list.classList.remove("hidden");
+    renderListaCursos(cursosBancoDeDados);
+  }
+
+  if (mode === "grid") {
+    grid.classList.remove("hidden");
+    renderGradeCursos(cursosBancoDeDados);
   }
 }
 
