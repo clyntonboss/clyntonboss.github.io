@@ -2,7 +2,7 @@ let cursoAtualIndex = 0;
 
 function setViewMode(mode) {
   const block = document.getElementById("course-block");
-  const block = document.getElementById("course-flow");
+  const block = document.getElementById("courses-flow");
   const list = document.getElementById("courses-container");
   const grid = document.getElementById("courses-grid");
   
