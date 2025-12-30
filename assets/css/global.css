@@ -1076,11 +1076,23 @@ body.static-header .last-update {
 }
 
 .course-grid-item img {
+    border: 1px solid var(--fixed-header-section);                         /* borda bem discreta */
+    border-radius: 6px;                                         /* cantos levemente arredondados */
+    padding: 2px;                                               /* pequena área interna */
+
     width: 240px;
     height: 170px;
-    object-fit: contain;
     display: block;
-    margin: 0 auto;
+    margin: 16px;
+    cursor: pointer;
+   
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+   
+    /*width: 240px;*/
+    /*height: 170px;*/
+    object-fit: contain;
+    /*display: block;*/
+    /*margin: 0 auto;*/
 }
 
 .hidden {
@@ -1099,10 +1111,21 @@ body.static-header .last-update {
 }
 
 .course-block-content img {
-  width: 240px;
-  height: 170px;
-  border-radius: 8px;
-  cursor: pointer;
+  /*width: 240px;*/
+  /*height: 170px;*/
+  /*border-radius: 8px;*/
+  /*cursor: pointer;*/
+    border: 1px solid var(--fixed-header-section);                         /* borda bem discreta */
+    border-radius: 6px;                                         /* cantos levemente arredondados */
+    padding: 2px;                                               /* pequena área interna */
+
+    width: 240px;
+    height: 170px;
+    display: block;
+    margin: 16px;
+    cursor: pointer;
+   
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .course-block-nav {
@@ -1144,8 +1167,20 @@ body.static-header .last-update {
 }
 
 .courses-flow .cert-thumb {
-    width: 240px;              /* não estica */
+    /*width: 240px;*/              /* não estica */
+    /*height: 170px;*/
+    border: 1px solid var(--fixed-header-section);                         /* borda bem discreta */
+    border-radius: 6px;                                         /* cantos levemente arredondados */
+    padding: 2px;                                               /* pequena área interna */
+
+    width: 240px;
     height: 170px;
+    display: block;
+    margin: 16px;
+    cursor: pointer;
+   
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+   
     align-self: flex-start;   /* evita centralização estranha */
 }
 
