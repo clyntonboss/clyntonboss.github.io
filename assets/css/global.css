@@ -1146,7 +1146,7 @@ body.static-header .last-update {
 
 .courses-flow .cert-thumb {
     width: auto;              /* não estica */
-    max-width: 360px;         /* ajuste fino aqui */
+    max-width: 320px;         /* ajuste fino aqui */
     align-self: flex-start;   /* evita centralização estranha */
 }
 
