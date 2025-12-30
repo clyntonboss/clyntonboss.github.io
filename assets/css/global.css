@@ -775,8 +775,7 @@ body.static-header .last-update {
     border: 0;
     height: 2px;
     width: 80%;
-    margin: 0 auto;
-    gap: 16px;
+    margin: 16px auto;
     background: linear-gradient(
         to right,
         transparent,
