@@ -1077,8 +1077,8 @@ body.static-header .last-update {
 }
 
 .course-grid-item img {
-    width: auto;
-    height: 180px;
+    width: 240px;
+    height: auto;
     object-fit: contain;
     display: block;
     margin: 0 auto;
@@ -1100,7 +1100,7 @@ body.static-header .last-update {
 }
 
 .course-block-content img {
-  width: 220px;
+  width: 240px;
   max-width: 100%;
   border-radius: 8px;
   cursor: pointer;
@@ -1145,8 +1145,8 @@ body.static-header .last-update {
 }
 
 .courses-flow .cert-thumb {
-    width: auto;              /* não estica */
-    max-width: 320px;         /* ajuste fino aqui */
+    width: 240px;              /* não estica */
+    max-width: 100%;         /* ajuste fino aqui */
     align-self: flex-start;   /* evita centralização estranha */
 }
 
