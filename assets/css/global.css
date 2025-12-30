@@ -1146,6 +1146,6 @@ body.static-header .last-update {
 
 .course-flow-item {
     display: flex;
-    gap: 24px;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
 }
