@@ -1,13 +1,16 @@
 let cursoAtualIndex = 0;
 
 function setViewMode(mode) {
+  const block = document.getElementById("course-block");
+  const block = document.getElementById("course-flow");
   const list = document.getElementById("courses-container");
   const grid = document.getElementById("courses-grid");
-  const block = document.getElementById("course-block");
-
+  
+  block.classList.add("hidden");
+  flow.classList.add("hidden");
   list.classList.add("hidden");
   grid.classList.add("hidden");
-  block.classList.add("hidden");
+  
 
   if (mode === "list") {
     list.classList.remove("hidden");
@@ -22,6 +25,11 @@ function setViewMode(mode) {
   if (mode === "block") {
     block.classList.remove("hidden");
     renderBlocoCurso(0);
+  }
+
+  if (mode === "flow") {
+    document.getElementById("courses-flow").classList.remove("hidden");
+    renderFluxoCursos(cursosBancoDeDados);
   }
 }
 
@@ -156,6 +164,48 @@ document.addEventListener("DOMContentLoaded", () => {
     renderBlocoCurso(cursosBancoDeDados.length - 1);
   });
 });
+
+// Modo Fluido
+function renderFluxoCursos(cursos) {
+  const container = document.getElementById("courses-flow");
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  cursos.forEach(curso => {
+    const item = document.createElement("div");
+    item.className = "course-flow-item";
+
+  content.innerHTML = `
+    <img 
+      src="${curso.thumb}" 
+      alt="${curso.curso}"
+      class="cert-thumb"
+      onclick="abrirCertificado('${curso.thumb}')"
+    >
+
+    <div class="curriculo-text cert-text-margin">
+      <p><strong>Instituição:</strong> ${curso.instituicao}</p>
+      <p><strong>Curso:</strong> ${curso.curso}</p>
+      <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
+      <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
+      <p><strong>Código:</strong> ${curso.codigo}</p>
+      <p>
+        <strong>Verificação:</strong>
+        ${
+          curso.verificacao?.url
+            ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+            : `<span class="cert-no-verify">Indisponível</span>`
+        }
+      </p>
+    </div>
+  `;
+
+    container.appendChild(item);
+  });
+}
+
+// ==== The End ====
 
 document.addEventListener("DOMContentLoaded", () => {
   setViewMode("block");
