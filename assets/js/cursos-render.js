@@ -1,34 +1,28 @@
 let cursoAtualIndex = 0;
 
 function setViewMode(mode) {
-  const block = document.getElementById("course-block");
-  const flow  = document.getElementById("courses-flow");
-  const list  = document.getElementById("courses-container");
-  const grid  = document.getElementById("courses-grid");
+  limparTodosOsModos();
 
-  // esconde todos
-  block.classList.add("hidden");
-  flow.classList.add("hidden");
-  list.classList.add("hidden");
-  grid.classList.add("hidden");
-
-  // ativa o modo escolhido
   if (mode === "block") {
+    const block = document.getElementById("course-block");
     block.classList.remove("hidden");
     renderBlocoCurso(0);
   }
 
   if (mode === "flow") {
+    const flow = document.getElementById("courses-flow");
     flow.classList.remove("hidden");
     renderFluxoCursos(cursosBancoDeDados);
   }
-  
+
   if (mode === "list") {
+    const list = document.getElementById("courses-container");
     list.classList.remove("hidden");
     renderListaCursos(cursosBancoDeDados);
   }
 
   if (mode === "grid") {
+    const grid = document.getElementById("courses-grid");
     grid.classList.remove("hidden");
     renderGradeCursos(cursosBancoDeDados);
   }
@@ -211,6 +205,36 @@ function renderFluxoCursos(cursos) {
       container.appendChild(hr);
     }
   });
+}
+// ==== The End ====
+
+// ==== Limpeza Global do DOM ====
+function limparTodosOsModos() {
+  const block = document.getElementById("course-block");
+  const flow  = document.getElementById("courses-flow");
+  const list  = document.getElementById("courses-container");
+  const grid  = document.getElementById("courses-grid");
+
+  if (block) {
+    block.classList.add("hidden");
+    const content = block.querySelector(".course-block-content");
+    if (content) content.innerHTML = "";
+  }
+
+  if (flow) {
+    flow.classList.add("hidden");
+    flow.innerHTML = "";
+  }
+
+  if (list) {
+    list.classList.add("hidden");
+    list.innerHTML = "";
+  }
+
+  if (grid) {
+    grid.classList.add("hidden");
+    grid.innerHTML = "";
+  }
 }
 // ==== The End ====
 
