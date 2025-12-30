@@ -1144,6 +1144,12 @@ body.static-header .last-update {
     gap: 24px;
 }
 
+.courses-flow .cert-thumb {
+    width: auto;              /* não estica */
+    max-width: 320px;         /* ajuste fino aqui */
+    align-self: flex-start;   /* evita centralização estranha */
+}
+
 .course-flow-item {
     display: flex;
     flex-direction: column;
