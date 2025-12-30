@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Modo Fluido
+// ==== Flow Mode ====
 function renderFluxoCursos(cursos) {
   const container = document.getElementById("courses-flow");
   if (!container) return;
