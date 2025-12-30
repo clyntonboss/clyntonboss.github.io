@@ -173,7 +173,7 @@ function renderFluxoCursos(cursos) {
 
   container.innerHTML = "";
 
-  cursos.forEach(curso => {
+  cursos.forEach((curso, index) => {
     const item = document.createElement("div");
     item.className = "course-flow-item";
 
@@ -203,9 +203,15 @@ function renderFluxoCursos(cursos) {
     `;
 
     container.appendChild(item);
+
+    // 🔹 linha decorativa entre cursos (exceto após o último)
+    if (index < cursos.length - 1) {
+      const hr = document.createElement("hr");
+      hr.className = "decorative-line-cert";
+      container.appendChild(hr);
+    }
   });
 }
-
 // ==== The End ====
 
 document.addEventListener("DOMContentLoaded", () => {
