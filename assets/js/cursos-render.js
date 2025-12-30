@@ -2,16 +2,17 @@ let cursoAtualIndex = 0;
 
 function setViewMode(mode) {
   const block = document.getElementById("course-block");
-  const block = document.getElementById("courses-flow");
-  const list = document.getElementById("courses-container");
-  const grid = document.getElementById("courses-grid");
-  
+  const flow  = document.getElementById("courses-flow");
+  const list  = document.getElementById("courses-container");
+  const grid  = document.getElementById("courses-grid");
+
+  // esconde todos
   block.classList.add("hidden");
   flow.classList.add("hidden");
   list.classList.add("hidden");
   grid.classList.add("hidden");
-  
 
+  // ativa o modo escolhido
   if (mode === "list") {
     list.classList.remove("hidden");
     renderListaCursos(cursosBancoDeDados);
@@ -28,7 +29,7 @@ function setViewMode(mode) {
   }
 
   if (mode === "flow") {
-    document.getElementById("courses-flow").classList.remove("hidden");
+    flow.classList.remove("hidden");
     renderFluxoCursos(cursosBancoDeDados);
   }
 }
@@ -176,30 +177,30 @@ function renderFluxoCursos(cursos) {
     const item = document.createElement("div");
     item.className = "course-flow-item";
 
-  content.innerHTML = `
-    <img 
-      src="${curso.thumb}" 
-      alt="${curso.curso}"
-      class="cert-thumb"
-      onclick="abrirCertificado('${curso.thumb}')"
-    >
+    item.innerHTML = `
+      <img 
+        src="${curso.thumb}" 
+        alt="${curso.curso}"
+        class="cert-thumb"
+        onclick="abrirCertificado('${curso.thumb}')"
+      >
 
-    <div class="curriculo-text cert-text-margin">
-      <p><strong>Instituição:</strong> ${curso.instituicao}</p>
-      <p><strong>Curso:</strong> ${curso.curso}</p>
-      <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
-      <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
-      <p><strong>Código:</strong> ${curso.codigo}</p>
-      <p>
-        <strong>Verificação:</strong>
-        ${
-          curso.verificacao?.url
-            ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-            : `<span class="cert-no-verify">Indisponível</span>`
-        }
-      </p>
-    </div>
-  `;
+      <div class="curriculo-text cert-text-margin">
+        <p><strong>Instituição:</strong> ${curso.instituicao}</p>
+        <p><strong>Curso:</strong> ${curso.curso}</p>
+        <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
+        <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
+        <p><strong>Código:</strong> ${curso.codigo}</p>
+        <p>
+          <strong>Verificação:</strong>
+          ${
+            curso.verificacao?.url
+              ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+              : `<span class="cert-no-verify">Indisponível</span>`
+          }
+        </p>
+      </div>
+    `;
 
     container.appendChild(item);
   });
