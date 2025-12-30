@@ -1163,7 +1163,7 @@ body.static-header .last-update {
 .courses-flow {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 8px;
 }
 
 .courses-flow .cert-thumb {
@@ -1187,5 +1187,5 @@ body.static-header .last-update {
 .course-flow-item {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
