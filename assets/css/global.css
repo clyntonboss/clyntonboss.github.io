@@ -666,8 +666,8 @@ body {
     border-radius: 6px;                                         /* cantos levemente arredondados */
     padding: 2px;                                               /* pequena área interna */
 
-    width: auto;
-    height: 149px;
+    width: 320px;
+    height: auto;
     display: block;
     margin-bottom: 15px;
     cursor: pointer;
