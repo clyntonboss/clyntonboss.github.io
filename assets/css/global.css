@@ -1062,6 +1062,7 @@ body.static-header .last-update {
 .courses-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
 }
 
 .course-grid-item {
