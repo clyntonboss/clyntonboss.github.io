@@ -10,7 +10,6 @@ function setViewMode(mode) {
   if (mode === "block") {
     const block = document.getElementById("course-block");
     block.classList.remove("hidden");
-    renderBlocoCurso(0);
   }
 
   if (mode === "flow") {
