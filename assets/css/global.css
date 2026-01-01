@@ -1062,23 +1062,21 @@ body.static-header .last-update {
 .courses-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.5rem;
 }
 
 .course-grid-item {
   border: none;
   background: none;
   box-shadow: none;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .course-grid-item img {
-    border: 1px solid var(--fixed-header-section);                         /* borda bem discreta */
-    border-radius: 6px;                                         /* cantos levemente arredondados */
-    padding: 2px;                                               /* pequena área interna */
+    border: 1px solid var(--fixed-header-section);
+    border-radius: 6px;
+    padding: 2px;
 
     width: 240px;
     height: 170px;
@@ -1087,12 +1085,6 @@ body.static-header .last-update {
     cursor: pointer;
    
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-   
-    /*width: 240px;*/
-    /*height: 170px;*/
-    /*object-fit: contain;*/
-    /*display: block;*/
-    /*margin: 0 auto;*/
 }
 
 .hidden {
