@@ -1,6 +1,7 @@
 let cursoAtualIndex = 0;
 
 function setViewMode(mode) {
+  atualizarBotoesDeVisualizacao(mode);
   limparTodosOsModos();
 
   if (mode === "block") {
@@ -235,6 +236,22 @@ function limparTodosOsModos() {
     grid.classList.add("hidden");
     grid.innerHTML = "";
   }
+}
+// ==== The End ====
+
+// ==== Atualizar Estado dos Ícones ====
+function atualizarBotoesDeVisualizacao(modoAtivo) {
+  const buttons = document.querySelectorAll(".view-btn");
+
+  buttons.forEach(btn => {
+    if (btn.dataset.view === modoAtivo) {
+      btn.classList.add("active");
+      btn.setAttribute("aria-disabled", "true");
+    } else {
+      btn.classList.remove("active");
+      btn.removeAttribute("aria-disabled");
+    }
+  });
 }
 // ==== The End ====
 
