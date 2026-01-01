@@ -149,6 +149,30 @@ function renderBlocoCurso(index) {
   }
 }
 
+// ============== Listeners do Bloco ==============
+function inicializarNavegacaoBloco() {
+  document.getElementById("first-course")?.addEventListener("click", () => {
+    renderBlocoCurso(0);
+  });
+
+  document.getElementById("prev-course")?.addEventListener("click", () => {
+    if (cursoAtualIndex > 0) {
+      renderBlocoCurso(cursoAtualIndex - 1);
+    }
+  });
+
+  document.getElementById("next-course")?.addEventListener("click", () => {
+    if (cursoAtualIndex < cursosBancoDeDados.length - 1) {
+      renderBlocoCurso(cursoAtualIndex + 1);
+    }
+  });
+
+  document.getElementById("last-course")?.addEventListener("click", () => {
+    renderBlocoCurso(cursosBancoDeDados.length - 1);
+  });
+}
+// =================== The  End ===================
+
 // ==== Flow Mode ====
 function renderFluxoCursos(cursos) {
   const container = document.getElementById("courses-flow");
@@ -195,9 +219,9 @@ function renderFluxoCursos(cursos) {
     }
   });
 }
-// ==== The End ====
+// ============== The End ==============
 
-// ==== Limpeza Global do DOM ====
+// ======= Limpeza Global do DOM =======
 function limparTodosOsModos() {
   const block = document.getElementById("course-block");
   const flow  = document.getElementById("courses-flow");
@@ -225,7 +249,7 @@ function limparTodosOsModos() {
     grid.innerHTML = "";
   }
 }
-// ==== The End ====
+// ============== The End ==============
 
 // ==== Atualizar Estado dos Ícones ====
 function atualizarBotoesDeVisualizacao(modoAtivo) {
@@ -241,9 +265,11 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
     }
   });
 }
-// ==== The End ====
+// ============== The End ==============
 
 document.addEventListener("DOMContentLoaded", () => {
+  inicializarNavegacaoBloco();
+
   const savedMode = localStorage.getItem("coursesViewMode") || "block";
   setViewMode(savedMode);
 });
