@@ -1129,7 +1129,7 @@ body.static-header .last-update {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-top: 0px;
+  margin-top: 24px;
   font-size: 1rem;
 }
 
