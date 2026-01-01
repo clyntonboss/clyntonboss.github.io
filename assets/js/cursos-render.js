@@ -11,8 +11,10 @@ function setViewMode(mode) {
     const block = document.getElementById("course-block");
     block.classList.remove("hidden");
   
-    const savedIndex =
-      parseInt(sessionStorage.getItem("blockCourseIndex"), 10);
+    const savedIndex = parseInt(
+      localStorage.getItem("blockCourseIndex"),
+      10
+    );
   
     renderBlocoCurso(
       Number.isInteger(savedIndex) ? savedIndex : 0
@@ -244,31 +246,4 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
 document.addEventListener("DOMContentLoaded", () => {
   const savedMode = localStorage.getItem("coursesViewMode") || "block";
   setViewMode(savedMode);
-  
-  if (savedMode === "block") {
-    const savedIndex =
-      parseInt(localStorage.getItem("blockCourseIndex"), 10) || 0;
-  
-    renderBlocoCurso(savedIndex);
-  }
-
-  document.getElementById("first-course")?.addEventListener("click", () => {
-    renderBlocoCurso(0);
-  });
-
-  document.getElementById("prev-course")?.addEventListener("click", () => {
-    if (cursoAtualIndex > 0) {
-      renderBlocoCurso(cursoAtualIndex - 1);
-    }
-  });
-
-  document.getElementById("next-course")?.addEventListener("click", () => {
-    if (cursoAtualIndex < cursosBancoDeDados.length - 1) {
-      renderBlocoCurso(cursoAtualIndex + 1);
-    }
-  });
-
-  document.getElementById("last-course")?.addEventListener("click", () => {
-    renderBlocoCurso(cursosBancoDeDados.length - 1);
-  });
 });
