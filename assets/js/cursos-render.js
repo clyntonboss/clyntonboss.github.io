@@ -74,6 +74,7 @@ function renderGradeCursos(cursos) {
 }
 
 function renderBlocoCurso(index) {
+  localStorage.setItem("blockCourseIndex", index);
   const container = document.getElementById("course-block");
   const content = container.querySelector(".course-block-content");
 
@@ -237,6 +238,13 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
 document.addEventListener("DOMContentLoaded", () => {
   const savedMode = localStorage.getItem("coursesViewMode") || "block";
   setViewMode(savedMode);
+  
+  if (savedMode === "block") {
+    const savedIndex =
+      parseInt(localStorage.getItem("blockCourseIndex"), 10) || 0;
+  
+    renderBlocoCurso(savedIndex);
+  }
 
   document.getElementById("first-course")?.addEventListener("click", () => {
     renderBlocoCurso(0);
