@@ -1166,6 +1166,10 @@ body.static-header .last-update {
     gap: 8px;
 }
 
+.courses-flow p {
+   margin: 16px 0;
+}
+
 .courses-flow .cert-thumb {
     border: 1px solid var(--fixed-header-section);
     border-radius: 6px;
