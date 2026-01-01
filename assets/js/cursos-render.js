@@ -179,7 +179,7 @@ function renderFluxoCursos(cursos) {
         onclick="abrirCertificado('${curso.thumb}')"
       >
 
-      <div class="curriculo-text cert-text-margin">
+      <div class="courses-flow cert-text-margin">
         <p><strong>Instituição:</strong> ${curso.instituicao}</p>
         <p><strong>Curso:</strong> ${curso.curso}</p>
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
