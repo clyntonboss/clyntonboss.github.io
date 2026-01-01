@@ -10,7 +10,13 @@ function setViewMode(mode) {
   if (mode === "block") {
     const block = document.getElementById("course-block");
     block.classList.remove("hidden");
-    renderBlocoCurso(0);
+  
+    const savedIndex =
+      parseInt(sessionStorage.getItem("blockCourseIndex"), 10);
+  
+    renderBlocoCurso(
+      Number.isInteger(savedIndex) ? savedIndex : 0
+    );
   }
 
   if (mode === "flow") {
