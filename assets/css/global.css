@@ -1101,13 +1101,13 @@ body.static-header .last-update {
 
 /* Estilização do Modo Bloco */
 .course-block {
-  margin-top: 24px;
+  margin-top: 0px;
 }
 
 .course-block-content {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 0px;
 }
 
 .course-block-content img {
@@ -1132,8 +1132,8 @@ body.static-header .last-update {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  margin-top: 16px;
+  gap: 0px;
+  margin-top: 0px;
   font-size: 1rem;
 }
 
