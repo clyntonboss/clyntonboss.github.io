@@ -1153,8 +1153,7 @@ body.static-header .last-update {
 
 /* Estilização do Modo Fluido */
 .courses-flow {
-    display: flex;
-    flex-direction: column;
+    margin: 0px;
 }
 
 .courses-flow p {
@@ -1180,8 +1179,4 @@ body.static-header .last-update {
 .course-flow-item {
     display: flex;
     flex-direction: column;
-}
-
-.course-flow-item p {
-   margin: 16px 0;
 }
