@@ -19,6 +19,8 @@ function setViewMode(mode) {
     renderBlocoCurso(
       Number.isInteger(savedIndex) ? savedIndex : 0
     );
+
+    return; // ⬅️ garante que nada abaixo execute
   }
 
   if (mode === "flow") {
