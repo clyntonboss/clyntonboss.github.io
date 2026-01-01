@@ -1111,7 +1111,6 @@ body.static-header .last-update {
 .course-block-content {
   display: flex;
   flex-direction: column;
-  gap: 0px;
 }
 
 .course-block-content img {
@@ -1163,7 +1162,6 @@ body.static-header .last-update {
 .courses-flow {
     display: flex;
     flex-direction: column;
-    gap: 8px;
 }
 
 .courses-flow p {
@@ -1189,5 +1187,4 @@ body.static-header .last-update {
 .course-flow-item {
     display: flex;
     flex-direction: column;
-    gap: 8px;
 }
