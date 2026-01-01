@@ -276,8 +276,27 @@ window.addEventListener("pageshow", (event) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+  // 🔹 Mantém a navegação funcionando
   inicializarNavegacaoBloco();
 
+  // 🔹 Detecta primeira entrada REAL na página (nova aba)
+  const alreadyVisited = sessionStorage.getItem("coursesVisited");
+
+  if (!alreadyVisited) {
+    // Primeira vez nesta aba → zera estado
+    localStorage.removeItem("coursesViewMode");
+    localStorage.removeItem("blockCourseIndex");
+    sessionStorage.setItem("coursesVisited", "true");
+  }
+
+  // 🔹 Restaura modo salvo ou padrão
   const savedMode = localStorage.getItem("coursesViewMode") || "block";
   setViewMode(savedMode);
+
+  // 🔹 Restaura posição do curso SOMENTE no Block Mode
+  if (savedMode === "block") {
+    const savedIndex =
+      parseInt(localStorage.getItem("blockCourseIndex"), 10) || 0;
+    renderBlocoCurso(savedIndex);
+  }
 });
