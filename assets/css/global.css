@@ -1111,13 +1111,9 @@ body.static-header .last-update {
 }
 
 .course-block-content img {
-  /*width: 240px;*/
-  /*height: 170px;*/
-  /*border-radius: 8px;*/
-  /*cursor: pointer;*/
-    border: 1px solid var(--fixed-header-section);                         /* borda bem discreta */
-    border-radius: 6px;                                         /* cantos levemente arredondados */
-    padding: 2px;                                               /* pequena área interna */
+    border: 1px solid var(--fixed-header-section);
+    border-radius: 6px;
+    padding: 2px;
 
     width: 240px;
     height: 170px;
@@ -1132,7 +1128,7 @@ body.static-header .last-update {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0px;
+  gap: 16px;
   margin-top: 0px;
   font-size: 1rem;
 }
