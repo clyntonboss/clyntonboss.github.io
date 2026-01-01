@@ -267,12 +267,9 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
 }
 // ============== The End ==============
 
-window.addEventListener("pageshow", (event) => {
-  if (!event.persisted) {
-    // Página foi acessada vinda de outra rota
-    localStorage.removeItem("coursesViewMode");
-    localStorage.removeItem("blockCourseIndex");
-  }
+window.addEventListener("beforeunload", () => {
+  localStorage.removeItem("coursesViewMode");
+  localStorage.removeItem("blockCourseIndex");
 });
 
 document.addEventListener("DOMContentLoaded", () => {
