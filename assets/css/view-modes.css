@@ -31,3 +31,7 @@
     cursor: default;        /* remove aparência de ação */
     transform: scale(1.2);
 }
+
+.view-btn:not(.active) {
+  pointer-events: auto;
+}
