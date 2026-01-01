@@ -1181,3 +1181,7 @@ body.static-header .last-update {
     display: flex;
     flex-direction: column;
 }
+
+.course-flow-item p {
+   margin: 16px 0;
+}
