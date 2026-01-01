@@ -1,26 +1,64 @@
 let cursoAtualIndex = 0;
 
+//function setViewMode(mode) {
+  //localStorage.setItem("coursesViewMode", mode);
+  
+  //atualizarBotoesDeVisualizacao(mode);
+  
+  //limparTodosOsModos();
+
+  //if (mode === "block") {
+    //const block = document.getElementById("course-block");
+    //block.classList.remove("hidden");
+  
+    //const savedIndex = parseInt(
+      //localStorage.getItem("blockCourseIndex"),
+      //10
+    //);
+  
+    //renderBlocoCurso(
+     //Number.isInteger(savedIndex) ? savedIndex : 0
+    //);
+
+    //return; // ⬅️ garante que nada abaixo execute
+  //}
+
+  //if (mode === "flow") {
+    //const flow = document.getElementById("courses-flow");
+    //flow.classList.remove("hidden");
+    //renderFluxoCursos(cursosBancoDeDados);
+  //}
+
+  //if (mode === "list") {
+    //const list = document.getElementById("courses-container");
+    //list.classList.remove("hidden");
+    //renderListaCursos(cursosBancoDeDados);
+  //}
+
+  //if (mode === "grid") {
+    //const grid = document.getElementById("courses-grid");
+    //grid.classList.remove("hidden");
+    //renderGradeCursos(cursosBancoDeDados);
+  //}
+//}
+
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
-  
   atualizarBotoesDeVisualizacao(mode);
-  
   limparTodosOsModos();
+
+  let precisaScroll = mode !== "block";
 
   if (mode === "block") {
     const block = document.getElementById("course-block");
     block.classList.remove("hidden");
-  
+
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
       10
     );
-  
-    renderBlocoCurso(
-      Number.isInteger(savedIndex) ? savedIndex : 0
-    );
 
-    return; // ⬅️ garante que nada abaixo execute
+    renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
   }
 
   if (mode === "flow") {
@@ -39,6 +77,13 @@ function setViewMode(mode) {
     const grid = document.getElementById("courses-grid");
     grid.classList.remove("hidden");
     renderGradeCursos(cursosBancoDeDados);
+  }
+
+  // 👇 ESTE É O PONTO CRÍTICO
+  if (precisaScroll) {
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: "instant" });
+    });
   }
 }
 
