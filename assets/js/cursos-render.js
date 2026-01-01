@@ -267,6 +267,11 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
 }
 // ============== The End ==============
 
+window.addEventListener("beforeunload", () => {
+  localStorage.removeItem("coursesViewMode");
+  localStorage.removeItem("blockCourseIndex");
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   inicializarNavegacaoBloco();
 
