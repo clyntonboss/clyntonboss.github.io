@@ -1043,7 +1043,6 @@ body.static-header .last-update {
 .course-list-item {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 4px;
   border-bottom: 1px solid var(--divider-color);
   margin: 16px;
 }
