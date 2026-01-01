@@ -29,5 +29,5 @@
     font-weight: 600;
     pointer-events: none;   /* impede clique */
     cursor: default;        /* remove aparência de ação */
-    transform: none;        /* garante que não "suba" */
+    transform: scale(1.2);
 }
