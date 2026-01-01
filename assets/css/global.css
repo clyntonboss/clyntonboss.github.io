@@ -1128,8 +1128,8 @@ body.static-header .last-update {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  margin-top: 24px;
+  gap: 24px;
+  margin-top: 32px;
   font-size: 1rem;
 }
 
