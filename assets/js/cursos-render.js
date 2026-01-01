@@ -25,18 +25,21 @@ function setViewMode(mode) {
     const flow = document.getElementById("courses-flow");
     flow.classList.remove("hidden");
     renderFluxoCursos(cursosBancoDeDados);
+    scrollToTop();
   }
 
   if (mode === "list") {
     const list = document.getElementById("courses-container");
     list.classList.remove("hidden");
     renderListaCursos(cursosBancoDeDados);
+    scrollToTop();
   }
 
   if (mode === "grid") {
     const grid = document.getElementById("courses-grid");
     grid.classList.remove("hidden");
     renderGradeCursos(cursosBancoDeDados);
+    scrollToTop();
   }
 }
 
@@ -173,7 +176,7 @@ function inicializarNavegacaoBloco() {
 }
 // =================== The  End ===================
 
-// ==== Flow Mode ====
+// ❎ ============== Flow Mode ============== ❎
 function renderFluxoCursos(cursos) {
   const container = document.getElementById("courses-flow");
   if (!container) return;
@@ -219,7 +222,7 @@ function renderFluxoCursos(cursos) {
     }
   });
 }
-// ============== The End ==============
+// ⛔ =============== The End =============== ⛔
 
 // ======= Limpeza Global do DOM =======
 function limparTodosOsModos() {
@@ -297,3 +300,10 @@ document.addEventListener("DOMContentLoaded", () => {
     renderBlocoCurso(savedIndex);
   }
 });
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "instant" // pode trocar por "smooth" se quiser
+  });
+}
