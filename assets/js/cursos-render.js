@@ -100,7 +100,9 @@ function renderBlocoCurso(index) {
         <p><strong>Curso:</strong> ${curso.curso}</p>
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
         <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
-        <p><strong>Código:</strong> ${curso.codigo}</p>
+        <p><strong>Código:</strong> ${curso.codigo}
+          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
+        </p>
         <p>
           <strong>Verificação:</strong>
           ${
@@ -174,7 +176,9 @@ function renderFluxoCursos(cursos) {
         <p><strong>Curso:</strong> ${curso.curso}</p>
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
         <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
-        <p><strong>Código:</strong> ${curso.codigo}</p>
+        <p><strong>Código:</strong> ${curso.codigo}
+          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
+        </p>
         <p>
           <strong>Verificação:</strong>
           ${
@@ -400,3 +404,10 @@ function trocarModo(mode) {
   });
 
 // ⛔ =============== The End =============== ⛔
+
+// Função Copiar Código do Certificado
+function copiarCodigo(codigo) {
+  navigator.clipboard.writeText(codigo)
+    .then(() => alert("Código copiado!"))
+    .catch(err => console.error("Erro ao copiar: ", err));
+}
