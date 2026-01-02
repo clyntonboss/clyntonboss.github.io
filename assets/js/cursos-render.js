@@ -1,7 +1,6 @@
 let cursoAtualIndex = 0;
 
 // Função Utilitária
-
 function ativarTransicao(container) {
   container.classList.add("view-transition");
 
@@ -12,7 +11,6 @@ function ativarTransicao(container) {
 }
 
 // Modos de Visualização dos Cursos
-
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
   atualizarBotoesDeVisualizacao(mode);
@@ -67,107 +65,88 @@ function setViewMode(mode) {
 }
 
 // ❎ ======= Renderização Block Mode ======= ❎
-
-function setViewMode(mode) {
-  localStorage.setItem("coursesViewMode", mode);
-  atualizarBotoesDeVisualizacao(mode);
-  limparTodosOsModos();
-
-  let precisaScroll = mode !== "block";
-
-  if (mode === "block") {
-    const block = document.getElementById("course-block");
-    block.classList.remove("hidden");
-
-    // 🔹 Renderiza o conteúdo ANTES da transição
-    const savedIndex = parseInt(localStorage.getItem("blockCourseIndex"), 10);
-    renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
-
-    // 🔹 Ativa efeito de transição
-    ativarTransicao(block);
-  }
-
-  if (mode === "flow") {
-    const flow = document.getElementById("courses-flow");
-    flow.classList.remove("hidden");
-    ativarTransicao(flow);
-    renderFluxoCursos(datasetCategoria);
-  }
-
-  if (mode === "list") {
-    const list = document.getElementById("courses-container");
-    list.classList.remove("hidden");
-    ativarTransicao(list);
-    renderListaCursos(datasetCategoria);
-  }
-
-  if (mode === "grid") {
-    const grid = document.getElementById("courses-grid");
-    grid.classList.remove("hidden");
-    ativarTransicao(grid);
-    renderGradeCursos(datasetCategoria);
-  }
-
-  if (precisaScroll) {
-    requestAnimationFrame(() => {
-      window.scrollTo({ top: 0, behavior: "instant" });
-    });
-  }
-}
-
-// 🔹 Ajuste no Block Mode para transição funcionar sempre
 function renderBlocoCurso(index) {
   localStorage.setItem("blockCourseIndex", index);
 
   const container = document.getElementById("course-block");
   const content = container?.querySelector(".course-block-content");
+
   if (!container || !content) return;
 
   const curso = datasetCategoria[index];
   if (!curso) return;
 
+  // Atualiza índice global
   cursoAtualIndex = index;
 
-  // 🔹 Renderiza o conteúdo primeiro
-  content.innerHTML = `
-    <img src="${curso.thumb}" alt="${curso.curso}" class="cert-thumb" onclick="abrirCertificado('${curso.thumb}')">
-    <div class="course-block cert-text-margin">
-      <p><strong>Instituição:</strong> ${curso.instituicao}</p>
-      <p><strong>Curso:</strong> ${curso.curso}</p>
-      <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
-      <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
-      <p><strong>Código:</strong> ${curso.codigo} ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}</p>
-      <p><strong>Verificação:</strong> ${curso.verificacao?.url ? `<a href="${curso.verificacao.url}" target="_blank">${curso.verificacao.texto}</a>` : `<span class="cert-no-verify">Indisponível</span>`}</p>
-    </div>
-  `;
+  // 🔹 Inicia transição de saída
+  content.classList.add("is-transitioning");
 
-  // 🔹 Reset classes de transição para permitir rodar novamente
-  content.classList.remove("is-transitioning", "is-active");
-  void content.offsetWidth; // força reflow
-  content.classList.add("is-transitioning", "is-active");
+  setTimeout(() => {
+    // 🔹 Renderiza novo conteúdo
+    content.innerHTML = `
+      <img 
+        src="${curso.thumb}" 
+        alt="${curso.curso}"
+        class="cert-thumb"
+        onclick="abrirCertificado('${curso.thumb}')"
+      >
 
-  // 🔹 Indicador
-  const indicator = document.getElementById("course-indicator");
-  if (indicator) indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
+      <div class="course-block cert-text-margin">
+        <p><strong>Instituição:</strong> ${curso.instituicao}</p>
+        <p><strong>Curso:</strong> ${curso.curso}</p>
+        <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
+        <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
+        <p><strong>Código:</strong> ${curso.codigo}
+          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
+        </p>
+        <p>
+          <strong>Verificação:</strong>
+          ${
+            curso.verificacao?.url
+              ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+              : `<span class="cert-no-verify">Indisponível</span>`
+          }
+        </p>
+      </div>
+    `;
 
-  // 🔹 Botões de navegação
-  const firstBtn = document.getElementById("first-course");
-  const prevBtn = document.getElementById("prev-course");
-  const nextBtn = document.getElementById("next-course");
-  const lastBtn = document.getElementById("last-course");
+    // 🔹 Atualiza indicador (ex: 3 / 21)
+    const indicator = document.getElementById("course-indicator");
+    if (indicator) {
+      indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
+    }
 
-  firstBtn?.classList.toggle("disabled", index === 0);
-  prevBtn?.classList.toggle("disabled", index === 0);
-  nextBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
-  lastBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
+    // 🔹 Botões de navegação
+    const firstBtn = document.getElementById("first-course");
+    const prevBtn  = document.getElementById("prev-course");
+    const nextBtn  = document.getElementById("next-course");
+    const lastBtn  = document.getElementById("last-course");
+
+    if (index === 0) {
+      firstBtn?.classList.add("disabled");
+      prevBtn?.classList.add("disabled");
+    } else {
+      firstBtn?.classList.remove("disabled");
+      prevBtn?.classList.remove("disabled");
+    }
+
+    if (index === datasetCategoria.length - 1) {
+      nextBtn?.classList.add("disabled");
+      lastBtn?.classList.add("disabled");
+    } else {
+      nextBtn?.classList.remove("disabled");
+      lastBtn?.classList.remove("disabled");
+    }
+
+    // 🔹 Finaliza transição (entrada)
+    content.classList.remove("is-transitioning");
+  }, 200);
 }
 
 // ⛔ =============== The End =============== ⛔
 
-//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
-// ❎ ======= Renderização  Flow Mode ======= ❎
-
+// ❎ ======= Renderização Flow Mode ======= ❎
 function renderFluxoCursos(cursos) {
   const container = document.getElementById("courses-flow");
   if (!container) return;
@@ -218,10 +197,7 @@ function renderFluxoCursos(cursos) {
 
 // ⛔ =============== The End =============== ⛔
 
-//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
-// ❎ ======= Renderização  List Mode ======= ❎
-
+// ❎ ======= Renderização List Mode ======= ❎
 function renderListaCursos(cursos) {
   const container = document.getElementById("courses-container");
   if (!container) return;
@@ -244,10 +220,7 @@ function renderListaCursos(cursos) {
 
 // ⛔ =============== The End =============== ⛔
 
-//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
-// ❎ ======= Renderização  Grid Mode ======= ❎
-
+// ❎ ======= Renderização Grid Mode ======= ❎
 function renderGradeCursos(cursos) {
   console.log("renderGradeCursos chamada", cursos);
 
@@ -278,7 +251,6 @@ function renderGradeCursos(cursos) {
 // ⛔ =============== The End =============== ⛔
 
 // ❎ ========== Listener do Bloco ========== ❎
-
 function inicializarNavegacaoBloco() {
   document.getElementById("first-course")?.addEventListener("click", () => {
     renderBlocoCurso(0);
@@ -304,7 +276,6 @@ function inicializarNavegacaoBloco() {
 // ⛔ =============== The End =============== ⛔
 
 // ❎ ======== Limpeza Global do DOM ======== ❎
-
 function limparTodosOsModos() {
   const block = document.getElementById("course-block");
   const flow  = document.getElementById("courses-flow");
@@ -335,10 +306,7 @@ function limparTodosOsModos() {
 
 // ⛔ =============== The End =============== ⛔
 
-//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
 // ❎ ===== Atualizar Estado dos Ícones ===== ❎
-
 function atualizarBotoesDeVisualizacao(modoAtivo) {
   const buttons = document.querySelectorAll(".view-btn");
 
@@ -387,7 +355,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ❎ ==== Alternar Modo de Visualização ==== ❎
-
 function trocarModo(mode) {
   if (mode !== "block") {
     window.scrollTo({
@@ -402,21 +369,20 @@ function trocarModo(mode) {
 // ⛔ =============== The End =============== ⛔
 
 // ❎ ====== Abrir Curso no Block Mode ====== ❎
+document.addEventListener("click", (event) => {
+  const item = event.target.closest(
+    ".course-list-item, .course-grid-item"
+  );
+  if (!item) return;
 
-  document.addEventListener("click", (event) => {
-    const item = event.target.closest(
-      ".course-list-item, .course-grid-item"
-    );
-    if (!item) return;
-  
-    const index = parseInt(item.dataset.index, 10);
-    if (!Number.isInteger(index)) return;
-  
-    localStorage.setItem("blockCourseIndex", index);
-  
-    setViewMode("block");
-    renderBlocoCurso(index);
-  });
+  const index = parseInt(item.dataset.index, 10);
+  if (!Number.isInteger(index)) return;
+
+  localStorage.setItem("blockCourseIndex", index);
+
+  setViewMode("block");
+  renderBlocoCurso(index);
+});
 
 // ⛔ =============== The End =============== ⛔
 
