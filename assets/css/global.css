@@ -1045,7 +1045,6 @@ body.static-header .last-update {
   justify-content: space-between;
   border-bottom: 1px solid var(--divider-color);
   margin: 8px 16px;
-  padding: 8px 12px;
   cursor: pointer;
   border-radius: 8px;
   transition: background-color 0.4s ease, color 0.4s ease;
