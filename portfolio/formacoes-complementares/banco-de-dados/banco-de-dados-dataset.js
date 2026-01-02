@@ -12,6 +12,8 @@ const cursosBancoDeDados = [
 
     codigo: "7509592B-143A-4419-8F0A-AC1CCE0B26E2",
 
+    mostrarCopiar: true,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.10.05 · Fundação Bradesco · Administrando Banco de Dados.png",
 
     verificacao: {
@@ -33,6 +35,8 @@ const cursosBancoDeDados = [
 
     codigo: "u5153989",
 
+    mostrarCopiar: false,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.10.17 · Cursa · MySQL.png",
 
     verificacao: null
@@ -50,6 +54,8 @@ const cursosBancoDeDados = [
     dataConclusao: "17 de outubro de 2024",
 
     codigo: "x60COYRo",
+
+    mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.10.17 · Escola de Inteligência Artificial · Introdução ao MongoDB · Fácil e Simples!.png",
 
@@ -69,6 +75,8 @@ const cursosBancoDeDados = [
 
     codigo: "qEjIxm7B",
 
+    mostrarCopiar: false,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.10.21 · Escola de Inteligência Artificial · Introdução a Bancos de Dados e Linguagem SQL.png",
 
     verificacao: null
@@ -86,6 +94,8 @@ const cursosBancoDeDados = [
     dataConclusao: "04 de novembro de 2024",
 
     codigo: "093a041fa3",
+
+    mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.11.04 · Cursa · Oracle Database do Zero ao Avançado.png",
 
@@ -108,6 +118,8 @@ const cursosBancoDeDados = [
 
     codigo: "279c8cdffe",
 
+    mostrarCopiar: false,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.11.09 · Cursa · MySQL.png",
 
     verificacao: {
@@ -128,6 +140,8 @@ const cursosBancoDeDados = [
     dataConclusao: "09 de novembro de 2024",
 
     codigo: "202411093657557.1731146220",
+
+    mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.11.09 · Unieducar · PHP·MySQL.png",
 
@@ -150,6 +164,8 @@ const cursosBancoDeDados = [
 
     codigo: "395ef1823a",
 
+    mostrarCopiar: false,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.11.11 · Cursa · Banco de Dados com PostgreSQL.png",
 
     verificacao: {
@@ -170,6 +186,8 @@ const cursosBancoDeDados = [
     dataConclusao: "21 de março de 2025",
 
     codigo: "67dda60b-61b8-401e-aee5-25f0ac1a2c09",
+
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.03.21 · Instituto Federal Espírito Santo · Introdução a NoSQL com MongoDB.png",
 
@@ -192,6 +210,8 @@ const cursosBancoDeDados = [
 
     codigo: "67e81c1a-8a6c-4918-b74a-69430a00c840",
 
+    mostrarCopiar: true,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.03.29 · Instituto Federal Sul-Rio-Grandense · Banco de Dados.png",
 
     verificacao: {
@@ -212,6 +232,8 @@ const cursosBancoDeDados = [
     dataConclusao: "05 de abril de 2024",
 
     codigo: "202504053720346.1743884228",
+
+    mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.04.05 · Unieducar · PHP·MySQL.png",
 
@@ -234,6 +256,8 @@ const cursosBancoDeDados = [
 
     codigo: "Inaplicável",
 
+    mostrarCopiar: false,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.04.06 · Xperiun · Data Analytics · Minicurso de SQL.png",
 
     verificacao: null
@@ -251,6 +275,8 @@ const cursosBancoDeDados = [
     dataConclusao: "14 de agosto de 2025",
 
     codigo: "ab7e82f739",
+
+    mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.08.14 · Cursa · Estrutura de Dados.png",
 
@@ -273,6 +299,8 @@ const cursosBancoDeDados = [
 
     codigo: "68daf634-daa0-4b41-80b2-0d20ac1f0292",
 
+    mostrarCopiar: true,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.09.29 · Aprenda Mais · Banco de Dados 1 (Fundamentos).png",
 
     verificacao: {
@@ -293,6 +321,8 @@ const cursosBancoDeDados = [
     dataConclusao: "10 de outubro de 2025",
 
     codigo: "68e97ba3-baa4-46e9-bf6a-30580aa8010c",
+
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.10.10 · Instituto Federal Rio Grande do Sul · Banco de Dados 1 (Fundamentos).png",
 
@@ -315,6 +345,8 @@ const cursosBancoDeDados = [
 
     codigo: "2d594c2dc0",
 
+    mostrarCopiar: false,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.10.11 · Cursa · Firebird (SQL).png",
 
     verificacao: {
@@ -335,6 +367,8 @@ const cursosBancoDeDados = [
     dataConclusao: "12 de outubro de 2025",
 
     codigo: "68eb21ed-c064-4bcc-b743-35e40aa80e10",
+
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.10.12 · Instituto Federal Rio Grande do Sul · Banco de Dados (Oracle PL·SQL).png",
 
@@ -357,6 +391,8 @@ const cursosBancoDeDados = [
 
     codigo: "e22abddbae",
 
+    mostrarCopiar: false,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.10.12 · Cursa · PostgreSQL.png",
 
     verificacao: {
@@ -377,6 +413,8 @@ const cursosBancoDeDados = [
     dataConclusao: "13 de outubro de 2025",
 
     codigo: "55d1d706c2",
+
+    mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.10.13 · Cursa · Modelagem de Banco de Dados Relacionais.png",
 
@@ -399,6 +437,8 @@ const cursosBancoDeDados = [
 
     codigo: "314a9531d2",
 
+    mostrarCopiar: false,
+
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.10.13 · Cursa · SQL Server.png",
 
     verificacao: {
@@ -419,6 +459,8 @@ const cursosBancoDeDados = [
     dataConclusao: "21 de novembro de 2025",
 
     codigo: "6920eba3-52ac-4d36-963c-cbe00aa81311",
+
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.11.21 · Instituto Federal Rio Grande do Sul · Administrador de Banco de Dados.png",
 
