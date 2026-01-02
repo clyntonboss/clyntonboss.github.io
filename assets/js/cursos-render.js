@@ -49,70 +49,79 @@ function setViewMode(mode) {
 
 function renderBlocoCurso(index) {
   localStorage.setItem("blockCourseIndex", index);
+
   const container = document.getElementById("course-block");
-  const content = container.querySelector(".course-block-content");
+  const content = container?.querySelector(".course-block-content");
 
   if (!container || !content) return;
 
   const curso = cursosBancoDeDados[index];
   if (!curso) return;
 
+  // Atualiza índice global
   cursoAtualIndex = index;
 
-  content.innerHTML = `
-    <img 
-      src="${curso.thumb}" 
-      alt="${curso.curso}"
-      class="cert-thumb"
-      onclick="abrirCertificado('${curso.thumb}')"
-    >
+  // 🔹 Inicia transição de saída
+  content.classList.add("is-transitioning");
 
-    <div class="course-block cert-text-margin">
-      <p><strong>Instituição:</strong> ${curso.instituicao}</p>
-      <p><strong>Curso:</strong> ${curso.curso}</p>
-      <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
-      <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
-      <p><strong>Código:</strong> ${curso.codigo}</p>
-      <p>
-        <strong>Verificação:</strong>
-        ${
-          curso.verificacao?.url
-            ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-            : `<span class="cert-no-verify">Indisponível</span>`
-        }
-      </p>
-    </div>
-  `;
+  setTimeout(() => {
+    // 🔹 Renderiza novo conteúdo
+    content.innerHTML = `
+      <img 
+        src="${curso.thumb}" 
+        alt="${curso.curso}"
+        class="cert-thumb"
+        onclick="abrirCertificado('${curso.thumb}')"
+      >
 
-  // Atualiza indicador (ex: 3 / 21)
-  const indicator = document.getElementById("course-indicator");
-  if (indicator) {
-    indicator.textContent = `${index + 1} / ${cursosBancoDeDados.length}`;
-  }
+      <div class="course-block cert-text-margin">
+        <p><strong>Instituição:</strong> ${curso.instituicao}</p>
+        <p><strong>Curso:</strong> ${curso.curso}</p>
+        <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
+        <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
+        <p><strong>Código:</strong> ${curso.codigo}</p>
+        <p>
+          <strong>Verificação:</strong>
+          ${
+            curso.verificacao?.url
+              ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+              : `<span class="cert-no-verify">Indisponível</span>`
+          }
+        </p>
+      </div>
+    `;
 
-  // Opções de Navegação Desabilitadas
-  const firstBtn = document.getElementById("first-course");
-  const prevBtn = document.getElementById("prev-course");
-  const nextBtn = document.getElementById("next-course");
-  const lastBtn = document.getElementById("last-course");
-  
-  // Primeiro curso
-  if (index === 0) {
-    firstBtn.classList.add("disabled");
-    prevBtn.classList.add("disabled");
-  } else {
-    firstBtn.classList.remove("disabled");
-    prevBtn.classList.remove("disabled");
-  }
-  
-  // Último curso
-  if (index === cursosBancoDeDados.length - 1) {
-    nextBtn.classList.add("disabled");
-    lastBtn.classList.add("disabled");
-  } else {
-    nextBtn.classList.remove("disabled");
-    lastBtn.classList.remove("disabled");
-  }
+    // 🔹 Atualiza indicador (ex: 3 / 21)
+    const indicator = document.getElementById("course-indicator");
+    if (indicator) {
+      indicator.textContent = `${index + 1} / ${cursosBancoDeDados.length}`;
+    }
+
+    // 🔹 Botões de navegação
+    const firstBtn = document.getElementById("first-course");
+    const prevBtn  = document.getElementById("prev-course");
+    const nextBtn  = document.getElementById("next-course");
+    const lastBtn  = document.getElementById("last-course");
+
+    if (index === 0) {
+      firstBtn?.classList.add("disabled");
+      prevBtn?.classList.add("disabled");
+    } else {
+      firstBtn?.classList.remove("disabled");
+      prevBtn?.classList.remove("disabled");
+    }
+
+    if (index === cursosBancoDeDados.length - 1) {
+      nextBtn?.classList.add("disabled");
+      lastBtn?.classList.add("disabled");
+    } else {
+      nextBtn?.classList.remove("disabled");
+      lastBtn?.classList.remove("disabled");
+    }
+
+    // 🔹 Finaliza transição (entrada)
+    content.classList.remove("is-transitioning");
+  }, 200);
 }
 
 // ⛔ =============== The End =============== ⛔
