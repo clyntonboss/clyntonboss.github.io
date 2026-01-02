@@ -1054,7 +1054,6 @@ body.static-header .last-update {
 .course-list-item:hover {
   background-color: var(--surface-hover, #f2f2f2);
   color: var(--text-hover, #000);
-  margin: 8px 20px;
 }
 
 .course-name {
