@@ -3,11 +3,14 @@ let cursoAtualIndex = 0;
 // Função Utilitária
 
 function ativarTransicao(container) {
-  container.classList.add("view-transition");
+  // reset total
+  container.classList.remove("view-transition", "is-active");
 
-  // força reflow para garantir a animação
+  // força reflow para o browser "esquecer" o estado anterior
   container.offsetHeight;
 
+  // reaplica a transição
+  container.classList.add("view-transition");
   container.classList.add("is-active");
 }
 
