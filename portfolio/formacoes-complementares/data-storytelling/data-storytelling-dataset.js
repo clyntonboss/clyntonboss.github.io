@@ -1,4 +1,4 @@
-const cursosBancoDeDados = [
+const datasetCategoria = [
   {
     id: 1,
 
