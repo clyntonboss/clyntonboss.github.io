@@ -1045,6 +1045,13 @@ body.static-header .last-update {
   justify-content: space-between;
   border-bottom: 1px solid var(--divider-color);
   margin: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.course-list-item:hover {
+  background-color: var(--surface-hover, #f2f2f2);
+  color: var(--text-hover, #000);
 }
 
 .course-name {
