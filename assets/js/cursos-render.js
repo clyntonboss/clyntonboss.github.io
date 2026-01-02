@@ -3,13 +3,15 @@ let cursoAtualIndex = 0;
 // Função Utilitária
 
 function ativarTransicao(container) {
+  // reset total
+  container.classList.remove("view-transition", "is-active");
 
-  // 🔹 Força reset da transição
-  content.classList.remove("is-transitioning");
-  content.offsetHeight; // ← força reflow (ESSENCIAL)
+  // força reflow para o browser "esquecer" o estado anterior
+  container.offsetHeight;
 
-  // 🔹 Inicia transição de saída
-  content.classList.add("is-transitioning");
+  // reaplica a transição
+  container.classList.add("view-transition");
+  container.classList.add("is-active");
 }
 
 // Modos de Visualização dos Cursos
@@ -23,16 +25,16 @@ function setViewMode(mode) {
 
   if (mode === "block") {
     const block = document.getElementById("course-block");
+    block.classList.remove("hidden");
 
-    renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
+    ativarTransicao(block);
 
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
       10
     );
 
-    block.classList.remove("hidden");
-    ativarTransicao(block);
+    renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
   }
 
   if (mode === "flow") {
