@@ -45,52 +45,6 @@ function setViewMode(mode) {
   }
 }
 
-// ❎ ======= Renderização  List Mode ======= ❎
-function renderListaCursos(cursos) {
-  const container = document.getElementById("courses-container");
-  if (!container) return;
-
-  container.innerHTML = "";
-
-  cursos.forEach((curso, index) => {
-    const item = document.createElement("div");
-    item.className = "course-list-item";
-    item.dataset.index = index; // 👈 MUITO IMPORTANTE
-  
-    item.innerHTML = `
-      <span class="course-name">${curso.curso}</span>
-      <span class="course-date">${curso.dataConclusao}</span>
-    `;
-  
-    container.appendChild(item);
-  });
-}
-// ⛔ =============== The End =============== ⛔
-
-// ❎ ======= Renderização  Grid Mode ======= ❎
-function renderGradeCursos(cursos) {
-  console.log("renderGradeCursos chamada", cursos);
-
-  const container = document.getElementById("courses-grid");
-  console.log("container:", container);
-
-  if (!container) return;
-
-  container.innerHTML = "";
-
-  cursos.forEach(curso => {
-    const item = document.createElement("div");
-    item.className = "course-grid-item";
-
-    item.innerHTML = `
-      <img src="${curso.thumb}" alt="${curso.curso}" class="cert-thumb" onclick="abrirCertificado('${curso.thumb}')">
-    `;
-
-    container.appendChild(item);
-  });
-}
-// ⛔ =============== The End =============== ⛔
-
 // ❎ ======= Renderização Block Mode ======= ❎
 function renderBlocoCurso(index) {
   localStorage.setItem("blockCourseIndex", index);
@@ -161,31 +115,9 @@ function renderBlocoCurso(index) {
 }
 // ⛔ =============== The End =============== ⛔
 
-// ❎ ========== Listener do Bloco ========== ❎
-function inicializarNavegacaoBloco() {
-  document.getElementById("first-course")?.addEventListener("click", () => {
-    renderBlocoCurso(0);
-  });
+//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
-  document.getElementById("prev-course")?.addEventListener("click", () => {
-    if (cursoAtualIndex > 0) {
-      renderBlocoCurso(cursoAtualIndex - 1);
-    }
-  });
-
-  document.getElementById("next-course")?.addEventListener("click", () => {
-    if (cursoAtualIndex < cursosBancoDeDados.length - 1) {
-      renderBlocoCurso(cursoAtualIndex + 1);
-    }
-  });
-
-  document.getElementById("last-course")?.addEventListener("click", () => {
-    renderBlocoCurso(cursosBancoDeDados.length - 1);
-  });
-}
-// ⛔ =============== The End =============== ⛔
-
-// ❎ ============== Flow Mode ============== ❎
+// ❎ ======= Renderização  Flow Mode ======= ❎
 function renderFluxoCursos(cursos) {
   const container = document.getElementById("courses-flow");
   if (!container) return;
@@ -229,6 +161,85 @@ function renderFluxoCursos(cursos) {
       hr.className = "decorative-line-cert";
       container.appendChild(hr);
     }
+  });
+}
+// ⛔ =============== The End =============== ⛔
+
+//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+
+// ❎ ======= Renderização  List Mode ======= ❎
+function renderListaCursos(cursos) {
+  const container = document.getElementById("courses-container");
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  cursos.forEach((curso, index) => {
+    const item = document.createElement("div");
+    item.className = "course-list-item";
+    item.dataset.index = index; // 👈 MUITO IMPORTANTE
+  
+    item.innerHTML = `
+      <span class="course-name">${curso.curso}</span>
+      <span class="course-date">${curso.dataConclusao}</span>
+    `;
+  
+    container.appendChild(item);
+  });
+}
+// ⛔ =============== The End =============== ⛔
+
+//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+
+// ❎ ======= Renderização  Grid Mode ======= ❎
+function renderGradeCursos(cursos) {
+  console.log("renderGradeCursos chamada", cursos);
+
+  const container = document.getElementById("courses-grid");
+  console.log("container:", container);
+
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  cursos.forEach((curso, index) => {
+    const item = document.createElement("div");
+    item.className = "course-grid-item";
+    item.dataset.index = index; // 👈 fundamental
+  
+    item.innerHTML = `
+      <img 
+        src="${curso.thumb}" 
+        alt="${curso.curso}" 
+        class="cert-thumb"
+      >
+    `;
+  
+    container.appendChild(item);
+  });
+}
+// ⛔ =============== The End =============== ⛔
+
+// ❎ ========== Listener do Bloco ========== ❎
+function inicializarNavegacaoBloco() {
+  document.getElementById("first-course")?.addEventListener("click", () => {
+    renderBlocoCurso(0);
+  });
+
+  document.getElementById("prev-course")?.addEventListener("click", () => {
+    if (cursoAtualIndex > 0) {
+      renderBlocoCurso(cursoAtualIndex - 1);
+    }
+  });
+
+  document.getElementById("next-course")?.addEventListener("click", () => {
+    if (cursoAtualIndex < cursosBancoDeDados.length - 1) {
+      renderBlocoCurso(cursoAtualIndex + 1);
+    }
+  });
+
+  document.getElementById("last-course")?.addEventListener("click", () => {
+    renderBlocoCurso(cursosBancoDeDados.length - 1);
   });
 }
 // ⛔ =============== The End =============== ⛔
@@ -325,19 +336,19 @@ function trocarModo(mode) {
 }
 // ⛔ =============== The End =============== ⛔
 
-document.addEventListener("click", (event) => {
-  const item = event.target.closest(".course-list-item");
-  if (!item) return;
-
-  const index = parseInt(item.dataset.index, 10);
-  if (!Number.isInteger(index)) return;
-
-  // guarda o curso clicado
-  localStorage.setItem("blockCourseIndex", index);
-
-  // muda para Block Mode
-  setViewMode("block");
-
-  // renderiza o curso correto
-  renderBlocoCurso(index);
-});
+// ❎ ====== Abrir Curso no Block Mode ====== ❎
+  document.addEventListener("click", (event) => {
+    const item = event.target.closest(
+      ".course-list-item, .course-grid-item"
+    );
+    if (!item) return;
+  
+    const index = parseInt(item.dataset.index, 10);
+    if (!Number.isInteger(index)) return;
+  
+    localStorage.setItem("blockCourseIndex", index);
+  
+    setViewMode("block");
+    renderBlocoCurso(index);
+  });
+// ⛔ =============== The End =============== ⛔
