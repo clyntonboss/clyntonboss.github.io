@@ -1112,6 +1112,13 @@ body.static-header .last-update {
 .course-block-content {
   display: flex;
   flex-direction: column;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Estado de saída */
+.course-block-content.is-transitioning {
+  opacity: 0;
+  transform: translateY(6px);
 }
 
 .course-block-content img {
