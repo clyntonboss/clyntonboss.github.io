@@ -26,21 +26,21 @@ function setViewMode(mode) {
   if (mode === "block") {
     const block = document.getElementById("course-block");
     block.classList.remove("hidden");
-
-  // 🔹 Renderiza primeiro (estado inicial existe)
-  renderBlocoCurso(
-    Number.isInteger(savedIndex) ? savedIndex : 0
-  );
-
-  // 🔹 Só depois anima
-  requestAnimationFrame(() => {
-    ativarTransicao(block);
-  });
-
+  
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
       10
     );
+  
+    // 🔹 Renderiza primeiro (conteúdo já existe no DOM)
+    renderBlocoCurso(
+      Number.isInteger(savedIndex) ? savedIndex : 0
+    );
+  
+    // 🔹 Só depois dispara a transição visual
+    requestAnimationFrame(() => {
+      ativarTransicao(block);
+    });
   }
 
   if (mode === "flow") {
