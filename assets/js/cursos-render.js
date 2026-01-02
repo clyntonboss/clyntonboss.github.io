@@ -45,6 +45,7 @@ function setViewMode(mode) {
   }
 }
 
+// ❎ ======= Renderização  List Mode ======= ❎
 function renderListaCursos(cursos) {
   const container = document.getElementById("courses-container");
   if (!container) return;
@@ -64,7 +65,9 @@ function renderListaCursos(cursos) {
     container.appendChild(item);
   });
 }
+// ⛔ =============== The End =============== ⛔
 
+// ❎ ======= Renderização  Grid Mode ======= ❎
 function renderGradeCursos(cursos) {
   console.log("renderGradeCursos chamada", cursos);
 
@@ -86,6 +89,7 @@ function renderGradeCursos(cursos) {
     container.appendChild(item);
   });
 }
+// ⛔ =============== The End =============== ⛔
 
 // ❎ ======= Renderização Block Mode ======= ❎
 function renderBlocoCurso(index) {
@@ -258,6 +262,8 @@ function limparTodosOsModos() {
   }
 }
 // ⛔ =============== The End =============== ⛔
+
+//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
 // ❎ ===== Atualizar Estado dos Ícones ===== ❎
 function atualizarBotoesDeVisualizacao(modoAtivo) {
