@@ -40,11 +40,23 @@
         <section id="curriculo" class="main-section">
             <div class="fixed-header-section">
                 <div class="fixed-header-container">
-                    <h1>
-                        <img src="/assets/icons/courses-icon.png" alt="Ícone Cursos" class="title-icon">
-                        <span class="title-wrapper">Formações Complementares | Data Storytelling</span>
-                    </h1>
+
+                    <div class="header-with-controls">
+                        <h1>
+                            <img src="/assets/icons/courses-icon.png" alt="Ícone Cursos" class="title-icon">
+                            <span class="title-wrapper">Formações Complementares | Data Storytelling</span>
+                        </h1>
+    
+                        <div class="view-mode-controls" aria-label="Modos de visualização">
+                            <button class="view-btn" data-view="block" aria-label="Visualização em bloco" onclick="trocarModo('block')">▣</button>
+                            <button class="view-btn" data-view="flow" aria-label="Visualização fluida" onclick="trocarModo('flow')">☷</button>
+                            <button class="view-btn" data-view="list" aria-label="Visualização em lista" onclick="trocarModo('list')">☰</button>
+                            <button class="view-btn" data-view="grid" aria-label="Visualização em grade" onclick="trocarModo('grid')">⊞</button>
+                        </div>
+                    </div>
+                    
                     <div class="decorative-line"></div>
+
                 </div>
             </div>
     
@@ -83,37 +95,40 @@
 
                     <hr class="decorative-line-cert">
 
-                    <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/data-storytelling/certificados/2025.08.28 · Simplifica Treinamentos · MasterClass PowerPoint.png'); return false;">
-                        <img src="/portfolio/formacoes-complementares/data-storytelling/certificados/2025.08.28 · Simplifica Treinamentos · MasterClass PowerPoint.png" 
-                             alt="Data Storytelling" 
-                             class="cert-thumb"
-                             >
-                    </a>
+                        <div id="course-block" class="course-block hidden">
+                            <div class="course-block-content"></div>
+                        
+                            <div class="course-block-nav">
+                            
+                              <span id="first-course" class="course-nav-action" role="button">
+                                ⏮ Primeiro
+                              </span>
+                            
+                              <span id="prev-course" class="course-nav-action" role="button">
+                                ◀ Anterior
+                              </span>
+                            
+                              <span id="course-indicator" class="course-nav-indicator">
+                                1 / 21
+                              </span>
+                            
+                              <span id="next-course" class="course-nav-action" role="button">
+                                Próximo ▶
+                              </span>
+                            
+                              <span id="last-course" class="course-nav-action" role="button">
+                                Último ⏭
+                              </span>
+                            
+                            </div>
 
-                    <div>
-                        <span style="font-weight: normal;">Instituição:</span>
-                        <span style="font-weight: bold;">Simplifica Treinamentos</span>
-                    </div>
-                    <div>
-                        <span style="font-weight: normal;">Curso:</span>
-                        <span style="font-weight: bold;">MasterClass PowerPoint</span>
-                    </div>
-                    <div>
-                        <span style="font-weight: normal;">Carga Horária:</span>
-                        <span style="font-weight: bold;">2 h</span>
-                    </div>
-                    <div>
-                        <span style="font-weight: normal;">Data de Conclusão:</span>
-                        <span style="font-weight: bold;">28 de agosto de 2025</span>
-                    </div>
-                    <div>
-                        <span style="font-weight: normal;">Código:</span>
-                        <span style="font-weight: bold;">Inaplicável</span>
-                    </div>
-                    <div>
-                        <span style="font-weight: normal;">Verificação:</span>
-                        <a class="cert-no-verify">Indisponível</a>
-                    </div>
+                        </div>
+
+                        <div id="courses-flow" class="courses-flow hidden"></div>
+
+                        <div id="courses-container" class="courses-list hidden"></div>
+
+                        <div id="courses-grid" class="courses-grid hidden"></div>
 
                     <hr class="decorative-line-cert">
 
