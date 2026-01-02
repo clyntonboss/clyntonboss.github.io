@@ -39,7 +39,7 @@ function setViewMode(mode) {
     flow.classList.remove("hidden");
   
     ativarTransicao(flow);
-    renderFluxoCursos(cursosBancoDeDados);
+    renderFluxoCursos(datasetCategoria);
   }
 
   if (mode === "list") {
@@ -47,7 +47,7 @@ function setViewMode(mode) {
     list.classList.remove("hidden");
   
     ativarTransicao(list);
-    renderListaCursos(cursosBancoDeDados);
+    renderListaCursos(datasetCategoria);
   }
 
   if (mode === "grid") {
@@ -55,7 +55,7 @@ function setViewMode(mode) {
     grid.classList.remove("hidden");
   
     ativarTransicao(grid);
-    renderGradeCursos(cursosBancoDeDados);
+    renderGradeCursos(datasetCategoria);
   }
 
   // 👇 ESTE É O PONTO CRÍTICO
@@ -76,7 +76,7 @@ function renderBlocoCurso(index) {
 
   if (!container || !content) return;
 
-  const curso = cursosBancoDeDados[index];
+  const curso = datasetCategoria[index];
   if (!curso) return;
 
   // Atualiza índice global
@@ -117,7 +117,7 @@ function renderBlocoCurso(index) {
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
-      indicator.textContent = `${index + 1} / ${cursosBancoDeDados.length}`;
+      indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
     }
 
     // 🔹 Botões de navegação
@@ -134,7 +134,7 @@ function renderBlocoCurso(index) {
       prevBtn?.classList.remove("disabled");
     }
 
-    if (index === cursosBancoDeDados.length - 1) {
+    if (index === datasetCategoria.length - 1) {
       nextBtn?.classList.add("disabled");
       lastBtn?.classList.add("disabled");
     } else {
@@ -276,13 +276,13 @@ function inicializarNavegacaoBloco() {
   });
 
   document.getElementById("next-course")?.addEventListener("click", () => {
-    if (cursoAtualIndex < cursosBancoDeDados.length - 1) {
+    if (cursoAtualIndex < datasetCategoria.length - 1) {
       renderBlocoCurso(cursoAtualIndex + 1);
     }
   });
 
   document.getElementById("last-course")?.addEventListener("click", () => {
-    renderBlocoCurso(cursosBancoDeDados.length - 1);
+    renderBlocoCurso(datasetCategoria.length - 1);
   });
 }
 
