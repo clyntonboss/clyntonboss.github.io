@@ -46,6 +46,7 @@ function setViewMode(mode) {
 }
 
 // ❎ ======= Renderização Block Mode ======= ❎
+
 function renderBlocoCurso(index) {
   localStorage.setItem("blockCourseIndex", index);
   const container = document.getElementById("course-block");
@@ -113,11 +114,13 @@ function renderBlocoCurso(index) {
     lastBtn.classList.remove("disabled");
   }
 }
+
 // ⛔ =============== The End =============== ⛔
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
 // ❎ ======= Renderização  Flow Mode ======= ❎
+
 function renderFluxoCursos(cursos) {
   const container = document.getElementById("courses-flow");
   if (!container) return;
@@ -163,11 +166,13 @@ function renderFluxoCursos(cursos) {
     }
   });
 }
+
 // ⛔ =============== The End =============== ⛔
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
 // ❎ ======= Renderização  List Mode ======= ❎
+
 function renderListaCursos(cursos) {
   const container = document.getElementById("courses-container");
   if (!container) return;
@@ -187,11 +192,13 @@ function renderListaCursos(cursos) {
     container.appendChild(item);
   });
 }
+
 // ⛔ =============== The End =============== ⛔
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
 // ❎ ======= Renderização  Grid Mode ======= ❎
+
 function renderGradeCursos(cursos) {
   console.log("renderGradeCursos chamada", cursos);
 
@@ -218,9 +225,11 @@ function renderGradeCursos(cursos) {
     container.appendChild(item);
   });
 }
+
 // ⛔ =============== The End =============== ⛔
 
 // ❎ ========== Listener do Bloco ========== ❎
+
 function inicializarNavegacaoBloco() {
   document.getElementById("first-course")?.addEventListener("click", () => {
     renderBlocoCurso(0);
@@ -242,9 +251,11 @@ function inicializarNavegacaoBloco() {
     renderBlocoCurso(cursosBancoDeDados.length - 1);
   });
 }
+
 // ⛔ =============== The End =============== ⛔
 
 // ❎ ======== Limpeza Global do DOM ======== ❎
+
 function limparTodosOsModos() {
   const block = document.getElementById("course-block");
   const flow  = document.getElementById("courses-flow");
@@ -272,11 +283,13 @@ function limparTodosOsModos() {
     grid.innerHTML = "";
   }
 }
+
 // ⛔ =============== The End =============== ⛔
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
 // ❎ ===== Atualizar Estado dos Ícones ===== ❎
+
 function atualizarBotoesDeVisualizacao(modoAtivo) {
   const buttons = document.querySelectorAll(".view-btn");
 
@@ -290,6 +303,7 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
     }
   });
 }
+
 // ⛔ =============== The End =============== ⛔
 
 window.addEventListener("beforeunload", () => {
@@ -324,6 +338,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ❎ ==== Alternar Modo de Visualização ==== ❎
+
 function trocarModo(mode) {
   if (mode !== "block") {
     window.scrollTo({
@@ -334,9 +349,11 @@ function trocarModo(mode) {
 
   setViewMode(mode);
 }
+
 // ⛔ =============== The End =============== ⛔
 
 // ❎ ====== Abrir Curso no Block Mode ====== ❎
+
   document.addEventListener("click", (event) => {
     const item = event.target.closest(
       ".course-list-item, .course-grid-item"
@@ -351,4 +368,5 @@ function trocarModo(mode) {
     setViewMode("block");
     renderBlocoCurso(index);
   });
+
 // ⛔ =============== The End =============== ⛔
