@@ -3,10 +3,11 @@ let cursoAtualIndex = 0;
 // Função Utilitária
 
 function ativarTransicao(container) {
+
   // 🔹 Força reset da transição
   content.classList.remove("is-transitioning");
   content.offsetHeight; // ← força reflow (ESSENCIAL)
-  
+
   // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
 }
@@ -22,6 +23,7 @@ function setViewMode(mode) {
 
   if (mode === "block") {
     const block = document.getElementById("course-block");
+
     renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
 
     const savedIndex = parseInt(
