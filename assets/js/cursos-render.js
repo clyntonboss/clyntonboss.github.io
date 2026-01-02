@@ -1,5 +1,18 @@
 let cursoAtualIndex = 0;
 
+// Função Utilitária
+
+function ativarTransicao(container) {
+  container.classList.add("view-transition");
+
+  // força reflow para garantir a animação
+  container.offsetHeight;
+
+  container.classList.add("is-active");
+}
+
+// Modos de Visualização dos Cursos
+
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
   atualizarBotoesDeVisualizacao(mode);
@@ -10,6 +23,8 @@ function setViewMode(mode) {
   if (mode === "block") {
     const block = document.getElementById("course-block");
     block.classList.remove("hidden");
+
+    ativarTransicao(block);
 
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
@@ -22,18 +37,24 @@ function setViewMode(mode) {
   if (mode === "flow") {
     const flow = document.getElementById("courses-flow");
     flow.classList.remove("hidden");
+  
+    ativarTransicao(flow);
     renderFluxoCursos(cursosBancoDeDados);
   }
 
   if (mode === "list") {
     const list = document.getElementById("courses-container");
     list.classList.remove("hidden");
+  
+    ativarTransicao(list);
     renderListaCursos(cursosBancoDeDados);
   }
 
   if (mode === "grid") {
     const grid = document.getElementById("courses-grid");
     grid.classList.remove("hidden");
+  
+    ativarTransicao(grid);
     renderGradeCursos(cursosBancoDeDados);
   }
 
