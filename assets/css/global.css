@@ -1208,3 +1208,12 @@ body.static-header .last-update {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Botão Copiar */
+.copiar-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 1.2em;
+}
