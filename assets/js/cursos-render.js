@@ -68,83 +68,98 @@ function setViewMode(mode) {
 
 // ❎ ======= Renderização Block Mode ======= ❎
 
+function setViewMode(mode) {
+  localStorage.setItem("coursesViewMode", mode);
+  atualizarBotoesDeVisualizacao(mode);
+  limparTodosOsModos();
+
+  let precisaScroll = mode !== "block";
+
+  if (mode === "block") {
+    const block = document.getElementById("course-block");
+    block.classList.remove("hidden");
+
+    // 🔹 Renderiza o conteúdo ANTES da transição
+    const savedIndex = parseInt(localStorage.getItem("blockCourseIndex"), 10);
+    renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
+
+    // 🔹 Ativa efeito de transição
+    ativarTransicao(block);
+  }
+
+  if (mode === "flow") {
+    const flow = document.getElementById("courses-flow");
+    flow.classList.remove("hidden");
+    ativarTransicao(flow);
+    renderFluxoCursos(datasetCategoria);
+  }
+
+  if (mode === "list") {
+    const list = document.getElementById("courses-container");
+    list.classList.remove("hidden");
+    ativarTransicao(list);
+    renderListaCursos(datasetCategoria);
+  }
+
+  if (mode === "grid") {
+    const grid = document.getElementById("courses-grid");
+    grid.classList.remove("hidden");
+    ativarTransicao(grid);
+    renderGradeCursos(datasetCategoria);
+  }
+
+  if (precisaScroll) {
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: "instant" });
+    });
+  }
+}
+
+// 🔹 Ajuste no Block Mode para transição funcionar sempre
 function renderBlocoCurso(index) {
   localStorage.setItem("blockCourseIndex", index);
 
   const container = document.getElementById("course-block");
   const content = container?.querySelector(".course-block-content");
-
   if (!container || !content) return;
 
   const curso = datasetCategoria[index];
   if (!curso) return;
 
-  // Atualiza índice global
   cursoAtualIndex = index;
 
-  // 🔹 Inicia transição de saída
-  content.classList.add("is-transitioning");
+  // 🔹 Renderiza o conteúdo primeiro
+  content.innerHTML = `
+    <img src="${curso.thumb}" alt="${curso.curso}" class="cert-thumb" onclick="abrirCertificado('${curso.thumb}')">
+    <div class="course-block cert-text-margin">
+      <p><strong>Instituição:</strong> ${curso.instituicao}</p>
+      <p><strong>Curso:</strong> ${curso.curso}</p>
+      <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
+      <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
+      <p><strong>Código:</strong> ${curso.codigo} ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}</p>
+      <p><strong>Verificação:</strong> ${curso.verificacao?.url ? `<a href="${curso.verificacao.url}" target="_blank">${curso.verificacao.texto}</a>` : `<span class="cert-no-verify">Indisponível</span>`}</p>
+    </div>
+  `;
 
-  setTimeout(() => {
-    // 🔹 Renderiza novo conteúdo
-    content.innerHTML = `
-      <img 
-        src="${curso.thumb}" 
-        alt="${curso.curso}"
-        class="cert-thumb"
-        onclick="abrirCertificado('${curso.thumb}')"
-      >
+  // 🔹 Reset classes de transição para permitir rodar novamente
+  content.classList.remove("is-transitioning", "is-active");
+  void content.offsetWidth; // força reflow
+  content.classList.add("is-transitioning", "is-active");
 
-      <div class="course-block cert-text-margin">
-        <p><strong>Instituição:</strong> ${curso.instituicao}</p>
-        <p><strong>Curso:</strong> ${curso.curso}</p>
-        <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
-        <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
-        <p><strong>Código:</strong> ${curso.codigo}
-          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
-        </p>
-        <p>
-          <strong>Verificação:</strong>
-          ${
-            curso.verificacao?.url
-              ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-              : `<span class="cert-no-verify">Indisponível</span>`
-          }
-        </p>
-      </div>
-    `;
+  // 🔹 Indicador
+  const indicator = document.getElementById("course-indicator");
+  if (indicator) indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
 
-    // 🔹 Atualiza indicador (ex: 3 / 21)
-    const indicator = document.getElementById("course-indicator");
-    if (indicator) {
-      indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
-    }
+  // 🔹 Botões de navegação
+  const firstBtn = document.getElementById("first-course");
+  const prevBtn = document.getElementById("prev-course");
+  const nextBtn = document.getElementById("next-course");
+  const lastBtn = document.getElementById("last-course");
 
-    // 🔹 Botões de navegação
-    const firstBtn = document.getElementById("first-course");
-    const prevBtn  = document.getElementById("prev-course");
-    const nextBtn  = document.getElementById("next-course");
-    const lastBtn  = document.getElementById("last-course");
-
-    if (index === 0) {
-      firstBtn?.classList.add("disabled");
-      prevBtn?.classList.add("disabled");
-    } else {
-      firstBtn?.classList.remove("disabled");
-      prevBtn?.classList.remove("disabled");
-    }
-
-    if (index === datasetCategoria.length - 1) {
-      nextBtn?.classList.add("disabled");
-      lastBtn?.classList.add("disabled");
-    } else {
-      nextBtn?.classList.remove("disabled");
-      lastBtn?.classList.remove("disabled");
-    }
-
-    // 🔹 Finaliza transição (entrada)
-    content.classList.remove("is-transitioning");
-  }, 200);
+  firstBtn?.classList.toggle("disabled", index === 0);
+  prevBtn?.classList.toggle("disabled", index === 0);
+  nextBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
+  lastBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
 }
 
 // ⛔ =============== The End =============== ⛔
