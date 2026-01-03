@@ -38,64 +38,43 @@ function setViewMode(mode) {
 }
 
 function trocarModoInterno(mode) {
+  // 🔹 limpa tudo
   limparTodosOsModos();
 
-  let precisaScroll = mode !== "block";
+  let alvo = null;
 
+  if (mode === "block") alvo = document.getElementById("course-block");
+  if (mode === "flow")  alvo = document.getElementById("courses-flow");
+  if (mode === "list")  alvo = document.getElementById("courses-container");
+  if (mode === "grid")  alvo = document.getElementById("courses-grid");
+
+  if (!alvo) return;
+
+  // 🔹 mostra o modo
+  alvo.classList.remove("hidden");
+
+  // 🔹 renderiza
   if (mode === "block") {
-    const block = document.getElementById("course-block");
-    block.classList.remove("hidden");
-
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
       10
     );
-
     renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
-
-    requestAnimationFrame(() => {
-      block.classList.add("view-transition", "is-active");
-    });
   }
 
-  if (mode === "flow") {
-    const flow = document.getElementById("courses-flow");
-    flow.classList.remove("hidden");
+  if (mode === "flow") renderFluxoCursos(datasetCategoria);
+  if (mode === "list") renderListaCursos(datasetCategoria);
+  if (mode === "grid") renderGradeCursos(datasetCategoria);
 
-    renderFluxoCursos(datasetCategoria);
-
-    requestAnimationFrame(() => {
-      flow.classList.add("view-transition", "is-active");
-    });
+  // 🔹 SCROLL PARA O TOPO (AQUI É O PONTO CERTO)
+  if (mode !== "block") {
+    window.scrollTo({ top: 0, behavior: "instant" });
   }
 
-  if (mode === "list") {
-    const list = document.getElementById("courses-container");
-    list.classList.remove("hidden");
-
-    renderListaCursos(datasetCategoria);
-
-    requestAnimationFrame(() => {
-      list.classList.add("view-transition", "is-active");
-    });
-  }
-
-  if (mode === "grid") {
-    const grid = document.getElementById("courses-grid");
-    grid.classList.remove("hidden");
-
-    renderGradeCursos(datasetCategoria);
-
-    requestAnimationFrame(() => {
-      grid.classList.add("view-transition", "is-active");
-    });
-  }
-
-  if (precisaScroll) {
-    requestAnimationFrame(() => {
-      window.scrollTo({ top: 0, behavior: "instant" });
-    });
-  }
+  // 🔹 anima entrada
+  requestAnimationFrame(() => {
+    ativarTransicao(alvo);
+  });
 }
 
 // ❎ ======= Renderização Block Mode ======= ❎
