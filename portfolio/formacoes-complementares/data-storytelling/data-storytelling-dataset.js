@@ -3,7 +3,9 @@ const datasetCategoria = [
     id: 1,
 
     instituicao: "Simplifica Treinamentos",
+ 
     curso: "MasterClass PowerPoint",
+    
     cargaHoraria: "2 h",
 
     conclusaoISO: "2025-08-28",
