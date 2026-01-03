@@ -66,9 +66,9 @@ function trocarModoInterno(mode) {
   if (mode === "list") renderListaCursos(datasetCategoria);
   if (mode === "grid") renderGradeCursos(datasetCategoria);
 
-  // 🔹 SCROLL PARA O TOPO (AQUI É O PONTO CERTO)
+  // 🔹 SCROLL CORRETO (SEM QUEBRAR O FADE)
   if (mode !== "block") {
-    window.scrollTo({ top: 0, behavior: "instant" });
+    alvo.scrollIntoView({ behavior: "instant", block: "start" });
   }
 
   // 🔹 anima entrada
