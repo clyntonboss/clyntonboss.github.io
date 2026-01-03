@@ -31,7 +31,7 @@ function setViewMode(mode) {
 
     setTimeout(() => {
       trocarModoInterno(mode);
-    }, 300); // mesmo tempo do CSS
+    }, 400); // mesmo tempo do CSS
   } else {
     trocarModoInterno(mode);
   }
