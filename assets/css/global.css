@@ -1213,3 +1213,28 @@ body.static-header .last-update {
   margin-left: 8px;
   font-size: 1.2em;
 }
+
+/* Estilização dos Modos Finalização */
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+}
+
+.course-block,
+.courses-flow,
+.courses-list,
+.courses-grid {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.course-block.is-active,
+.courses-flow.is-active,
+.courses-list.is-active,
+.courses-grid.is-active {
+  opacity: 1;
+  height: auto;
+  pointer-events: auto;
+}
