@@ -2,17 +2,18 @@ let cursoAtualIndex = 0;
 
 // Função Utilitária
 
-function ativarTransicao(container) {
-  // reset total
-  container.classList.remove("view-transition", "is-active");
-
-  // força reflow para o browser "esquecer" o estado anterior
-  container.offsetHeight;
-
-  // reaplica a transição
-  container.classList.add("view-transition");
-  container.classList.add("is-active");
-}
+  function ativarTransicao(container) {
+    container.classList.remove("view-transition", "is-active");
+  
+    // força reflow
+    container.offsetHeight;
+  
+    container.classList.add("view-transition");
+  
+    requestAnimationFrame(() => {
+      container.classList.add("is-active");
+    });
+  }
 
 // Modos de Visualização dos Cursos
 
@@ -26,7 +27,6 @@ function setViewMode(mode) {
 
   if (mode === "block") {
     const block = document.getElementById("course-block");
-  
     block.classList.remove("hidden");
   
     const savedIndex = parseInt(
@@ -34,28 +34,48 @@ function setViewMode(mode) {
       10
     );
   
+    // 🔹 1️⃣ Renderiza PRIMEIRO (dados existem)
     renderBlocoCurso(
       Number.isInteger(savedIndex) ? savedIndex : 0
     );
   
+    // 🔹 2️⃣ Anima DEPOIS
     requestAnimationFrame(() => {
       ativarTransicao(block);
     });
   }
 
   if (mode === "flow") {
-    container = document.getElementById("courses-flow");
-    renderFluxoCursos(datasetCategoria);
+    const flow = document.getElementById("courses-flow");
+    flow.classList.remove("hidden");
+  
+    renderFlowCursos(); // ← render obrigatório
+  
+    requestAnimationFrame(() => {
+      ativarTransicao(flow);
+    });
   }
 
   if (mode === "list") {
-    container = document.getElementById("courses-container");
-    renderListaCursos(datasetCategoria);
+    const list = document.getElementById("courses-container");
+    list.classList.remove("hidden");
+  
+    renderListaCursos();
+  
+    requestAnimationFrame(() => {
+      ativarTransicao(list);
+    });
   }
 
   if (mode === "grid") {
-    container = document.getElementById("courses-grid");
-    renderGradeCursos(datasetCategoria);
+    const grid = document.getElementById("courses-grid");
+    grid.classList.remove("hidden");
+  
+    renderGridCursos();
+  
+    requestAnimationFrame(() => {
+      ativarTransicao(grid);
+    });
   }
 
   if (!container) return;
@@ -369,14 +389,30 @@ document.addEventListener("DOMContentLoaded", () => {
 // ❎ ==== Alternar Modo de Visualização ==== ❎
 
 function trocarModo(mode) {
-  if (mode !== "block") {
-    window.scrollTo({
-      top: 0,
-      behavior: "instant"
-    });
-  }
+  const modos = [
+    "course-block",
+    "courses-flow",
+    "courses-container",
+    "courses-grid"
+  ];
 
+  // 1️⃣ Esconde TODOS os modos
+  modos.forEach(id => {
+    const el = document.getElementById(id);
+    el.classList.add("hidden");
+    el.classList.remove("view-transition", "is-active");
+  });
+
+  // 2️⃣ Salva o modo atual
+  localStorage.setItem("coursesViewMode", mode);
+
+  // 3️⃣ Ativa o modo escolhido
   setViewMode(mode);
+
+  // 4️⃣ Scroll sempre volta ao topo
+  requestAnimationFrame(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 }
 
 // ⛔ =============== The End =============== ⛔
