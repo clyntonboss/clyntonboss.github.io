@@ -1218,7 +1218,8 @@ body.static-header .last-update {
 .hidden {
   opacity: 0;
   pointer-events: none;
-  visibility: hidden;
+  height: 0;
+  overflow: hidden;
 }
 
 .course-block,
@@ -1226,8 +1227,7 @@ body.static-header .last-update {
 .courses-list,
 .courses-grid {
   opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.35s ease;
 }
 
 .course-block.is-active,
@@ -1235,6 +1235,6 @@ body.static-header .last-update {
 .courses-list.is-active,
 .courses-grid.is-active {
   opacity: 1;
-  visibility: visible;
+  height: auto;
   pointer-events: auto;
 }
