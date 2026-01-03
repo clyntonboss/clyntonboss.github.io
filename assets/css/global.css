@@ -1096,10 +1096,6 @@ body.static-header .last-update {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.hidden {
-  display: none;
-}
-
 /* Estilização do Modo Bloco */
 .course-block {
   margin-top: 0px;
