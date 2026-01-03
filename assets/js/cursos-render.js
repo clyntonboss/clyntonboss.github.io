@@ -17,12 +17,6 @@ function ativarTransicao(container) {
 // Modos de Visualização dos Cursos
 
 function setViewMode(mode) {
-  // 🔹 SOBE A PÁGINA ANTES DE QUALQUER COISA
-  const secao = document.querySelector(".curriculo-text");
-  if (secao) {
-    secao.scrollIntoView({ behavior: "instant", block: "start" });
-  }
-
   localStorage.setItem("coursesViewMode", mode);
   atualizarBotoesDeVisualizacao(mode);
 
@@ -44,7 +38,7 @@ function setViewMode(mode) {
 }
 
 function trocarModoInterno(mode) {
-  // 🔹 limpa todos os modos
+  // 🔹 limpa tudo
   limparTodosOsModos();
 
   let alvo = null;
@@ -56,10 +50,10 @@ function trocarModoInterno(mode) {
 
   if (!alvo) return;
 
-  // 🔹 mostra o modo selecionado
+  // 🔹 mostra o modo
   alvo.classList.remove("hidden");
 
-  // 🔹 renderiza conteúdo
+  // 🔹 renderiza
   if (mode === "block") {
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
@@ -72,7 +66,15 @@ function trocarModoInterno(mode) {
   if (mode === "list") renderListaCursos(datasetCategoria);
   if (mode === "grid") renderGradeCursos(datasetCategoria);
 
-  // 🔹 anima somente a entrada
+  // 🔹 SCROLL PARA O TOPO DA SEÇÃO (CORRETO)
+  if (mode !== "block") {
+    const secao = document.querySelector(".curriculo-text");
+    if (secao) {
+      secao.scrollIntoView({ behavior: "instant", block: "start" });
+    }
+  }
+
+  // 🔹 anima entrada
   requestAnimationFrame(() => {
     ativarTransicao(alvo);
   });
