@@ -3,19 +3,21 @@ const datasetCategoria = [
     id: 1,
 
     instituicao: "Fundação Bradesco",
+    
     curso: "Administrando Banco de Dados",
+    
     cargaHoraria: "15 h",
-
+    
     conclusaoISO: "2024-10-05",
-
+    
     dataConclusao: "05 de outubro de 2024",
-
+    
     codigo: "7509592B-143A-4419-8F0A-AC1CCE0B26E2",
-
+    
     mostrarCopiar: true,
-
+    
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2024.10.05 · Fundação Bradesco · Administrando Banco de Dados.png",
-
+    
     verificacao: {
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
@@ -25,8 +27,11 @@ const datasetCategoria = [
   {
     id: 2,
 
+    
     instituicao: "Cursa",
+    
     curso: "MySQL",
+    
     cargaHoraria: "7 h 51 min",
 
     conclusaoISO: "2024-10-17",
@@ -46,7 +51,9 @@ const datasetCategoria = [
     id: 3,
 
     instituicao: "Escola de Inteligência Artificial",
+   
     curso: "Introdução ao MongoDB: Fácil e Simples!",
+    
     cargaHoraria: "5 h",
 
     conclusaoISO: "2024-10-17",
@@ -64,9 +71,11 @@ const datasetCategoria = [
 
   {
     id: 4,
-
+ 
     instituicao: "Escola de Inteligência Artificial",
+    
     curso: "Introdução a Bancos de Dados e Linguagem SQL",
+    
     cargaHoraria: "7 h",
 
     conclusaoISO: "2024-10-21",
@@ -86,7 +95,9 @@ const datasetCategoria = [
     id: 5,
 
     instituicao: "Cursa",
+  
     curso: "Oracle Database do Zero ao Avançado",
+    
     cargaHoraria: "9 h",
 
     conclusaoISO: "2024-11-04",
@@ -109,7 +120,9 @@ const datasetCategoria = [
     id: 6,
 
     instituicao: "Cursa",
+
     curso: "MySQL",
+    
     cargaHoraria: "14 h",
 
     conclusaoISO: "2024-11-09",
@@ -132,7 +145,9 @@ const datasetCategoria = [
     id: 7,
 
     instituicao: "Unieducar",
+
     curso: "PHP/MySQL",
+    
     cargaHoraria: "4 h",
 
     conclusaoISO: "2024-11-09",
@@ -155,7 +170,9 @@ const datasetCategoria = [
     id: 8,
 
     instituicao: "Cursa",
+
     curso: "Banco de Dados com PostgreSQL",
+    
     cargaHoraria: "7 h",
 
     conclusaoISO: "2024-11-11",
@@ -178,7 +195,9 @@ const datasetCategoria = [
     id: 9,
 
     instituicao: "Instituto Federal Espírito Santo",
+ 
     curso: "Introdução a NoSQL com MongoDB",
+    
     cargaHoraria: "60 h",
 
     conclusaoISO: "2025-03-21",
@@ -201,7 +220,9 @@ const datasetCategoria = [
     id: 10,
 
     instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
     curso: "Banco de Dados",
+    
     cargaHoraria: "40 h",
 
     conclusaoISO: "2025-03-29",
@@ -224,7 +245,9 @@ const datasetCategoria = [
     id: 11,
 
     instituicao: "Unieducar",
+
     curso: "PHP/MySQL",
+    
     cargaHoraria: "4 h",
 
     conclusaoISO: "2025-04-05",
@@ -247,7 +270,9 @@ const datasetCategoria = [
     id: 12,
 
     instituicao: "Xperiun | Data Analytics",
+
     curso: "SQL",
+    
     cargaHoraria: "2 h",
 
     conclusaoISO: "2025-04-06",
@@ -267,7 +292,9 @@ const datasetCategoria = [
     id: 13,
 
     instituicao: "Cursa",
+
     curso: "Estrutura de Dados",
+    
     cargaHoraria: "27 h",
 
     conclusaoISO: "2025-08-14",
@@ -290,7 +317,9 @@ const datasetCategoria = [
     id: 14,
 
     instituicao: "Aprenda Mais",
+
     curso: "Banco de Dados 1: Fundamentos",
+        
     cargaHoraria: "20 h",
 
     conclusaoISO: "2025-09-29",
@@ -313,7 +342,9 @@ const datasetCategoria = [
     id: 15,
 
     instituicao: "Instituto Federal Rio Grande do Sul",
+ 
     curso: "Banco de Dados 1: Fundamentos",
+    
     cargaHoraria: "20 h",
 
     conclusaoISO: "2025-10-10",
@@ -336,7 +367,9 @@ const datasetCategoria = [
     id: 16,
 
     instituicao: "Cursa",
+   
     curso: "Firebird (SQL)",
+    
     cargaHoraria: "12 h",
 
     conclusaoISO: "2025-10-11",
@@ -359,7 +392,9 @@ const datasetCategoria = [
     id: 17,
 
     instituicao: "Instituto Federal Rio Grande do Sul",
+
     curso: "Banco de Dados: Oracle PL/SQL",
+  
     cargaHoraria: "20 h",
 
     conclusaoISO: "2025-10-12",
@@ -382,7 +417,9 @@ const datasetCategoria = [
     id: 18,
 
     instituicao: "Cursa",
+ 
     curso: "PostgreSQL",
+    
     cargaHoraria: "11 h",
 
     conclusaoISO: "2025-10-12",
@@ -405,7 +442,9 @@ const datasetCategoria = [
     id: 19,
 
     instituicao: "Cursa",
+  
     curso: "Modelagem de Banco de Dados Relacionais",
+    
     cargaHoraria: "10 h",
 
     conclusaoISO: "2025-10-13",
@@ -428,7 +467,9 @@ const datasetCategoria = [
     id: 20,
 
     instituicao: "Cursa",
+ 
     curso: "SQL Server",
+    
     cargaHoraria: "9 h",
 
     conclusaoISO: "2025-10-13",
@@ -451,7 +492,9 @@ const datasetCategoria = [
     id: 21,
 
     instituicao: "Instituto Federal Rio Grande do Sul",
+ 
     curso: "Administrador de Banco de Dados",
+    
     cargaHoraria: "200 h",
 
     conclusaoISO: "2025-11-21",
