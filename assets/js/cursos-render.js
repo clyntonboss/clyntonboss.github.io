@@ -60,6 +60,67 @@ function setViewMode(mode) {
   }
 }
 
+function trocarModoInterno(mode) {
+  limparTodosOsModos();
+
+  let precisaScroll = mode !== "block";
+
+  if (mode === "block") {
+    const block = document.getElementById("course-block");
+    block.classList.remove("hidden");
+
+    const savedIndex = parseInt(
+      localStorage.getItem("blockCourseIndex"),
+      10
+    );
+
+    renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
+
+    requestAnimationFrame(() => {
+      block.classList.add("view-transition", "is-active");
+    });
+  }
+
+  if (mode === "flow") {
+    const flow = document.getElementById("courses-flow");
+    flow.classList.remove("hidden");
+
+    renderFluxoCursos(datasetCategoria);
+
+    requestAnimationFrame(() => {
+      flow.classList.add("view-transition", "is-active");
+    });
+  }
+
+  if (mode === "list") {
+    const list = document.getElementById("courses-container");
+    list.classList.remove("hidden");
+
+    renderListaCursos(datasetCategoria);
+
+    requestAnimationFrame(() => {
+      list.classList.add("view-transition", "is-active");
+    });
+  }
+
+  if (mode === "grid") {
+    const grid = document.getElementById("courses-grid");
+    grid.classList.remove("hidden");
+
+    renderGradeCursos(datasetCategoria);
+
+    requestAnimationFrame(() => {
+      grid.classList.add("view-transition", "is-active");
+    });
+  }
+
+  if (precisaScroll) {
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: "instant" });
+    });
+  }
+}
+
 // ❎ ======= Renderização Block Mode ======= ❎
 
 function renderBlocoCurso(index) {
