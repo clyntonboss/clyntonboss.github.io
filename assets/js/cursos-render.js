@@ -25,14 +25,22 @@ function setViewMode(mode) {
   let container;
 
   if (mode === "block") {
-    container = document.getElementById("course-block");
-
+    const block = document.getElementById("course-block");
+  
+    block.classList.remove("hidden");
+  
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
       10
     );
-
-    renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
+  
+    renderBlocoCurso(
+      Number.isInteger(savedIndex) ? savedIndex : 0
+    );
+  
+    requestAnimationFrame(() => {
+      ativarTransicao(block);
+    });
   }
 
   if (mode === "flow") {
