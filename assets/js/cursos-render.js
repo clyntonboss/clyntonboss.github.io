@@ -66,9 +66,12 @@ function trocarModoInterno(mode) {
   if (mode === "list") renderListaCursos(datasetCategoria);
   if (mode === "grid") renderGradeCursos(datasetCategoria);
 
-  // 🔹 SCROLL CORRETO (SEM QUEBRAR O FADE)
+  // 🔹 SCROLL PARA O TOPO DA SEÇÃO (CORRETO)
   if (mode !== "block") {
-    alvo.scrollIntoView({ behavior: "instant", block: "start" });
+    const secao = document.querySelector(".curriculo-text");
+    if (secao) {
+      secao.scrollIntoView({ behavior: "instant", block: "start" });
+    }
   }
 
   // 🔹 anima entrada
