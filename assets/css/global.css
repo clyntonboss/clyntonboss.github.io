@@ -1218,16 +1218,16 @@ body.static-header .last-update {
 .hidden {
   opacity: 0;
   pointer-events: none;
-  position: absolute;
-  inset: 0;
+  visibility: hidden;
 }
 
 .course-block,
 .courses-flow,
 .courses-list,
 .courses-grid {
-  transition: opacity 0.35s ease, transform 0.35s ease;
-  transform: translateY(8px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease;
 }
 
 .course-block.is-active,
@@ -1235,7 +1235,6 @@ body.static-header .last-update {
 .courses-list.is-active,
 .courses-grid.is-active {
   opacity: 1;
-  transform: translateY(0);
+  visibility: visible;
   pointer-events: auto;
-  position: relative;
 }
