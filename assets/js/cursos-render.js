@@ -18,7 +18,10 @@ function ativarTransicao(container) {
 
 function setViewMode(mode) {
   // 🔹 SOBE A PÁGINA ANTES DE QUALQUER COISA
-  window.scrollTo({ top: 0, behavior: "instant" });
+  const secao = document.querySelector(".curriculo-text");
+  if (secao) {
+    secao.scrollIntoView({ behavior: "instant", block: "start" });
+  }
 
   localStorage.setItem("coursesViewMode", mode);
   atualizarBotoesDeVisualizacao(mode);
