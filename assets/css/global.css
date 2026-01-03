@@ -1205,6 +1205,7 @@ body.static-header .last-update {
 
 .view-transition.is-active {
   opacity: 1;
+  transition: opacity 0.6s ease;
 }
 
 /* Botão Copiar */
