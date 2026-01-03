@@ -38,7 +38,6 @@ function setViewMode(mode) {
 }
 
 function trocarModoInterno(mode) {
-  // 🔹 limpa tudo
   limparTodosOsModos();
 
   let alvo = null;
@@ -50,10 +49,8 @@ function trocarModoInterno(mode) {
 
   if (!alvo) return;
 
-  // 🔹 mostra o modo
   alvo.classList.remove("hidden");
 
-  // 🔹 renderiza
   if (mode === "block") {
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
@@ -66,15 +63,15 @@ function trocarModoInterno(mode) {
   if (mode === "list") renderListaCursos(datasetCategoria);
   if (mode === "grid") renderGradeCursos(datasetCategoria);
 
-  // 🔹 SCROLL PARA O TOPO DA SEÇÃO (CORRETO)
+  // 🔹 SCROLL ABSOLUTO PARA O TOPO DA SEÇÃO (FUNCIONA SEMPRE)
   if (mode !== "block") {
     const secao = document.querySelector(".curriculo-text");
     if (secao) {
-      secao.scrollIntoView({ behavior: "instant", block: "start" });
+      const top = secao.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({ top, behavior: "instant" });
     }
   }
 
-  // 🔹 anima entrada
   requestAnimationFrame(() => {
     ativarTransicao(alvo);
   });
