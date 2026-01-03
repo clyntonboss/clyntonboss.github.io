@@ -20,43 +20,20 @@ function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
   atualizarBotoesDeVisualizacao(mode);
 
-  // 🔹 Identifica o container alvo ANTES de limpar
-  let alvo = null;
+  // 🔹 pega o modo atualmente visível
+  const current = document.querySelector(
+    "#course-block:not(.hidden), #courses-flow:not(.hidden), #courses-container:not(.hidden), #courses-grid:not(.hidden)"
+  );
 
-  if (mode === "block") alvo = document.getElementById("course-block");
-  if (mode === "flow")  alvo = document.getElementById("courses-flow");
-  if (mode === "list")  alvo = document.getElementById("courses-container");
-  if (mode === "grid")  alvo = document.getElementById("courses-grid");
+  // 🔹 fade-out do modo atual
+  if (current) {
+    current.classList.remove("is-active");
 
-  // 🔹 Limpa tudo
-  limparTodosOsModos();
-
-  if (!alvo) return;
-
-  // 🔹 Mostra o modo
-  alvo.classList.remove("hidden");
-
-  // 🔹 Renderiza conteúdo
-  if (mode === "block") {
-    const savedIndex = parseInt(
-      localStorage.getItem("blockCourseIndex"),
-      10
-    );
-    renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
-  }
-
-  if (mode === "flow")  renderFluxoCursos(datasetCategoria);
-  if (mode === "list")  renderListaCursos(datasetCategoria);
-  if (mode === "grid")  renderGradeCursos(datasetCategoria);
-
-  // 🔹 Anima SOMENTE o modo que entra
-  requestAnimationFrame(() => {
-    ativarTransicao(alvo);
-  });
-
-  // 🔹 Scroll apenas fora do block
-  if (mode !== "block") {
-    window.scrollTo({ top: 0, behavior: "instant" });
+    setTimeout(() => {
+      trocarModoInterno(mode);
+    }, 300); // mesmo tempo do CSS
+  } else {
+    trocarModoInterno(mode);
   }
 }
 
