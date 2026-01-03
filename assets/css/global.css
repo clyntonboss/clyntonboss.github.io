@@ -1200,13 +1200,11 @@ body.static-header .last-update {
 
 .view-transition {
   opacity: 0;
-  transform: translateY(-12px);
+  transition: opacity 0.4s ease;
 }
 
 .view-transition.is-active {
   opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 /* Botão Copiar */
