@@ -1611,4 +1611,1297 @@ const sections = {
       </p>
     `
   },
+
+// 🔹 ====== Certificações e Credenciais ===== 🔹
+
+  certificacoesCredenciais: {
+    pageTitle: "Certificações e Credenciais | Rogério Clynton Ribeiro",
+    favicon: "/assets/icons/professionals-experiences-icon.png",
+    title: "Certificações e Credenciais",
+    icon: "/assets/icons/professionals-experiences-icon.png",
+    content: `
+      <div class="tech-subtitle">Esta seção reúne certificações e credenciais obtidas ao longo da trajetória profissional, organizadas por categoria e data de conclusão.<br>
+                                 Os registros apresentados representam validações formais de conhecimentos, emitidas por instituições e plataformas reconhecidas.</div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">White Belt - Lean Six Sigma</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">FM2S</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Lean Six Sigma White Belt</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">8 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">28 de fevereiro de 2024</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">327940</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a class="cert-no-verify">Indisponível</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Produzindo Engenharia</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">White Belt Lean Six Sigma</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">6 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">29 de fevereiro de 2024</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">WBFEV240077</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a class="cert-no-verify">Indisponível</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Frons Educação</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">White Belt Lean Six Sigma</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">10 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">11 de novembro de 2025</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">733D78A22E-1451E0F1F-144C20C72</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a href="https://frons.com.br/verificacao-certificados/733D78A22E-1451E0F1F-144C20C72/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Council for Six Sigma Certification</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Lean Six Sigma White Belt</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">8 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">11 de novembro de 2025</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">7th0wCFtCy</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a class="cert-no-verify">Indisponível</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Escola EDTI</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Certificação White Belt em Lean Six Sigma</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">8 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">12 de novembro de 2025</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">EDTIe62b390b3ae00a98c0df96b4b0d6c6c7</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a class="cert-no-verify">Indisponível</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Nortegubisian</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Six Sigma White Belt</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">4 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">12 de novembro de 2025</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">0001124</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a class="cert-no-verify">Indisponível</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Yellow Belt - Lean Six Sigma</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">FM2S</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Lean Six Sigma Yellow Belt</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">24 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">01 de março de 2024</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">328571</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a class="cert-no-verify">Indisponível</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">VMEdu, Inc</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Six Sigma Yellow Belt</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">20 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">12 de novembro de 2025</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">1125351</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a href="https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/SixSigmaYellowBelt-RogérioClyntonRibeiro-1125351.pdf" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Green Belt - Lean Six Sigma</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" 
+                       alt="Gestão da Qualidade" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Domus Lean Seis Sigma</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Lean Seis Sigma Green Belt</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">40 h</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">08 de setembro de 2024</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">#DLSSGB00006</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a class="cert-no-verify">Indisponível</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Platform Administrator</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png"
+                       alt="Cloud" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Databricks Academy</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Databricks Accredited Platform Administrator</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">8 h 36 min</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11, 2026)</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a href="https://credentials.databricks.com/3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Databricks Fundamentals</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png"
+                       alt="Cloud" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Databricks Academy</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Databricks Accredited Databricks Fundamentals</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">1 h 30 min</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11,2026)</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a href="https://credentials.databricks.com/64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Generative Artificial Intelligence Fundamentals</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png"
+                       alt="Cloud" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Databricks Academy</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Databricks Accredited Generative Artificial Intelligence Fundamentals</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">10 h 10 min</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">19 de junho de 2025 (Issue: June 19, 2025 / Expiration: June 19, 2027)</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a href="https://credentials.databricks.com/8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Google Cloud Platform Databricks Platform Architect</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png"
+                       alt="Cloud" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Databricks Academy</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Databricks Accredited Google Cloud Platform Databricks Platform Architect</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">3 h 20 min</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">21 de junho de 2025 (Issue: June 21, 2025 / Expiration: June 21, 2027)</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a href="https://credentials.databricks.com/40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Amazon Web Services Platform Architect</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png"
+                       alt="Cloud" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Databricks Academy</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Databricks Accredited Amazon Web Services Platform Architect</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">3 h 20 min</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">29 de junho de 2025 (Issue: June 29, 2025 / Expiration: June 29, 2027)</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a href="https://credentials.databricks.com/84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Azure Platform Architect</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png"
+                       alt="Cloud" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">Databricks Academy</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Curso:</span>
+                  <span style="font-weight: bold;">Databricks Accredited Azure Platform Architect</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Carga Horária:</span>
+                  <span style="font-weight: bold;">4 h 10 min</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Conclusão:</span>
+                  <span style="font-weight: bold;">01 de julho de 2025 (Issue: July 1, 2025 / Expiration: July 1, 2027)</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Código:</span>
+                  <span style="font-weight: bold;">e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Verificação:</span>
+                  <a href="https://credentials.databricks.com/e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+    `
+  },
+
+// 🔹 ========= Impactos e Resultados ======== 🔹
+
+  impactosResultados: {
+    pageTitle: "Impactos e Resultados | Rogério Clynton Ribeiro",
+    favicon: "/assets/icons/results-achieved-icon.png",
+    title: "Impactos e Resultados",
+    icon: "/assets/icons/results-achieved-icon.png",
+    content: `
+      <p>
+          Ao longo da minha trajetória profissional, a tecnologia sempre foi utilizada como meio, e não como fim. Os projetos e iniciativas desenvolvidos tiveram como
+          objetivo central gerar impacto real, seja por meio da melhoria de processos, da organização da informação, do suporte à tomada de decisão ou da criação de soluções
+          alinhadas ao contexto de cada organização. Os resultados apresentados a seguir refletem ganhos concretos observados em diferentes cenários de atuação.
+      </p>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Processos</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <div class="tech-subtitle">Estruturação, padronização e melhoria contínua de fluxos operacionais e administrativos.</div>
+              <div class="tech-title">Situação Inicial:</div>
+              <div class="tech-desc">
+                  Ambientes com processos pouco estruturados, alto grau de retrabalho, uso excessivo de controles manuais e ausência de padronização na organização das informações.
+              </div>
+          
+              <div class="tech-title">Abordagem Adotada:</div>
+              <div class="tech-desc">
+                  Mapeamento de rotinas, reorganização de fluxos operacionais e aplicação de soluções tecnológicas adequadas à realidade de cada contexto, priorizando simplicidade, clareza e sustentabilidade das soluções ao longo do tempo.
+              </div>
+          
+              <div class="tech-title">Resultado Alcançado:</div>
+              <div class="tech-desc">
+                  Redução de retrabalho, maior previsibilidade operacional, padronização de procedimentos e melhoria significativa na organização dos processos administrativos e técnicos.
+              </div>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Informações e Tomada de Decisões</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <div class="tech-subtitle">Transformação de dados em informação clara, confiável e acionável para suporte estratégico.</div>
+              <div class="tech-title">Situação Inicial:</div>
+              <div class="tech-desc">
+                  Dados dispersos, planilhas desconectadas, dificuldade de acesso à informação confiável e ausência de indicadores claros para apoiar decisões.
+              </div>
+          
+              <div class="tech-title">Abordagem Adotada:</div>
+              <div class="tech-desc">
+                  Estruturação de bases de dados, consolidação de múltiplas fontes de informação e desenvolvimento de soluções analíticas e visuais que transformam dados brutos em informação compreensível e acionável.
+              </div>
+          
+              <div class="tech-title">Resultado Alcançado:</div>
+              <div class="tech-desc">
+                  Maior clareza informacional, visão integrada dos dados, apoio efetivo à tomada de decisão e substituição de controles manuais por painéis e indicadores consistentes.
+              </div>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Tecnológico</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <div class="tech-subtitle">Aplicação de soluções tecnológicas alinhadas ao contexto, com foco em eficiência, integração e sustentabilidade.</div>
+              <div class="tech-title">Situação Inicial:</div>
+              <div class="tech-desc">
+                  Instituições com desafios na gestão da informação, suporte técnico reativo e dificuldades na utilização eficiente de recursos tecnológicos.
+              </div>
+          
+              <div class="tech-title">Abordagem Adotada:</div>
+              <div class="tech-desc">
+                  Atuação próxima às equipes administrativas, educacionais e usuários finais, com foco na organização da informação, no suporte acessível e na disseminação de uma cultura orientada ao uso consciente da tecnologia e dos dados.
+              </div>
+          
+              <div class="tech-title">Resultado Alcançado:</div>
+              <div class="tech-desc">
+                  Melhoria na gestão educacional e administrativa, maior autonomia dos usuários, melhor aproveitamento dos recursos tecnológicos disponíveis e fortalecimento da cultura organizacional orientada à informação.
+              </div>
+          </div>
+      </div>
+      
+      <div class="tech-title">Síntese e Continuidade</div>
+      
+      <p>
+          Os impactos apresentados são resultado direto da aplicação prática de conhecimentos técnicos, analíticos e estratégicos, construídos ao longo da minha trajetória
+          profissional. Essas iniciativas se materializam em projetos que integram tecnologia, dados e contexto organizacional, apresentados em detalhes na seção Projetos 5.0.
+      </p>
+    `
+  },
+
+// 🔹 ======== Produções Intelectuais ======== 🔹
+
+  producoesIntelectuais: {
+    pageTitle: "Produções Intelectuais | Rogério Clynton Ribeiro",
+    favicon: "/assets/icons/publications-icon.png",
+    title: "Produções Intelectuais",
+    icon: "/assets/icons/publications-icon.png",
+    content: `
+      <div class="tech-subtitle">Produções acadêmicas apresentadas em eventos científicos, com foco em educação, tecnologia e inclusão digital.</div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2020</span>
+              <span class="exp-role">EaD: a nova onda da educação - Virtudes e Desafios</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">EaD: a nova onda da educação – Virtudes e Desafios</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">III Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">27/08/2020</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  A modalidade de aula de Ensino à Distância (EaD) tomou conta de debates na sociedade no que diz respeito à educação de um modo geral nos últimos meses do ano de 2020.
+                  Este artigo visa debater o assunto trazendo um pouco de história de quando e como surgiu o EaD, o perfil dos alunos que procuram este tipo de aula indicando os desafios
+                  socioculturais, ferramentas computacionais apropriadas e as soluções. A metodologia utilizada se baseia em pesquisa bibliográfica e documental a respeito deste modo de
+                  ensinar e aprender utilizando os recursos disponíveis na mídia digital atualmente, na qual se alicerça o EaD. Concluiu-se que muitos desafios ainda existem e outros ainda
+                  aflorarão nesta forma educacional uma vez que tanto professores quanto alunos estão, por força de uma pandemia instaurada, desbravando os desafios e tendo como meta
+                  principal trazer cultura, informação e principalmente educação de qualidade a todos.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2021</span>
+              <span class="exp-role">Ensino a Distância: uma ferramenta de Inclusão Social</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">Ensino a Distância: uma ferramenta de Inclusão Social</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">IV Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">26/10/2021</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  A pandemia do COVID-19 que se alastrou desde dezembro de 2019, teve por
+                  consequência que todas as pessoas mundialmente mudaram as rotinas habituais. As sociedades em todos os setores buscaram alternativas para minimizar os
+                  impactos e levar conhecimento para os cidadãos. A Educação à Distância (EaD) tomou conta dos debates e se apresentou como uma alternativa de qualificar as
+                  pessoas sem o convívio social. Este trabalho apresenta o resultado de uma pesquisa de bibliográfica e documental realizada no período compreendido entre
+                  agosto/2020 a julho de 2021. Os resultados indicaram que anteriormente a pandemia a população já buscava no EaD uma fonte de aprimoramento profissional,
+                  principalmente em pessoas com rotinas variáveis de horário que não dispunham diariamente de tempo fixo para realizarem suas próprias qualificações. Além disso, a
+                  evolução do EaD se consolidou ao presencial impulsionado, também, através dessa nova ordem social e se disseminou tanto nos setores públicos quanto privados.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensino a Distância (Uma Ferramenta de Inclusão Social).pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2022</span>
+              <span class="exp-role">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">V Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">26/11/2022</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+              
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  Vendas Especiais é uma das terminologias utilizadas para um setor que tem papel importante na cadeia de gestão de resíduos. Em busca do entendimento dessa cadeia
+                  foi realizada uma pesquisa de campo numa organização que opera com esse setor com o objetivo de apontar onde se aplicam as políticas voltadas para a
+                  sustentabilidade que é um dos grandes anseios da sociedade na atualidade, associado aos benefícios para a organização e implantação. O resultado da pesquisa
+                  apresentou que não se tratava apenas do cumprimento das determinações dos órgãos fiscalizadores, mas sim de uma reestruturação que abrangeria mudança cultural
+                  organizacional, descarte correto dos resíduos não recicláveis em aterros sanitários. No caso daqueles recicláveis ora denominados de co-produtos, o beneficiamento para
+                  outras organizações como matéria-prima, aumentariam a satisfação financeira dos shareholders.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Vendas Especiais (Lucratividade Advinda de Resíduos Recicláveis).pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2022</span>
+              <span class="exp-role">Os impactos da aplicação da Lei Geral de Proteção de Dados - LGPD</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">V Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">26/11/2022</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+              
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  Em vista da demanda mundial pelo consumo de tecnologia da informação e a utilização cada vez mais maciça dos recursos tecnológicos, percebeu-se a
+                  necessidade da criação e regulamentação de normas para atender o setor. A criação da LGPD (Lei Geral de Proteção de Dados) atende aos anseios da
+                  sociedade para a proteção dos seus dados de forma a impedir que sua privacidade seja violada. Este trabalho que é resultado de pesquisa bibliográfica apresenta
+                  detalhes sobre essa lei, os setores onde ela se aplica e os deveres dos envolvidos. Para atender as determinações se faz necessário o entendimento de um ponto
+                  específico sobre a TI (Tecnologia da Informação) que se refere à segurança da informação, conforme é explanado no decorrer do resultado da pesquisa.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Os Impactos da Aplicação da Lei Geral de Proteção de Dados - LGPD.pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2023</span>
+              <span class="exp-role">Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">24/10/2023</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+              
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  Analogamente se observa a redução do tempo de intervalo entre as revoluções industriais e esse fenômeno se consolida na percepção do intervalo entre a quarta
+                  revolução industrial e a quinta. A quarta revolução industrial teve seu início oficializado em 2011 e apenas 6 anos depois, em 2017, começaram os debates sobre o que seria
+                  a próxima revolução industrial que alguns autores descrevem como a evolução da Indústria 4.0. O principal foco da Indústria 4.0 é automatizar ao máximo os processos
+                  produtivos que é contraposto nos debates para a próxima revolução industrial que levará de volta para os parques fabris os recursos humanos, porém, especializados.
+                  A tendência é conciliar a robotização com o feeling humano promovendo sinergia entre os dois mundos.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensaio Sobre Perspectivas da Transição da Indústria 4.0 para a Indústria 5.0.pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2023</span>
+              <span class="exp-role">Utilização de resíduos como matéria-prima na indústria</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">24/10/2023</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+              
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  Diante o aumento exponencial da sociedade, cresce o consumo e com isso a preocupação com o meio ambiente. Da segunda metade do século XX em diante os
+                  órgãos fiscalizadores em âmbito mundial passaram a aprimorar os dispositivos de combate a degradação do meio ambiente explicitando através de indicadores os
+                  malefícios para o meio ambiente por consequência da desenfreada extração de Matérias-Primas para a fabricação de produtos e prestação de serviços. Por meio da
+                  evolução das políticas de Sustentabilidade mudando a direção sistemática de economia linear para Economia Circular, as organizações passaram a buscar
+                  alternativas para aquisição de Matérias-Primas, através principalmente da reciclagem, mas também através da substituição de Matérias-Primas não recicláveis por aquelas
+                  que são recicláveis. Com isso os Resíduos voltam para o processo fabril da própria organização ou é destinado para organizações de outros segmentos.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Utilização de Resíduos como Matéria-Prima na Indústria.pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2023</span>
+              <span class="exp-role">As principais Ferramentas Computacionais aplicadas à Engenharia de Produção</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">26/10/2023</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+              
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  O Engenheiro de Produção tem a competência de atuar nos mais variados setores de uma organização com foco na produtividade – reduzindo custos e desperdícios e
+                  aumentando o lucro – e para ter sucesso no âmbito de suas atribuições não basta ter uma equipe capacitada e qualificada, é primordial o auxílio de Ferramentas
+                  Computacionais em nível de produção, gestão, simulação e análise de indicadores. Esse artigo que é uma revisão bibliográfica apresenta as principais Ferramentas
+                  Computacionais que auxiliam o Engenheiro de Produção, bem como as suas aplicações em diversos setores das organizações, considerando também as
+                  ferramentas voltadas para Sustentabilidade e ESG – Environmental Social and Governance, que não podem faltar em nenhum segmento empresarial.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/As Principais Ferramentas Computacionais Aplicadas à Engenharia de Produção.pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2023</span>
+              <span class="exp-role">Análise da demanda por trabalho em Home Office</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">26/10/2023</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+              
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  Com a popularização da internet e computadores a partir das décadas de 1980 e 1990, as organizações começaram a migrar postos de trabalho para o home office. Essa
+                  prática que começou discretamente vem sendo alavancada pelo aumento populacional que está cada vez mais consciente dos benefícios da qualidade de vida
+                  aliada ao trabalho e principalmente motivada pelo avanço das tecnologias eletrônica e da informação, impulsionado nos últimos anos por consequência da pandemia do
+                  COVID-19. Não é uma tarefa fácil essa migração, considerando que há de se ter um alto nível de disciplina com disposição para rever a cultura profissional e entender que
+                  é preciso ter um espaço dedicado ao trabalho da mesma forma que se estivesse nos limites da organização. Esse formato de trabalho apresenta vantagens tanto para as
+                  organizações quanto para os colaboradores e algumas organizações oferecem diversos benefícios para seus colaboradores.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Análise da Demanda por Trabalho em Home Office.pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2023</span>
+              <span class="exp-role">A atuação do Engenheiro de Produção na Indústria 4.0</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">26/10/2023</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  Uma vez que haja a compreensão de que o Engenheiro de Produção é formado para ser gestor, busca-se demonstrar onde esse profissional tem papel fundamental para
+                  implantação, condução e operação da Indústria 4.0, visto que a quarta revolução industrial é uma realidade e as organizações estão em busca de se adequarem para
+                  não perderem a competitividade, nem quedas na produtividade e consequentemente não serem prejudicadas, principalmente financeiramente. Essa demonstração se
+                  apresenta neste trabalho que é resultado de revisão bibliográfica que buscou apontar a evolução até os dias atuais da chamada quarta revolução industrial, bem como as
+                  responsabilidades e o perfil do Engenheiro de Produção, sem desprezar os principais desafios que as organizações devem enfrentar sob a gestão desse profissional que
+                  tem papel fundamental para a mudança cultural no que tange a capacitação sobre a tecnologia digital e reestruturação dos parques industriais.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/A Atuação do Engenheiro de Produção na Indústria 4.0.pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2023</span>
+              <span class="exp-role">Computação Quântica: a evolução da Tecnologia da Informação</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png'); return false;">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" 
+                       alt="Artigo Científico" 
+                       class="cert-thumb"
+                       >
+              </a>
+              <div>
+                  <span style="font-weight: normal;">Instituição:</span>
+                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Título:</span>
+                  <span style="font-weight: bold;">Computação Quântica: a revolução da Tecnologia da Informação – uma Revisão Bibliográfica</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Evento Acadêmico:</span>
+                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
+              </div>
+              <div>
+                  <span style="font-weight: normal;">Data de Apresentação:</span>
+                  <span style="font-weight: bold;">26/10/2023</span>
+              </div>
+      
+              <hr class="decorative-line-cert">
+              
+              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+                  Resumo
+              </p>
+              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                  Ao passo que a sociedade evolui, as tecnologias acompanham tal evolução e com isso surgem novos campos de estudos para aprimorar conhecimentos, mas sobretudo
+                  para alavancar a evolução da ciência e revolucionar as indústrias para promover mais segurança para os cidadãos, maior precisão no desenvolvimento de produtos e
+                  otimizar a qualidade de dados e informações. Da segunda metade do século XX até os dias atuais a tecnologia da informação já evoluiu sistematicamente, mas estima-se
+                  que a Computação Clássica (computadores digitais) esteja próxima do seu limite de evolução e esse limite vem contribuindo para o investimento em um novo horizonte
+                  que trata a Computação Quântica (computadores quânticos) que desbrava um novo conceito de computação com hardwares baseados em Mecânica Quântica.
+              </p>
+      
+              <p style="margin-top: 12px; font-size: 16px;">
+                  <a href="javascript:void(0);" 
+                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Computação Quântica (A Evolução da Tecnoologia da Informação).pdf')" 
+                     class="cert-link-verify">
+                     Acesse o artigo completo.
+                  </a>
+              </p>
+          </div>
+      </div>
+    `
+  },
 };
