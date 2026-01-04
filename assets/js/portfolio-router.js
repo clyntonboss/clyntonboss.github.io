@@ -91,6 +91,7 @@ function animateViewTransition(callback) {
 
 function changeCategory(category) {
   animateViewTransition(() => {
+    clearSideMenuActive();
     updatePageIcon(category);
     updateSubtitle(category);
     renderCategory(category);
