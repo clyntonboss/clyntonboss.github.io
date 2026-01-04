@@ -628,6 +628,18 @@ main {
   color: var(--exp-details);
 }
 
+.exp-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.exp-details.open {
+  max-height: 2000px; /* valor alto */
+  opacity: 1;
+}
+
 .experience.active .exp-details {
   overflow: visible;
 }
