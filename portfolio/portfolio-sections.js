@@ -91,4 +91,121 @@ const sections = {
       </p>
     `
   },
+
+// ==== Formação Acadêmica ====
+  proposito: {
+    pageTitle: "Formação Acadêmica | Rogério Clynton Ribeiro",
+    favicon: "/assets/icons/academic-background-icon.png",
+    title: "Formação Acadêmica",
+    icon: "/assets/icons/academic-background-icon.png",
+    content: `
+      <hr class="decorative-line-cert">
+      
+      <a href="#" onclick="abrirCertificado('/portfolio/formacao-academica/diploma/2024.03.13 · Centro Universitário de Barra Mansa · Engenharia de Produção.png'); return false;">
+          <img src="/portfolio/formacao-academica/diploma/2024.03.13 · Centro Universitário de Barra Mansa · Engenharia de Produção.png"
+               alt="Engenharia de Produção" 
+               class="cert-thumb"
+               >
+      </a>
+      <div>
+          <span style="font-weight: normal;">Instituição:</span>
+          <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+      </div>
+      <div>
+          <span style="font-weight: normal;">Curso:</span>
+          <span style="font-weight: bold;">Engenharia de Produção | Bacharelado</span>
+      </div>
+      <div>
+          <span style="font-weight: normal;">Carga Horária:</span>
+          <span style="font-weight: bold;">3.800 horas (Fev/2019 a Mar/2024)</span>
+      </div>
+      <div>
+          <span style="font-weight: normal;">Data de Conclusão:</span>
+          <span style="font-weight: bold;">13 de março de 2024</span>
+      </div>
+      <div>
+          <span style="font-weight: normal;">Código:</span>
+          <span style="font-weight: bold;">514.514.4bb97a2ecb2b</span>
+      </div>
+      <div>
+          <span style="font-weight: normal;">Verificação:</span>
+          <a href="https://www.ubm.br/dd/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+      </div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">Participação contínua em eventos acadêmicos com apresentação de trabalhos científicos nas áreas de tecnologia, dados e produção.</div>
+      
+      <div class="experience">
+      <div class="exp-header">
+      <span class="exp-period">2020</span>
+      <span class="exp-role">III Seminário de Pesquisa e Iniciação Científica</span>
+      <button class="exp-toggle">+</button>
+      </div>
+      <div class="exp-details">
+      <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
+          <li style="margin-bottom: 16px;">EaD: a nova onda da educação - Virtudes e Desafios</li>
+      </ul>
+      </div>
+      </div>
+      
+      <div class="experience">
+      <div class="exp-header">
+      <span class="exp-period">2021</span>
+      <span class="exp-role">IV Seminário de Pesquisa e Iniciação Científica</span>
+      <button class="exp-toggle">+</button>
+      </div>
+      <div class="exp-details">
+      <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
+          <li style="margin-bottom: 16px;">Ensino a Distância: uma ferramenta de inclusão social</li>
+      </ul>
+      </div>
+      </div>
+      
+      <div class="experience">
+      <div class="exp-header">
+      <span class="exp-period">2022</span>
+      <span class="exp-role">V Seminário de Pesquisa e Iniciação Científica</span>
+      <button class="exp-toggle">+</button>
+      </div>
+      <div class="exp-details" style="line-height: 1.8;">
+      <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
+          <li style="margin-bottom: 16px;">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</li>
+          <li style="margin-bottom: 16px;">Os impactos da aplicação da Lei Geral de Proteção de Dados - LGPD</li>
+      </ul>
+      </div>
+      </div>
+      
+      <div class="experience">
+      <div class="exp-header">
+      <span class="exp-period">2023</span>
+      <span class="exp-role">VI Seminário de Pesquisa e Iniciação Científica</span>
+      <button class="exp-toggle">+</button>
+      </div>
+      <div class="exp-details">
+      <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
+          <li style="margin-bottom: 16px;">Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0</li>
+          <li style="margin-bottom: 16px;">Utilização de resíduos como matéria-prima na indústria</li>
+          <li style="margin-bottom: 16px;">As principais Ferramentas Computacionais Aplicadas à Engenharia de Produção</li>
+          <li style="margin-bottom: 16px;">Análise da demanda por trabalho em Home Office</li>
+          <li style="margin-bottom: 16px;">A atuação do Engenheiro de Produção na Indústria 4.0</li>
+          <li style="margin-bottom: 16px;">Computação Quântica: a evolução da Tecnologia da Informação</li>
+      </ul>
+      </div>
+      </div>
+      
+      <div class="experience">
+      <div class="exp-header">
+      <span class="exp-period">2023</span>
+      <span class="exp-role">I Seminário de Ensino e Extensão</span>
+      <button class="exp-toggle">+</button>
+      </div>
+      <div class="exp-details">
+      <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
+          <li style="margin-bottom: 16px;">SGCE - Sistema de Gerenciamento da Carreira Estudantil</li>
+      </ul>
+      </div>
+      </div>
+    `
+  },
 };
