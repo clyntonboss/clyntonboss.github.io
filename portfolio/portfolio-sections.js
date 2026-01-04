@@ -7,6 +7,7 @@ const sections = {
     favicon: "/assets/icons/about-icon.png",
     title: "Perfil",
     icon: "/assets/icons/about-icon.png",
+    showViewModes: false,
     content: `
       <p>
           Minha trajetória profissional, iniciada em 1998, sempre foi movida por uma convicção simples e poderosa: 
@@ -50,6 +51,7 @@ const sections = {
     favicon: "/assets/icons/objective-icon.png",
     title: "Propósito",
     icon: "/assets/icons/objective-icon.png",
+    showViewModes: false,
     content: `
       <p>
           Meu propósito é construir pontes entre dados, entendimento e impacto real. 
@@ -102,6 +104,7 @@ const sections = {
     favicon: "/assets/icons/academic-background-icon.png",
     title: "Formação Acadêmica",
     icon: "/assets/icons/academic-background-icon.png",
+    showViewModes: false,
     content: `
               <hr class="decorative-line-cert">
       
@@ -220,6 +223,7 @@ const sections = {
     favicon: "/assets/icons/professionals-experiences-icon.png",
     title: "Competências Técnicas",
     icon: "/assets/icons/professionals-experiences-icon.png",
+    showViewModes: false,
     content: `
       <div class="tech-subtitle">As competências abaixo estão organizadas por domínio técnico.<br>
                                  Ao expandir cada categoria, são apresentados os principais métodos, ferramentas, tecnologias e aplicações práticas relacionadas.</div>
@@ -1457,6 +1461,7 @@ const sections = {
     favicon: "/assets/icons/soft-skills-icon.png",
     title: "Competências Comportamentais",
     icon: "/assets/icons/soft-skills-icon.png",
+    showViewModes: false,
     content: `
       <div class="tech-subtitle">As competências comportamentais abaixo estão organizadas por domínio.<br>
                                  Ao expandir cada categoria, são descritas atitudes, práticas e contextos de aplicação ao longo da minha trajetória.</div>
@@ -1571,6 +1576,7 @@ const sections = {
     favicon: "/assets/icons/professionals-experiences-icon.png",
     title: "Trajetória",
     icon: "/assets/icons/professionals-experiences-icon.png",
+    showViewModes: false,
     content: `
       <p>
           Minha trajetória profissional foi construída de forma contínua, progressiva e intencional, unindo prática técnica, capacidade analítica e visão estratégica.
@@ -1619,6 +1625,7 @@ const sections = {
     favicon: "/assets/icons/courses-icon.png",
     title: "Formações Complementares",
     icon: "/assets/icons/courses-icon.png",
+    showViewModes: false,
     content: `
       <div class="tech-subtitle">As formações complementares estão organizadas por área de conhecimento.<br>
                                  Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</div>
@@ -1673,6 +1680,7 @@ const sections = {
     favicon: "/assets/icons/professionals-experiences-icon.png",
     title: "Certificações e Credenciais",
     icon: "/assets/icons/professionals-experiences-icon.png",
+    showViewModes: false,
     content: `
       <div class="tech-subtitle">Esta seção reúne certificações e credenciais obtidas ao longo da trajetória profissional, organizadas por categoria e data de conclusão.<br>
                                  Os registros apresentados representam validações formais de conhecimentos, emitidas por instituições e plataformas reconhecidas.</div>
@@ -2289,6 +2297,7 @@ const sections = {
     favicon: "/assets/icons/results-achieved-icon.png",
     title: "Impactos e Resultados",
     icon: "/assets/icons/results-achieved-icon.png",
+    showViewModes: false,
     content: `
       <p>
           Ao longo da minha trajetória profissional, a tecnologia sempre foi utilizada como meio, e não como fim. Os projetos e iniciativas desenvolvidos tiveram como
@@ -2387,6 +2396,7 @@ const sections = {
     favicon: "/assets/icons/publications-icon.png",
     title: "Produções Intelectuais",
     icon: "/assets/icons/publications-icon.png",
+    showViewModes: false,
     content: `
       <div class="tech-subtitle">Produções acadêmicas apresentadas em eventos científicos, com foco em educação, tecnologia e inclusão digital.</div>
       
