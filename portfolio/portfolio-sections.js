@@ -1653,7 +1653,7 @@ const sections = {
           <!-- Design & Comunicação -->
           <a href="/portfolio/formacoes-complementares/design/">Design</a>
       
-          // Desenvolvimento Humano & Soft Skills
+          <!-- Desenvolvimento Humano & Soft Skills -->
           <a href="/portfolio/formacoes-complementares/autoconhecimento/">Autoconhecimento</a>
           <a href="/portfolio/formacoes-complementares/skills/">Skills</a>
       
