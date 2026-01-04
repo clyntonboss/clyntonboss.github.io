@@ -81,13 +81,23 @@ function initToggle() {
                 }
             });
 
-            if (isOpen) {
-                details.style.maxHeight = '0';
-                btn.textContent = '+';
-            } else {
-                details.style.maxHeight = details.scrollHeight + 'px';
-                btn.textContent = '−';
-            }
+              if (isOpen) {
+                  details.style.maxHeight = '0';
+                  details.classList.remove('open');
+                  btn.textContent = '+';
+              } else {
+                  details.style.maxHeight = details.scrollHeight + 'px';
+                  details.classList.add('open');
+                  btn.textContent = '−';
+              }
+
+            //if (isOpen) {
+                //details.style.maxHeight = '0';
+                //btn.textContent = '+';
+            //} else {
+                //details.style.maxHeight = details.scrollHeight + 'px';
+                //btn.textContent = '−';
+            //}
         });
     });
 }
