@@ -1612,6 +1612,63 @@ const sections = {
     `
   },
 
+// 🔹 ======= Formações Complementares ======= 🔹
+
+  formacoesComplementares: {
+    pageTitle: "Formações Complementares | Rogério Clynton Ribeiro",
+    favicon: "/assets/icons/courses-icon.png",
+    title: "Formações Complementares",
+    icon: "/assets/icons/courses-icon.png",
+    content: `
+      <div class="cert-categories fade-item">
+      
+          <div class="tech-subtitle">As formações complementares estão organizadas por área de conhecimento.<br>
+                                     Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</div>
+          
+          <div class="cert-links">
+              <!-- Dados e Inteligência -->
+              <a href="/portfolio/formacoes-complementares/analise-de-dados/">Análise de Dados</a>
+              <a href="/portfolio/formacoes-complementares/banco-de-dados/">Banco de Dados</a>
+              <a href="/portfolio/formacoes-complementares/big-data/">Big Data</a>
+              <a href="/portfolio/formacoes-complementares/inteligencia-artificial/">Inteligência Artificial</a>
+              <a href="/portfolio/formacoes-complementares/data-storytelling/">Data Storytelling</a>
+              
+              <!-- Tecnologia e Fundamentos -->
+              <a href="/portfolio/formacoes-complementares/cloud/">Cloud</a>
+              <a href="/portfolio/formacoes-complementares/sistemas-operacionais/">Sistema Operacional</a>
+              <a href="/portfolio/formacoes-complementares/seguranca-da-informacao/">Segurança da Informação</a>
+              <a href="/portfolio/formacoes-complementares/programacao/">Programação</a>
+              <a href="/portfolio/formacoes-complementares/robotic-process-automation/">Robotic Process Automation</a>
+                              
+              <!-- Gestão e Negócios -->
+              <a href="/portfolio/formacoes-complementares/gestao-de-projetos/">Gestão de Projetos</a>
+              <a href="/portfolio/formacoes-complementares/metodologia-agil/">Metodologia Ágil</a>
+              <a href="/portfolio/formacoes-complementares/gestao-da-tecnologia/">Gestão da Tecnologia</a>
+              <a href="/portfolio/formacoes-complementares/gestao-de-operacoes/">Gestão de Operações</a>
+              <a href="/portfolio/formacoes-complementares/gestao-da-qualidade/">Gestão da Qualidade</a>
+              <a href="/portfolio/formacoes-complementares/gestao-de-pessoas/">Gestão de Pessoas</a>
+              <a href="/portfolio/formacoes-complementares/gestao-de-negocios/">Gestão de Negócios</a>
+              <a href="/portfolio/formacoes-complementares/gestao-de-marketing/">Gestão de Marketing</a>
+              <a href="/portfolio/formacoes-complementares/gestao-financeira/">Gestão Financeira</a>
+              <a href="/portfolio/formacoes-complementares/gestao-logistica/">Gestão Logística</a>
+          
+              <!-- Design & Comunicação -->
+              <a href="/portfolio/formacoes-complementares/design/">Design</a>
+          
+              <!-- Desenvolvimento Humano & Soft Skills -->
+              <a href="/portfolio/formacoes-complementares/autoconhecimento/">Autoconhecimento</a>
+              <a href="/portfolio/formacoes-complementares/skills/">Skills</a>
+          
+              <!-- Outras categorias -->
+              <a href="/portfolio/formacoes-complementares/idiomas/">Idiomas</a>
+              <a href="/portfolio/formacoes-complementares/sustentabilidade/">Sustentabilidade</a>
+              <a href="/portfolio/formacoes-complementares/credly/">Credly</a>
+              <a href="/portfolio/formacoes-complementares/arquitetura/">Arquitetura</a>
+          </div>
+      </div>
+    `
+  },
+
 // 🔹 ====== Certificações e Credenciais ===== 🔹
 
   certificacoesCredenciais: {
