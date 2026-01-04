@@ -37,3 +37,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+function animateViewTransition(callback) {
+  const elements = document.querySelectorAll(".view-transition");
+
+  // Fade-out
+  elements.forEach(el => el.classList.remove("is-active"));
+
+  setTimeout(() => {
+    if (typeof callback === "function") {
+      callback();
+    }
+
+    // força reflow antes do fade-in
+    elements.forEach(el => el.offsetHeight);
+
+    // Fade-in
+    elements.forEach(el => el.classList.add("is-active"));
+  }, 400); // tempo do fade-out
+}
