@@ -22,42 +22,91 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 400); // mesmo tempo do fade-out
   }
 
-  menuLinks.forEach(link => {
-    link.addEventListener("click", e => {
+menuLinks.forEach(link => {
+  link.addEventListener("click", e => {
+
+    // ⛔ Se já estiver ativo, não faz absolutamente nada
+    if (link.classList.contains("active")) {
       e.preventDefault();
+      return;
+    }
 
-      const key = link.dataset.section;
-      const section = sections[key];
-      if (!section) return;
+    e.preventDefault();
 
-      animateTransition(() => {
-        //Ícone do H1
-        iconEl.src = section.icon;
-        iconEl.alt = `Ícone ${section.title}`;
+    const key = link.dataset.section;
+    const section = sections[key];
+    if (!section) return;
 
-        // Subtítulo
-        titleEl.textContent = section.title;
+    // Fade-out
+    ativarTransicao(container);
 
-        // Conteúdo
-        contentEl.innerHTML = section.content;
+    setTimeout(() => {
 
-        // Reativa accordions do conteúdo injetado
-        initToggle();
+      // Ícone
+      iconEl.src = section.icon;
+      iconEl.alt = `Ícone ${section.title}`;
 
-        // Título da aba
-        document.title = section.pageTitle;
+      // Subtítulo
+      titleEl.textContent = section.title;
 
-        // Favicon
-        if (section.favicon) {
-          faviconEl.href = section.favicon;
-        }
-      });
+      // Conteúdo
+      contentEl.innerHTML = section.content;
+
+      // Reativa accordions do conteúdo injetado
+      initToggle();
+
+      // Título da aba
+      document.title = section.pageTitle;
+
+      // Favicon
+      if (section.favicon) {
+        faviconEl.href = section.favicon;
+      }
 
       // Menu ativo
       menuLinks.forEach(l => l.classList.remove("active"));
       link.classList.add("active");
-    });
+
+    }, 300);
   });
+});
+
+  //menuLinks.forEach(link => {
+    //link.addEventListener("click", e => {
+      //e.preventDefault();
+
+      //const key = link.dataset.section;
+      //const section = sections[key];
+      //if (!section) return;
+
+      //animateTransition(() => {
+        //Ícone do H1
+        //iconEl.src = section.icon;
+        //iconEl.alt = `Ícone ${section.title}`;
+
+        // Subtítulo
+        //titleEl.textContent = section.title;
+
+        // Conteúdo
+        //contentEl.innerHTML = section.content;
+
+        // Reativa accordions do conteúdo injetado
+        //initToggle();
+
+        // Título da aba
+        //document.title = section.pageTitle;
+
+        // Favicon
+        //if (section.favicon) {
+          //faviconEl.href = section.favicon;
+        //}
+      //});
+
+      // Menu ativo
+      //menuLinks.forEach(l => l.classList.remove("active"));
+      //link.classList.add("active");
+    //});
+  //});
 
   // Ativa estado inicial
   animatedElements.forEach(el => el.classList.add("is-active"));
