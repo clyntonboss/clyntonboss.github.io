@@ -146,7 +146,7 @@ const sections = {
               <span class="exp-role">III Seminário de Pesquisa e Iniciação Científica</span>
               <button class="exp-toggle">+</button>
           </div>
-          <div class="exp-details">
+          <div>
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
                   <li style="margin-bottom: 16px;">EaD: a nova onda da educação - Virtudes e Desafios</li>
               </ul>
