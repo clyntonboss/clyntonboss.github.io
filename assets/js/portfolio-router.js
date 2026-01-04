@@ -38,11 +38,28 @@ document.addEventListener("DOMContentLoaded", () => {
         // Subtítulo
         titleEl.textContent = section.title;
 
+          // fade-out
+          contentEl.classList.remove("is-active");
+          
+          // aguarda fade-out
+          setTimeout(() => {
+              contentEl.innerHTML = section.content;
+          
+              // reativa accordions
+              initToggle();
+          
+              // força reflow
+              contentEl.offsetHeight;
+          
+              // fade-in
+              contentEl.classList.add("is-active");
+          }, 400);
+
         // Conteúdo
-        contentEl.innerHTML = section.content;
+        // contentEl.innerHTML = section.content;
 
         // Reativa accordions do conteúdo injetado
-        initToggle();
+        // initToggle();
 
         // Título da aba
         document.title = section.pageTitle;
