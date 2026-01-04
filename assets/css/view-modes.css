@@ -9,6 +9,10 @@
     gap: 16px;
 }
 
+.view-mode-controls.is-visible {
+  display: flex;
+}
+
 .view-btn {
     background: none;
     border: none;
