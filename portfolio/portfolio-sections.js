@@ -1449,4 +1449,118 @@ const sections = {
       </div>
     `
   },
+
+// 🔹 ===== Competências Comportamentais ===== 🔹
+
+  competenciasComportamentais: {
+    pageTitle: "Competências Comportamentais | Rogério Clynton Ribeiro",
+    favicon: "/assets/icons/soft-skills-icon.png",
+    title: "Competências Comportamentais",
+    icon: "/assets/icons/soft-skills-icon.png",
+    content: `
+      <div class="tech-subtitle">As competências comportamentais abaixo estão organizadas por domínio.<br>
+                                 Ao expandir cada categoria, são descritas atitudes, práticas e contextos de aplicação ao longo da minha trajetória.</div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Comunicação & Relacionamento</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+              <div class="tech-subtitle">Forma de interagir, transmitir ideias e colaborar com os outros.</div>
+              <div class="tech-title">Boa Comunicação</div>
+              <div class="tech-desc">
+                  Comunicação clara, estruturada e objetiva, com habilidade para transmitir informações complexas de forma acessível, adaptar o discurso ao público e fortalecer a assertividade em interações presenciais ou remotas. Capacidade de ouvir ativamente, sintetizar ideias e construir entendimentos comuns com precisão.
+              </div>
+      
+              <div class="tech-title">Trabalho em Equipe</div>
+              <div class="tech-desc">
+                  Colaboração ativa em ambientes multidisciplinares, integração de competências diversas, compartilhamento de conhecimento e construção de resultados coletivos. Habilidade para alinhar expectativas, apoiar colegas e contribuir para um clima organizacional produtivo e equilibrado.
+              </div>
+      
+              <div class="tech-title">Capacidade de Negociação</div>
+              <div class="tech-desc">
+                  Habilidade para conduzir diálogos estratégicos, compreender necessidades das partes envolvidas, identificar alternativas de ganho mútuo e construir acordos equilibrados. Atuação pautada por clareza, empatia e firmeza, garantindo resultados satisfatórios e sustentáveis.
+              </div>
+      
+              <div class="tech-title">Gestão de Conflitos</div>
+              <div class="tech-desc">
+                  Abordagem imparcial e estruturada para mediação de divergências, construção de entendimento entre partes e restauração de ambientes produtivos. Capacidade de lidar com tensões com serenidade, isenção emocional e foco na solução, preservando relações profissionais e o andamento das atividades.
+              </div>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Liderança & Gestão</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+              <div class="tech-subtitle">Coordenação de pessoas, gestão de processos e orientação de equipes.</div>
+              <div class="tech-title">Liderança Colaborativa</div>
+              <div class="tech-desc">
+                  Condução de equipes por meio da influência positiva, incentivo à participação, desenvolvimento de talentos e promoção de autonomia responsável. Capacidade de orientar, inspirar e estruturar processos de forma compartilhada, fortalecendo a maturidade do grupo e o alcance das metas.
+              </div>
+      
+              <div class="tech-title">Gestão de Tempo</div>
+              <div class="tech-desc">
+                  Organização precisa de tarefas, priorização com base em impacto e urgência, disciplina para manter ritmo de execução e capacidade de cumprir prazos sem comprometer qualidade. Abordagem estruturada que otimiza rotinas e aumenta a eficiência operacional.
+              </div>
+      
+              <div class="tech-title">Proatividade</div>
+              <div class="tech-desc">
+                  Atitude orientada à ação, antecipação de demandas e iniciativa para solucionar problemas antes que impactem resultados. Capacidade de identificar oportunidades de melhoria, propor caminhos e agir com autonomia, sempre alinhado aos objetivos estratégicos e ao contexto organizacional.
+              </div>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Pensamento Analítico & Estratégico</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+              <div class="tech-subtitle">Análise, raciocínio e tomada de decisão baseada em informações e lógica.</div>
+              <div class="tech-title">Raciocínio Lógico</div>
+              <div class="tech-desc">
+                  Estruturação lógica do pensamento para analisar situações, decompor problemas e construir conclusões coerentes e fundamentadas. Capacidade de identificar inconsistências, estabelecer relações causais e produzir soluções claras e objetivas com base em critérios racionais e verificáveis.
+              </div>
+      
+              <div class="tech-title">Pensamento Analítico</div>
+              <div class="tech-desc">
+                  Avaliação detalhada de informações, identificação de padrões relevantes, interpretação crítica de dados e capacidade de transformar elementos dispersos em insights práticos. Análise estruturada que favorece decisões estratégicas e sustentadas por evidências concretas.
+              </div>
+      
+              <div class="tech-title">Resolução de Problemas Complexos</div>
+              <div class="tech-desc">
+                  Capacidade de investigar causas profundas, analisar variáveis interdependentes e desenvolver soluções robustas para desafios de alta complexidade. Abordagem orientada à mitigação de riscos, escolha de alternativas viáveis e implementação de estratégias eficazes de forma organizada e precisa.
+              </div>
+      
+              <div class="tech-title">Tomada de Decisão Baseada em Dados</div>
+              <div class="tech-desc">
+                  Utilização de métricas, evidências e indicadores relevantes para fundamentar escolhas, minimizando vieses subjetivos e aumentando a precisão dos resultados. Capacidade de interpretar dados com senso crítico e direcionar ações alinhadas a objetivos estratégicos e mensuráveis.
+              </div>
+      
+              <div class="tech-title">Pensamento Sistêmico</div>
+              <div class="tech-desc">
+                  Visão ampliada de cenários, compreensão das interdependências entre processos e análise de consequências de curto, médio e longo prazo. Capacidade de enxergar o todo, antecipar efeitos colaterais e propor soluções que considerem impactos organizacionais integrados.
+              </div>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Orientação a Resultados</span>
+              <button class="exp-toggle">+</button>
+          </div>
+          <div class="exp-details">
+              <div class="tech-subtitle">Foco em performance, metas e entrega de valor.</div>
+              <div class="tech-title">Orientação a Resultados</div>
+              <div class="tech-desc">
+                  Foco contínuo em metas estratégicas, disciplina para monitorar progresso, capacidade de ajustar rotas e compromisso em entregar valor real. Atuação consistente, resiliente e guiada pela busca de desempenho elevado com precisão e responsabilidade.
+              </div>
+          </div>
+      </div>
+    `
+  },
 };
