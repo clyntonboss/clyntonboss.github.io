@@ -41,6 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // Conteúdo
         contentEl.innerHTML = section.content;
 
+        // Reativa accordions do conteúdo injetado
+        initToggle();
+
         // Título da aba
         document.title = section.pageTitle;
 
