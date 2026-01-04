@@ -93,7 +93,7 @@ const sections = {
   },
 
 // ==== Formação Acadêmica ====
-  proposito: {
+  formacaoAcademica: {
     pageTitle: "Formação Acadêmica | Rogério Clynton Ribeiro",
     favicon: "/assets/icons/academic-background-icon.png",
     title: "Formação Acadêmica",
