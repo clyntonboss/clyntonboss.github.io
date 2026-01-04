@@ -622,17 +622,11 @@ main {
 .exp-details {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
   padding-left: 10px;
   margin-top: 4px;
   color: var(--exp-details);
-}
-
-.exp-details {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease, opacity 0.3s ease;
-  opacity: 0;
 }
 
 .exp-details.open {
