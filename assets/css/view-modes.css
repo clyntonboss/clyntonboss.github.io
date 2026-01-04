@@ -5,12 +5,15 @@
 }
 
 .view-mode-controls {
-    display: flex;
-    gap: 16px;
+  display: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .view-mode-controls.is-visible {
   display: flex;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .view-btn {
