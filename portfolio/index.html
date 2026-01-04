@@ -12,10 +12,13 @@
     <title>Portfólio | Rogério Clynton Ribeiro</title>
     <link id="page-favicon" rel="icon" href="../assets/icons/personal-projects-icon.png" type="image/png">
     <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/view-modes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="../assets/js/core.js" defer></script>
     <script src="portfolio-sections.js" defer></script>
     <script src="../assets/js/portfolio-router.js" defer></script>
+    <script src="/portfolio/formacoes-complementares/banco-de-dados/banco-de-dados-dataset.js"></script>
+    <script src="/assets/js/cursos-render.js" defer></script>
 </head>
 <body>
     <!-- Cabeçalho fixo -->
@@ -41,11 +44,24 @@
         <section id="curriculo" class="main-section">
             <div class="fixed-header-section fade-item">
                 <div class="fixed-header-container">
-                    <h1>
-                        <img id="section-icon" class="view-transition title-icon" src="../assets/icons/curriculum-icon.png" alt="Ícone Portfólio"">
-                        <span id="section-title" class="title-wrapper view-transition">Portfólio</span>
-                    </h1>
-                    <div class="decorative-line"></div>
+
+                    <div class="header-with-controls">
+
+                        <h1>
+                            <img id="section-icon" class="view-transition title-icon" src="../assets/icons/curriculum-icon.png" alt="Ícone Portfólio"">
+                            <span id="section-title" class="title-wrapper view-transition">Portfólio</span>
+                        </h1>
+
+                        <div id="view-mode-controls" class="view-mode-controls" aria-label="Modos de visualização">
+                            <button class="view-btn" data-view="block" aria-label="Visualização em bloco" onclick="trocarModo('block')">▣</button>
+                            <button class="view-btn" data-view="flow" aria-label="Visualização fluida" onclick="trocarModo('flow')">☷</button>
+                            <button class="view-btn" data-view="list" aria-label="Visualização em lista" onclick="trocarModo('list')">☰</button>
+                            <button class="view-btn" data-view="grid" aria-label="Visualização em grade" onclick="trocarModo('grid')">⊞</button>
+                        </div>
+                        
+                        <div class="decorative-line"></div>
+
+                    </div>
                 </div>
             </div>
     
