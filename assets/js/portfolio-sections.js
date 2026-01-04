@@ -29,7 +29,7 @@ const sections = {
 
       <p>
         Este espaço é um recorte vivo de uma jornada que continua — com propósito,
-        coerência e uma vontade permanente de aprender e transformar.
+        coerência e uma vontade permanente de aprender e transformar. BO$$
       </p>
     `
   },
