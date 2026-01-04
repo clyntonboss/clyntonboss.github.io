@@ -91,7 +91,6 @@ function animateViewTransition(callback) {
 
 function changeCategory(category) {
   animateViewTransition(() => {
-    clearSideMenuActive();
     updatePageIcon(category);
     updateSubtitle(category);
     renderCategory(category);
@@ -101,4 +100,28 @@ function changeCategory(category) {
 function clearSideMenuActive() {
   document.querySelectorAll(".side-menu a.active")
     .forEach(link => link.classList.remove("active"));
+}
+
+function loadCategoryDataset(src) {
+  // remove dataset anterior
+  const oldScript = document.getElementById("category-dataset");
+  if (oldScript) oldScript.remove();
+
+  // injeta o novo
+  const script = document.createElement("script");
+  script.src = src;
+  script.id = "category-dataset";
+  script.defer = true;
+
+  document.body.appendChild(script);
+}
+
+function openCategory(categoryKey) {
+  const category = categories[categoryKey];
+  if (!category) return;
+
+  clearSideMenuActive();          // regra já consolidada
+  updateCentralContainer();       // container base
+  loadCategoryDataset(category.dataset);
+  updateViewModeControls(category.showViewModes);
 }
