@@ -78,3 +78,11 @@ function animateViewTransition(callback) {
     elements.forEach(el => el.classList.add("is-active"));
   }, 400); // tempo do fade-out
 }
+
+function changeCategory(category) {
+  animateViewTransition(() => {
+    updatePageIcon(category);
+    updateSubtitle(category);
+    renderCategory(category);
+  });
+}
