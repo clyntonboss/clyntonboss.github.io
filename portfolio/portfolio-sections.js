@@ -1633,7 +1633,7 @@ const sections = {
       <div class="cert-links">
           <!--  Dados e Inteligência -->
           <a href="/portfolio/formacoes-complementares/analise-de-dados/">Análise de Dados</a>
-          <a href="#" data-section="bancoDados">Banco de Dados</a>
+          <a href="#" data-category="bancoDados">Banco de Dados</a>
           <a href="/portfolio/formacoes-complementares/big-data/">Big Data</a>
           <a href="/portfolio/formacoes-complementares/inteligencia-artificial/">Inteligência Artificial</a>
           <a href="/portfolio/formacoes-complementares/data-storytelling/">Data Storytelling</a>
