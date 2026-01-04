@@ -2,6 +2,7 @@ const categorias = {
   bancoDados: {
     title: "Formações Complementares | Banco de Dados",
     dataset: "/portfolio/formacoes-complementares/banco-de-dados/banco-de-dados-dataset.js",
+    showViewModes: true,
     content: `
       <div class="tech-subtitle">Esta seção apresenta formações complementares na área de Banco de Dados, organizadas por conclusão cronológica.<br>
                                  Os cursos listados abordam fundamentos, modelagem, consultas, administração e boas práticas no uso de sistemas de gerenciamento de dados.</div>
