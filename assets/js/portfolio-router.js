@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const iconEl = document.getElementById("section-icon");
   const contentEl = document.getElementById("section-content");
   const faviconEl = document.getElementById("page-favicon");
+  const viewModesEl = document.getElementById("view-mode-controls");
 
   const animatedElements = [iconEl, titleEl, contentEl];
 
@@ -51,6 +52,12 @@ document.addEventListener("DOMContentLoaded", () => {
         if (section.favicon) {
           faviconEl.href = section.favicon;
         }
+
+        if (section.showViewModes) {
+          viewModesEl.classList.add("is-visible");
+        } else {
+          viewModesEl.classList.remove("is-visible");
+        }
       });
 
       // Menu ativo
@@ -88,4 +95,9 @@ function changeCategory(category) {
     updateSubtitle(category);
     renderCategory(category);
   });
+}
+
+function clearSideMenuActive() {
+  document.querySelectorAll(".side-menu a.active")
+    .forEach(link => link.classList.remove("active"));
 }
