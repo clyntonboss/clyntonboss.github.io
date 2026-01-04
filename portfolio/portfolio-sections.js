@@ -2,7 +2,7 @@ const sections = {
 // ==== Perfil ====
   perfil: {
     pageTitle: "Perfil | Rogério Clynton Ribeiro",
-    favicon: "../assets/icons/perfil-favicon.png",
+    favicon: "/assets/icons/about-icon.png",
     title: "Perfil",
     icon: "/assets/icons/about-icon.png",
     content: `
@@ -44,7 +44,7 @@ const sections = {
 // ==== Propósito ====
   proposito: {
     pageTitle: "Propósito | Rogério Clynton Ribeiro",
-    favicon: "../assets/icons/objective-icon.png",
+    favicon: "/assets/icons/objective-icon.png",
     title: "Propósito",
     icon: "/assets/icons/objective-icon.png",
     content: `
