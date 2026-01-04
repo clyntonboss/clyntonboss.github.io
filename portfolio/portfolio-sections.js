@@ -1,5 +1,7 @@
 const sections = {
-// ==== Perfil ====
+
+// 🔹 ================ Perfil ================ 🔹
+
   perfil: {
     pageTitle: "Perfil | Rogério Clynton Ribeiro",
     favicon: "/assets/icons/about-icon.png",
@@ -41,7 +43,8 @@ const sections = {
     `
   },
 
-// ==== Propósito ====
+// 🔹 ============== Propósito =============== 🔹
+
   proposito: {
     pageTitle: "Propósito | Rogério Clynton Ribeiro",
     favicon: "/assets/icons/objective-icon.png",
@@ -92,7 +95,8 @@ const sections = {
     `
   },
 
-// ==== Formação Acadêmica ====
+// 🔹 ========== Formação Acadêmica ========== 🔹
+
   formacaoAcademica: {
     pageTitle: "Formação Acadêmica | Rogério Clynton Ribeiro",
     favicon: "/assets/icons/academic-background-icon.png",
@@ -209,7 +213,8 @@ const sections = {
     `
   },
 
-// ==== Competências Técnicas ====
+// 🔹 ======== Competências Técnicas ========= 🔹
+
   competenciasTecnicas: {
     pageTitle: "Competências Técnicas | Rogério Clynton Ribeiro",
     favicon: "/assets/icons/professionals-experiences-icon.png",
