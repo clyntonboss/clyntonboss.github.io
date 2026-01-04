@@ -3,7 +3,7 @@ const sections = {
     pageTitle: "Perfil | Rogério Clynton Ribeiro",
     favicon: "../assets/icons/perfil-favicon.png",
     title: "Perfil",
-    icon: "../assets/icons/perfil-icon.png",
+    icon: "/assets/icons/about-icon.png",
     content: `
       <p>
         Minha trajetória profissional, iniciada em 1998, sempre foi movida por uma convicção simples e poderosa:
