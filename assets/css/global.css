@@ -485,6 +485,7 @@ main {
   cursor: default;                   /* desabilita o clique */
   text-shadow: 0 0 8px rgba(248, 248, 248, 0.1); /* efeito "acende" igual ao nome no topo */
   transform: none;                   /* remove deslocamento do hover */
+  pointer-events: none;
 }
 
 /* Mantém efeito ao passar o mouse, mas sem deslocamento nem sublinhado */
@@ -493,7 +494,6 @@ main {
   color: var(--intro-text);                     /* mantém a cor do texto */
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* mesmo efeito "acende" */
   transform: none;                    /* sem movimentação */
-  pointer-events: none;
 }
 
 /* ==============================
