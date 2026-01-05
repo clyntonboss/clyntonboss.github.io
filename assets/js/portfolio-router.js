@@ -63,6 +63,35 @@ document.addEventListener("DOMContentLoaded", () => {
   animatedElements.forEach(el => el.classList.add("is-active"));
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("[data-category]").forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+
+      const categoryKey = link.dataset.category;
+      const category = categoriasFormacoesComplementares[categoryKey];
+      if (!category) return;
+
+      animateTransition(() => {
+        // título da aba
+        document.title = category.title;
+
+        // conteúdo central
+        document.getElementById("section-content").innerHTML = category.content;
+      });
+
+      // regra consolidada
+      clearSideMenuActive();
+
+      // dataset dinâmico
+      loadCategoryDataset(category.dataset);
+
+      // view modes
+      updateViewModeControls(category.showViewModes);
+    });
+  });
+});
+
 function animateViewTransition(callback) {
   const elements = document.querySelectorAll(".view-transition");
 
