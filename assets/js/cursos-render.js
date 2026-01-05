@@ -163,8 +163,6 @@ function renderBlocoCurso(index) {
     // 🔹 Finaliza transição (entrada)
     content.classList.remove("is-transitioning");
 
-    // 🔹 REATIVA NAVEGAÇÃO (essencial no DOM dinâmico)
-    inicializarNavegacaoBloco();
   }, 400);
 }
 
@@ -283,27 +281,41 @@ function renderGradeCursos(cursos) {
 
 // ⛔ =============== The End =============== ⛔
 
+let navegacaoBlocoInicializada = false;
+
 // ❎ ========== Listener do Bloco ========== ❎
 
 function inicializarNavegacaoBloco() {
-  document.getElementById("first-course")?.addEventListener("click", () => {
-    renderBlocoCurso(0);
+  if (navegacaoBlocoInicializada) return;
+  navegacaoBlocoInicializada = true;
+
+  const firstBtn = document.getElementById("first-course");
+  const prevBtn  = document.getElementById("prev-course");
+  const nextBtn  = document.getElementById("next-course");
+  const lastBtn  = document.getElementById("last-course");
+
+  firstBtn?.addEventListener("click", () => {
+    if (cursoAtualIndex > 0) {
+      renderBlocoCurso(0);
+    }
   });
 
-  document.getElementById("prev-course")?.addEventListener("click", () => {
+  prevBtn?.addEventListener("click", () => {
     if (cursoAtualIndex > 0) {
       renderBlocoCurso(cursoAtualIndex - 1);
     }
   });
 
-  document.getElementById("next-course")?.addEventListener("click", () => {
+  nextBtn?.addEventListener("click", () => {
     if (cursoAtualIndex < datasetCategoria.length - 1) {
       renderBlocoCurso(cursoAtualIndex + 1);
     }
   });
 
-  document.getElementById("last-course")?.addEventListener("click", () => {
-    renderBlocoCurso(datasetCategoria.length - 1);
+  lastBtn?.addEventListener("click", () => {
+    if (cursoAtualIndex < datasetCategoria.length - 1) {
+      renderBlocoCurso(datasetCategoria.length - 1);
+    }
   });
 }
 
