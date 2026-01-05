@@ -115,7 +115,11 @@ function renderBlocoCurso(index) {
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
         <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
         <p><strong>Código:</strong> ${curso.codigo}
-          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
+          ${
+            curso.mostrarCopiar
+              ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>`
+              : ""
+          }
         </p>
         <p>
           <strong>Verificação:</strong>
@@ -158,7 +162,10 @@ function renderBlocoCurso(index) {
 
     // 🔹 Finaliza transição (entrada)
     content.classList.remove("is-transitioning");
-  }, 200);
+
+    // 🔹 REATIVA NAVEGAÇÃO (essencial no DOM dinâmico)
+    inicializarNavegacaoBloco();
+  }, 400);
 }
 
 // ⛔ =============== The End =============== ⛔
