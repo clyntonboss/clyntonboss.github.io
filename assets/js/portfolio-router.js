@@ -86,6 +86,9 @@ animateViewTransition(() => {
   const contentEl = document.getElementById("section-content");
   if (contentEl) {
     contentEl.innerHTML = category.content;
+
+    // ⬇️ INICIALIZA EXPLICITAMENTE O BLOCK MODE
+    trocarModo("block");
   }
 });
 
