@@ -76,19 +76,21 @@ document.addEventListener("click", e => {
   if (!category) return;
 
   animateViewTransition(() => {
-    // título visível
+    // TÍTULO VISÍVEL DA PÁGINA
     const titleEl = document.getElementById("section-title");
-    if (titleEl) titleEl.textContent = category.title;
+    if (titleEl) {
+      titleEl.textContent = category.title;
+    }
   
-    // conteúdo central
+    // CONTEÚDO CENTRAL
     const contentEl = document.getElementById("section-content");
     if (contentEl) {
       contentEl.innerHTML = category.content;
+  
+      // ⬇️ INICIALIZA EXPLICITAMENTE O BLOCK MODE
+      trocarModo("block");
     }
   });
-  
-  // 👇 AQUI É O PONTO-CHAVE
-  ativarNavegacaoBloco();
 
   // regra consolidada
   clearSideMenuActive();
