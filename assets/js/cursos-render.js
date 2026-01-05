@@ -285,38 +285,37 @@ let navegacaoBlocoInicializada = false;
 
 // ❎ ========== Listener do Bloco ========== ❎
 
-function inicializarNavegacaoBloco() {
+function ativarNavegacaoBloco() {
   if (navegacaoBlocoInicializada) return;
-  navegacaoBlocoInicializada = true;
 
-  const firstBtn = document.getElementById("first-course");
-  const prevBtn  = document.getElementById("prev-course");
-  const nextBtn  = document.getElementById("next-course");
-  const lastBtn  = document.getElementById("last-course");
+  const first = document.getElementById("first-course");
+  const prev  = document.getElementById("prev-course");
+  const next  = document.getElementById("next-course");
+  const last  = document.getElementById("last-course");
 
-  firstBtn?.addEventListener("click", () => {
-    if (cursoAtualIndex > 0) {
-      renderBlocoCurso(0);
-    }
+  if (!first || !prev || !next || !last) return;
+
+  first.addEventListener("click", () => {
+    renderBlocoCurso(0);
   });
 
-  prevBtn?.addEventListener("click", () => {
+  prev.addEventListener("click", () => {
     if (cursoAtualIndex > 0) {
       renderBlocoCurso(cursoAtualIndex - 1);
     }
   });
 
-  nextBtn?.addEventListener("click", () => {
+  next.addEventListener("click", () => {
     if (cursoAtualIndex < datasetCategoria.length - 1) {
       renderBlocoCurso(cursoAtualIndex + 1);
     }
   });
 
-  lastBtn?.addEventListener("click", () => {
-    if (cursoAtualIndex < datasetCategoria.length - 1) {
-      renderBlocoCurso(datasetCategoria.length - 1);
-    }
+  last.addEventListener("click", () => {
+    renderBlocoCurso(datasetCategoria.length - 1);
   });
+
+  navegacaoBlocoInicializada = true;
 }
 
 // ⛔ =============== The End =============== ⛔
