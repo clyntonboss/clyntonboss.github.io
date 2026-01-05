@@ -20,12 +20,6 @@ function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
   atualizarBotoesDeVisualizacao(mode);
 
-    // 🔹 força scroll para o topo ANTES da transição
-    window.scrollTo({
-      top: 0,
-      behavior: "instant" // evita conflito com o fade
-    });
-
   // 🔹 pega o modo atualmente visível
   const current = document.querySelector(
     "#course-block:not(.hidden), #courses-flow:not(.hidden), #courses-container:not(.hidden), #courses-grid:not(.hidden)"
