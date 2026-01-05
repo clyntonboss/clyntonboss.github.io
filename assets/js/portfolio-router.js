@@ -63,30 +63,32 @@ document.addEventListener("DOMContentLoaded", () => {
   animatedElements.forEach(el => el.classList.add("is-active"));
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll("[data-category]").forEach(link => {
-    link.addEventListener("click", e => {
-      e.preventDefault();
+document.addEventListener("click", e => {
+  const link = e.target.closest("[data-category]");
+  if (!link) return;
 
-      const categoryKey = link.dataset.category;
-      const category = categoriasFormacoesComplementares[categoryKey];
-      if (!category) return;
+  e.preventDefault();
 
-      animateViewTransition(() => {
-        document.title = category.title;
-        document.getElementById("section-content").innerHTML = category.content;
-      });
+  const categoryKey = link.dataset.category;
+  const category = categoriasFormacoesComplementares[categoryKey];
+  if (!category) return;
 
-      // regra consolidada
-      clearSideMenuActive();
+  animateViewTransition(() => {
+    // título da aba
+    document.title = category.title;
 
-      // dataset dinâmico
-      loadCategoryDataset(category.dataset);
-
-      // view modes
-      updateViewModeControls(category.showViewModes);
-    });
+    // conteúdo central
+    document.getElementById("section-content").innerHTML = category.content;
   });
+
+  // regra consolidada
+  clearSideMenuActive();
+
+  // dataset dinâmico
+  loadCategoryDataset(category.dataset);
+
+  // view modes
+  updateViewModeControls(category.showViewModes);
 });
 
 function animateViewTransition(callback) {
