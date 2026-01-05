@@ -85,12 +85,17 @@ document.addEventListener("click", e => {
 
   // regra consolidada
   clearSideMenuActive();
-
-  // dataset dinâmico
-  loadCategoryDataset(category.dataset);
-
-  // view modes
+  
+  loadCategoryDataset(category.dataset, () => {
+    // 🔹 inicializa navegação do bloco
+    inicializarNavegacaoBloco();
+  
+    // 🔹 força modo inicial
+    setViewMode("block");
+  });
+  
   updateViewModeControls(category.showViewModes);
+
 });
 
 function animateViewTransition(callback) {
