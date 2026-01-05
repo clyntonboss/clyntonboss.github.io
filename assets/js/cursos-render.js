@@ -359,6 +359,9 @@ window.addEventListener("beforeunload", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+  // 🔹 Mantém a navegação funcionando
+  inicializarNavegacaoBloco();
+
   // 🔹 Detecta primeira entrada REAL na página (nova aba)
   const alreadyVisited = sessionStorage.getItem("coursesVisited");
 
