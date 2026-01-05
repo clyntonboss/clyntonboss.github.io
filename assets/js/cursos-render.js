@@ -126,12 +126,6 @@ function renderBlocoCurso(index) {
           }
         </p>
       </div>
-// 🔹 Finaliza transição (entrada)
-content.classList.remove("is-transitioning");
-
-// 🔹 REATIVA NAVEGAÇÃO (ESSENCIAL NA NOVA ARQUITETURA)
-inicializarNavegacaoBloco();
-
     `;
 
     // 🔹 Atualiza indicador (ex: 3 / 21)
