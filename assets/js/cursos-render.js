@@ -25,15 +25,36 @@ function setViewMode(mode) {
     "#course-block:not(.hidden), #courses-flow:not(.hidden), #courses-container:not(.hidden), #courses-grid:not(.hidden)"
   );
 
+  const aplicarModo = () => {
+    trocarModoInterno(mode);
+
+    // 🔑 GARANTIA DO BLOCK MODE
+    if (mode === "block") {
+      const savedIndex = parseInt(
+        localStorage.getItem("blockCourseIndex"),
+        10
+      );
+
+      const indexValido = Number.isInteger(savedIndex)
+        ? savedIndex
+        : 0;
+
+      renderBlocoCurso(indexValido);
+
+      // 🔹 ativa navegação APÓS o DOM existir
+      ativarNavegacaoBloco();
+    }
+  };
+
   // 🔹 fade-out do modo atual
   if (current) {
     current.classList.remove("is-active");
 
     setTimeout(() => {
-      trocarModoInterno(mode);
+      aplicarModo();
     }, 400); // mesmo tempo do CSS
   } else {
-    trocarModoInterno(mode);
+    aplicarModo();
   }
 }
 
