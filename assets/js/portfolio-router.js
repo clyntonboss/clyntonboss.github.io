@@ -75,13 +75,19 @@ document.addEventListener("click", e => {
   const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
 
-  animateViewTransition(() => {
-    // título da aba
-    document.title = category.title;
+animateViewTransition(() => {
+  // TÍTULO VISÍVEL DA PÁGINA
+  const titleEl = document.getElementById("section-title");
+  if (titleEl) {
+    titleEl.textContent = category.title;
+  }
 
-    // conteúdo central
-    document.getElementById("section-content").innerHTML = category.content;
-  });
+  // CONTEÚDO CENTRAL
+  const contentEl = document.getElementById("section-content");
+  if (contentEl) {
+    contentEl.innerHTML = category.content;
+  }
+});
 
   // regra consolidada
   clearSideMenuActive();
