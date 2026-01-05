@@ -25,36 +25,15 @@ function setViewMode(mode) {
     "#course-block:not(.hidden), #courses-flow:not(.hidden), #courses-container:not(.hidden), #courses-grid:not(.hidden)"
   );
 
-  const aplicarModo = () => {
-    trocarModoInterno(mode);
-
-    // 🔑 GARANTIA DO BLOCK MODE
-    if (mode === "block") {
-      const savedIndex = parseInt(
-        localStorage.getItem("blockCourseIndex"),
-        10
-      );
-
-      const indexValido = Number.isInteger(savedIndex)
-        ? savedIndex
-        : 0;
-
-      renderBlocoCurso(indexValido);
-
-      // 🔹 ativa navegação APÓS o DOM existir
-      ativarNavegacaoBloco();
-    }
-  };
-
   // 🔹 fade-out do modo atual
   if (current) {
     current.classList.remove("is-active");
 
     setTimeout(() => {
-      aplicarModo();
+      trocarModoInterno(mode);
     }, 400); // mesmo tempo do CSS
   } else {
-    aplicarModo();
+    trocarModoInterno(mode);
   }
 }
 
@@ -136,11 +115,7 @@ function renderBlocoCurso(index) {
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
         <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
         <p><strong>Código:</strong> ${curso.codigo}
-          ${
-            curso.mostrarCopiar
-              ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>`
-              : ""
-          }
+          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
         </p>
         <p>
           <strong>Verificação:</strong>
@@ -183,8 +158,7 @@ function renderBlocoCurso(index) {
 
     // 🔹 Finaliza transição (entrada)
     content.classList.remove("is-transitioning");
-
-  }, 400);
+  }, 200);
 }
 
 // ⛔ =============== The End =============== ⛔
@@ -302,41 +276,28 @@ function renderGradeCursos(cursos) {
 
 // ⛔ =============== The End =============== ⛔
 
-let navegacaoBlocoInicializada = false;
-
 // ❎ ========== Listener do Bloco ========== ❎
 
-function ativarNavegacaoBloco() {
-  if (navegacaoBlocoInicializada) return;
-
-  const first = document.getElementById("first-course");
-  const prev  = document.getElementById("prev-course");
-  const next  = document.getElementById("next-course");
-  const last  = document.getElementById("last-course");
-
-  if (!first || !prev || !next || !last) return;
-
-  first.addEventListener("click", () => {
+function inicializarNavegacaoBloco() {
+  document.getElementById("first-course")?.addEventListener("click", () => {
     renderBlocoCurso(0);
   });
 
-  prev.addEventListener("click", () => {
+  document.getElementById("prev-course")?.addEventListener("click", () => {
     if (cursoAtualIndex > 0) {
       renderBlocoCurso(cursoAtualIndex - 1);
     }
   });
 
-  next.addEventListener("click", () => {
+  document.getElementById("next-course")?.addEventListener("click", () => {
     if (cursoAtualIndex < datasetCategoria.length - 1) {
       renderBlocoCurso(cursoAtualIndex + 1);
     }
   });
 
-  last.addEventListener("click", () => {
+  document.getElementById("last-course")?.addEventListener("click", () => {
     renderBlocoCurso(datasetCategoria.length - 1);
   });
-
-  navegacaoBlocoInicializada = true;
 }
 
 // ⛔ =============== The End =============== ⛔
