@@ -72,11 +72,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const category = categoriasFormacoesComplementares[categoryKey];
       if (!category) return;
 
-      animateTransition(() => {
-        // título da aba
+      animateViewTransition(() => {
         document.title = category.title;
-
-        // conteúdo central
         document.getElementById("section-content").innerHTML = category.content;
       });
 
@@ -111,13 +108,6 @@ function animateViewTransition(callback) {
   }, 400); // tempo do fade-out
 }
 
-function changeCategory(category) {
-  animateViewTransition(() => {
-    updatePageIcon(category);
-    updateSubtitle(category);
-  });
-}
-
 function clearSideMenuActive() {
   document.querySelectorAll(".side-menu a.active")
     .forEach(link => link.classList.remove("active"));
@@ -135,16 +125,6 @@ function loadCategoryDataset(src) {
   script.defer = true;
 
   document.body.appendChild(script);
-}
-
-function openCategory(categoryKey) {
-  const category = categories[categoryKey];
-  if (!category) return;
-
-  clearSideMenuActive();          // regra já consolidada
-  updateCentralContainer();       // container base
-  loadCategoryDataset(category.dataset);
-  updateViewModeControls(category.showViewModes);
 }
 
 function updateViewModeControls(show) {
