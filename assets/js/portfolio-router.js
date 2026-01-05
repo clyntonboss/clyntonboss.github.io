@@ -115,7 +115,6 @@ function changeCategory(category) {
   animateViewTransition(() => {
     updatePageIcon(category);
     updateSubtitle(category);
-    renderCategory(category);
   });
 }
 
