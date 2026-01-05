@@ -75,22 +75,22 @@ document.addEventListener("click", e => {
   const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
 
-animateViewTransition(() => {
-  // TÍTULO VISÍVEL DA PÁGINA
-  const titleEl = document.getElementById("section-title");
-  if (titleEl) {
-    titleEl.textContent = category.title;
-  }
-
-  // CONTEÚDO CENTRAL
-  const contentEl = document.getElementById("section-content");
-  if (contentEl) {
-    contentEl.innerHTML = category.content;
-
-    // ⬇️ INICIALIZA EXPLICITAMENTE O BLOCK MODE
-    trocarModo("block");
-  }
-});
+  animateViewTransition(() => {
+    // TÍTULO VISÍVEL DA PÁGINA
+    const titleEl = document.getElementById("section-title");
+    if (titleEl) {
+      titleEl.textContent = category.title;
+    }
+  
+    // CONTEÚDO CENTRAL
+    const contentEl = document.getElementById("section-content");
+    if (contentEl) {
+      contentEl.innerHTML = category.content;
+  
+      // ⬇️ INICIALIZA EXPLICITAMENTE O BLOCK MODE
+      trocarModo("block");
+    }
+  });
 
   // regra consolidada
   clearSideMenuActive();
