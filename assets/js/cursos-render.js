@@ -278,27 +278,31 @@ function renderGradeCursos(cursos) {
 
 // ❎ ========== Listener do Bloco ========== ❎
 
-function inicializarNavegacaoBloco() {
-  document.getElementById("first-course")?.addEventListener("click", () => {
+document.addEventListener("click", (event) => {
+  const btn = event.target.closest(
+    "#first-course, #prev-course, #next-course, #last-course"
+  );
+  if (!btn) return;
+
+  if (btn.id === "first-course") {
     renderBlocoCurso(0);
-  });
+  }
 
-  document.getElementById("prev-course")?.addEventListener("click", () => {
-    if (cursoAtualIndex > 0) {
-      renderBlocoCurso(cursoAtualIndex - 1);
-    }
-  });
+  if (btn.id === "prev-course" && cursoAtualIndex > 0) {
+    renderBlocoCurso(cursoAtualIndex - 1);
+  }
 
-  document.getElementById("next-course")?.addEventListener("click", () => {
-    if (cursoAtualIndex < datasetCategoria.length - 1) {
-      renderBlocoCurso(cursoAtualIndex + 1);
-    }
-  });
+  if (
+    btn.id === "next-course" &&
+    cursoAtualIndex < datasetCategoria.length - 1
+  ) {
+    renderBlocoCurso(cursoAtualIndex + 1);
+  }
 
-  document.getElementById("last-course")?.addEventListener("click", () => {
+  if (btn.id === "last-course") {
     renderBlocoCurso(datasetCategoria.length - 1);
-  });
-}
+  }
+});
 
 // ⛔ =============== The End =============== ⛔
 
@@ -359,8 +363,6 @@ window.addEventListener("beforeunload", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  // 🔹 Mantém a navegação funcionando
-  inicializarNavegacaoBloco();
 
   // 🔹 Detecta primeira entrada REAL na página (nova aba)
   const alreadyVisited = sessionStorage.getItem("coursesVisited");
