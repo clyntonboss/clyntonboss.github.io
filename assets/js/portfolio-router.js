@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("click", e => {
       e.preventDefault();
 
+      updateViewModeControls(false);
+
       const key = link.dataset.section;
       const section = sections[key];
       if (!section) return;
