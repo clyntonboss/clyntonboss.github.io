@@ -1,4 +1,4 @@
-const datasetCategoria = [
+window.datasetCategoria = [
   {
     id: 1,
 
