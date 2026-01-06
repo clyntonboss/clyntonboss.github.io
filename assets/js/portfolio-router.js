@@ -5,21 +5,37 @@ document.addEventListener("DOMContentLoaded", () => {
   const contentEl = document.getElementById("section-content");
   const faviconEl = document.getElementById("page-favicon");
 
+  const header = document.getElementById("portfolio-header");
+
   const animatedElements = [iconEl, titleEl, contentEl];
 
   function animateTransition(updateCallback) {
-    // Fade-out
+    // 🔹 SAÍDA DIRECIONAL (subtítulo → ícone)
+    header?.classList.remove("portfolio-enter");
+    header?.classList.add("portfolio-exit");
+
+    // 🔹 Fade-out geral
     animatedElements.forEach(el => el.classList.remove("is-active"));
 
     setTimeout(() => {
+      // 🔹 prepara estado de entrada
+      header?.classList.remove("portfolio-exit");
+      header?.classList.add("portfolio-pre-enter");
+
+      // 🔁 troca ícone, subtítulo e conteúdo
       updateCallback();
 
-      // força reflow para garantir a animação
+      // 🔹 força reflow
+      header?.offsetHeight;
       animatedElements.forEach(el => el.offsetHeight);
 
-      // Fade-in
+      // 🔹 ENTRADA DIRECIONAL (ícone → subtítulo)
+      header?.classList.remove("portfolio-pre-enter");
+      header?.classList.add("portfolio-enter");
+
+      // 🔹 Fade-in geral
       animatedElements.forEach(el => el.classList.add("is-active"));
-    }, 400); // mesmo tempo do fade-out
+    }, 400); // mesmo tempo do exit
   }
 
   menuLinks.forEach(link => {
@@ -33,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!section) return;
 
       animateTransition(() => {
-        //Ícone do H1
+        // Ícone do H1
         iconEl.src = section.icon;
         iconEl.alt = `Ícone ${section.title}`;
 
@@ -61,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Ativa estado inicial
+  // Estado inicial
   animatedElements.forEach(el => el.classList.add("is-active"));
 });
 
