@@ -93,6 +93,9 @@ function renderBlocoCurso(index) {
   const curso = datasetCategoria[index];
   if (!curso) return;
 
+  // 🔒 1. Remove o bloco do layout ANTES de qualquer render
+  container.classList.add("hidden");
+
   // Atualiza índice global
   cursoAtualIndex = index;
 
@@ -101,7 +104,7 @@ function renderBlocoCurso(index) {
   content.classList.add("is-transitioning");
 
   setTimeout(() => {
-    // 🔹 Renderiza novo conteúdo
+    // 🔹 Renderiza novo conteúdo (ainda invisível)
     content.innerHTML = `
       <img 
         src="${curso.thumb}" 
@@ -133,7 +136,7 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
-    // 🔹 Atualiza indicador (ex: 3 / 21)
+    // 🔹 Atualiza indicador
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
       indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
@@ -145,28 +148,22 @@ function renderBlocoCurso(index) {
     const nextBtn  = document.getElementById("next-course");
     const lastBtn  = document.getElementById("last-course");
 
-    if (index === 0) {
-      firstBtn?.classList.add("disabled");
-      prevBtn?.classList.add("disabled");
-    } else {
-      firstBtn?.classList.remove("disabled");
-      prevBtn?.classList.remove("disabled");
-    }
+    firstBtn?.classList.toggle("disabled", index === 0);
+    prevBtn?.classList.toggle("disabled", index === 0);
+    nextBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
+    lastBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
 
-    if (index === datasetCategoria.length - 1) {
-      nextBtn?.classList.add("disabled");
-      lastBtn?.classList.add("disabled");
-    } else {
-      nextBtn?.classList.remove("disabled");
-      lastBtn?.classList.remove("disabled");
-    }
-
-    // 🔹 força reflow para garantir animação de entrada
+    // 🔹 força reflow do conteúdo
     content.offsetHeight;
 
-    // 🔹 entrada suave do conteúdo
-    content.classList.add("is-visible");
+    // 🔹 prepara entrada
     content.classList.remove("is-transitioning");
+    content.classList.add("is-visible");
+
+    // ✅ 2. Só agora o bloco volta ao layout
+    requestAnimationFrame(() => {
+      container.classList.remove("hidden");
+    });
 
   }, 400);
 }
