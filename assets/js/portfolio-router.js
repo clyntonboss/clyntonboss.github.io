@@ -10,27 +10,35 @@ document.addEventListener("DOMContentLoaded", () => {
   const animatedElements = [iconEl, titleEl, contentEl];
 
 function animateTransition(updateCallback) {
-  const header = document.getElementById("portfolio-title-group");
-  if (!header) return;
+  if (!titleGroup || !contentEl) return;
 
-  // 🔴 SAÍDA
-  header.classList.remove("portfolio-enter");
-  header.classList.add("portfolio-exit");
+  /* ───────── SAÍDA ───────── */
+
+  // slide do título
+  titleGroup.classList.remove("portfolio-enter");
+  titleGroup.classList.add("portfolio-exit");
+
+  // fade do conteúdo
+  contentEl.classList.remove("is-active");
 
   setTimeout(() => {
-    // prepara entrada
-    header.classList.remove("portfolio-exit");
-    header.classList.add("portfolio-pre-enter");
-
-    // 🔁 troca ícone e subtítulo
+    /* ─────── TROCA ─────── */
     updateCallback();
 
-    // força reflow
-    header.offsetHeight;
+    /* ─────── PREPARA ENTRADA ─────── */
+    titleGroup.classList.remove("portfolio-exit");
+    titleGroup.classList.add("portfolio-pre-enter");
+
+    contentEl.offsetHeight;
+    titleGroup.offsetHeight;
 
     requestAnimationFrame(() => {
-      header.classList.remove("portfolio-pre-enter");
-      header.classList.add("portfolio-enter");
+      // entrada do título
+      titleGroup.classList.remove("portfolio-pre-enter");
+      titleGroup.classList.add("portfolio-enter");
+
+      // fade-in do conteúdo
+      contentEl.classList.add("is-active");
     });
   }, 400);
 }
