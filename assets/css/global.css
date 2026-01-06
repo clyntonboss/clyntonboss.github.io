@@ -1246,8 +1246,8 @@ body.static-header .last-update {
 .portfolio-icon,
 .portfolio-subtitle {
   transition:
-    opacity 1.6s ease,
-    transform 1.6s ease;
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
 .portfolio-exit .portfolio-subtitle {
