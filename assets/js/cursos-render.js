@@ -168,7 +168,7 @@ function renderBlocoCurso(index) {
     content.classList.add("is-visible");
     content.classList.remove("is-transitioning");
 
-  }, 200);
+  }, 400);
 }
 
 // ⛔ =============== The End =============== ⛔
