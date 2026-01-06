@@ -109,7 +109,7 @@ document.addEventListener("click", e => {
   const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
 
-  animateTransition(() => {
+  animateViewTransition(() => {
     // TÍTULO VISÍVEL DA PÁGINA
     const titleEl = document.getElementById("section-title");
     if (titleEl) {
@@ -142,22 +142,52 @@ document.addEventListener("click", e => {
 });
 
 function animateViewTransition(callback) {
-  const elements = document.querySelectorAll(".view-transition");
+  const titleEl   = document.getElementById("section-title");
+  const contentEl = document.getElementById("section-content");
 
-  // Fade-out
-  elements.forEach(el => el.classList.remove("is-active"));
+  if (!titleEl || !contentEl) return;
+
+  /* =========================
+     SAÍDA
+  ========================= */
+
+  // título: animação direcional
+  titleEl.classList.remove("portfolio-enter");
+  titleEl.classList.add("portfolio-exit");
+
+  // conteúdo: fade-out
+  contentEl.classList.remove("is-active");
 
   setTimeout(() => {
+    /* =========================
+       TROCA DE CONTEÚDO
+    ========================= */
     if (typeof callback === "function") {
       callback();
     }
 
-    // força reflow antes do fade-in
-    elements.forEach(el => el.offsetHeight);
+    /* =========================
+       PREPARA ENTRADA
+    ========================= */
+    titleEl.classList.remove("portfolio-exit");
+    titleEl.classList.add("portfolio-pre-enter");
 
-    // Fade-in
-    elements.forEach(el => el.classList.add("is-active"));
-  }, 400); // tempo do fade-out
+    // força reflow
+    titleEl.offsetHeight;
+    contentEl.offsetHeight;
+
+    requestAnimationFrame(() => {
+      /* =========================
+         ENTRADA
+      ========================= */
+      titleEl.classList.remove("portfolio-pre-enter");
+      titleEl.classList.add("portfolio-enter");
+
+      // conteúdo: fade-in
+      contentEl.classList.add("is-active");
+    });
+
+  }, 400);
 }
 
 function clearSideMenuActive() {
