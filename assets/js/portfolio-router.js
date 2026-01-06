@@ -10,36 +10,49 @@ document.addEventListener("DOMContentLoaded", () => {
   const animatedElements = [iconEl, titleEl, contentEl];
 
 function animateTransition(updateCallback) {
+  const titleGroup = document.getElementById("portfolio-title-group");
+  const contentEl  = document.getElementById("section-content");
+
   if (!titleGroup || !contentEl) return;
 
-  /* ───────── SAÍDA ───────── */
+  /* =========================
+     SAÍDA
+  ========================= */
 
-  // slide do título
+  // título: saída direcional
   titleGroup.classList.remove("portfolio-enter");
   titleGroup.classList.add("portfolio-exit");
 
-  // fade do conteúdo
+  // conteúdo: fade-out
   contentEl.classList.remove("is-active");
 
   setTimeout(() => {
-    /* ─────── TROCA ─────── */
+    /* =========================
+       TROCA DE CONTEÚDO
+    ========================= */
     updateCallback();
 
-    /* ─────── PREPARA ENTRADA ─────── */
+    /* =========================
+       PREPARA ENTRADA
+    ========================= */
     titleGroup.classList.remove("portfolio-exit");
     titleGroup.classList.add("portfolio-pre-enter");
 
-    contentEl.offsetHeight;
+    // força reflow
     titleGroup.offsetHeight;
+    contentEl.offsetHeight;
 
     requestAnimationFrame(() => {
-      // entrada do título
+      /* =========================
+         ENTRADA
+      ========================= */
       titleGroup.classList.remove("portfolio-pre-enter");
       titleGroup.classList.add("portfolio-enter");
 
-      // fade-in do conteúdo
+      // conteúdo: fade-in
       contentEl.classList.add("is-active");
     });
+
   }, 400);
 }
 
