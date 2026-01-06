@@ -1179,6 +1179,10 @@ body.static-header .last-update {
   pointer-events: none;
 }
 
+#course-block {
+  min-height: 420px; /* ajuste fino se quiser */
+}
+
 /* Estilização do Modo Fluido */
 .courses-flow {
     margin: 0px;
