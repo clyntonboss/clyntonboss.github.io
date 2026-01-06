@@ -1120,7 +1120,7 @@ body.static-header .last-update {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 64px; /* reserva fixa dos botões */
+  bottom: 32px; /* reserva fixa dos botões */
 
   display: flex;
   flex-direction: column;
