@@ -1172,6 +1172,17 @@ body.static-header .last-update {
   pointer-events: none;
 }
 
+#course-block {
+  display: flex;
+  flex-direction: column;
+  min-height: 520px; /* ajuste fino conforme seu layout */
+}
+
+.course-block-footer {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
 /* Estilização do Modo Fluido */
 .courses-flow {
     margin: 0px;
