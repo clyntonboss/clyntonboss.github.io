@@ -6,7 +6,7 @@
 
 .view-mode-controls {
   display: none;
-  gap: 16px;
+  gap: 24px;
   opacity: 0;
   pointer-events: none;
 }
