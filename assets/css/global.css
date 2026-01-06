@@ -1124,10 +1124,6 @@ body.static-header .last-update {
 
   display: flex;
   flex-direction: column;
-
-  opacity: 0;
-  transform: translateY(6px);
-
   transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
@@ -1191,7 +1187,7 @@ body.static-header .last-update {
 
 #course-block {
   position: relative;
-  height: 560px; /* 🔒 altura fixa REAL */
+  height: 580px; /* 🔒 altura fixa REAL */
   overflow: hidden;
 }
 
