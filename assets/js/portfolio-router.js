@@ -109,7 +109,7 @@ document.addEventListener("click", e => {
   const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
 
-  animateViewTransition(() => {
+  animateTransition(() => {
     // TÍTULO VISÍVEL DA PÁGINA
     const titleEl = document.getElementById("section-title");
     if (titleEl) {
