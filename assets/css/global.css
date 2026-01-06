@@ -1279,3 +1279,11 @@ body.static-header .last-update {
   transform: translateX(0);
   transition-delay: 0.16s;
 }
+
+#section-title {
+  transition: opacity 0.4s ease;
+}
+
+#section-title.is-fading {
+  opacity: 0;
+}
