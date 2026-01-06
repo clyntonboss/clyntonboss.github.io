@@ -93,18 +93,14 @@ function renderBlocoCurso(index) {
   const curso = datasetCategoria[index];
   if (!curso) return;
 
-  // 🔒 1. Remove o bloco do layout ANTES de qualquer render
-  container.classList.add("hidden");
-
   // Atualiza índice global
   cursoAtualIndex = index;
 
-  // 🔹 prepara saída do conteúdo atual
-  content.classList.remove("is-visible");
+  // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
 
   setTimeout(() => {
-    // 🔹 Renderiza novo conteúdo (ainda invisível)
+    // 🔹 Renderiza novo conteúdo
     content.innerHTML = `
       <img 
         src="${curso.thumb}" 
@@ -119,11 +115,7 @@ function renderBlocoCurso(index) {
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
         <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
         <p><strong>Código:</strong> ${curso.codigo}
-          ${
-            curso.mostrarCopiar
-              ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>`
-              : ""
-          }
+          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
         </p>
         <p>
           <strong>Verificação:</strong>
@@ -136,7 +128,7 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
-    // 🔹 Atualiza indicador
+    // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
       indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
@@ -148,24 +140,25 @@ function renderBlocoCurso(index) {
     const nextBtn  = document.getElementById("next-course");
     const lastBtn  = document.getElementById("last-course");
 
-    firstBtn?.classList.toggle("disabled", index === 0);
-    prevBtn?.classList.toggle("disabled", index === 0);
-    nextBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
-    lastBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
+    if (index === 0) {
+      firstBtn?.classList.add("disabled");
+      prevBtn?.classList.add("disabled");
+    } else {
+      firstBtn?.classList.remove("disabled");
+      prevBtn?.classList.remove("disabled");
+    }
 
-    // 🔹 força reflow do conteúdo
-    content.offsetHeight;
+    if (index === datasetCategoria.length - 1) {
+      nextBtn?.classList.add("disabled");
+      lastBtn?.classList.add("disabled");
+    } else {
+      nextBtn?.classList.remove("disabled");
+      lastBtn?.classList.remove("disabled");
+    }
 
-    // 🔹 prepara entrada
+    // 🔹 Finaliza transição (entrada)
     content.classList.remove("is-transitioning");
-    content.classList.add("is-visible");
-
-    // ✅ 2. Só agora o bloco volta ao layout
-    requestAnimationFrame(() => {
-      container.classList.remove("hidden");
-    });
-
-  }, 400);
+  }, 200);
 }
 
 // ⛔ =============== The End =============== ⛔
