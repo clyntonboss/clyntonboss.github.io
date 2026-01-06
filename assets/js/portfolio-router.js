@@ -109,7 +109,7 @@ document.addEventListener("click", e => {
   const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
 
-  animateTransition(() => {
+  animateViewTransition(() => {
     // Ícone permanece o mesmo (se desejar mudar depois, é aqui)
     
     // Subtítulo com categoria
