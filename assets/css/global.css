@@ -1259,7 +1259,7 @@ body.static-header .last-update {
 .portfolio-exit .portfolio-icon {
   opacity: 0;
   transform: translateX(64px);
-  transition-delay: 0.32s;
+  transition-delay: 0.16s;
 }
 
 .portfolio-pre-enter .portfolio-icon,
@@ -1277,5 +1277,5 @@ body.static-header .last-update {
 .portfolio-enter .portfolio-subtitle {
   opacity: 1;
   transform: translateX(0);
-  transition-delay: 0.32s;
+  transition-delay: 0.16s;
 }
