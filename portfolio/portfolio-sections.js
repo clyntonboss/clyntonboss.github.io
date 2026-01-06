@@ -1636,7 +1636,7 @@ const sections = {
           <a href="#" data-category="bancoDados">Banco de Dados</a>
           <a href="/portfolio/formacoes-complementares/big-data/">Big Data</a>
           <a href="/portfolio/formacoes-complementares/inteligencia-artificial/">Inteligência Artificial</a>
-          <a href="/portfolio/formacoes-complementares/data-storytelling/">Data Storytelling</a>
+          <a href="#" data-category="dataStorytelling">Data Storytelling</a>
           
           <!-- Tecnologia e Fundamentos -->
           <a href="/portfolio/formacoes-complementares/cloud/">Cloud</a>
