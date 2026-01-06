@@ -10,11 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const animatedElements = [iconEl, titleEl, contentEl];
 
 function animateTransition(updateCallback) {
-  const header = document.querySelector(".header"); // ou #portfolio-header
-
+  const header = document.getElementById("portfolio-title-group");
   if (!header) return;
 
-  // 👉 SAÍDA
+  // 🔴 SAÍDA
   header.classList.remove("portfolio-enter");
   header.classList.add("portfolio-exit");
 
@@ -23,7 +22,7 @@ function animateTransition(updateCallback) {
     header.classList.remove("portfolio-exit");
     header.classList.add("portfolio-pre-enter");
 
-    // 🔁 troca ícone e subtítulo AQUI
+    // 🔁 troca ícone e subtítulo
     updateCallback();
 
     // força reflow
