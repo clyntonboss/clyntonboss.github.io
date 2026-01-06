@@ -1131,11 +1131,6 @@ body.static-header .last-update {
   transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
-.course-block-content.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* Estado de saída */
 .course-block-content.is-transitioning {
   opacity: 0;
@@ -1196,7 +1191,7 @@ body.static-header .last-update {
 
 #course-block {
   position: relative;
-  height: 520px; /* 🔒 altura fixa REAL */
+  height: 560px; /* 🔒 altura fixa REAL */
   overflow: hidden;
 }
 
