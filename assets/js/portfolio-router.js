@@ -110,31 +110,35 @@ document.addEventListener("click", e => {
   if (!category) return;
 
   animateViewTransition(() => {
-    // Ícone permanece o mesmo (se desejar mudar depois, é aqui)
-    
-    // Subtítulo com categoria
+    // TÍTULO VISÍVEL DA PÁGINA
     const titleEl = document.getElementById("section-title");
     if (titleEl) {
       titleEl.textContent = category.title;
     }
-
-    // Conteúdo central
+  
+    // CONTEÚDO CENTRAL
     const contentEl = document.getElementById("section-content");
     if (contentEl) {
       contentEl.innerHTML = category.content;
-
+  
+      // ⬇️ INICIALIZA EXPLICITAMENTE O BLOCK MODE
       trocarModo("block");
     }
   });
 
+  // regra consolidada
   clearSideMenuActive();
-
+  
   loadCategoryDataset(category.dataset, () => {
+    // 🔹 inicializa navegação do bloco
     inicializarNavegacaoBloco();
+  
+    // 🔹 força modo inicial
     setViewMode("block");
   });
-
+  
   updateViewModeControls(category.showViewModes);
+
 });
 
 function animateViewTransition(callback) {
