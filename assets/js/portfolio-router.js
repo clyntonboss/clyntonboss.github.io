@@ -9,34 +9,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const animatedElements = [iconEl, titleEl, contentEl];
 
-  function animateTransition(updateCallback) {
-    // 🔹 SAÍDA DIRECIONAL (subtítulo → ícone)
-    header?.classList.remove("portfolio-enter");
-    header?.classList.add("portfolio-exit");
+function animateTransition(updateCallback) {
+  const header = document.querySelector(".header"); // ou #portfolio-header
 
-    // 🔹 Fade-out geral
-    animatedElements.forEach(el => el.classList.remove("is-active"));
+  if (!header) return;
 
-    setTimeout(() => {
-      // 🔹 prepara estado de entrada
-      header?.classList.remove("portfolio-exit");
-      header?.classList.add("portfolio-pre-enter");
+  // 👉 SAÍDA
+  header.classList.remove("portfolio-enter");
+  header.classList.add("portfolio-exit");
 
-      // 🔁 troca ícone, subtítulo e conteúdo
-      updateCallback();
+  setTimeout(() => {
+    // prepara entrada
+    header.classList.remove("portfolio-exit");
+    header.classList.add("portfolio-pre-enter");
 
-      // 🔹 força reflow
-      header?.offsetHeight;
-      animatedElements.forEach(el => el.offsetHeight);
+    // 🔁 troca ícone e subtítulo AQUI
+    updateCallback();
 
-      // 🔹 ENTRADA DIRECIONAL (ícone → subtítulo)
-      header?.classList.remove("portfolio-pre-enter");
-      header?.classList.add("portfolio-enter");
+    // força reflow
+    header.offsetHeight;
 
-      // 🔹 Fade-in geral
-      animatedElements.forEach(el => el.classList.add("is-active"));
-    }, 400); // mesmo tempo do exit
-  }
+    requestAnimationFrame(() => {
+      header.classList.remove("portfolio-pre-enter");
+      header.classList.add("portfolio-enter");
+    });
+  }, 400);
+}
 
   menuLinks.forEach(link => {
     link.addEventListener("click", e => {
