@@ -1246,8 +1246,8 @@ body.static-header .last-update {
 .portfolio-icon,
 .portfolio-subtitle {
   transition:
-    opacity 0.8s ease,
-    transform 0.8s ease;
+    opacity 1.6s ease,
+    transform 1.6s ease;
 }
 
 .portfolio-exit .portfolio-subtitle {
@@ -1259,7 +1259,7 @@ body.static-header .last-update {
 .portfolio-exit .portfolio-icon {
   opacity: 0;
   transform: translateX(64px);
-  transition-delay: 0.16s;
+  transition-delay: 0.32s;
 }
 
 .portfolio-pre-enter .portfolio-icon,
@@ -1277,5 +1277,5 @@ body.static-header .last-update {
 .portfolio-enter .portfolio-subtitle {
   opacity: 1;
   transform: translateX(0);
-  transition-delay: 0.16s;
+  transition-delay: 0.32s;
 }
