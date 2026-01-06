@@ -1241,3 +1241,41 @@ body.static-header .last-update {
   margin-left: 8px;
   font-size: 1.2em;
 }
+
+/* Animação Ícone e Subtítulo */
+.portfolio-icon,
+.portfolio-subtitle {
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+}
+
+.portfolio-exit .portfolio-subtitle {
+  opacity: 0;
+  transform: translateX(24px);
+  transition-delay: 0s;
+}
+
+.portfolio-exit .portfolio-icon {
+  opacity: 0;
+  transform: translateX(24px);
+  transition-delay: 0.12s;
+}
+
+.portfolio-pre-enter .portfolio-icon,
+.portfolio-pre-enter .portfolio-subtitle {
+  opacity: 0;
+  transform: translateX(24px);
+}
+
+.portfolio-enter .portfolio-icon {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+.portfolio-enter .portfolio-subtitle {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.12s;
+}
