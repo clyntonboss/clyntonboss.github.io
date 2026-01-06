@@ -1108,7 +1108,14 @@ body.static-header .last-update {
 
 /* Estilização do Modo Bloco */
 .course-block {
-  margin-top: 0px;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.course-block.is-active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .course-block p {
