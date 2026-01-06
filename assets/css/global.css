@@ -1151,7 +1151,7 @@ body.static-header .last-update {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 8px;
   margin-top: 32px;
   font-size: 1rem;
 
@@ -1187,7 +1187,7 @@ body.static-header .last-update {
 
 #course-block {
   position: relative;
-  height: 520px; /* 🔒 altura fixa REAL */
+  height: 560px; /* 🔒 altura fixa REAL */
   overflow: hidden;
 }
 
