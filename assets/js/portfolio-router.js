@@ -60,6 +60,27 @@ function animateTransition(updateCallback) {
     link.addEventListener("click", e => {
       e.preventDefault();
 
+      const key = link.dataset.section;
+
+      // 🟡 CASO ESPECIAL: voltar de categoria para Formações Complementares
+      if (key === "formacoesComplementares") {
+        const titleEl = document.getElementById("section-title");
+        const categoryEl = titleEl?.querySelector(".category-suffix");
+
+        if (categoryEl) {
+          // remove apenas a categoria (sem animação de seção)
+          categoryEl.remove();
+
+          // garante estado visual correto
+          titleEl.classList.remove("has-category");
+
+          // atualiza título da aba
+          document.title = sections.formacoesComplementares.pageTitle;
+
+          return; // ⛔ impede animateTransition
+        }
+      }
+
       // 🔴 LIMPA ESTADO DE CURSO AO TROCAR DE SEÇÃO
       localStorage.removeItem("blockCourseIndex");
 
