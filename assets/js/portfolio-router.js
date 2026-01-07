@@ -60,6 +60,9 @@ function animateTransition(updateCallback) {
     link.addEventListener("click", e => {
       e.preventDefault();
 
+      // 🔴 LIMPA ESTADO DE CURSO AO TROCAR DE SEÇÃO
+      localStorage.removeItem("blockCourseIndex");
+
       updateViewModeControls(false);
 
       const key = link.dataset.section;
