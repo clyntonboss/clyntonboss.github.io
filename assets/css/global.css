@@ -1287,3 +1287,11 @@ body.static-header .last-update {
 #section-title.is-fading {
   opacity: 0;
 }
+
+.category-fade {
+  transition: opacity 0.4s ease;
+}
+
+.category-fade.is-fading {
+  opacity: 0;
+}
