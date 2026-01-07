@@ -1,3 +1,10 @@
+/* =========================
+   ESTADO GLOBAL DE NAVEGAÇÃO
+========================= */
+
+let isCategoryViewActive = false;
+let currentSectionKey = null;
+
 document.addEventListener("DOMContentLoaded", () => {
   let currentSectionKey = null;
   let isCategoryViewActive = false;
