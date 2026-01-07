@@ -184,23 +184,12 @@ function loadCategoryDataset(src, callback) {
 }
 
 function updateViewModeControls(show) {
-  const viewModesEl = document.getElementById("view-mode-controls");
-  if (!viewModesEl) return;
+  const el = document.getElementById("view-mode-controls");
+  if (!el) return;
 
   if (show) {
-    // garante estado inicial invisível
-    viewModesEl.classList.remove("is-visible");
-
-    // força reflow
-    viewModesEl.offsetHeight;
-
-    // ativa fade-in no próximo frame
-    requestAnimationFrame(() => {
-      viewModesEl.classList.add("is-visible");
-    });
-
+    el.classList.add("is-visible");
   } else {
-    // fade-out normal
-    viewModesEl.classList.remove("is-visible");
+    el.classList.remove("is-visible");
   }
 }
