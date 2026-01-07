@@ -6,9 +6,6 @@ let isCategoryViewActive = false;
 let currentSectionKey = null;
 
 document.addEventListener("DOMContentLoaded", () => {
-  let currentSectionKey = null;
-  let isCategoryViewActive = false;
-
   const menuLinks = document.querySelectorAll("[data-section]");
   const titleEl = document.getElementById("section-title");
   const iconEl = document.getElementById("section-icon");
@@ -99,10 +96,6 @@ function animateTransition(updateCallback) {
       localStorage.removeItem("blockCourseIndex");
 
       updateViewModeControls(false);
-
-      const key = link.dataset.section;
-      const section = sections[key];
-      if (!section) return;
 
       animateTransition(() => {
         // Ícone do H1
