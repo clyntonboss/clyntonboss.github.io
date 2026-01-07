@@ -1,6 +1,6 @@
 const categoriasFormacoesComplementares = {
   bancoDados: {
-    title: "Formações Complementares | Banco de Dados",
+    title: "Banco de Dados",
     dataset: "/portfolio/formacoes-complementares/banco-de-dados/banco-de-dados-dataset.js",
     showViewModes: true,
     content: `
@@ -52,7 +52,7 @@ const categoriasFormacoesComplementares = {
   },
 
   dataStorytelling: {
-    title: "Formações Complementares | Data Storytelling",
+    title: "Data Storytelling",
     dataset: "/portfolio/formacoes-complementares/data-storytelling/data-storytelling-dataset.js",
     showViewModes: true,
     content: `
