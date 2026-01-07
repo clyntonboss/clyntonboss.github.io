@@ -110,10 +110,16 @@ document.addEventListener("click", e => {
   if (!category) return;
 
   animateViewTransition(() => {
-    // TÍTULO VISÍVEL DA PÁGINA
+    // TÍTULO VISÍVEL DA PÁGINA (fade simples independente)
     const titleEl = document.getElementById("section-title");
+    
     if (titleEl) {
-      titleEl.textContent = category.title;
+      titleEl.classList.add("is-fading");
+    
+      setTimeout(() => {
+        titleEl.textContent = category.title;
+        titleEl.classList.remove("is-fading");
+      }, 400);
     }
   
     // CONTEÚDO CENTRAL
