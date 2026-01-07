@@ -1282,11 +1282,13 @@ body.static-header .last-update {
 
 .view-mode-controls {
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
   transition: opacity 0.4s ease;
 }
 
 .view-mode-controls.is-visible {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
