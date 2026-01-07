@@ -114,11 +114,11 @@ document.addEventListener("click", e => {
     const titleEl = document.getElementById("section-title");
     
     if (titleEl) {
-      titleEl.classList.add("is-fading");
+      titleEl.classList.add("category-fade", "is-fading");
     
       setTimeout(() => {
         titleEl.textContent = category.title;
-        titleEl.classList.remove("is-fading");
+        titleEl.classList.remove("is-fading", "category-fade");
       }, 400);
     }
   
