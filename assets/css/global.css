@@ -1287,3 +1287,27 @@ body.static-header .last-update {
 .category-fade.is-fading {
   opacity: 0;
 }
+
+/* Categoria Subtítulo */
+.title-category {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.title-category.is-fading {
+  opacity: 0;
+}
+
+.title-category.hidden {
+  display: none;
+}
+
+.title-category .pipe {
+  color: #999; /* cinza elegante */
+  margin: 0 4px;
+}
+
+.title-category .category-name {
+  color: #6fb3ff; /* destaque suave */
+  font-weight: 500;
+}
