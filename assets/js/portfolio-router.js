@@ -70,39 +70,9 @@ function animateTransition(updateCallback) {
       const key = link.dataset.section;
       const section = sections[key];
       if (!section) return;
-      
-      // 🧠 CASO ESPECIAL: voltar para Formações Complementares a partir de categoria
-      if (key === "formacoesComplementares" && categoriaAtiva) {
-        categoriaAtiva = false;
-      
-        // remove apenas a categoria do subtítulo
-        const baseTitle = titleEl.querySelector(".title-base");
-        const categoryBox = titleEl.querySelector(".title-category");
-        const categoryName = titleEl.querySelector(".category-name");
-      
-        if (baseTitle) {
-          baseTitle.textContent = section.title;
-        }
-      
-        if (categoryBox && categoryName) {
-          categoryBox.classList.add("hidden");
-          categoryName.textContent = "";
-        }
-      
-        // troca somente o conteúdo
-        contentEl.innerHTML = section.content;
-        initToggle();
-      
-        document.title = section.pageTitle;
-        if (section.favicon) faviconEl.href = section.favicon;
-      
-        // menu ativo
-        menuLinks.forEach(l => l.classList.remove("active"));
-        link.classList.add("active");
-      
-        return; // 🚨 NÃO executa animateTransition
-      }
 
+      categoriaAtiva = false
+      
       animateTransition(() => {
         // Ícone do H1
         iconEl.src = section.icon;
