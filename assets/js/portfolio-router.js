@@ -85,9 +85,16 @@ function animateTransition(updateCallback) {
       
         setTimeout(() => {
           categoriaAtiva = false;
-          renderizarSecao("formacoesComplementares");
-        }, 400); // mesmo tempo do CSS
-        
+      
+          const targetLink = document.querySelector(
+            '[data-section="formacoesComplementares"]'
+          );
+      
+          if (targetLink) {
+            targetLink.click();
+          }
+        }, 400); // mesmo tempo da transição
+      
         return;
       }
 
