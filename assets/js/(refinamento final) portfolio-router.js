@@ -86,7 +86,7 @@ function animateTransition(updateCallback) {
         setTimeout(() => {
           categoriaAtiva = false;
           renderizarSecao("formacoesComplementares");
-        }, 300); // mesmo tempo do CSS
+        }, 400); // mesmo tempo do CSS
         
         return;
       }
