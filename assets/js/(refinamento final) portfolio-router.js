@@ -81,15 +81,6 @@ function animateTransition(updateCallback) {
         categoriaAtiva &&
         secaoAnterior === "formacoesComplementares"
       ) {
-        ativarTransicao(containerPrincipal);
-      
-        setTimeout(() => {
-          categoriaAtiva = false;
-          renderizarSecao("formacoesComplementares");
-        }, 400); // mesmo tempo do CSS
-        
-        return;
-      }
 
       // 🔧 restaura ícone da seção
       iconEl.src = section.icon;
