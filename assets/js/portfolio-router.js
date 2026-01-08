@@ -81,7 +81,6 @@ function animateTransition(updateCallback) {
         categoriaAtiva &&
         secaoAnterior === "formacoesComplementares"
       ) {
-        ativarTransicao(containerPrincipal);
         categoriaAtiva = false;
       }
 
