@@ -80,7 +80,7 @@ function animateTransition(updateCallback) {
         key === "formacoesComplementares" &&
         categoriaAtiva &&
         secaoAnterior === "formacoesComplementares"
-      )
+      ) {
 
       // 🔧 restaura ícone da seção
       iconEl.src = section.icon;
