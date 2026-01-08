@@ -1,3 +1,5 @@
+let categoriaAtiva = false;
+
 document.addEventListener("DOMContentLoaded", () => {
   const menuLinks = document.querySelectorAll("[data-section]");
   const titleEl = document.getElementById("section-title");
@@ -68,6 +70,38 @@ function animateTransition(updateCallback) {
       const key = link.dataset.section;
       const section = sections[key];
       if (!section) return;
+      
+      // 🧠 CASO ESPECIAL: voltar para Formações Complementares a partir de categoria
+      if (key === "formacoesComplementares" && categoriaAtiva) {
+        categoriaAtiva = false;
+      
+        // remove apenas a categoria do subtítulo
+        const baseTitle = titleEl.querySelector(".title-base");
+        const categoryBox = titleEl.querySelector(".title-category");
+        const categoryName = titleEl.querySelector(".category-name");
+      
+        if (baseTitle) {
+          baseTitle.textContent = section.title;
+        }
+      
+        if (categoryBox && categoryName) {
+          categoryBox.classList.add("hidden");
+          categoryName.textContent = "";
+        }
+      
+        // troca somente o conteúdo
+        contentEl.innerHTML = section.content;
+        initToggle();
+      
+        document.title = section.pageTitle;
+        if (section.favicon) faviconEl.href = section.favicon;
+      
+        // menu ativo
+        menuLinks.forEach(l => l.classList.remove("active"));
+        link.classList.add("active");
+      
+        return; // 🚨 NÃO executa animateTransition
+      }
 
       animateTransition(() => {
         // Ícone do H1
@@ -122,6 +156,8 @@ document.addEventListener("click", e => {
   const categoryKey = link.dataset.category;
   const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
+
+  categoriaAtiva = true;
 
   animateViewTransition(() => {
     // SUBTÍTULO — acrescenta apenas a categoria
