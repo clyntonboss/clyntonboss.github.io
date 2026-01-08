@@ -1,4 +1,5 @@
 let categoriaAtiva = false;
+let secaoAtiva = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   const menuLinks = document.querySelectorAll("[data-section]");
@@ -70,10 +71,16 @@ function animateTransition(updateCallback) {
       const key = link.dataset.section;
       const section = sections[key];
       if (!section) return;
+
+      const secaoAnterior = secaoAtiva;
+      secaoAtiva = key;
       
       // 🧠 CASO ESPECIAL: voltar para Formações Complementares a partir de categoria
-      if (key === "formacoesComplementares" && categoriaAtiva) {
-        categoriaAtiva = false;
+      if (
+        key === "formacoesComplementares" &&
+        categoriaAtiva &&
+        secaoAnterior === "formacoesComplementares"
+      ) {
 
       // 🔧 restaura ícone da seção
       iconEl.src = section.icon;
