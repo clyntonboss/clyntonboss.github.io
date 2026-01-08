@@ -1,5 +1,4 @@
 let categoriaAtiva = false;
-let isInCategory = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   const menuLinks = document.querySelectorAll("[data-section]");
@@ -66,59 +65,29 @@ function animateTransition(updateCallback) {
       // 🔴 LIMPA ESTADO DE CURSO AO TROCAR DE SEÇÃO
       localStorage.removeItem("blockCourseIndex");
 
-      // 🔹 SAINDO DE CATEGORIA (qualquer seção)
-      isInCategory = false;
-
       updateViewModeControls(false);
 
       const key = link.dataset.section;
       const section = sections[key];
       if (!section) return;
-
-      const isFormacoes = key === "formacoesComplementares";
-      
-      if (isFormacoes && isInCategory) {
-        // 🔹 VOLTANDO DE UMA CATEGORIA
-        isInCategory = false;
-      
-        animateTransition(() => {
-          // Ícone do H1
-          iconEl.src = section.icon;
-          iconEl.alt = `Ícone ${section.title}`;
-      
-          // Subtítulo base
-          const baseTitle = titleEl.querySelector(".title-base");
-          const categoryBox = titleEl.querySelector(".title-category");
-          const categoryName = titleEl.querySelector(".category-name");
-      
-          if (baseTitle) {
-            baseTitle.textContent = section.title;
-          }
-      
-          if (categoryBox && categoryName) {
-            categoryBox.classList.add("hidden");
-            categoryName.textContent = "";
-          }
-      
-          // Conteúdo
-          contentEl.innerHTML = section.content;
-      
-          initToggle();
-      
-          document.title = section.pageTitle;
-      
-          if (section.favicon) {
-            faviconEl.href = section.favicon;
-          }
-        });
-      
-        // ⛔ interrompe execução normal
-        return;
-      }
       
       // 🧠 CASO ESPECIAL: voltar para Formações Complementares a partir de categoria
       if (key === "formacoesComplementares" && categoriaAtiva) {
         categoriaAtiva = false;
+
+      // 🔧 restaura ícone da seção
+      iconEl.src = section.icon;
+      iconEl.alt = `Ícone ${section.title}`;
+      
+      // 🔧 garante estado visual consistente
+      const titleGroup = document.getElementById("portfolio-title-group");
+      if (titleGroup) {
+        titleGroup.classList.remove(
+          "portfolio-exit",
+          "portfolio-pre-enter"
+        );
+        titleGroup.classList.add("portfolio-enter");
+      }
       
         // remove apenas a categoria do subtítulo
         const baseTitle = titleEl.querySelector(".title-base");
@@ -197,9 +166,6 @@ document.addEventListener("click", e => {
   if (!link) return;
 
   e.preventDefault();
-
-  // 🔹 MARCA QUE ESTAMOS EM UMA CATEGORIA
-  isInCategory = true;
 
   const categoryKey = link.dataset.category;
   const category = categoriasFormacoesComplementares[categoryKey];
