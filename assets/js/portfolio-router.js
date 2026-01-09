@@ -66,7 +66,9 @@ function animateTransition(updateCallback) {
       // 🔴 LIMPA ESTADO DE CURSO AO TROCAR DE SEÇÃO
       localStorage.removeItem("blockCourseIndex");
 
-      updateViewModeControls(false);
+      animarSaidaViewModes(() => {
+        updateViewModeControls(false);
+      });
 
       const key = link.dataset.section;
       const section = sections[key];
@@ -255,7 +257,10 @@ document.addEventListener("click", e => {
     setViewMode("block");
   });
   
-  updateViewModeControls(category.showViewModes);
+  if (category.showViewModes) {
+    updateViewModeControls(true);
+    animarEntradaViewModes();
+  }
 
 });
 
@@ -310,4 +315,43 @@ function updateViewModeControls(show) {
   } else {
     viewModesEl.classList.remove("is-visible");
   }
+}
+
+const VIEW_MODE_DELAY = 90; // delay entre ícones (ms)
+
+function animarEntradaViewModes() {
+  const buttons = document.querySelectorAll(
+    "#view-mode-controls .view-btn"
+  );
+
+  buttons.forEach((btn, index) => {
+    btn.classList.remove("vm-exit");
+
+    setTimeout(() => {
+      btn.classList.add("vm-enter");
+    }, index * VIEW_MODE_DELAY);
+  });
+}
+
+function animarSaidaViewModes(callback) {
+  const buttons = document.querySelectorAll(
+    "#view-mode-controls .view-btn"
+  );
+
+  buttons.forEach((btn, index) => {
+    setTimeout(() => {
+      btn.classList.remove("vm-enter");
+      btn.classList.add("vm-exit");
+    }, index * VIEW_MODE_DELAY);
+  });
+
+  // Executa callback após o último botão sair
+  const totalTime =
+    buttons.length * VIEW_MODE_DELAY + 350;
+
+  setTimeout(() => {
+    if (typeof callback === "function") {
+      callback();
+    }
+  }, totalTime);
 }
