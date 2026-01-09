@@ -1346,3 +1346,30 @@ body.static-header .last-update {
   transition: opacity 0.4s ease, transform 0.4s ease;
   transition-delay: 0.16s;
 }
+
+/* ===============================
+   VIEW MODE ICONS – ANIMAÇÃO
+================================ */
+
+.view-btn {
+  opacity: 0;
+  transform: translateX(-8px);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+  pointer-events: none;
+}
+
+/* ENTRADA */
+.view-btn.vm-enter {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+/* SAÍDA */
+.view-btn.vm-exit {
+  opacity: 0;
+  transform: translateX(-8px);
+  pointer-events: none;
+}
