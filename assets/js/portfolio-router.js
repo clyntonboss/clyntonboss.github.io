@@ -81,22 +81,6 @@ function animateTransition(updateCallback) {
         categoriaAtiva &&
         secaoAnterior === "formacoesComplementares"
       ) {
-        ativarTransicao(containerPrincipal);
-      
-        setTimeout(() => {
-          categoriaAtiva = false;
-      
-          const targetLink = document.querySelector(
-            '[data-section="formacoesComplementares"]'
-          );
-      
-          if (targetLink) {
-            targetLink.click();
-          }
-        }, 400); // mesmo tempo da transição
-      
-        return;
-      }
 
       // 🔧 restaura ícone da seção
       iconEl.src = section.icon;
