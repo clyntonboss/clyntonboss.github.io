@@ -110,6 +110,11 @@ function animateTransition(updateCallback) {
           categoryBox.classList.add("hidden");
           categoryName.textContent = "";
         }
+
+        if (categoryBox) {
+          categoryBox.classList.remove("category-enter");
+          categoryBox.classList.add("category-exit");
+        }
       
         // troca somente o conteúdo
         setTimeout(() => {
@@ -121,6 +126,12 @@ function animateTransition(updateCallback) {
         
           // fade-in
           contentEl.classList.add("is-active");
+
+          if (categoryBox && categoryName) {
+            categoryBox.classList.add("hidden");
+            categoryBox.classList.remove("category-exit");
+            categoryName.textContent = "";
+          }
         }, 400);
       
         document.title = section.pageTitle;
@@ -204,7 +215,13 @@ document.addEventListener("click", e => {
     
       if (categoryBox && categoryName) {
         categoryName.textContent = category.title;
-        categoryBox.classList.remove("hidden");
+      
+        categoryBox.classList.remove("hidden", "category-exit");
+      
+        // força estado inicial fora da tela
+        categoryBox.offsetHeight;
+      
+        categoryBox.classList.add("category-enter");
       }
     }
   
