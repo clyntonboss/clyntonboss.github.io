@@ -347,7 +347,7 @@ function animarSaidaViewModes(callback) {
 
   // Executa callback após o último botão sair
   const totalTime =
-    buttons.length * VIEW_MODE_DELAY + 350;
+    buttons.length * VIEW_MODE_DELAY + 400;
 
   setTimeout(() => {
     if (typeof callback === "function") {
