@@ -1292,7 +1292,7 @@ body.static-header .last-update {
 .title-category {
   display: inline-flex;
   align-items: center;
-  margin-left: 6px;
+  margin-left: 8px;
 }
 
 .title-category.is-fading {
