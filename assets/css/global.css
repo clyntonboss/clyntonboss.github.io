@@ -1353,10 +1353,10 @@ body.static-header .last-update {
 
 .view-btn {
   opacity: 0;
-  transform: translateX(-8px);
+  transform: translateX(-32px);
   transition:
-    opacity 0.35s ease,
-    transform 0.35s ease;
+    opacity 0.4s ease,
+    transform 0.4s ease;
   pointer-events: none;
 }
 
@@ -1370,6 +1370,6 @@ body.static-header .last-update {
 /* SAÍDA */
 .view-btn.vm-exit {
   opacity: 0;
-  transform: translateX(-8px);
+  transform: translateX(-32px);
   pointer-events: none;
 }
