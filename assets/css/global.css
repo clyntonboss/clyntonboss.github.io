@@ -1,0 +1,1348 @@
+/* ==============================
+   global.css — versão refinada com tons neutros
+   ============================== */
+
+/* Declaração da Escalabilidade Font Size */
+html {
+  font-size: 100%;
+}
+
+/* Reset e tipografia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color-page); /* fundo principal suavizado */
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+/* Cabeçalho fixo */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: var(--bg-color-header); /* azul-petróleo elegante */
+  color: #e6e6e6; /* cinza claro */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  z-index: 1000;
+  box-shadow: var(--box-shadow-header);
+}
+
+.header-left {
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #e6e6e6;
+  display: flex;
+  align-items: center; /* centraliza verticalmente a foto com o nome */
+  gap: 12px;           /* espaço entre foto e texto */
+}
+
+.header-left:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  cursor: default;
+}
+
+.header-left .last-update {
+  font-size: 0.7rem;          /* menor que o nome */
+  color: var(--header-name);             /* tom discreto */
+  font-weight: 400;
+  margin-top: 4px;            /* espaço entre o nome e a data */
+  line-height: 1.2;
+}
+
+.last-update {
+   font-size: 0.7rem;
+   color: var(--header-name);
+   font-weight: 400;
+   margin-top: 2px;
+   opacity: 0;
+   transform: translateX(80px); /* começa deslocado para a direita */
+   transition: opacity 1.2s ease, transform 1.2s ease; /* duração maior e easing suave */
+}
+
+.last-update.visible {
+  opacity: 1;
+  transform: translateX(0); /* termina na posição original */
+}
+
+.header-right a {
+  position: relative;
+  margin-left: 25px;
+  text-decoration: none;
+  color: #e6e6e6;
+  transition: color 0.3s ease, transform 0.2s ease;
+  padding-bottom: 4px; /* espaço pra linha */
+}
+
+.header-right a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #aad4ff; /* mesma cor do hover */
+  transition: width 0.3s ease;
+}
+
+.header-right a:hover {
+  color: #aad4ff;
+  transform: translateY(-2px);
+}
+
+.header-right a:hover::after {
+  width: 100%;
+}
+
+.header-photo {
+  width: 70px;            /* altura do cabeçalho = 80px, então 50px fica proporcional */
+  height: 70px;
+  border-radius: 50%;     /* deixa a foto redonda */
+  object-fit: cover;      /* mantém proporção sem distorcer */
+  margin-right: 12px;     /* espaço entre a foto e o nome */
+  vertical-align: middle;
+  opacity: 0;
+  transform: translateX(40px); /* começa deslocado para a direita */
+  transition: opacity 1.2s ease, transform 1.2s ease; /* duração maior e easing suave */
+}
+
+.header-photo.visible {
+  opacity: 1;
+  transform: translateX(0); /* termina na posição original */
+}
+
+.header-name-date {
+  display: flex;
+  flex-direction: column; /* nome em cima, data embaixo */
+  line-height: 1.2;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;  /* nome em cima, data embaixo */
+}
+
+.header-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var-(--header-name);
+  opacity: 0;                 /* começa invisível */
+  transform: translateX(160px); /* começa fora da tela à direita */
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.header-name.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.header-name a {
+  color: inherit;           /* mantém a cor definida no .header-name */
+  text-decoration: none;    /* remove sublinhado */
+  font-weight: inherit;     /* mantém a mesma espessura da fonte */
+}
+
+.header-name a:hover {
+  text-decoration: none; /* opcional: efeito ao passar o mouse */
+  color: inherit;          /* mantém a cor original ao passar o mouse */
+}
+
+/* Área principal */
+main {
+  flex: 1;
+  padding: 90px 20px 100px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1302px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main-section h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #264653;
+  margin-bottom: 0.5rem;
+  max-width: 1302px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.title-icon {
+  width: 32px;
+  height: 32px;
+  opacity: 0.85;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.title-icon:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.main-section .title-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.main-section p {
+  font-size: 1.05rem;
+  color: var(--text-color);
+}
+
+/* Rodapé fixo */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: var(--bg-color-footer);
+  color: var(--header-name);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 0.95rem;
+  z-index: 1000;
+  box-shadow: var(--box-shadow-footer);
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espaço entre ícone e texto */
+  text-decoration: none;
+  color: var(--header-name);
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer a:hover {
+  color: #aad4ff;
+  transform: translateY(-2px);
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-left {
+  position: absolute;
+  left: 50px;
+  display: flex;
+  flex-direction: column; /* 👈 força o conteúdo a ficar um embaixo do outro */
+  align-items: flex-start; /* 👈 alinha à esquerda */
+  gap: 2px; /* 👈 pequeno espaçamento entre as linhas */
+  font-size: 0.85rem;
+  color: #cfcfcf;
+}
+
+.footer-left p {
+  margin: 0;
+  line-height: 1.3;
+}
+
+.privacy-note {
+  font-size: 0.8rem;
+  color: var(--header-name);
+  font-style: italic;
+}
+
+.footer-main-text {
+  font-size: 1rem; /* aumenta discretamente o tamanho da linha superior */
+  color: var(--header-name);
+}
+
+/* ==============================
+   Configurações da Página Inicial
+   ============================== */
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1302px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.intro-photo {
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-left: 16px;
+  gap: 15px;
+  align-items: center; /* ← centraliza foto e botão */
+}
+
+.intro-photo img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--box-shadow-side-menu);
+}
+
+.btn-projetos {
+  background-color: var(--bg-color-button);
+  color: #e6e6e6;
+  padding: 10px 20px;
+  width: 160px;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 25px;
+  box-shadow: var(--box-shadow-button);
+  transition: background-color 0.4s ease, transform 0.4s ease;
+  margin-top: 16px;
+  margin-botton: 16px;
+}
+
+.btn-projetos:hover {
+  background-color: var(--bg-color-button-hover);
+  transform: scale(1.06);
+}
+
+.intro-text {
+  flex: 1;
+  text-align: justify;
+  margin-top: 12px;
+  line-height: 1.7;
+  color: var(--intro-text);
+  font-size: 1rem;
+}
+
+.intro-text p {
+  margin-bottom: 1.2em;
+  line-height: 1.8;
+}
+
+.intro-text strong {
+  color: var(--intro-text);
+}
+
+.intro-list {
+    margin-top: 16px;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: var(--curriculo-list);
+   font-size: 1.06rem;
+}
+
+.intro-list li {
+    margin-bottom: 16px;
+    line-height: 1.7;
+    color: var(--curriculo-list);
+}
+
+.intro-list li::marker {
+    color: var(--curriculo-list);
+}
+
+/* Efeito fade-in geral para itens da seção */
+.fade-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Quando ativo, todos aparecem */
+.fade-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ==============================
+   Fixação da seção de título
+   ============================== */
+
+.fixed-header-section {
+  position: sticky;
+  top: 80px; /* altura do cabeçalho */
+  background-color: transparent; /* fundo transparente */
+  z-index: 50;
+  padding-bottom: 10px;
+  display: flex;
+    /* Removido justify-content: center para alinhar à esquerda */
+}
+
+.fixed-header-container {
+  max-width: 1302px; /* respeita largura máxima */
+  width: 100%;
+}
+
+.fixed-header-section h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--fixed-header-section);
+  margin: 0;
+}
+
+.fixed-header-section .decorative-line {
+  width: 400px; /* largura da linha igual à largura do título */
+  height: 2px;
+  background-color: var(--fixed-header-section);
+  border-radius: 2px;
+  margin: 8px 0 0 0; /* 8px de distância do título, alinhada à esquerda */
+}
+
+/* ==============================
+   Menu Lateral — Alinhamento perfeito
+   ============================== */
+.side-menu {
+  width: 290px;                  /* largura fixa do menu */
+  height: 620px;                 /* altura total do bloco */
+  background-color: var(--bg-color-header);
+  border-radius: 12px;
+  box-shadow: var(--box-shadow-side-menu);
+  padding: 12px;                  /* distância interna do bloco */
+  box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
+  position: sticky;              /* fixo ao rolar */
+  top: 16px;                     /* abaixo do cabeçalho */
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;    /* itens do topo */
+  align-self: flex-start;         /* impede centralização vertical */
+  gap: 4px;                       /* distância entre os botões */
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;                  /* para que os botões preencham verticalmente se necessário */
+}
+
+.side-menu li {
+  margin: 0;
+}
+
+.side-menu a {
+  display: flex;
+  align-items: center;           /* centraliza verticalmente o texto */
+  height: 48px;                  /* altura fixa do botão */
+  width: 258px;
+  padding: 0 12px;               /* distancia do texto para as bordas internas */
+  border-radius: 8px;
+  text-decoration: none;
+  color: #C0C0C0;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  justify-content: flex-start;   /* texto alinhado à esquerda */
+  margin-bottom: 4px;
+}
+
+.side-menu a:hover {
+  background-color: var(--bg-color-page);
+  color: var(--intro-text);
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ==============================
+   Menu Lateral — Link Ativo
+   ============================== */
+.side-menu a.active {
+  background-color: var(--bg-color-page);
+  color: var(--intro-text);                    /* cor do texto contrastante */
+  cursor: default;                   /* desabilita o clique */
+  text-shadow: 0 0 8px rgba(248, 248, 248, 0.1); /* efeito "acende" igual ao nome no topo */
+  transform: none;                   /* remove deslocamento do hover */
+}
+
+/* Mantém efeito ao passar o mouse, mas sem deslocamento nem sublinhado */
+.side-menu a.active:hover {
+  background-color: var(--bg-color-page);
+  color: var(--intro-text);                     /* mantém a cor do texto */
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* mesmo efeito "acende" */
+  transform: none;                    /* sem movimentação */
+}
+
+/* ==============================
+   Currículo — Ajuste do conteúdo principal
+   ============================== */
+
+.curriculo-container {
+  display: flex;
+  flex-direction: row; /* para menu lateral + texto */
+  align-items: flex-start; /* alinha o topo do texto com o topo do menu */
+  gap: 40px;
+  max-width: 1302px;
+  width: 100%;
+  margin: 0 auto;
+  height: calc(100vh - 266px); /* ocupa o espaço entre cabeçalho e rodapé */
+  overflow: hidden; /* impede rolagem da página inteira */
+  position: relative;
+  padding-top: 0; /* garante que não crie espaço acima */
+}
+
+.curriculo-text {
+  flex: 1;
+  text-align: justify;
+  line-height: 1.8;
+  color: var(--curriculo-list);
+  font-size: 1rem;
+  overflow-y: auto; /* ativa rolagem só no conteúdo */
+  height: 100%; /* usa a altura total disponível */
+  padding-right: 16px; /* evita que o texto encoste na borda */
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* rolagem suave */
+    /* esconde a barra de rolagem sem desativar o scroll */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE e Edge antigos */
+  padding-top: 8px;
+}
+
+.curriculo-text strong {
+  color: var(--curriculo-strong);
+}
+
+.curriculo-text::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.curriculo-text p {
+  margin-bottom: 1.2em; /* mesma distância que nas outras páginas */
+  line-height: 1.8;     /* mantém o espaçamento entre linhas */
+}
+
+.curriculo-list {
+    font-size: 1.25rem;
+    flex: 1;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 2.4; /* ← espaçamento vertical */
+}
+
+.curriculo-list li {
+    color: var(--curriculo-list);
+}
+
+/* Link ativo no cabeçalho */
+.header-right a.active {
+  color: #ffffff;
+  cursor: default;
+  pointer-events: none; /* impede clique */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Simula o efeito de hover do nome, mas não permite clicar */
+.header-right a.active:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* efeito de “acender” */
+  transform: none;
+}
+
+.header-right a.active::after {
+  content: none; /* remove a linha deslizante */
+}
+
+/* Estilo das experiências */
+.experience {
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.exp-period {
+  font-weight: 600;
+  margin-right: 10px;
+  color: var(--exp-period);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.exp-role {
+  flex: 1;
+  font-weight: 500;
+  color: var(--exp-role);
+}
+
+.exp-toggle {
+  background: none;
+  border: none;
+  color: #333;              /* mesma cor do texto */
+  font-weight: bold;
+  font-size: 20px;          /* um pouco maior para boa leitura */
+  cursor: pointer;
+  padding: 0;
+  margin-left: 8px;         /* leve afastamento do texto */
+  transition: transform 0.2s ease;
+}
+
+.exp-toggle:hover {
+  transform: scale(1.2);    /* leve aumento ao passar o mouse */
+  color: #264653;           /* realce suave na cor do hover */
+}
+
+.exp-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
+  padding-left: 10px;
+  margin-top: 4px;
+  color: var(--exp-details);
+}
+
+.exp-details.open {
+  max-height: 2000px; /* valor alto */
+  opacity: 1;
+}
+
+.experience.active .exp-details {
+  overflow: visible;
+}
+
+/* Ocultação da Barra de Rolamento Lateral */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Remove a barra do body */
+}
+
+.scroll-wrapper {
+  height: 100%;
+  overflow-y: scroll;       /* Permite rolagem vertical */
+  scrollbar-width: none;    /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari e Edge */
+}
+
+/* Impede seleção de texto em toda a página */
+body {
+  user-select: none;          /* padrão moderno */
+  -webkit-user-select: none;  /* Chrome, Safari */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* IE/Edge antigo */
+}
+
+/* Borda dos Certificados */
+
+.cert-thumb {
+    border: 1px solid var(--fixed-header-section);                         /* borda bem discreta */
+    border-radius: 6px;                                         /* cantos levemente arredondados */
+    padding: 2px;                                               /* pequena área interna */
+
+    width: 240px;
+    height: 170px;
+    display: block;
+    margin: 16px;
+    cursor: pointer;
+   
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cert-thumb:hover {
+    transform: scale(1.02);
+    box-shadow: var(--box-shadow-side-menu);
+}
+
+.cert-text-margin {
+    margin-left: 16px;
+}
+
+/* Categorias dos Certificados */
+
+.cert-categories {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 16px 0;
+}
+
+.cert-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 40px; /* espaço vertical | horizontal */
+    margin-top: 10px;
+}
+
+.cert-links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--curriculo-list);
+    transition: all 0.25s ease;
+    padding: 4px 2px; /* Pequeno espaçamento para manter o alinhamento */
+    margin-left: 8px;
+}
+
+/* Hover suave, elegante e SEM efeito de botão */
+.cert-links a:hover {
+    transform: scale(1.04);   /* Cresce de forma suave */
+    color: var(--link-cert);
+    text-shadow: var(--box-shadow-link-cert);
+}
+
+.cert-link-verify {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--link-cert); /* acompanha tema claro/escuro */
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.cert-link-verify:hover {
+  text-shadow: var(--box-shadow-link-cert);
+}
+
+.cert-no-verify {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--link-cert); /* acompanha tema claro/escuro */
+}
+
+/* Remove margem superior apenas na página de certificados */
+#curriculo .cert-categories {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Página estática */
+body.static-header .header-photo,
+body.static-header .header-name,
+body.static-header .last-update {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+    transition: none !important; /* desativa animação */
+}
+
+/* Frase */
+
+.signature-phrase {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    margin-top: 32px;
+    color: var(--fixed-header-section) !important;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.2s ease, transform 1.2s ease;
+    line-height: 1.4;
+}
+.signature-phrase.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ============================
+   Linha Decorativa Entre os Certificados
+============================ */
+
+.decorative-line-cert {
+    border: 0;
+    height: 2px;
+    width: 80%;
+    margin: 16px auto;
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--bg-color-header),
+        transparent
+    );
+}
+
+/* ============================
+   Linha Decorativa do Menu Lateral
+============================ */
+
+.menu-divider-item {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+}
+
+.decorative-line-menu {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    margin: 4px 0;
+    background: linear-gradient(
+        to right,
+        #EAEAEA,
+        #EAEAEA,
+        transparent
+    );
+}
+
+/* ============================
+   Linha Decorativa dos Projetos
+============================ */
+
+.decorative-line-projetos {
+    border: 0;
+    height: 1px;
+    width: 40%;
+
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+    background: linear-gradient(
+        to right,
+        #EAEAEA,
+        #EAEAEA,
+        transparent
+    );
+}
+
+/* ============================
+   CONFIGURAÇÃO DE TEMAS
+============================ */
+
+/* Tema Light */
+:root {
+   /* Cores de Fundo */
+   --bg-color-header: #0A3C5C;
+   --bg-color-page: #F8F8F8;
+   --bg-color-footer: #0A3C5C;
+
+   --bg-color-button: #0A3C5C;
+   --bg-color-button-hover: #224F6C;
+
+   /* Cor do Texto do Caabeçalho e do Rodapé */
+   --header-name: #F8F8F8;
+
+   /* Cor do Título da Seção Principal */
+   --fixed-header-section: #1C1C1C;
+
+   --intro-text: #282828;
+   --curriculo-list: #282828;
+   --curriculo-strong: #080808;
+   
+   --box-shadow-header: 0 6px 16px rgba(0,0,0,0.25);
+   --box-shadow-side-menu: 0 0px 16px rgba(0,0,0,0.25);
+   --box-shadow-footer: 0 -6px 16px rgba(0,0,0,0.25);
+   --box-shadow-button: 0 0px 16px rgba(0,0,0,0.25);
+   
+   --exp-period: #264653;
+   --exp-role: #282828;
+   --exp-toggle: #282828;
+   --exp-details: #4C4C4C;
+
+   --link-cert: #0A3C5C;
+   --box-shadow-link-cert: 0 0px 8px rgba(0,0,0,0.25);
+   
+   --text-color: #181818;
+   --card-bg: #f5f5f5;
+   --accent-color: #4e73df;
+}
+
+/* Tema Dark */
+[data-theme="dark"] {
+   --bg-color-header: #101010;                                       /* Cor de Fundo do Cabeçalho */
+   --bg-color-page: #1C1C1C;                                         /* Cor de Fundo da Seção Principal */
+   --bg-color-footer: #101010;                                       /* Cor de Fundo do Rodapé */
+   --bg-color-button: #101010;
+   --bg-color-button-hover: #181818;
+   --header-name: #B2B2B2;                                           /* Cor do Texto do Cabeçalho e do Rodapé */
+   --fixed-header-section: #DCDCDC;                                  /* Cor do Título da Seção Principal */
+   
+   --intro-text: #EAEAEA;
+   --curriculo-list: #F8F8F8;
+   --curriculo-strong: #808080;
+   
+   --box-shadow-header: 0 6px 16px rgba(255,255,255,0.25);
+   --box-shadow-side-menu: 0 0px 16px rgba(255,255,255,0.25);
+   --box-shadow-footer: 0 -6px 16px rgba(255,255,255,0.25);
+   --box-shadow-button: 0 0px 16px rgba(255,255,255,0.25);
+   
+   --exp-period: #547888;
+   --exp-role: #B2B2B2;
+   --exp-toggle: #B2B2B2;
+   --exp-details: #DCDCDC;
+
+   --link-cert: #476C83;
+   --box-shadow-link-cert: 0 0px 8px rgba(255,255,255,0.25);
+
+   --text-color: #EAEAEA;
+   --card-bg: #1e1e1e;
+   --accent-color: #8bb9ff;
+}
+
+/* ============================
+   Botão do Toggle
+============================ */
+
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: var(--header-name);
+    transition: transform .2s ease, color .3s ease;
+}
+
+/* Efeito hover elegante */
+#theme-toggle:hover {
+    transform: scale(1.2);
+    color: var(--accent-color);
+}
+
+#theme-icon {
+    opacity: 0;               /* começa invisível */
+    transform: scale(0.8);    /* leve encolhimento inicial */
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+#theme-toggle.loaded #theme-icon {
+    opacity: 1;               /* fica visível */
+    transform: scale(1);      /* tamanho normal */
+}
+
+/* ============================================
+   LISTA DE COMPETÊNCIAS TÉCNICAS
+   ============================================ */
+
+.tech-subtitle {
+    font-size: 0.925rem; /* entre 1rem do título e 0.85rem da descrição */
+    color: var(--link-cert);
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1.35;
+}
+
+.tech-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 4px;
+    color: var(--curriculo-text);
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+.tech-desc {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    color: var(--curriculo-text);
+}
+
+.exp-list {
+    margin: 16px 0;
+    padding-left: 22px;
+    list-style-type: disc;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    line-height: 1.65;
+    opacity: 0.9;
+}
+
+.exp-list li {
+    margin-bottom: 8px;
+}
+
+/* ============================= */
+/* Disclosure Sections */
+/* ============================= */
+
+.project-section {
+    margin-bottom: 12px;
+}
+
+/* Summary */
+.project-section summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-left: 18px;
+}
+
+/* Remove marcador padrão */
+.project-section summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Ícone ▸ / ▾ */
+.project-section summary::before {
+    content: "▸";
+    font-size: 1rem;
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+    transition: transform 0.4s ease;
+}
+
+/* Quando aberto */
+.project-section[open] summary::before {
+    content: "▾";
+}
+
+/* Texto */
+.project-section > p {
+    margin-top: 8px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+    animation: fadeInDetails 0.4s ease;
+}
+
+@keyframes fadeInDetails {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilização do Modo Lista */
+.courses-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-list-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--divider-color);
+  margin: 0px 16px;
+  padding: 12px 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.course-list-item:hover {
+  background-color: var(--surface-hover, #f2f2f2);
+  color: var(--text-hover, #000);
+}
+
+.course-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.course-date {
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+/* Estilização do Modo Grade */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.course-grid-item {
+  border: none;
+  background: none;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-grid-item img {
+    border: 1px solid var(--fixed-header-section);
+    border-radius: 6px;
+    padding: 2px;
+
+    width: 240px;
+    height: 170px;
+    display: block;
+    margin: 16px;
+    cursor: pointer;
+   
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Estilização do Modo Bloco */
+.course-block {
+  margin-top: 0px;
+}
+
+.course-block p {
+   margin: 16px 0;
+}
+
+.course-block-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0px; /* reserva fixa dos botões */
+
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Estado de saída */
+.course-block-content.is-transitioning {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.course-block-content img {
+    border: 1px solid var(--fixed-header-section);
+    border-radius: 6px;
+    padding: 2px;
+
+    width: 240px;
+    height: 170px;
+    display: block;
+    margin: 16px;
+    cursor: pointer;
+   
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-block-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+  font-size: 1rem;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  height: 32px;
+}
+
+.course-nav-action {
+  cursor: pointer;
+  font-weight: 500;
+  user-select: none;
+  transition: opacity 0.4s ease;
+}
+
+.course-nav-action:hover {
+  opacity: 0.8;
+}
+
+.course-nav-indicator {
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.course-nav-action.disabled {
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
+
+#course-block {
+  position: relative;
+  height: 560px; /* 🔒 altura fixa REAL */
+  overflow: hidden;
+}
+
+/* Estilização do Modo Fluido */
+.courses-flow {
+    margin: 0px;
+}
+
+.courses-flow p {
+   margin: 16px;
+}
+
+.courses-flow .cert-thumb {
+    border: 1px solid var(--fixed-header-section);
+    border-radius: 6px;
+    padding: 2px;
+
+    width: 240px;
+    height: 170px;
+    display: block;
+    margin: 16px;
+    cursor: pointer;
+   
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+   
+    align-self: flex-start;
+}
+
+.course-flow-item {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Transição dos modos de visualização*/
+
+.view-transition {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.view-transition.is-active {
+  opacity: 1;
+  transition: opacity 0.8s ease;
+}
+
+/* Botão Copiar */
+.copiar-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 1.2em;
+}
+
+/* Animação Ícone e Subtítulo */
+.portfolio-icon,
+.portfolio-subtitle {
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+}
+
+.portfolio-exit .portfolio-subtitle {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0s;
+}
+
+.portfolio-exit .portfolio-icon {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0.16s;
+}
+
+.portfolio-pre-enter .portfolio-icon,
+.portfolio-pre-enter .portfolio-subtitle {
+  opacity: 0;
+  transform: translateX(64px);
+}
+
+.portfolio-enter .portfolio-icon {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+.portfolio-enter .portfolio-subtitle {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.16s;
+}
+
+.category-fade {
+  transition: opacity 0.2s ease;
+}
+
+.category-fade.is-fading {
+  opacity: 0;
+}
+
+/* Categoria Subtítulo */
+.title-category {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.title-category.is-fading {
+  opacity: 0;
+}
+
+.title-category.hidden {
+  display: none;
+}
+
+.title-category .pipe {
+  color: #999; /* cinza elegante */
+  margin: 0px 12px 0px 0px;
+}
+
+.title-category .category-name {
+  color: #6fb3ff; /* destaque suave */
+  font-weight: 500;
+}
+
+.title-category .pipe,
+.title-category .category-name {
+  opacity: 0;
+  transform: translateX(64px);
+}
+
+.title-category.category-enter .pipe {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition-delay: 0s;
+}
+
+.title-category.category-enter .category-name {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition-delay: 0.16s;
+}
+
+.title-category.category-exit .category-name {
+  opacity: 0;
+  transform: translateX(64px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition-delay: 0s;
+}
+
+.title-category.category-exit .pipe {
+  opacity: 0;
+  transform: translateX(64px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition-delay: 0.16s;
+}
