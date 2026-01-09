@@ -106,11 +106,6 @@ function animateTransition(updateCallback) {
           baseTitle.textContent = section.title;
         }
       
-        if (categoryBox && categoryName) {
-          categoryBox.classList.add("hidden");
-          categoryName.textContent = "";
-        }
-
         if (categoryBox) {
           categoryBox.classList.remove("category-enter");
           categoryBox.classList.add("category-exit");
