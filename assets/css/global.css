@@ -1324,5 +1324,5 @@ body.static-header .last-update {
 
 .title-category.category-exit {
   opacity: 0;
-  transform: translateX(-64px);
+  transform: translateX(64px);
 }
