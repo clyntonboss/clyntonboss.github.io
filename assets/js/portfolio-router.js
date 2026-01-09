@@ -223,24 +223,13 @@ document.addEventListener("click", e => {
       }
     
       if (categoryBox && categoryName) {
-        // 🔁 RESET VISUAL OBRIGATÓRIO
-        categoryBox.classList.remove(
-          "category-enter",
-          "category-exit",
-          "hidden"
-        );
-      
-        // força estado inicial (fora da tela)
-        categoryBox.style.opacity = "0";
-        categoryBox.style.transform = "translateX(64px)";
-      
-        // força reflow real
-        categoryBox.offsetHeight;
-      
-        // conteúdo
         categoryName.textContent = category.title;
       
-        // 🎬 ENTRADA ANIMADA
+        categoryBox.classList.remove("hidden", "category-exit");
+      
+        // força estado inicial fora da tela
+        categoryBox.offsetHeight;
+      
         categoryBox.classList.add("category-enter");
       }
     }
