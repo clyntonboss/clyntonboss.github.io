@@ -1295,8 +1295,8 @@ body.static-header .last-update {
   margin-left: 8px;
 
   opacity: 0;
-  transform: translateX(16px);
-  transition: transform 0.35s ease, opacity 0.35s ease;
+  transform: translateX(64px);
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .title-category.is-fading {
@@ -1309,7 +1309,7 @@ body.static-header .last-update {
 
 .title-category .pipe {
   color: #999; /* cinza elegante */
-  margin: 0 4px;
+  margin: 0 8px;
 }
 
 .title-category .category-name {
@@ -1324,5 +1324,5 @@ body.static-header .last-update {
 
 .title-category.category-exit {
   opacity: 0;
-  transform: translateX(-16px);
+  transform: translateX(-64px);
 }
