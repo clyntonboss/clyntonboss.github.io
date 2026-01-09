@@ -81,6 +81,7 @@ function animateTransition(updateCallback) {
         categoriaAtiva &&
         secaoAnterior === "formacoesComplementares"
       ) {
+        contentEl.classList.remove("is-active");
 
       // 🔧 restaura ícone da seção
       iconEl.src = section.icon;
@@ -111,8 +112,16 @@ function animateTransition(updateCallback) {
         }
       
         // troca somente o conteúdo
-        contentEl.innerHTML = section.content;
-        initToggle();
+        setTimeout(() => {
+          contentEl.innerHTML = section.content;
+          initToggle();
+        
+          // força reflow
+          contentEl.offsetHeight;
+        
+          // fade-in
+          contentEl.classList.add("is-active");
+        }, 400);
       
         document.title = section.pageTitle;
         if (section.favicon) faviconEl.href = section.favicon;
