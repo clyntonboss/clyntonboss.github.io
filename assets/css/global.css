@@ -1316,7 +1316,7 @@ body.static-header .last-update {
 .title-category .pipe,
 .title-category .category-name {
   opacity: 0;
-  transform: translateX(12px);
+  transform: translateX(64px);
 }
 
 .title-category.category-enter .pipe {
