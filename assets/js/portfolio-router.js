@@ -327,19 +327,22 @@ function animarEntradaViewModes() {
     "block"
   ]);
 
-  // REMOVE active temporariamente
+  // limpa estados anteriores
   buttons.forEach(btn => {
     btn.classList.remove("active", "vm-enter", "vm-exit");
+    btn.classList.add("vm-hidden");
   });
 
-  // força estado inicial oculto
+  // força reflow para garantir estado inicial
   buttons.forEach(btn => btn.offsetHeight);
 
+  // entrada em cascata (Grid → Block)
   buttons.forEach((btn, index) => {
     setTimeout(() => {
+      btn.classList.remove("vm-hidden");
       btn.classList.add("vm-enter");
 
-      // 🟢 APENAS O BLOCK recebe active ao FINAL da entrada
+      // 🟢 Block vira active somente após entrar
       if (btn.dataset.view === "block") {
         setTimeout(() => {
           btn.classList.add("active");
