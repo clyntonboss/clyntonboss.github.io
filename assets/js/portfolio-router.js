@@ -327,8 +327,9 @@ function animarEntradaViewModes() {
     "block"
   ]);
 
+  // REMOVE active temporariamente
   buttons.forEach(btn => {
-    btn.classList.remove("vm-exit", "vm-enter");
+    btn.classList.remove("active", "vm-enter", "vm-exit");
   });
 
   // força estado inicial oculto
@@ -337,6 +338,14 @@ function animarEntradaViewModes() {
   buttons.forEach((btn, index) => {
     setTimeout(() => {
       btn.classList.add("vm-enter");
+
+      // 🟢 APENAS O BLOCK recebe active ao FINAL da entrada
+      if (btn.dataset.view === "block") {
+        setTimeout(() => {
+          btn.classList.add("active");
+        }, 400);
+      }
+
     }, index * VIEW_MODE_DELAY);
   });
 }
@@ -348,6 +357,9 @@ function animarSaidaViewModes(callback) {
     "list",
     "grid"
   ]);
+
+  // remove active ANTES da saída
+  buttons.forEach(btn => btn.classList.remove("active"));
 
   buttons.forEach((btn, index) => {
     setTimeout(() => {
