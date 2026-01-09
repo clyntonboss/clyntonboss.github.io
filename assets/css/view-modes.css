@@ -37,7 +37,7 @@
     font-weight: 600;
     pointer-events: none;   /* impede clique */
     cursor: default;        /* remove aparência de ação */
-    transform: scale(1.2);
+    transform: scale(1.2) translateX(0);
 }
 
 .view-btn:not(.active) {
