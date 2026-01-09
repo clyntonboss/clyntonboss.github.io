@@ -1373,3 +1373,10 @@ body.static-header .last-update {
   transform: translateX(-32px);
   pointer-events: none;
 }
+
+/* Estado invisível REAL */
+.view-btn.vm-hidden {
+  opacity: 0;
+  transform: translateX(-32px);
+  pointer-events: none;
+}
