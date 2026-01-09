@@ -320,13 +320,21 @@ function updateViewModeControls(show) {
 const VIEW_MODE_DELAY = 90; // delay entre ícones (ms)
 
 function animarEntradaViewModes() {
-  const buttons = document.querySelectorAll(
-    "#view-mode-controls .view-btn"
-  );
+  const buttons = getViewButtonsOrdered([
+    "grid",
+    "list",
+    "flow",
+    "block"
+  ]);
+
+  buttons.forEach(btn => {
+    btn.classList.remove("vm-exit", "vm-enter");
+  });
+
+  // força estado inicial oculto
+  buttons.forEach(btn => btn.offsetHeight);
 
   buttons.forEach((btn, index) => {
-    btn.classList.remove("vm-exit");
-
     setTimeout(() => {
       btn.classList.add("vm-enter");
     }, index * VIEW_MODE_DELAY);
@@ -334,9 +342,12 @@ function animarEntradaViewModes() {
 }
 
 function animarSaidaViewModes(callback) {
-  const buttons = document.querySelectorAll(
-    "#view-mode-controls .view-btn"
-  );
+  const buttons = getViewButtonsOrdered([
+    "block",
+    "flow",
+    "list",
+    "grid"
+  ]);
 
   buttons.forEach((btn, index) => {
     setTimeout(() => {
@@ -345,13 +356,21 @@ function animarSaidaViewModes(callback) {
     }, index * VIEW_MODE_DELAY);
   });
 
-  // Executa callback após o último botão sair
   const totalTime =
     buttons.length * VIEW_MODE_DELAY + 400;
 
   setTimeout(() => {
-    if (typeof callback === "function") {
-      callback();
-    }
+    if (typeof callback === "function") callback();
   }, totalTime);
+}
+
+function getViewButtonsOrdered(order) {
+  const map = {
+    block: document.querySelector('.view-btn[data-view="block"]'),
+    flow:  document.querySelector('.view-btn[data-view="flow"]'),
+    list:  document.querySelector('.view-btn[data-view="list"]'),
+    grid:  document.querySelector('.view-btn[data-view="grid"]')
+  };
+
+  return order.map(k => map[k]).filter(Boolean);
 }
