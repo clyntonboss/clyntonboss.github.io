@@ -1292,6 +1292,7 @@ body.static-header .last-update {
 .title-category {
   display: inline-flex;
   align-items: center;
+  margin-left: 16px;
 }
 
 .title-category.is-fading {
@@ -1304,7 +1305,6 @@ body.static-header .last-update {
 
 .title-category .pipe {
   color: #999; /* cinza elegante */
-  margin: 0px 12px;
 }
 
 .title-category .category-name {
