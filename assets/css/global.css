@@ -1387,14 +1387,14 @@ body.static-header .last-update {
 
 /* garante contexto */
 .view-btn[aria-label],
-.theme-toggle[aria-label],
+#theme-toggle[aria-label],
 .copiar-btn[aria-label] {
   position: relative;
 }
 
 /* tooltip */
 .view-btn[aria-label]::after,
-.theme-toggle[aria-label]::after,
+#theme-toggle[aria-label]::after,
 .copiar-btn[aria-label]::after {
   content: attr(aria-label);
   position: absolute;
@@ -1421,7 +1421,7 @@ body.static-header .last-update {
 
 /* hover */
 .view-btn[aria-label]:hover::after,
-.theme-toggle[aria-label]:hover::after,
+#theme-toggle[aria-label]:hover::after,
 .copiar-btn[aria-label]:hover::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
