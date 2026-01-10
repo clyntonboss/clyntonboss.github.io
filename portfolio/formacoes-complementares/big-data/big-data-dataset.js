@@ -188,5 +188,49 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.06.22 · Databricks Academy · Developing Applications with Apache™ Spark.png",
 
     verificacao: null
+  },
+
+  {
+    id: 9,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Stream Processing and Analysis with Apache™ Spark",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-22",
+
+    dataConclusao: "22 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.06.22 · Databricks Academy · Stream Processing and Analysis with Apache™ Spark.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 10,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Monitoring and Optimizing Apache™ Spark Workloads on Databricks",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-22",
+
+    dataConclusao: "22 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.06.22 · Databricks Academy · Monitoring and Optimizing Apache™ Spark Workloads on Databricks.png",
+
+    verificacao: null
   }
 ];
