@@ -232,5 +232,55 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.06.22 · Databricks Academy · Monitoring and Optimizing Apache™ Spark Workloads on Databricks.png",
 
     verificacao: null
+  },
+
+  {
+    id: 11,
+
+    instituicao: "Cursa",
+ 
+    curso: "Big Data",
+    
+    cargaHoraria: "9 h",
+
+    conclusaoISO: "2025-08-15",
+
+    dataConclusao: "15 de agosto de 2025",
+
+    codigo: "485a2b2678",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.08.13 · Cursa · Big Data.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/485a2b2678",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 12,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Big Data em Apoio à Tomada de Decisão",
+    
+    cargaHoraria: "25 h",
+
+    conclusaoISO: "2025-10-27",
+
+    dataConclusao: "27 de outubro de 2025",
+
+    codigo: "wGcn19303427zgEG",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.10.27 · Escola Nacional de Administração Pública · Big Data em Apoio à Tomada de Decisão.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/validar-documentos?comp_doc=wGcn19303427zgEG",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
