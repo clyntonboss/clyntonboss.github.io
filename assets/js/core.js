@@ -152,29 +152,33 @@ function initUpdateDate() {
 
 // ==================== Módulo Theme ====================
 function initTheme() {
-    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggle = document.getElementById("theme-toggle");
     if (!themeToggle) return;
 
     // Aplica tema salvo
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme) {
-        document.documentElement.setAttribute("data-theme", savedTheme);
-        updateIcon(savedTheme);
-    }
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    updateIcon(savedTheme);
+    updateThemeTooltip(savedTheme);
 
-    themeToggle.classList.add('loaded');
+    themeToggle.classList.add("loaded");
 
     themeToggle.addEventListener("click", () => {
-        const currentTheme = document.documentElement.getAttribute("data-theme");
+        const currentTheme =
+            document.documentElement.getAttribute("data-theme");
         const newTheme = currentTheme === "dark" ? "light" : "dark";
+
         document.documentElement.setAttribute("data-theme", newTheme);
         localStorage.setItem("theme", newTheme);
+
         updateIcon(newTheme);
+        updateThemeTooltip(newTheme);
     });
 
     function updateIcon(theme) {
         const icon = document.getElementById("theme-icon");
         if (!icon) return;
+
         if (theme === "dark") {
             icon.classList.remove("fa-moon");
             icon.classList.add("fa-sun");
@@ -182,6 +186,15 @@ function initTheme() {
             icon.classList.remove("fa-sun");
             icon.classList.add("fa-moon");
         }
+    }
+
+    function updateThemeTooltip(theme) {
+        themeToggle.setAttribute(
+            "aria-label",
+            theme === "dark"
+                ? "Ativar modo claro"
+                : "Ativar modo escuro"
+        );
     }
 }
 
