@@ -427,10 +427,10 @@ function copiarCodigo(codigo, btn) {
     .then(() => {
       if (!btn) return;
 
-      const labelOriginal = btn.getAttribute("aria-label") || "Copiar código";
+      const labelOriginal = btn.getAttribute("aria-label") || "Copiar Código";
 
       // atualiza tooltip
-      btn.setAttribute("aria-label", "Código copiado!");
+      btn.setAttribute("aria-label", "Código Copiado");
 
       // força repaint para tooltip reagir imediatamente
       btn.offsetHeight;
