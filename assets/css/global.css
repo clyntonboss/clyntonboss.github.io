@@ -481,11 +481,11 @@ main {
    ============================== */
 .side-menu a.active {
   background-color: var(--bg-color-page);
-  color: var(--intro-text);                    /* cor do texto contrastante */
-  pointer-events: none;      /* 🔒 desativa clique REAL */
-  cursor: not-allowed;                   /* desabilita o clique */
-  text-shadow: 0 0 8px rgba(248, 248, 248, 0.1); /* efeito "acende" igual ao nome no topo */
-  transform: none;                   /* remove deslocamento do hover */
+  color: var(--intro-text);                                               /* cor do texto contrastante */
+  pointer-events: none;                                                   /* 🔒 desativa clique REAL */
+  cursor: not-allowed;                                                    /* desabilita o clique */
+  text-shadow: 0 0 8px rgba(248, 248, 248, 0.1);                          /* efeito "acende" igual ao nome no topo */
+  transform: none;                                                        /* remove deslocamento do hover */
 }
 
 /* Mantém efeito ao passar o mouse, mas sem deslocamento nem sublinhado */
