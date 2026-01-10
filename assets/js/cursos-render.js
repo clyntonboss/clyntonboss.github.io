@@ -115,7 +115,7 @@ function renderBlocoCurso(index) {
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
         <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
         <p><strong>Código:</strong> ${curso.codigo}
-          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
+          ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
         </p>
         <p>
           <strong>Verificação:</strong>
@@ -191,7 +191,7 @@ function renderFluxoCursos(cursos) {
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
         <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
         <p><strong>Código:</strong> ${curso.codigo}
-          ${curso.mostrarCopiar ? `<button class="copiar-btn" onclick="copiarCodigo('${curso.codigo}')">📋</button>` : ""}
+          ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
         </p>
         <p>
           <strong>Verificação:</strong>
