@@ -1380,3 +1380,49 @@ body.static-header .last-update {
   transform: translateX(-32px);
   pointer-events: none;
 }
+
+/* ===============================
+   TOOLTIP PARA ÍCONES (ARIA)
+================================ */
+
+/* garante contexto */
+.view-btn[aria-label],
+.theme-toggle[aria-label],
+.copiar-btn[aria-label] {
+  position: relative;
+}
+
+/* tooltip */
+.view-btn[aria-label]::after,
+.theme-toggle[aria-label]::after,
+.copiar-btn[aria-label]::after {
+  content: attr(aria-label);
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition:
+    opacity 0.15s ease,
+    transform 0.15s ease;
+
+  z-index: 1000;
+}
+
+/* hover */
+.view-btn[aria-label]:hover::after,
+.theme-toggle[aria-label]:hover::after,
+.copiar-btn[aria-label]:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
