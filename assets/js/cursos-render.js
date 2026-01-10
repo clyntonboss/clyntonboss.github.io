@@ -102,6 +102,11 @@ function renderBlocoCurso(index) {
   // Atualiza índice global
   cursoAtualIndex = index;
 
+  // 🧠 persiste o curso atual da sessão
+  savePortfolioState({
+    courseIndex: cursoAtualIndex
+  });
+
   // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
 
