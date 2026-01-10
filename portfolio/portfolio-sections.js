@@ -1641,7 +1641,7 @@ const sections = {
           <!-- Tecnologia e Fundamentos -->
           <a href="/portfolio/formacoes-complementares/cloud/">Cloud</a>
           <a href="#" data-category="sistemasOperacionais">Sistemas Operacionais</a>
-          <a href="/portfolio/formacoes-complementares/seguranca-da-informacao/">Segurança da Informação</a>
+          <a href="#" data-category="segurancaInformacao">Segurança da Informação</a>
           <a href="/portfolio/formacoes-complementares/programacao/">Programação</a>
           <a href="/portfolio/formacoes-complementares/robotic-process-automation/">Robotic Process Automation</a>
                           
