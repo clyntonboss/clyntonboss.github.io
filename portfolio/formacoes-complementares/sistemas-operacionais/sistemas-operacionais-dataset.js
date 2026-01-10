@@ -97,5 +97,30 @@ window.datasetCategoria = [
       url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 5,
+
+    instituicao: "Cursa",
+ 
+    curso: "Máquinas Virtuais e Instalação de Sistemas",
+    
+    cargaHoraria: "9 h",
+
+    conclusaoISO: "2025-10-15",
+
+    dataConclusao: "15 de outubro de 2025",
+
+    codigo: "727ec39241",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2025.10.15 · Cursa · Máquinas Virtuais e Instalação de Sistemas.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/727ec39241",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
