@@ -74,6 +74,14 @@ function animateTransition(updateCallback) {
       const section = sections[key];
       if (!section) return;
 
+      // 🧠 SALVA ESTADO DA SEÇÃO ATIVA
+      savePortfolioState({
+        section: key,
+        category: null,
+        viewMode: null,
+        courseIndex: null
+      });
+
       const secaoAnterior = secaoAtiva;
       secaoAtiva = key;
 
@@ -208,6 +216,14 @@ document.addEventListener("click", e => {
   const categoryKey = link.dataset.category;
   const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
+
+  // 🧠 SALVA ESTADO DA CATEGORIA ATIVA
+  savePortfolioState({
+    section: "formacoesComplementares",
+    category: categoryKey,
+    viewMode: "block",
+    courseIndex: 0
+  });
 
   categoriaAtiva = true;
 
