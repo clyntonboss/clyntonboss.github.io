@@ -422,8 +422,23 @@ function trocarModo(mode) {
 
 // Função Copiar Código do Certificado
 
-function copiarCodigo(codigo) {
+function copiarCodigo(codigo, btn) {
   navigator.clipboard.writeText(codigo)
-    .then(() => alert("Código copiado!"))
+    .then(() => {
+      if (!btn) return;
+
+      const labelOriginal = btn.getAttribute("aria-label") || "Copiar código";
+
+      // atualiza tooltip
+      btn.setAttribute("aria-label", "Código copiado!");
+
+      // força repaint para tooltip reagir imediatamente
+      btn.offsetHeight;
+
+      // restaura texto após um tempo
+      setTimeout(() => {
+        btn.setAttribute("aria-label", labelOriginal);
+      }, 1600);
+    })
     .catch(err => console.error("Erro ao copiar: ", err));
 }
