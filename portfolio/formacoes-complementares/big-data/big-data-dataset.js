@@ -47,5 +47,55 @@ window.datasetCategoria = [
       url: "https://cursa.com.br/certificate/7451a4b4f1",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 3,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Big Data & Analytics",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2025-02-28",
+
+    dataConclusao: "28 de fevereiro de 2025",
+
+    codigo: "0c36171ed8cb4f23e4b7e7148068eff8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.02.28 · FIAP - Centro Universitário · Big Data & Analytics.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=0c36171ed8cb4f23e4b7e7148068eff8&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 4,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Big Data - Básico",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-06",
+
+    dataConclusao: "06 de maio de 2025",
+
+    codigo: "681a5f66-0368-4620-8361-348ec883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.05.06 · Instituto Federal Minas Gerais · Big Data · Básico.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
