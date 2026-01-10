@@ -192,8 +192,8 @@ function initTheme() {
         themeToggle.setAttribute(
             "aria-label",
             theme === "dark"
-                ? "Ativar modo claro"
-                : "Ativar modo escuro"
+                ? "Ativar Modo Claro"
+                : "Ativar Modo Escuro"
         );
     }
 }
