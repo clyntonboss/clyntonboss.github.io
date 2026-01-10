@@ -51,6 +51,58 @@ const categoriasFormacoesComplementares = {
     `
   },
 
+  bigData: {
+    title: "Big Data",
+    dataset: "/portfolio/formacoes-complementares/big-data/big-data-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Big Data, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam conceitos, arquiteturas, tecnologias e práticas relacionadas ao processamento, armazenamento e análise de grandes volumes de dados.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Big Data ampliaram a compreensão sobre arquiteturas e estratégias para lidar com dados em larga escala, considerando desempenho, escalabilidade e confiabilidade.<br>
+                                 Esses conhecimentos complementam atividades de análise de dados e BI, especialmente em cenários que demandam processamento distribuído, integração de múltiplas fontes e tratamento eficiente de grandes volumes de informação.</div>
+    `
+  },
+
   dataStorytelling: {
     title: "Data Storytelling",
     dataset: "/portfolio/formacoes-complementares/data-storytelling/data-storytelling-dataset.js",
