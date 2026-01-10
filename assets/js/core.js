@@ -108,7 +108,7 @@ function initBlockRightClick() {
     document.body.addEventListener('mousedown', e => {
         if (e.button === 2) {
             document.body.style.cursor = 'not-allowed';
-            setTimeout(() => document.body.style.cursor = 'default', 500);
+            setTimeout(() => document.body.style.cursor = 'default', 800);
         }
     });
 }
