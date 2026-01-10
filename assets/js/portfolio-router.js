@@ -476,3 +476,7 @@ function getPortfolioState() {
 function clearPortfolioState() {
   sessionStorage.removeItem("portfolioState");
 }
+
+window.addEventListener("beforeunload", () => {
+  sessionStorage.clear();
+});
