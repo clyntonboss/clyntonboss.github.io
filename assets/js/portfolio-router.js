@@ -206,51 +206,8 @@ function animateTransition(updateCallback) {
   // Estado inicial
   animatedElements.forEach(el => el.classList.add("is-active"));
 
-  /* ===============================
-     🔁 RESTAURA ESTADO DA SESSÃO
-  =============================== */
-
-  const savedState = getPortfolioState();
-
-  if (savedState && savedState.section) {
-    const sectionLink = document.querySelector(
-      `[data-section="${savedState.section}"]`
-    );
-
-    if (sectionLink) {
-      sectionLink.click();
-
-      if (
-        savedState.section === "formacoesComplementares" &&
-        savedState.category
-      ) {
-        setTimeout(() => {
-          const categoryLink = document.querySelector(
-            `[data-category="${savedState.category}"]`
-          );
-
-          if (categoryLink) {
-            categoryLink.click();
-
-            // modo de visualização
-            if (savedState.viewMode) {
-              setTimeout(() => {
-                trocarModo(savedState.viewMode);
-              }, 200);
-            }
-
-            // posição do curso
-            if (typeof savedState.courseIndex === "number") {
-              setTimeout(() => {
-                cursoAtualIndex = savedState.courseIndex;
-                renderCursoAtual();
-              }, 400);
-            }
-          }
-        }, 400);
-      }
-    }
-  }
+  // 🔁 RESTAURA ESTADO APÓS TUDO ESTAR PRONTO
+  setTimeout(restorePortfolioState, 0);
 });
 
 document.addEventListener("click", e => {
@@ -480,3 +437,44 @@ function clearPortfolioState() {
 window.addEventListener("beforeunload", () => {
   sessionStorage.clear();
 });
+
+function restorePortfolioState() {
+  const savedState = getPortfolioState();
+  if (!savedState || !savedState.section) return;
+
+  const sectionLink = document.querySelector(
+    `[data-section="${savedState.section}"]`
+  );
+
+  if (!sectionLink) return;
+
+  sectionLink.click();
+
+  if (
+    savedState.section === "formacoesComplementares" &&
+    savedState.category
+  ) {
+    setTimeout(() => {
+      const categoryLink = document.querySelector(
+        `[data-category="${savedState.category}"]`
+      );
+
+      if (!categoryLink) return;
+
+      categoryLink.click();
+
+      if (savedState.viewMode) {
+        setTimeout(() => {
+          trocarModo(savedState.viewMode);
+        }, 200);
+      }
+
+      if (typeof savedState.courseIndex === "number") {
+        setTimeout(() => {
+          cursoAtualIndex = savedState.courseIndex;
+          renderCursoAtual();
+        }, 400);
+      }
+    }, 400);
+  }
+}
