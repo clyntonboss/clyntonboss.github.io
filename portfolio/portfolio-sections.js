@@ -1633,13 +1633,14 @@ const sections = {
       <div class="cert-links">
           <!--  Dados e Inteligência -->
           <a href="/portfolio/formacoes-complementares/analise-de-dados/">Análise de Dados</a>
-          <a href="#" data-category="bancoDados">Banco de Dados</a>
+          <a href="#" data-category="bancoDados">Bancos de Dados</a>
           <a href="#" data-category="bigData">Big Data</a>
           <a href="/portfolio/formacoes-complementares/inteligencia-artificial/">Inteligência Artificial</a>
           <a href="#" data-category="dataStorytelling">Data Storytelling</a>
           
           <!-- Tecnologia e Fundamentos -->
           <a href="/portfolio/formacoes-complementares/cloud/">Cloud</a>
+          <a href="#" data-category="sistemasOperacionais">Sistemas Operacionais</a>
           <a href="/portfolio/formacoes-complementares/sistemas-operacionais/">Sistema Operacional</a>
           <a href="/portfolio/formacoes-complementares/seguranca-da-informacao/">Segurança da Informação</a>
           <a href="/portfolio/formacoes-complementares/programacao/">Programação</a>
