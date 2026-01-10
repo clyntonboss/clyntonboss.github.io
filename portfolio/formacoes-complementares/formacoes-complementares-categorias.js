@@ -154,4 +154,56 @@ const categoriasFormacoesComplementares = {
                                  Esse conjunto de competências sustenta a criação de visualizações eficazes, apresentações executivas e painéis analíticos orientados à clareza, contexto e impacto na tomada de decisão.</div>
     `
   },
+
+  sistemasOperacionais: {
+    title: "Sistemas Operacionais",
+    dataset: "/portfolio/formacoes-complementares/sistemas-operacionais/sistemas-operacionais-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Sistemas Operacionais, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam fundamentos, uso e boas práticas na administração de sistemas operacionais, com foco em ambientes computacionais utilizados em soluções de dados e sistemas.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Sistemas Operacionais fortaleceram a compreensão sobre funcionamento, administração e interação entre hardware, software e aplicações.<br>
+                                 Esse conhecimento sustenta atividades relacionadas à infraestrutura, suporte a sistemas, ambientes de dados e integração de soluções, garantindo estabilidade, desempenho e confiabilidade operacional.</div>
+    `
+  },
 };
