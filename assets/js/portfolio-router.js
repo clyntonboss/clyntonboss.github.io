@@ -389,3 +389,28 @@ function getViewButtonsOrdered(order) {
 
   return order.map(k => map[k]).filter(Boolean);
 }
+
+function savePortfolioState(partialState = {}) {
+  const currentState = JSON.parse(
+    sessionStorage.getItem("portfolioState") || "{}"
+  );
+
+  const newState = {
+    ...currentState,
+    ...partialState
+  };
+
+  sessionStorage.setItem(
+    "portfolioState",
+    JSON.stringify(newState)
+  );
+}
+
+function getPortfolioState() {
+  const raw = sessionStorage.getItem("portfolioState");
+  return raw ? JSON.parse(raw) : null;
+}
+
+function clearPortfolioState() {
+  sessionStorage.removeItem("portfolioState");
+}
