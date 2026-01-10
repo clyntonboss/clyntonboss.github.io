@@ -18,6 +18,12 @@ function ativarTransicao(container) {
 
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
+
+  // 🧠 salva apenas o modo de visualização
+  savePortfolioState({
+    viewMode: mode
+  });
+
   atualizarBotoesDeVisualizacao(mode);
 
   // 🔹 pega o modo atualmente visível
