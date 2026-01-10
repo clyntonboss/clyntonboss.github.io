@@ -258,4 +258,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam o uso responsável de dados, a conformidade com normas e a mitigação de riscos em ambientes analíticos, sistemas e processos organizacionais.</div>
     `
   },
+
+  roboticProcessAutomation: {
+    title: "Robotic Process Automation",
+    dataset: "/portfolio/formacoes-complementares/robotic-process-automation/robotic-process-automation-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Robotic Process Automation (RPA), organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam conceitos, ferramentas e práticas voltadas à automação de processos repetitivos e estruturados, integrando sistemas, dados e fluxos operacionais.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em RPA contribuíram para o entendimento e aplicação de soluções de automação orientadas a processos, com foco em eficiência, padronização e redução de esforços operacionais.<br>
+                                 Esses conhecimentos apoiam a integração entre sistemas, o tratamento automatizado de dados e a melhoria contínua de fluxos de trabalho em diferentes contextos organizacionais.</div>
+    `
+  },
 };
