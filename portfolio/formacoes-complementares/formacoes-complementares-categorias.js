@@ -206,4 +206,56 @@ const categoriasFormacoesComplementares = {
                                  Esse conhecimento sustenta atividades relacionadas à infraestrutura, suporte a sistemas, ambientes de dados e integração de soluções, garantindo estabilidade, desempenho e confiabilidade operacional.</div>
     `
   },
+
+  segurancaInformacao: {
+    title: "Segurança da Informação",
+    dataset: "/portfolio/formacoes-complementares/seguranca-da-informacao/seguranca-da-informacao-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Segurança da Informação, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam princípios, boas práticas e mecanismos voltados à proteção de dados, sistemas e informações em diferentes ambientes tecnológicos.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Segurança da Informação contribuíram para o entendimento de práticas e controles voltados à proteção, confidencialidade e integridade da informação.<br>
+                                 Esses conhecimentos apoiam o uso responsável de dados, a conformidade com normas e a mitigação de riscos em ambientes analíticos, sistemas e processos organizacionais.</div>
+    `
+  },
 };
