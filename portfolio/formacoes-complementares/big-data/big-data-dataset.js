@@ -144,5 +144,49 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.06.22 · Databricks Academy · Introduction to Python™ for Data Science and Data Engineering.png",
 
     verificacao: null
+  },
+
+  {
+    id: 7,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Introduction to Apache™ Spark",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-22",
+
+    dataConclusao: "22 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.06.22 · Databricks Academy · Introduction to Apache™ Spark.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 8,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Developing Applications with Apache™ Spark",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-22",
+
+    dataConclusao: "22 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.06.22 · Databricks Academy · Developing Applications with Apache™ Spark.png",
+
+    verificacao: null
   }
 ];
