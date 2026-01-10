@@ -354,6 +354,11 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
       btn.removeAttribute("aria-disabled");
     }
   });
+
+  // 🛡️ proteção total
+  if (typeof atualizarTooltipsViewMode === "function") {
+    atualizarTooltipsViewMode(mode);
+  }
 }
 
 // ⛔ =============== The End =============== ⛔
@@ -442,4 +447,31 @@ function copiarCodigo(codigo, btn) {
       }, 6400);
     })
     .catch(err => console.error("Erro ao copiar: ", err));
+}
+
+function atualizarTooltipsViewMode(modoAtivo) {
+  const container = document.getElementById("view-mode-controls");
+  if (!container) return;
+
+  const buttons = container.querySelectorAll(".view-btn");
+
+  buttons.forEach(btn => {
+    const modo = btn.dataset.view;
+    if (!modo) return;
+
+    const nomeModo =
+      modo.charAt(0).toUpperCase() + modo.slice(1);
+
+    if (modo === modoAtivo) {
+      btn.setAttribute(
+        "aria-label",
+        `Modo de Visualização ${nomeModo} (Ativo)`
+      );
+    } else {
+      btn.setAttribute(
+        "aria-label",
+        `Ativar Modo de Visualização ${nomeModo}`
+      );
+    }
+  });
 }
