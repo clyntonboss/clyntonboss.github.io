@@ -19,11 +19,6 @@ function ativarTransicao(container) {
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
 
-  // 🧠 salva apenas o modo de visualização
-  savePortfolioState({
-    viewMode: mode
-  });
-
   atualizarBotoesDeVisualizacao(mode);
 
   // 🔹 pega o modo atualmente visível
@@ -101,11 +96,6 @@ function renderBlocoCurso(index) {
 
   // Atualiza índice global
   cursoAtualIndex = index;
-
-  // 🧠 persiste o curso atual da sessão
-  savePortfolioState({
-    courseIndex: cursoAtualIndex
-  });
 
   // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
