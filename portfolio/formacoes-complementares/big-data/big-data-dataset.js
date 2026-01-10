@@ -97,5 +97,52 @@ window.datasetCategoria = [
       url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 5,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Big Data - Avançado e Mineração de Dados",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-07",
+
+    dataConclusao: "07 de maio de 2025",
+
+    codigo: "681b959d-8be8-42cd-95a4-ed13c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.05.07 · Instituto Federal Minas Gerais · Big Data · Avançado e Mineração de Dados.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 6,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Introduction to Python™ for Data Science and Data Engineering",
+    
+    cargaHoraria: "12 h",
+
+    conclusaoISO: "2025-06-22",
+
+    dataConclusao: "22 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.06.22 · Databricks Academy · Introduction to Python™ for Data Science and Data Engineering.png",
+
+    verificacao: null
   }
 ];
