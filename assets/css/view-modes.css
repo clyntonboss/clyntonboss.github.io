@@ -50,9 +50,14 @@
   transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
+.view-btn[aria-label] {
+  font-size: 10px;
+  font-weight: 400;
+}
+
 /* hover dispara animação */
 .view-btn[aria-label]:hover::after {
-  font-size: 0.6rem;
+  font-size: 10px;
   font-weight: 400;
   animation: tooltip-life 4s ease forwards;
 }
