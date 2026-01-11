@@ -250,8 +250,6 @@ document.addEventListener("click", e => {
   clearSideMenuActive();
   
   loadCategoryDataset(category.dataset, () => {
-    // 🔹 inicializa navegação do bloco
-    inicializarNavegacaoBloco();
   
     // 🔹 força modo inicial
     setViewMode("block");
