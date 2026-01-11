@@ -23,7 +23,7 @@ const categoriasFormacoesComplementares = {
             </span>
           
             <span id="course-indicator" class="course-nav-indicator">
-              1 / 1000
+              1 / 21
             </span>
           
             <span id="next-course" class="course-nav-action" role="button">
