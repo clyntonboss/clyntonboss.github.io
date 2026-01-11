@@ -346,7 +346,7 @@ function atualizarBotoesDeVisualizacao(mode) {
   const buttons = document.querySelectorAll(".view-btn");
 
   buttons.forEach(btn => {
-    if (btn.dataset.view === modoAtivo) {
+    if (btn.dataset.view === mode) {
       btn.classList.add("active");
       btn.setAttribute("aria-disabled", "true");
     } else {
@@ -459,7 +459,7 @@ function atualizarTooltipsViewMode(mode) {
     const nomeModo =
       modo.charAt(0).toUpperCase() + modo.slice(1);
 
-    if (modo === modoAtivo) {
+    if (modo === mode) {
       btn.setAttribute(
         "aria-label",
         `Modo de Visualização ${nomeModo} (Ativo)`
