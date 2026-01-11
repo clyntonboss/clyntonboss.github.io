@@ -35,7 +35,7 @@
 .view-btn.active {
     opacity: 1;
     font-weight: 600;
-    cursor: default;        /* remove aparência de ação */
+    cursor: not-allowed;        /* remove aparência de ação */
     transform: scale(1.2) translateX(0);
 }
 
