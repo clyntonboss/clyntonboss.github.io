@@ -362,4 +362,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a gestão de projetos analíticos, tecnológicos e de melhoria de processos, promovendo alinhamento entre objetivos, recursos e resultados esperados.</div>
     `
   },
+
+  metodologiaAgil: {
+    title: "Metodologia Ágil",
+    dataset: "/portfolio/formacoes-complementares/metodologia-agil/metodologia-agil-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Metodologias Ágeis, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam princípios, frameworks e práticas ágeis aplicados à gestão de projetos, desenvolvimento de soluções e melhoria contínua de processos.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Metodologias Ágeis fortaleceram a compreensão sobre práticas colaborativas, ciclos iterativos e adaptação contínua a mudanças.<br>
+                                 Esses conhecimentos apoiam a condução de projetos e iniciativas analíticas ou tecnológicas de forma incremental, promovendo alinhamento, transparência e entrega de valor ao longo do processo.</div>
+    `
+  },
 };
