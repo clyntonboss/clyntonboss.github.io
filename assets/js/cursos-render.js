@@ -84,6 +84,16 @@ function trocarModoInterno(mode) {
 // ❎ ======= Renderização Block Mode ======= ❎
 
 function renderBlocoCurso(index) {
+  if (!Array.isArray(datasetCategoria) || datasetCategoria.length === 0) {
+    return;
+  }
+
+  // 🔐 normaliza índice
+  if (index < 0) index = 0;
+  if (index >= datasetCategoria.length) {
+    index = datasetCategoria.length - 1;
+  }
+
   localStorage.setItem("blockCourseIndex", index);
 
   const container = document.getElementById("course-block");
