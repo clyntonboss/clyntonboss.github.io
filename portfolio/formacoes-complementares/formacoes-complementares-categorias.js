@@ -310,4 +310,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a integração entre sistemas, o tratamento automatizado de dados e a melhoria contínua de fluxos de trabalho em diferentes contextos organizacionais.</div>
     `
   },
+
+  gestaoProjetos: {
+    title: "Gestão de Projetos",
+    dataset: "/portfolio/formacoes-complementares/gestao-de-projetos/gestao-de-projetos-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Projetos, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam conceitos, métodos e práticas voltadas ao planejamento, execução, acompanhamento e entrega de projetos em diferentes contextos organizacionais.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Gestão de Projetos contribuíram para o desenvolvimento de competências relacionadas à organização, priorização e condução de iniciativas com foco em prazo, escopo e qualidade.<br>
+                                 Esses conhecimentos apoiam a gestão de projetos analíticos, tecnológicos e de melhoria de processos, promovendo alinhamento entre objetivos, recursos e resultados esperados.</div>
+    `
+  },
 };
