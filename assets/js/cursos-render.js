@@ -19,7 +19,7 @@ function ativarTransicao(container) {
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
 
-  atualizarBotoesDeVisualizacao(mode);
+  atualizarBotoesDeVisualizacao(modoAtivo);
 
   // 🔹 pega o modo atualmente visível
   const current = document.querySelector(
@@ -354,6 +354,11 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
       btn.removeAttribute("aria-disabled");
     }
   });
+
+  // 🛡️ proteção total
+  if (typeof atualizarTooltipsViewMode === "function") {
+    atualizarTooltipsViewMode(mode);
+  }
 }
 
 // ⛔ =============== The End =============== ⛔
