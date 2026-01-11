@@ -52,7 +52,7 @@
 
 /* hover dispara animação */
 .view-btn[aria-label]:hover::after {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   font-weight: 400;
   animation: tooltip-life 4s ease forwards;
 }
