@@ -537,5 +537,30 @@ window.datasetCategoria = [
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 25,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Modelando Dados no Power BI",
+    
+    cargaHoraria: "11 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "CB48-4543-B9DB-31B741345C19",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Fundação Bradesco · Modelando Dados no Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
