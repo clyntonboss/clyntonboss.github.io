@@ -465,5 +465,27 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.22 · Retez Data Treinamento · Minicurso de Power BI.png",
 
     verificacao: null
+  },
+
+  {
+    id: 22,
+
+    instituicao: "Escola Karen Abecia",
+ 
+    curso: "Imersão em Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-03-24",
+
+    dataConclusao: "24 de março de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.24 · Escola Karen Abecia · Imersão em Power BI.png",
+
+    verificacao: null
   }
 ];
