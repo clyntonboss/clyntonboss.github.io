@@ -462,12 +462,12 @@ function atualizarTooltipsViewMode(modoAtivo) {
     if (modo === modoAtivo) {
       btn.setAttribute(
         "aria-label",
-        `Modo ${nomeModo} (Ativo)`
+        `Modo de Visualização ${nomeModo} (Ativo)`
       );
     } else {
       btn.setAttribute(
         "aria-label",
-        `Ativar modo ${nomeModo}`
+        `Ativar Modo de Visualização ${nomeModo}`
       );
     }
   });
