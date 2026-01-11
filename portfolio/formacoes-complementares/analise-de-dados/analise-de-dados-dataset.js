@@ -512,5 +512,30 @@ window.datasetCategoria = [
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 24,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Preparando Dados para Análise - Microsoft Power BI",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "8AD8AF3F-0FF8-43A2-A9D3-CDC45B7487CC",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Fundação Bradesco · Preparando Dados para Análise - Microsoft Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
