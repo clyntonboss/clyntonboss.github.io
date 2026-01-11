@@ -44,18 +44,14 @@
 }
 
 /* tooltip base */
-.view-btn[aria-label]::after,
-.theme-toggle[aria-label]::after,
-.copiar-btn[aria-label]::after {
+.view-btn[aria-label]::after {
   opacity: 0;
   transform: translateX(-50%) translateY(4px);
   transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
 /* hover dispara animação */
-.view-btn[aria-label]:hover::after,
-.theme-toggle[aria-label]:hover::after,
-.copiar-btn[aria-label]:hover::after {
+.view-btn[aria-label]:hover::after {
   font-size: 0.8rem;
   font-weight: 400;
   animation: tooltip-life 4s ease forwards;
