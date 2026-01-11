@@ -260,6 +260,12 @@ document.addEventListener("click", e => {
     animarEntradaViewModes();
   }
 
+  const btn = e.target.closest(".view-btn.active");
+  if (btn) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+
 });
 
 function animateViewTransition(callback) {
