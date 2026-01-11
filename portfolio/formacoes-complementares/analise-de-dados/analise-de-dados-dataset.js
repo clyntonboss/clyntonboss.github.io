@@ -443,5 +443,242 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.15 · Elite Analyst Solutions · Analista de Elite com DAX (Data Analysis Expressions).png",
 
     verificacao: null
+  },
+
+  {
+    id: 21,
+
+    instituicao: "Retez Data Treinamento",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-03-22",
+
+    dataConclusao: "22 de março de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.22 · Retez Data Treinamento · Minicurso de Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 22,
+
+    instituicao: "Escola Karen Abecia",
+ 
+    curso: "Imersão em Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-03-24",
+
+    dataConclusao: "24 de março de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.24 · Escola Karen Abecia · Imersão em Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 23,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Introdução à Análise de Dados - Microsoft Power BI",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "DFEA1BFC-8B25-4CE4-95EF-19921D5902D1",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Fundação Bradesco · Introdução à Análise de Dados - Microsoft Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 24,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Preparando Dados para Análise - Microsoft Power BI",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "8AD8AF3F-0FF8-43A2-A9D3-CDC45B7487CC",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Fundação Bradesco · Preparando Dados para Análise - Microsoft Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 25,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Modelando Dados no Power BI",
+    
+    cargaHoraria: "11 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "CB48-4543-B9DB-31B741345C19",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Fundação Bradesco · Modelando Dados no Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 26,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Visualizando Dados no Power BI",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "8AB2DEB8-7EAD-4196-B26A-C9B2D6B28276",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.34 · Fundação Bradesco · Visualizando Dados no Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 27,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Análise de Dados no Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "CEB6-47EF-ABB9-98D12AF3DA52",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Fundação Bradesco · Análise de Dados no Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 28,
+
+    instituicao: "Grupo Tan",
+ 
+    curso: "Imersão em Excel",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Grupo Tan · Imersão em Excel.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 29,
+
+    instituicao: "Minhas Planilhas",
+ 
+    curso: "Imersão Power BI",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-04-04",
+
+    dataConclusao: "04 de abril de 2024",
+
+    codigo: "96cc26aa3fa7c4a62cee25c835d1119e7ead3334",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.04 · Minhas Planilhas · Imersão Power BI.png",
+
+    verificacao: {
+      url: "https://cursos.comunidadedashmaker.com.br/verify/96cc26aa3fa7c4a62cee25c835d1119e7ead3334",
+      texto: "Verificar Autenticidade"
+    },
+
+  {
+    id: 30,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Power BI Week",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-04-04",
+
+    dataConclusao: "04 de abril de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.04 · Xperiun · Data Analytics · Power BI Week.png",
+
+    verificacao: null
   }
 ];
