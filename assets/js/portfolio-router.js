@@ -199,13 +199,17 @@ function animateTransition(updateCallback) {
   animatedElements.forEach(el => el.classList.add("is-active"));
 });
 
-document.addEventListener("click", e => {
-  const btn = e.target.closest(".view-btn.active");
-  if (btn) {
+document.addEventListener(
+  "click",
+  e => {
+    const activeViewBtn = e.target.closest(".view-btn.active");
+    if (!activeViewBtn) return;
+
     e.preventDefault();
-    e.stopPropagation();
-  }
-});
+    e.stopImmediatePropagation();
+  },
+  true // 👈 FASE DE CAPTURA (ESSENCIAL)
+);
 
 document.addEventListener("click", e => {
   const link = e.target.closest("[data-category]");
