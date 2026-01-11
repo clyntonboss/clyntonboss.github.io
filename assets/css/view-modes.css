@@ -42,3 +42,9 @@
 .view-btn:not(.active) {
   pointer-events: auto;
 }
+
+.view-btn[aria-label]:hover::after,
+.view-btn[aria-label]:focus-visible::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
