@@ -342,7 +342,7 @@ function limparTodosOsModos() {
 
 // ❎ ===== Atualizar Estado dos Ícones ===== ❎
 
-function atualizarBotoesDeVisualizacao(modoAtivo) {
+function atualizarBotoesDeVisualizacao(mode) {
   const buttons = document.querySelectorAll(".view-btn");
 
   buttons.forEach(btn => {
