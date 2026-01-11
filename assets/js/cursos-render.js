@@ -444,7 +444,7 @@ function copiarCodigo(codigo, btn) {
       // restaura texto após um tempo
       setTimeout(() => {
         btn.setAttribute("aria-label", labelOriginal);
-      }, 6400);
+      }, 8000);
     })
     .catch(err => console.error("Erro ao copiar: ", err));
 }
