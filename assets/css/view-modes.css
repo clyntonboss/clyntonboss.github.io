@@ -1,0 +1,82 @@
+.header-with-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-mode-controls {
+  display: none;
+  gap: 24px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.view-mode-controls.is-visible {
+  display: flex;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.view-btn {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.view-btn:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.view-btn.active {
+    opacity: 1;
+    font-weight: 600;
+    cursor: default;        /* remove aparência de ação */
+    transform: scale(1.2) translateX(0);
+}
+
+.view-btn:not(.active) {
+  pointer-events: auto;
+}
+
+/* tooltip base */
+.view-btn[aria-label]::after,
+.theme-toggle[aria-label]::after,
+.copiar-btn[aria-label]::after {
+  opacity: 0;
+  transform: translateX(-50%) translateY(4px);
+  pointer-events: none;
+
+  transition:
+    opacity 0.15s ease,
+    transform 0.15s ease;
+}
+
+/* hover dispara animação */
+.view-btn[aria-label]:hover::after,
+.theme-toggle[aria-label]:hover::after,
+.copiar-btn[aria-label]:hover::after {
+  animation: tooltip-life 2.2s ease forwards;
+}
+
+/* ciclo de vida do tooltip */
+@keyframes tooltip-life {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(6px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
