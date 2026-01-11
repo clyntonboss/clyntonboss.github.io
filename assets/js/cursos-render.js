@@ -19,7 +19,7 @@ function ativarTransicao(container) {
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
 
-  atualizarBotoesDeVisualizacao(modoAtivo);
+  atualizarBotoesDeVisualizacao(mode);
 
   // 🔹 pega o modo atualmente visível
   const current = document.querySelector(
