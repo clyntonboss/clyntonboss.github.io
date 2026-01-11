@@ -43,6 +43,13 @@
   pointer-events: auto;
 }
 
+.view-btn::after {
+  font-size: 10px;
+  font-weight: 400;
+  transform: translateX(-50%) translateY(4px) scale(1);
+}
+
+
 /* tooltip base */
 .view-btn[aria-label]::after {
   opacity: 0;
@@ -52,8 +59,6 @@
 
 /* hover dispara animação */
 .view-btn[aria-label]:hover::after {
-  font-size: 10px;
-  font-weight: 400;
   animation: tooltip-life 4s ease forwards;
 }
 
