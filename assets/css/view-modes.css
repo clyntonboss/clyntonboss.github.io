@@ -56,7 +56,9 @@
 .view-btn[aria-label]:hover::after,
 .theme-toggle[aria-label]:hover::after,
 .copiar-btn[aria-label]:hover::after {
-  animation: tooltip-life 2.2s ease forwards;
+  font-size: 0.8rem;
+  font-weight: 400;
+  animation: tooltip-life 4s ease forwards;
 }
 
 /* ciclo de vida do tooltip */
@@ -65,11 +67,11 @@
     opacity: 0;
     transform: translateX(-50%) translateY(6px);
   }
-  10% {
+  25% {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
   }
-  85% {
+  75% {
     opacity: 1;
   }
   100% {
