@@ -1646,7 +1646,7 @@ const sections = {
           <a href="#" data-category="roboticProcessAutomation">Robotic Process Automation</a>
                           
           <!-- Gestão e Negócios -->
-          <a href="/portfolio/formacoes-complementares/gestao-de-projetos/">Gestão de Projetos</a>
+          <a href="#" data-category="gestaoProjetos">Gestão de Projetos</a>
           <a href="/portfolio/formacoes-complementares/metodologia-agil/">Metodologia Ágil</a>
           <a href="/portfolio/formacoes-complementares/gestao-da-tecnologia/">Gestão da Tecnologia</a>
           <a href="/portfolio/formacoes-complementares/gestao-de-operacoes/">Gestão de Operações</a>
