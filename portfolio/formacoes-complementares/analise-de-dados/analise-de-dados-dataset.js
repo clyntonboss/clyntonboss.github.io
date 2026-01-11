@@ -487,5 +487,30 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.24 · Escola Karen Abecia · Imersão em Power BI.png",
 
     verificacao: null
+  },
+
+  {
+    id: 23,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Introdução à Análise de Dados - Microsoft Power BI",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "DFEA1BFC-8B25-4CE4-95EF-19921D5902D1",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Fundação Bradesco · Introdução à Análise de Dados - Microsoft Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
