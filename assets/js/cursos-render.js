@@ -357,7 +357,7 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
 
   // 🛡️ proteção total
   if (typeof atualizarTooltipsViewMode === "function") {
-    atualizarTooltipsViewMode(mode);
+    atualizarTooltipsViewMode(modoAtivo);
   }
 }
 
