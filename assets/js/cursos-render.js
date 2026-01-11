@@ -44,10 +44,10 @@ function trocarModoInterno(mode) {
 
   let alvo = null;
 
-  if (mode === "bloco") alvo = document.getElementById("course-block");
-  if (mode === "fluido")  alvo = document.getElementById("courses-flow");
-  if (mode === "lista")  alvo = document.getElementById("courses-container");
-  if (mode === "grade")  alvo = document.getElementById("courses-grid");
+  if (mode === "block") alvo = document.getElementById("course-block");
+  if (mode === "flow")  alvo = document.getElementById("courses-flow");
+  if (mode === "list")  alvo = document.getElementById("courses-container");
+  if (mode === "grid")  alvo = document.getElementById("courses-grid");
 
   if (!alvo) return;
 
@@ -55,7 +55,7 @@ function trocarModoInterno(mode) {
   alvo.classList.remove("hidden");
 
   // 🔹 renderiza
-  if (mode === "bloco") {
+  if (mode === "block") {
     const savedIndex = parseInt(
       localStorage.getItem("blockCourseIndex"),
       10
@@ -63,9 +63,9 @@ function trocarModoInterno(mode) {
     renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
   }
 
-  if (mode === "fluido") renderFluxoCursos(datasetCategoria);
-  if (mode === "lista") renderListaCursos(datasetCategoria);
-  if (mode === "grade") renderGradeCursos(datasetCategoria);
+  if (mode === "flow") renderFluxoCursos(datasetCategoria);
+  if (mode === "list") renderListaCursos(datasetCategoria);
+  if (mode === "grid") renderGradeCursos(datasetCategoria);
 
   // 🔹 SCROLL PARA O TOPO DA SEÇÃO (CORRETO)
   if (mode !== "block") {
@@ -395,7 +395,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ❎ ==== Alternar Modo de Visualização ==== ❎
 
 function trocarModo(mode) {
-  if (mode !== "bloco") {
+  if (mode !== "block") {
     window.scrollTo({
       top: 0,
       behavior: "instant"
