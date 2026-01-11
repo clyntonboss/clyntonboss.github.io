@@ -202,6 +202,20 @@ function animateTransition(updateCallback) {
 document.addEventListener(
   "click",
   e => {
+    const activeSection = e.target.closest(
+      ".side-menu a.active"
+    );
+    if (!activeSection) return;
+
+    e.preventDefault();
+    e.stopImmediatePropagation();
+  },
+  true
+);
+
+document.addEventListener(
+  "click",
+  e => {
     const activeViewBtn = e.target.closest(".view-btn.active");
     if (!activeViewBtn) return;
 
