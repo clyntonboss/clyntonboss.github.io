@@ -392,10 +392,10 @@ function animarSaidaViewModes(callback) {
 
 function getViewButtonsOrdered(order) {
   const map = {
-    block: document.querySelector('.view-btn[data-view="bloco"]'),
-    flow:  document.querySelector('.view-btn[data-view="fluido"]'),
-    list:  document.querySelector('.view-btn[data-view="lista"]'),
-    grid:  document.querySelector('.view-btn[data-view="grade"]')
+    block: document.querySelector('.view-btn[data-view="block"]'),
+    flow:  document.querySelector('.view-btn[data-view="flow"]'),
+    list:  document.querySelector('.view-btn[data-view="list"]'),
+    grid:  document.querySelector('.view-btn[data-view="grid"]')
   };
 
   return order.map(k => map[k]).filter(Boolean);
