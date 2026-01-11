@@ -467,7 +467,7 @@ function atualizarTooltipsViewMode(modoAtivo) {
     } else {
       btn.setAttribute(
         "aria-label",
-        `Ativar Modo de Visualização ${nomeModo}`
+        `Modo de Visualização ${nomeModo} (Ativar)`
       );
     }
   });
