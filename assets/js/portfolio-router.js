@@ -202,6 +202,8 @@ function animateTransition(updateCallback) {
 document.addEventListener("click", e => {
   const link = e.target.closest("[data-category]");
   if (!link) return;
+  const btn = e.target.closest(".view-btn.active");
+  if (!btn) return;
 
   e.preventDefault();
 
@@ -259,13 +261,6 @@ document.addEventListener("click", e => {
     updateViewModeControls(true);
     animarEntradaViewModes();
   }
-
-  const btn = e.target.closest(".view-btn.active");
-  if (btn) {
-    e.preventDefault();
-    e.stopPropagation();
-  }
-
 });
 
 function animateViewTransition(callback) {
