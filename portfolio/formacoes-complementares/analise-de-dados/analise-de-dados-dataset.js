@@ -587,5 +587,30 @@ window.datasetCategoria = [
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 27,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Análise de Dados no Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "DF89A396-CEB6-47EF-ABB9-98D12AF3DA52",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Fundação Bradesco · Análise de Dados no Power BI.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
