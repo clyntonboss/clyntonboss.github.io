@@ -612,5 +612,27 @@ window.datasetCategoria = [
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 28,
+
+    instituicao: "Grupo Tan",
+ 
+    curso: "Imersão em Excel",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-03-31",
+
+    dataConclusao: "31 de março de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Grupo Tan · Imersão em Excel.png",
+
+    verificacao: null
   }
 ];
