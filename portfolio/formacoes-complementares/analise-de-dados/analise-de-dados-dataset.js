@@ -354,7 +354,10 @@ window.datasetCategoria = [
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.07 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
 
-    verificacao: null
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=07%2F03%2F2024&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
   },
 
   {
@@ -2622,7 +2625,10 @@ window.datasetCategoria = [
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.19 · Hashtag Treinamentos · Intensivão de Análise de Dados.png",
 
-    verificacao: null
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Análise+de+Dados&dtcf=19%2F12%2F2024&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
   },
 
   {
@@ -2731,6 +2737,232 @@ window.datasetCategoria = [
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.16 · Comunidade Data Driven · Imersão Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 121,
+
+    instituicao: "Gran Faculdade",
+ 
+    curso: "Análise de Dados e Inteligência de Negócios",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-02-17",
+
+    dataConclusao: "17 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.17 · Gran Faculdade · Análise de Dados e Inteligência de Negócios.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 122,
+
+    instituicao: "Gran Faculdade",
+ 
+    curso: "Hashtag Treinamentos",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-02-20",
+
+    dataConclusao: "20 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.20 · Hashtag Treinamentos · Intensivão de Power BI.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Power+BI&dtcf=20%2F02%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 123,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Business Intelligence",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-02-27",
+
+    dataConclusao: "27 de fevereiro de 2025",
+
+    codigo: "71555f1cd0d212c3d7dc5dc3b2b67659",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.27 · FIAP - Centro Universitário · Business Intelligence.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=71555f1cd0d212c3d7dc5dc3b2b67659&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 124,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Power BI Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-03-13",
+
+    dataConclusao: "13 de março de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.03.13 · Simplifica Treinamentos · Simplifica Power BI Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 125,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-03-13",
+
+    dataConclusao: "13 de março de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.03.13 · Tetra Educação · Básico de Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 126,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Linguagem DAX Essencial",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-04-07",
+
+    dataConclusao: "07 de abril de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.07 · Xperiun · Data Analytics · Linguagem DAX Essencial.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 127,
+
+    instituicao: "Empowerdata",
+ 
+    curso: "Acelerador de Carreira com Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-04-10",
+
+    dataConclusao: "10 de abril de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.10 · Empowerdata · Acelerador de Carreira com Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 128,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-04-10",
+
+    dataConclusao: "10 de abril de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.10 · Simplifica Treinamentos · Simplifica Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 129,
+
+    instituicao: "Simpli Learn",
+ 
+    curso: "Apache™ Spark Beginners Course",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-04-13",
+
+    dataConclusao: "13 de abril de 2025",
+
+    codigo: "8185917",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.13 · Simpli Learn · Apache™ Spark Beginners Course.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 130,
+
+    instituicao: "Simpli Learn",
+ 
+    curso: "Getting Started with Apache™ Hadoop",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-04-17",
+
+    dataConclusao: "17 de abril de 2025",
+
+    codigo: "8206950",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.17 · Simpli Learn · Getting Started with Apache™ Hadoop.png",
 
     verificacao: null
   }
