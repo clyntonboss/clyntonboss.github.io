@@ -2040,5 +2040,234 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.21 · Didática Tech · R Básico para Iniciantes.png",
 
     verificacao: null
+  },
+
+  {
+    id: 91,
+
+    instituicao: "Planilheiros",
+ 
+    curso: "Básico de DAX Studio",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-10-21",
+
+    dataConclusao: "21 de outubro de 2024",
+
+    codigo: "671684a54cd9126eb104c038",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.21 · Planilheiros · Básico de DAX Studio.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 92,
+
+    instituicao: "Didática Tech",
+ 
+    curso: "Python™ para Machne Learning e Ciência de Dados",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-10-22",
+
+    dataConclusao: "22 de outubro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.22 · Didática Tech · Python™ para Machne Learning e Ciência de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 93,
+
+    instituicao: "Escola de Inteligência Artificial",
+ 
+    curso: "Data Science para Iniciantes: Fácil e Simples!",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2024-10-22",
+
+    dataConclusao: "22 de outubro de 2024",
+
+    codigo: "vlwCAEnr",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.22 · Escola de Inteligência Artificial · Data Science para Iniciantes · Fácil e Simples!.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 94,
+
+    instituicao: "Planilheiros",
+ 
+    curso: "Power BI Report Server Básico",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-10-22",
+
+    dataConclusao: "22 de outubro de 2024",
+
+    codigo: "6717424c655fa79f900de968",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.22 · Planilheiros · Power BI Report Server Básico.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 95,
+
+    instituicao: "Escola de Inteligência Artificial",
+ 
+    curso: "Dashboards Matadores: Domine a Arte de Apresentação de Dados",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-10-23",
+
+    dataConclusao: "23 de outubro de 2024",
+
+    codigo: "ZKrT1oBa",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.23 · Escola de Inteligência Artificial · Dashboards Matadores · Domine a Arte de Apresentação de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 96,
+
+    instituicao: "Cursa",
+ 
+    curso: "Tableau",
+    
+    cargaHoraria: "9 h",
+
+    conclusaoISO: "2024-10-25",
+
+    dataConclusao: "25 de outubro de 2024",
+
+    codigo: "e62989dc7c",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.25 · Cursa · Tableau.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 97,
+
+    instituicao: "Data Science Academy",
+ 
+    curso: "Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Nível Introdutório)",
+    
+    cargaHoraria: "24 h",
+
+    conclusaoISO: "2024-10-28",
+
+    dataConclusao: "28 de outubro de 2024",
+
+    codigo: "671fb764ea6ffdf0130b6219",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.28 · Data Science Academy · Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Introdutório).png",
+
+    verificacao: {
+      url: "https://mycourse.app/u7DQ5gpXpC8kGoqB9",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 98,
+
+    instituicao: "Didática Tech",
+ 
+    curso: "R para Machine Learning e Ciência de Dados",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-10-29",
+
+    dataConclusao: "29 de outubro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.29 · Didática Tech · R para Machine Learning e Ciência de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 99,
+
+    instituicao: "Cursa",
+ 
+    curso: "Looker Studio Básico ao Avançado",
+    
+    cargaHoraria: "11 h",
+
+    conclusaoISO: "2024-10-30",
+
+    dataConclusao: "30 de outubro de 2024",
+
+    codigo: "ed7018a7ba",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.30 · Cursa · Looker Studio Básico ao Avançado.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/ed7018a7ba",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 100,
+
+    instituicao: "Data Science Academy",
+ 
+    curso: "Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Nível Básico)",
+    
+    cargaHoraria: "48 h",
+
+    conclusaoISO: "2024-10-30",
+
+    dataConclusao: "30 de outubro de 2024",
+
+    codigo: "672095bc301451fc7e0d0347",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.30 · Data Science Academy · Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Básico).png",
+
+    verificacao: {
+      url: "https://mycourse.app/5Rjaw6BrZdbF9fo19",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
