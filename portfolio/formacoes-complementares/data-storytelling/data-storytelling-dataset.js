@@ -16,7 +16,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.11 · Escola Nacional de Administração Pública · Storytelling com Dados para Comunicação Profissional de Sucesso.png",
+    thumb: "/portfolio/formacoes-complementares/data-storytelling/certificados/2024.10.11 · Escola Nacional de Administração Pública · Storytelling com Dados para Comunicação Profissional de Sucesso.png",
 
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
