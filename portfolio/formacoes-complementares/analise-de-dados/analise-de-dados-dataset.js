@@ -907,5 +907,228 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.04 · Xperiun · Data Analytics · Power BI.png",
 
     verificacao: null
+  },
+
+  {
+    id: 41,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Power BI Series",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-05-04",
+
+    dataConclusao: "04 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.04 · Xperiun · Data Analytics · Power BI Series.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 42,
+
+    instituicao: "Empowerdata",
+ 
+    curso: "Acelerador de Carreira com Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-05-09",
+
+    dataConclusao: "09 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.09 · Empowerdata · Acelerador de Carreira com Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 43,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Power BI Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-05-09",
+
+    dataConclusao: "09 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.09 · Simplifica Treinamentos · Simplifica Power BI Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 44,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Dashboards no Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-05-09",
+
+    dataConclusao: "09 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.09 · Tetra Educação · Dashboards no Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 45,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Semana do Excel",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-05-16",
+
+    dataConclusao: "16 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.16 · Hashtag Treinamentos · Semana do Excel.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Semana+do+Excel&dtcf=16%2F05%2F2024&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 46,
+
+    instituicao: "Comunidade Data Driven",
+ 
+    curso: "Power BI Discovery",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-05-19",
+
+    dataConclusao: "19 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.19 · Comunidade Data Driven · Power BI Discovery.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 47,
+
+    instituicao: "Didática Tech",
+ 
+    curso: "Power BI Básico com Machine Learning",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-05-20",
+
+    dataConclusao: "20 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.20 · Didática Tech · Power BI Básico com Machine Learning.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 48,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Data Expert: O Fim dos Relatórios Amadores",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-05-23",
+
+    dataConclusao: "23 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.23 · Xperiun · Data Analytics · Data Expert · O Fim dos Relatórios Amadores.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 49,
+
+    instituicao: "Black Eagle Treinamentos [JOV!ANO]",
+ 
+    curso: "Excel no Processo Seletivo",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-05-27",
+
+    dataConclusao: "27 de maio de 2024",
+
+    codigo: "Y2VydGlmaWNhdGVfNil5MI8xNzY%3D",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.27 · BLACK EAGLE TREINAMENTOS [JOV!ANO] · Excel no Processo Seletivo.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 50,
+
+    instituicao: "Black Eagle Treinamentos [JOV!ANO]",
+ 
+    curso: "Power Query - Primeiros Passos",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-05-28",
+
+    dataConclusao: "28 de maio de 2024",
+
+    codigo: "Y2VydGlmaWNhdGVfNjI5MI8xNzU%3D",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.28 · BLACK EAGLE TREINAMENTOS [JOV!ANO] · Power Query - Primeiros Passos.png",
+
+    verificacao: null
   }
 ];
