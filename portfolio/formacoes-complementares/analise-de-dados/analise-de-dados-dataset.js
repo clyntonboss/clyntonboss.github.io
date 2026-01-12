@@ -681,5 +681,231 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.04 · Xperiun · Data Analytics · Power BI Week.png",
 
     verificacao: null
+  },
+
+  {
+    id: 31,
+
+    instituicao: "Empowerdata",
+ 
+    curso: "Semana do Excel na Prática",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-04-11",
+
+    dataConclusao: "11 de abril de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.11 · Empowerdata · Semana do Excel na Prática.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 32,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-04-11",
+
+    dataConclusao: "11 de abril de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.11 · Simplifica Treinamentos · Simplifica Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 33,
+
+    instituicao: "Datta Academy | Tech & Business",
+ 
+    curso: "Intensivo de Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-04-18",
+
+    dataConclusao: "18 de abril de 2024",
+
+    codigo: "ID1l2CW3o",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.18 · Datta Academy · Tech & Business · Intensivo de Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 34,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Intensivão de Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-04-18",
+
+    dataConclusao: "18 de abril de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.18 · Hashtag Treinamentos · Intensivão de Power BI.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Power+BI&dtcf=18%2F04%2F2024&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 35,
+
+    instituicao: "FM2S Educação e Consultoria",
+ 
+    curso: "Fundamentos da Ciência de Dados",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-04-27",
+
+    dataConclusao: "27 de abril de 2024",
+
+    codigo: "341152",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.27 · FM2S · Fundamentos da Ciência de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 36,
+
+    instituicao: "Grupo Tan",
+ 
+    curso: "Jornada Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-04-28",
+
+    dataConclusao: "28 de abril de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.28 · Grupo Tan · Jornada Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 37,
+
+    instituicao: "Cursa",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-04-29",
+
+    dataConclusao: "29 de abril de 2024",
+
+    codigo: "d003da6f92",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.29 · Cursa · Power BI.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/d003da6f92",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 38,
+
+    instituicao: "Retez Data Treinamento",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-05-02",
+
+    dataConclusao: "02 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.02 · Retez Data Treinamento · Minicurso de Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 39,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Fundamentos da Análise de Dados",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-05-04",
+
+    dataConclusao: "04 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.04 · Xperiun · Data Analytics · Fundamentos de Análise de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 40,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2024-05-04",
+
+    dataConclusao: "04 de maio de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.04 · Xperiun · Data Analytics · Power BI.png",
+
+    verificacao: null
   }
 ];
