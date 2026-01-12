@@ -274,12 +274,12 @@ window.datasetCategoria = [
 
     codigo: "wGcn19303427zgEG",
 
-    mostrarCopiar: false,
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.10.27 · Escola Nacional de Administração Pública · Big Data em Apoio à Tomada de Decisão.png",
 
     verificacao: {
-      url: "https://www.escolavirtual.gov.br/documentos/validacao/validar-documentos?comp_doc=wGcn19303427zgEG",
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
     }
   }
