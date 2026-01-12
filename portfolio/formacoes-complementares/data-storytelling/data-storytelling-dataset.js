@@ -14,7 +14,7 @@ window.datasetCategoria = [
 
     codigo: "4kXc14628908XEE8",
 
-    mostrarCopiar: false,
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/data-storytelling/certificados/2024.10.11 · Escola Nacional de Administração Pública · Storytelling com Dados para Comunicação Profissional de Sucesso.png",
 
