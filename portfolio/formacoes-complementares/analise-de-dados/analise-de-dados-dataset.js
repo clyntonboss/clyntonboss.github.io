@@ -1814,5 +1814,231 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.11 · Escola de Inteligência Artificial · Introdução a Tableau 2020 · Fácil e Simples!.png",
 
     verificacao: null
+  },
+
+  {
+    id: 81,
+
+    instituicao: "Escola de Inteligência Artificial",
+ 
+    curso: "Power BI para Todos: Fácil e Simples!",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2024-10-12",
+
+    dataConclusao: "12 de outubro de 2024",
+
+    codigo: "ALDfZl6n",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.12 · Escola de Inteligência Artificial · Power BI para Todos · Fácil e Simples!.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 82,
+
+    instituicao: "HP Foundation",
+ 
+    curso: "Ciência e Análise de Dados",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2024-10-12",
+
+    dataConclusao: "12 de outubro de 2024",
+
+    codigo: "2c120173-5769-42ce-bb0a-da71807eb60d",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.12 · HP Foundation · Ciência e Análise de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 83,
+
+    instituicao: "Escola de Inteligência Artificial",
+ 
+    curso: "Estatística para Iniciantes com Exemplos Práticos em R",
+    
+    cargaHoraria: "14 h",
+
+    conclusaoISO: "2024-10-14",
+
+    dataConclusao: "14 de outubro de 2024",
+
+    codigo: "pGOFeP6D",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.14 · Escola de Inteligência Artificial · Estatística para Iniciantes com Exemplos Práticos em R.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 84,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Análise de Dados em Linguagem R",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2024-10-17",
+
+    dataConclusao: "17 de outubro de 2024",
+
+    codigo: "b7wi14630766eFbF",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.17 · Escola Nacional de Administração Pública · Análise de Dados em Linguagem R.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 85,
+
+    instituicao: "Planilheiros",
+ 
+    curso: "Básico de Power BI Data Flows",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-10-17",
+
+    dataConclusao: "17 de outubro de 2024",
+
+    codigo: "67112e5b7ea891ce040a20d4",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.17 · Planilheiros · Básico de Power BI Data Flows.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 86,
+
+    instituicao: "Cursa",
+ 
+    curso: "Introdução à Ciência de Dados",
+    
+    cargaHoraria: "35 h",
+
+    conclusaoISO: "2024-10-18",
+
+    dataConclusao: "18 de outubro de 2024",
+
+    codigo: "8c2b646fc8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.18 · Cursa · Introdução à Ciência de Dados.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/8c2b646fc8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 87,
+
+    instituicao: "Escola de Inteligência Artificial",
+ 
+    curso: "Fundamentos da Linguagem R com RStudio",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2024-10-18",
+
+    dataConclusao: "18 de outubro de 2024",
+
+    codigo: "lZefRw7n",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.18 · Escola de Inteligência Artificial · Fundamentos da Linguagem R com RStudio.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 88,
+
+    instituicao: "Escola de Inteligência Artificial",
+ 
+    curso: "Introdução a Engenharia de Dados",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2024-10-20",
+
+    dataConclusao: "20 de outubro de 2024",
+
+    codigo: "9d1crvad",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.20 · Escola de Inteligência Artificial · Introdução a Engenharia de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 89,
+
+    instituicao: "HP Foundation",
+ 
+    curso: "Apresentação de Dados",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2024-10-20",
+
+    dataConclusao: "20 de outubro de 2024",
+
+    codigo: "1386a3a8-d63c-4f8d-9159-fddf5fe72692",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.20 · HP Foundation · Apresentação de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 90,
+
+    instituicao: "Didática Tech",
+ 
+    curso: "R Básico para Iniciantes",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-10-21",
+
+    dataConclusao: "21 de outubro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.21 · Didática Tech · R Básico para Iniciantes.png",
+
+    verificacao: null
   }
 ];
