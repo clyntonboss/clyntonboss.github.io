@@ -1130,5 +1130,234 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.28 · BLACK EAGLE TREINAMENTOS [JOV!ANO] · Power Query - Primeiros Passos.png",
 
     verificacao: null
+  },
+
+  {
+    id: 51,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Aplicação do Power BI para Aprimoramento da Gestão",
+    
+    cargaHoraria: "25 h",
+
+    conclusaoISO: "2024-05-29",
+
+    dataConclusao: "29 de maio de 2024",
+
+    codigo: "9dyj12807049AeCT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.29 · Escola Nacional de Administração Pública · Aplicação do Power BI para Aprimoramento da Gestão.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/validar-documentos?comp_doc=9dyj12807049AeCT",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 52,
+
+    instituicao: "Black Eagle Treinamentos [JOV!ANO]",
+ 
+    curso: "Do Webscraping ao Painel do Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-05-30",
+
+    dataConclusao: "30 de maio de 2024",
+
+    codigo: "Y2VydGlmaWNhdGVfNjl5Ml8xNzc%3D",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.30 · BLACK EAGLE TREINAMENTOS [JOV!ANO] · Do Webscrapping ao Painel do Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 53,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Aplicação do Power BI para Aprimoramento da Gestão",
+    
+    cargaHoraria: "25 h",
+
+    conclusaoISO: "2024-06-02",
+
+    dataConclusao: "02 de junho de 2024",
+
+    codigo: "aWnX12942649Broa",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.29 · Escola Nacional de Administração Pública · Aplicação do Power BI para Aprimoramento da Gestão.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/validar-documentos?comp_doc=aWnX12942649Broa",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 54,
+
+    instituicao: "Grupo Ninja",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "1 h 15 min",
+
+    conclusaoISO: "2024-06-02",
+
+    dataConclusao: "02 de junho de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.06.02 · Grupo Ninja · Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 55,
+
+    instituicao: "Unieducar",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-06-04",
+
+    dataConclusao: "04 de junho de 2024",
+
+    codigo: "202406043582005.1717470357",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.06.04 · Unieducar · Power BI.png",
+
+    verificacao: {
+      url: "https://unieducar.org.br/consultar-certificado?numero_certificado=202406043582005.1717470357",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 56,
+
+    instituicao: "Empowerdata",
+ 
+    curso: "Semana do Python™ na Prática",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-06-06",
+
+    dataConclusao: "06 de junho de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.06.06 · Empowerdata · Semana do Python™ na Prática.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 57,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-06-13",
+
+    dataConclusao: "13 de junho de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.06.13 · Simplifica Treinamentos · Simplifica Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 58,
+
+    instituicao: "Retez Data Treinamento",
+ 
+    curso: "Power BI na Prática",
+    
+    cargaHoraria: "36 h",
+
+    conclusaoISO: "2024-06-14",
+
+    dataConclusao: "14 de junho de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.06.14 · Retez Data Treinamento · Power BI na Prática.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 59,
+
+    instituicao: "Empowerdata",
+ 
+    curso: "Semana do Python™ na Prática",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-08-08",
+
+    dataConclusao: "08 de agosto de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.06.06 · Empowerdata · Semana do Python™ na Prática.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 60,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Power BI Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-08-22",
+
+    dataConclusao: "22 de agosto de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.08.22 · Simplifica Treinamentos · Simplifica Power BI Express.png",
+
+    verificacao: null
   }
 ];
