@@ -3429,5 +3429,249 @@ window.datasetCategoria = [
       url: "https://ead.consultoriaexcelencia.com.br/certificate/3fdm09/2025-09-02",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 151,
+
+    instituicao: "AUniversity",
+ 
+    curso: "Power BI: O que você precisa saber para conseguir seu estágio",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2025-09-02",
+
+    dataConclusao: "02 de setembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · AUniversity · Power BI (O que você precisa saber para conseguir seu estágio).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 152,
+
+    instituicao: "Fundação Escola de Governo",
+ 
+    curso: "Power BI Básico",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-09-02",
+
+    dataConclusao: "02 de setembro de 2025",
+
+    codigo: "kcOoBHkhDi",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · Fundação Escola de Governo · Power BI Básico.png",
+
+    verificacao: {
+      url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=kcOoBHkhDi&qrcode=1",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 153,
+
+    instituicao: "Instituto Municipal de Administração Pública - Curitiba",
+ 
+    curso: "Power BI I",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-09-05",
+
+    dataConclusao: "05 de setembro de 2025",
+
+    codigo: "68bc1c37e3a87",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.05 · Instituto Municipal de Administração Pública - Curitiba · Power BI I.png",
+
+    verificacao: {
+      url: "https://aprendere.curitiba.pr.gov.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 154,
+
+    instituicao: "Instituto Municipal de Administração Pública - Curitiba",
+ 
+    curso: "Power BI II",
+    
+    cargaHoraria: "32 h",
+
+    conclusaoISO: "2025-09-06",
+
+    dataConclusao: "06 de setembro de 2025",
+
+    codigo: "68bee9013dea8",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.06 · Instituto Municipal de Administração Pública - Curitiba · Power BI II.png",
+
+    verificacao: {
+      url: "https://aprendere.curitiba.pr.gov.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 155,
+
+    instituicao: "Fundação Escola de Governo",
+ 
+    curso: "Power BI Avançado",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-09-11",
+
+    dataConclusao: "11 de setembro de 2025",
+
+    codigo: "T6oQcAtXAt",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.11 · Fundação Escola de Governo · Power BI Avançado.png",
+
+    verificacao: {
+      url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=T6oQcAtXAt&qrcode=1",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 156,
+
+    instituicao: "Fundação Escola de Governo",
+ 
+    curso: "Excel Nível I",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-09-13",
+
+    dataConclusao: "13 de setembro de 2025",
+
+    codigo: "psjSS5ukMa",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.13 · Fundação Escola de Governo · Excel Nível I.png",
+
+    verificacao: {
+      url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=psjSS5ukMa&qrcode=1",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 157,
+
+    instituicao: "Fundação Escola de Governo",
+ 
+    curso: "Excel Nível II",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-09-17",
+
+    dataConclusao: "17 de setembro de 2025",
+
+    codigo: "DaOL4gEAtp",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.17 · Fundação Escola de Governo · Excel Nível II.png",
+
+    verificacao: {
+      url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=DaOL4gEAtp&qrcode=1",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 158,
+
+    instituicao: "Fundação Escola de Governo",
+ 
+    curso: "Excel Nível III",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-09-17",
+
+    dataConclusao: "17 de setembro de 2025",
+
+    codigo: "nIRqhvKy1J",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.17 · Fundação Escola de Governo · Excel Nível III.png",
+
+    verificacao: {
+      url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=nIRqhvKy1J&qrcode=1",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 159,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Jornada Python™ da Hashtag",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-09-18",
+
+    dataConclusao: "18 de setembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.18 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=18%2F09%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 160,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Excel Automate",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-09-25",
+
+    dataConclusao: "25 de setembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.25 · Tetra Educação · Imersão Excel Automate.png",
+
+    verificacao: null
   }
 ];
