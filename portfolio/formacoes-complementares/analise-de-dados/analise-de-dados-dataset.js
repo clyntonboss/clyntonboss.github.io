@@ -659,5 +659,27 @@ window.datasetCategoria = [
       url: "https://cursos.comunidadedashmaker.com.br/verify/96cc26aa3fa7c4a62cee25c835d1119e7ead3334",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 30,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Power BI Week",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-04-04",
+
+    dataConclusao: "04 de abril de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.04 · Xperiun · Data Analytics · Power BI Week.png",
+
+    verificacao: null
   }
 ];
