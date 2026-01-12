@@ -2965,5 +2965,237 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.17 · Simpli Learn · Getting Started with Apache™ Hadoop.png",
 
     verificacao: null
+  },
+
+  {
+    id: 131,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Excel Automate",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-05-08",
+
+    dataConclusao: "08 de maio de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.08 · Tetra Educação · Imersão Excel Automate.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 132,
+
+    instituicao: "FM2S Educação e Consultoria",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "17 h",
+
+    conclusaoISO: "2025-05-18",
+
+    dataConclusao: "18 de maio de 2025",
+
+    codigo: "5f5f0112d73c5a73d3ec189307fa9a061cf14881",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.18 · FM2S · Power BI.png",
+
+    verificacao: {
+      url: "https://ead.fm2s.com.br/verify/5f5f0112d73c5a73d3ec189307fa9a061cf14881",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 133,
+
+    instituicao: "Simpli Learn",
+ 
+    curso: "Power BI for Beginners",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-05-27",
+
+    dataConclusao: "27 de maio de 2025",
+
+    codigo: "8396480",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.27 · Simpli Learn · Power BI for Beginners.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 134,
+
+    instituicao: "Simpli Learn",
+ 
+    curso: "Power BI Data Modelling Basics Tutorial Course",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-05-28",
+
+    dataConclusao: "28 de maio de 2025",
+
+    codigo: "8400989",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.28 · Simpli Learn · Power BI Data Modelling Basics Tutorial Course.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 135,
+
+    instituicao: "Comunidade Data Driven",
+ 
+    curso: "Imersão Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-05-29",
+
+    dataConclusao: "29 de maio de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.29 · Comunidade Data Driven · Imersão Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 136,
+
+    instituicao: "Instituto Federal Mato Grosso do Sul",
+ 
+    curso: "Introdução à Ciência de Dados",
+    
+    cargaHoraria: "45 h",
+
+    conclusaoISO: "2025-06-02",
+
+    dataConclusao: "02 de junho de 2025",
+
+    codigo: "683de066-2d00-4636-a258-9bbf0a01004c",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.02 · Instituto Federal Mato Grosso do Sul · Introdução à Ciência de Dados.png",
+
+    verificacao: {
+      url: "https://cursoslivres.ifms.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 137,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Jornada Python™ da Hashtag",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-06-05",
+
+    dataConclusao: "05 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.05 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=05%2F06%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 138,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Power Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-06-05",
+
+    dataConclusao: "05 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.05 · Simplifica Treinamentos · Power Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 139,
+
+    instituicao: "Aprenda Mais",
+ 
+    curso: "Estrutura de Dados",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-06-06",
+
+    dataConclusao: "06 de junho de 2025",
+
+    codigo: "6843089f-896c-42eb-affd-303aac1f032a",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.06 · Aprenda Mais · Estrutura de Dados.png",
+
+    verificacao: {
+      url: "https://aprendamais.mec.gov.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 140,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Python™ Express",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-07-01",
+
+    dataConclusao: "01 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.11 · Simplifica Treinamentos · Simplifica Python™ Express.png",
+
+    verificacao: null
   }
 ];
