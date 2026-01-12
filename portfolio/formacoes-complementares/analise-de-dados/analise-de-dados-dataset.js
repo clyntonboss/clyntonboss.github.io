@@ -2269,5 +2269,249 @@ window.datasetCategoria = [
       url: "https://mycourse.app/5Rjaw6BrZdbF9fo19",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 101,
+
+    instituicao: "Data Science Academy",
+ 
+    curso: "Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Nível Intermediário)",
+    
+    cargaHoraria: "72 h",
+
+    conclusaoISO: "2024-10-30",
+
+    dataConclusao: "30 de outubro de 2024",
+
+    codigo: "672215dd1b82d3b22502b349",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.30 · Data Science Academy · Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Intermediário).png",
+
+    verificacao: {
+      url: "https://mycourse.app/gnGgskSmNZh1CMiDA",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 102,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Análise de Dados como Suporte à Tomada de Decisão",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2024-10-30",
+
+    dataConclusao: "30 de outubro de 2024",
+
+    codigo: "1tJe14630738Kmwj",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.30 · Escola Nacional de Administração Pública · Análise de Dados como Suporte à Tomada de Decisão.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 103,
+
+    instituicao: "Cursa",
+ 
+    curso: "Google Data Studio",
+    
+    cargaHoraria: "32 h",
+
+    conclusaoISO: "2024-10-31",
+
+    dataConclusao: "31 de outubro de 2024",
+
+    codigo: "cf91af79b9",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.31 · Cursa · Google Data Studio.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/cf91af79b9",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 104,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Visualização de Dados Aplicada à Transformação Digital",
+    
+    cargaHoraria: "25 h",
+
+    conclusaoISO: "2024-11-04",
+
+    dataConclusao: "04 de novembro de 2024",
+
+    codigo: "uFYW14630809rvdz",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.04 · Escola Nacional de Administração Pública · Visualização de Dados Aplicada à Transformação Digital.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 105,
+
+    instituicao: "Cursa",
+ 
+    curso: "Linguagem R",
+    
+    cargaHoraria: "12 h",
+
+    conclusaoISO: "2024-11-06",
+
+    dataConclusao: "06 de novembro de 2024",
+
+    codigo: "6c2bfd5fea",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.06 · Cursa · Linguagem R.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/6c2bfd5fea",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 106,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Dashboards no Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-11-07",
+
+    dataConclusao: "07 de novembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.07 · Tetra Educação · Dashboards no Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 107,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Estatística",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2024-11-08",
+
+    dataConclusao: "08 de novembro de 2024",
+
+    codigo: "qRbI14630796Uvm6",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.08 · Escola Nacional de Administração Pública · Estatística.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 108,
+
+    instituicao: "Mago dos Dados",
+ 
+    curso: "Qlik Sense",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-11-09",
+
+    dataConclusao: "09 de novembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.09 · Mago dos Dados · Qlik Sense.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 109,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Fundamentos de Power BI",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2024-11-10",
+
+    dataConclusao: "10 de novembro de 2024",
+
+    codigo: "67306eaa-ede8-4c0e-8cf5-0c17ac140047",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.10 · Instituto Federal Minas Gerais · Fundamentos de Power BI.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 110,
+
+    instituicao: "Instituto Federal Espírito Santo",
+ 
+    curso: "Estatística com R",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2024-11-14",
+
+    dataConclusao: "14 de novembro de 2024",
+
+    codigo: "6735e711-1df0-4a38-b2a6-4b9dac1a2c07",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.14 · Instituto Federal Espírito Santo · Estatística com R.png",
+
+    verificacao: {
+      url: "https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
