@@ -1582,5 +1582,237 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.09.29 · Xperiun · Data Analytics · Imersão Gratuita · Análise de Dados na Prática.png",
 
     verificacao: null
+  },
+
+  {
+    id: 71,
+
+    instituicao: "Data Science Academy",
+ 
+    curso: "Fundamentos de Engenharia de Dados",
+    
+    cargaHoraria: "24 h",
+
+    conclusaoISO: "2024-10-02",
+
+    dataConclusao: "02 de outubro de 2024",
+
+    codigo: "66fd8ac0d97335526f05bedc",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.02 · Data Science Academy · Fundamentos de Engenharia de Dados.png",
+
+    verificacao: {
+      url: "https://mycourse.app/8cYDGQcbvD42wc5z5",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 72,
+
+    instituicao: "Unieducar",
+ 
+    curso: "Power BI: Conhecimentos Básicos",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-10-04",
+
+    dataConclusao: "04 de outubro de 2024",
+
+    codigo: "202410043639908.1728023562",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.04 · Unieducar · Power BI · Conhecimentos Básicos.png",
+
+    verificacao: {
+      url: "https://unieducar.org.br/consultar-certificado?numero_certificado=202410043639908.1728023562",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 73,
+
+    instituicao: "Planilheiros",
+ 
+    curso: "Básico de Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-10-06",
+
+    dataConclusao: "06 de outubro de 2024",
+
+    codigo: "67020256b81f4604ae041db8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.06 · Planilheiros · Básico de Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 74,
+
+    instituicao: "Aplitech Foundation EaD",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "14 h",
+
+    conclusaoISO: "2024-10-06",
+
+    dataConclusao: "06 de outubro de 2024",
+
+    codigo: "IgjXSTjEAB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.06 · Planilheiros · Básico de Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 75,
+
+    instituicao: "Capacita Coop",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2024-10-08",
+
+    dataConclusao: "08 de outubro de 2024",
+
+    codigo: "c88a9537-5bfc-41ad-a2a9-a39e8cb0e930",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.08 · Capacita Coop · Power BI.png",
+
+    verificacao: {
+      url: "https://studion-sescoop.dotgroup.com.br/external/validate-certificate",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 76,
+
+    instituicao: "Data Science Academy",
+ 
+    curso: "Fundamentos de Data Science e Inteligência Artificial",
+    
+    cargaHoraria: "24 h",
+
+    conclusaoISO: "2024-10-09",
+
+    dataConclusao: "09 de outubro de 2024",
+
+    codigo: "670653ae5ed50ad9d80bfdbc",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.09 · Data Science Academy · Fundamentos de Data Science e Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://mycourse.app/QxEr3Gt9VAaqJ43RA",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 77,
+
+    instituicao: "Santander Open Academy",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-10-09",
+
+    dataConclusao: "09 de outubro de 2024",
+
+    codigo: "OA-2024-1009000599969",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.09 · Santander Open Academy · Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 78,
+
+    instituicao: "Santander Open Academy",
+ 
+    curso: "Introdução à Ciência de Dados",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-10-10",
+
+    dataConclusao: "10 de outubro de 2024",
+
+    codigo: "OA-2024-1010000601943",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.10 · Santander Open Academy · Introdução à Ciência de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 79,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: ">Maratona do Excel",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-10-10",
+
+    dataConclusao: "10 de outubro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.10 · Tetra Educação · Maratona do Excel.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 80,
+
+    instituicao: "Escola de Inteligência Artificial",
+ 
+    curso: ">Introdução a Tableau 2020: Fácil e Simples!",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2024-10-11",
+
+    dataConclusao: "11 de outubro de 2024",
+
+    codigo: "WPvCvpvY",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.11 · Escola de Inteligência Artificial · Introdução a Tableau 2020 · Fácil e Simples!.png",
+
+    verificacao: null
   }
 ];
