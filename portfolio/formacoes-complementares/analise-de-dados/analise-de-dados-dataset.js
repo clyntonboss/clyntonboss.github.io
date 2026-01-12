@@ -1777,7 +1777,7 @@ window.datasetCategoria = [
 
     instituicao: "Tetra Educação",
  
-    curso: ">Maratona do Excel",
+    curso: "Maratona do Excel",
     
     cargaHoraria: "8 h",
 
@@ -1799,7 +1799,7 @@ window.datasetCategoria = [
 
     instituicao: "Escola de Inteligência Artificial",
  
-    curso: ">Introdução a Tableau 2020: Fácil e Simples!",
+    curso: "Introdução a Tableau 2020: Fácil e Simples!",
     
     cargaHoraria: "5 h",
 
