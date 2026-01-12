@@ -3186,9 +3186,9 @@ window.datasetCategoria = [
     
     cargaHoraria: "6 h",
 
-    conclusaoISO: "2025-07-01",
+    conclusaoISO: "2025-06-11",
 
-    dataConclusao: "01 de julho de 2025",
+    dataConclusao: "11 de junho de 2025",
 
     codigo: "Inaplicável",
 
@@ -3197,5 +3197,237 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.11 · Simplifica Treinamentos · Simplifica Python™ Express.png",
 
     verificacao: null
+  },
+
+  {
+    id: 141,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Intensivão de Análise de Dados",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-06-12",
+
+    dataConclusao: "12 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.12 · Hashtag Treinamentos · Intensivão de Análise de Dados.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Análise+de+Dados&dtcf=12%2F06%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 142,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Excel Automate",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-06-12",
+
+    dataConclusao: "12 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.12 · Tetra Educação · Imersão Excel Automate.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 143,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Power Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-07-10",
+
+    dataConclusao: "10 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.10 · Simplifica Treinamentos · Power Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 144,
+
+    instituicao: "Cursa",
+ 
+    curso: "Analista de Dados Python™ | Numpy | Pandas",
+    
+    cargaHoraria: "12 h",
+
+    conclusaoISO: "2025-07-13",
+
+    dataConclusao: "13 de julho de 2025",
+
+    codigo: "ae50f1b555",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.13 · Cursa · Analista de Dados Python™ · Numpy · Pandas.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/ae50f1b555",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 145,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Introdução à Análise Exploratória de Dados com Inteligência Artificial",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-07-18",
+
+    dataConclusao: "18 de julho de 2025",
+
+    codigo: "687ac47b-0e30-4f43-b2d6-534e0a00c840",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.18 · Instituto Federal Sul-Rio-Grandense · Introdução à Análise Exploratória de Dados com Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 146,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-08-07",
+
+    dataConclusao: "07 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.07 · Simplifica Treinamentos · Simplifica Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 147,
+
+    instituicao: "Kultivi",
+ 
+    curso: "Power BI Descomplicado",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-08-21",
+
+    dataConclusao: "21 de agosto de 2025",
+
+    codigo: "13ebc3d0-7b20-4cef-aba8-f531198ca376",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.21 · Kultivi · Power BI Descomplicado.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 148,
+
+    instituicao: "Romual Office",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-08-22",
+
+    dataConclusao: "22 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.22 · Romual Office · Minicurso de Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 149,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Excel Automate",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-08-28",
+
+    dataConclusao: "28 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.28 · Tetra Educação · Imersão Excel Automate.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 150,
+
+    instituicao: "EaD Excelência Consultoria & Educação",
+ 
+    curso: "Introdução ao Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-09-02",
+
+    dataConclusao: "02 de setembro de 2025",
+
+    codigo: "3fdm09",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · Excelência Consultoria & Educação · Introdução ao Power BI.png",
+
+    verificacao: {
+      url: "https://ead.consultoriaexcelencia.com.br/certificate/3fdm09/2025-09-02",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
