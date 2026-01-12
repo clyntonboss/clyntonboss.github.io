@@ -3273,7 +3273,7 @@ window.datasetCategoria = [
 
     instituicao: "Cursa",
  
-    curso: "Analista de Dados Python™ | Numpy | Pandas",
+    curso: "Analista de Dados Python™ | NumPy | Pandas",
     
     cargaHoraria: "12 h",
 
