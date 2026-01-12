@@ -3285,7 +3285,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.13 · Cursa · Analista de Dados Python™ · Numpy · Pandas.png",
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.13 · Cursa · Analista de Dados Python™ · NumPy · Pandas.png",
 
     verificacao: {
       url: "https://cursa.com.br/certificate/ae50f1b555",
