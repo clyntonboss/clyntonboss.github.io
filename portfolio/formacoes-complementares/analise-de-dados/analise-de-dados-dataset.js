@@ -1359,5 +1359,228 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.08.22 · Simplifica Treinamentos · Simplifica Power BI Express.png",
 
     verificacao: null
+  },
+
+  {
+    id: 61,
+
+    instituicao: "Nexos Educação",
+ 
+    curso: "Imersão Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-08-25",
+
+    dataConclusao: "25 de agosto de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.08.25 · Nexos Educação · Imersão Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 62,
+
+    instituicao: "Data Science Academy",
+ 
+    curso: "Power BI para Business Intelligence e Data Science",
+    
+    cargaHoraria: "72 h",
+
+    conclusaoISO: "2024-08-28",
+
+    dataConclusao: "28 de agosto de 2024",
+
+    codigo: "66cf11f6695eb4627802ddd7",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.08.28 · Data Science Academy · Power BI para Business Intelligence e Data Science.png",
+
+    verificacao: {
+      url: "https://mycourse.app/WjDZph7NvwKCZbVV6",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 63,
+
+    instituicao: "Grupo Tan",
+ 
+    curso: "Imersão em Excel",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-08-28",
+
+    dataConclusao: "28 de agosto de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.08.28 · Grupo Tan · Imersão em Excel.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 64,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Python™ Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-09-05",
+
+    dataConclusao: "05 de setembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.09.05 · Simplifica Treinamentos · Simplifica Python™ Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 65,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Dashboards no Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-09-05",
+
+    dataConclusao: "05 de setembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.09.05 · Tetra Educação · Dashboards no Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 66,
+
+    instituicao: "Empowerdata",
+ 
+    curso: "Acelerador de Carreira com Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-09-12",
+
+    dataConclusao: "12 de setembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.09.12 · Empowerdata · Acelerador de Carreira com Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 67,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-09-19",
+
+    dataConclusao: "19 de setembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.09.19 · Simplifica Treinamentos · Simplifica Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 68,
+
+    instituicao: "Retez Data Treinamento",
+ 
+    curso: "Power BI na Prática",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-09-26",
+
+    dataConclusao: "26 de setembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.09.26 · Retez Data Treinamento · Power BI na Prática.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 69,
+
+    instituicao: "BI do Brasil",
+ 
+    curso: "Introdução à Business Intelligence e Data Warehouse",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2024-09-29",
+
+    dataConclusao: "29 de setembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.09.29 · BI do Brasil · Introdução à Business Intelligence e Data Warehouse.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 70,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Análise de Dados na Prática",
+    
+    cargaHoraria: "12 h",
+
+    conclusaoISO: "2024-09-29",
+
+    dataConclusao: "29 de setembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.09.29 · Xperiun · Data Analytics · Imersão Gratuita · Análise de Dados na Prática.png",
+
+    verificacao: null
   }
 ];
