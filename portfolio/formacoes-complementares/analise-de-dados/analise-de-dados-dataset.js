@@ -2513,5 +2513,225 @@ window.datasetCategoria = [
       url: "https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 111,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Python™ Express",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-11-21",
+
+    dataConclusao: "21 de novembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.21 · Simplifica Treinamentos · Simplifica Python™ Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 112,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Data Warehouse Week",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-11-21",
+
+    dataConclusao: "21 de novembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.21 · Xperiun · Data Analytics · Data Warehouse Week.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 113,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Power Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-12-05",
+
+    dataConclusao: "05 de dezembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.05 · Simplifica Treinamentos · Power Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 114,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Missão Zero: Bootcamp Power BI",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-12-08",
+
+    dataConclusao: "08 de dezembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.08 · Xperiun · Data Analytics · Missão Zero · Bootcamp Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 115,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Intensivão de Análise de Dados",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-12-19",
+
+    dataConclusao: "19 de dezembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.19 · Hashtag Treinamentos · Intensivão de Análise de Dados.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 116,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-01-09",
+
+    dataConclusao: "09 de janeiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.01.09 · Simplifica Treinamentos · Simplifica Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 117,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Python™ Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-01-30",
+
+    dataConclusao: "30 de janeiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.01.30 · Simplifica Treinamentos · Simplifica Python™ Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 118,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Excel Automate",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-02-06",
+
+    dataConclusao: "06 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.06 · Tetra Educação · Imersão Excel Automate.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 119,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Power Excel Express",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-02-13",
+
+    dataConclusao: "13 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.13 · Simplifica Treinamentos · Power Excel Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 120,
+
+    instituicao: "Comunidade Data Driven",
+ 
+    curso: "Imersão Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-02-16",
+
+    dataConclusao: "16 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.16 · Comunidade Data Driven · Imersão Power BI.png",
+
+    verificacao: null
   }
 ];
