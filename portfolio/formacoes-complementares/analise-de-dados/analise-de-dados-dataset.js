@@ -587,5 +587,5 @@ window.datasetCategoria = [
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
     }
-  
+  }
 ];
