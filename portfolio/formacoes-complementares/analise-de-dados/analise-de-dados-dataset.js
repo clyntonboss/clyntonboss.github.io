@@ -2522,7 +2522,7 @@ window.datasetCategoria = [
  
     curso: "Simplifica Python™ Express",
     
-    cargaHoraria: "8 h",
+    cargaHoraria: "10 h",
 
     conclusaoISO: "2024-11-21",
 
