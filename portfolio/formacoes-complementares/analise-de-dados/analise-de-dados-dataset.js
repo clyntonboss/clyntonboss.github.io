@@ -634,5 +634,30 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.03.31 · Grupo Tan · Imersão em Excel.png",
 
     verificacao: null
+  },
+
+  {
+    id: 29,
+
+    instituicao: "Minhas Planilhas",
+ 
+    curso: "Imersão Power BI",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-04-04",
+
+    dataConclusao: "04 de abril de 2024",
+
+    codigo: "96cc26aa3fa7c4a62cee25c835d1119e7ead3334",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.04.04 · Minhas Planilhas · Imersão Power BI.png",
+
+    verificacao: {
+      url: "https://cursos.comunidadedashmaker.com.br/verify/96cc26aa3fa7c4a62cee25c835d1119e7ead3334",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
