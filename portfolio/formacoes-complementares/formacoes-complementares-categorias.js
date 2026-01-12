@@ -155,6 +155,58 @@ const categoriasFormacoesComplementares = {
     `
   },
 
+  inteligenciaArtificial: {
+    title: "Inteligência Artificial",
+    dataset: "/portfolio/formacoes-complementares/inteligencia-artificial/inteligencia-artificial-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Inteligência Artificial, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam conceitos fundamentais, aplicações práticas e o uso responsável de técnicas de IA no apoio à análise, automação e tomada de decisão.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Inteligência Artificial contribuíram para o entendimento de modelos, técnicas e limitações da IA, com foco em aplicações práticas e integração a soluções orientadas por dados.<br>
+                                 Esse conhecimento complementa atividades de análise de dados, automação de processos e apoio à decisão, considerando aspectos técnicos, éticos e de uso responsável da tecnologia.</div>
+    `
+  },
+
   dataStorytelling: {
     title: "Data Storytelling",
     dataset: "/portfolio/formacoes-complementares/data-storytelling/data-storytelling-dataset.js",
