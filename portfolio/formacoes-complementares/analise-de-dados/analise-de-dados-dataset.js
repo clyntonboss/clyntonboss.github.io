@@ -1147,12 +1147,12 @@ window.datasetCategoria = [
 
     codigo: "9dyj12807049AeCT",
 
-    mostrarCopiar: false,
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.29 · Escola Nacional de Administração Pública · Aplicação do Power BI para Aprimoramento da Gestão.png",
 
     verificacao: {
-      url: "https://www.escolavirtual.gov.br/documentos/validacao/validar-documentos?comp_doc=9dyj12807049AeCT",
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
     }
   },
@@ -1194,12 +1194,12 @@ window.datasetCategoria = [
 
     codigo: "aWnX12942649Broa",
 
-    mostrarCopiar: false,
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.05.29 · Escola Nacional de Administração Pública · Aplicação do Power BI para Aprimoramento da Gestão.png",
 
     verificacao: {
-      url: "https://www.escolavirtual.gov.br/documentos/validacao/validar-documentos?comp_doc=aWnX12942649Broa",
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
     }
   },
