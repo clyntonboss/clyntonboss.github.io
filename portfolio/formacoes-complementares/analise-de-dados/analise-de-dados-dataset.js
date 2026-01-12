@@ -1673,7 +1673,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.06 · Planilheiros · Básico de Power BI.png",
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.07 · Aplitech Foundation EaD · Power BI.png",
 
     verificacao: null
   },
