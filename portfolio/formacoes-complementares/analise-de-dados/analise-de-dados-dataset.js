@@ -4188,7 +4188,8 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/Q6JXCLGO.pdf",
       texto: "Verificar Autenticidade"
-    },
+    }
+  },
 
   {
     id: 182,
