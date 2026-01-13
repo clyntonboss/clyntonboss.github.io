@@ -1696,5 +1696,225 @@ window.datasetCategoria = [
       url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 71,
+
+    instituicao: "Daxus",
+ 
+    curso: "Imersão Inteligência Artificial na Prática",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-06-12",
+
+    dataConclusao: "12 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.12 · Daxus · Imersão Inteligência Artificial na Prática.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 72,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Data Preparation for Machine Learning",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-15",
+
+    dataConclusao: "15 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.15 · Databricks Academy · Data Preparation for Machine Learning.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 73,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Machine Learning Model Development",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Machine Learning Model Development.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 74,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Machine Learning Model Deployment",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Machine Learning Model Deployment.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 75,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Machine Learning Operations",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Machine Learning Operations.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 76,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Exam Information: Databricks Certified Machine Learning Associate",
+    
+    cargaHoraria: "1 min",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Exam Information (Databricks Certified Machine Learning Associate).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 77,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Machine Learning at Scale",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Machine Learning at Scale.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 78,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Advanced Machine Learning Operations",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Advanced Machine Learning Operations.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 79,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Exam Information: Databricks Certified Machine Learning Professional",
+    
+    cargaHoraria: "1 min",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Exam Information (Databricks Certified Machine Learning Professional).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 80,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Preparing for Databricks Certification Exams",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Preparing for Databricks Certification Exams.png",
+
+    verificacao: null
   }
 ];
