@@ -2383,5 +2383,252 @@ window.datasetCategoria = [
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 101,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Bootcamps DIO: Educação Gratuita e Empregabilidade Juntas!",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "QRL96OVR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Bootcamps DIO (Educação Gratuita e Empregabilidade Juntas!).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QRL96OVR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 102,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Live de Lançamento Nexa + AWS - Fundamentos de Inteligência Artificial Generativa com Bedrock",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "VGS9EI0C",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Live de Lançamento Nexa + AWS - Fundamentos de Inteligência Artificial Generativa com Bedrock.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VGS9EI0C.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 103,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução à Inteligência Artificial",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "SRQLFVGN",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Introdução à Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SRQLFVGN.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 104,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aplicações e Impacto da Inteligência Artificial no Mundo Atual",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "V6CDMXKS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Aplicações e Impacto da Inteligência Artificial no Mundo Atual.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/V6CDMXKS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 105,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aplicações Práticas da Inteligência Artificial",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "0OFTBWUF",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Aplicações Práticas da Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0OFTBWUF.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 106,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao Mundo da Inteligência Artificial Generativa",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "EEPQFOLT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Introdução ao Mundo da Inteligência Artificial Generativa.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EEPQFOLT.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 107,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Prototipando Soluções Reais com PartyRock na AWS",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "M6EWAHOO",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Prototipando Soluções Reais com PartyRock na AWS.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/M6EWAHOO.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 108,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Amazon Bedrock para Escolha e Personalização de Modelos",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "UXMNZJ3K",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Amazon Bedrock para Escolha e Personalização de Modelos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UXMNZJ3K.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 109,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Construindo Agentes Autônomos com Amazon Nova e AgentCore",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "X2LMJKYQ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Construindo Agentes Autônomos com Amazon Nova e AgentCore.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/X2LMJKYQ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 110,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Associando Conceitos de Inteligências Artificiais Generativas",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Associando Conceitos de Inteligências Artificiais Generativas.png",
+
+    verificacao: null
   }
 ];
