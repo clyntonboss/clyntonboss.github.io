@@ -415,6 +415,58 @@ const categoriasFormacoesComplementares = {
     `
   },
 
+    programacao: {
+    title: "Programação",
+    dataset: "/portfolio/formacoes-complementares/programacao/programacao-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Programação, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam fundamentos de lógica, linguagens e práticas de desenvolvimento aplicadas à automação, análise de dados e construção de soluções computacionais.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Programação fortaleceram a capacidade de estruturar soluções por meio de código, aplicando lógica, organização e boas práticas de desenvolvimento.<br>
+                                 Esse conhecimento sustenta atividades de automação de processos, análise de dados e integração de sistemas, ampliando a eficiência e a capacidade de resolução de problemas em contextos profissionais.</div>
+    `
+  },
+
   roboticProcessAutomation: {
     title: "Robotic Process Automation",
     dataset: "/portfolio/formacoes-complementares/robotic-process-automation/robotic-process-automation-dataset.js",
