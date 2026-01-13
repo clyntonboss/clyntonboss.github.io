@@ -3971,6 +3971,756 @@ window.datasetCategoria = [
 
     instituicao: "Digital Innovation One",
  
+    curso: "Fundamentos Teóricos sobre ETL",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "MMI96OWW",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos Teóricos sobre ETL.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MMI96OWW.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 174,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Primeiros Passos com Power BI",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "M3QCEGBT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Primeiros Passos com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/M3QCEGBT.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 175,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Analisando Dados de um Dashboard de Vendas no Power BI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "XOZZM8SJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Analisando Dados de um Dashboard de Vendas no Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XOZZM8SJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 176,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de Power BI",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "RFX18W5R",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RFX18W5R.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 177,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Trabalhando com Visuais no Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "3PXGLZYD",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Trabalhando com Visuais no Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3PXGLZYD.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 178,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de BI: KPIs e Métricas",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "W6UHFSMK",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de BI (KPIs e Métricas).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/W6UHFSMK.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 179,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando Dashboards Interativos com Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "0NRUJMED",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando Dashboards Interativos com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0NRUJMED.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 180,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Relatório Gerencial de Vendas com Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "N1XZQCAJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Relatório Gerencial de Vendas com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/N1XZQCAJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 181,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Visualização de Dados e Relatórios com Power BI",
+    
+    cargaHoraria: "9 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "VH7KKVF5",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Visualização de Dados e Relatórios com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VH7KKVF5.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 182,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Coleta e Extração de Dados com Power BI",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "NUORYDRD",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Coleta e Extração de Dados com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NUORYDRD.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 183,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Limpeza e Transformação de Dados com Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "CIWDR2XH",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Limpeza e Transformação de Dados com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CIWDR2XH.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 184,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Dashboard Corporativo com Integração com MySQL e Azure",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "LYIOJKNQ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Dashboard Corporativo com Integração com MySQL e Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LYIOJKNQ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 185,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Processamento de Dados com Power BI",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "WJL1SVZF",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Processamento de Dados com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WJL1SVZF.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 186,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de Modelagem Dimensional",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "CLKCTMEN",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Modelagem Dimensional.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CLKCTMEN.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 187,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Modelagem de Dados no Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "WTZLULAS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelagem de Dados no Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WTZLULAS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 188,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Primeiros Passos com DAX e Cálculos com Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "IXN8IDYO",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Primeiros Passos com DAX e Cálculos com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IXN8IDYO.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 189,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Otimização de Modelo de Dados com Foco em Desempenho no Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "R1AQCKMB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Otimização de Modelo de Dados com Foco em Desempenho no Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/R1AQCKMB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 190,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Dashboard de Vendas com Power BI Utilizando Star Schema",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "LUB5BH8Y",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Dashboard de Vendas com Power BI Utilizando Star Schema.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LUB5BH8Y.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 191,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Modelando um Dashboard de e-Commerce com Power BI Utilizando Fórmulas DAX",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "BHNK3MQD",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelando um Dashboard de e-Commerce com Power BI Utilizando Fórmulas DAX.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BHNK3MQD.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 192,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Modelagem de Dados com Power BI",
+    
+    cargaHoraria: "15 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "DJXQ5UOJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelagem de Dados com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DJXQ5UOJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 193,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Relatório & Experiência do Usuário no Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "1TKINRZ8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Relatório & Experiência do Usuário no Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/1TKINRZ8.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 194,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Explorando Recursos para Criar Storytelling dos Dados com Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "QVN7XJWR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Explorando Recursos para Criar Storytelling dos Dados com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QVN7XJWR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 195,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de Data Analytics com Power BI",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "VTKY1X14",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Data Analytics com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VTKY1X14.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 196,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Dashboard Gerencial para Tomada de Decisões com Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "OJKK5TE8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Dashboard Gerencial para Tomada de Decisões com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OJKK5TE8.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 197,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Relatório Vendas e Lucros com Data Analytics com Power BI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "2FT7OFXM",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Relatório Vendas e Lucros com Data Analytics com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2FT7OFXM.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 198,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Data Analytics & Storytelling com Power BI",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "TJ7LIIID",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Data Analytics & Storytelling com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TJ7LIIID.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 199,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Gerenciamento de Workspaces com Power BI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "RKEFFEMI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Workspaces com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RKEFFEMI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 200,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Gerenciamento de Datasets com Power BI",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "2DUEEVCK",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Datasets com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2DUEEVCK.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 201,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando Relatórios Dinâmicos com o uso de Parâmetros no Power BI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "ZYHZJCCJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando Relatórios Dinâmicos com o uso de Parâmetros no Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZYHZJCCJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 202,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Gerenciamento de Workspaces e Datasets com Power BI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "PBTL3TPP",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Workspaces e Datasets com Power BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PBTL3TPP.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 203,
+
+    instituicao: "Digital Innovation One",
+ 
     curso: "Introdução ao Excel e Power BI Dashboards com a Klabin",
     
     cargaHoraria: "1 h",
@@ -3992,7 +4742,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 174,
+    id: 204,
 
     instituicao: "Digital Innovation One",
  
@@ -4017,7 +4767,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 175,
+    id: 205,
 
     instituicao: "Digital Innovation One",
  
@@ -4042,7 +4792,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 176,
+    id: 206,
 
     instituicao: "Digital Innovation One",
  
@@ -4067,7 +4817,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 177,
+    id: 207,
 
     instituicao: "Digital Innovation One",
  
@@ -4092,7 +4842,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 178,
+    id: 208,
 
     instituicao: "Digital Innovation One",
  
@@ -4117,7 +4867,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 179,
+    id: 209,
 
     instituicao: "Digital Innovation One",
  
@@ -4142,7 +4892,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 180,
+    id: 210,
 
     instituicao: "Digital Innovation One",
  
@@ -4167,7 +4917,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 181,
+    id: 211,
 
     instituicao: "Digital Innovation One",
  
@@ -4192,7 +4942,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 182,
+    id: 212,
 
     instituicao: "Digital Innovation One",
  
@@ -4214,7 +4964,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 183,
+    id: 213,
 
     instituicao: "Digital Innovation One",
  
@@ -4239,7 +4989,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 184,
+    id: 214,
 
     instituicao: "Digital Innovation One",
  
@@ -4264,7 +5014,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 185,
+    id: 215,
 
     instituicao: "Digital Innovation One",
  
@@ -4289,7 +5039,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 186,
+    id: 216,
 
     instituicao: "Digital Innovation One",
  
@@ -4314,7 +5064,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 187,
+    id: 217,
 
     instituicao: "Digital Innovation One",
  
@@ -4339,7 +5089,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 188,
+    id: 218,
 
     instituicao: "Digital Innovation One",
  
@@ -4364,7 +5114,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 189,
+    id: 219,
 
     instituicao: "Digital Innovation One",
  
@@ -4389,7 +5139,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 190,
+    id: 220,
 
     instituicao: "Digital Innovation One",
  
@@ -4408,5 +5158,255 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Fórmulas Excel com Lógica de Programação.png",
 
     verificacao: null
+  },
+
+  {
+    id: 221,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Análise de Dados com Excel e Copilot",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "VVPXQH2P",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Análise de Dados com Excel e Copilot.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VVPXQH2P.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 222,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Klabin - Excel e Power BI Dashboards",
+    
+    cargaHoraria: "90 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "PR5CC6SD",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Klabin - Excel e Power BI Dashboards.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PR5CC6SD.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 223,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Boas-Vindas ao Bootcamp: Neo4j - Análise de Dados com Grafos",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-15",
+
+    dataConclusao: "15 de dezembro de 2025",
+
+    codigo: "WXX7R5SU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Boas-Vindas ao Bootcamp (Neo4j - Análise de Dados com Grafos).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WXX7R5SU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 224,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Graph Database e Neo4j",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-15",
+
+    dataConclusao: "15 de dezembro de 2025",
+
+    codigo: "D4JQMO0E",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Introdução a Graph Database e Neo4j.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/D4JQMO0E.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 225,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Instalando Ambiente Neo4j Desktop",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-15",
+
+    dataConclusao: "15 de dezembro de 2025",
+
+    codigo: "AEHDHHSJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Instalando Ambiente Neo4j Desktop.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AEHDHHSJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 226,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Visualização de Dados no Neo4j Browser",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-15",
+
+    dataConclusao: "15 de dezembro de 2025",
+
+    codigo: "ZVW027XK",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Visualização de Dados no Neo4j Browser.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZVW027XK.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 227,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Boas Práticas de Modelagem Orientada a Grafos (Modelagem e Performance)",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-15",
+
+    dataConclusao: "15 de dezembro de 2025",
+
+    codigo: "FUKBFJV0",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Boas Práticas de Modelagem Orientada a Grafos (Modelagem e Performance).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FUKBFJV0.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 228,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Modelagem de Dados em Grafos de um Serviço de Streaming",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-12-15",
+
+    dataConclusao: "15 de dezembro de 2025",
+
+    codigo: "JCTCCU7A",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Modelagem de Dados em Grafos de um Serviço de Streaming.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JCTCCU7A.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 229,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de Neo4j",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2025-12-15",
+
+    dataConclusao: "15 de dezembro de 2025",
+
+    codigo: "563ZQN83",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Fundamentos de Neo4j.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/563ZQN83.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 230,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Linguagem de Consulta Cypher",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "16 de dezembro de 2025",
+
+    codigo: "A8C4PY3R",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Introdução a Linguagem de Consulta Cypher.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/A8C4PY3R.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
