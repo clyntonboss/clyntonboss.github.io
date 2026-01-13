@@ -5408,5 +5408,252 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/A8C4PY3R.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 231,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Cypher Essencial: Consultas, Filtros e Agregações em Grafos",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "16 de dezembro de 2025",
+
+    codigo: "32BS1XGV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Cypher Essencial (Consultas, Filtros e Agregações em Grafos).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/32BS1XGV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 232,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Cypher Avançado: Modelagem, Constraints e Operações com MERGE e UNWIND",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "16 de dezembro de 2025",
+
+    codigo: "CMFRG336",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Cypher Avançado (Modelagem, Constraints e Operações com MERGE e UNWIND).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CMFRG336.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 233,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Integrações e Extensões no Neo4j: LOAD CSV, Subqueries, APOC e QPP",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "16 de dezembro de 2025",
+
+    codigo: "OZY74NFN",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Integrações e Extensões no Neo4j (LOAD CSV, Subqueries, APOC e QPP).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OZY74NFN.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 234,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Algoritmo de Recomendação de Músicas com Base em Grafos",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "16 de dezembro de 2025",
+
+    codigo: "JC2XPZWS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Criando um Algoritmo de Recomendação de Músicas com Base em Grafos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JC2XPZWS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 235,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Primeiros Passos com Cypher e Neo4j",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "16 de dezembro de 2025",
+
+    codigo: "LIC57GC8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Primeiros Passos com Cypher e Neo4j.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LIC57GC8.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 236,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aprenda uma ETL do Zero com API",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "16 de dezembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Jornada de Dados · Aprenda uma ETL do Zero com API.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 237,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Modelagem Avançada em Grafos: Refatoração, Nós Intermediários e Timelines",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "17 de dezembro de 2025",
+
+    codigo: "BE99DVWI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Modelagem Avançada em Grafos (Refatoração, Nós Intermediários e Timelines).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BE99DVWI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 238,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Estruturas de Navegação em Grafos: Lista Ligada e Padrões de Conexão",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "17 de dezembro de 2025",
+
+    codigo: "YOKPDFEV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Estruturas de Navegação em Grafos (Lista Ligada e Padrões de Conexão).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YOKPDFEV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 239,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Performance no Neo4j: Análise com EXPLAIN/PROFILE e Índices Otimizados",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "17 de dezembro de 2025",
+
+    codigo: "SUYRMFCW",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Performance no Neo4j (Análise com EXPLAIN · PROFILE e Índices Otimizados).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SUYRMFCW.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 240,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Analisando Dados de Redes Sociais com Base em Consultas de Grafos",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-12-16",
+
+    dataConclusao: "17 de dezembro de 2025",
+
+    codigo: "HSII8RJQ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Analisando Dados de Redes Sociais com Base em Consultas de Grafos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HSII8RJQ.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
