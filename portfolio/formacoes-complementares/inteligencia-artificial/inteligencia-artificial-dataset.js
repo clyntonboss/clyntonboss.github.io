@@ -1452,5 +1452,224 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/NHELIHJD.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 62,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Treinando seu Primeiro Modelo de Machine Learning para Prever Vendas",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-05-13",
+
+    dataConclusao: "13 de maio de 2025",
+
+    codigo: "GEY606AV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.13 · Digital Innovation One · Treinando seu Primeiro Modelo de Machine Learning para Prever Vendas.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GEY606AV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 63,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Otimizar o Treinamento de Modelo no Azure Machine Learning",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2025-05-13",
+
+    dataConclusao: "13 de maio de 2025",
+
+    codigo: "EDLL89LZ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.13 · Digital Innovation One · Otimizar o Treinamento de Modelo no Azure Machine Learning.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EDLL89LZ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 64,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Chatbot Baseado em Conteúdo de PDFs",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-05-13",
+
+    dataConclusao: "13 de maio de 2025",
+
+    codigo: "JLSX5D9F",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.13 · Digital Innovation One · Criando um Chatbot Baseado em Conteúdo de PDFs.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JLSX5D9F.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 65,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Otimizando Modelos de Linguagem para Aplicações Generativas de Inteligência Artificial",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2025-05-13",
+
+    dataConclusao: "13 de maio de 2025",
+
+    codigo: "6MDCURJW",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.13 · Digital Innovation One · Otimizando Modelos de Linguagem para Aplicações Generativas de Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6MDCURJW.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 66,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Microsoft Certification Challenge #3 DP-100",
+    
+    cargaHoraria: "26 h",
+
+    conclusaoISO: "2025-05-13",
+
+    dataConclusao: "13 de maio de 2025",
+
+    codigo: "JMJ4SWZA",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.13 · Digital Innovation One · Microsoft Certification Challenge 3 DP-100.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JMJ4SWZA.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 67,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Inteligência Artificial Revolution",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-05-22",
+
+    dataConclusao: "22 de maio de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.22 · Tetra Educação · Imersão Inteligência Artificial Revolution.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 68,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Inteligência Artificial: Fundamentos, Aplicações e Criatividade",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-05-23",
+
+    dataConclusao: "23 de maio de 2025",
+
+    codigo: "6830a1c6-3d04-49e0-a440-61110a00c840",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.23 · Instituto Federal Sul-Rio-Grandense · Inteligência Artificial (Fundamentos, Aplicações e Criatividade).png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 69,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Inteligência Artificial Revolution",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-05-29",
+
+    dataConclusao: "29 de maio de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.29 · Tetra Educação · Imersão Inteligência Artificial Revolution.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 70,
+
+    instituicao: "Instituto Federal Mato Grosso do Sul",
+ 
+    curso: "Introdução à Inteligência Artificial",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-06-03",
+
+    dataConclusao: "03 de junho de 2025",
+
+    codigo: "683e8bd8-ba28-48fd-a178-ed840a01004c",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.03 · Instituto Federal Mato Grosso do Sul · Introdução à Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://cursoslivres.ifms.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
