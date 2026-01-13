@@ -2630,5 +2630,255 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Associando Conceitos de Inteligências Artificiais Generativas.png",
 
     verificacao: null
+  },
+
+  {
+    id: 111,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Natural ou Fake Natty? Como Vencer na Era das Inteligências Artificiais Generativas!",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "YBIUKBI2",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Natural ou Fake Natty · Como Vencer na Era das Inteligências Artificiais Generativas!.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YBIUKBI2.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 112,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Explorando Inteligências Artificiais no Amazon Web Services",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "OL8U7KCD",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Explorando Inteligências Artificiais no Amazon Web Services.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OL8U7KCD.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 113,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Nexa - Fundamentos de Inteligência Artificial Generativa com Bedrock",
+    
+    cargaHoraria: "9 h",
+
+    conclusaoISO: "2025-11-08",
+
+    dataConclusao: "08 de novembro de 2025",
+
+    codigo: "FCD8H8T9",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.08 · Digital Innovation One · Nexa - Fundamentos de Inteligência Artificial Generativa com Bedrock.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FCD8H8T9.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 114,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao Bootcamp Machine Learning para Iniciantes",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "KRH24IOB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · Introdução ao Bootcamp Machine Learning para Iniciantes.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KRH24IOB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 115,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Algoritmos e Aprendizado de Máquina",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "FLLW4A8T",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · Algoritmos e Aprendizado de Máquina.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FLLW4A8T.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 116,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Processamento de Linguagem Natural",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "KXO4KPOJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · Processamento de Linguagem Natural.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KXO4KPOJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 117,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "O que são Inteligências Artificiais Generativas",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "EOUSBVJF",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · O que são Inteligências Artificiais Generativas.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EOUSBVJF.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 118,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao Desenvolvimento Low-Code",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "ZQOJU8WU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · Introdução ao Desenvolvimento Low-Code.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZQOJU8WU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 119,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao SageMaker Canvas: Inteligência Artificial Generativa sem Código",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "XDIFWFXQ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · Introdução ao SageMaker Canvas (Inteligência Artificial Generativa sem Código).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XDIFWFXQ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 120,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Transformando Dados em Insights com SageMaker Canvas",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "J4LBQDNA",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · Transformando Dados em Insights com SageMaker Canvas.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/J4LBQDNA.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
