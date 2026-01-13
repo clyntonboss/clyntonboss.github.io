@@ -1427,5 +1427,30 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/SFKNMMXC.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 61,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Ciência de Dados",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-05-13",
+
+    dataConclusao: "13 de maio de 2025",
+
+    codigo: "NHELIHJD",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.05.13 · Digital Innovation One · Introdução a Ciência de Dados.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NHELIHJD.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
