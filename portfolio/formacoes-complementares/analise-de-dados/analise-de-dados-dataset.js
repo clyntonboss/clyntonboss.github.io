@@ -3673,5 +3673,246 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.25 · Tetra Educação · Imersão Excel Automate.png",
 
     verificacao: null
+  },
+
+  {
+    id: 161,
+
+    instituicao: "Unieducar",
+ 
+    curso: "Análise de Dados, Probabilidade e Distribuições de Probabilidade",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-09-28",
+
+    dataConclusao: "28 de setembro de 2025",
+
+    codigo: "202509283801637.1759075088",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.28 · Unieducar · Análise de Dados, Probabilidade e Distribuições de Probabilidade.png",
+
+    verificacao: {
+      url: "https://unieducar.org.br/consultar-certificado?numero_certificado=202509283801637.1759075088",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 162,
+
+    instituicao: "Comunidade Data Driven",
+ 
+    curso: "Imersão Power BI na Era da Inteligência Artificial",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-10-08",
+
+    dataConclusao: "08 de outubro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.08 · Comunidade Data Driven · Imersão Power BI na Era da Inteligência Artificial.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 163,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Power BI",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-10-09",
+
+    dataConclusao: "09 de outubro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.09 · Tetra Educação · Básico de Power BI.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 164,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Soluções Preditivas Baseadas em Dados com o Uso do R e do Python",
+    
+    cargaHoraria: "25 h",
+
+    conclusaoISO: "2025-10-14",
+
+    dataConclusao: "14 de outubro de 2025",
+
+    codigo: "SHsT19068421Kb9j",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.14 · Escola Nacional de Administração Pública · Soluções Preditivas Baseadas em Dados com o Uso do R e do Python™.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 165,
+
+    instituicao: "Cursa",
+ 
+    curso: "Data Science com Puthon™",
+    
+    cargaHoraria: "11 h",
+
+    conclusaoISO: "2025-10-17",
+
+    dataConclusao: "17 de outubro de 2025",
+
+    codigo: "08b05ab7aa",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.17 · Cursa · Data Science com Puthon™.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/08b05ab7aa",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 166,
+
+    instituicao: "Cursa",
+ 
+    curso: "Google Analytics",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-10-18",
+
+    dataConclusao: "18 de outubro de 2025",
+
+    codigo: "0d016abf59",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.18 · Cursa · Google Analytics.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/0d016abf59",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 167,
+
+    instituicao: "Profissionais de Epidemiologia",
+ 
+    curso: "Painel de Indicadores",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2025-10-20",
+
+    dataConclusao: "20 de outubro de 2025",
+
+    codigo: "hHh4xWDmSg",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.20 · Profissionais de Epidemiologia · Painel de Indicadores.png",
+
+    verificacao: {
+      url: "https://ead.proepi.org.br/ead/mod/customcert/verify_certificate.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 168,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Profissional do Futuro",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-10-23",
+
+    dataConclusao: "23 de outubro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.23 · Xperiun · Data Analytics · Profissional do Futuro.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 169,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Análise de Dados: Uma Leitura Crítica das Informações",
+    
+    cargaHoraria: "23 h",
+
+    conclusaoISO: "2025-10-27",
+
+    dataConclusao: "27 de outubro de 2025",
+
+    codigo: "IyjF1930341257Q1",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.27 · Escola Nacional de Administração Pública · Análise de Dados (Uma Leitura Crítica das Informações).png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 170,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Análise de Negócios no Desenvolvimento de Soluções Baseadas em Dados",
+    
+    cargaHoraria: "25 h",
+
+    conclusaoISO: "2025-10-27",
+
+    dataConclusao: "27 de outubro de 2025",
+
+    codigo: "iez2193034252sit",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.27 · Escola Nacional de Administração Pública · Análise de Negócios no Desenvolvimento de Soluções Baseadas em Dados.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
