@@ -5902,5 +5902,202 @@ window.datasetCategoria = [
       url: "https://mycourse.app/OMXUpnjb6gVvegdJO",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 251,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Conectando Grafos de Conhecimento com Inteligência Artificial Generativa",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-19",
+
+    dataConclusao: "19 de dezembro de 2025",
+
+    codigo: "JO517QYB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Conectando Grafos de Conhecimento com Inteligência Artificial Generativa.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JO517QYB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 252,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Trabalhando Vetores e Dados Não-Estruturados em LLM no Neo4j",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-19",
+
+    dataConclusao: "19 de dezembro de 2025",
+
+    codigo: "H4HNTOER",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Trabalhando Vetores e Dados Não-Estruturados em LLM no Neo4j.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H4HNTOER.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 253,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Dominando a Biblioteca GraphRAG - Python™ para Grafos de Conhecimento",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-19",
+
+    dataConclusao: "19 de dezembro de 2025",
+
+    codigo: "2S1EVZDT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Dominando a Biblioteca GraphRAG - Python™ para Grafos de Conhecimento.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2S1EVZDT.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 254,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Entendendo Grafos: Frequência e Interseção em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-19",
+
+    dataConclusao: "19 de dezembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Entendendo Grafos (Frequência e Interseção em Python™).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 255,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Soluções com Neo4j e GenAI",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-12-19",
+
+    dataConclusao: "19 de dezembro de 2025",
+
+    codigo: "XXOBRQVF",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Soluções com Neo4j e GenAI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XXOBRQVF.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 256,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Como se Preparar para Certificação Neo4j Certified Professional",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-20",
+
+    dataConclusao: "20 de dezembro de 2025",
+
+    codigo: "UDVCOXYT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Como se Preparar para Certificação Neo4j Certified Professional.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UDVCOXYT.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 257,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Preparatório para a Certificação Neo4j",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-20",
+
+    dataConclusao: "20 de dezembro de 2025",
+
+    codigo: "ADSMQ37S",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Preparatório para a Certificação Neo4j.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ADSMQ37S.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 258,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Análise de Dados com Grafos",
+    
+    cargaHoraria: "51 h",
+
+    conclusaoISO: "2025-12-20",
+
+    dataConclusao: "20 de dezembro de 2025",
+
+    codigo: "AFBT01BR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Neo4j - Análise de Dados com Grafos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AFBT01BR.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
