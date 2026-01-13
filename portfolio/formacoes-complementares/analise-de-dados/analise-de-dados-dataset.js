@@ -5538,7 +5538,7 @@ window.datasetCategoria = [
   {
     id: 236,
 
-    instituicao: "Digital Innovation One",
+    instituicao: "Jornada de Dados",
  
     curso: "Aprenda uma ETL do Zero com API",
     
