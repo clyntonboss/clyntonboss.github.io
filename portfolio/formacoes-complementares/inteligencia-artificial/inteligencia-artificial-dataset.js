@@ -2148,5 +2148,240 @@ window.datasetCategoria = [
       url: "https://cursa.com.br/certificate/e2d9c8613b",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 91,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Gestor do Futuro",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-08-14",
+
+    dataConclusao: "14 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.08.14 · Tetra Educação · Imersão Gestor do Futuro.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 92,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Inteligência Artificial Responsável",
+    
+    cargaHoraria: "80 h",
+
+    conclusaoISO: "2025-08-29",
+
+    dataConclusao: "29 de agosto de 2025",
+
+    codigo: "1bf246ca707640c9e7d1938ef9535c48",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.08.14 · Tetra Educação · Imersão Gestor do Futuro.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=1bf246ca707640c9e7d1938ef9535c48&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 93,
+
+    instituicao: "Daxus",
+ 
+    curso: "Imersão Inteligência Artificial na Prática",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-09-11",
+
+    dataConclusao: "11 de setembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.09.11 · Daxus · Imersão Inteligência Artificial na Prática.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 94,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Inteligência Artificial Express",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-09-11",
+
+    dataConclusao: "11 de setembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.09.11 · Simplifica Treinamentos · Simplifica Inteligência Artificial Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 95,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Gestor do Futuro",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-09-11",
+
+    dataConclusao: "11 de setembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.09.11 · Tetra Educação · Imersão Gestor do Futuro.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 96,
+
+    instituicao: "Aprenda Mais",
+ 
+    curso: "Inteligência Artificial I - Conhecendo as Redes Neurais Artificiais",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-09-26",
+
+    dataConclusao: "26 de setembro de 2025",
+
+    codigo: "68d6d83f-f4b8-47b7-8017-39ebac1f02af",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.09.26 · Aprenda Mais · Inteligência Artificial I - Conhecendo as Redes Neurais Artificiais.png",
+
+    verificacao: {
+      url: "https://aprendamais.mec.gov.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 97,
+
+    instituicao: "HP Foundation",
+ 
+    curso: "Inteligência Artificial para Profissionais de Negócios",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-01",
+
+    dataConclusao: "01 de outubro de 2025",
+
+    codigo: "5633ceee-5064-4fa0-a684-5d42284547f3",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.10.01 · HP Foundation · Inteligência Artificial para Profissionais de Negócios.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 98,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Jornada Inteligência Artificial da Hashtag",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-10-16",
+
+    dataConclusao: "16 de outubro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.10.16 · Hashtag Treinamentos · Jornada Inteligência Artificial da Hashtag.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Inteligência+Artificial+da+Hashtag&dtcf=16%2F10%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 99,
+
+    instituicao: "Cursa",
+ 
+    curso: "Google Gemini",
+    
+    cargaHoraria: "31 h",
+
+    conclusaoISO: "2025-10-18",
+
+    dataConclusao: "18 de outubro de 2025",
+
+    codigo: "dcd973a49d",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.10.18 · Cursa · Google Gemini.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/dcd973a49d",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 100,
+
+    instituicao: "Escola Nacional de Administração Pública - ENAP",
+ 
+    curso: "Introdução ao Processamento de Linguagem Natural",
+    
+    cargaHoraria: "25 h",
+
+    conclusaoISO: "2025-10-27",
+
+    dataConclusao: "27 de outubro de 2025",
+
+    codigo: "D4Kp19303419NUs8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.10.27 · Escola Nacional de Administração Pública · Introdução ao Processamento de Linguagem Natural.png",
+
+    verificacao: {
+      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
