@@ -1916,5 +1916,237 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Preparing for Databricks Certification Exams.png",
 
     verificacao: null
+  },
+
+  {
+    id: 81,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Machine Learning Practitioner",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-06-16",
+
+    dataConclusao: "16 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.16 · Databricks Academy · Machine Learning Practitioner.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 82,
+
+    instituicao: "Master Data Lab",
+ 
+    curso: "Business Artificial Intelligence Essentials :: The Future of Articial Intelligence",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-06-26",
+
+    dataConclusao: "26 de junho de 2025",
+
+    codigo: "2cdabc60",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.23 · Master Data Lab · Business Artificial Intelligence Essentials ·· The Future of Articial Intelligence.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 83,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Inteligência Artificial Revolution",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-07-03",
+
+    dataConclusao: "03 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.07.03 · Tetra Educação · Imersão Inteligência Artificial Revolution.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 84,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Jornada Inteligência Artificial da Hashtag",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-07-17",
+
+    dataConclusao: "17 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.07.17 · Hashtag Treinamentos · Jornada Inteligência Artificial da Hashtag.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Inteligência+Artificial+da+Hashtag&dtcf=17%2F07%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 85,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Inteligência Artificial Revolution",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-07-24",
+
+    dataConclusao: "24 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.07.24 · Tetra Educação · Imersão Inteligência Artificial Revolution.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 86,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Gestor do Futuro",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-07-31",
+
+    dataConclusao: "31 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.07.31 · Tetra Educação · Imersão Gestor do Futuro.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 87,
+
+    instituicao: "Comunidade Data Driven",
+ 
+    curso: "Imersão Inteligência Artificial",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-08-07",
+
+    dataConclusao: "07 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.08.07 · Comunidade Data Driven · Imersão Inteligência Artificial.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 88,
+
+    instituicao: "Cursa",
+ 
+    curso: "ChatGPT",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-08-11",
+
+    dataConclusao: "11 de agosto de 2025",
+
+    codigo: "b3c7dcc392",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.08.11 · Cursa · ChatGPT.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/b3c7dcc392",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 89,
+
+    instituicao: "Cursa",
+ 
+    curso: "ChatGPT do Iniciante ao Avançado",
+    
+    cargaHoraria: "32 h",
+
+    conclusaoISO: "2025-08-11",
+
+    dataConclusao: "11 de agosto de 2025",
+
+    codigo: "13ed13a578",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.08.11 · Cursa · ChatGPT do Iniciante ao Avançado.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/13ed13a578",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 90,
+
+    instituicao: "Cursa",
+ 
+    curso: "Inteligência Artificial",
+    
+    cargaHoraria: "13 h",
+
+    conclusaoISO: "2025-08-12",
+
+    dataConclusao: "12 de agosto de 2025",
+
+    codigo: "e2d9c8613b",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.08.12 · Cursa · Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/e2d9c8613b",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
