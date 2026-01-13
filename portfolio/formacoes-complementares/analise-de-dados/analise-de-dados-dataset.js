@@ -4401,7 +4401,7 @@ window.datasetCategoria = [
 
     dataConclusao: "06 de dezembro de 2025",
 
-    codigo: "inaplicável",
+    codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
