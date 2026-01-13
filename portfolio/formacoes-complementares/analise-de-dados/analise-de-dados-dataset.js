@@ -5566,7 +5566,7 @@ window.datasetCategoria = [
     
     cargaHoraria: "1 h",
 
-    conclusaoISO: "2025-12-16",
+    conclusaoISO: "2025-12-17",
 
     dataConclusao: "17 de dezembro de 2025",
 
@@ -5591,7 +5591,7 @@ window.datasetCategoria = [
     
     cargaHoraria: "1 h",
 
-    conclusaoISO: "2025-12-16",
+    conclusaoISO: "2025-12-17",
 
     dataConclusao: "17 de dezembro de 2025",
 
@@ -5616,7 +5616,7 @@ window.datasetCategoria = [
     
     cargaHoraria: "1 h",
 
-    conclusaoISO: "2025-12-16",
+    conclusaoISO: "2025-12-17",
 
     dataConclusao: "17 de dezembro de 2025",
 
@@ -5641,7 +5641,7 @@ window.datasetCategoria = [
     
     cargaHoraria: "2 h",
 
-    conclusaoISO: "2025-12-16",
+    conclusaoISO: "2025-12-17",
 
     dataConclusao: "17 de dezembro de 2025",
 
@@ -5653,6 +5653,253 @@ window.datasetCategoria = [
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/HSII8RJQ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 241,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Modelagem de Bancos Baseados em Grafos",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2025-12-17",
+
+    dataConclusao: "17 de dezembro de 2025",
+
+    codigo: "NEURDOXA",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Modelagem de Bancos Baseados em Grafos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NEURDOXA.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 242,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Ingestão de Dados no Neo4j: Importação, Transformação e Boas Práticas",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-18",
+
+    dataConclusao: "18 de dezembro de 2025",
+
+    codigo: "MUIX7BUS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Ingestão de Dados no Neo4j (Importação, Transformação e Boas Práticas).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MUIX7BUS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 243,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Neo4j com Python™: Aplicações, Queries e Automação com Cypher",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-18",
+
+    dataConclusao: "18 de dezembro de 2025",
+
+    codigo: "JVVZFYPN",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j com Python™ (Aplicações, Queries e Automação com Cypher).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JVVZFYPN.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 244,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Neo4j e GraphQL: Construindo APIs Orientadas a Grafos",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-18",
+
+    dataConclusao: "18 de dezembro de 2025",
+
+    codigo: "FXTABGLJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j e GraphQL (Construindo APIs Orientadas a Grafos).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FXTABGLJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 245,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Neo4j e Spark: Integração para Análise de Dados",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-18",
+
+    dataConclusao: "18 de dezembro de 2025",
+
+    codigo: "DVWYC5MT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j e Spark (Integração para Análise de Dados).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DVWYC5MT.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 246,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Neo4j com HTTP API: Comunicação e Integrações Personalizadas",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-18",
+
+    dataConclusao: "18 de dezembro de 2025",
+
+    codigo: "RP2Z78CZ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j com HTTP API (Comunicação e Integrações Personalizadas).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RP2Z78CZ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 247,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Entendendo Grafos: Rotas e Relações em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-18",
+
+    dataConclusao: "18 de dezembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Entendendo Grafos (Rotas e Relações em Python™).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 248,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Integrações Inteligentes com Neo4j",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-12-18",
+
+    dataConclusao: "18 de dezembro de 2025",
+
+    codigo: "USBVS1WZ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Integrações Inteligentes com Neo4j.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/USBVS1WZ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 249,
+
+    instituicao: "Pontifícia Universidade Católica do Rio Grande do Sul",
+ 
+    curso: "Como usar Data Science e Artificial Intelligence para Otimizar a Logística e Operações",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-12-19",
+
+    dataConclusao: "19 de dezembro de 2025",
+
+    codigo: "236969-776-1",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Pontifícia Universidade Católica do Rio Grande do Sul · Como usar Data Science e Artificial Intelligence para Otimizar a Logística e Operações.png",
+
+    verificacao: {
+      url: "https://educon.pucrs.br/validarcertificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 250,
+
+    instituicao: "Data Science Academy",
+ 
+    curso: "Fundamentos de Linguagem Python™ para Análise de Dados, Data Science e Machine Learning",
+    
+    cargaHoraria: "64 h",
+
+    conclusaoISO: "2025-12-19",
+
+    dataConclusao: "19 de dezembro de 2025",
+
+    codigo: "6944fd6ceadbb6552208ff8a",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Data Science Academy · Fundamentos de Linguagem Python™ para Análise de Dados, Data Science e Machine Learning.png",
+
+    verificacao: {
+      url: "https://mycourse.app/OMXUpnjb6gVvegdJO",
       texto: "Verificar Autenticidade"
     }
   }
