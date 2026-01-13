@@ -1642,6 +1642,7 @@ const sections = {
           <a href="#" data-category="cloud">Cloud</a>
           <a href="#" data-category="sistemasOperacionais">Sistemas Operacionais</a>
           <a href="#" data-category="segurancaInformacao">Segurança da Informação</a>
+          <a href="#" data-category="programacao">Programação</a>
           <a href="/portfolio/formacoes-complementares/programacao/">Programação</a>
           <a href="#" data-category="roboticProcessAutomation">Robotic Process Automation</a>
                           
