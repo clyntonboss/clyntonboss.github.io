@@ -3914,5 +3914,55 @@ window.datasetCategoria = [
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 171,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao Excel e Power BI Dashboards com a Klabin",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-04",
+
+    dataConclusao: "04 de dezembro de 2025",
+
+    codigo: "MUDNRPKR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Introdução ao Excel e Power BI Dashboards com a Klabin.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MUDNRPKR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 172,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de Business Intelligence",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "UHR6E3EG",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Business Intelligence.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UHR6E3EG.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
