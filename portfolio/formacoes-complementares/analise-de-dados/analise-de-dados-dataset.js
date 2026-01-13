@@ -4164,5 +4164,248 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/RX4XNX4T.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 181,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Construa um Projeto Lógico de Banco de Dados do Zero",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "Q6JXCLGO",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Construa um Projeto Lógico de Banco de Dados do Zero.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/Q6JXCLGO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+  {
+    id: 182,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Associando Comandos SQL com Lógica de Programação",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Comandos SQL com Lógica de Programação.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 183,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Explorando Bancos Relacionais e Consultas SQL",
+    
+    cargaHoraria: "19 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "L7GKXCYS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Explorando Bancos Relacionais e Consultas SQL.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/L7GKXCYS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 184,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao Excel 365",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "ZXIYW4H6",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Introdução ao Excel 365.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZXIYW4H6.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 185,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Trabalhando com Microsoft Copilot",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "NVKBTJHU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Trabalhando com Microsoft Copilot.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NVKBTJHU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 186,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Utilizando Microsoft Copilot para Escrever Consultas SQL",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "LDIEBOYB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Utilizando Microsoft Copilot para Escrever Consultas SQL.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LDIEBOYB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 187,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Processo de ETL com Excel e Power Query",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "OXVXT5PI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Criando um Processo de ETL com Excel e Power Query.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OXVXT5PI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 188,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Analisando Bases de Dados com Excel e Copilot",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "SKJCPOMZ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Analisando Bases de Dados com Excel e Copilot.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SKJCPOMZ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 189,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Dashboard de Vendas do Xbox com Excel",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "2BSGG81O",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Criando um Dashboard de Vendas do Xbox com Excel.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2BSGG81O.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 190,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Associando Fórmulas Excel com Lógica de Programação",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Fórmulas Excel com Lógica de Programação.png",
+
+    verificacao: null
   }
 ];
