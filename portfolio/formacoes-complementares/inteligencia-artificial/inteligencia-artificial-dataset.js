@@ -789,7 +789,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 35,
+    id: 34,
 
     instituicao: "Digital Innovation One",
  
@@ -814,7 +814,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 36,
+    id: 35,
 
     instituicao: "Digital Innovation One",
  
@@ -839,7 +839,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 37,
+    id: 36,
 
     instituicao: "Digital Innovation One",
  
@@ -864,7 +864,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 38,
+    id: 37,
 
     instituicao: "Digital Innovation One",
  
@@ -889,7 +889,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 39,
+    id: 38,
 
     instituicao: "Digital Innovation One",
  
@@ -914,7 +914,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 40,
+    id: 39,
 
     instituicao: "Digital Innovation One",
  
@@ -939,7 +939,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 41,
+    id: 40,
 
     instituicao: "Digital Innovation One",
  
@@ -964,7 +964,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 42,
+    id: 41,
 
     instituicao: "Digital Innovation One",
  
@@ -989,7 +989,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 43,
+    id: 42,
 
     instituicao: "Digital Innovation One",
  
@@ -1014,7 +1014,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 44,
+    id: 43,
 
     instituicao: "Digital Innovation One",
  
@@ -1039,7 +1039,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 45,
+    id: 44,
 
     instituicao: "Digital Innovation One",
  
@@ -1064,7 +1064,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 46,
+    id: 45,
 
     instituicao: "Digital Innovation One",
  
@@ -1089,7 +1089,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 47,
+    id: 46,
 
     instituicao: "Digital Innovation One",
  
@@ -1114,7 +1114,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 48,
+    id: 47,
 
     instituicao: "Digital Innovation One",
  
@@ -1139,7 +1139,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 49,
+    id: 48,
 
     instituicao: "Digital Innovation One",
  
@@ -1164,7 +1164,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 50,
+    id: 49,
 
     instituicao: "Digital Innovation One",
  
@@ -1189,7 +1189,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 51,
+    id: 50,
 
     instituicao: "Digital Innovation One",
  
@@ -1214,7 +1214,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 52,
+    id: 51,
 
     instituicao: "Digital Innovation One",
  
@@ -1236,7 +1236,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 53,
+    id: 52,
 
     instituicao: "Digital Innovation One",
  
@@ -1261,7 +1261,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 54,
+    id: 53,
 
     instituicao: "Digital Innovation One",
  
@@ -1283,7 +1283,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 55,
+    id: 54,
 
     instituicao: "Digital Innovation One",
  
@@ -1308,7 +1308,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 56,
+    id: 55,
 
     instituicao: "Daxus",
  
@@ -1330,7 +1330,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 57,
+    id: 56,
 
     instituicao: "Digital Innovation One",
  
@@ -1355,7 +1355,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 58,
+    id: 57,
 
     instituicao: "Digital Innovation One",
  
@@ -1380,7 +1380,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 59,
+    id: 58,
 
     instituicao: "Digital Innovation One",
  
@@ -1405,7 +1405,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 60,
+    id: 59,
 
     instituicao: "Digital Innovation One",
  
@@ -1430,7 +1430,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 61,
+    id: 60,
 
     instituicao: "Digital Innovation One",
  
@@ -1455,7 +1455,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 62,
+    id: 61,
 
     instituicao: "Digital Innovation One",
  
@@ -1480,7 +1480,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 63,
+    id: 62,
 
     instituicao: "Digital Innovation One",
  
@@ -1505,7 +1505,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 64,
+    id: 63,
 
     instituicao: "Digital Innovation One",
  
@@ -1530,7 +1530,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 65,
+    id: 64,
 
     instituicao: "Digital Innovation One",
  
@@ -1555,7 +1555,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 66,
+    id: 65,
 
     instituicao: "Digital Innovation One",
  
@@ -1580,7 +1580,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 67,
+    id: 66,
 
     instituicao: "Tetra Educação",
  
@@ -1602,7 +1602,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 68,
+    id: 67,
 
     instituicao: "Instituto Federal Sul-Rio-Grandense",
  
@@ -1627,7 +1627,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 69,
+    id: 68,
 
     instituicao: "Tetra Educação",
  
@@ -1649,7 +1649,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 70,
+    id: 69,
 
     instituicao: "Instituto Federal Mato Grosso do Sul",
  
@@ -1669,6 +1669,31 @@ window.datasetCategoria = [
 
     verificacao: {
       url: "https://cursoslivres.ifms.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 70,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Aprendizagem de Máquina em Redes Bayesianas - Fundamentos e Aplicações",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-06-06",
+
+    dataConclusao: "06 de junho de 2025",
+
+    codigo: "6843192d-0060-48dc-b0d9-06970a00c840",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.06.06 · Instituto Federal Sul-Rio-Grandense · Aprendizagem de Máquina em Redes Bayesianas - Fundamentos e Aplicações.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
   }
