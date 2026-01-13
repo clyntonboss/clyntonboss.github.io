@@ -3921,6 +3921,56 @@ window.datasetCategoria = [
 
     instituicao: "Digital Innovation One",
  
+    curso: "Fundamentos de Business Intelligence",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "UHR6E3EG",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Business Intelligence.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UHR6E3EG.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 172,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Análise de Dados com SQL",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-26",
+
+    dataConclusao: "26 de novembro de 2025",
+
+    codigo: "GIV3OFCI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Introdução a Análise de Dados com SQL.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GIV3OFCI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 173,
+
+    instituicao: "Digital Innovation One",
+ 
     curso: "Introdução ao Excel e Power BI Dashboards com a Klabin",
     
     cargaHoraria: "1 h",
@@ -3942,26 +3992,176 @@ window.datasetCategoria = [
   },
 
   {
-    id: 172,
+    id: 174,
 
     instituicao: "Digital Innovation One",
  
-    curso: "Fundamentos de Business Intelligence",
+    curso: "Live de Lançamento - Klabin - Excel e Power BI Dashboards",
     
     cargaHoraria: "2 h",
 
-    conclusaoISO: "2025-11-26",
+    conclusaoISO: "2025-12-04",
 
-    dataConclusao: "26 de novembro de 2025",
+    dataConclusao: "04 de dezembro de 2025",
 
-    codigo: "UHR6E3EG",
+    codigo: "UKBZA89I",
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Business Intelligence.png",
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Live de Lançamento - Klabin - Excel e Power BI Dashboards.png",
 
     verificacao: {
-      url: "https://hermes.dio.me/certificates/UHR6E3EG.pdf",
+      url: "https://hermes.dio.me/certificates/UKBZA89I.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 175,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Análise de Dados e BI",
+    
+    cargaHoraria: "12 h",
+
+    conclusaoISO: "2025-12-04",
+
+    dataConclusao: "04 de dezembro de 2025",
+
+    codigo: "45QUXAFS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Introdução a Análise de Dados e BI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/45QUXAFS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 176,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Primeiros Passos com SQL",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-12-05",
+
+    dataConclusao: "05 de dezembro de 2025",
+
+    codigo: "UUVTJTCM",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Primeiros Passos com SQL.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UUVTJTCM.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 177,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Explorando Queries com SQL",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-12-05",
+
+    dataConclusao: "05 de dezembro de 2025",
+
+    codigo: "Y7PFJNZ4",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Explorando Queries com SQL.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/Y7PFJNZ4.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 178,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando Queries com Funções e Cláusulas de Agrupamento",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-12-05",
+
+    dataConclusao: "05 de dezembro de 2025",
+
+    codigo: "G6MHOJWG",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Criando Queries com Funções e Cláusulas de Agrupamento.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/G6MHOJWG.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 179,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Agrupando Registros e Tabelas com Join Statement",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "PLW5E92H",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Agrupando Registros e Tabelas com Join Statement.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PLW5E92H.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 180,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Construindo seu Primeiro Projeto Lógico de Banco de Dados",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-12-06",
+
+    dataConclusao: "06 de dezembro de 2025",
+
+    codigo: "RX4XNX4T",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Construindo seu Primeiro Projeto Lógico de Banco de Dados.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RX4XNX4T.pdf",
       texto: "Verificar Autenticidade"
     }
   }
