@@ -1133,5 +1133,225 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.01 · Databricks Academy · Artificial Intelligence · Business Intelligence for Data Analysts.png",
 
     verificacao: null
+  },
+
+  {
+    id: 51,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "SQL Analytics on Databricks",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-01",
+
+    dataConclusao: "01 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.01 · Databricks Academy · SQL Analytics on Databricks.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 52,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Data Modeling Strategies",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-03",
+
+    dataConclusao: "03 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.03 · Databricks Academy · Data Modeling Strategies.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 53,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Delta x Iceberg: Interoperability with Unity Catalog",
+    
+    cargaHoraria: "1 h 30 min",
+
+    conclusaoISO: "2025-07-04",
+
+    dataConclusao: "04 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.04 · Databricks Academy · Delta x Iceberg (Interoperability with Unity Catalog).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 54,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Data Ingestion with Lakeflow Connect",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-04",
+
+    dataConclusao: "04 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.04 · Databricks Academy · Data Ingestion with Lakeflow Connect.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 55,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Deploy Workloads with Lakeflow Jobs",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-06",
+
+    dataConclusao: "06 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.06 · Databricks Academy · Deploy Workloads with Lakeflow Jobs.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 56,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Build Data Pipelines with LakeFlow Declarative Pipelines",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-06",
+
+    dataConclusao: "06 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.06 · Databricks Academy · Build Data Pipelines with LakeFlow Declarative Pipelines.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 57,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Data Management and Governance with Unity Catalog",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-06",
+
+    dataConclusao: "06 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.06 · Databricks Academy · Data Management and Governance with Unity Catalog.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 58,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "DevOps Essentials for Data Engineering",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-06",
+
+    dataConclusao: "06 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.06 · Databricks Academy · DevOps Essentials for Data Engineering.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 59,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Databricks Streaming and Delta Live Tables",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-07",
+
+    dataConclusao: "07 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Databricks Streaming and Delta Live Tables.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 60,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Databricks Data Privacy",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-07",
+
+    dataConclusao: "07 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Databricks Data Privacy.png",
+
+    verificacao: null
   }
 ];
