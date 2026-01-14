@@ -449,7 +449,7 @@ window.datasetCategoria = [
 
     codigo: "67e824f8-9930-45e2-8878-c590ac140047",
 
-    mostrarCopiar: false,
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.29 · Instituto Federal Minas Gerais · Introdução aos Algoritmos e à Programação Básica com a Linguagem Java.png",
 
@@ -474,7 +474,7 @@ window.datasetCategoria = [
 
     codigo: "67eaed99-8e10-4349-9567-929eac140047",
 
-    mostrarCopiar: false,
+    mostrarCopiar: true,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.31 · Instituto Federal Minas Gerais · Conceitos Avançados sobre Algoritmos e Programação com a Linguagem Java.png",
 
@@ -485,26 +485,251 @@ window.datasetCategoria = [
   },
 
   {
-    id: 20,
+    id: 21,
 
     instituicao: "Instituto Federal Minas Gerais",
  
-    curso: "Conceitos Avançados sobre Algoritmos e Programação com a Linguagem Java",
+    curso: "Python™ Básico",
     
     cargaHoraria: "40 h",
 
-    conclusaoISO: "2025-03-31",
+    conclusaoISO: "2025-04-02",
 
-    dataConclusao: "31 de março de 2025",
+    dataConclusao: "02 de abril de 2025",
 
-    codigo: "67eaed99-8e10-4349-9567-929eac140047",
+    codigo: "67ed5ead-e6e8-4bce-92c5-35b4ac140047",
 
-    mostrarCopiar: false,
+    mostrarCopiar: true,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.31 · Instituto Federal Minas Gerais · Conceitos Avançados sobre Algoritmos e Programação com a Linguagem Java.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.04.02 · Instituto Federal Minas Gerais · Python™ Básico.png",
 
     verificacao: {
       url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 22,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Python™ Avançado",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-04-06",
+
+    dataConclusao: "06 de abril de 2025",
+
+    codigo: "67f29d0c-9e64-45ee-afa8-ddacac140047",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.04.06 · Instituto Federal Minas Gerais · Python™ Avançado.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 23,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Python™ Development",
+    
+    cargaHoraria: "80 h",
+
+    conclusaoISO: "2025-04-08",
+
+    dataConclusao: "08 de abril de 2025",
+
+    codigo: "08ffb2bec6b23a78e44cf618568eb774",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.04.08 · FIAP - Centro Universitário · Python™ Development.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=08ffb2bec6b23a78e44cf618568eb774&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 24,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Java Development",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2025-04-09",
+
+    dataConclusao: "09 de abril de 2025",
+
+    codigo: "c2ba518890adab2e51ca681533446da3",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.04.09 · FIAP - Centro Universitário · Java Development.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=c2ba518890adab2e51ca681533446da3&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 25,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Learn to Program",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2025-04-11",
+
+    dataConclusao: "11 de abril de 2025",
+
+    codigo: "6c855188e3fd265809408eaf99edfc3a",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.04.11 · FIAP - Centro Universitário · Learn to Program.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=6c855188e3fd265809408eaf99edfc3a&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 26,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Engenharia de Software",
+    
+    cargaHoraria: "100 h",
+
+    conclusaoISO: "2025-04-13",
+
+    dataConclusao: "13 de abril de 2025",
+
+    codigo: "720f3468ec6e53e09beb3ebb598ec073",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.04.13 · FIAP - Centro Universitário · Engenharia de Software.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=720f3468ec6e53e09beb3ebb598ec073&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 27,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "JavaScript (Básico)",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-01",
+
+    dataConclusao: "01 de maio de 2025",
+
+    codigo: "6813c8ce-129c-44a4-a522-8290c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.01 · Instituto Federal Minas Gerais · JavaScript (Básico).png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 28,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Introdução à Lógica de Programação",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-02",
+
+    dataConclusao: "02 de maio de 2025",
+
+    codigo: "6814e6d2-34bc-4810-9e9b-7f930a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.02 · Instituto Federal Sul-Rio-Grandense · Introdução à Lógica de Programação.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 29,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "JavaScript (Avançado)",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-02",
+
+    dataConclusao: "02 de maio de 2025",
+
+    codigo: "6814edc1-2208-45ae-8e03-261cc883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.02 · Instituto Federal Minas Gerais · JavaScript (Avançado).png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 30,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Introdução à Programação Orientada a Objetos",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-02",
+
+    dataConclusao: "02 de maio de 2025",
+
+    codigo: "6814f318-f74c-4883-adaf-81990a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.02 · Instituto Federal Sul-Rio-Grandense · Introdução à Programação Orientada a Objetos.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
   }
