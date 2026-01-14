@@ -1232,5 +1232,255 @@ window.datasetCategoria = [
       url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 51,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "CSS3: Estilizando Páginas Web com Estilo",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-12",
+
+    dataConclusao: "12 de outubro de 2025",
+
+    codigo: "68ec246e-df38-4d22-bd1f-3aff0aa8010b",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.12 · Instituto Federal Rio Grande do Sul · CSS3 (Estilizando Páginas Web com Estilo).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 52,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "JavaScript: Fundamentos para Desenvolvimento Web Interativo",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-12",
+
+    dataConclusao: "12 de outubro de 2025",
+
+    codigo: "68ec52a4-bcfc-40ed-ab7d-73cc0aa8010b",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.12 · Instituto Federal Rio Grande do Sul · JavaScript (Fundamentos para Desenvolvimento Web Interativo).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 53,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "React Native: Criação de Aplicativos Móveis Modernos",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-13",
+
+    dataConclusao: "13 de outubro de 2025",
+
+    codigo: "68ed8753-5340-4f6f-a151-3a160aa80215",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.13 · Instituto Federal Rio Grande do Sul · React Native (Criação de Aplicativos Móveis Modernos).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 54,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "React: Construindo Single Page Applications Dinâmicas e Interativas",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-13",
+
+    dataConclusao: "13 de outubro de 2025",
+
+    codigo: "68eda869-c068-46f2-bbe9-62cb0aa80215",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.13 · Instituto Federal Rio Grande do Sul · React (Construindo Single Page Applications Dinâmicas e Interativas).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 55,
+
+    instituicao: "Cursa",
+ 
+    curso: "HTML5 & CSS3 na Prática",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2025-10-14",
+
+    dataConclusao: "14 de outubro de 2025",
+
+    codigo: "73bd10c79f",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.14 · Cursa · HTML5 & CSS3 na Prática.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/73bd10c79f",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 56,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Programação Básica com Java I",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-14",
+
+    dataConclusao: "14 de outubro de 2025",
+
+    codigo: "68eeebda-15e8-4c4b-90c2-dd550aa80e35",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.14 · Instituto Federal Rio Grande do Sul · Programação Básica com Java I.png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 57,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Programação Básica com Java II",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-15",
+
+    dataConclusao: "15 de outubro de 2025",
+
+    codigo: "68f05b59-8ae8-4676-96f1-595c0aa80016",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.15 · Instituto Federal Rio Grande do Sul · Programação Básica com Java II.png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 58,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Intensivão de JavaScript",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-10-16",
+
+    dataConclusao: "16 de outubro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.16 · Hashtag Treinamentos · Intensivão de JavaScript.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+JavaScript&dtcf=16%2F10%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 59,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Programação Básica com Java III",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-17",
+
+    dataConclusao: "17 de outubro de 2025",
+
+    codigo: "68f2bb81-4e2c-4b52-b442-976b0aa8012a",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.17 · Instituto Federal Rio Grande do Sul · Programação Básica com Java III.png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 60,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Lógica de Programação: Começando a Desenvolver seus Primeiros Programas",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-10-17",
+
+    dataConclusao: "17 de outubro de 2025",
+
+    codigo: "68f2ce6e-12e8-41e5-87f9-32530aa80e35",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.17 · Instituto Federal Rio Grande do Sul · Lógica de Programação (Começando a Desenvolver seus Primeiros Programas).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
