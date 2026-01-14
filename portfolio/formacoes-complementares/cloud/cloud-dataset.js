@@ -1353,5 +1353,259 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Databricks Data Privacy.png",
 
     verificacao: null
+  },
+
+  {
+    id: 61,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Databricks Performance Optimization",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-07",
+
+    dataConclusao: "07 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Databricks Performance Optimization.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 62,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Automated Deployment with Databricks Asset Bundles",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-07",
+
+    dataConclusao: "07 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Automated Deployment with Databricks Asset Bundles.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 63,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Data Warehousing with Databricks",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-13",
+
+    dataConclusao: "13 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.13 · Databricks Academy · Data Warehousing with Databricks.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 64,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "SQL Programming and Procedural Logic",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-13",
+
+    dataConclusao: "13 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.13 · Databricks Academy · SQL Programming and Procedural Logic.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 65,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Create Your First Workspace Using Databricks Express",
+    
+    cargaHoraria: "1 h 30 min",
+
+    conclusaoISO: "2025-07-13",
+
+    dataConclusao: "13 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.13 · Databricks Academy · Create Your First Workspace Using Databricks Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 66,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Genie Rooms Setup and Best Practice",
+    
+    cargaHoraria: "1 h 30 min",
+
+    conclusaoISO: "2025-08-05",
+
+    dataConclusao: "05 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.08.05 · Databricks Academy · Genie Rooms Setup and Best Practice.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 67,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Large Language Models: Application through Production",
+    
+    cargaHoraria: "12 h",
+
+    conclusaoISO: "2025-09-04",
+
+    dataConclusao: "04 de setembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.09.04 · Databricks Academy · Large Language Models (Application through Production).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 68,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao Certification Challenge #4 com a Microsoft",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-14",
+
+    dataConclusao: "14 de outubro de 2025",
+
+    codigo: "SOI8CH5Y",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Introdução ao Certification Challenge 4 com a Microsoft.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SOI8CH5Y.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 68,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Explorando o Serviço de Aplicativo do Azure",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-14",
+
+    dataConclusao: "14 de outubro de 2025",
+
+    codigo: "5ZWZIPG9",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Explorando o Serviço de Aplicativo do Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/5ZWZIPG9.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 69,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Implementando o Azure Functions",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-14",
+
+    dataConclusao: "14 de outubro de 2025",
+
+    codigo: "QBFGQ3JN",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Implementando o Azure Functions.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QBFGQ3JN.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 70,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Microsoft Certification Challenge #4: Dicas para se Preparar para o Hackathon",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-14",
+
+    dataConclusao: "14 de outubro de 2025",
+
+    codigo: "N89PIRVC",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Microsoft Certification Challenge 4 (Dicas para se Preparar para o Hackathon).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/N89PIRVC.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
