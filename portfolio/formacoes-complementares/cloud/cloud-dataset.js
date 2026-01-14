@@ -1042,5 +1042,96 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Azure Databricks Networking and Security Fundamentals.png",
 
     verificacao: null
+  },
+
+  {
+    id: 47,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Azure Databricks Cloud Integrations",
+    
+    cargaHoraria: "40 min",
+
+    conclusaoISO: "2025-06-30",
+
+    dataConclusao: "30 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Azure Databricks Cloud Integrations.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 48,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Azure Databricks Platform Architect Accreditation",
+    
+    cargaHoraria: "20 min",
+
+    conclusaoISO: "2025-06-30",
+
+    dataConclusao: "30 de junho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Azure Databricks Platform Architect Accreditation.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 49,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Databricks Accredited Azure Platform Architect",
+    
+    cargaHoraria: "4 h 10 min",
+
+    conclusaoISO: "2025-07-01 (Issue: July 1, 2025 / Expiration: July 1, 2027)",
+
+    dataConclusao: "01 de julho de 2025",
+
+    codigo: "e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png",
+
+    verificacao: {
+      url: "https://credentials.databricks.com/e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 50,
+
+    instituicao: "Databricks Academy",
+ 
+    curso: "Artificial Intelligence / Business Intelligence for Data Analysts",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-07-01",
+
+    dataConclusao: "01 de julho de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.01 · Databricks Academy · Artificial Intelligence · Business Intelligence for Data Analysts.png",
+
+    verificacao: null
   }
 ];
