@@ -1482,5 +1482,243 @@ window.datasetCategoria = [
       url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 61,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Lógica de Programação: Deixando os Seus Programas Espertos",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-10-17",
+
+    dataConclusao: "17 de outubro de 2025",
+
+    codigo: "68f2de8f-5950-49af-a898-5b350aa80215",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.17 · Instituto Federal Rio Grande do Sul · Lógica de Programação (Deixando os Seus Programas Espertos).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 62,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Lógica de Programação: Múltiplos Valores e Módulos",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-10-17",
+
+    dataConclusao: "17 de outubro de 2025",
+
+    codigo: "68f2ec6d-821c-473c-9463-6a100aa80215",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.17 · Instituto Federal Rio Grande do Sul · Lógica de Programação (Múltiplos Valores e Módulos).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 63,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Node.js: Introdução ao Desenvolvimento de APIs Modernas",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-18",
+
+    dataConclusao: "18 de outubro de 2025",
+
+    codigo: "68f32f26-9800-449f-946c-7ab20aa80016",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.18 · Instituto Federal Rio Grande do Sul · Node.js (Introdução ao Desenvolvimento de APIs Modernas).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 64,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Raspberry PI Básico para IoT",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-10-19",
+
+    dataConclusao: "19 de outubro de 2025",
+
+    codigo: "68f4bc8b-4908-4eed-a562-98380aa8060b",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.19 · Instituto Federal Rio Grande do Sul · Raspberry PI Básico para IoT.png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 65,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Raspberry PI e Aplicações",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-10-19",
+
+    dataConclusao: "19 de outubro de 2025",
+
+    codigo: "68f4d859-3d7c-4567-92fa-be0c0aa80707",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.19 · Instituto Federal Rio Grande do Sul · Raspberry PI e Aplicações.png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 66,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Projeto de Sistemas Web",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-10-19",
+
+    dataConclusao: "19 de outubro de 2025",
+
+    codigo: "68f5682f-09c0-4a2f-a263-6ed90aa80707",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.19 · Instituto Federal Rio Grande do Sul · Projeto de Sistemas Web.png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 67,
+
+    instituicao: "IBM SkillsBuild",
+ 
+    curso: "Aprenda JavaScript - Curso Completo para Iniciantes",
+    
+    cargaHoraria: "3 h 26 min",
+
+    conclusaoISO: "2025-10-21",
+
+    dataConclusao: "21 de outubro de 2025",
+
+    codigo: "URL-PKZNO7MFNFG",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.21 · IBM SkillsBuild · Aprenda JavaScript (Curso Completo para Iniciantes).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 68,
+
+    instituicao: "IBM SkillsBuild",
+ 
+    curso: "Fundamentos do Desenvolvimento Web",
+    
+    cargaHoraria: "1 h 40 min",
+
+    conclusaoISO: "2025-10-21",
+
+    dataConclusao: "21 de outubro de 2025",
+
+    codigo: "MDL-261",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.21 · IBM SkillsBuild · Fundamentos do Desenvolvimento Web.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 69,
+
+    instituicao: "IBM SkillsBuild",
+ 
+    curso: "Desenvolvendo Sites para Web",
+    
+    cargaHoraria: "1 h 40 min",
+
+    conclusaoISO: "2025-10-22",
+
+    dataConclusao: "22 de outubro de 2025",
+
+    codigo: "MDL-262",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.22 · IBM SkillsBuild · Desenvolvendo Sites para Web.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 70,
+
+    instituicao: "IBM SkillsBuild",
+ 
+    curso: "Introdução ao HTML e CSS",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-23",
+
+    dataConclusao: "23 de outubro de 2025",
+
+    codigo: "MDL-263",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.23 · IBM SkillsBuild · Introdução ao HTML e CSS.png",
+
+    verificacao: null
   }
 ];
