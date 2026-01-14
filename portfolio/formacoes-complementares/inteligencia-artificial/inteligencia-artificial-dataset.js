@@ -2880,5 +2880,199 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/J4LBQDNA.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 121,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Previsão de Estoque Inteligente na AWS com SageMaker Canvas",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "G9ZAFSWF",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · Previsão de Estoque Inteligente na AWS com SageMaker Canvas.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/G9ZAFSWF.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 122,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Machine Learning sem Código com SageMaker Canvas",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-11-21",
+
+    dataConclusao: "21 de novembro de 2025",
+
+    codigo: "QLIQWLED",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.21 · Digital Innovation One · Machine Learning sem Código com SageMaker Canvas.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QLIQWLED.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 123,
+
+    instituicao: "Daxus",
+ 
+    curso: "Imersão Inteligência Artificial na Prática",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-11-27",
+
+    dataConclusao: "27 de novembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.11.27 · Daxus · Imersão Inteligência Artificial na Prática.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 124,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de Dados para Inteligência Artificial & Machine Learning",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-12-03",
+
+    dataConclusao: "03 de dezembro de 2025",
+
+    codigo: "FJL84MOP",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.12.03 · Digital Innovation One · Fundamentos de Dados para Inteligência Artificial & Machine Learning.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FJL84MOP.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 125,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de Machine Learning e Inteligências Artificiais Generativas",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-12-03",
+
+    dataConclusao: "03 de dezembro de 2025",
+
+    codigo: "G2BGKX0Y",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.12.03 · Digital Innovation One · Fundamentos de Machine Learning e Inteligências Artificiais Generativas.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/G2BGKX0Y.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 126,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Nexa - Machine Learning e GenAI na Prática",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-12-03",
+
+    dataConclusao: "03 de dezembro de 2025",
+
+    codigo: "YKQYVDQR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.12.03 · Digital Innovation One · Nexa - Machine Learning e GenAI na Prática.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YKQYVDQR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 127,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Inteligência Artificial Express",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-12-11",
+
+    dataConclusao: "11 de dezembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.12.11 · Simplifica Treinamentos · Simplifica Inteligência Artificial Express.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 128,
+
+    instituicao: "Data Science Academy",
+ 
+    curso: "Fundamentos de Linguagem Python™ do Básico a Aplicações de Inteligência Artificial",
+    
+    cargaHoraria: "96 h",
+
+    conclusaoISO: "2025-12-19",
+
+    dataConclusao: "19 de dezembro de 2025",
+
+    codigo: "6945020db9caae34dd00844a",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.12.19 · Data Science Academy · Fundamentos de Linguagem Python™ do Básico a Aplicações de Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://mycourde.app/MpKX0TjEgLFyet7KC",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
