@@ -1607,5 +1607,255 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/N89PIRVC.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 71,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desenvolvimento de Aplicativos Web e Funções no Azure",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-10-14",
+
+    dataConclusao: "14 de outubro de 2025",
+
+    codigo: "WMUTLSVL",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Desenvolvimento de Aplicativos Web e Funções no Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WMUTLSVL.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 72,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Explorando o Armazenamento de Blobs do Azure",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-15",
+
+    dataConclusao: "15 de outubro de 2025",
+
+    codigo: "ZDLKCJJB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Explorando o Armazenamento de Blobs do Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZDLKCJJB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 73,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Trabalhando com o Azure Cosmos DB",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-15",
+
+    dataConclusao: "15 de outubro de 2025",
+
+    codigo: "DMN5U95D",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Trabalhando com o Azure Cosmos DB.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DMN5U95D.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 74,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Armazenamento e Banco de Dados no Azure",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2025-10-15",
+
+    dataConclusao: "15 de outubro de 2025",
+
+    codigo: "BIHNKL9C",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Armazenamento e Banco de Dados no Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BIHNKL9C.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 75,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Implementando Aplicativos de Contêiner no Azure",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-15",
+
+    dataConclusao: "15 de outubro de 2025",
+
+    codigo: "HBNH41NV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Implementando Aplicativos de Contêiner no Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HBNH41NV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 76,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Implementando a Plataforma de Identidade da Microsoft",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-15",
+
+    dataConclusao: "15 de outubro de 2025",
+
+    codigo: "8IG8BJDQ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Implementando a Plataforma de Identidade da Microsoft.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8IG8BJDQ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 77,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Contêineres e Identidade no Azure",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-10-15",
+
+    dataConclusao: "15 de outubro de 2025",
+
+    codigo: "AKASI6PX",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Contêineres e Identidade no Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AKASI6PX.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 78,
+
+    instituicao: "Cursa",
+ 
+    curso: "Criando uma Intranet com SharePoint",
+    
+    cargaHoraria: "29 h",
+
+    conclusaoISO: "2025-10-20",
+
+    dataConclusao: "20 de outubro de 2025",
+
+    codigo: "595d26fb36",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.20 · Cursa · Criando uma Intranet com SharePoint.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/595d26fb36",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 79,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Microsserviço Serverless para Validação de CPF",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-27",
+
+    dataConclusao: "27 de outubro de 2025",
+
+    codigo: "EDWQQZPD",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.27 · Digital Innovation One · Criando um Microsserviço Serverless para Validação de CPF.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EDWQQZPD.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 80,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Segurança e Gerenciamento de API",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2025-10-27",
+
+    dataConclusao: "27 de outubro de 2025",
+
+    codigo: "WL4AHLSP",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.27 · Digital Innovation One · Segurança e Gerenciamento de API.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WL4AHLSP.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
