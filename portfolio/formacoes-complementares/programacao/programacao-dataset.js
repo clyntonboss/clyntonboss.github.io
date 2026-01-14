@@ -732,5 +732,255 @@ window.datasetCategoria = [
       url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 31,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: ".Net: Básico",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-02",
+
+    dataConclusao: "02 de maio de 2025",
+
+    codigo: "68150034-5408-4af8-b108-3082c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.02 · Instituto Federal Minas Gerais · .Net (Básico).png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 32,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Linguagens de Programação Orientadas a Objetos",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-05",
+
+    dataConclusao: "05 de maio de 2025",
+
+    codigo: "6818eef6-76f8-4a13-b67e-f3bf0a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.05 · Instituto Federal Sul-Rio-Grandense · Linguagens de Programação Orientadas a Objetos.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 33,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: ".Net: Avançado",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-05",
+
+    dataConclusao: "05 de maio de 2025",
+
+    codigo: "681937b5-f510-41f3-82fe-8359c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.05 · Instituto Federal Minas Gerais · .Net (Avançado).png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 34,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Fundamentos da Programação",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-05-06",
+
+    dataConclusao: "06 de maio de 2025",
+
+    codigo: "681a5cfa-3488-40b1-a251-1ce30a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.06 · Instituto Federal Sul-Rio-Grandense · Fundamentos da Programação.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 35,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Fundamentos de Programação com Linguagem Python™",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-07",
+
+    dataConclusao: "07 de maio de 2025",
+
+    codigo: "681b9328-1680-4700-872d-46530a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.07 · Instituto Federal Sul-Rio-Grandense · Fundamentos de Programação com Linguagem Python™.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 36,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Jornada Full Stack da Hashtag",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-05-08",
+
+    dataConclusao: "08 de maio de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.08 · Hashtag Treinamentos · Jornada Full Stack da Hashtag.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Full+Stack+da+Hashtag&dtcf=08%2F05%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 37,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Linguagem JavaScript",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-05-18",
+
+    dataConclusao: "18 de maio de 2025",
+
+    codigo: "6829d3b6-f758-490d-9fd1-b81e0a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.18 · Instituto Federal Sul-Rio-Grandense · Linguagem JavaScript.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 38,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Operador e Programador de Sistemas Automatizados - Práticas Iniciais em CLP",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-05-18",
+
+    dataConclusao: "18 de maio de 2025",
+
+    codigo: "6829df5e-bc14-4155-bc51-f916c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.18 · Instituto Federal Minas Gerais · Operador e Programador de Sistemas Automatizados - Práticas Iniciais em CLP.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 39,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Linguagem PHP",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-21",
+
+    dataConclusao: "21 de maio de 2025",
+
+    codigo: "682dad9b-3f64-4d3e-99c4-15290a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.21 · Instituto Federal Sul-Rio-Grandense · Linguagem PHP.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 40,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Programação para Dispositivos Móveis (Básico)",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-23",
+
+    dataConclusao: "23 de maio de 2025",
+
+    codigo: "68308ecc-ef0c-4de9-98a9-1812c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.23 · Instituto Federal Minas Gerais · Programação para Dispositivos Móveis (Básico).png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
