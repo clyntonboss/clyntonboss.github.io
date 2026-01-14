@@ -1720,5 +1720,243 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.23 · IBM SkillsBuild · Introdução ao HTML e CSS.png",
 
     verificacao: null
+  },
+
+  {
+    id: 71,
+
+    instituicao: "IBM SkillsBuild",
+ 
+    curso: "Dando Vida aos Websites com JavaScript",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-23",
+
+    dataConclusao: "23 de outubro de 2025",
+
+    codigo: "MDL-264",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.23 · IBM SkillsBuild · Dando Vida aos Websites com JavaScript.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 72,
+
+    instituicao: "IBM SkillsBuild",
+ 
+    curso: "Teste e Implementação de Website",
+    
+    cargaHoraria: "2 h 10 min",
+
+    conclusaoISO: "2025-10-23",
+
+    dataConclusao: "23 de outubro de 2025",
+
+    codigo: "MDL-265",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.23 · IBM SkillsBuild · Teste e Implementação de Website.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 73,
+
+    instituicao: "IBM SkillsBuild",
+ 
+    curso: "Desenvolva uma Página da Web de Lista de Tarefas Interativa",
+    
+    cargaHoraria: "1 h 50 min",
+
+    conclusaoISO: "2025-10-23",
+
+    dataConclusao: "23 de outubro de 2025",
+
+    codigo: "MDL-266",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.23 · IBM SkillsBuild · Desenvolva uma Página da Web de Lista de Tarefas Interativa.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 74,
+
+    instituicao: "IBM SkillsBuild",
+ 
+    curso: "Seu Futuro no Desenvolvimento Web: O Panorama de Emprego",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-23",
+
+    dataConclusao: "23 de outubro de 2025",
+
+    codigo: "MDL-267",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.23 · IBM SkillsBuild · Seu Futuro no Desenvolvimento Web (O Panorama de Emprego).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 75,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Programação Web (Básico)",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-28",
+
+    dataConclusao: "28 de outubro de 2025",
+
+    codigo: "6900bb27-d948-4f1f-8bbe-7115c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.28 · Instituto Federal Minas Gerais · Programação Web (Básico).png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 76,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Programação Web (Avançado)",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-28",
+
+    dataConclusao: "28 de outubro de 2025",
+
+    codigo: "6900d165-0454-4c33-8027-82ddc883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.28 · Instituto Federal Minas Gerais · Programação Web (Avançado).png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 77,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Programador Web em Tecnologias Front-End",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-10-28",
+
+    dataConclusao: "28 de outubro de 2025",
+
+    codigo: "69010c57-3638-436a-aa2e-ad05c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.28 · Instituto Federal Minas Gerais · Programador Web em Tecnologias Front-End.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 78,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao Bootcamp - Back-End com Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-30",
+
+    dataConclusao: "30 de outubro de 2025",
+
+    codigo: "GZ55XXWJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.30 · Digital Innovation One · Introdução ao Bootcamp - Back-End com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GZ55XXWJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 79,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Ambiente de Desenvolvimento e Primeiros Passos com Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "JWTADHWH",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Ambiente de Desenvolvimento e Primeiros Passos com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JWTADHWH.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 80,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Conhecendo a Linguagem de Programação Python™",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "IYLG2DGQ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Conhecendo a Linguagem de Programação Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IYLG2DGQ.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
