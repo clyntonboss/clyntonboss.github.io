@@ -233,10 +233,279 @@ window.datasetCategoria = [
 
     codigo: "OA-2024-1109000649689",
 
-    mostrarCopiar: true,
+    mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2024.11.09 · Santander Open Academy · Python™.png",
 
     verificacao: null
+  },
+
+  {
+    id: 11,
+
+    instituicao: "Didática Tech",
+ 
+    curso: "TensorFlow para Iniciantes",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-11-10",
+
+    dataConclusao: "10 de novembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2024.11.10 · Didática Tech · TensorFlow para Iniciantes.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 12,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Criando um Projeto com Interface Gráfica Utilizando a Linguagem Python™",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-11-10",
+
+    dataConclusao: "10 de novembro de 2024",
+
+    codigo: "D0DB107B-DF97-4D22-B81F-2113BCF1FBB1",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2024.11.10 · Fundação Bradesco · Criando um Projeto com Interface Gráfica Utilizando a Linguagem Python™.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 13,
+
+    instituicao: "Fundação Bradesco",
+ 
+    curso: "Desenvolvendo um Projeto Completo Python™ com Estruturas de Dados",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2024-11-11",
+
+    dataConclusao: "11 de novembro de 2024",
+
+    codigo: "56EAA44F-2D19-43EE-A5CA-28E4704DA8A5",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2024.11.11 · Fundação Bradesco · Desenvolvendo um Projeto Completo Python™ com Estruturas de Dados.png",
+
+    verificacao: {
+      url: "https://www.ev.org.br/validar-certificado/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 14,
+
+    instituicao: "Didática Tech",
+ 
+    curso: "Python™ Básico para Iniciantes",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-11-18",
+
+    dataConclusao: "18 de novembro de 2024",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2024.11.18 · Didática Tech · Python™ Básico para Iniciantes.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 15,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Jornada Full Stack da Hashtag",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-02-13",
+
+    dataConclusao: "13 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.02.13 · Hashtag Treinamentos · Jornada Full Stack da Hashtag.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Full+Stack+da+Hashtag&dtcf=13%2F02%2F2025&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 16,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Python™",
+    
+    cargaHoraria: "80 h",
+
+    conclusaoISO: "2025-03-03",
+
+    dataConclusao: "03 de março de 2025",
+
+    codigo: "8bd56d63a7d5069d02dbacad78a0830c",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.03 · FIAP - Centro Universitário · Python™.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=8bd56d63a7d5069d02dbacad78a0830c&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 17,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "DevOps & Agile Culture",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2025-03-05",
+
+    dataConclusao: "05 de março de 2025",
+
+    codigo: "53196b57f1e68e51e1077c7314d571b7",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.05 · FIAP - Centro Universitário · DevOps & Agile Culture.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=8bd56d63a7d5069d02dbacad78a0830c&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 18,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Java Fundamentos",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2025-03-06",
+
+    dataConclusao: "06 de março de 2025",
+
+    codigo: "5010269e72159061bd900480ffdffb1f",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.06 · FIAP - Centro Universitário · Java Fundamentos.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=5010269e72159061bd900480ffdffb1f&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 19,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Introdução aos Algoritmos e à Programação Básica com a Linguagem Java",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2025-03-29",
+
+    dataConclusao: "29 de março de 2025",
+
+    codigo: "67e824f8-9930-45e2-8878-c590ac140047",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.29 · Instituto Federal Minas Gerais · Introdução aos Algoritmos e à Programação Básica com a Linguagem Java.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 20,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Conceitos Avançados sobre Algoritmos e Programação com a Linguagem Java",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-03-31",
+
+    dataConclusao: "31 de março de 2025",
+
+    codigo: "67eaed99-8e10-4349-9567-929eac140047",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.31 · Instituto Federal Minas Gerais · Conceitos Avançados sobre Algoritmos e Programação com a Linguagem Java.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 20,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Conceitos Avançados sobre Algoritmos e Programação com a Linguagem Java",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-03-31",
+
+    dataConclusao: "31 de março de 2025",
+
+    codigo: "67eaed99-8e10-4349-9567-929eac140047",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.03.31 · Instituto Federal Minas Gerais · Conceitos Avançados sobre Algoritmos e Programação com a Linguagem Java.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
