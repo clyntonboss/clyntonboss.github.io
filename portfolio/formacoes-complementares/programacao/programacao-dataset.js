@@ -982,5 +982,255 @@ window.datasetCategoria = [
       url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 41,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Programação para Dispositivos Móveis (Avançado)",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-05-26",
+
+    dataConclusao: "26 de maio de 2025",
+
+    codigo: "683461d2-eaf4-45c8-a70a-4367c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.26 · Instituto Federal Minas Gerais · Programação para Dispositivos Móveis (Avançado).png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 42,
+
+    instituicao: "Instituto Federal Espírito Santo",
+ 
+    curso: "Node.js para Iniciantes",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2025-05-30",
+
+    dataConclusao: "30 de maio de 2025",
+
+    codigo: "683a5a51-6bf0-47ab-af5c-8ed0ac1a2c07",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.05.30 · Instituto Federal Espírito Santo - Node.js para Iniciantes.png",
+
+    verificacao: {
+      url: "https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 43,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "Lógica de Programação",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-06-03",
+
+    dataConclusao: "03 de junho de 2025",
+
+    codigo: "683e9358-5bfc-4530-9dce-96a90a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.06.03 · Instituto Federal Sul-Rio-Grandense · Lógica de Programação.png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 44,
+
+    instituicao: "Instituto Federal Mato Grosso do Sul",
+ 
+    curso: "Introdução à Lógica de Programação com Arduino",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-06-04",
+
+    dataConclusao: "04 de junho de 2025",
+
+    codigo: "683fd7a0-364c-49b2-ab77-c1d70a01004c",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.06.04 · Instituto Federal Mato Grosso do Sul · Introdução à Lógica de Programação com Arduino.png",
+
+    verificacao: {
+      url: "https://cursoslivres.ifms.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 45,
+
+    instituicao: "Instituto Federal Sul-Rio-Grandense",
+ 
+    curso: "CSS: Folhas de Estilo Encadeadas",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-06-04",
+
+    dataConclusao: "04 de junho de 2025",
+
+    codigo: "683fe705-39e8-46bd-b37b-b4320a00c840",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.06.04 · Instituto Federal Sul-Rio-Grandense · CSS (Folhas de Estilo Encadeadas).png",
+
+    verificacao: {
+      url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 46,
+
+    instituicao: "Instituto Federal Mato Grosso do Sul",
+ 
+    curso: "Lógica de Programação com Arduino: Nível Intermediário",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-06-05",
+
+    dataConclusao: "05 de junho de 2025",
+
+    codigo: "6841755d-314c-4953-9411-0fbe0a01004c",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.06.05 · Instituto Federal Mato Grosso do Sul · Lógica de Programação com Arduino (Nível Intermediário).png",
+
+    verificacao: {
+      url: "https://cursoslivres.ifms.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 47,
+
+    instituicao: "Cursa",
+ 
+    curso: "Excel VBA Básico ao Avançado",
+    
+    cargaHoraria: "18 h",
+
+    conclusaoISO: "2025-08-10",
+
+    dataConclusao: "10 de agosto de 2025",
+
+    codigo: "07f73cf973",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.08.10 · Cursa · Excel VBA Básico ao Avançado.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/07f73cf973",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 48,
+
+    instituicao: "Aprenda Mais",
+ 
+    curso: "Python™ Fundamental 1",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-09-29",
+
+    dataConclusao: "29 de setembro de 2025",
+
+    codigo: "68da94ce-2cfc-4cb6-a508-8f1bac1f03d2",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.09.29 · Aprenda Mais · Python™ Fundamental 1.png",
+
+    verificacao: {
+      url: "https://aprendamais.mec.gov.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 49,
+
+    instituicao: "Aprenda Mais",
+ 
+    curso: "Python™ Fundamental 2",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-09-29",
+
+    dataConclusao: "29 de setembro de 2025",
+
+    codigo: "68da9521-7470-4e6a-9517-90ebac1f02f0",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.09.29 · Aprenda Mais · Python™ Fundamental 2.png",
+
+    verificacao: {
+      url: "https://aprendamais.mec.gov.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 50,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "HTML5: Fundamentos para Construção de Páginas Web Modernas",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-12",
+
+    dataConclusao: "12 de outubro de 2025",
+
+    codigo: "68ebe0d5-4f4c-4bdd-a46d-050a0aa80f17",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.12 · Instituto Federal Rio Grande do Sul · HTML5 (Fundamentos para Construção de Páginas Web Modernas).png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
