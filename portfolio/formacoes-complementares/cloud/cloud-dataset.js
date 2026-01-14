@@ -530,11 +530,11 @@ window.datasetCategoria = [
  
     curso: "Databricks Accredited Platform Administrator",
     
-    cargaHoraria: "8 h 36 min",
+    cargaHoraria: "8 h 36 min (Issue: June 11, 2025 / Expiration: June 11, 2026)",
 
     conclusaoISO: "2025-06-11",
 
-    dataConclusao: "11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11, 2026)",
+    dataConclusao: "11 de junho de 2025",
 
     codigo: "3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8",
 
@@ -599,11 +599,11 @@ window.datasetCategoria = [
  
     curso: "Databricks Accredited Databricks Fundamentals",
     
-    cargaHoraria: "1 h 30 min",
+    cargaHoraria: "1 h 30 min (Issue: June 11, 2025 / Expiration: June 11,2026)",
 
     conclusaoISO: "2025-06-11",
 
-    dataConclusao: "11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11,2026)",
+    dataConclusao: "11 de junho de 2025",
 
     codigo: "64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5",
 
@@ -756,11 +756,11 @@ window.datasetCategoria = [
  
     curso: "Databricks Accredited Generative Artificial Intelligence Fundamentals",
     
-    cargaHoraria: "10 h 10 min",
+    cargaHoraria: "10 h 10 min (Issue: June 19, 2025 / Expiration: June 19, 2027)",
 
     conclusaoISO: "2025-06-19",
 
-    dataConclusao: "19 de junho de 2025 (Issue: June 19, 2025 / Expiration: June 19, 2027)",
+    dataConclusao: "19 de junho de 2025",
 
     codigo: "8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX",
 
@@ -869,11 +869,11 @@ window.datasetCategoria = [
  
     curso: "Databricks Accredited Google Cloud Platform Databricks Platform Architect",
     
-    cargaHoraria: "3 h 20 min",
+    cargaHoraria: "3 h 20 min (Issue: June 21, 2025 / Expiration: June 21, 2027)",
 
     conclusaoISO: "2025-06-21",
 
-    dataConclusao: "21 de junho de 2025 (Issue: June 21, 2025 / Expiration: June 21, 2027)",
+    dataConclusao: "21 de junho de 2025",
 
     codigo: "40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp",
 
@@ -982,11 +982,11 @@ window.datasetCategoria = [
  
     curso: "Databricks Accredited Amazon Web Services Platform Architect",
     
-    cargaHoraria: "3 h 20 min",
+    cargaHoraria: "3 h 20 min (Issue: June 29, 2025 / Expiration: June 29, 2027)",
 
     conclusaoISO: "2025-06-29",
 
-    dataConclusao: "29 de junho de 2025 (Issue: June 29, 2025 / Expiration: June 29, 2027)",
+    dataConclusao: "29 de junho de 2025",
 
     codigo: "84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o",
 
