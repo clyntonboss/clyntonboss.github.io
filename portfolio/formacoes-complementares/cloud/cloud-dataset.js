@@ -1857,5 +1857,280 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/WL4AHLSP.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 81,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desenvolvendo Soluções Baseadas em Eventos",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-27",
+
+    dataConclusao: "27 de outubro de 2025",
+
+    codigo: "VKF2DICI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.27 · Digital Innovation One · Desenvolvendo Soluções Baseadas em Eventos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VKF2DICI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 82,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desenvolvendo Soluções Baseadas em Mensagem",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-27",
+
+    dataConclusao: "27 de outubro de 2025",
+
+    codigo: "0A0EBKAG",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.27 · Digital Innovation One · Desenvolvendo Soluções Baseadas em Mensagem.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0A0EBKAG.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 83,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Como Fazer o Deploy de uma API na Nuvem na Prática",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-29",
+
+    dataConclusao: "29 de outubro de 2025",
+
+    codigo: "9G0NWNA4",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.29 · Digital Innovation One · Como Fazer o Deploy de uma API na Nuvem na Prática.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9G0NWNA4.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 84,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Soluções Baseadas em Eventos e Mensagens",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-10-29",
+
+    dataConclusao: "29 de outubro de 2025",
+
+    codigo: "AEFS1C0U",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.29 · Digital Innovation One · Soluções Baseadas em Eventos e Mensagens.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AEFS1C0U.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 84,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Solucionando Problemas usando o Application Insights",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-30",
+
+    dataConclusao: "30 de outubro de 2025",
+
+    codigo: "ZWL8NHZ1",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Solucionando Problemas usando o Application Insights.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZWL8NHZ1.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 87,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Implementando Cache para Soluções",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-30",
+
+    dataConclusao: "30 de outubro de 2025",
+
+    codigo: "IA7EBJZJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Implementando Cache para Soluções.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IA7EBJZJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 88,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Gerenciador de Catálogos da Netflix com Azure Functions e Banco de Dados",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-30",
+
+    dataConclusao: "30 de outubro de 2025",
+
+    codigo: "8YN3WO2V",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Criando um Gerenciador de Catálogos da Netflix com Azure Functions e Banco de Dados.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8YN3WO2V.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 89,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Monitoramento e Cache no Azure",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2025-10-30",
+
+    dataConclusao: "30 de outubro de 2025",
+
+    codigo: "CPLRBQJY",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Monitoramento e Cache no Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CPLRBQJY.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 90,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Simulado Preparatório para o Exame AZ-204",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-30",
+
+    dataConclusao: "30 de outubro de 2025",
+
+    codigo: "XQDEAIJH",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Simulado Preparatório para o Exame AZ-204.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XQDEAIJH.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 91,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Simulado Preparatório para o Exame AZ-204",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-30",
+
+    dataConclusao: "30 de outubro de 2025",
+
+    codigo: "QLQZPX9K",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Simulado Preparatório para o Exame AZ 204.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QLQZPX9K.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 92,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Microsoft Certification Challenge #4 - AZ 204",
+    
+    cargaHoraria: "22 h",
+
+    conclusaoISO: "2025-10-30",
+
+    dataConclusao: "30 de outubro de 2025",
+
+    codigo: "PT1GRSPB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innivation One · Microsoft Certification Challenge 4 - AZ 204.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PT1GRSPB.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
