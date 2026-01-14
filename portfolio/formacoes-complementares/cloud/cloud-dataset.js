@@ -540,7 +540,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator Accreditation.png",
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png",
 
     verificacao: {
       url: "https://credentials.databricks.com/3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8",
