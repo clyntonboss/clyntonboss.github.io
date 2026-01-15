@@ -44,13 +44,13 @@ const sections = {
     `
   },
 
-// 🔹 ============== Propósito =============== 🔹
+// 🔹 =============================================== Propósito ============================================== 🔹
 
   proposito: {
     pageTitle: "Propósito | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/objective-icon.png",
+    favicon: "/assets/icons/icone-proposito.png",
     title: "Propósito",
-    icon: "/assets/icons/objective-icon.png",
+    icon: "/assets/icons/icone-proposito.png",
     showViewModes: false,
     content: `
       <p>
