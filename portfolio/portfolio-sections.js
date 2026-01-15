@@ -4,9 +4,9 @@ const sections = {
 
   perfil: {
     pageTitle: "Perfil | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/about-icon.png",
+    favicon: "/assets/icons/icone-perfil.png",
     title: "Perfil",
-    icon: "/assets/icons/about-icon.png",
+    icon: "/assets/icons/icone-perfil.png",
     showViewModes: false,
     content: `
       <p>
