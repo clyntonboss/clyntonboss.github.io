@@ -494,5 +494,255 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/AUJSDUA3.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 21,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao Figma",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "U4OASNYC",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Introdução ao Figma.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U4OASNYC.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 22,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Design de Interfaces Mobile e Prototipagem com Figma",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "H8DUCMAU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Design de Interfaces Mobile e Prototipagem com Figma.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H8DUCMAU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 23,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Design de Interfaces Mobile e Prototipagem com Figma",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "SHZ8R65B",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Prototipagem de Interfaces com Figma.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SHZ8R65B.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 24,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Protótipo Simples de 2 Páginas (Web ou Mobile)",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "4GE9LK7L",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Criando um Protótipo Simples de 2 Páginas (Web ou Mobile).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4GE9LK7L.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 25,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Avançando com Figma e Criação de Protótipos",
+    
+    cargaHoraria: "11 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "BP4UXRJR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Avançando com Figma e Criação de Protótipos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BP4UXRJR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 26,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Noções Básicas de Pesquisa de Usuário",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "WOOE0J4O",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Noções Básicas de Pesquisa de Usuário.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WOOE0J4O.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 27,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Planejamento de Pesquisa de Usuário",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "JL0CDZE3",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Planejamento de Pesquisa de Usuário.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JL0CDZE3.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 28,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Planejando e Conduzindo a Pesquisa",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "IVQRP89A",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Planejando e Conduzindo a Pesquisa.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IVQRP89A.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 29,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desafio - UX Research",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "QNJREULU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Desafio - UX Research.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QNJREULU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 30,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "UX Research: Estratégias para Pesquisa Eficiente",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "SYXDIDU4",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · UX Research (Estratégias para Pesquisa Eficiente).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SYXDIDU4.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
