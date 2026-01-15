@@ -38,7 +38,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/gestao-de-negocios/certificados/2025.10.12 · HP Foundation · Introdução a Habilidades de Negócios.png",
+    thumb: "/portfolio/formacoes-complementares/gestao-de-negocios/certificados/2025.11.12 · VMEdu, Inc · Business Analysis Fundamentals with Artificial Intelligence.png",
 
     verificacao: {
       url: "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/BusinessAnalysisFundamentalswithAICertified-RogérioClyntonRibeiro-1125354.pdf",
