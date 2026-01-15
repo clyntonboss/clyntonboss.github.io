@@ -247,5 +247,252 @@ window.datasetCategoria = [
       url: "https://cursa.com.br/certificate/d0246a802a",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 11,
+
+    instituicao: "Universidade Cruzeiro do Sul",
+ 
+    curso: "Design Thinking",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-10-19",
+
+    dataConclusao: "19 de outubro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.10.19 · Universidade Cruzeiro do Sul · Design Thinking.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 12,
+
+    instituicao: "Instituto Federal Minas Gerais",
+ 
+    curso: "Web Designer",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2025-10-28",
+
+    dataConclusao: "28 de outubro de 2025",
+
+    codigo: "690117a4-dc24-4185-9135-b567c883362e",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.10.28 · Instituto Federal Minas Gerais · Web Designer.png",
+
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 13,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Entendendo a Arquitetura de Produtos Digitais",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "0ZRPAYNI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Entendendo a Arquitetura de Produtos Digitais.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0ZRPAYNI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 14,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos da Arquitetura da Informação",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "H2ZL1HBU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Fundamentos da Arquitetura da Informação.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H2ZL1HBU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 15,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos da Arquitetura de User Experience",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "U07NOSGX",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Fundamentos da Arquitetura de User Experience.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U07NOSGX.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 16,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao UX Design",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "W0M7NBMB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Introdução ao UX Design.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/W0M7NBMB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 17,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao UI Design",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "7WDHTETV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Introdução ao UI Design.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7WDHTETV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 18,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução à Fonte e Tipografia",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "LVTWUTJ8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Introdução à Fonte e Tipografia.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LVTWUTJ8.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 19,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Wireframe de Média Fidelidade",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "2VSRINZM",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Criando um Wireframe de Média Fidelidade.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2VSRINZM.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 20,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Ampliando o seu Conhecimento em UI/UX Design",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "AUJSDUA3",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Ampliando o seu Conhecimento em UI · UX Design.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AUJSDUA3.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
