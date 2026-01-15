@@ -470,5 +470,74 @@ window.datasetCategoria = [
       url: "https://voitto.com.br/certificados?gad_source=1&gad_campaignid=21029385046&gclid=CjwKCAiA24XJBhBXEiwAXElO32QQZI1F5cOtJGTUA6mSc21v-8PFvnpql2P-gRccMJOoybTj1KBsPhoCpuIQAvD_BwE",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 21,
+
+    instituicao: "Escola EDTI",
+ 
+    curso: "Certificação White Belt em Lean Six Sigma",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-11-12",
+
+    dataConclusao: "12 de novembro de 2025",
+
+    codigo: "EDTIe62b390b3ae00a98c0df96b4b0d6c6c7",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 22,
+
+    instituicao: "Nortegubisian",
+ 
+    curso: "Six Sigma White Belt",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-12",
+
+    dataConclusao: "12 de novembro de 2025",
+
+    codigo: "0001124",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 23,
+
+    instituicao: "VMEdu, Inc",
+ 
+    curso: "Six Sigma Yellow Belt",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2025-11-12",
+
+    dataConclusao: "12 de novembro de 2025",
+
+    codigo: "1125351",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png",
+
+    verificacao: {
+      url: "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/SixSigmaYellowBelt-RogérioClyntonRibeiro-1125351.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
