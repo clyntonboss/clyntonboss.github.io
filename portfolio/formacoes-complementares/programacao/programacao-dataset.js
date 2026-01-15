@@ -2208,5 +2208,252 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/YILKRTGV.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 91,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Decoradores, Iteradores e Geradores com Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-01",
+
+    dataConclusao: "01 de novembro de 2025",
+
+    codigo: "TB2ZGH66",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.01 · Digital Innovation One · Decoradores, Iteradores e Geradores com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TB2ZGH66.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 92,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Manipulando Arquivos em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-01",
+
+    dataConclusao: "01 de novembro de 2025",
+
+    codigo: "QFSRMLVZ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.01 · Digital Innovation One · Manipulando Arquivos em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QFSRMLVZ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 93,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Gerenciamento de Pacotes, Convenções e Boas Práticas Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-01",
+
+    dataConclusao: "01 de novembro de 2025",
+
+    codigo: "JIBXHMFP",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.01 · Digital Innovation One · Gerenciamento de Pacotes, Convenções e Boas Práticas Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JIBXHMFP.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 94,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Entendendo Funções em Soluções Digitais",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-01",
+
+    dataConclusao: "01 de novembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.01 · Digital Innovation One · Entendendo Funções em Soluções Digitais.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 95,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Dominando Funções e Boas Práticas em Python™",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-11-01",
+
+    dataConclusao: "01 de novembro de 2025",
+
+    codigo: "PL7XQIOL",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.01 · Digital Innovation One · Dominando Funções e Boas Práticas em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PL7XQIOL.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 96,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução à Programação Orientada a Objetos com Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-02",
+
+    dataConclusao: "02 de novembro de 2025",
+
+    codigo: "CDSRYPRX",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.02 · Digital Innovation One · Introdução à Programação Orientada a Objetos com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CDSRYPRX.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 97,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aprendendo o Conceito de Herança com Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-02",
+
+    dataConclusao: "02 de novembro de 2025",
+
+    codigo: "EJR6RKXR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.02 · Digital Innovation One · Aprendendo o Conceito de Herança com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EJR6RKXR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 98,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aplicando Encapsulamento em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-02",
+
+    dataConclusao: "02 de novembro de 2025",
+
+    codigo: "VIQ5G3GF",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.02 · Digital Innovation One · Aplicando Encapsulamento em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VIQ5G3GF.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 99,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Conhecendo Polimorfismo em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-02",
+
+    dataConclusao: "02 de novembro de 2025",
+
+    codigo: "1WFK8XN0",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.02 · Digital Innovation One · Conhecendo Polimorfismo em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/1WFK8XN0.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 100,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Interfaces e Classes Abstratas com Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-02",
+
+    dataConclusao: "02 de novembro de 2025",
+
+    codigo: "IZRGO4KJ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.02 · Digital Innovation One · Interfaces e Classes Abstratas com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IZRGO4KJ.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
