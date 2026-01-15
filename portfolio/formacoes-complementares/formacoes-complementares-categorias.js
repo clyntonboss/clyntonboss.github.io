@@ -882,4 +882,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos sustentam decisões orientadas a dados, otimização de processos e geração de valor, conectando visão estratégica, execução operacional e resultados mensuráveis.</div>
     `
   },
+
+  gestaoMarketing: {
+    title: "Gestão de Marketing",
+    dataset: "/portfolio/formacoes-complementares/gestao-de-marketing/gestao-de-marketing-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Marketing, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam estratégias de marketing, comportamento do consumidor, posicionamento de marca, métricas de desempenho e análise de resultados, com foco em decisões orientadas a dados.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Gestão de Marketing fortaleceram a compreensão sobre estratégias de mercado, análise de desempenho e mensuração de resultados.<br>
+                                 Esses conhecimentos apoiam a tomada de decisões baseada em dados, a avaliação de campanhas e o alinhamento entre objetivos de negócio, público-alvo e indicadores de performance.</div>
+    `
+  },
 };
