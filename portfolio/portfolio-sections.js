@@ -1662,7 +1662,7 @@ const sections = {
       
           <!-- Desenvolvimento Humano & Soft Skills -->
           <a href="#" data-category="autoconhecimento">Autoconhecimento</a>
-          <a href="/portfolio/formacoes-complementares/skills/">Skills</a>
+          <a href="#" data-category="skills">Skills</a>
       
           <!-- Outras categorias -->
           <a href="/portfolio/formacoes-complementares/idiomas/">Idiomas</a>
