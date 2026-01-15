@@ -726,4 +726,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a análise de desempenho, a melhoria contínua e a tomada de decisão orientada a dados, promovendo eficiência, qualidade e alinhamento com os objetivos organizacionais.</div>
     `
   },
+
+  gestaoQualidade: {
+    title: "Gestão da Qualidade",
+    dataset: "/portfolio/formacoes-complementares/gestao-da-qualidade/gestao-da-qualidade-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão da Qualidade, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam princípios, métodos e ferramentas voltados ao controle, garantia e melhoria da qualidade, com foco em processos, desempenho e atendimento aos requisitos do cliente.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Gestão da Qualidade contribuíram para o desenvolvimento de uma visão sistêmica sobre processos, variabilidade e desempenho.<br>
+                                 Esses conhecimentos apoiam a aplicação de práticas de melhoria contínua, análise de causas, padronização e tomada de decisão orientada por dados, assegurando consistência, eficiência e conformidade organizacional.</div>
+    `
+  },
 };
