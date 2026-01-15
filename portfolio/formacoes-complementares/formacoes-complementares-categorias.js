@@ -778,4 +778,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a aplicação de práticas de melhoria contínua, análise de causas, padronização e tomada de decisão orientada por dados, assegurando consistência, eficiência e conformidade organizacional.</div>
     `
   },
+
+  gestaoPessoas: {
+    title: "Gestão de Pessoas",
+    dataset: "/portfolio/formacoes-complementares/gestao-de-pessoas/gestao-de-pessoas-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Pessoas, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam práticas de liderança, desenvolvimento humano, comunicação, engajamento e gestão de equipes, com foco no alinhamento entre pessoas, processos e resultados organizacionais.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Gestão de Pessoas contribuíram para o fortalecimento de competências relacionadas à liderança, colaboração e desenvolvimento de equipes de alto desempenho.<br>
+                                 Esses conhecimentos apoiam a gestão eficaz de pessoas em ambientes orientados a dados, processos e melhoria contínua, promovendo engajamento, responsabilidade e alinhamento estratégico.</div>
+    `
+  },
 };
