@@ -1649,7 +1649,7 @@ const sections = {
           <a href="#" data-category="gestaoProjetos">Gestão de Projetos</a>
           <a href="#" data-category="metodologiaAgil">Metodologia Ágil</a>
           <a href="#" data-category="gestaoTecnologia">Gestão da Tecnologia</a>
-          <a href="/portfolio/formacoes-complementares/gestao-de-operacoes/">Gestão de Operações</a>
+          <a href="#" data-category="gestaoOperacoes">Gestão de Operações</a>
           <a href="/portfolio/formacoes-complementares/gestao-da-qualidade/">Gestão da Qualidade</a>
           <a href="/portfolio/formacoes-complementares/gestao-de-pessoas/">Gestão de Pessoas</a>
           <a href="/portfolio/formacoes-complementares/gestao-de-negocios/">Gestão de Negócios</a>
