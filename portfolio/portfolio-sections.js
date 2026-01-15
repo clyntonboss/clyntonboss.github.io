@@ -216,13 +216,13 @@ const sections = {
     `
   },
 
-// 🔹 ======== Competências Técnicas ========= 🔹
+// 🔹 ========================================= Competências Técnicas ======================================== 🔹
 
   competenciasTecnicas: {
     pageTitle: "Competências Técnicas | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/professionals-experiences-icon.png",
+    favicon: "/assets/icons/icone-competencias-tecnicas.png",
     title: "Competências Técnicas",
-    icon: "/assets/icons/professionals-experiences-icon.png",
+    icon: "/assets/icons/icone-competencias-tecnicas.png",
     showViewModes: false,
     content: `
       <div class="tech-subtitle">As competências abaixo estão organizadas por domínio técnico.<br>
