@@ -2702,5 +2702,255 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/4W97C5MZ.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 111,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Explorando Banco de Dados Relacionais com Python™ DB API",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-04",
+
+    dataConclusao: "04 de novembro de 2025",
+
+    codigo: "VD55TFIX",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.04 · Digital Innovation One · Explorando Banco de Dados Relacionais com Python™ DB API.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VD55TFIX.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 112,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Integrando Python™ com Banco de Dados Relacionais Utilizando SQLAlchemy",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-04",
+
+    dataConclusao: "04 de novembro de 2025",
+
+    codigo: "ABNHXTN3",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.04 · Digital Innovation One · Integrando Python™ com Banco de Dados Relacionais Utilizando SQLAlchemy.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ABNHXTN3.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 113,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Integrando Python™ com Banco de Dados Relacionais",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-11-04",
+
+    dataConclusao: "04 de novembro de 2025",
+
+    codigo: "HHYWZT9U",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.04 · Digital Innovation One · Integrando Python™ com Banco de Dados Relacionais.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HHYWZT9U.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 114,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Manipulação de Dados com FastAPI Assíncrono",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-05",
+
+    dataConclusao: "05 de novembro de 2025",
+
+    codigo: "MDYKLL1P",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.05 · Digital Innovation One · Manipulação de Dados com FastAPI Assíncrono.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MDYKLL1P.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 115,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Autenticação e Autorização em FastAPI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-05",
+
+    dataConclusao: "05 de novembro de 2025",
+
+    codigo: "FTCKUDYB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.05 · Digital Innovation One · Autenticação e Autorização em FastAPI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FTCKUDYB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 116,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Testando APIs Restful Assíncronas em FastAPI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-05",
+
+    dataConclusao: "05 de novembro de 2025",
+
+    codigo: "LVKR6QBM",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.05 · Digital Innovation One · Testando APIs Restful Assíncronas em FastAPI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LVKR6QBM.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 117,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Deploy de uma API FastAPI Assíncrona",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-05",
+
+    dataConclusao: "05 de novembro de 2025",
+
+    codigo: "ZNDNIKBC",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.05 · Digital Innovation One · Deploy de uma API FastAPI Assíncrona.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZNDNIKBC.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 118,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Boas Práticas para APIs Restful Assíncronas com FastAPI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-05",
+
+    dataConclusao: "05 de novembro de 2025",
+
+    codigo: "R7XOQOKI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.05 · Digital Innovation One · Boas Práticas para APIs Restful Assíncronas com FastAPI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/R7XOQOKI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 119,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando sua API Bancária Assíncrona com FastAPI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-05",
+
+    dataConclusao: "05 de novembro de 2025",
+
+    codigo: "VUVVHMGT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.05 · Digital Innovation One · Criando sua API Bancária Assíncrona com FastAPI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VUVVHMGT.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 120,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Evoluindo com APIs Assíncronas com FastAPI",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-11-05",
+
+    dataConclusao: "05 de novembro de 2025",
+
+    codigo: "YC6WJN9F",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.05 · Digital Innovation One · Evoluindo com APIs Assíncronas com FastAPI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YC6WJN9F.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
