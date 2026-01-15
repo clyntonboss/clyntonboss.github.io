@@ -674,4 +674,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a tomada de decisão, a priorização de investimentos e a governança de soluções tecnológicas, promovendo alinhamento entre objetivos estratégicos, processos e recursos digitais.</div>
     `
   },
+
+  gestaoOperacoes: {
+    title: "Gestão de Operações",
+    dataset: "/portfolio/formacoes-complementares/gestao-de-operacoes/gestao-de-operacoes-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Operações, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam conceitos, métodos e práticas voltados ao planejamento, controle e melhoria de operações, integrando processos, pessoas, tecnologia e indicadores de desempenho.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Gestão de Operações fortaleceram a compreensão sobre funcionamento e otimização de processos operacionais.<br>
+                                 Esses conhecimentos apoiam a análise de desempenho, a melhoria contínua e a tomada de decisão orientada a dados, promovendo eficiência, qualidade e alinhamento com os objetivos organizacionais.</div>
+    `
+  },
 };
