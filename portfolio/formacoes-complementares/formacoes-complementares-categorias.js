@@ -1246,4 +1246,56 @@ idiomas: {
                                  Esses conhecimentos apoiam a leitura, interpretação e produção de conteúdos, além da interação em ambientes multiculturais e no uso de materiais técnicos em língua estrangeira.</div>
     `
   },
+
+credly: {
+    title: "Credly",
+    dataset: "/portfolio/formacoes-complementares/credly/credly-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne credenciais digitais emitidas e verificadas pela plataforma Credly, organizadas por data de obtenção.<br>
+                                 As certificações apresentadas representam validações formais de competências técnicas e profissionais, emitidas por instituições reconhecidas e passíveis de verificação pública.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As credenciais obtidas por meio da plataforma Credly reforçam a validação formal de conhecimentos e competências adquiridas ao longo da trajetória profissional.<br>
+                                 Esses registros contribuem para a transparência, a confiabilidade das qualificações apresentadas e o alinhamento com práticas contemporâneas de certificação e reconhecimento profissional.</div>
+    `
+  },
 };
