@@ -126,7 +126,7 @@ window.datasetCategoria = [
 
     instituicao: "HP Foundation",
  
-    curso: "Experiência do Cliente para Sucesso dos Negócios",
+    curso: "Experiência do Cliente para o Sucesso dos Negócios",
     
     cargaHoraria: "1 h",
 
