@@ -1654,7 +1654,7 @@ const sections = {
           <a href="#" data-category="gestaoPessoas">Gestão de Pessoas</a>
           <a href="#" data-category="gestaoNegocios">Gestão de Negócios</a>
           <a href="#" data-category="gestaoMarketing">Gestão de Marketing</a>
-          <a href="/portfolio/formacoes-complementares/gestao-financeira/">Gestão Financeira</a>
+          <a href="#" data-category="gestaoFinanceira">Gestão Financeira</a>
           <a href="/portfolio/formacoes-complementares/gestao-logistica/">Gestão Logística</a>
       
           <!-- Design & Comunicação -->
