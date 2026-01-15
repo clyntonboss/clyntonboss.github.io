@@ -2952,5 +2952,230 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/YC6WJN9F.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 121,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Conhecendo o GitHub Copilot: Aumentando sua Produtividade na Programação",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-06",
+
+    dataConclusao: "06 de novembro de 2025",
+
+    codigo: "0BYIBOYZ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.06 · Digital Innovation One · Conhecendo o GitHub Copilot (Aumentando sua Produtividade na Programação).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0BYIBOYZ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 122,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Configurando e usando o GitHub Copilot",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-06",
+
+    dataConclusao: "06 de novembro de 2025",
+
+    codigo: "TCN1ZA7J",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.06 · Digital Innovation One · Configurando e usando o GitHub Copilot.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TCN1ZA7J.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 123,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Bases de Prompt Engineering para o GitHub Copilot",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-06",
+
+    dataConclusao: "06 de novembro de 2025",
+
+    codigo: "WLRYOZRX",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.06 · Digital Innovation One · Bases de Prompt Engineering para o GitHub Copilot.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WLRYOZRX.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 124,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Técnicas de Engenharia de Prompt",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-06",
+
+    dataConclusao: "06 de novembro de 2025",
+
+    codigo: "XHITDJ9E",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.06 · Digital Innovation One · Técnicas de Engenharia de Prompt.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XHITDJ9E.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 125,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Utilizando as Ferramentas do GitHub para Solucionar Algoritmos em Python™",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-06",
+
+    dataConclusao: "06 de novembro de 2025",
+
+    codigo: "O8QVFEKT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.06 · Digital Innovation One · Utilizando as Ferramentas do GitHub para Solucionar Algoritmos em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/O8QVFEKT.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 126,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aumentando a Produtividade com Inteligência Artificial e Versionamento de Código",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2025-11-06",
+
+    dataConclusao: "06 de novembro de 2025",
+
+    codigo: "F3QTY6JB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.06 · Digital Innovation One · Aumentando a Produtividade com Inteligência Artificial e Versionamento de Código.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/F3QTY6JB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 127,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Luizalabs - Back-End com Python™",
+    
+    cargaHoraria: "62 h",
+
+    conclusaoISO: "2025-11-06",
+
+    dataConclusao: "06 de novembro de 2025",
+
+    codigo: "CGCYYCJL",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.06 · Digital Innovation One · Luizalabs (Back-End com Python™).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CGCYYCJL.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 128,
+
+    instituicao: "Instituto Federal Rio Grande do Sul",
+ 
+    curso: "Programador Web",
+    
+    cargaHoraria: "200 h",
+
+    conclusaoISO: "2025-11-22",
+
+    dataConclusao: "22 de novembro de 2025",
+
+    codigo: "69214edf-c3e4-4ec9-bc0e-389d0aa81311",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.22 · Instituto Federal Rio Grande do Sul · Programador Web.png",
+
+    verificacao: {
+      url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 129,
+
+    instituicao: "Cursa",
+ 
+    curso: "Python™ 3 Básico ao Avançado",
+    
+    cargaHoraria: "200 h",
+
+    conclusaoISO: "2025-12-14",
+
+    dataConclusao: "14 de dezembro de 2025",
+
+    codigo: "d0444f35e2",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.12.14 · Cursa · Python™ 3 Básico ao Avançado.png",
+
+    verificacao: {
+      url: "https://cursa.com.br/certificate/d0444f35e2",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
