@@ -986,4 +986,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam o planejamento financeiro, a análise de viabilidade e a tomada de decisões orientadas a dados, promovendo equilíbrio entre controle, eficiência e geração de valor.</div>
     `
   },
+
+  gestaoLogistica: {
+    title: "Gestão Logística",
+    dataset: "/portfolio/formacoes-complementares/gestao-logistica/gestao-logistica-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão Logística, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam planejamento logístico, gestão da cadeia de suprimentos, controle de estoques, distribuição, indicadores de desempenho e otimização de fluxos operacionais.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Gestão Logística ampliaram a compreensão sobre o funcionamento da cadeia de suprimentos e a importância da eficiência operacional.<br>
+                                 Esses conhecimentos apoiam a análise de processos, o uso de indicadores logísticos e a tomada de decisões orientadas a dados, contribuindo para redução de custos, melhoria de prazos e aumento da confiabilidade operacional.</div>
+    `
+  },
 };
