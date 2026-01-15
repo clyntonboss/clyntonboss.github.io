@@ -223,5 +223,252 @@ window.datasetCategoria = [
       url: "https://ead.fm2s.com.br/verify/Y2VydGlmaWNhdGVfNDI3MDIyXzI3OQ%3D%3D",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 11,
+
+    instituicao: "FM2S Educação e Consultoria",
+ 
+    curso: "Elaboração de POP - Procedimento Operacional Padrão",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2024-10-05",
+
+    dataConclusao: "05 de outubro de 2024",
+
+    codigo: "ddbb0701adeadd06e7c502db99f63b9962119e73",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.10.05 · FM2S · Elaboração de POP - Procedimento Operacional Padrão.png",
+
+    verificacao: {
+      url: "https://ead.fm2s.com.br/verify/ddbb0701adeadd06e7c502db99f63b9962119e73",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 12,
+
+    instituicao: "Grupo Voitto",
+ 
+    curso: "MASP - Metodologia de Análise e Solução de Problemas",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2024-10-06",
+
+    dataConclusao: "06 de outubro de 2024",
+
+    codigo: "5228667326",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.10.06 · Grupo Voitto · MASP - Metodologia de Análise e Solução de Problemas.png",
+
+    verificacao: {
+      url: "https://voitto.com.br/certificados?gad_source=1&gad_campaignid=21029385046&gclid=CjwKCAiA24XJBhBXEiwAXElO32QQZI1F5cOtJGTUA6mSc21v-8PFvnpql2P-gRccMJOoybTj1KBsPhoCpuIQAvD_BwE",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 13,
+
+    instituicao: "Grupo Voitto",
+ 
+    curso: "Treinamento de Yellow Belt em Lean Seis Sigma",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2024-10-07",
+
+    dataConclusao: "07 de outubro de 2024",
+
+    codigo: "3559667326",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.10.07 · Grupo Voitto · Treinamento de Yellow Belt em Lean Seis Sigma.png",
+
+    verificacao: {
+      url: "https://voitto.com.br/certificados?gad_source=1&gad_campaignid=21029385046&gclid=CjwKCAiA24XJBhBXEiwAXElO32QQZI1F5cOtJGTUA6mSc21v-8PFvnpql2P-gRccMJOoybTj1KBsPhoCpuIQAvD_BwE",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 14,
+
+    instituicao: "FM2S Educação e Consultoria",
+ 
+    curso: "Fundamentos da Excelência Operacional",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2024-10-08",
+
+    dataConclusao: "08 de outubro de 2024",
+
+    codigo: "Y2VydGlmaWNhdGVfNDI3MDIyXzcyNg%3D%3D",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.10.08 · FM2S · Fundamentos da Excelência Operacional.png",
+
+    verificacao: {
+      url: "https://ead.fm2s.com.br/verify/Y2VydGlmaWNhdGVfNDI3MDIyXzcyNg%3D%3D",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 15,
+
+    instituicao: "Unieducar",
+ 
+    curso: "Seis Sigma - Ferramentas e Técnicas da Gestão da Qualidade Total",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-09-05",
+
+    dataConclusao: "05 de setembro de 2025",
+
+    codigo: "202509053787129.1757108167",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.09.05 · Unieducar · Seis Sigma - Ferramentas e Técnicas da Gestão da Qualidade Total.png",
+
+    verificacao: {
+      url: "https://unieducar.org.br/consultar-certificado?numero_certificado=202509053787129.1757108167",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 16,
+
+    instituicao: "Frons Educação",
+ 
+    curso: "Lean Manufacturing Basic",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-11-11",
+
+    dataConclusao: "11 de novembro de 2025",
+
+    codigo: "733D78A3BC-1451E0F24-144C20C72",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · Lean Manufacturing Basic.png",
+
+    verificacao: {
+      url: "ttps://frons.com.br/verificacao-certificados/733D78A3BC-1451E0F24-144C20C72/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 17,
+
+    instituicao: "Frons Educação",
+ 
+    curso: "Introdução ao 5S",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-11",
+
+    dataConclusao: "11 de novembro de 2025",
+
+    codigo: "733D78A3C1-15136FD30-144C20C72",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · Introdução ao 5S.png",
+
+    verificacao: {
+      url: "ttps://frons.com.br/verificacao-certificados/733D78A3C1-15136FD30-144C20C72/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 18,
+
+    instituicao: "Frons Educação",
+ 
+    curso: "White Belt Lean Six Sigma",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-11-11",
+
+    dataConclusao: "11 de novembro de 2025",
+
+    codigo: "733D78A22E-1451E0F1F-144C20C72",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png",
+
+    verificacao: {
+      url: "ttps://frons.com.br/verificacao-certificados/733D78A22E-1451E0F1F-144C20C72/",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 19,
+
+    instituicao: "Council for Six Sigma Certification",
+ 
+    curso: "Lean Six Sigma White Belt",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2025-11-11",
+
+    dataConclusao: "11 de novembro de 2025",
+
+    codigo: "7th0wCFtCy",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 20,
+
+    instituicao: "Grupo Voitto",
+ 
+    curso: "Treinamento de White Belt em Lean Seis Sigma",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-12",
+
+    dataConclusao: "12 de novembro de 2025",
+
+    codigo: "2066667326",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Grupo Voitto · Treinamento de White Belt em Lean Seis Sigma.png",
+
+    verificacao: {
+      url: "https://voitto.com.br/certificados?gad_source=1&gad_campaignid=21029385046&gclid=CjwKCAiA24XJBhBXEiwAXElO32QQZI1F5cOtJGTUA6mSc21v-8PFvnpql2P-gRccMJOoybTj1KBsPhoCpuIQAvD_BwE",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
