@@ -97,13 +97,13 @@ const sections = {
     `
   },
 
-// 🔹 ========== Formação Acadêmica ========== 🔹
+// 🔹 ========================================== Formação Acadêmica ========================================== 🔹
 
   formacaoAcademica: {
     pageTitle: "Formação Acadêmica | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/academic-background-icon.png",
+    favicon: "/assets/icons/icone-formacao-academica.png",
     title: "Formação Acadêmica",
-    icon: "/assets/icons/academic-background-icon.png",
+    icon: "/assets/icons/icone-formacao-academica.png",
     showViewModes: false,
     content: `
               <hr class="decorative-line-cert">
