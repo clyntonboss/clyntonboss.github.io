@@ -1667,7 +1667,7 @@ const sections = {
           <!-- Outras categorias -->
           <a href="#" data-category="idiomas">Idiomas</a>
           <a href="/portfolio/formacoes-complementares/sustentabilidade/">Sustentabilidade</a>
-          <a href="/portfolio/formacoes-complementares/credly/">Credly</a>
+          <a href="#" data-category="credly">Credly</a>
           <a href="/portfolio/formacoes-complementares/arquitetura/">Arquitetura</a>
       </div>
     `
