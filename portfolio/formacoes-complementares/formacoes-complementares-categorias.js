@@ -1038,4 +1038,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a análise de processos, o uso de indicadores logísticos e a tomada de decisões orientadas a dados, contribuindo para redução de custos, melhoria de prazos e aumento da confiabilidade operacional.</div>
     `
   },
+
+  design: {
+    title: "Design",
+    dataset: "/portfolio/formacoes-complementares/design/design-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Design, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam fundamentos de design, experiência do usuário, design visual, organização da informação e princípios de usabilidade, com foco na clareza, funcionalidade e comunicação eficaz.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Design contribuíram para o aprimoramento da capacidade de estruturar informações, criar interfaces funcionais e comunicar dados de forma clara.<br>
+                                 Esses conhecimentos apoiam a construção de soluções visuais eficientes, experiência do usuário consistente e apresentação de informações orientadas à compreensão e tomada de decisão.</div>
+    `
+  },
 };
