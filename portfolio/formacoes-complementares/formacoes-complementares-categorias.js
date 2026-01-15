@@ -622,4 +622,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a condução de projetos e iniciativas analíticas ou tecnológicas de forma incremental, promovendo alinhamento, transparência e entrega de valor ao longo do processo.</div>
     `
   },
+
+  gestaoTecnologia: {
+    title: "Gestão da Tecnologia",
+    dataset: "/portfolio/formacoes-complementares/gestao-da-tecnologia/gestao-da-tecnologia-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão da Tecnologia, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam conceitos, práticas e modelos voltados à gestão de recursos tecnológicos, alinhamento estratégico e apoio à tomada de decisão organizacional.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Gestão da Tecnologia contribuíram para o desenvolvimento de uma visão integrada sobre o papel da tecnologia nas organizações.<br>
+                                 Esses conhecimentos apoiam a tomada de decisão, a priorização de investimentos e a governança de soluções tecnológicas, promovendo alinhamento entre objetivos estratégicos, processos e recursos digitais.</div>
+    `
+  },
 };
