@@ -170,7 +170,7 @@ window.datasetCategoria = [
 
     instituicao: "Qulture Rocks",
  
-    curso: "Gestão de Desempenho para RH",
+    curso: "Certificação em Gestão de Desempenho para RH",
     
     cargaHoraria: "8 h",
 
