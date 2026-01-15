@@ -1194,4 +1194,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a melhoria da performance individual, a adaptação a diferentes contextos de trabalho e a aplicação eficaz de habilidades técnicas e comportamentais no dia a dia corporativo.</div>
     `
   },
+
+idiomas: {
+    title: "Idiomas",
+    dataset: "/portfolio/formacoes-complementares/idiomas/idiomas-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Idiomas, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam o desenvolvimento de competências linguísticas aplicadas ao contexto acadêmico e profissional, com foco em compreensão, comunicação e uso técnico da língua.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Idiomas contribuíram para o aprimoramento da comunicação em contextos profissionais e técnicos.<br>
+                                 Esses conhecimentos apoiam a leitura, interpretação e produção de conteúdos, além da interação em ambientes multiculturais e no uso de materiais técnicos em língua estrangeira.</div>
+    `
+  },
 };
