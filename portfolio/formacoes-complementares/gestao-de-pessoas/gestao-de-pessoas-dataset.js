@@ -79,7 +79,7 @@ window.datasetCategoria = [
 
     instituicao: "Qulture Rocks",
  
-    curso: "Da Gestão de Desempenho à Universidade Corporativa",
+    curso: "Certificação em T&D: da Gestão de Desempenho à Universidade Corporativa",
     
     cargaHoraria: "6 h",
 
