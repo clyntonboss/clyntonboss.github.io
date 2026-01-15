@@ -26,7 +26,7 @@ window.datasetCategoria = [
 
     instituicao: "Mecânica Total Brasil",
  
-    curso: "Bombas Centrígugas",
+    curso: "Bombas Centrífugas",
     
     cargaHoraria: "5 h",
 
