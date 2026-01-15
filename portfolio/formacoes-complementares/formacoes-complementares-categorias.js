@@ -830,4 +830,56 @@ const categoriasFormacoesComplementares = {
                                  Esses conhecimentos apoiam a gestão eficaz de pessoas em ambientes orientados a dados, processos e melhoria contínua, promovendo engajamento, responsabilidade e alinhamento estratégico.</div>
     `
   },
+
+  gestaoNegocios: {
+    title: "Gestão de Negócios",
+    dataset: "/portfolio/formacoes-complementares/gestao-de-negocios/gestao-de-negocios-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Negócios, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam fundamentos estratégicos, tomada de decisão, análise de cenários, modelos de negócio e alinhamento entre estratégia, operações e resultados.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Gestão de Negócios ampliaram a capacidade de análise estratégica e compreensão do funcionamento organizacional como um todo.<br>
+                                 Esses conhecimentos sustentam decisões orientadas a dados, otimização de processos e geração de valor, conectando visão estratégica, execução operacional e resultados mensuráveis.</div>
+    `
+  },
 };
