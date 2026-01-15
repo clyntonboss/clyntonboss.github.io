@@ -2455,5 +2455,252 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/IZRGO4KJ.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 101,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Modelando o Sistema Bancário em POO com Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-02",
+
+    dataConclusao: "02 de novembro de 2025",
+
+    codigo: "THOWM4MB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.02 · Digital Innovation One · Modelando o Sistema Bancário em POO com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/THOWM4MB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 102,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de POO em Soluções Digitais",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-02",
+
+    dataConclusao: "02 de novembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.02 · Digital Innovation One · Fundamentos de POO em Soluções Digitais.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 103,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Programação Orientada a Objetos com Python™",
+    
+    cargaHoraria: "7 h",
+
+    conclusaoISO: "2025-11-02",
+
+    dataConclusao: "02 de novembro de 2025",
+
+    codigo: "N9Y9APKR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.02 · Digital Innovation One · Programação Orientada a Objetos com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/N9Y9APKR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 104,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Aplicações Rest",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-03",
+
+    dataConclusao: "03 de novembro de 2025",
+
+    codigo: "IEHFHEK6",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.03 · Digital Innovation One · Introdução a Aplicações Rest.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IEHFHEK6.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 105,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Boas Práticas para APIs Restful",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-03",
+
+    dataConclusao: "03 de novembro de 2025",
+
+    codigo: "VPMGEMAU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.03 · Digital Innovation One · Boas Práticas para APIs Restful.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VPMGEMAU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 106,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução ao FestAPI paara APIs Restful Assíncronas",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-03",
+
+    dataConclusao: "03 de novembro de 2025",
+
+    codigo: "I6COOFMB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.03 · Digital Innovation One · Introdução ao FestAPI paara APIs Restful Assíncronas.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/I6COOFMB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 107,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Primeiros Passos com FastAPI",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-03",
+
+    dataConclusao: "03 de novembro de 2025",
+
+    codigo: "MRIHGQKX",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.03 · Digital Innovation One · Primeiros Passos com FastAPI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MRIHGQKX.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 108,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desenvolvendo sua Primeira API com FastAPI, Python™ e Docker",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2025-11-03",
+
+    dataConclusao: "03 de novembro de 2025",
+
+    codigo: "49GQOYAZ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.03 · Digital Innovation One · Desenvolvendo sua Primeira API com FastAPI, Python™ e Docker.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/49GQOYAZ.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 109,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de APIs Rest com FastAPI",
+    
+    cargaHoraria: "9 h",
+
+    conclusaoISO: "2025-11-03",
+
+    dataConclusao: "03 de novembro de 2025",
+
+    codigo: "7X3LEQGV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.03 · Digital Innovation One · Fundamentos de APIs Rest com FastAPI.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7X3LEQGV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 110,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução Banco de Dados",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-04",
+
+    dataConclusao: "04 de novembro de 2025",
+
+    codigo: "4W97C5MZ",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.04 · Digital Innovation One · Introdução Banco de Dados.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4W97C5MZ.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
