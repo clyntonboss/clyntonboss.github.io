@@ -1958,5 +1958,255 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/IYLG2DGQ.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 81,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Tipos de Operadores com Python™",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "PGSA276S",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Tipos de Operadores com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PGSA276S.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 82,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Estruturas Condicionais e de Repetição em Python™",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "LTKPG60Q",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Estruturas Condicionais e de Repetição em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LTKPG60Q.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 83,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Manipulando Strings com Python™",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "FWC6UIMV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Manipulando Strings com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FWC6UIMV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 84,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Trabalhando com Listas em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "QNSKT5CU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Trabalhando com Listas em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QNSKT5CU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 85,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Conhecendo Tuplas em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "7FM89TPL",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Conhecendo Tuplas em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7FM89TPL.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 86,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aprendendo a Utilizar Dicionários em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "VJ3FQL0A",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Aprendendo a Utilizar Dicionários em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VJ3FQL0A.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 87,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Live de Lançamento - Luizlabs Back-End com Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "6CI6Z02K",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Live de Lançamento - Luizlabs Back-End com Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6CI6Z02K.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 88,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Primeiros Passos com Python™ e Versionamento de Código",
+    
+    cargaHoraria: "16 h",
+
+    conclusaoISO: "2025-10-31",
+
+    dataConclusao: "31 de outubro de 2025",
+
+    codigo: "M3DZRU8W",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.10.31 · Digital Innovation One · Primeiros Passos com Python™ e Versionamento de Código.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/M3DZRU8W.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 89,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Dominando Funções Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-01",
+
+    dataConclusao: "01 de novembro de 2025",
+
+    codigo: "DYJQ11G1",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.01 · Digital Innovation One · Dominando Funções Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DYJQ11G1.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 90,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Otimizando o Sistema Bancário com Funções Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-01",
+
+    dataConclusao: "01 de novembro de 2025",
+
+    codigo: "YILKRTGV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2025.11.01 · Digital Innovation One · Otimizando o Sistema Bancário com Funções Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YILKRTGV.pdf",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
