@@ -744,5 +744,155 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/SYXDIDU4.pdf",
       texto: "Verificar Autenticidade"
     }
+  },
+
+  {
+    id: 31,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Estratégias e Mercado UX/UI Designer",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "7X2XM4FY",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Estratégias e Mercado UX · UI Designer.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7X2XM4FY.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 32,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Implementando Todas as Etapas para a Criação de um Protótipo Profissional",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "BCVM1LJB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Implementando Todas as Etapas para a Criação de um Protótipo Profissional.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BCVM1LJB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 33,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Avalie a Formação UI · UX Designer",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "3LL0HCMK",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Avalie a Formação UI · UX Designer.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3LL0HCMK.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 34,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Tornando-se um(a) UI/UX Designer Completo(a)",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "HDK8DPG9",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Tornando-se um(a) UI · UX Designer Completo(a).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HDK8DPG9.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 35,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Formação UI/UX Designer",
+    
+    cargaHoraria: "30 h",
+
+    conclusaoISO: "2025-11-24",
+
+    dataConclusao: "24 de novembro de 2025",
+
+    codigo: "CK32JODC",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.11.24 · Digital Innovation One · Formação UI · UX Designer.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CK32JODC.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 36,
+
+    instituicao: "Pontifícia Universidade Católica do Rio Grande do Sul",
+ 
+    curso: "Design Centrado no Usuário",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-12-18",
+
+    dataConclusao: "18 de dezembro de 2025",
+
+    codigo: "229559-2705-1",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.12.18 · Pontifícia Universidade Católica do Rio Grande do Sul · Design Centrado no Usuário.png",
+
+    verificacao: {
+      url: "https://educon.pucrs.br/validarcertificado/",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
