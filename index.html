@@ -60,13 +60,45 @@
       <div class="container">
         <!-- Seção Principal -->
         <section id="inicio" class="main-section">
-            <div class="fixed-header-section fade-item">
+
+            <!-- Subtítulo Rogério Clynton Ribeiro | Analista de Dados -->
+            <div class="fixed-header-section fixed-home is-visible">
                 <div class="fixed-header-container">
                     <h1>
                         <img src="assets/icons/icone-dados.png" alt="Ícone de Dados" class="title-icon">
                         <span class="title-wrapper">Transformando dados em decisões estratégicas.</span>
                     </h1>
                     <div class="decorative-line"></div>
+                </div>
+            </div>
+
+            <!-- Subtítulo Portfólio | Rogério Clynton Ribeiro -->
+            <div class="fixed-header-section fade-item">
+                <div class="fixed-header-container">
+
+                    <div class="header-with-controls">
+
+                        <h1 id="portfolio-title-group">
+                            <img id="section-icon" class="title-icon portfolio-icon" src="../assets/icons/icone-portfolio.png" alt="Ícone Portfólio">
+                            <span id="section-title" class="title-wrapper portfolio-subtitle">
+                              <span class="title-base">Portfólio</span>
+                              <span class="title-category hidden">
+                                <span class="pipe"> | </span>
+                                <span class="category-name"></span>
+                              </span>
+                            </span>
+                        </h1>
+
+                        <div id="view-mode-controls" class="view-mode-controls" aria-label="Modos de visualização">
+                            <button class="view-btn view-transition" data-view="block" aria-label="Ativar Visualização em Bloco" onclick="trocarModo('block')">▣</button>
+                            <button class="view-btn view-transition" data-view="flow" aria-label="Ativar Visualização Fluida" onclick="trocarModo('flow')">☷</button>
+                            <button class="view-btn view-transition" data-view="list" aria-label="Ativar Visualização em Lista" onclick="trocarModo('list')">☰</button>
+                            <button class="view-btn view-transition" data-view="grid" aria-label="Ativar Visualização em Grade" onclick="trocarModo('grid')">⊞</button>
+                        </div>
+                    </div>
+                        
+                    <div class="decorative-line"></div>
+
                 </div>
             </div>
 
