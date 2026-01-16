@@ -1539,7 +1539,7 @@ body.static-header .last-update {
 @keyframes fixed-enter-left {
   from {
     opacity: 0;
-    transform: translateX(-64px);
+    transform: translateX(64px);
   }
   to {
     opacity: 1;
