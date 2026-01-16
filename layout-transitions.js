@@ -40,6 +40,27 @@ function trocarFixedHeaderParaPortfolio() {
   }, 400);
 }
 
+function trocarIntroParaSideMenu() {
+  const intro = document.querySelector(".intro-home");
+  const sideMenu = document.querySelector(".side-portfolio");
+
+  if (!intro || !sideMenu) return;
+
+  // SAÍDA — Intro
+  intro.classList.add("exit");
+
+  setTimeout(() => {
+    intro.classList.remove("is-visible", "exit");
+    intro.style.display = "none";
+
+    // ENTRADA — Side Menu
+    sideMenu.style.display = "block";
+    sideMenu.offsetHeight; // reflow
+
+    sideMenu.classList.add("is-visible", "enter");
+  }, 450); // ligeiramente maior que o último delay
+}
+
 document.addEventListener("click", e => {
   const trigger = e.target.closest("[data-action]");
   if (!trigger) return;
@@ -49,5 +70,6 @@ document.addEventListener("click", e => {
   if (trigger.dataset.action === "open-portfolio") {
     trocarHeaderParaPortfolio();
     trocarFixedHeaderParaPortfolio();
+    trocarIntroParaSideMenu();
   }
 });
