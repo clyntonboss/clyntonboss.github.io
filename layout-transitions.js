@@ -7,18 +7,16 @@ function trocarHeaderParaPortfolio() {
   // SAÍDA — Home
   homeHeader.classList.add("header-exit");
 
-  // após animação da saída
   setTimeout(() => {
     homeHeader.classList.remove("is-visible", "header-exit");
     homeHeader.style.display = "none";
 
-    // prepara entrada
+    // ENTRADA — Portfólio
     portfolioHeader.style.display = "flex";
     portfolioHeader.offsetHeight; // força reflow
 
     portfolioHeader.classList.add("is-visible", "header-enter");
-
-  }, 400); // tempo total da saída
+  }, 400);
 }
 
 document.addEventListener("click", e => {
@@ -28,6 +26,6 @@ document.addEventListener("click", e => {
   e.preventDefault();
 
   if (trigger.dataset.action === "open-portfolio") {
-    // chama quem sabe fazer
+    trocarHeaderParaPortfolio();
   }
 });
