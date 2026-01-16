@@ -1668,7 +1668,7 @@ const sections = {
           <a href="#" data-category="idiomas">Idiomas</a>
           <a href="/portfolio/formacoes-complementares/sustentabilidade/">Sustentabilidade</a>
           <a href="#" data-category="credly">Credly</a>
-          <a href="/portfolio/formacoes-complementares/arquitetura/">Arquitetura</a>
+          <a href="#" data-category="arquitetura">Arquitetura</a>
       </div>
     `
   },
