@@ -1612,3 +1612,44 @@ body.static-header .last-update {
     transform: translateY(0);
   }
 }
+
+/* Estado Base */
+.curriculo-portfolio {
+  display: none;
+  opacity: 0;
+  transform: scale(0.92);
+}
+
+/* Saída */
+.curriculo-home.exit {
+  animation: text-exit-center 0.4s ease forwards;
+}
+
+/* Kayframes */
+@keyframes text-exit-center {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+}
+
+/* Entrada */
+.curriculo-portfolio.enter {
+  animation: text-enter-center 0.4s ease forwards;
+}
+
+/* Keyframes */
+@keyframes text-enter-center {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
