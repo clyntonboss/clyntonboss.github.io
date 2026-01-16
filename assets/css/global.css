@@ -1491,3 +1491,58 @@ body.static-header .last-update {
     transform: translateX(0);
   }
 }
+
+/* Portfólio começa invisível */
+.fixed-portfolio {
+  display: none;
+}
+
+/* Estado Inicial dos itens que Entram */
+.fixed-portfolio .title-icon,
+.fixed-portfolio .title-wrapper {
+  opacity: 0;
+  transform: translateX(64px);
+}
+
+/* Estado Inicial dos ites que Saem */
+.fixed-home.exit .title-wrapper {
+  animation: fixed-exit-right 0.4s ease forwards;
+}
+
+.fixed-home.exit .title-icon {
+  animation: fixed-exit-right 0.4s ease forwards;
+  animation-delay: 80ms;
+}
+
+/* Entrada do Portfólio */
+.fixed-portfolio.enter .title-icon {
+  animation: fixed-enter-left 0.4s ease forwards;
+}
+
+.fixed-portfolio.enter .title-wrapper {
+  animation: fixed-enter-left 0.4s ease forwards;
+  animation-delay: 80ms;
+}
+
+/* Keyframes */
+@keyframes fixed-exit-right {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(64px);
+  }
+}
+
+@keyframes fixed-enter-left {
+  from {
+    opacity: 0;
+    transform: translateX(-64px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
