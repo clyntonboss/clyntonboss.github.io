@@ -61,6 +61,27 @@ function trocarIntroParaSideMenu() {
   }, 450); // ligeiramente maior que o último delay
 }
 
+function trocarTextoHomeParaPortfolio() {
+  const homeText = document.querySelector(".curriculo-home");
+  const portfolioText = document.querySelector(".curriculo-portfolio");
+
+  if (!homeText || !portfolioText) return;
+
+  // SAÍDA — Home
+  homeText.classList.add("exit");
+
+  setTimeout(() => {
+    homeText.classList.remove("is-visible", "exit");
+    homeText.style.display = "none";
+
+    // ENTRADA — Portfólio
+    portfolioText.style.display = "block";
+    portfolioText.offsetHeight; // reflow
+
+    portfolioText.classList.add("is-visible", "enter");
+  }, 400);
+}
+
 document.addEventListener("click", e => {
   const trigger = e.target.closest("[data-action]");
   if (!trigger) return;
@@ -71,5 +92,6 @@ document.addEventListener("click", e => {
     trocarHeaderParaPortfolio();
     trocarFixedHeaderParaPortfolio();
     trocarIntroParaSideMenu();
+    trocarTextoHomeParaPortfolio();
   }
 });
