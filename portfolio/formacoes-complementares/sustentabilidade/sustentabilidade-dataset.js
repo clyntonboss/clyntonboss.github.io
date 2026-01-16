@@ -232,5 +232,240 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.04.04 · SENAI São Paulo · Economia Circular.png",
 
     verificacao: null
+  },
+
+  {
+    id: 11,
+
+    instituicao: "Universidade Federal de Paraná",
+ 
+    curso: "Economía Circular",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-04-07",
+
+    dataConclusao: "07 de abril de 2025",
+
+    codigo: "67f4085a-1254-4f09-aca2-000a0af9cfb9",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.04.07 · Universidade Federal de Paraná · Economía Circular.png",
+
+    verificacao: {
+      url: "https://ufpraberta.ufpr.br/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 12,
+
+    instituicao: "Circular Academy",
+ 
+    curso: "Introducción a la Economía Circular",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-04-28",
+
+    dataConclusao: "28 de abril de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.04.28 · Circular Academy · Introducción a la Economía Circular.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 13,
+
+    instituicao: "Circular Academy",
+ 
+    curso: "Introducción a la Economía Circular",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-04-28",
+
+    dataConclusao: "28 de abril de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.04.28 · Movimento Circular · Introducción a la Economía Circular.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 14,
+
+    instituicao: "United Nations Industrial Development Organization",
+ 
+    curso: "Circular Economy in Industry",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-05-21",
+
+    dataConclusao: "21 de maio de 2025",
+
+    codigo: "4aSsgf3ofG",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.05.21 · United Nations Industrial Development Organization · Circular Economy in Industry.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 15,
+
+    instituicao: "Reflow Academy",
+ 
+    curso: "Introduction of the Circular Economy",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-05-21",
+
+    dataConclusao: "21 de maio de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.05.21 · Reflow Academy · Introduction of the Circular Economy.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 16,
+
+    instituicao: "SENAI São Paulo",
+ 
+    curso: "Fundamentos e Ações da Economia Circular",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-08-07",
+
+    dataConclusao: "07 de agosto de 2025",
+
+    codigo: "00045894/8187968",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.07 · SENAI São Paulo · Fundamentos e Ações da Economia Circular.png",
+
+    verificacao: {
+      url: "https://www.sp.senai.br/consulta-certificado?qrcode=00045894/8187968",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 17,
+
+    instituicao: "SENAI São Paulo",
+ 
+    curso: "Ciclos de Retorno paara Economia Circular",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-08-09",
+
+    dataConclusao: "09 de agosto de 2025",
+
+    codigo: "00045901/8187968",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.09 · SENAI São Paulo · Ciclos de Retorno paara Economia Circular.png",
+
+    verificacao: {
+      url: "https://www.sp.senai.br/consulta-certificado?qrcode=00045901/8187968",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 18,
+
+    instituicao: "SENAI São Paulo",
+ 
+    curso: "Ecodesign e Modelos de Projetos na Economia Circular",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-08-11",
+
+    dataConclusao: "11 de agosto de 2025",
+
+    codigo: "00045903/8187968",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.11 · SENAI São Paulo · Ecodesign e Modelos de Projetos na Economia Circular.png",
+
+    verificacao: {
+      url: "https://www.sp.senai.br/consulta-certificado?qrcode=00045903/8187968",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 19,
+
+    instituicao: "SENAI São Paulo",
+ 
+    curso: "Acelerando a Transição para a Economia Circular",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-08-13",
+
+    dataConclusao: "13 de agosto de 2025",
+
+    codigo: "00045902/8187968",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.13 · SENAI São Paulo · Acelerando a Transição para a Economia Circular.png",
+
+    verificacao: {
+      url: "https://www.sp.senai.br/consulta-certificado?qrcode=00045902/8187968",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 20,
+
+    instituicao: "Escola de Gestão Pública Municipal",
+ 
+    curso: "Gestão de Resíduos e Economia Circular",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-08-13",
+
+    dataConclusao: "13 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.13 · Escola de Gestão Pública Municipal · Gestão de Resíduos e Economia Circular.png",
+
+    verificacao: null
   }
 ];
