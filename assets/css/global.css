@@ -1476,7 +1476,7 @@ body.static-header .last-update {
 @keyframes header-enter-left {
   from {
     opacity: 0;
-    transform: translateX(-64px);
+    transform: translateX(64px);
   }
   to {
     opacity: 1;
