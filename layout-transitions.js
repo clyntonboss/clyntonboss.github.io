@@ -19,6 +19,27 @@ function trocarHeaderParaPortfolio() {
   }, 400);
 }
 
+function trocarFixedHeaderParaPortfolio() {
+  const home = document.querySelector(".fixed-home");
+  const portfolio = document.querySelector(".fixed-portfolio");
+
+  if (!home || !portfolio) return;
+
+  // SAÍDA — Home
+  home.classList.add("exit");
+
+  setTimeout(() => {
+    home.classList.remove("is-visible", "exit");
+    home.style.display = "none";
+
+    // ENTRADA — Portfólio
+    portfolio.style.display = "block";
+    portfolio.offsetHeight; // reflow
+
+    portfolio.classList.add("is-visible", "enter");
+  }, 400);
+}
+
 document.addEventListener("click", e => {
   const trigger = e.target.closest("[data-action]");
   if (!trigger) return;
@@ -27,5 +48,6 @@ document.addEventListener("click", e => {
 
   if (trigger.dataset.action === "open-portfolio") {
     trocarHeaderParaPortfolio();
+    trocarFixedHeaderParaPortfolio();
   }
 });
