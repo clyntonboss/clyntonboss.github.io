@@ -20,3 +20,14 @@ function trocarHeaderParaPortfolio() {
 
   }, 400); // tempo total da saída
 }
+
+document.addEventListener("click", e => {
+  const trigger = e.target.closest("[data-action]");
+  if (!trigger) return;
+
+  e.preventDefault();
+
+  if (trigger.dataset.action === "open-portfolio") {
+    // chama quem sabe fazer
+  }
+});
