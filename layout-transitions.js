@@ -18,5 +18,5 @@ function trocarHeaderParaPortfolio() {
 
     portfolioHeader.classList.add("is-visible", "header-enter");
 
-  }, 500); // tempo total da saída
+  }, 400); // tempo total da saída
 }
