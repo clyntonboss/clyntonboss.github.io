@@ -1546,3 +1546,69 @@ body.static-header .last-update {
     transform: translateX(0);
   }
 }
+
+/* Side Menu começa invisível */
+.side-portfolio {
+  display: none;
+}
+
+/* Estado inicial da Entrada */
+.side-portfolio {
+  opacity: 0;
+  transform: translateY(64px);
+}
+
+/* Saída da Introdução */
+.intro-home.exit > * {
+  animation: intro-exit-down 0.4s ease forwards;
+}
+
+/* Ordem de Saída */
+.intro-home.exit .signature-phrase {
+  animation-delay: 0ms;
+}
+
+.intro-home.exit a[href*="portfolio/"] {
+  animation-delay: 80ms;
+}
+
+.intro-home.exit a[data-action="open-portfolio"] {
+  animation-delay: 160ms;
+}
+
+.intro-home.exit a[href*="projetos"] {
+  animation-delay: 240ms;
+}
+
+.intro-home.exit img {
+  animation-delay: 320ms;
+}
+
+/* Keyframes */
+@keyframes intro-exit-down {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(64px);
+  }
+}
+
+/* Entrada do Side Menu */
+.side-portfolio.enter {
+  animation: side-enter-up 0.5s ease forwards;
+}
+
+/* Keyframe */
+@keyframes side-enter-up {
+  from {
+    opacity: 0;
+    transform: translateY(64px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
