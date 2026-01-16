@@ -1426,3 +1426,60 @@ body.static-header .last-update {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+
+/* Estado Base */
+.header-portfolio {
+  display: none;
+}
+
+.header.is-visible {
+  display: flex;
+}
+
+/* Saída Home -> Portfólio */
+.header-exit .last-update {
+  animation: header-exit-right 0.4s ease forwards;
+}
+
+.header-exit .header-name {
+  animation: header-exit-right 0.4s ease forwards;
+  animation-delay: 80ms;
+}
+
+/* Entrada Portfólio */
+.header-enter .header-photo {
+  animation: header-enter-left 0.4s ease forwards;
+}
+
+.header-enter .header-name {
+  animation: header-enter-left 0.4s ease forwards;
+  animation-delay: 80ms;
+}
+
+.header-enter .last-update {
+  animation: header-enter-left 0.4s ease forwards;
+  animation-delay: 160ms;
+}
+
+/* Keyframes */
+@keyframes header-exit-right {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(64px);
+  }
+}
+
+@keyframes header-enter-left {
+  from {
+    opacity: 0;
+    transform: translateX(-64px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
