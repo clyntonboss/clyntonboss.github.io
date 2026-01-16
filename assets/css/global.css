@@ -1437,11 +1437,11 @@ body.static-header .last-update {
 }
 
 /* Saída Home -> Portfólio */
-.header-exit .last-update {
+.header-home.header-exit .last-update {
   animation: header-exit-right 0.4s ease forwards;
 }
 
-.header-exit .header-name {
+.header-home.header-exit .header-name {
   animation: header-exit-right 0.4s ease forwards;
   animation-delay: 80ms;
 }
@@ -1482,4 +1482,12 @@ body.static-header .last-update {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+/* Estado inicial dos itens do header-portfólio */
+.header-portfolio .header-photo,
+.header-portfolio .header-name,
+.header-portfolio .last-update {
+  opacity: 0;
+  transform: translateX(-64px);
 }
