@@ -467,5 +467,143 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.13 · Escola de Gestão Pública Municipal · Gestão de Resíduos e Economia Circular.png",
 
     verificacao: null
+  },
+
+  {
+    id: 21,
+
+    instituicao: "SENAI São Paulo",
+ 
+    curso: "Geração de Valor Circular e Modelos de Negócios",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-08-14",
+
+    dataConclusao: "14 de agosto de 2025",
+
+    codigo: "00045904/8187968",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.14 · SENAI São Paulo · Geração de Valor Circular e Modelos de Negócios.png",
+
+    verificacao: {
+      url: "https://www.sp.senai.br/consulta-certificado?qrcode=00045904/8187968",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
+    id: 22,
+
+    instituicao: "Circular Academy",
+ 
+    curso: "Introduction to Circular Economy",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2025-08-21",
+
+    dataConclusao: "21 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.21 · Circular Academy · Introduction to Circular Economy.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 23,
+
+    instituicao: "Reflow Academy",
+ 
+    curso: "Governing a Circular Economy in Cities",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-08-21",
+
+    dataConclusao: "21 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.21 · Reflow Academy · Governing a Circular Economy in Cities.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 24,
+
+    instituicao: "Reflow Academy",
+ 
+    curso: "Circular Business Models for Regenerative Cities",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2025-08-22",
+
+    dataConclusao: "22 de agosto de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.08.22 · Reflow Academy · Circular Business Models for Regenerative Cities.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 25,
+
+    instituicao: "Escola de Gestão Pública Municipal",
+ 
+    curso: "Entre Rios e Marés: Gestão de Resíduos e o Futuro Circular",
+    
+    cargaHoraria: "15 h",
+
+    conclusaoISO: "2025-09-05",
+
+    dataConclusao: "05 de setembro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.09.05 · Escola de Gestão Pública Municipal · Entre Rios e Marés (Gestão de Resíduos e o Futuro Circular).png",
+
+    verificacao: null
+  },
+
+  {
+    id: 26,
+
+    instituicao: "Pontifícia Universidade Católica do Rio Grande do Sul",
+ 
+    curso: "Cidades Sustentáveis, Inteligentes e Circulares",
+    
+    cargaHoraria: "10 h",
+
+    conclusaoISO: "2025-10-24",
+
+    dataConclusao: "24 de outubro de 2025",
+
+    codigo: "256343-40-1",
+
+    mostrarCopiar: true,
+
+    thumb: "/portfolio/formacoes-complementares/sustentabilidade/certificados/2025.10.24 · Pontifícia Universidade Católica do Rio Grande do Sul · Cidades Sustentáveis, Inteligentes e Circulares.png",
+
+    verificacao: {
+      url: "https://webappcl.pucrs.br/inscricoes/verificacao/",
+      texto: "Verificar Autenticidade"
+    }
   }
 ];
