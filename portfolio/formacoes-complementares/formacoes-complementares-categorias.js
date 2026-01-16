@@ -1247,6 +1247,58 @@ idiomas: {
     `
   },
 
+sustentabilidade: {
+    title: "Sustentabilidade",
+    dataset: "/portfolio/formacoes-complementares/sustentabilidade/sustentabilidade-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Sustentabilidade, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam práticas sustentáveis, responsabilidade socioambiental, eficiência no uso de recursos, conformidade regulatória e integração da sustentabilidade aos processos organizacionais.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Sustentabilidade contribuíram para o desenvolvimento de uma visão crítica sobre o impacto ambiental, social e econômico das atividades organizacionais.<br>
+                                 Esses conhecimentos apoiam a incorporação de práticas sustentáveis na gestão de processos, na tomada de decisões e na busca por eficiência, conformidade e responsabilidade corporativa.</div>
+    `
+  },
+
 credly: {
     title: "Credly",
     dataset: "/portfolio/formacoes-complementares/credly/credly-dataset.js",
