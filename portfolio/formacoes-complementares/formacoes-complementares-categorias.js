@@ -1298,4 +1298,56 @@ credly: {
                                  Esses registros contribuem para a transparência, a confiabilidade das qualificações apresentadas e o alinhamento com práticas contemporâneas de certificação e reconhecimento profissional.</div>
     `
   },
+
+arquitetura: {
+    title: "Arquitetura",
+    dataset: "/portfolio/formacoes-complementares/arquitetura/arquitetura-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Arquitetura na Construção Civil, organizadas por conclusão cronológica.<br>
+                                 Os cursos apresentados abordam fundamentos de projeto arquitetônico, leitura e interpretação de plantas, noções construtivas, normas técnicas, sustentabilidade e organização do espaço construído.</div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle">As formações em Arquitetura na área de Construção Civil contribuíram para o desenvolvimento da compreensão técnica sobre projetos, espaços construídos e processos construtivos.<br>
+                                 Esses conhecimentos ampliam a capacidade de leitura técnica, análise de projetos e entendimento das interações entre planejamento, execução e normas, favorecendo uma visão multidisciplinar aplicada a diferentes contextos profissionais.</div>
+    `
+  },
 };
