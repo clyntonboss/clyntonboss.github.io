@@ -1670,3 +1670,17 @@ body.static-header .last-update {
   transform: translateY(-20px);
   position: absolute;
 }
+
+.fixed-header-section .title-icon {
+  transition-delay: 0s;
+}
+
+.fixed-header-section .title-wrapper {
+  transition-delay: 0.15s;
+}
+
+.fixed-header-section.fade-item.visible .title-icon,
+.fixed-header-section.fade-item.visible .title-wrapper {
+  opacity: 1;
+  transform: translateY(0);
+}
