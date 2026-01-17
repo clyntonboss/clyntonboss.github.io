@@ -1492,14 +1492,9 @@ body.static-header .last-update {
   }
 }
 
-/* Portfólio começa invisível */
-.fixed-portfolio {
-  display: none;
-}
-
 /* Estado Inicial dos itens que Entram */
-.fixed-portfolio .title-icon,
-.fixed-portfolio .title-wrapper {
+.fade-item .title-icon,
+.fade-item .title-wrapper {
   opacity: 0;
   transform: translateX(64px);
 }
@@ -1515,11 +1510,11 @@ body.static-header .last-update {
 }
 
 /* Entrada do Portfólio */
-.fixed-portfolio.enter .title-icon {
+.fade-item.enter .title-icon {
   animation: fixed-enter-left 0.4s ease forwards;
 }
 
-.fixed-portfolio.enter .title-wrapper {
+.fade-item.enter .title-wrapper {
   animation: fixed-enter-left 0.4s ease forwards;
   animation-delay: 80ms;
 }
