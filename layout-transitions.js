@@ -82,6 +82,36 @@ function trocarTextoHomeParaPortfolio() {
   }, 400);
 }
 
+function trocarHeader(ativo) {
+  const headers = document.querySelectorAll('.fixed-header-section');
+
+  headers.forEach(header => {
+    header.classList.remove('is-visible', 'visible');
+  });
+
+  const headerAtivo = document.querySelector(`.fixed-${ativo}`);
+  if (!headerAtivo) return;
+
+  // pequena pausa para garantir saída suave
+  setTimeout(() => {
+    headerAtivo.classList.add('is-visible');
+    headerAtivo.classList.add('visible');
+  }, 120);
+}
+
+document.addEventListener("click", e => {
+  const link = e.target.closest("[data-section]");
+  if (!link) return;
+
+  const section = link.dataset.section;
+
+  if (section === "perfil" || section === "proposito") {
+    trocarHeader("home");
+  } else {
+    trocarHeader("portfolio");
+  }
+});
+
 document.addEventListener("click", e => {
   const trigger = e.target.closest("[data-action]");
   if (!trigger) return;
