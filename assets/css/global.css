@@ -388,18 +388,13 @@ main {
    ============================== */
 
 .fixed-header-section {
-  position: relative;
+  position: sticky;
   top: 80px; /* altura do cabeçalho */
   background-color: transparent; /* fundo transparente */
   z-index: 50;
   padding-bottom: 10px;
   display: flex;
     /* Removido justify-content: center para alinhar à esquerda */
-}
-
-/* Estado inativo */
-.fixed-header-section:not(.is-active) {
-  display: none;
 }
 
 .fixed-header-container {
