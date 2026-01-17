@@ -395,7 +395,6 @@ main {
   padding-bottom: 10px;
   display: flex;
     /* Removido justify-content: center para alinhar à esquerda */
-  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .fixed-header-section.is-active {
