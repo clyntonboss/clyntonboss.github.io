@@ -27,17 +27,16 @@ function trocarFixedHeaderParaPortfolio() {
 
   // SAÍDA — Home
   home.classList.add("exit");
-  home.classList.remove("is-visible");
 
   setTimeout(() => {
-    home.classList.remove("exit");
+    home.classList.remove("is-visible", "exit");
     home.style.display = "none";
 
     // ENTRADA — Portfólio
     portfolio.style.display = "block";
     portfolio.offsetHeight; // reflow
 
-    portfolio.classList.add("is-visible");
+    portfolio.classList.add("is-visible", "enter");
   }, 400);
 }
 
