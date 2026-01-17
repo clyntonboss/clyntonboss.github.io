@@ -25,19 +25,11 @@ function trocarFixedHeaderParaPortfolio() {
 
   if (!home || !portfolio) return;
 
-  // SAÍDA — Home
-  home.classList.add("exit");
+  // saída
+  home.classList.remove("is-active");
 
-  setTimeout(() => {
-    home.classList.remove("is-visible", "exit");
-    home.style.display = "none";
-
-    // ENTRADA — Portfólio
-    portfolio.style.display = "block";
-    portfolio.offsetHeight; // reflow
-
-    portfolio.classList.add("is-visible", "enter");
-  }, 400);
+  // entrada
+  portfolio.classList.add("is-active");
 }
 
 function trocarIntroParaSideMenu() {
