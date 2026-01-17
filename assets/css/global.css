@@ -1653,3 +1653,20 @@ body.static-header .last-update {
     transform: scale(1);
   }
 }
+
+/* Header ativo */
+.fixed-header-section.is-visible {
+  pointer-events: auto;
+}
+
+/* Header inativo */
+.fixed-header-section:not(.is-visible) {
+  pointer-events: none;
+}
+
+/* Header inativo NÃO aparece */
+.fixed-header-section.fade-item:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(-20px);
+  position: absolute;
+}
