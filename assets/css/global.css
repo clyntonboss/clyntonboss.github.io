@@ -1653,34 +1653,3 @@ body.static-header .last-update {
     transform: scale(1);
   }
 }
-
-/* Header ativo */
-.fixed-header-section.is-visible {
-  pointer-events: auto;
-}
-
-/* Header inativo */
-.fixed-header-section:not(.is-visible) {
-  pointer-events: none;
-}
-
-/* Header inativo NÃO aparece */
-.fixed-header-section.fade-item:not(.is-visible) {
-  opacity: 0;
-  transform: translateY(-20px);
-  position: absolute;
-}
-
-.fixed-header-section .title-icon {
-  transition-delay: 0s;
-}
-
-.fixed-header-section .title-wrapper {
-  transition-delay: 0.15s;
-}
-
-.fixed-header-section.fade-item.visible .title-icon,
-.fixed-header-section.fade-item.visible .title-wrapper {
-  opacity: 1;
-  transform: translateY(0);
-}
