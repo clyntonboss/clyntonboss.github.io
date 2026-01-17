@@ -100,19 +100,26 @@ function trocarHeader(ativo) {
 }
 
 document.addEventListener("click", e => {
-  const link = e.target.closest("[data-section]");
-  if (!link) return;
 
-  const section = link.dataset.section;
+  /* ============================
+     SIDE MENU (data-section)
+  ============================ */
+  const linkSection = e.target.closest("[data-section]");
+  if (linkSection) {
+    const section = linkSection.dataset.section;
 
-  if (section === "perfil" || section === "proposito") {
-    trocarHeader("home");
-  } else {
-    trocarHeader("portfolio");
+    if (section === "perfil" || section === "proposito") {
+      trocarHeader("home");
+    } else {
+      trocarHeader("portfolio");
+    }
+
+    return;
   }
-});
 
-document.addEventListener("click", e => {
+  /* ============================
+     ACTIONS (data-action)
+  ============================ */
   const trigger = e.target.closest("[data-action]");
   if (!trigger) return;
 
