@@ -1671,7 +1671,7 @@ body.static-header .last-update {
 
   position: absolute;
   opacity: 0;
-  transform: translateX(-32px);
+  transform: translateX(64px);
 
   transition:
     opacity 0.4s ease,
