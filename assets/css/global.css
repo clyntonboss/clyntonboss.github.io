@@ -1667,3 +1667,27 @@ body.static-header .last-update {
     transform: scale(1);
   }
 }
+
+/* Novas */
+.fixed-home,
+.fixed-portfolio {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+
+.fixed-home.is-visible,
+.fixed-portfolio.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* animações específicas */
+.fixed-home.exit {
+  animation: slide-out-right 0.4s ease forwards;
+}
+
+.fixed-portfolio.enter {
+  animation: slide-in-left 0.4s ease forwards;
+}
