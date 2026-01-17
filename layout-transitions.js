@@ -21,7 +21,7 @@ function trocarHeaderParaPortfolio() {
 
 function trocarFixedHeaderParaPortfolio() {
   const home = document.querySelector(".fixed-home");
-  const portfolio = document.querySelector(".fade-item");
+  const portfolio = document.querySelector(".fixed-portfolio");
 
   if (!home || !portfolio) return;
 
