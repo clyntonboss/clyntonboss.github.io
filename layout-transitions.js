@@ -27,16 +27,19 @@ function trocarFixedHeaderParaPortfolio() {
 
   // SAÍDA — Home
   home.classList.add("exit");
+  home.classList.remove("is-visible");
 
+  // ENTRADA — Portfólio (após saída)
   setTimeout(() => {
-    home.classList.remove("is-visible", "exit");
-    home.style.display = "none";
-
-    // ENTRADA — Portfólio
-    portfolio.style.display = "block";
-    portfolio.offsetHeight; // reflow
+    home.classList.remove("exit");
 
     portfolio.classList.add("is-visible", "enter");
+
+    // remove classe de entrada após animação
+    setTimeout(() => {
+      portfolio.classList.remove("enter");
+    }, 400);
+
   }, 400);
 }
 
@@ -95,3 +98,17 @@ document.addEventListener("click", e => {
     trocarTextoHomeParaPortfolio();
   }
 });
+
+function mostrarFixedPortfolio() {
+  const fixed = document.querySelector(".fixed-portfolio");
+  if (!fixed) return;
+
+  fixed.classList.add("is-visible");
+}
+
+function ocultarFixedPortfolio() {
+  const fixed = document.querySelector(".fixed-portfolio");
+  if (!fixed) return;
+
+  fixed.classList.remove("is-visible");
+}
