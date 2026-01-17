@@ -1697,3 +1697,12 @@ body.static-header .last-update {
   opacity: 1;
   transform: translateX(0);
 }
+
+body.ui-exit .home-header {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+body[data-ui-state="portfolio"] .portfolio-header {
+  opacity: 1;
+}
