@@ -26,13 +26,18 @@ function trocarFixedHeaderParaPortfolio() {
   if (!home || !portfolio) return;
 
   // SAÍDA — Home
-  home.classList.remove("is-active");
-  home.classList.add("is-hidden");
+  home.classList.add("exit");
+  home.classList.remove("is-visible");
 
-  // ENTRADA — Portfólio (com pequeno delay)
   setTimeout(() => {
-    portfolio.classList.remove("is-hidden");
-    portfolio.classList.add("is-active");
+    home.classList.remove("exit");
+    home.style.display = "none";
+
+    // ENTRADA — Portfólio
+    portfolio.style.display = "block";
+    portfolio.offsetHeight; // reflow
+
+    portfolio.classList.add("is-visible");
   }, 400);
 }
 
