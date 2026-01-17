@@ -1653,3 +1653,10 @@ body.static-header .last-update {
     transform: scale(1);
   }
 }
+
+/* 🔒 Protege o subtítulo fixo do sistema fade-item */
+.section-fade-scope .fade-item {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
