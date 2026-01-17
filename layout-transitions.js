@@ -22,8 +22,9 @@ function trocarHeaderParaPortfolio() {
 function trocarFixedHeaderParaPortfolio() {
   const home = document.querySelector(".fixed-home");
   const portfolio = document.querySelector(".fixed-portfolio");
+  const fadeTarget = portfolio?.querySelector(".fade-item");
 
-  if (!home || !portfolio) return;
+  if (!home || !portfolio || !fadeTarget) return;
 
   // SAÍDA — Home
   home.classList.add("exit");
@@ -37,6 +38,12 @@ function trocarFixedHeaderParaPortfolio() {
     portfolio.offsetHeight; // reflow
 
     portfolio.classList.add("is-visible", "enter");
+
+    // 🔹 ativa fade-item no momento certo
+    requestAnimationFrame(() => {
+      fadeTarget.classList.add("visible");
+    });
+
   }, 400);
 }
 
