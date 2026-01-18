@@ -12,14 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const animatedElements = [iconEl, titleEl, contentEl];
   
-  const container = document.getElementById("conteudo-principal");
-  if (!container) {
-    console.warn("O container #conteudo-principal não foi encontrado!");
-  } else {
-    // carregamento inicial da Home
-    trocarConteudo("home"); // ou "portifolio" se quiser iniciar com o Portfólio
-  }
-
 function animateTransition(updateCallback) {
   const titleGroup = document.getElementById("portfolio-title-group");
   const contentEl  = document.getElementById("section-content");
@@ -421,19 +413,4 @@ function getViewButtonsOrdered(order) {
   };
 
   return order.map(k => map[k]).filter(Boolean);
-}
-
-function trocarConteudo(secao) {
-  const container = document.getElementById("conteudo-principal");
-  
-  // animação de saída
-  container.classList.add("is-transitioning");
-
-  setTimeout(() => {
-    // substitui o conteúdo
-    container.innerHTML = conteudos[secao] || "";
-
-    // animação de entrada
-    container.classList.remove("is-transitioning");
-  }, 400); // o mesmo tempo da transição CSS
 }
