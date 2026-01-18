@@ -152,7 +152,7 @@ function initUpdateDate() {
 
 // ==================== Módulo Theme ====================
 function initTheme() {
-  // Procura todos os toggles e ícones
+  // Todos os toggles e ícones
   const toggles = document.querySelectorAll("[id^='theme-toggle']");
   const icons = document.querySelectorAll("[id^='theme-icon']");
 
@@ -160,13 +160,11 @@ function initTheme() {
   const savedTheme = localStorage.getItem("theme") || "light";
   document.documentElement.setAttribute("data-theme", savedTheme);
 
-  // Atualiza todos os ícones
+  // Atualiza todos os ícones e tooltips
   updateIcons(savedTheme);
+  toggles.forEach(toggle => updateThemeTooltip(toggle, savedTheme));
 
-  // Atualiza tooltips
   toggles.forEach(toggle => {
-    updateThemeTooltip(toggle, savedTheme);
-
     toggle.classList.add("loaded");
 
     toggle.addEventListener("click", () => {
@@ -176,30 +174,35 @@ function initTheme() {
       document.documentElement.setAttribute("data-theme", newTheme);
       localStorage.setItem("theme", newTheme);
 
+      // Atualiza todos os ícones mantendo classes originais
       updateIcons(newTheme);
 
-      // Atualiza tooltip de cada toggle
+      // Atualiza tooltip em cada toggle
       toggles.forEach(t => updateThemeTooltip(t, newTheme));
     });
   });
 
   function updateIcons(theme) {
     icons.forEach(icon => {
+      // mantém todas as classes existentes, apenas troca a aparência
       if (theme === "dark") {
-        icon.classList.remove("fa-moon");
         icon.classList.add("fa-sun");
+        icon.classList.remove("fa-moon");
       } else {
-        icon.classList.remove("fa-sun");
         icon.classList.add("fa-moon");
+        icon.classList.remove("fa-sun");
       }
     });
   }
 
   function updateThemeTooltip(toggle, theme) {
-    toggle.setAttribute(
-      "aria-label",
-      theme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro"
-    );
+    const label = theme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro";
+
+    // mantém aria-label
+    toggle.setAttribute("aria-label", label);
+
+    // adiciona title para garantir tooltip visual
+    toggle.setAttribute("title", label);
   }
 }
 
