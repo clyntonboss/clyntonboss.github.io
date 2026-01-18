@@ -414,3 +414,18 @@ function getViewButtonsOrdered(order) {
 
   return order.map(k => map[k]).filter(Boolean);
 }
+
+function trocarConteudo(secao) {
+  const container = document.getElementById("conteudo-principal");
+  
+  // animação de saída
+  container.classList.add("is-transitioning");
+
+  setTimeout(() => {
+    // substitui o conteúdo
+    container.innerHTML = conteudos[secao] || "";
+
+    // animação de entrada
+    container.classList.remove("is-transitioning");
+  }, 400); // o mesmo tempo da transição CSS
+}
