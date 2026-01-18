@@ -249,6 +249,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initBlockRightClick();
     initCertificados();
     initUpdateDate();
-    initTheme();
+    initThemeHome();
     initSyncDisclosureAccordion();
 });
