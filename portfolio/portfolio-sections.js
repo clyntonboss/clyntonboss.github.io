@@ -2327,13 +2327,13 @@ const sections = {
     `
   },
 
-// 🔹 ========= Impactos e Resultados ======== 🔹
+// 🔹 ========================================= Impactos e Resultados ======================================== 🔹
 
   impactosResultados: {
     pageTitle: "Impactos e Resultados | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/results-achieved-icon.png",
+    favicon: "/assets/icons/icone-impactos-e-resultados.png",
     title: "Impactos e Resultados",
-    icon: "/assets/icons/results-achieved-icon.png",
+    icon: "/assets/icons/icone-impactos-e-resultados.png",
     showViewModes: false,
     content: `
       <p>
