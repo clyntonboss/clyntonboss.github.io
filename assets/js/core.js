@@ -150,9 +150,9 @@ function initUpdateDate() {
     lastUpdateElements.forEach(el => el.textContent = `Última atualização em: ${dataAtualizacao}`);
 }
 
-// ==================== Módulo Theme Home ====================
-function initThemeHome() {
-    const themeToggle = document.getElementById("theme-toggle-home");
+// ==================== Módulo Theme ====================
+function initTheme() {
+    const themeToggle = document.getElementById("theme-toggle");
     if (!themeToggle) return;
 
     // Aplica tema salvo
@@ -176,55 +176,7 @@ function initThemeHome() {
     });
 
     function updateIcon(theme) {
-        const icon = document.getElementById("theme-icon-home");
-        if (!icon) return;
-
-        if (theme === "dark") {
-            icon.classList.remove("fa-moon");
-            icon.classList.add("fa-sun");
-        } else {
-            icon.classList.remove("fa-sun");
-            icon.classList.add("fa-moon");
-        }
-    }
-
-    function updateThemeTooltip(theme) {
-        themeToggle.setAttribute(
-            "aria-label",
-            theme === "dark"
-                ? "Ativar Modo Claro"
-                : "Ativar Modo Escuro"
-        );
-    }
-}
-
-// ==================== Módulo Theme Home ====================
-function initThemePortfolio() {
-    const themeToggle = document.getElementById("theme-toggle-portfolio");
-    if (!themeToggle) return;
-
-    // Aplica tema salvo
-    const savedTheme = localStorage.getItem("theme") || "light";
-    document.documentElement.setAttribute("data-theme", savedTheme);
-    updateIcon(savedTheme);
-    updateThemeTooltip(savedTheme);
-
-    themeToggle.classList.add("loaded");
-
-    themeToggle.addEventListener("click", () => {
-        const currentTheme =
-            document.documentElement.getAttribute("data-theme");
-        const newTheme = currentTheme === "dark" ? "light" : "dark";
-
-        document.documentElement.setAttribute("data-theme", newTheme);
-        localStorage.setItem("theme", newTheme);
-
-        updateIcon(newTheme);
-        updateThemeTooltip(newTheme);
-    });
-
-    function updateIcon(theme) {
-        const icon = document.getElementById("theme-icon-portfolio");
+        const icon = document.getElementById("theme-icon");
         if (!icon) return;
 
         if (theme === "dark") {
@@ -297,7 +249,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initBlockRightClick();
     initCertificados();
     initUpdateDate();
-    initThemeHome();
-    initThemePortfolio();
+    initTheme();
     initSyncDisclosureAccordion();
 });
