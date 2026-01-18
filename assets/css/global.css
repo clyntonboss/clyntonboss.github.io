@@ -1659,24 +1659,3 @@ body.static-header .last-update {
     transform: scale(1);
   }
 }
-
-/* ================================
-   Estado persistente – Portfólio
-   (não remover do DOM)
-================================ */
-
-.fixed-portfolio,
-.side-portfolio,
-.curriculo-portfolio {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-body.portfolio-active .fixed-portfolio,
-body.portfolio-active .side-portfolio,
-body.portfolio-active .curriculo-portfolio {
-  visibility: visible;
-  opacity: 1;
-  pointer-events: auto;
-}
