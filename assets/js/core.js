@@ -150,68 +150,100 @@ function initUpdateDate() {
     lastUpdateElements.forEach(el => el.textContent = `Última atualização em: ${dataAtualizacao}`);
 }
 
-// ==================== Módulo Theme ====================
-function initTheme() {
-    // Seleciona os dois toggles pelo novo ID
-    const themeToggles = [
-        document.getElementById("theme-toggle-home"),
-        document.getElementById("theme-toggle-portfolio")
-    ].filter(Boolean); // remove nulls se algum não existir
-
-    if (themeToggles.length === 0) return;
+// ==================== Módulo Theme Home ====================
+function initThemeHome() {
+    const themeToggle = document.getElementById("theme-toggle-home");
+    if (!themeToggle) return;
 
     // Aplica tema salvo
     const savedTheme = localStorage.getItem("theme") || "light";
     document.documentElement.setAttribute("data-theme", savedTheme);
+    updateIcon(savedTheme);
+    updateThemeTooltip(savedTheme);
 
-    // Atualiza ícones e tooltips iniciais
-    themeToggles.forEach(toggle => {
-        const iconId = toggle.id === "theme-toggle-home" ? "theme-icon-home" : "theme-icon-portfolio";
-        const icon = document.getElementById(iconId);
+    themeToggle.classList.add("loaded");
 
-        if (icon) {
-            if (savedTheme === "dark") {
-                icon.classList.remove("fa-moon");
-                icon.classList.add("fa-sun");
-            } else {
-                icon.classList.remove("fa-sun");
-                icon.classList.add("fa-moon");
-            }
-        }
+    themeToggle.addEventListener("click", () => {
+        const currentTheme =
+            document.documentElement.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
 
-        toggle.setAttribute("aria-label", savedTheme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro");
-        toggle.setAttribute("title", savedTheme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro");
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
 
-        toggle.classList.add("loaded");
-
-        // Clique
-        toggle.addEventListener("click", () => {
-            const currentTheme = document.documentElement.getAttribute("data-theme");
-            const newTheme = currentTheme === "dark" ? "light" : "dark";
-
-            document.documentElement.setAttribute("data-theme", newTheme);
-            localStorage.setItem("theme", newTheme);
-
-            // Atualiza todos os ícones e tooltips
-            themeToggles.forEach(t => {
-                const iconIdInner = t.id === "theme-toggle-home" ? "theme-icon-home" : "theme-icon-portfolio";
-                const ic = document.getElementById(iconIdInner);
-
-                if (ic) {
-                    if (newTheme === "dark") {
-                        ic.classList.remove("fa-moon");
-                        ic.classList.add("fa-sun");
-                    } else {
-                        ic.classList.remove("fa-sun");
-                        ic.classList.add("fa-moon");
-                    }
-                }
-
-                t.setAttribute("aria-label", newTheme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro");
-                t.setAttribute("title", newTheme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro");
-            });
-        });
+        updateIcon(newTheme);
+        updateThemeTooltip(newTheme);
     });
+
+    function updateIcon(theme) {
+        const icon = document.getElementById("theme-icon");
+        if (!icon) return;
+
+        if (theme === "dark") {
+            icon.classList.remove("fa-moon");
+            icon.classList.add("fa-sun");
+        } else {
+            icon.classList.remove("fa-sun");
+            icon.classList.add("fa-moon");
+        }
+    }
+
+    function updateThemeTooltip(theme) {
+        themeToggle.setAttribute(
+            "aria-label",
+            theme === "dark"
+                ? "Ativar Modo Claro"
+                : "Ativar Modo Escuro"
+        );
+    }
+}
+
+// ==================== Módulo Theme Portfolio ====================
+function initThemePortfolio() {
+    const themeToggle = document.getElementById("theme-toggle-portfolio");
+    if (!themeToggle) return;
+
+    // Aplica tema salvo
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    updateIcon(savedTheme);
+    updateThemeTooltip(savedTheme);
+
+    themeToggle.classList.add("loaded");
+
+    themeToggle.addEventListener("click", () => {
+        const currentTheme =
+            document.documentElement.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+
+        updateIcon(newTheme);
+        updateThemeTooltip(newTheme);
+    });
+
+    function updateIcon(theme) {
+        const icon = document.getElementById("theme-icon");
+        if (!icon) return;
+
+        if (theme === "dark") {
+            icon.classList.remove("fa-moon");
+            icon.classList.add("fa-sun");
+        } else {
+            icon.classList.remove("fa-sun");
+            icon.classList.add("fa-moon");
+        }
+    }
+
+    function updateThemeTooltip(theme) {
+        themeToggle.setAttribute(
+            "aria-label",
+            theme === "dark"
+                ? "Ativar Modo Claro"
+                : "Ativar Modo Escuro"
+        );
+    }
 }
 
 // ==================== Disclosure Sections (controle manual) ====================
@@ -265,6 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initBlockRightClick();
     initCertificados();
     initUpdateDate();
-    initTheme();
+    initThemeHome();
+    initThemePortfolio();
     initSyncDisclosureAccordion();
 });
