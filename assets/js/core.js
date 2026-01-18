@@ -184,11 +184,11 @@ function initTheme() {
         if (!themeIcon) return;
 
         if (theme === "dark") {
-            icon.classList.remove("fa-moon");
-            icon.classList.add("fa-sun");
+            themeIcon.classList.remove("fa-moon");
+            themeIcon.classList.add("fa-sun");
         } else {
-            icon.classList.remove("fa-sun");
-            icon.classList.add("fa-moon");
+            themeIcon.classList.remove("fa-sun");
+            themeIcon.classList.add("fa-moon");
         }
     }
 
