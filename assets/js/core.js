@@ -150,11 +150,9 @@ function initUpdateDate() {
     lastUpdateElements.forEach(el => el.textContent = `Última atualização em: ${dataAtualizacao}`);
 }
 
-// ==================== Módulo Theme Home ====================
+// ==================== Módulo Theme ====================
 function initTheme() {
-    const themeToggle =
-        document.getElementById("theme-toggle-home") ||
-        document.getElementById("theme-toggle-portfolio");
+    const themeToggle = document.getElementById("theme-toggle-home");
     if (!themeToggle) return;
 
     // Aplica tema salvo
@@ -178,17 +176,15 @@ function initTheme() {
     });
 
     function updateIcon(theme) {
-        const themeIcon =
-            document.getElementById("theme-icon-home") ||
-            document.getElementById("theme-icon-portfolio");
-        if (!themeIcon) return;
+        const icon = document.getElementById("theme-icon-home");
+        if (!icon) return;
 
         if (theme === "dark") {
-            themeIcon.classList.remove("fa-moon");
-            themeIcon.classList.add("fa-sun");
+            icon.classList.remove("fa-moon");
+            icon.classList.add("fa-sun");
         } else {
-            themeIcon.classList.remove("fa-sun");
-            themeIcon.classList.add("fa-moon");
+            icon.classList.remove("fa-sun");
+            icon.classList.add("fa-moon");
         }
     }
 
