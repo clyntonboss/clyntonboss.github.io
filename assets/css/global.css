@@ -1660,49 +1660,23 @@ body.static-header .last-update {
   }
 }
 
-/* ===============================
-   HEADER – ESTADOS DE TRANSIÇÃO
+/* ================================
+   Estado persistente – Portfólio
+   (não remover do DOM)
 ================================ */
 
-.header-state {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  position: absolute;
+.fixed-portfolio,
+.side-portfolio,
+.curriculo-portfolio {
+  visibility: hidden;
   opacity: 0;
-  transform: translateX(64px);
-
-  transition:
-    opacity 0.4s ease,
-    transform 0.4s ease;
-
   pointer-events: none;
 }
 
-.header-state.is-active {
+body.portfolio-active .fixed-portfolio,
+body.portfolio-active .side-portfolio,
+body.portfolio-active .curriculo-portfolio {
+  visibility: visible;
   opacity: 1;
-  transform: translateX(0);
   pointer-events: auto;
-}
-
-/* Saída para a direita */
-.header-state.exit-right {
-  opacity: 0;
-  transform: translateX(64px);
-}
-
-/* Entrada da esquerda */
-.header-state.enter-left {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-body.ui-exit .home-header {
-  transform: translateX(100%);
-  opacity: 0;
-}
-
-body[data-ui-state="portfolio"] .portfolio-header {
-  opacity: 1;
 }
