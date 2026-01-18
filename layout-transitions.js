@@ -93,5 +93,10 @@ document.addEventListener("click", e => {
     trocarFixedHeaderParaPortfolio();
     trocarIntroParaSideMenu();
     trocarTextoHomeParaPortfolio();
+    ativarPortfolio();
   }
 });
+
+function ativarPortfolio() {
+  document.body.classList.add("portfolio-active");
+}
