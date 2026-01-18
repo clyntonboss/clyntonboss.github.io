@@ -11,6 +11,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const header = document.getElementById("portfolio-header");
 
   const animatedElements = [iconEl, titleEl, contentEl];
+  
+  const container = document.getElementById("conteudo-principal");
+  if (!container) {
+    console.warn("O container #conteudo-principal não foi encontrado!");
+  } else {
+    // carregamento inicial da Home
+    trocarConteudo("home"); // ou "portifolio" se quiser iniciar com o Portfólio
+  }
 
 function animateTransition(updateCallback) {
   const titleGroup = document.getElementById("portfolio-title-group");
