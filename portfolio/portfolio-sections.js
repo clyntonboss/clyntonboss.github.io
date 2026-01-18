@@ -1606,13 +1606,13 @@ const sections = {
     `
   },
 
-// 🔹 ============== Trajetória ============== 🔹
+// 🔹 ============================================== Trajetória ============================================== 🔹
 
   trajetoria: {
     pageTitle: "Trajetória | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/professionals-experiences-icon.png",
+    favicon: "/assets/icons/icone-trajetoria.png",
     title: "Trajetória",
-    icon: "/assets/icons/professionals-experiences-icon.png",
+    icon: "/assets/icons/icone-trajetoria.png",
     showViewModes: false,
     content: `
       <p>
