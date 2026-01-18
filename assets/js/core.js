@@ -151,8 +151,10 @@ function initUpdateDate() {
 }
 
 // ==================== Módulo Theme Home ====================
-function initThemeHome() {
-    const themeToggle = document.getElementById("theme-toggle-home");
+function initTheme() {
+    const themeToggle =
+        document.getElementById("theme-toggle-home") ||
+        document.getElementById("theme-toggle-portfolio");
     if (!themeToggle) return;
 
     // Aplica tema salvo
@@ -176,7 +178,9 @@ function initThemeHome() {
     });
 
     function updateIcon(theme) {
-        const icon = document.getElementById("theme-icon-home");
+        const themeIcon =
+            document.getElementById("theme-icon-home") ||
+            document.getElementById("theme-icon-portfolio");
         if (!icon) return;
 
         if (theme === "dark") {
@@ -249,6 +253,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initBlockRightClick();
     initCertificados();
     initUpdateDate();
-    initThemeHome();
+    initTheme();
     initSyncDisclosureAccordion();
 });
