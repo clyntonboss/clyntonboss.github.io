@@ -176,7 +176,7 @@ function initThemeHome() {
     });
 
     function updateIcon(theme) {
-        const icon = document.getElementById("theme-icon");
+        const icon = document.getElementById("theme-icon-home");
         if (!icon) return;
 
         if (theme === "dark") {
@@ -198,7 +198,7 @@ function initThemeHome() {
     }
 }
 
-// ==================== Módulo Theme Portfolio ====================
+// ==================== Módulo Theme Home ====================
 function initThemePortfolio() {
     const themeToggle = document.getElementById("theme-toggle-portfolio");
     if (!themeToggle) return;
@@ -224,7 +224,7 @@ function initThemePortfolio() {
     });
 
     function updateIcon(theme) {
-        const icon = document.getElementById("theme-icon");
+        const icon = document.getElementById("theme-icon-portfolio");
         if (!icon) return;
 
         if (theme === "dark") {
