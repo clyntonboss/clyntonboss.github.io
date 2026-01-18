@@ -1491,13 +1491,13 @@ const sections = {
     `
   },
 
-// 🔹 ===== Competências Comportamentais ===== 🔹
+// 🔹 ===================================== Competências Comportamentais ===================================== 🔹
 
   competenciasComportamentais: {
     pageTitle: "Competências Comportamentais | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/soft-skills-icon.png",
+    favicon: "/assets/icons/icone-competencias-comportamentais.png",
     title: "Competências Comportamentais",
-    icon: "/assets/icons/soft-skills-icon.png",
+    icon: "/assets/icons/icone-competencias-comportamentais.png",
     showViewModes: false,
     content: `
       <div class="tech-subtitle">As competências comportamentais abaixo estão organizadas por domínio.<br>
