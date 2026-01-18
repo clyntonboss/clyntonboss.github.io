@@ -150,9 +150,9 @@ function initUpdateDate() {
     lastUpdateElements.forEach(el => el.textContent = `Última atualização em: ${dataAtualizacao}`);
 }
 
-// ==================== Módulo Theme ====================
-function initTheme() {
-    const themeToggle = document.getElementById("theme-toggle");
+// ==================== Módulo Theme Home ====================
+function initThemeHome() {
+    const themeToggle = document.getElementById("theme-toggle-home");
     if (!themeToggle) return;
 
     // Aplica tema salvo
@@ -176,7 +176,7 @@ function initTheme() {
     });
 
     function updateIcon(theme) {
-        const icon = document.getElementById("theme-icon");
+        const icon = document.getElementById("theme-icon-home");
         if (!icon) return;
 
         if (theme === "dark") {
