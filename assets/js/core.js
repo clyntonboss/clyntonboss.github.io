@@ -144,6 +144,13 @@ function initCertificados() {
 }
 
 // ==================== Módulo Update Date ====================
+function initUpdateDate() {
+    const lastUpdateElements = document.querySelectorAll('.last-update');
+    const dataAtualizacao = "09 de janeiro de 2026"; // Definir data aqui
+    lastUpdateElements.forEach(el => el.textContent = `Última atualização em: ${dataAtualizacao}`);
+}
+
+// ==================== Módulo Theme ====================
 function initTheme() {
   // Procura todos os toggles e ícones
   const toggles = document.querySelectorAll("[id^='theme-toggle']");
