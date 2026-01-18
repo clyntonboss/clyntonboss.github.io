@@ -181,7 +181,7 @@ function initTheme() {
         const themeIcon =
             document.getElementById("theme-icon-home") ||
             document.getElementById("theme-icon-portfolio");
-        if (!icon) return;
+        if (!themeIcon) return;
 
         if (theme === "dark") {
             icon.classList.remove("fa-moon");
