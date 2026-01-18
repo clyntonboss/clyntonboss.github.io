@@ -152,58 +152,66 @@ function initUpdateDate() {
 
 // ==================== Módulo Theme ====================
 function initTheme() {
-  // Todos os toggles e ícones
-  const toggles = document.querySelectorAll("[id^='theme-toggle']");
-  const icons = document.querySelectorAll("[id^='theme-icon']");
+    // Seleciona os dois toggles pelo novo ID
+    const themeToggles = [
+        document.getElementById("theme-toggle-home"),
+        document.getElementById("theme-toggle-portfolio")
+    ].filter(Boolean); // remove nulls se algum não existir
 
-  // Aplica tema salvo
-  const savedTheme = localStorage.getItem("theme") || "light";
-  document.documentElement.setAttribute("data-theme", savedTheme);
+    if (themeToggles.length === 0) return;
 
-  // Atualiza todos os ícones e tooltips
-  updateIcons(savedTheme);
-  toggles.forEach(toggle => updateThemeTooltip(toggle, savedTheme));
+    // Aplica tema salvo
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", savedTheme);
 
-  toggles.forEach(toggle => {
-    toggle.classList.add("loaded");
+    // Atualiza ícones e tooltips iniciais
+    themeToggles.forEach(toggle => {
+        const iconId = toggle.id === "theme-toggle-home" ? "theme-icon-home" : "theme-icon-portfolio";
+        const icon = document.getElementById(iconId);
 
-    toggle.addEventListener("click", () => {
-      const currentTheme = document.documentElement.getAttribute("data-theme");
-      const newTheme = currentTheme === "dark" ? "light" : "dark";
+        if (icon) {
+            if (savedTheme === "dark") {
+                icon.classList.remove("fa-moon");
+                icon.classList.add("fa-sun");
+            } else {
+                icon.classList.remove("fa-sun");
+                icon.classList.add("fa-moon");
+            }
+        }
 
-      document.documentElement.setAttribute("data-theme", newTheme);
-      localStorage.setItem("theme", newTheme);
+        toggle.setAttribute("aria-label", savedTheme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro");
+        toggle.setAttribute("title", savedTheme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro");
 
-      // Atualiza todos os ícones mantendo classes originais
-      updateIcons(newTheme);
+        toggle.classList.add("loaded");
 
-      // Atualiza tooltip em cada toggle
-      toggles.forEach(t => updateThemeTooltip(t, newTheme));
+        // Clique
+        toggle.addEventListener("click", () => {
+            const currentTheme = document.documentElement.getAttribute("data-theme");
+            const newTheme = currentTheme === "dark" ? "light" : "dark";
+
+            document.documentElement.setAttribute("data-theme", newTheme);
+            localStorage.setItem("theme", newTheme);
+
+            // Atualiza todos os ícones e tooltips
+            themeToggles.forEach(t => {
+                const iconIdInner = t.id === "theme-toggle-home" ? "theme-icon-home" : "theme-icon-portfolio";
+                const ic = document.getElementById(iconIdInner);
+
+                if (ic) {
+                    if (newTheme === "dark") {
+                        ic.classList.remove("fa-moon");
+                        ic.classList.add("fa-sun");
+                    } else {
+                        ic.classList.remove("fa-sun");
+                        ic.classList.add("fa-moon");
+                    }
+                }
+
+                t.setAttribute("aria-label", newTheme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro");
+                t.setAttribute("title", newTheme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro");
+            });
+        });
     });
-  });
-
-  function updateIcons(theme) {
-    icons.forEach(icon => {
-      // mantém todas as classes existentes, apenas troca a aparência
-      if (theme === "dark") {
-        icon.classList.add("fa-sun");
-        icon.classList.remove("fa-moon");
-      } else {
-        icon.classList.add("fa-moon");
-        icon.classList.remove("fa-sun");
-      }
-    });
-  }
-
-  function updateThemeTooltip(toggle, theme) {
-    const label = theme === "dark" ? "Ativar Modo Claro" : "Ativar Modo Escuro";
-
-    // mantém aria-label
-    toggle.setAttribute("aria-label", label);
-
-    // adiciona title para garantir tooltip visual
-    toggle.setAttribute("title", label);
-  }
 }
 
 // ==================== Disclosure Sections (controle manual) ====================
