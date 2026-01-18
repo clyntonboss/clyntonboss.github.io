@@ -1710,13 +1710,13 @@ const sections = {
     `
   },
 
-// 🔹 ====== Certificações e Credenciais ===== 🔹
+// 🔹 ====================================== Certificações e Credenciais ===================================== 🔹
 
   certificacoesCredenciais: {
     pageTitle: "Certificações e Credenciais | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/professionals-experiences-icon.png",
+    favicon: "/assets/icons/icone-certificacoes-e-credenciais.png",
     title: "Certificações e Credenciais",
-    icon: "/assets/icons/professionals-experiences-icon.png",
+    icon: "/assets/icons/icone-certificacoes-e-credenciais.png",
     showViewModes: false,
     content: `
       <div class="tech-subtitle">Esta seção reúne certificações e credenciais obtidas ao longo da trajetória profissional, organizadas por categoria e data de conclusão.<br>
