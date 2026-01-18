@@ -1655,13 +1655,13 @@ const sections = {
     `
   },
 
-// 🔹 ======= Formações Complementares ======= 🔹
+// 🔹 ========================================= Formações Complementares ===================================== 🔹
 
   formacoesComplementares: {
     pageTitle: "Formações Complementares | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/courses-icon.png",
+    favicon: "/assets/icons/icone-formacoes-complementares.png",
     title: "Formações Complementares",
-    icon: "/assets/icons/courses-icon.png",
+    icon: "/assets/icons/icone-formacoes-complementares.png",
     showViewModes: false,
     content: `
       <div class="tech-subtitle">As formações complementares estão organizadas por área de conhecimento.<br>
