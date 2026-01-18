@@ -151,7 +151,7 @@ function initUpdateDate() {
 }
 
 // ==================== Módulo Theme Home ====================
-function initTheme() {
+function initThemeHome() {
     const themeToggle = document.getElementById("theme-toggle-home");
     if (!themeToggle) return;
 
@@ -199,7 +199,7 @@ function initTheme() {
 }
 
 // ==================== Módulo Theme Portfolio ====================
-function initTheme() {
+function initThemePortfolio() {
     const themeToggle = document.getElementById("theme-toggle-portfolio");
     if (!themeToggle) return;
 
