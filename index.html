@@ -9,32 +9,47 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Rogério Clynton Ribeiro</title>
-    <link id="page-favicon" rel="icon" href="../assets/icons/icone-portfolio.png" type="image/png">
-    <link rel="stylesheet" href="../assets/css/global.css">
+    <title>Rogério Clynton Ribeiro | Analista de Dados</title>
+    <link id="page-favicon" rel="icon" href="assets/icons/icone-dados.png" type="image/png">
+    <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="../assets/css/view-modes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="../assets/js/core.js" defer></script>
-    <script src="portfolio-sections.js" defer></script>
+    <script src="../portfolio/portfolio-sections.js" defer></script>
     <script src="../assets/js/portfolio-router.js" defer></script>
     <script src="../assets/js/cursos-render.js" defer></script>
-    <script src="/portfolio/formacoes-complementares/formacoes-complementares-categorias.js" defer></script>
+    <script src="../portfolio/formacoes-complementares/formacoes-complementares-categorias.js" defer></script>
+    <script src="layout-transitions.js" defer></script>
 </head>
 <body>
-    <!-- Cabeçalho fixo -->
-    <header class="header" id="portfolio-header">
-        <div class="header-left">
-            <img src="../assets/images/foto-rogerio.jpg" alt="Foto de Rogério Clynton Ribeiro" class="header-photo">
-            <div class="header-text">
-                <div class="header-name">
-                    <a href="/">Rogério Clynton Ribeiro</a>
-                </div>
-                <div class="last-update">Atualizando...</div>
-            </div>
+    <!-- Cabeçalho Rogério Clynton Ribeiro | Analista de Dados -->
+    <header class="header header-home is-visible">
+      <div class="header-left">
+        <div class="header-text">
+          <div class="header-name">Rogério Clynton Ribeiro</div>
+          <div class="last-update">Atualizando...</div>
         </div>
-        <button id="theme-toggle" aria-label="Ativar Modo Escuro">
-            <i id="theme-icon" class="fas"></i>
-        </button>
+      </div>
+      <button id="theme-toggle" aria-label="Alternar tema">
+        <i id="theme-icon" class="fas"></i>
+      </button>
+    </header>
+
+    <!-- Cabeçalho Portfólio | Rogério Clynton Ribeiro -->
+    <header class="header header-portfolio">
+      <div class="header-left">
+        <img src="../assets/images/foto-rogerio.jpg" alt="Foto de Rogério Clynton Ribeiro" class="header-photo">
+        <div class="header-text">
+          <div class="header-name">
+            <a href="/">Rogério Clynton Ribeiro</a>
+          </div>
+          <div class="last-update">Atualizando...</div>
+        </div>
+      </div>
+      <button id="theme-toggle" aria-label="Ativar Modo Escuro">
+        <i id="theme-icon" class="fas"></i>
+      </button>
     </header>
 
     <!-- Conteúdo principal -->
@@ -73,8 +88,21 @@
     
             <!-- Container ajustado para o currículo -->
             <div class="curriculo-container fade-item">
-                <!-- Menu lateral -->
-                <div class="side-menu fade-item">
+                <!-- Lateral Rogério Clynton Ribeiro | Analista de Dados -->
+                <div class="intro-photo intro-home is-visible">
+                    <img src="assets/images/foto-rogerio.jpg" alt="Foto de Rogério Clynton Ribeiro">
+                    <a href="../portfolio/projetos/" class="btn-projetos fade-item">Projetos</a>
+                    <a href="#" class="btn-projetos fade-item" data-action="open-portfolio">Portfólio</a>
+                    <a href="../portfolio/" class="btn-projetos fade-item">Currículo</a>
+                    <p class="signature-phrase fade-item">
+                        Ao passo que me aproximo da perfeição,<br>
+                        me distancio da pressa.<br>
+                        ⸺ Clynton & Lorena
+                    </p>
+                </div>
+
+                <!-- Lateral Portfólio | Rogério Clynton Ribeiro -->
+                <div class="side-menu side-portfolio">
                   <ul>
                     <li><a href="#" data-section="perfil">Perfil</a></li>
                     <li><a href="#" data-section="proposito">Propósito</a></li>
@@ -102,29 +130,30 @@
                 <!-- Texto introdutório -->
                 <div id="section-content" class="curriculo-text view-transition">
                     <p>
-                        Minha trajetória é guiada por uma curiosidade que nunca adormeceu e por um desejo constante de compreender o mundo através dos dados. Ao longo dos últimos anos, mergulhei
-                        em um processo de <strong>expansão intelectual</strong> e <strong>especialização intensa</strong>, estudando diariamente, explorando novas linguagens, tecnologias, metodologias
-                        e abordagens analíticas. Esse caminho — construído com disciplina autodidata e uma busca incansável por profundidade técnica — moldou não apenas minhas habilidades, mas também
-                        minha visão sobre como a informação se transforma em valor.
+                        Analista de Dados movido pela curiosidade, pela precisão técnica e pelo compromisso de transformar informações complexas em decisões inteligentes e estratégicas.
+                        Com sólida experiência em <strong>Python™, R, SQL e Power BI</strong>, atuo na criação de soluções analíticas que conectam indicadores à visão de negócio, permitindo
+                        identificar padrões, antecipar cenários e orientar ações com clareza e segurança.
                     </p>
+                    
                     <p>
-                        Atuo com uma perspectiva ampla e integrada, combinando <strong>Python™, R, SQL, Power BI, modelagem de dados, análise estatística, metodologias Lean Six Sigma, automação,
-                        governança e qualidade de dados</strong>. Minha experiência se estende desde a construção de pipelines analíticos e processos de ETL até o desenvolvimento de dashboards interativos
-                        e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
+                        Minha abordagem integra <strong>processos de ETL, modelagem estruturada, visualização interativa e análise preditiva</strong>, garantindo que cada insight seja não apenas
+                        preciso, mas aplicável e relevante para o contexto da organização. Acredito que todo conjunto de dados carrega uma narrativa valiosa — e meu papel é revelá-la com rigor
+                        analítico e comunicação clara, traduzindo complexidade em entendimento estratégico.
                     </p>
+                    
                     <p>
-                        Acredito que cada dataset carrega uma narrativa própria — uma história que precisa ser revelada com precisão técnica, sensibilidade analítica e visão crítica. Para mim, analisar
-                        dados é muito mais que executar consultas, gerar gráficos ou aplicar modelos. É compreender o contexto, questionar o óbvio, enxergar conexões, antecipar cenários e transformar
-                        complexidade em clareza. Meu trabalho é encontrar significado onde muitos enxergam apenas números.
+                        Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos e construção de painéis
+                        executivos</strong>. Em cada entrega, priorizo métricas confiáveis, rastreabilidade dos resultados e impacto tangível, sempre alinhando tecnologia, método e propósito.
                     </p>
-                    <p> 
-                        Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong>Power BI, Python, SQL, MySQL, MongoDB, Estatística, Visualização de Dados, Data
-                        Storytelling, Data Quality, Modelagem, Processos, LGPD e Cibersegurança</strong>. Essa evolução constante me permitiu unir técnica, estratégia e maturidade intelectual em um
-                        estilo de trabalho analítico que equilibra rigor, criatividade, lógica e intuição.
-                    </p>
+                    
                     <p>
-                        Este portfólio reúne minha caminhada, meus aprendizados e minha visão: a de que dados são mais do que insumos. São instrumentos de decisão, transformação e impacto. Aqui você
-                        encontrará não apenas projetos, mas uma construção consciente de experiência — fruto de disciplina, foco, curiosidade e um compromisso permanente com a excelência. 
+                        Estou em constante evolução, explorando novas ferramentas e metodologias para unir <strong>inovação, governança de dados e excelência operacional</strong>. Acredito no
+                        poder da melhoria contínua e na importância de decisões orientadas por evidências para construir organizações mais eficientes, sustentáveis e inteligentes.
+                    </p>
+                    
+                    <p>
+                        Meu compromisso é claro: transformar dados em valor estratégico, alinhando conhecimento técnico, visão analítica e sensibilidade de negócio para apoiar decisões robustas
+                        e impulsionar resultados consistentes.
                     </p>
                 </div>
             </div>
