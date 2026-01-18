@@ -90,13 +90,6 @@ document.addEventListener("click", e => {
 
   if (trigger.dataset.action === "open-portfolio") {
     trocarHeaderParaPortfolio();
-    trocarFixedHeaderParaPortfolio();
     trocarIntroParaSideMenu();
-    trocarTextoHomeParaPortfolio();
-    ativarPortfolio();
   }
 });
-
-function ativarPortfolio() {
-  document.body.classList.add("portfolio-active");
-}
