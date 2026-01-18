@@ -1,5 +1,42 @@
 const sections = {
 
+// 🔹 =============================================== Portfólio ============================================== 🔹
+
+  portfolio: {
+    pageTitle: "Portfólio | Rogério Clynton Ribeiro",
+    favicon: "/assets/icons/icone-portfolio.png",
+    title: "Portfólio",
+    icon: "/assets/icons/icone-portfolio.png",
+    showViewModes: false,
+    content: `
+      <p>
+          Minha trajetória é guiada por uma curiosidade que nunca adormeceu e por um desejo constante de compreender o mundo através dos dados. Ao longo dos últimos anos, mergulhei
+          em um processo de <strong>expansão intelectual</strong> e <strong>especialização intensa</strong>, estudando diariamente, explorando novas linguagens, tecnologias, metodologias
+          e abordagens analíticas. Esse caminho — construído com disciplina autodidata e uma busca incansável por profundidade técnica — moldou não apenas minhas habilidades, mas também
+          minha visão sobre como a informação se transforma em valor.
+      </p>
+      <p>
+          Atuo com uma perspectiva ampla e integrada, combinando <strong>Python™, R, SQL, Power BI, modelagem de dados, análise estatística, metodologias Lean Six Sigma, automação,
+          governança e qualidade de dados</strong>. Minha experiência se estende desde a construção de pipelines analíticos e processos de ETL até o desenvolvimento de dashboards interativos
+          e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
+      </p>
+      <p>
+          Acredito que cada dataset carrega uma narrativa própria — uma história que precisa ser revelada com precisão técnica, sensibilidade analítica e visão crítica. Para mim, analisar
+          dados é muito mais que executar consultas, gerar gráficos ou aplicar modelos. É compreender o contexto, questionar o óbvio, enxergar conexões, antecipar cenários e transformar
+          complexidade em clareza. Meu trabalho é encontrar significado onde muitos enxergam apenas números.
+      </p>
+      <p> 
+          Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong>Power BI, Python, SQL, MySQL, MongoDB, Estatística, Visualização de Dados, Data
+          Storytelling, Data Quality, Modelagem, Processos, LGPD e Cibersegurança</strong>. Essa evolução constante me permitiu unir técnica, estratégia e maturidade intelectual em um
+          estilo de trabalho analítico que equilibra rigor, criatividade, lógica e intuição.
+      </p>
+      <p>
+          Este portfólio reúne minha caminhada, meus aprendizados e minha visão: a de que dados são mais do que insumos. São instrumentos de decisão, transformação e impacto. Aqui você
+          encontrará não apenas projetos, mas uma construção consciente de experiência — fruto de disciplina, foco, curiosidade e um compromisso permanente com a excelência. 
+      </p>
+    `
+  },
+
 // 🔹 ================================================ Perfil ================================================ 🔹
 
   perfil: {
