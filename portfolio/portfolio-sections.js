@@ -2426,13 +2426,13 @@ const sections = {
     `
   },
 
-// 🔹 ======== Produções Intelectuais ======== 🔹
+// 🔹 ======================================== Produções Intelectuais ======================================== 🔹
 
   producoesIntelectuais: {
     pageTitle: "Produções Intelectuais | Rogério Clynton Ribeiro",
-    favicon: "/assets/icons/publications-icon.png",
+    favicon: "/assets/icons/icone-producoes-intelectuais.png",
     title: "Produções Intelectuais",
-    icon: "/assets/icons/publications-icon.png",
+    icon: "/assets/icons/icone-producoes-intelectuais.png",
     showViewModes: false,
     content: `
       <div class="tech-subtitle">Produções acadêmicas apresentadas em eventos científicos, com foco em educação, tecnologia e inclusão digital.</div>
