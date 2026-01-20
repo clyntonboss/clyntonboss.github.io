@@ -129,7 +129,7 @@ function trocarSideMenuParaIntro() {
     sideMenu.style.display = "none";
 
     // ENTRADA — Intro
-    intro.style.display = "block";
+    intro.style.display = "";
     intro.offsetHeight;
 
     intro.classList.add("is-visible", "enter");
