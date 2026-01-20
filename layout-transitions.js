@@ -147,3 +147,34 @@ document.addEventListener("click", e => {
     trocarSideMenuParaIntro();
   }
 });
+
+function iniciarHome() {
+  const homeHeader = document.querySelector(".header-home");
+  const portfolioHeader = document.querySelector(".header-portfolio");
+  const intro = document.querySelector(".intro-home");
+  const sideMenu = document.querySelector(".side-portfolio");
+
+  if (homeHeader) {
+    homeHeader.style.display = "flex";
+    homeHeader.classList.add("is-visible");
+  }
+
+  if (portfolioHeader) {
+    portfolioHeader.style.display = "none";
+    portfolioHeader.classList.remove("is-visible", "header-enter");
+  }
+
+  if (intro) {
+    intro.style.display = "block";
+    intro.classList.add("is-visible");
+  }
+
+  if (sideMenu) {
+    sideMenu.style.display = "none";
+    sideMenu.classList.remove("is-visible", "enter");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  iniciarHome();
+});
