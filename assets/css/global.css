@@ -1747,16 +1747,3 @@ body.static-header .last-update {
     transform: translateX(0);
   }
 }
-
-/* Saída Portfólio */
-.header-portfolio.header-exit .header-photo,
-.header-portfolio.header-exit .header-name,
-.header-portfolio.header-exit .last-update {
-  animation: header-exit-right 0.4s ease forwards;
-}
-
-/* Entrada Home */
-.header-home.header-enter .header-name,
-.header-home.header-enter .last-update {
-  animation: header-enter-left 0.4s ease forwards;
-}
