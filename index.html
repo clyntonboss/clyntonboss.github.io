@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <script>
+    (function() {
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogério Clynton Ribeiro | Analista de Dados</title>
+    <link id="page-favicon" rel="icon" href="assets/icons/icone-dados.png" type="image/png">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/view-modes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="../assets/js/core.js" defer></script>
+    <script src="../portfolio/portfolio-sections.js" defer></script>
+    <script src="../assets/js/portfolio-router.js" defer></script>
+    <script src="../assets/js/cursos-render.js" defer></script>
+    <script src="../portfolio/formacoes-complementares/formacoes-complementares-categorias.js" defer></script>
+    <script src="layout-transitions.js" defer></script>
+</head>
+<body>
+    <!-- Cabeçalho Rogério Clynton Ribeiro | Analista de Dados -->
+    <header class="header header-home is-visible">
+      <div class="header-left">
+        <div class="header-text">
+          <div class="header-name">Rogério Clynton Ribeiro</div>
+          <div class="last-update">Atualizando...</div>
+        </div>
+      </div>
+      <button id="theme-toggle-home" aria-label="Alternar tema">
+        <i id="theme-icon-home" class="fas"></i>
+      </button>
+    </header>
+
+    <!-- Cabeçalho Portfólio | Rogério Clynton Ribeiro -->
+    <header class="header header-portfolio">
+      <div class="header-left">
+        <img src="../assets/images/foto-rogerio.jpg" alt="Foto de Rogério Clynton Ribeiro" class="header-photo">
+        <div class="header-text">
+          <div class="header-name">
+            <a href="#" data-action="open-home">Rogério Clynton Ribeiro</a>
+          </div>
+          <div class="last-update">Atualizando...</div>
+        </div>
+      </div>
+      <button id="theme-toggle-portfolio" aria-label="Ativar Modo Escuro">
+        <i id="theme-icon-portfolio" class="fas"></i>
+      </button>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <div class="container">
+        <!-- Seção Currículo -->
+        <section id="curriculo" class="main-section">
+            <div class="fixed-header-section fade-item">
+                <div class="fixed-header-container">
+
+                    <div class="header-with-controls">
+
+                        <h1 id="portfolio-title-group">
+                            <img id="section-icon" class="title-icon portfolio-icon" src="../assets/icons/icone-dados.png" alt="Ícone Portfólio">
+                            <span id="section-title" class="title-wrapper portfolio-subtitle">
+                              <span class="title-base">Transformando dados em decisões estratégicas.</span>
+                              <span class="title-category hidden">
+                                <span class="pipe"> | </span>
+                                <span class="category-name"></span>
+                              </span>
+                            </span>
+                        </h1>
+
+                        <div id="view-mode-controls" class="view-mode-controls" aria-label="Modos de visualização">
+                            <button class="view-btn view-transition" data-view="block" aria-label="Ativar Visualização em Bloco" onclick="trocarModo('block')">▣</button>
+                            <button class="view-btn view-transition" data-view="flow" aria-label="Ativar Visualização Fluida" onclick="trocarModo('flow')">☷</button>
+                            <button class="view-btn view-transition" data-view="list" aria-label="Ativar Visualização em Lista" onclick="trocarModo('list')">☰</button>
+                            <button class="view-btn view-transition" data-view="grid" aria-label="Ativar Visualização em Grade" onclick="trocarModo('grid')">⊞</button>
+                        </div>
+                    </div>
+                        
+                    <div class="decorative-line"></div>
+
+                </div>
+            </div>
+    
+            <!-- Container ajustado para o currículo -->
+            <div class="curriculo-container fade-item">
+                <!-- Lateral Rogério Clynton Ribeiro | Analista de Dados -->
+                <div class="intro-photo intro-home is-visible">
+                    <img src="assets/images/foto-rogerio.jpg" alt="Foto de Rogério Clynton Ribeiro">
+                    <a href="../portfolio/projetos/" class="btn-projetos fade-item">Projetos</a>
+                    <a href="#" class="btn-projetos fade-item" data-action="open-portfolio" data-section="portfolio">Portfólio</a>
+                    <a href="../portfolio/" class="btn-projetos fade-item">Currículo</a>
+                    <p class="signature-phrase fade-item">
+                        Ao passo que me aproximo da perfeição,<br>
+                        me distancio da pressa.<br>
+                        ⸺ Clynton & Lorena
+                    </p>
+                </div>
+
+                <!-- Lateral Portfólio | Rogério Clynton Ribeiro -->
+                <div class="side-menu side-portfolio">
+                  <ul>
+                    <li><a href="#" data-section="perfil">Perfil</a></li>
+                    <li><a href="#" data-section="proposito">Propósito</a></li>
+                      <li class="menu-divider-item">
+                        <div class="decorative-line-menu"></div>
+                      </li>
+                    <li><a href="#" data-section="formacaoAcademica">Formação Acadêmica</a></li>
+                    <li><a href="#" data-section="competenciasTecnicas">Competências Técnicas</a></li>
+                    <li><a href="#" data-section="competenciasComportamentais">Competências Comportamentais</a></li>
+                      <li class="menu-divider-item">
+                        <div class="decorative-line-menu"></div>
+                      </li>
+                    <li><a href="#" data-section="trajetoria">Trajetória</a></li>
+                    <li><a href="#" data-section="formacoesComplementares">Formações Complementares</a></li>
+                    <li><a href="#" data-section="certificacoesCredenciais">Certificações e Credenciais</a></li>
+                      <li class="menu-divider-item">
+                        <div class="decorative-line-menu"></div>
+                      </li>
+                    <li><a href="#" data-section="projetos50">Projetos 5.0</a></li>
+                    <li><a href="#" data-section="impactosResultados">Impactos e Resultados</a></li>
+                    <li><a href="#" data-section="producoesIntelectuais">Produções Intelectuais</a></li>
+                  </ul>
+                </div>
+            
+                <!-- Texto introdutório -->
+                <div id="section-content" class="curriculo-text view-transition">
+                    <p>
+                        Analista de Dados movido pela curiosidade, pela precisão técnica e pelo compromisso de transformar informações complexas em decisões inteligentes e estratégicas.
+                        Com sólida experiência em <strong>Python™, R, SQL e Power BI</strong>, atuo na criação de soluções analíticas que conectam indicadores à visão de negócio, permitindo
+                        identificar padrões, antecipar cenários e orientar ações com clareza e segurança.
+                    </p>
+                    
+                    <p>
+                        Minha abordagem integra <strong>processos de ETL, modelagem estruturada, visualização interativa e análise preditiva</strong>, garantindo que cada insight seja não apenas
+                        preciso, mas aplicável e relevante para o contexto da organização. Acredito que todo conjunto de dados carrega uma narrativa valiosa — e meu papel é revelá-la com rigor
+                        analítico e comunicação clara, traduzindo complexidade em entendimento estratégico.
+                    </p>
+                    
+                    <p>
+                        Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos e construção de painéis
+                        executivos</strong>. Em cada entrega, priorizo métricas confiáveis, rastreabilidade dos resultados e impacto tangível, sempre alinhando tecnologia, método e propósito.
+                    </p>
+                    
+                    <p>
+                        Estou em constante evolução, explorando novas ferramentas e metodologias para unir <strong>inovação, governança de dados e excelência operacional</strong>. Acredito no
+                        poder da melhoria contínua e na importância de decisões orientadas por evidências para construir organizações mais eficientes, sustentáveis e inteligentes.
+                    </p>
+                    
+                    <p>
+                        Meu compromisso é claro: transformar dados em valor estratégico, alinhando conhecimento técnico, visão analítica e sensibilidade de negócio para apoiar decisões robustas
+                        e impulsionar resultados consistentes.
+                    </p>
+                </div>
+            </div>
+        </section>
+      </div>
+    </main>
+    <!-- Rodapé fixo -->
+    <footer class="footer">
+        <div class="footer-left">
+          <p class="footer-main-text">® 2026 Phoenix Information Technology Solutions | Rogério Clynton Ribeiro</p>
+          <p class="privacy-note">Este site não utiliza cookies para coleta de dados pessoais.</p>
+        </div>
+        <a href="https://www.linkedin.com/in/rogério-clynton-ribeiro/" target="_blank">
+            <img src="../assets/icons/linkedin.svg" alt="LinkedIn" class="footer-icon"> LinkedIn
+        </a>
+        <a href="https://github.com/clyntonboss/" target="_blank">
+            <img src="../assets/icons/github.svg" alt="GitHub" class="footer-icon"> GitHub
+        </a>
+        <a href="mailto:clyntonribeiror@gmail.com">
+            <img src="../assets/icons/email.svg" alt="E-mail" class="footer-icon"> E-mail
+        </a>
+        <a href="https://wa.me/5524999240768" target="_blank">
+            <img src="../assets/icons/phone.svg" alt="Telefone" class="footer-icon"> Telefone
+        </a>
+    </footer>
+</body>
+</html>
