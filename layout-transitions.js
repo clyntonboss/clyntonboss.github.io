@@ -19,27 +19,6 @@ function trocarHeaderParaPortfolio() {
   }, 400);
 }
 
-function trocarFixedHeaderParaPortfolio() {
-  const home = document.querySelector(".fixed-home");
-  const portfolio = document.querySelector(".fixed-portfolio");
-
-  if (!home || !portfolio) return;
-
-  // SAÍDA — Home
-  home.classList.add("exit");
-
-  setTimeout(() => {
-    home.classList.remove("is-visible", "exit");
-    home.style.display = "none";
-
-    // ENTRADA — Portfólio
-    portfolio.style.display = "block";
-    portfolio.offsetHeight; // reflow
-
-    portfolio.classList.add("is-visible", "enter");
-  }, 400);
-}
-
 function trocarIntroParaSideMenu() {
   const intro = document.querySelector(".intro-home");
   const sideMenu = document.querySelector(".side-portfolio");
@@ -55,27 +34,6 @@ function trocarIntroParaSideMenu() {
     sideMenu.style.display = "block";
     sideMenu.offsetHeight;
     sideMenu.classList.add("is-visible", "enter");
-  }, 400);
-}
-
-function trocarTextoHomeParaPortfolio() {
-  const homeText = document.querySelector(".curriculo-home");
-  const portfolioText = document.querySelector(".curriculo-portfolio");
-
-  if (!homeText || !portfolioText) return;
-
-  // SAÍDA — Home
-  homeText.classList.add("exit");
-
-  setTimeout(() => {
-    homeText.classList.remove("is-visible", "exit");
-    homeText.style.display = "none";
-
-    // ENTRADA — Portfólio
-    portfolioText.style.display = "block";
-    portfolioText.offsetHeight; // reflow
-
-    portfolioText.classList.add("is-visible", "enter");
   }, 400);
 }
 
