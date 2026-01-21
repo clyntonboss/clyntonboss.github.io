@@ -1641,25 +1641,3 @@ body.static-header .last-update {
     transform: translateY(0);
   }
 }
-
-@keyframes header-exit-right {
-  from {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  to {
-    opacity: 0;
-    transform: translateX(64px);
-  }
-}
-
-@keyframes header-enter-left {
-  from {
-    opacity: 0;
-    transform: translateX(64px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
