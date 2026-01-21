@@ -1571,6 +1571,12 @@ body.static-header .last-update {
   transform: translateY(64px);
 }
 
+.intro-home > * {
+  opacity: 1;
+  transform: translateY(0);
+  animation: none;
+}
+
 /* Saída da Introdução */
 .intro-home.exit > * {
   animation: intro-exit-down 0.4s ease forwards;
