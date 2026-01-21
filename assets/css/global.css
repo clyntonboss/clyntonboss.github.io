@@ -1747,13 +1747,3 @@ body.static-header .last-update {
     transform: translateX(0);
   }
 }
-
-.intro-home > * {
-  opacity: 1;
-  transform: translateY(0);
-  animation: none;
-}
-
-.intro-home.enter-active > * {
-  animation: intro-enter-up 0.4s ease forwards;
-}
