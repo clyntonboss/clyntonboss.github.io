@@ -128,19 +128,20 @@ function trocarSideMenuParaIntro() {
     sideMenu.classList.remove("is-visible", "exit");
     sideMenu.style.display = "none";
 
-    // RESET total da intro
-    intro.classList.remove("exit", "enter", "enter-active");
-
-    intro.style.display = "";
-    intro.offsetHeight; // força reset do layout
-
-    // Estado inicial da entrada
-    intro.classList.add("enter");
-
-    // Próximo frame → anima
-    requestAnimationFrame(() => {
-      intro.classList.add("enter-active");
+    // 🔥 LIMPA O ESTADO FINAL DA ANIMAÇÃO DE SAÍDA
+    intro.querySelectorAll("*").forEach(el => {
+      el.style.animation = "none";
+      el.style.transform = "translateY(0)";
+      el.style.opacity = "1";
     });
+
+    // força reflow após limpeza
+    intro.offsetHeight;
+
+    // ENTRADA — Intro
+    intro.style.display = "block";
+    intro.classList.remove("exit");
+    intro.classList.add("is-visible", "enter");
 
   }, 500);
 }
