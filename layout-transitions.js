@@ -1,4 +1,8 @@
+console.log("JS carregado");
+
 function trocarHeaderParaPortfolio() {
+  console.log("trocarHeaderParaPortfolio");
+  
   const homeHeader = document.querySelector(".header-home");
   const portfolioHeader = document.querySelector(".header-portfolio");
 
@@ -20,6 +24,8 @@ function trocarHeaderParaPortfolio() {
 }
 
 function trocarIntroParaSideMenu() {
+  console.log("trocarIntroParaSideMenu");
+  
   const intro = document.querySelector(".intro-home");
   const sideMenu = document.querySelector(".side-portfolio");
 
@@ -38,6 +44,8 @@ function trocarIntroParaSideMenu() {
 }
 
 function trocarHeaderParaHome() {
+  console.log("trocarHeaderParaHome");
+  
   const homeHeader = document.querySelector(".header-home");
   const portfolioHeader = document.querySelector(".header-portfolio");
 
@@ -59,6 +67,8 @@ function trocarHeaderParaHome() {
 }
 
 function trocarSideMenuParaIntro() {
+  console.log("trocarSideMenuParaIntro");
+  
   const sideMenu = document.querySelector(".side-portfolio");
   const intro = document.querySelector(".intro-home");
 
@@ -91,6 +101,8 @@ function trocarSideMenuParaIntro() {
 document.addEventListener("click", e => {
   const trigger = e.target.closest("[data-action]");
   if (!trigger) return;
+
+  console.log("CLICK:", trigger.dataset.action);
 
   e.preventDefault();
 
