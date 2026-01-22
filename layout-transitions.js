@@ -45,7 +45,7 @@ function trocarIntroParaSideMenu() {
 
 function trocarHeaderParaHome() {
   console.log("trocarHeaderParaHome");
-  
+
   const homeHeader = document.querySelector(".header-home");
   const portfolioHeader = document.querySelector(".header-portfolio");
 
@@ -58,17 +58,23 @@ function trocarHeaderParaHome() {
     portfolioHeader.classList.remove("is-visible", "header-exit");
     portfolioHeader.style.display = "none";
 
+    // RESET VISUAL DO HEADER HOME (segurança)
+    homeHeader.querySelectorAll("*").forEach(el => {
+      el.style.animation = "";
+    });
+
     // ENTRADA — Home
     homeHeader.style.display = "flex";
     homeHeader.offsetHeight;
 
     homeHeader.classList.add("is-visible", "header-enter");
+
   }, 400);
 }
 
 function trocarSideMenuParaIntro() {
   console.log("trocarSideMenuParaIntro");
-  
+
   const sideMenu = document.querySelector(".side-portfolio");
   const intro = document.querySelector(".intro-home");
 
@@ -81,19 +87,31 @@ function trocarSideMenuParaIntro() {
     sideMenu.classList.remove("is-visible", "exit");
     sideMenu.style.display = "none";
 
-    // RESET LIMPO
-    intro.classList.remove("exit", "enter", "enter-active");
-
-    intro.style.display = "";
-    intro.offsetHeight; // frame neutro
-
-    // Estado inicial
-    intro.classList.add("enter");
-
-    // Próximo frame → anima
-    requestAnimationFrame(() => {
-      intro.classList.add("enter-active");
+    /* ===========================
+       RESET VISUAL REAL DA INTRO
+       =========================== */
+    intro.querySelectorAll("*").forEach(el => {
+      el.style.animation = "none";
+      el.style.opacity = "";
+      el.style.transform = "";
     });
+
+    // força o browser a aplicar o reset
+    intro.offsetHeight;
+
+    // remove o bloqueio de animação
+    intro.querySelectorAll("*").forEach(el => {
+      el.style.animation = "";
+    });
+
+    /* ===========================
+       ENTRADA — Intro
+       =========================== */
+    intro.classList.remove("exit");
+    intro.style.display = "";
+    intro.offsetHeight;
+
+    intro.classList.add("enter");
 
   }, 400);
 }
