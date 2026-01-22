@@ -59,19 +59,14 @@ function trocarHeaderParaHome() {
   portfolioHeader.classList.add("header-exit");
 
   setTimeout(() => {
-    portfolioHeader.classList.remove("is-visible", "header-exit", "header-enter");
+    portfolioHeader.classList.remove("is-visible", "header-exit");
     portfolioHeader.style.display = "none";
-  
+
+    // ENTRADA — Home
     homeHeader.style.display = "flex";
     homeHeader.offsetHeight;
-  
+
     homeHeader.classList.add("is-visible", "header-enter");
-  
-    // LIMPA depois da animação
-    setTimeout(() => {
-      homeHeader.classList.remove("header-enter");
-    }, 400);
-  
   }, 400);
 }
 
@@ -88,13 +83,18 @@ function trocarSideMenuParaIntro() {
     sideMenu.style.display = "none";
 
     // RESET TOTAL DE ESTADO
-    intro.classList.remove("exit", "enter");
+    intro.classList.remove("exit", "enter", "enter-active");
 
     intro.style.display = "";
     intro.offsetHeight;
 
     // Estado inicial da entrada
     intro.classList.add("enter");
+
+    // Próximo frame → anima
+    requestAnimationFrame(() => {
+      intro.classList.add("enter-active");
+    });
 
   }, 400);
 }
