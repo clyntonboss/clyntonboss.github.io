@@ -7,7 +7,7 @@ document.addEventListener("click", e => {
   const intro = document.querySelector(".intro-home");
   const side = document.querySelector(".side-portfolio");
 
-  switch (btn.dataset.test) {
+  switch (btn.dataset.state) {
 
     /* ───────── HEADER HOME ───────── */
 
