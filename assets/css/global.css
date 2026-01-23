@@ -1442,7 +1442,8 @@ body.static-header .last-update {
 
 /* Estado Base */
 .header-portfolio {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .header.is-visible {
@@ -1458,7 +1459,8 @@ body.static-header .last-update {
 
 /* Side Menu começa invisível */
 .side-portfolio {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* Painel de Debug de Animações */
