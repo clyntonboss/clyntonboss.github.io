@@ -1440,6 +1440,27 @@ body.static-header .last-update {
   transform: translateX(-50%) translateY(0);
 }
 
+/* Estado Base */
+.header-portfolio {
+  display: none;
+}
+
+.header.is-visible {
+  display: flex;
+}
+
+/* Estado inicial dos itens do header-portfólio */
+.header-portfolio .header-photo,
+.header-portfolio .header-name,
+.header-portfolio .last-update {
+  opacity: 0;
+}
+
+/* Side Menu começa invisível */
+.side-portfolio {
+  display: none;
+}
+
 /* Painel de Debug de Animações */
 .animation-debug-panel {
   position: absolute;
