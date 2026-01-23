@@ -83,15 +83,19 @@ function trocarSideMenuParaIntro() {
   sideMenu.classList.add("exit");
 
   setTimeout(() => {
-    sideMenu.classList.remove("is-visible", "exit");
+    sideMenu.classList.remove("is-visible", "exit", "enter");
     sideMenu.style.display = "none";
 
-    // ENTRADA — Intro
+    // RESET INTRO 🔥
+    intro.classList.remove("enter", "exit", "is-visible");
     intro.style.display = "";
+
+    // força reset visual
     intro.offsetHeight;
 
+    // ENTRADA — Intro
     intro.classList.add("is-visible", "enter");
-  }, 500);
+  }, 400);
 }
 
 document.addEventListener("click", e => {
