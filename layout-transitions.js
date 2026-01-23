@@ -3,33 +3,51 @@ document.addEventListener("click", e => {
   if (!btn) return;
 
   const headerHome = document.querySelector(".header-home");
+  const headerPortfolio = document.querySelector(".header-portfolio");
   const intro = document.querySelector(".intro-home");
   const side = document.querySelector(".side-portfolio");
 
   switch (btn.dataset.test) {
 
-    case "header-exit":
-      headerHome.dataset.state = "header-exit";
+    /* ───────── HEADER HOME ───────── */
+
+    case "header-home-exit":
+      headerHome.dataset.state = "exit";
       break;
 
-    case "header-enter":
-      headerHome.dataset.state = "header-enter";
+    case "header-home-enter":
+      headerHome.dataset.state = "enter";
       break;
+
+    /* ─────── HEADER PORTFÓLIO ─────── */
+
+    case "header-portfolio-exit":
+      headerPortfolio.dataset.state = "exit";
+      break;
+
+    case "header-portfolio-enter":
+      headerPortfolio.dataset.state = "enter";
+      break;
+
+    /* ───────── INTRO HOME ───────── */
 
     case "intro-exit":
-      intro.dataset.state = "intro-exit";
+      intro.dataset.state = "exit";
       break;
 
     case "intro-enter":
-      intro.dataset.state = "intro-enter";
+      intro.dataset.state = "enter";
       break;
 
+    /* ───────── SIDE MENU ───────── */
+
     case "side-exit":
-      side.dataset.state = "side-exit";
+      side.dataset.state = "exit";
       break;
 
     case "side-enter":
-      side.dataset.state = "side-enter";
+      side.dataset.state = "enter";
       break;
   }
 });
+
