@@ -1461,29 +1461,6 @@ body.static-header .last-update {
   display: none;
 }
 
-/* Painel de Debug de Animações */
-.animation-debug-panel {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 8px;
-}
-
-.animation-debug-panel button {
-  font-size: 11px;
-  padding: 4px 8px;
-  border-radius: 6px;
-  border: 1px solid rgba(0,0,0,0.2);
-  background: transparent;
-  cursor: pointer;
-  opacity: 0.75;
-}
-
-.animation-debug-panel button:hover {
-  opacity: 1;
-}
-
 /* Estado inicial */
 .header-home .header-left {
     transform: translateX(0);
