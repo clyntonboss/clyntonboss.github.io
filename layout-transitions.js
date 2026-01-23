@@ -52,8 +52,8 @@ document.addEventListener("click", e => {
 });
 
 function sairHeaderHome() {
-    const headerHome = document.querySelector('.header-home');
-    if (!headerHome) return;
+  const headerHome = document.querySelector('.header-home');
+  if (!headerHome) return;
 
-    headerHome.classList.add('exit-right');
+  headerHome.dataset.state = "exit";
 }
