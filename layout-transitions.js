@@ -1,5 +1,5 @@
 document.addEventListener("click", e => {
-  const btn = e.target.closest("[data-test]");
+  const btn = e.target.closest("[data-state]");
   if (!btn) return;
 
   const headerHome = document.querySelector(".header-home");
