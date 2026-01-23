@@ -1,60 +1,107 @@
-function animateHeaderTransition(fromHeader, toHeader) {
-  if (!fromHeader || !toHeader) return;
+function trocarHeaderParaPortfolio() {
+  const homeHeader = document.querySelector(".header-home");
+  const portfolioHeader = document.querySelector(".header-portfolio");
 
-  // 🔹 limpa estados anteriores
-  fromHeader.classList.remove("header-enter");
-  toHeader.classList.remove("header-exit", "header-enter");
+  if (!homeHeader || !portfolioHeader) return;
 
-  // 🔹 saída do header atual
-  fromHeader.classList.add("header-exit");
-
-  // 🔹 prepara entrada do próximo
-  toHeader.classList.remove("is-hidden");
-  toHeader.classList.add("header-pre-enter");
-
-  // força reflow
-  fromHeader.offsetHeight;
-  toHeader.offsetHeight;
+  // SAÍDA — Home
+  homeHeader.classList.add("header-exit");
 
   setTimeout(() => {
-    // 🔹 finaliza saída
-    fromHeader.classList.remove("header-exit");
-    fromHeader.classList.add("is-hidden");
+    homeHeader.classList.remove("is-visible", "header-exit");
+    homeHeader.style.display = "none";
 
-    // 🔹 inicia entrada
-    toHeader.classList.remove("header-pre-enter");
-    toHeader.classList.add("header-enter");
+    // ENTRADA — Portfólio
+    portfolioHeader.style.display = "flex";
+    portfolioHeader.offsetHeight; // força reflow
+
+    portfolioHeader.classList.add("is-visible", "header-enter");
   }, 400);
 }
 
+function trocarIntroParaSideMenu() {
+  const intro = document.querySelector(".intro-home");
+  const sideMenu = document.querySelector(".side-portfolio");
+
+  if (!intro || !sideMenu) return;
+
+  // SAÍDA — Intro
+  intro.classList.add("exit");
+
+  setTimeout(() => {
+    intro.classList.remove("is-visible", "exit");
+    intro.style.display = "none";
+
+    // ENTRADA — Side Menu
+    sideMenu.style.display = "block";
+    sideMenu.offsetHeight; // reflow
+
+    sideMenu.classList.add("is-visible", "enter");
+  }, 450); // ligeiramente maior que o último delay
+}
+
 document.addEventListener("click", e => {
-  const btn = e.target.closest('[data-action="open-portfolio"]');
-  if (!btn) return;
+  const trigger = e.target.closest("[data-action]");
+  if (!trigger) return;
 
   e.preventDefault();
 
-  const headerHome = document.querySelector(".header-home");
-  const headerPortfolio = document.querySelector(".header-portfolio");
-
-  animateHeaderTransition(headerHome, headerPortfolio);
+  if (trigger.dataset.action === "open-portfolio") {
+    trocarHeaderParaPortfolio();
+    trocarIntroParaSideMenu();
+  }
 });
 
+function trocarHeaderParaHome() {
+  const homeHeader = document.querySelector(".header-home");
+  const portfolioHeader = document.querySelector(".header-portfolio");
+
+  if (!homeHeader || !portfolioHeader) return;
+
+  // SAÍDA — Portfólio
+  portfolioHeader.classList.add("header-exit");
+
+  setTimeout(() => {
+    portfolioHeader.classList.remove("is-visible", "header-exit");
+    portfolioHeader.style.display = "none";
+
+    // ENTRADA — Home
+    homeHeader.style.display = "flex";
+    homeHeader.offsetHeight;
+
+    homeHeader.classList.add("is-visible", "header-enter");
+  }, 400);
+}
+
+function trocarSideMenuParaIntro() {
+  const sideMenu = document.querySelector(".side-portfolio");
+  const intro = document.querySelector(".intro-home");
+
+  if (!sideMenu || !intro) return;
+
+  // SAÍDA — Side Menu
+  sideMenu.classList.add("exit");
+
+  setTimeout(() => {
+    sideMenu.classList.remove("is-visible", "exit");
+    sideMenu.style.display = "none";
+
+    // ENTRADA — Intro
+    intro.style.display = "";
+    intro.offsetHeight;
+
+    intro.classList.add("is-visible", "enter");
+  }, 500);
+}
+
 document.addEventListener("click", e => {
-  const link = e.target.closest('[data-action="open-home"]');
-  if (!link) return;
+  const trigger = e.target.closest("[data-action]");
+  if (!trigger) return;
 
   e.preventDefault();
 
-  const headerHome = document.querySelector(".header-home");
-  const headerPortfolio = document.querySelector(".header-portfolio");
-
-  animateHeaderTransition(headerPortfolio, headerHome);
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-  const headerHome = document.querySelector(".header-home");
-  const headerPortfolio = document.querySelector(".header-portfolio");
-
-  headerHome.classList.add("header-enter");
-  headerPortfolio.classList.add("is-hidden");
+  if (trigger.dataset.action === "open-home") {
+    trocarHeaderParaHome();
+    trocarSideMenuParaIntro();
+  }
 });
