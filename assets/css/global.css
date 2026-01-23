@@ -1449,12 +1449,12 @@ body.static-header .last-update {
   display: flex;
 }
 
-/* Estado inicial dos itens do header-portfólio */
+.intro-home > *,
 .header-portfolio .header-photo,
 .header-portfolio .header-name,
 .header-portfolio .last-update {
-  opacity: 0;
-  transform: translateX(64px);
+  opacity: 1;
+  transform: none;
 }
 
 /* Saída Home -> Portfólio */
