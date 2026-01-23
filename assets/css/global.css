@@ -1494,7 +1494,7 @@ body.static-header .last-update {
 }
 
 /* Saída do header Home */
-.header-home.exit-right .header-left {
-    transform: translateX(64px);
-    opacity: 0;
+.header-home[data-state="exit"] .header-left {
+  transform: translateX(64px);
+  opacity: 0;
 }
