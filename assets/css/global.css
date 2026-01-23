@@ -1485,3 +1485,16 @@ body.static-header .last-update {
 .animation-debug-panel button:hover {
   opacity: 1;
 }
+
+/* Estado inicial */
+.header-home .header-left {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+/* Saída do header Home */
+.header-home.exit-right .header-left {
+    transform: translateX(64px);
+    opacity: 0;
+}
