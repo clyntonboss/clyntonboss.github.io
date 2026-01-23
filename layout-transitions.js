@@ -10,50 +10,46 @@ document.addEventListener("click", e => {
   switch (btn.dataset.state) {
 
     /* ───────── HEADER HOME ───────── */
-
     case "header-home-exit":
-      headerHome.dataset.state = "exit";
+      headerHome.classList.add("header-exit");
       break;
 
     case "header-home-enter":
-      headerHome.dataset.state = "enter";
+      headerHome.classList.remove("header-exit");
       break;
 
     /* ─────── HEADER PORTFÓLIO ─────── */
-
     case "header-portfolio-exit":
-      headerPortfolio.dataset.state = "exit";
+      headerPortfolio.classList.add("header-exit");
       break;
 
     case "header-portfolio-enter":
-      headerPortfolio.dataset.state = "enter";
+      headerPortfolio.classList.remove("header-exit");
       break;
 
     /* ───────── INTRO HOME ───────── */
-
     case "intro-exit":
-      intro.dataset.state = "exit";
+      intro.classList.add("exit");
       break;
 
     case "intro-enter":
-      intro.dataset.state = "enter";
+      intro.classList.remove("exit");
       break;
 
     /* ───────── SIDE MENU ───────── */
-
     case "side-exit":
-      side.dataset.state = "exit";
+      side.classList.add("exit");
       break;
 
     case "side-enter":
-      side.dataset.state = "enter";
+      side.classList.remove("exit");
       break;
   }
 });
 
 function sairHeaderHome() {
-  const headerHome = document.querySelector('.header-home');
+  const headerHome = document.querySelector(".header-home");
   if (!headerHome) return;
 
-  headerHome.dataset.state = "exit";
+  headerHome.classList.add("header-exit");
 }
