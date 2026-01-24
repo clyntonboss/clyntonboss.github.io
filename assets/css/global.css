@@ -1608,6 +1608,13 @@ body.static-header .last-update {
    HEADER PORTFÓLIO — SAÍDA
 ========================= */
 
+.header-portfolio .header-photo,
+.header-portfolio .header-name,
+.header-portfolio .last-update {
+  opacity: 0;
+  transform: translateX(64px);
+}
+
 .header-portfolio.header-exit .last-update {
   opacity: 0;
   transform: translateX(64px);
