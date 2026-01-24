@@ -1558,3 +1558,49 @@ body.static-header .last-update {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* =========================
+   HEADER HOME — ENTRADA
+========================= */
+
+/* Estado base */
+.header-home .header-name,
+.header-home .last-update {
+  opacity: 0;
+  transform: translateX(-64px);
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+}
+
+/* Pré-entrada */
+.header-home.header-pre-enter .header-name,
+.header-home.header-pre-enter .last-update {
+  opacity: 0;
+  transform: translateX(-64px);
+}
+
+/* Entrada — Nome */
+.header-home.header-enter .header-name {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+/* Entrada — Data */
+.header-home.header-enter .last-update {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.16s;
+}
+
+/* Visibilidade */
+.header-home {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header-home.header-enter {
+  opacity: 1;
+  pointer-events: auto;
+}
