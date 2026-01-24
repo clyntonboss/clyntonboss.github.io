@@ -15,3 +15,36 @@ document.addEventListener(
   },
   true // 👈 captura, igual você já faz em outros pontos
 );
+
+document.addEventListener(
+  "click",
+  e => {
+    const btn = e.target.closest('[data-test="header-enter"]');
+    if (!btn) return;
+
+    const headerPortfolio = document.querySelector(".header-portfolio");
+    if (!headerPortfolio) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    // garante estado limpo
+    headerPortfolio.classList.remove(
+      "header-exit",
+      "header-enter"
+    );
+
+    // prepara pré-entrada
+    headerPortfolio.classList.add("header-pre-enter");
+
+    // força reflow
+    headerPortfolio.offsetHeight;
+
+    // dispara entrada
+    requestAnimationFrame(() => {
+      headerPortfolio.classList.remove("header-pre-enter");
+      headerPortfolio.classList.add("header-enter");
+    });
+  },
+  true // captura, padrão já adotado por vocês
+);
