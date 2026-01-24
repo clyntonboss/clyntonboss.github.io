@@ -1442,7 +1442,8 @@ body.static-header .last-update {
 
 /* Estado Base */
 .header-portfolio {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .header.is-visible {
@@ -1549,4 +1550,9 @@ body.static-header .last-update {
   opacity: 1;
   transform: translateX(0);
   transition-delay: 0.32s;
+}
+
+.header-portfolio.header-enter {
+  opacity: 1;
+  pointer-events: auto;
 }
