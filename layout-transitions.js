@@ -93,3 +93,33 @@ document.addEventListener(
   },
   true
 );
+
+document.addEventListener(
+  "click",
+  e => {
+    const btn = e.target.closest('[data-action="header-home-enter"]');
+    if (!btn) return;
+
+    const headerHome = document.querySelector(".header-home");
+    if (!headerHome) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    // limpa estados antigos
+    headerHome.classList.remove("header-exit", "header-enter");
+
+    // prepara pré-entrada
+    headerHome.classList.add("header-pre-enter");
+
+    // força reflow
+    headerHome.offsetHeight;
+
+    // dispara entrada
+    requestAnimationFrame(() => {
+      headerHome.classList.remove("header-pre-enter");
+      headerHome.classList.add("header-enter");
+    });
+  },
+  true
+);
