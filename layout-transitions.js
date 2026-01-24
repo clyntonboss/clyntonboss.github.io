@@ -48,3 +48,48 @@ document.addEventListener(
   },
   true // captura, padrão já adotado por vocês
 );
+
+document.addEventListener(
+  "click",
+  e => {
+    const btn = e.target.closest('[data-action="open-portfolio"]');
+    if (!btn) return;
+
+    const headerHome = document.querySelector(".header-home");
+    const headerPortfolio = document.querySelector(".header-portfolio");
+
+    if (!headerHome || !headerPortfolio) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    /* =========================
+       1️⃣ SAÍDA HEADER HOME
+    ========================= */
+
+    headerHome.classList.remove("header-enter");
+    headerHome.classList.add("header-exit");
+
+    /* =========================
+       2️⃣ ENTRADA HEADER PORTFÓLIO
+    ========================= */
+
+    setTimeout(() => {
+      // limpa estados antigos
+      headerPortfolio.classList.remove("header-exit", "header-enter");
+
+      // prepara pré-entrada
+      headerPortfolio.classList.add("header-pre-enter");
+
+      // força reflow
+      headerPortfolio.offsetHeight;
+
+      // dispara entrada
+      requestAnimationFrame(() => {
+        headerPortfolio.classList.remove("header-pre-enter");
+        headerPortfolio.classList.add("header-enter");
+      });
+    }, 400); // mesmo tempo da saída do Home
+  },
+  true
+);
