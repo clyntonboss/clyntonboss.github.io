@@ -144,3 +144,36 @@ document.addEventListener(
   },
   true
 );
+
+document.addEventListener(
+  "click",
+  e => {
+    const btn = e.target.closest('[data-action="open-home"]');
+    if (!btn) return;
+
+    const headerPortfolio = document.querySelector(".header-portfolio");
+    const headerHome = document.querySelector(".header-home");
+    if (!headerPortfolio || !headerHome) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    /* 1. Dispara saída do Header Portfólio */
+    headerPortfolio.classList.remove("header-enter");
+    headerPortfolio.classList.add("header-exit");
+
+    /* 2. Após a saída, dispara entrada do Header Home */
+    setTimeout(() => {
+      headerHome.classList.remove("header-exit", "header-enter");
+      headerHome.classList.add("header-pre-enter");
+
+      headerHome.offsetHeight;
+
+      requestAnimationFrame(() => {
+        headerHome.classList.remove("header-pre-enter");
+        headerHome.classList.add("header-enter");
+      });
+    }, 400); // mesmo tempo da animação de saída
+  },
+  true
+);
