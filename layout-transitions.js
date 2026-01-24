@@ -19,7 +19,7 @@ document.addEventListener(
 document.addEventListener(
   "click",
   e => {
-    const btn = e.target.closest('[data-test="header-enter"]');
+    const btn = e.target.closest('[data-action="header-enter"]');
     if (!btn) return;
 
     const headerPortfolio = document.querySelector(".header-portfolio");
