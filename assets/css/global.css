@@ -1483,25 +1483,3 @@ body.static-header .last-update {
 .animation-debug-panel button:hover {
   opacity: 1;
 }
-
-/* Saída Home -> Portfólio */
-.header-home.header-exit .last-update {
-  animation: header-exit-right 0.4s ease forwards;
-}
-
-.header-home.header-exit .header-name {
-  animation: header-exit-right 0.4s ease forwards;
-  animation-delay: 80ms;
-}
-
-/* Keyframes */
-@keyframes header-exit-right {
-  from {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  to {
-    opacity: 0;
-    transform: translateX(64px);
-  }
-}
