@@ -136,14 +136,11 @@ document.addEventListener(
     e.preventDefault();
     e.stopPropagation();
 
-    // garante estado limpo
-    headerPortfolio.classList.remove(
-      "header-enter",
-      "header-pre-enter"
-    );
+    // 🔑 NÃO remove header-enter aqui
+    headerPortfolio.classList.remove("header-pre-enter");
 
-    // dispara saída
+    // dispara saída a partir do estado visível
     headerPortfolio.classList.add("header-exit");
   },
-  true // captura, padrão consolidado
+  true
 );
