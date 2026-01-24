@@ -1,13 +1,17 @@
-document.addEventListener("click", e => {
-  const btn = e.target.closest('[data-action="header-home-exit"]');
-  if (!btn) return;
+document.addEventListener(
+  "click",
+  e => {
+    const btn = e.target.closest('[data-action="header-home-exit"]');
+    if (!btn) return;
 
-  const headerHome = document.querySelector(".header-home");
-  if (!headerHome) return;
+    e.preventDefault();
+    e.stopPropagation();
 
-  // garante estado limpo
-  headerHome.classList.remove("header-enter", "header-pre-enter");
+    const headerHome = document.querySelector(".header-home");
+    if (!headerHome) return;
 
-  // dispara animação de saída
-  headerHome.classList.add("header-exit");
-});
+    headerHome.classList.remove("header-enter", "header-pre-enter");
+    headerHome.classList.add("header-exit");
+  },
+  true // 👈 captura, igual você já faz em outros pontos
+);
