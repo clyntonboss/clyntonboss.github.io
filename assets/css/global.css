@@ -1603,3 +1603,25 @@ body.static-header .last-update {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* =========================
+   HEADER PORTFÓLIO — SAÍDA
+========================= */
+
+.header-portfolio.header-exit .last-update {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0s;
+}
+
+.header-portfolio.header-exit .header-name {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0.16s;
+}
+
+.header-portfolio.header-exit .header-photo {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0.32s;
+}
