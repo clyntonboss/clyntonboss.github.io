@@ -123,3 +123,27 @@ document.addEventListener(
   },
   true
 );
+
+document.addEventListener(
+  "click",
+  e => {
+    const btn = e.target.closest('[data-action="header-portfolio-exit"]');
+    if (!btn) return;
+
+    const headerPortfolio = document.querySelector(".header-portfolio");
+    if (!headerPortfolio) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    // garante estado limpo
+    headerPortfolio.classList.remove(
+      "header-enter",
+      "header-pre-enter"
+    );
+
+    // dispara saída
+    headerPortfolio.classList.add("header-exit");
+  },
+  true // captura, padrão consolidado
+);
