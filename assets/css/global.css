@@ -1508,3 +1508,45 @@ body.static-header .last-update {
   transform: translateX(64px);
   transition-delay: 0.16s;
 }
+
+/* =========================
+   HEADER PORTFÓLIO — ENTRADA
+========================= */
+
+/* Estado base */
+.header-portfolio .header-photo,
+.header-portfolio .header-name,
+.header-portfolio .last-update {
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+}
+
+/* Estado pré-entrada (fora da tela) */
+.header-portfolio.header-pre-enter .header-photo,
+.header-portfolio.header-pre-enter .header-name,
+.header-portfolio.header-pre-enter .last-update {
+  opacity: 0;
+  transform: translateX(64px);
+}
+
+/* Entrada — Foto */
+.header-portfolio.header-enter .header-photo {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+/* Entrada — Nome */
+.header-portfolio.header-enter .header-name {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.16s;
+}
+
+/* Entrada — Data */
+.header-portfolio.header-enter .last-update {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.32s;
+}
