@@ -36,9 +36,9 @@ function aplicarEstadoHeader(estado) {
     if (data.nameIsLink) {
       if (nameLink) {
         nameLink.textContent = data.name;
-        nameLink.href = data.nameHref;
+        nameLink.href = "#";
       } else {
-        nameEl.innerHTML = `<a href="${data.nameHref}">${data.name}</a>`;
+        nameEl.innerHTML = `<a href="#" data-section="home">${data.name}</a>`;
       }
     } else {
       nameEl.textContent = data.name;
