@@ -33,18 +33,7 @@ function aplicarEstadoHeader(estado) {
      NOME
   ========================= */
   if (nameEl) {
-    if (data.nameIsLink) {
-      const section = data.nameSection; // pega a seção correta do dataset
-      if (nameLink) {
-        nameLink.textContent = data.name;
-        nameLink.href = "#";
-        nameLink.dataset.section = section; // ⚡ mantém data-section correto
-      } else {
-        nameEl.innerHTML = `<a href="#" data-section="${section}">${data.name}</a>`;
-      }
-    } else {
-      nameEl.textContent = data.name; // Header Home não tem link
-    }
+    nameEl.textContent = data.name; // apenas mostra o nome, sem link
   }
 
   /* =========================
