@@ -3,10 +3,11 @@
  * Responsável apenas por DESCREVER como o header deve se apresentar
  * em cada contexto da aplicação.
  *
- * Nenhuma lógica de animação ou DOM deve ficar aqui.
+ * Este arquivo NÃO é módulo ES.
+ * Ele expõe o dataset no escopo global.
  */
 
-const headerDataset = {
+window.headerDataset = {
   home: {
     key: "home",
 
@@ -22,10 +23,10 @@ const headerDataset = {
     showLastUpdate: true,
 
     // Comportamento
-    onNameClick: null, // não muda estado
-    targetHeader: "portfolio", // botão Portfólio leva para lá
+    onNameClick: null,          // clicar no nome não troca estado
+    targetHeader: "portfolio", // ação externa pode levar ao portfólio
 
-    // Classe / estado visual
+    // Estado visual
     headerClass: "header-home"
   },
 
@@ -47,9 +48,7 @@ const headerDataset = {
     onNameClick: "home", // clicar no nome volta para Home
     targetHeader: null,
 
-    // Classe / estado visual
+    // Estado visual
     headerClass: "header-portfolio"
   }
 };
-
-export default headerDataset;
