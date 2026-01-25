@@ -34,11 +34,13 @@ function aplicarEstadoHeader(estado) {
   ========================= */
   if (nameEl) {
     if (data.nameIsLink) {
+      const section = data.nameSection || "#"; // pega a seção do dataset
       if (nameLink) {
         nameLink.textContent = data.name;
         nameLink.href = "#";
+        nameLink.dataset.section = section; // 👈 atualiza o dataset do link
       } else {
-        nameEl.innerHTML = `<a href="#" data-section="home">${data.name}</a>`;
+        nameEl.innerHTML = `<a href="#" data-section="${section}">${data.name}</a>`;
       }
     } else {
       nameEl.textContent = data.name;
