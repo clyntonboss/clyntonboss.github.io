@@ -15,7 +15,6 @@ window.headerDataset = {
     name: "Rogério Clynton Ribeiro",
     nameIsLink: false,
     nameHref: null,
-    nameSection: "portfolio", // 👈 link “Home” aponta para Portfólio
 
     showPhoto: false,
     photoSrc: null,
@@ -35,10 +34,9 @@ window.headerDataset = {
     key: "portfolio",
 
     // Conteúdo
-    name: "Rogério Clynton Ribeiro",
+    name: `<a href="#" data-section="home">Rogério Clynton Ribeiro</a>`,
     nameIsLink: true,
     nameHref: "#",
-    nameSection: "home", // 👈 link “Portfólio” aponta para Home
 
     showPhoto: true,
     photoSrc: "../assets/images/foto-rogerio.jpg",
