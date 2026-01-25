@@ -29,6 +29,14 @@ function aplicarEstadoHeader(estado) {
     }
   }
 
+  // =========================
+  // ÍCONE HOME
+  // =========================
+  const homeIcon = document.getElementById("header-home-icon");
+  if (homeIcon) {
+    homeIcon.style.display = data.showHomeIcon ? "" : "none";
+  }
+
   /* =========================
      NOME
   ========================= */
