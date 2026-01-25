@@ -1,146 +1,59 @@
-document.addEventListener(
-  "click",
-  e => {
-    const btn = e.target.closest('[data-action="header-home-exit"]');
-    if (!btn) return;
+function aplicarEstadoHeader(estado) {
+  const data = window.headerDataset?.[estado];
+  if (!data) return;
 
-    e.preventDefault();
-    e.stopPropagation();
+  const header = document.querySelector("header.header");
+  if (!header) return;
 
-    const headerHome = document.querySelector(".header-home");
-    if (!headerHome) return;
+  const photo = header.querySelector(".header-photo");
+  const nameEl = header.querySelector(".header-name");
+  const nameLink = nameEl?.querySelector("a") || null;
+  const lastUpdate = header.querySelector(".last-update");
 
-    headerHome.classList.remove("header-enter", "header-pre-enter");
-    headerHome.classList.add("header-exit");
-  },
-  true // 👈 captura, igual você já faz em outros pontos
-);
+  /* =========================
+     CLASSES DE ESTADO
+  ========================= */
+  header.classList.remove("header-home", "header-portfolio");
+  header.classList.add(data.headerClass);
 
-document.addEventListener(
-  "click",
-  e => {
-    const btn = e.target.closest('[data-action="header-portfolio-enter"]');
-    if (!btn) return;
+  /* =========================
+     FOTO
+  ========================= */
+  if (photo) {
+    if (data.showPhoto) {
+      photo.src = data.photoSrc;
+      photo.alt = data.photoAlt || "";
+      photo.classList.remove("hidden");
+    } else {
+      photo.classList.add("hidden");
+    }
+  }
 
-    const headerPortfolio = document.querySelector(".header-portfolio");
-    if (!headerPortfolio) return;
+  /* =========================
+     NOME
+  ========================= */
+  if (nameEl) {
+    if (data.nameIsLink) {
+      if (nameLink) {
+        nameLink.textContent = data.name;
+        nameLink.href = data.nameHref;
+      } else {
+        nameEl.innerHTML = `<a href="${data.nameHref}">${data.name}</a>`;
+      }
+    } else {
+      nameEl.textContent = data.name;
+    }
+  }
 
-    e.preventDefault();
-    e.stopPropagation();
+  /* =========================
+     DATA DE ATUALIZAÇÃO
+  ========================= */
+  if (lastUpdate) {
+    lastUpdate.style.display = data.showLastUpdate ? "" : "none";
+  }
 
-    // garante estado limpo
-    headerPortfolio.classList.remove(
-      "header-exit",
-      "header-enter"
-    );
-
-    // prepara pré-entrada
-    headerPortfolio.classList.add("header-pre-enter");
-
-    // força reflow
-    headerPortfolio.offsetHeight;
-
-    // dispara entrada
-    requestAnimationFrame(() => {
-      headerPortfolio.classList.remove("header-pre-enter");
-      headerPortfolio.classList.add("header-enter");
-    });
-  },
-  true // captura, padrão já adotado por vocês
-);
-
-document.addEventListener(
-  "click",
-  e => {
-    const btn = e.target.closest('[data-action="open-portfolio"]');
-    if (!btn) return;
-
-    const headerHome = document.querySelector(".header-home");
-    const headerPortfolio = document.querySelector(".header-portfolio");
-
-    if (!headerHome || !headerPortfolio) return;
-
-    e.preventDefault();
-    e.stopPropagation();
-
-    /* =========================
-       1️⃣ SAÍDA HEADER HOME
-    ========================= */
-
-    headerHome.classList.remove("header-enter");
-    headerHome.classList.add("header-exit");
-
-    /* =========================
-       2️⃣ ENTRADA HEADER PORTFÓLIO
-    ========================= */
-
-    setTimeout(() => {
-      // limpa estados antigos
-      headerPortfolio.classList.remove("header-exit", "header-enter");
-
-      // prepara pré-entrada
-      headerPortfolio.classList.add("header-pre-enter");
-
-      // força reflow
-      headerPortfolio.offsetHeight;
-
-      // dispara entrada
-      requestAnimationFrame(() => {
-        headerPortfolio.classList.remove("header-pre-enter");
-        headerPortfolio.classList.add("header-enter");
-      });
-    }, 400); // mesmo tempo da saída do Home
-  },
-  true
-);
-
-document.addEventListener(
-  "click",
-  e => {
-    const btn = e.target.closest('[data-action="header-home-enter"]');
-    if (!btn) return;
-
-    const headerHome = document.querySelector(".header-home");
-    if (!headerHome) return;
-
-    e.preventDefault();
-    e.stopPropagation();
-
-    // limpa estados antigos
-    headerHome.classList.remove("header-exit", "header-enter");
-
-    // prepara pré-entrada
-    headerHome.classList.add("header-pre-enter");
-
-    // força reflow
-    headerHome.offsetHeight;
-
-    // dispara entrada
-    requestAnimationFrame(() => {
-      headerHome.classList.remove("header-pre-enter");
-      headerHome.classList.add("header-enter");
-    });
-  },
-  true
-);
-
-document.addEventListener(
-  "click",
-  e => {
-    const btn = e.target.closest('[data-action="header-portfolio-exit"]');
-    if (!btn) return;
-
-    const headerPortfolio = document.querySelector(".header-portfolio");
-    if (!headerPortfolio) return;
-
-    e.preventDefault();
-    e.stopPropagation();
-
-    // 🔑 NÃO remove header-enter aqui
-    headerPortfolio.classList.remove("header-pre-enter");
-
-    // dispara saída a partir do estado visível
-    headerPortfolio.classList.add("header-exit");
-  },
-  true
-);
+  /* =========================
+     ESTADO ATUAL (opcional)
+  ========================= */
+  header.dataset.state = estado;
+}
