@@ -34,16 +34,16 @@ function aplicarEstadoHeader(estado) {
   ========================= */
   if (nameEl) {
     if (data.nameIsLink) {
-      const section = data.nameSection || "#"; // pega a seção do dataset
+      const section = data.nameSection; // pega a seção correta do dataset
       if (nameLink) {
         nameLink.textContent = data.name;
         nameLink.href = "#";
-        nameLink.dataset.section = section; // 👈 atualiza o dataset do link
+        nameLink.dataset.section = section; // ⚡ mantém data-section correto
       } else {
-        nameEl.innerHTML = `<a href="#" data-section="home">Rogério Clynton Ribeiro</a>`;
+        nameEl.innerHTML = `<a href="#" data-section="${section}">${data.name}</a>`;
       }
     } else {
-      nameEl.textContent = data.name;
+      nameEl.textContent = data.name; // Header Home não tem link
     }
   }
 
