@@ -1,5 +1,43 @@
 const sections = {
 
+// 🔹 ================================================== Home ================================================ 🔹
+
+  home: {
+    pageTitle: "Rogério Clynton Ribeiro | Analista de Dados",
+    favicon: "/assets/icons/icone-dados.png",
+    title: "Transformando dados em decisões estratégicas.",
+    icon: "/assets/icons/icone-dados.png",
+    showViewModes: false,
+    content: `
+      <p>
+          Analista de Dados movido pela curiosidade, pela precisão técnica e pelo compromisso de transformar informações complexas em decisões inteligentes e estratégicas.
+          Com sólida experiência em <strong>Python™, R, SQL e Power BI</strong>, atuo na criação de soluções analíticas que conectam indicadores à visão de negócio, permitindo
+          identificar padrões, antecipar cenários e orientar ações com clareza e segurança.
+      </p>
+      
+      <p>
+          Minha abordagem integra <strong>processos de ETL, modelagem estruturada, visualização interativa e análise preditiva</strong>, garantindo que cada insight seja não apenas
+          preciso, mas aplicável e relevante para o contexto da organização. Acredito que todo conjunto de dados carrega uma narrativa valiosa — e meu papel é revelá-la com rigor
+          analítico e comunicação clara, traduzindo complexidade em entendimento estratégico.
+      </p>
+      
+      <p>
+          Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos e construção de painéis
+          executivos</strong>. Em cada entrega, priorizo métricas confiáveis, rastreabilidade dos resultados e impacto tangível, sempre alinhando tecnologia, método e propósito.
+      </p>
+      
+      <p>
+          Estou em constante evolução, explorando novas ferramentas e metodologias para unir <strong>inovação, governança de dados e excelência operacional</strong>. Acredito no
+          poder da melhoria contínua e na importância de decisões orientadas por evidências para construir organizações mais eficientes, sustentáveis e inteligentes.
+      </p>
+      
+      <p>
+          Meu compromisso é claro: transformar dados em valor estratégico, alinhando conhecimento técnico, visão analítica e sensibilidade de negócio para apoiar decisões robustas
+          e impulsionar resultados consistentes.
+      </p>
+    `
+  },
+
 // 🔹 =============================================== Portfólio ============================================== 🔹
 
   portfolio: {
