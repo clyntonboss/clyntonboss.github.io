@@ -61,3 +61,12 @@ function aplicarEstadoHeader(estado) {
 document.addEventListener("DOMContentLoaded", () => {
   aplicarEstadoHeader("home");
 });
+
+document.addEventListener("click", e => {
+  const link = e.target.closest('a[data-section="portfolio"]');
+  if (!link) return;
+
+  e.preventDefault();
+
+  aplicarEstadoHeader("portfolio");
+});
