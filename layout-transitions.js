@@ -70,3 +70,12 @@ document.addEventListener("click", e => {
 
   aplicarEstadoHeader("portfolio");
 });
+
+document.addEventListener("click", e => {
+  const link = e.target.closest('a[data-section="home"]');
+  if (!link) return;
+
+  e.preventDefault();
+
+  aplicarEstadoHeader("home");
+});
