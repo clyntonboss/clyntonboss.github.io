@@ -76,6 +76,7 @@ document.addEventListener("click", e => {
   if (!link) return;
 
   e.preventDefault();
+  e.stopPropagation();
 
   aplicarEstadoHeader("home");
 });
