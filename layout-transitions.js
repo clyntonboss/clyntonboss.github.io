@@ -57,3 +57,7 @@ function aplicarEstadoHeader(estado) {
   ========================= */
   header.dataset.state = estado;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  aplicarEstadoHeader("home");
+});
