@@ -1444,3 +1444,47 @@ body.static-header .last-update {
 .side-portfolio {
   display: none;
 }
+
+/* =========================================
+   Animação Header (Nome + Data)
+========================================= */
+
+.header-name,
+.last-update {
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+}
+
+/* Saída */
+.header-exit .header-name {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0s;
+}
+
+.header-exit .last-update {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0.16s;
+}
+
+/* Pré-entrada */
+.header-pre-enter .header-name,
+.header-pre-enter .last-update {
+  opacity: 0;
+  transform: translateX(64px);
+}
+
+/* Entrada */
+.header-enter .header-name {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+.header-enter .last-update {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.16s;
+}
