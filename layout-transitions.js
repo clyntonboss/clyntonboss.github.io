@@ -127,3 +127,16 @@ document.addEventListener("click", e => {
     header.classList.add("portfolio-enter");
   }, 400);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const img = document.querySelector(".header-photo");
+  if (!img) return;
+
+  if (img.complete) {
+    img.classList.add("loaded");
+  } else {
+    img.addEventListener("load", () => {
+      img.classList.add("loaded");
+    });
+  }
+});
