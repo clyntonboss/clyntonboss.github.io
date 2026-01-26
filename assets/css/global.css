@@ -1543,8 +1543,13 @@ body.static-header .last-update {
 
 /* Controle de visibilidade da foto (ANIMÁVEL) */
 .header-photo {
-  opacity: 1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
   transform: translateX(0);
+}
+
+.header-photo.loaded {
+  opacity: 1;
 }
 
 .header-photo.photo-hidden {
