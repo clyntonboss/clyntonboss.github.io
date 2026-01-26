@@ -23,9 +23,7 @@ function aplicarEstadoHeader(estado) {
     if (data.showPhoto) {
       photo.src = data.photoSrc;
       photo.alt = data.photoAlt || "";
-  
-      // ✅ OBRIGATÓRIO para a foto aparecer
-      photo.classList.remove("hidden");
+      // ❌ NÃO remove hidden aqui
     } else {
       photo.classList.add("hidden");
     }
@@ -91,19 +89,20 @@ document.addEventListener("click", e => {
   
   // 🔹 SAÍDA (estado atual)
   header.classList.add("portfolio-exit");
-  
+    
   setTimeout(() => {
-    // 🔹 APLICA CONTEÚDO (foto passa a existir / visível)
     aplicarEstadoHeader("portfolio");
   
-    // 🔹 FORÇA ESTADO INICIAL INVISÍVEL
+    const photo = header.querySelector(".header-photo");
+    if (photo) {
+      photo.classList.remove("hidden");
+    }
+  
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
   
-    // 🔹 FORÇA O BROWSER A REGISTRAR O ESTADO
     void header.offsetWidth;
   
-    // 🔹 ENTRADA SEQUENCIADA
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
   }, 400);
@@ -124,17 +123,18 @@ document.addEventListener("click", e => {
   header.classList.add("portfolio-exit");
   
   setTimeout(() => {
-    // 🔹 APLICA CONTEÚDO (foto passa a existir / visível)
     aplicarEstadoHeader("home");
   
-    // 🔹 FORÇA ESTADO INICIAL INVISÍVEL
+    const photo = header.querySelector(".header-photo");
+    if (photo) {
+      photo.classList.remove("hidden");
+    }
+  
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
   
-    // 🔹 FORÇA O BROWSER A REGISTRAR O ESTADO
     void header.offsetWidth;
   
-    // 🔹 ENTRADA SEQUENCIADA
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
   }, 400);
