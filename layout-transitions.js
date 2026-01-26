@@ -23,7 +23,9 @@ function aplicarEstadoHeader(estado) {
     if (data.showPhoto) {
       photo.src = data.photoSrc;
       photo.alt = data.photoAlt || "";
-      photo.classList.remove("hidden");
+  
+      // 🔴 NÃO remove hidden aqui
+      // A entrada é controlada pela animação
     } else {
       photo.classList.add("hidden");
     }
@@ -121,7 +123,7 @@ document.addEventListener("click", e => {
   header.classList.add("portfolio-exit");
   
   setTimeout(() => {
-    aplicarEstadoHeader("portfolio");
+    aplicarEstadoHeader("home");
   
     resetHeaderAnimation(header);
   
