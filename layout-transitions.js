@@ -20,11 +20,11 @@ function aplicarEstadoHeader(estado) {
      FOTO
   ========================= */
   if (photo) {
-    if (data.showPhoto) {
-      photo.src = data.photoSrc;
-      photo.alt = data.photoAlt || "";
-      photo.classList.remove("hidden"); // 👈 VOLTA PRA CÁ
-    } else {
+    photo.src = data.photoSrc;
+    photo.alt = data.photoAlt || "";
+  
+    photo.classList.toggle("hidden", !data.showPhoto);
+  } else {
       photo.classList.add("hidden");
     }
   }
