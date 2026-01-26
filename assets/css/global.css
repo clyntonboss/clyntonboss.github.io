@@ -1540,7 +1540,13 @@ body.static-header .last-update {
   transition-delay: 0.24s;
 }
 
-.header-photo.hidden {
+/* Controle de visibilidade da foto (ANIMÁVEL) */
+.header-photo {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.header-photo.photo-hidden {
   opacity: 0;
   transform: translateX(64px);
   pointer-events: none;
