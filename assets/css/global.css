@@ -1539,3 +1539,9 @@ body.static-header .last-update {
   transform: translateX(0);
   transition-delay: 0.24s;
 }
+
+.header-photo.hidden {
+  opacity: 0;
+  transform: translateX(64px);
+  pointer-events: none;
+}
