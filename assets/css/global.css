@@ -1523,7 +1523,7 @@ body.static-header .last-update {
 .portfolio-pre-enter .header-name,
 .portfolio-pre-enter .last-update {
   opacity: 0;
-  transform: translateX(-64px);
+  transform: translateX(64px);
 }
 
 /* Foto */
