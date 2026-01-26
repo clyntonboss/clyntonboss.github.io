@@ -125,7 +125,7 @@ document.addEventListener("click", e => {
   
   setTimeout(() => {
     // 🔹 APLICA CONTEÚDO (foto passa a existir / visível)
-    aplicarEstadoHeader("portfolio");
+    aplicarEstadoHeader("home");
   
     // 🔹 FORÇA ESTADO INICIAL INVISÍVEL
     resetHeaderAnimation(header);
