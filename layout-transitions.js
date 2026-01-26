@@ -46,9 +46,12 @@ function aplicarEstadoHeader(estado) {
   // =========================
   // ÍCONE HOME
   // =========================
-  const homeIcon = document.getElementById("header-home-icon");
-  if (homeIcon) {
-    homeIcon.style.display = data.showHomeIcon ? "" : "none";
+  const homeIconLink = document.querySelector(
+    '#header-home-icon a[data-section="home"]'
+  );
+  
+  if (homeIconLink) {
+    homeIconLink.classList.toggle("hidden", !data.showHomeIcon);
   }
 
   /* =========================
