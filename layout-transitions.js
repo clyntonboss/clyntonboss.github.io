@@ -24,9 +24,6 @@ function aplicarEstadoHeader(estado) {
     photo.alt = data.photoAlt || "";
   
     photo.classList.toggle("hidden", !data.showPhoto);
-  } else {
-      photo.classList.add("hidden");
-    }
   }
 
   /* =========================
