@@ -20,10 +20,11 @@ function aplicarEstadoHeader(estado) {
      FOTO
   ========================= */
   if (photo) {
-    photo.src = data.photoSrc;
+    photo.src = data.photoSrc || "";
     photo.alt = data.photoAlt || "";
   
-    photo.classList.toggle("hidden", !data.showPhoto);
+    // ✅ CONTROLE CORRETO (animável)
+    photo.classList.toggle("photo-hidden", !data.showPhoto);
   }
 
   /* =========================
