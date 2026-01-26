@@ -52,7 +52,7 @@ body {
   color: #e6e6e6;
   display: flex;
   align-items: center; /* centraliza verticalmente a foto com o nome */
-  gap: 12px;           /* espaço entre foto e texto */
+  gap: 0px;           /* espaço entre foto e texto */
 }
 
 .header-left:hover {
@@ -145,7 +145,6 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
   color: var-(--header-name);
-  margin-left: 0px;
   opacity: 0;                 /* começa invisível */
   transform: translateX(160px); /* começa fora da tela à direita */
   transition: opacity 1.2s ease, transform 1.2s ease;
