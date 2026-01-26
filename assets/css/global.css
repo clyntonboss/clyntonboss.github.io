@@ -118,7 +118,6 @@ body {
   height: 70px;
   border-radius: 50%;     /* deixa a foto redonda */
   object-fit: cover;      /* mantém proporção sem distorcer */
-  gap: 12px;     /* espaço entre a foto e o nome */
   vertical-align: middle;
   opacity: 0;
   transform: translateX(40px); /* começa deslocado para a direita */
@@ -1569,11 +1568,12 @@ body.static-header .last-update {
   width: 0;
   margin: 0;
   padding: 0;
+  gap: 0;
   overflow: hidden;
 }
 
 /* Foto normal (PORTFÓLIO) */
 .header-portfolio .header-photo {
   width: auto;
-  margin-right: 0px; /* ajuste conforme seu layout */
+  margin-right: 12px; /* ajuste conforme seu layout */
 }
