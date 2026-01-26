@@ -1545,12 +1545,18 @@ body.static-header .last-update {
 .header-photo {
   opacity: 0;
   transition: opacity 0.4s ease, transform 0.4s ease;
-  transform: translateX(0);
+  transform: translateX(64);
 }
 
 .header-photo.loaded {
   opacity: 1;
   transform: translateX(0);
+}
+
+/* Foto */
+.portfolio-exit .header-photo {
+  opacity: 0;
+  transform: translateX(64px);
 }
 
 .header-photo.photo-hidden {
