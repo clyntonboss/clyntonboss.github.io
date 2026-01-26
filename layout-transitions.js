@@ -23,7 +23,7 @@ function aplicarEstadoHeader(estado) {
     if (data.showPhoto) {
       photo.src = data.photoSrc;
       photo.alt = data.photoAlt || "";
-      // ❌ NÃO remove hidden aqui
+      photo.classList.remove("hidden"); // 👈 VOLTA PRA CÁ
     } else {
       photo.classList.add("hidden");
     }
@@ -92,12 +92,7 @@ document.addEventListener("click", e => {
     
   setTimeout(() => {
     aplicarEstadoHeader("portfolio");
-  
-    const photo = header.querySelector(".header-photo");
-    if (photo) {
-      photo.classList.remove("hidden");
-    }
-  
+    
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
   
@@ -124,12 +119,7 @@ document.addEventListener("click", e => {
   
   setTimeout(() => {
     aplicarEstadoHeader("home");
-  
-    const photo = header.querySelector(".header-photo");
-    if (photo) {
-      photo.classList.remove("hidden");
-    }
-  
+    
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
   
