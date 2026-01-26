@@ -1449,13 +1449,6 @@ body.static-header .last-update {
    Animação Header (Nome + Data)
 ========================================= */
 
-.header-name,
-.last-update {
-  transition:
-    opacity 0.4s ease,
-    transform 0.4s ease;
-}
-
 /* Saída */
 .header-exit .header-name {
   opacity: 0;
