@@ -1488,3 +1488,73 @@ body.static-header .last-update {
   transform: translateX(0);
   transition-delay: 0.16s;
 }
+
+/* Base – Header Portfólio */
+.header-portfolio .header-photo,
+.header-portfolio .header-name,
+.header-portfolio .last-update {
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+}
+
+/* =========================
+   SAÍDA – Header Portfólio
+   ========================= */
+
+/* Nome */
+.portfolio-exit .header-name {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0s;
+}
+
+/* Data */
+.portfolio-exit .last-update {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0.12s;
+}
+
+/* Foto */
+.portfolio-exit .header-photo {
+  opacity: 0;
+  transform: translateX(64px);
+  transition-delay: 0.24s;
+}
+
+/* =========================
+   PRÉ-ENTRADA
+   ========================= */
+
+.portfolio-pre-enter .header-photo,
+.portfolio-pre-enter .header-name,
+.portfolio-pre-enter .last-update {
+  opacity: 0;
+  transform: translateX(-64px);
+}
+
+/* =========================
+   ENTRADA – Header Portfólio
+   ========================= */
+
+/* Foto */
+.portfolio-enter .header-photo {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+/* Nome */
+.portfolio-enter .header-name {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.12s;
+}
+
+/* Data */
+.portfolio-enter .last-update {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.24s;
+}
