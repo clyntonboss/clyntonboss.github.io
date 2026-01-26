@@ -9,6 +9,7 @@
 
 window.headerDataset = {
   home: {
+    showHomeIcon: false,
     key: "home",
 
     // Conteúdo
@@ -32,6 +33,7 @@ window.headerDataset = {
   },
 
   portfolio: {
+    showHomeIcon: true,
     key: "portfolio",
 
     // Conteúdo
