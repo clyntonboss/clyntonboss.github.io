@@ -57,6 +57,20 @@ function aplicarEstadoHeader(estado) {
   header.dataset.state = estado;
 }
 
+function resetHeaderAnimation(header) {
+  header.classList.remove(
+    "header-exit",
+    "header-pre-enter",
+    "header-enter",
+    "portfolio-exit",
+    "portfolio-pre-enter",
+    "portfolio-enter"
+  );
+
+  // força reflow para garantir que o browser "veja" o reset
+  void header.offsetWidth;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   aplicarEstadoHeader("home");
 });
@@ -70,22 +84,23 @@ document.addEventListener("click", e => {
   const header = document.querySelector("header.header");
   if (!header) return;
 
-  // 🔹 SAÍDA
-  header.classList.add("header-exit");
-
+  resetHeaderAnimation(header);
+  
+  // 🔹 SAÍDA PORTFÓLIO
+  header.classList.add("portfolio-exit");
+  
   setTimeout(() => {
-    // 🔹 APLICA NOVO ESTADO
     aplicarEstadoHeader("portfolio");
-
-    // 🔹 PREPARA ENTRADA
-    header.classList.remove("header-exit");
-    header.classList.add("header-pre-enter");
-
+  
+    resetHeaderAnimation(header);
+  
+    header.classList.add("portfolio-pre-enter");
+  
     requestAnimationFrame(() => {
-      header.classList.remove("header-pre-enter");
-      header.classList.add("header-enter");
+      header.classList.remove("portfolio-pre-enter");
+      header.classList.add("portfolio-enter");
     });
-  }, 400); // ⬅ TEMPO DA ANIMAÇÃO DE SAÍDA
+  }, 400);
 });
 
 document.addEventListener("click", e => {
@@ -97,20 +112,21 @@ document.addEventListener("click", e => {
   const header = document.querySelector("header.header");
   if (!header) return;
 
-  // 🔹 SAÍDA
-  header.classList.add("header-exit");
-
+  resetHeaderAnimation(header);
+  
+  // 🔹 SAÍDA PORTFÓLIO
+  header.classList.add("portfolio-exit");
+  
   setTimeout(() => {
-    // 🔹 APLICA NOVO ESTADO
-    aplicarEstadoHeader("home");
-
-    // 🔹 PREPARA ENTRADA
-    header.classList.remove("header-exit");
-    header.classList.add("header-pre-enter");
-
+    aplicarEstadoHeader("portfolio");
+  
+    resetHeaderAnimation(header);
+  
+    header.classList.add("portfolio-pre-enter");
+  
     requestAnimationFrame(() => {
-      header.classList.remove("header-pre-enter");
-      header.classList.add("header-enter");
+      header.classList.remove("portfolio-pre-enter");
+      header.classList.add("portfolio-enter");
     });
   }, 400);
 });
