@@ -89,20 +89,23 @@ document.addEventListener("click", e => {
 
   resetHeaderAnimation(header);
   
-  // 🔹 SAÍDA PORTFÓLIO
+  // 🔹 SAÍDA (estado atual)
   header.classList.add("portfolio-exit");
   
   setTimeout(() => {
+    // 🔹 APLICA CONTEÚDO (foto passa a existir / visível)
     aplicarEstadoHeader("portfolio");
   
+    // 🔹 FORÇA ESTADO INICIAL INVISÍVEL
     resetHeaderAnimation(header);
-  
     header.classList.add("portfolio-pre-enter");
   
-    requestAnimationFrame(() => {
-      header.classList.remove("portfolio-pre-enter");
-      header.classList.add("portfolio-enter");
-    });
+    // 🔹 FORÇA O BROWSER A REGISTRAR O ESTADO
+    void header.offsetWidth;
+  
+    // 🔹 ENTRADA SEQUENCIADA
+    header.classList.remove("portfolio-pre-enter");
+    header.classList.add("portfolio-enter");
   }, 400);
 });
 
@@ -117,19 +120,22 @@ document.addEventListener("click", e => {
 
   resetHeaderAnimation(header);
   
-  // 🔹 SAÍDA PORTFÓLIO
+  // 🔹 SAÍDA (estado atual)
   header.classList.add("portfolio-exit");
   
   setTimeout(() => {
-    aplicarEstadoHeader("home");
+    // 🔹 APLICA CONTEÚDO (foto passa a existir / visível)
+    aplicarEstadoHeader("portfolio");
   
+    // 🔹 FORÇA ESTADO INICIAL INVISÍVEL
     resetHeaderAnimation(header);
-  
     header.classList.add("portfolio-pre-enter");
   
-    requestAnimationFrame(() => {
-      header.classList.remove("portfolio-pre-enter");
-      header.classList.add("portfolio-enter");
-    });
+    // 🔹 FORÇA O BROWSER A REGISTRAR O ESTADO
+    void header.offsetWidth;
+  
+    // 🔹 ENTRADA SEQUENCIADA
+    header.classList.remove("portfolio-pre-enter");
+    header.classList.add("portfolio-enter");
   }, 400);
 });
