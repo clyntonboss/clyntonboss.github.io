@@ -43,6 +43,14 @@ function aplicarEstadoHeader(estado) {
     lastUpdate.style.display = data.showLastUpdate ? "" : "none";
   }
 
+  // =========================
+  // ÍCONE HOME
+  // =========================
+  const homeIcon = document.getElementById("header-home-icon");
+  if (homeIcon) {
+    homeIcon.style.display = data.showHomeIcon ? "" : "none";
+  }
+
   /* =========================
      ESTADO ATUAL (opcional)
   ========================= */
