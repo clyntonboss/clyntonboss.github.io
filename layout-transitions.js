@@ -48,12 +48,10 @@ function aplicarEstadoHeader(estado) {
   // =========================
   // ÍCONE HOME
   // =========================
-  const homeIconLink = document.querySelector(
-    '#header-home-icon a[data-section="home"]'
-  );
+  const homeIconButton = document.getElementById("header-home-icon");
   
-  if (homeIconLink) {
-    homeIconLink.classList.toggle("hidden", !data.showHomeIcon);
+  if (homeIconButton) {
+    homeIconButton.classList.toggle("hidden", !data.showHomeIcon);
   }
 
   /* =========================
