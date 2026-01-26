@@ -24,8 +24,8 @@ function aplicarEstadoHeader(estado) {
       photo.src = data.photoSrc;
       photo.alt = data.photoAlt || "";
   
-      // 🔴 NÃO remove hidden aqui
-      // A entrada é controlada pela animação
+      // ✅ OBRIGATÓRIO para a foto aparecer
+      photo.classList.remove("hidden");
     } else {
       photo.classList.add("hidden");
     }
