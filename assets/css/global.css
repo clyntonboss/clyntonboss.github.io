@@ -1489,7 +1489,7 @@ body.static-header .last-update {
   transition-delay: 0.16s;
 }
 
-/* Base – Header Portfólio */
+/* Estado Base Header Portfólio */
 .header-portfolio .header-photo,
 .header-portfolio .header-name,
 .header-portfolio .last-update {
@@ -1497,10 +1497,6 @@ body.static-header .last-update {
     opacity 0.4s ease,
     transform 0.4s ease;
 }
-
-/* =========================
-   SAÍDA – Header Portfólio
-   ========================= */
 
 /* Nome */
 .portfolio-exit .header-name {
@@ -1523,20 +1519,12 @@ body.static-header .last-update {
   transition-delay: 0.24s;
 }
 
-/* =========================
-   PRÉ-ENTRADA
-   ========================= */
-
 .portfolio-pre-enter .header-photo,
 .portfolio-pre-enter .header-name,
 .portfolio-pre-enter .last-update {
   opacity: 0;
   transform: translateX(-64px);
 }
-
-/* =========================
-   ENTRADA – Header Portfólio
-   ========================= */
 
 /* Foto */
 .portfolio-enter .header-photo {
