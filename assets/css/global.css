@@ -1563,5 +1563,5 @@ body.static-header .last-update {
 /* Foto normal (PORTFÓLIO) */
 .header-portfolio .header-photo {
   width: auto;
-  margin-right: 12px; /* ajuste conforme seu layout */
+  margin-right: 0px; /* ajuste conforme seu layout */
 }
