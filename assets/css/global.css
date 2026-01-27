@@ -1596,3 +1596,59 @@ body[data-mode="portfolio"] .intro-photo {
 body[data-mode="portfolio"] .side-portfolio {
   display: flex;
 }
+
+/* Animação Intro -> Side Menu -> Intro */
+.intro-photo,
+.side-portfolio {
+  will-change: transform, opacity;
+}
+
+.intro-photo.is-leaving img {
+  animation: introOut 0.4s ease forwards;
+}
+
+.intro-photo.is-leaving .btn-projetos:nth-of-type(1) {
+  animation: introOut 0.4s ease forwards 0.05s;
+}
+
+.intro-photo.is-leaving .btn-projetos:nth-of-type(2) {
+  animation: introOut 0.4s ease forwards 0.1s;
+}
+
+.intro-photo.is-leaving .btn-projetos:nth-of-type(3) {
+  animation: introOut 0.4s ease forwards 0.15s;
+}
+
+.intro-photo.is-leaving .signature-phrase {
+  animation: introOut 0.4s ease forwards 0.2s;
+}
+
+@keyframes introOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+}
+
+.side-portfolio.is-entering li {
+  animation: sideIn 0.4s ease forwards;
+}
+
+.side-portfolio.is-entering li:nth-child(1) { animation-delay: 0.05s; }
+.side-portfolio.is-entering li:nth-child(2) { animation-delay: 0.1s; }
+.side-portfolio.is-entering li:nth-child(3) { animation-delay: 0.15s; }
+
+@keyframes sideIn {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
