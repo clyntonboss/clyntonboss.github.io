@@ -1634,15 +1634,21 @@ body[data-mode="portfolio"] .side-portfolio {
   }
 }
 
-.side-portfolio.is-entering li {
-  animation: sideIn 0.4s ease forwards;
+/* Entrada Side Menu: bottom → top */
+.side-portfolio.is-entering {
+  opacity: 0;
+  transform: translateY(32px);
+  animation: sideMenuIn 0.4s ease forwards;
 }
 
-.side-portfolio.is-entering li:nth-child(1) { animation-delay: 0.05s; }
-.side-portfolio.is-entering li:nth-child(2) { animation-delay: 0.1s; }
-.side-portfolio.is-entering li:nth-child(3) { animation-delay: 0.15s; }
+/* Saída Side Menu: top → bottom */
+.side-portfolio.is-leaving {
+  opacity: 1;
+  transform: translateY(0);
+  animation: sideMenuOut 0.4s ease forwards;
+}
 
-@keyframes sideIn {
+@keyframes sideMenuIn {
   from {
     opacity: 0;
     transform: translateY(32px);
@@ -1650,5 +1656,16 @@ body[data-mode="portfolio"] .side-portfolio {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes sideMenuOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(32px);
   }
 }
