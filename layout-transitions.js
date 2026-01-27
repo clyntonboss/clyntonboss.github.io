@@ -1,7 +1,3 @@
-function setLayoutMode(mode) {
-  document.body.dataset.mode = mode;
-}
-
 function aplicarEstadoHeader(estado) {
   const data = window.headerDataset?.[estado];
   if (!data) return;
@@ -58,9 +54,6 @@ function aplicarEstadoHeader(estado) {
      ESTADO ATUAL (opcional)
   ========================= */
   header.dataset.state = estado;
-
-  // 🔥 ESSENCIAL PARA INTRO / SIDE MENU
-  document.body.dataset.mode = estado;
 }
 
 function resetHeaderAnimation(header) {
@@ -79,7 +72,6 @@ function resetHeaderAnimation(header) {
 
 document.addEventListener("DOMContentLoaded", () => {
   aplicarEstadoHeader("home");
-  setLayoutMode("home"); // 👈 ADD
 });
 
 document.addEventListener("click", e => {
@@ -87,8 +79,6 @@ document.addEventListener("click", e => {
   if (!link) return;
 
   e.preventDefault();
-
-  setLayoutMode("portfolio"); // 👈 ADD
 
   const header = document.querySelector("header.header");
   if (!header) return;
@@ -100,7 +90,6 @@ document.addEventListener("click", e => {
     
   setTimeout(() => {
     aplicarEstadoHeader("portfolio");
-    setLayoutMode("portfolio");
     
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
@@ -118,8 +107,6 @@ document.addEventListener("click", e => {
 
   e.preventDefault();
 
-  setLayoutMode("home"); // 👈 ADD
-
   const header = document.querySelector("header.header");
   if (!header) return;
 
@@ -130,7 +117,6 @@ document.addEventListener("click", e => {
   
   setTimeout(() => {
     aplicarEstadoHeader("home");
-    setLayoutMode("home");
     
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
