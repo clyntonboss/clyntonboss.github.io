@@ -1603,24 +1603,24 @@ body[data-mode="portfolio"] .side-portfolio {
   will-change: transform, opacity;
 }
 
-.intro-photo.is-leaving img {
+.intro-photo.is-leaving .signature-phrase {
   animation: introOut 0.4s ease forwards;
 }
 
-.intro-photo.is-leaving .btn-projetos:nth-of-type(1) {
-  animation: introOut 0.4s ease forwards 0.05s;
+.intro-photo.is-leaving .btn-projetos:nth-of-type(3) {
+  animation: introOut 0.4s ease forwards 0.16s;
 }
 
 .intro-photo.is-leaving .btn-projetos:nth-of-type(2) {
-  animation: introOut 0.4s ease forwards 0.1s;
+  animation: introOut 0.4s ease forwards 0.32s;
 }
 
-.intro-photo.is-leaving .btn-projetos:nth-of-type(3) {
-  animation: introOut 0.4s ease forwards 0.15s;
+.intro-photo.is-leaving .btn-projetos:nth-of-type(1) {
+  animation: introOut 0.4s ease forwards 0.48s;
 }
 
-.intro-photo.is-leaving .signature-phrase {
-  animation: introOut 0.4s ease forwards 0.2s;
+.intro-photo.is-leaving img {
+  animation: introOut 0.4s ease forwards 0.64s;
 }
 
 @keyframes introOut {
@@ -1630,7 +1630,7 @@ body[data-mode="portfolio"] .side-portfolio {
   }
   to {
     opacity: 0;
-    transform: translateY(32px);
+    transform: translateY(64px);
   }
 }
 
@@ -1651,7 +1651,7 @@ body[data-mode="portfolio"] .side-portfolio {
 @keyframes sideMenuIn {
   from {
     opacity: 0;
-    transform: translateY(32px);
+    transform: translateY(64px);
   }
   to {
     opacity: 1;
@@ -1666,6 +1666,6 @@ body[data-mode="portfolio"] .side-portfolio {
   }
   to {
     opacity: 0;
-    transform: translateY(32px);
+    transform: translateY(64px);
   }
 }
