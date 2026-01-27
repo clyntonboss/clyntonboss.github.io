@@ -89,25 +89,45 @@ document.addEventListener("click", e => {
   e.preventDefault();
 
   const header = document.querySelector("header.header");
-  if (!header) return;
+  const intro = document.querySelector(".intro-photo");
+  const side = document.querySelector(".side-portfolio");
+
+  if (!header || !intro || !side) return;
 
   resetHeaderAnimation(header);
   
-  // 🔹 SAÍDA (estado atual)
+  // 🔹 SAÍDA HEADER
   header.classList.add("portfolio-exit");
-    
+
+  // 🔹 SAÍDA INTRO (top → bottom)
+  intro.classList.add("is-leaving");
+
   setTimeout(() => {
+    // 🔹 Oculta Intro e remove classe de saída
+    intro.style.display = "none";
+    intro.classList.remove("is-leaving");
+
+    // 🔹 Exibe Side Menu e aplica animação de entrada (bottom → top)
+    side.style.display = "flex";
+    side.classList.add("is-entering");
+
+    // 🔹 Atualiza header e layout
     aplicarEstadoHeader("portfolio");
     setLayoutMode("portfolio");
-    
+
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
-  
+
     void header.offsetWidth;
-  
+
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
-  }, 400);
+
+    // 🔹 Remove classe de entrada do Side Menu após animação
+    setTimeout(() => {
+      side.classList.remove("is-entering");
+    }, 500); // tempo deve bater com duração da animação CSS
+  }, 500); // tempo deve bater com duração da animação CSS
 });
 
 document.addEventListener("click", e => {
@@ -117,25 +137,45 @@ document.addEventListener("click", e => {
   e.preventDefault();
 
   const header = document.querySelector("header.header");
-  if (!header) return;
+  const intro = document.querySelector(".intro-photo");
+  const side = document.querySelector(".side-portfolio");
+
+  if (!header || !intro || !side) return;
 
   resetHeaderAnimation(header);
   
-  // 🔹 SAÍDA (estado atual)
+  // 🔹 SAÍDA HEADER
   header.classList.add("portfolio-exit");
-  
+
+  // 🔹 SAÍDA SIDE MENU (top → bottom)
+  side.classList.add("is-leaving");
+
   setTimeout(() => {
+    // 🔹 Oculta Side Menu e remove classe de saída
+    side.style.display = "none";
+    side.classList.remove("is-leaving");
+
+    // 🔹 Exibe Intro e aplica animação de entrada (bottom → top)
+    intro.style.display = "flex";
+    intro.classList.add("is-entering");
+
+    // 🔹 Atualiza header e layout
     aplicarEstadoHeader("home");
     setLayoutMode("home");
-    
+
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
-  
+
     void header.offsetWidth;
-  
+
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
-  }, 400);
+
+    // 🔹 Remove classe de entrada do Intro após animação
+    setTimeout(() => {
+      intro.classList.remove("is-entering");
+    }, 500); // tempo deve bater com duração da animação CSS
+  }, 500); // tempo deve bater com duração da animação CSS
 });
 
 document.addEventListener("DOMContentLoaded", () => {
