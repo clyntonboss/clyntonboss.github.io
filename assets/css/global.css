@@ -1623,14 +1623,6 @@ body[data-mode="portfolio"] .side-portfolio {
   animation: introOut 0.4s ease forwards 0.64s;
 }
 
-/* Estado base do Intro (quando NÃO está ativo) */
-.intro-photo img,
-.intro-photo .btn-projetos,
-.intro-photo .signature-phrase {
-  opacity: 0;
-  transform: translateY(64px);
-}
-
 .intro-photo.is-entering img {
   animation: introIn 0.4s ease forwards;
 }
