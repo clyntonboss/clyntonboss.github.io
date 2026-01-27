@@ -126,8 +126,8 @@ document.addEventListener("click", e => {
     // 🔹 Remove classe de entrada do Side Menu após animação
     setTimeout(() => {
       side.classList.remove("is-entering");
-    }, 500); // tempo deve bater com duração da animação CSS
-  }, 500); // tempo deve bater com duração da animação CSS
+    }, 640); // tempo deve bater com duração da animação CSS
+  }, 400); // tempo deve bater com duração da animação CSS
 });
 
 document.addEventListener("click", e => {
