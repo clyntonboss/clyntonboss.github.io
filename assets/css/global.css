@@ -1631,10 +1631,6 @@ body[data-mode="portfolio"] .side-portfolio {
   transform: translateY(64px);
 }
 
-.intro-photo.is-entering * {
-  animation-fill-mode: forwards;
-}
-
 .intro-photo.is-entering img {
   animation: introIn 0.4s ease forwards;
 }
