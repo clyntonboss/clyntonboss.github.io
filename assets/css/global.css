@@ -1596,3 +1596,35 @@ body[data-mode="portfolio"] .intro-photo {
 body[data-mode="portfolio"] .side-portfolio {
   display: flex;
 }
+
+/* Animações Intro -> Side Menu -> Intro */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(var(--from, 0));
+  transition:
+    transform 0.6s ease,
+    opacity 0.6s ease;
+  transition-delay: calc(var(--i) * 80ms);
+}
+
+.enter-up [data-animate] {
+  opacity: 1;
+  --from: 40px;
+  transform: translateY(0);
+}
+
+.enter-down [data-animate] {
+  opacity: 1;
+  --from: -40px;
+  transform: translateY(0);
+}
+
+.exit-down [data-animate] {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.exit-up [data-animate] {
+  opacity: 0;
+  transform: translateY(-40px);
+}
