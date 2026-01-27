@@ -157,6 +157,11 @@ document.addEventListener("click", e => {
 
     // 🔹 Exibe Intro e aplica animação de entrada (bottom → top)
     intro.style.display = "flex";
+    intro.classList.add("pre-enter");
+    
+    void intro.offsetWidth; // força o browser a registrar o estado
+    
+    intro.classList.remove("pre-enter");
     intro.classList.add("is-entering");
 
     // 🔹 Atualiza header e layout
