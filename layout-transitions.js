@@ -58,6 +58,9 @@ function aplicarEstadoHeader(estado) {
      ESTADO ATUAL (opcional)
   ========================= */
   header.dataset.state = estado;
+
+  // 🔥 ESSENCIAL PARA INTRO / SIDE MENU
+  document.body.dataset.mode = estado;
 }
 
 function resetHeaderAnimation(header) {
