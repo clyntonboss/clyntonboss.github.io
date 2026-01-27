@@ -1623,14 +1623,6 @@ body[data-mode="portfolio"] .side-portfolio {
   animation: introOut 0.4s ease forwards 0.64s;
 }
 
-/* Estado PRE-ENTRADA do Intro (somente durante transição) */
-.intro-photo.pre-enter img,
-.intro-photo.pre-enter .btn-projetos,
-.intro-photo.pre-enter .signature-phrase {
-  opacity: 0;
-  transform: translateY(64px);
-}
-
 .intro-photo.is-entering img {
   animation: introIn 0.4s ease forwards;
 }
