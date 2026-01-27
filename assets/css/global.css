@@ -1631,6 +1631,10 @@ body[data-mode="portfolio"] .side-portfolio {
   transform: translateY(64px);
 }
 
+.intro-photo.is-entering * {
+  animation-fill-mode: both;
+}
+
 .intro-photo.is-entering img {
   animation: introIn 0.4s ease forwards;
 }
@@ -1652,6 +1656,10 @@ body[data-mode="portfolio"] .side-portfolio {
 }
 
 @keyframes introIn {
+  from {
+    opacity: 0;
+    transform: translateY(64px);
+  }
   to {
     opacity: 1;
     transform: translateY(0);
