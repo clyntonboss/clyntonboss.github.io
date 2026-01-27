@@ -1577,3 +1577,22 @@ body.static-header .last-update {
   width: auto;
   margin-right: 12px; /* ajuste conforme seu layout */
 }
+
+/* Intro -> Side Menu */
+/* HOME */
+body[data-mode="home"] .intro-photo {
+  display: flex;
+}
+
+body[data-mode="home"] .side-portfolio {
+  display: none;
+}
+
+/* PORTFÓLIO */
+body[data-mode="portfolio"] .intro-photo {
+  display: none;
+}
+
+body[data-mode="portfolio"] .side-portfolio {
+  display: flex;
+}
