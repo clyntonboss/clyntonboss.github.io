@@ -1623,6 +1623,37 @@ body[data-mode="portfolio"] .side-portfolio {
   animation: introOut 0.4s ease forwards 0.64s;
 }
 
+.intro-photo.is-entering img {
+  animation: introIn 0.4s ease forwards;
+}
+
+.intro-photo.is-entering .btn-projetos:nth-of-type(1) {
+  animation: introIn 0.4s ease forwards 0.16s;
+}
+
+.intro-photo.is-entering .btn-projetos:nth-of-type(2) {
+  animation: introIn 0.4s ease forwards 0.32s;
+}
+
+.intro-photo.is-entering .btn-projetos:nth-of-type(3) {
+  animation: introIn 0.4s ease forwards 0.48s;
+}
+
+.intro-photo.is-entering .signature-phrase {
+  animation: introIn 0.4s ease forwards 0.64s;
+}
+
+@keyframes introIn {
+  from {
+    opacity: 0;
+    transform: translateY(64px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes introOut {
   from {
     opacity: 1;
