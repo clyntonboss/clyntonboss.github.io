@@ -100,6 +100,7 @@ document.addEventListener("click", e => {
     
   setTimeout(() => {
     aplicarEstadoHeader("portfolio");
+    setLayoutMode("portfolio");
     
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
@@ -129,6 +130,7 @@ document.addEventListener("click", e => {
   
   setTimeout(() => {
     aplicarEstadoHeader("home");
+    setLayoutMode("home");
     
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
