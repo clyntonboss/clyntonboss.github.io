@@ -147,23 +147,22 @@ document.addEventListener("click", e => {
   // 🔹 SAÍDA HEADER
   header.classList.add("portfolio-exit");
 
-  // 🔹 SAÍDA SIDE MENU (top → bottom)
+  // 🔹 SAÍDA SIDE MENU
   side.classList.add("is-leaving");
 
   setTimeout(() => {
-    // 🔹 Oculta Side Menu e remove classe de saída
+    // 🔹 Oculta Side Menu
     side.style.display = "none";
     side.classList.remove("is-leaving");
 
-    // 🔹 EXIBE INTRO
+    // 🔹 Mostra Intro
     intro.style.display = "flex";
 
-    // 🔥 REARMA fade-item (mesmo comportamento do load)
+    // 🔥 RESET DO FADE
     const fadeItems = intro.querySelectorAll(".fade-item");
-
     fadeItems.forEach(el => {
       el.classList.remove("fade-item");
-      void el.offsetWidth; // força reflow
+      void el.offsetWidth; // força reflow individual
       el.classList.add("fade-item");
     });
 
@@ -178,8 +177,7 @@ document.addEventListener("click", e => {
 
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
-
-  }, 400); // tempo da saída do Side Menu
+  }, 400);
 });
 
 document.addEventListener("DOMContentLoaded", () => {
