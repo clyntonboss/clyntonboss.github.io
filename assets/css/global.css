@@ -1626,6 +1626,8 @@ body[data-mode="portfolio"] .side-portfolio {
 /* ESTADO INICIAL DA ENTRADA DO INTRO */
 .intro-photo.is-entering img,
 .intro-photo.is-entering .btn-projetos,
+.intro-photo.is-entering .btn-projetos,
+.intro-photo.is-entering .btn-projetos,
 .intro-photo.is-entering .signature-phrase {
   opacity: 0;
   transform: translateY(64px);
