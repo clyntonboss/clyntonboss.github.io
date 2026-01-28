@@ -90,14 +90,6 @@ function initToggle() {
                   details.classList.add('open');
                   btn.textContent = '−';
               }
-
-            //if (isOpen) {
-                //details.style.maxHeight = '0';
-                //btn.textContent = '+';
-            //} else {
-                //details.style.maxHeight = details.scrollHeight + 'px';
-                //btn.textContent = '−';
-            //}
         });
     });
 }
@@ -146,7 +138,7 @@ function initCertificados() {
 // ==================== Módulo Update Date ====================
 function initUpdateDate() {
     const lastUpdateElements = document.querySelectorAll('.last-update');
-    const dataAtualizacao = "09 de janeiro de 2026"; // Definir data aqui
+    const dataAtualizacao = "28 de janeiro de 2026"; // Definir data aqui
     lastUpdateElements.forEach(el => el.textContent = `Última atualização em: ${dataAtualizacao}`);
 }
 
