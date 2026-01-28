@@ -127,7 +127,7 @@ document.addEventListener("click", e => {
     setTimeout(() => {
       side.classList.remove("is-entering");
     }, 400); // tempo deve bater com duração da animação CSS
-  }, 800); // tempo deve bater com duração da animação CSS
+  }, 1040); // tempo deve bater com duração da animação CSS
 });
 
 document.addEventListener("click", e => {
@@ -174,7 +174,7 @@ document.addEventListener("click", e => {
     // 🔹 Remove classe de entrada do Intro após animação
     setTimeout(() => {
       intro.classList.remove("is-entering");
-    }, 800); // tempo deve bater com duração da animação CSS
+    }, 1040); // tempo deve bater com duração da animação CSS
   }, 400); // tempo deve bater com duração da animação CSS
 });
 
