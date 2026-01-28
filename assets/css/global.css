@@ -297,7 +297,7 @@ main {
 }
 
 .intro-photo {
-  flex: 0 0 25%;
+  flex: 0 0 22%;
   display: flex;
   flex-direction: column;
   margin-top: 16px;
