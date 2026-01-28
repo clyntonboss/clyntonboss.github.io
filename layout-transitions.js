@@ -143,28 +143,21 @@ document.addEventListener("click", e => {
   if (!header || !intro || !side) return;
 
   resetHeaderAnimation(header);
-
+  
   // 🔹 SAÍDA HEADER
   header.classList.add("portfolio-exit");
 
-  // 🔹 SAÍDA SIDE MENU
+  // 🔹 SAÍDA SIDE MENU (top → bottom)
   side.classList.add("is-leaving");
 
   setTimeout(() => {
-    // 🔹 Oculta Side Menu
+    // 🔹 Oculta Side Menu e remove classe de saída
     side.style.display = "none";
     side.classList.remove("is-leaving");
 
-    // 🔹 Mostra Intro
+    // 🔹 Exibe Intro e aplica animação de entrada (bottom → top)
     intro.style.display = "flex";
-
-    // 🔥 RESET DO FADE
-    const fadeItems = intro.querySelectorAll(".fade-item");
-    fadeItems.forEach(el => {
-      el.classList.remove("fade-item");
-      void el.offsetWidth; // força reflow individual
-      el.classList.add("fade-item");
-    });
+    intro.classList.add("is-entering");
 
     // 🔹 Atualiza header e layout
     aplicarEstadoHeader("home");
@@ -177,7 +170,12 @@ document.addEventListener("click", e => {
 
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
-  }, 400);
+
+    // 🔹 Remove classe de entrada do Intro após animação
+    setTimeout(() => {
+      intro.classList.remove("is-entering");
+    }, 800); // tempo deve bater com duração da animação CSS
+  }, 400); // tempo deve bater com duração da animação CSS
 });
 
 document.addEventListener("DOMContentLoaded", () => {
