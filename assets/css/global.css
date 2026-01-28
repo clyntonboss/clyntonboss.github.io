@@ -1598,6 +1598,15 @@ body[data-mode="portfolio"] .side-portfolio {
 }
 
 /* Animação Intro -> Side Menu -> Intro */
+.intro-photo img,
+.intro-photo .btn-projetos,
+.intro-photo .btn-projetos,
+.intro-photo .btn-projetos,
+.intro-photo .signature-phrase {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .intro-photo,
 .side-portfolio {
   will-change: transform, opacity;
