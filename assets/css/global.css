@@ -1723,7 +1723,7 @@ body[data-mode="portfolio"] .side-portfolio {
   cursor: pointer;
   font-size: 32px;
   color: var(--header-name);
-  transform: scale(0.4);
+  transform: scale(1);
   opacity: 0;
   pointer-events: none;
   display: inline-flex;
