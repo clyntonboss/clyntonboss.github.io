@@ -1729,9 +1729,11 @@ body[data-mode="portfolio"] .side-portfolio {
    cursor: pointer;
    font-size: 32px;
    color: var(--header-name);
-   transition: transform 0.2s ease, color 0.2s ease;
-   opacity: 0.8;
    transform: scale(0.8);
+   
+   opacity: 0;
+   pointer-events: none;
+   transition: transform 0.2s ease, color 0.2s ease;
 }
 
 #header-home-icon:hover {
