@@ -934,7 +934,7 @@ body.static-header .last-update {
 /* Efeito hover elegante */
 #theme-toggle-home:hover,
 #theme-toggle-portfolio:hover {
-    transform: scale(1.12);
+    transform: scale(1.4);
     color: var(--accent-color);
 }
 
