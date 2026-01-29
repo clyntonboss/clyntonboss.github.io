@@ -1749,7 +1749,3 @@ body[data-mode="portfolio"] .side-portfolio {
    opacity: 0.8;
    pointer-events: auto;
 }
-
-header.header-portfolio #header-home-icon {
-  visibility: visible;
-}
