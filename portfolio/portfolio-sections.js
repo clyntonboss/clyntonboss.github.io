@@ -190,27 +190,27 @@ const sections = {
                        >
               </a>
               <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
+                  <span><strong>Instituição:</strong></span>
+                  <span>UBM - Centro Universitário de Barra Mansa</span>
               </div>
               <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Engenharia de Produção | Bacharelado</span>
+                  <span><strong>Curso:</strong></span>
+                  <span>Engenharia de Produção | Bacharelado</span>
               </div>
               <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">3.800 horas (Fev/2019 a Mar/2024)</span>
+                  <span><strong>Carga Horária:</strong></span>
+                  <span>3.800 horas (Fev/2019 a Mar/2024)</span>
               </div>
               <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">13 de março de 2024</span>
+                  <span><strong>Data de Conclusão:</strong></span>
+                  <span>13 de março de 2024</span>
               </div>
               <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">514.514.4bb97a2ecb2b</span>
+                  <span><strong>Código:</strong></span>
+                  <span>514.514.4bb97a2ecb2b</span>
               </div>
               <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+                  <span><strong>Verificação:</strong></span>
                   <a href="https://www.ubm.br/dd/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
               </div>
       
