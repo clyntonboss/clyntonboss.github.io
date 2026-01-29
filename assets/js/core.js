@@ -1,3 +1,5 @@
+document.documentElement.classList.add("js-ready");
+
 // ==================== FUNÇÃO GLOBAL: ABRIR CERTIFICADO ====================
 function abrirCertificado(url) {
   const largura = screen.availWidth;
