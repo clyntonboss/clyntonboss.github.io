@@ -1723,9 +1723,9 @@ body[data-mode="portfolio"] .side-portfolio {
   background: transparent;
   border: none;
   cursor: pointer;
-  font-size: 32px;
+  font-size: 26px;
   color: var(--header-name);
-  transform: scale(0.9);
+  transform: scale(1);
   opacity: 0;
   pointer-events: none;
   display: inline-flex;
