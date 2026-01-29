@@ -1718,8 +1718,9 @@ body[data-mode="portfolio"] .side-portfolio {
 
 /* Ícone Home */
 #header-home-icon {
-  opacity: 0;
-  pointer-events: none;
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity 0.2s ease;
 }
 
 #header-home-icon {
@@ -1737,13 +1738,11 @@ body[data-mode="portfolio"] .side-portfolio {
 }
 
 #header-home-icon.hidden {
-   display: none;
    opacity: 0;
    pointer-events: none;
 }
 
 #header-home-icon:not(.hidden) {
-  display: inline-flex;
   opacity: 0.8;
   pointer-events: auto;
 }
