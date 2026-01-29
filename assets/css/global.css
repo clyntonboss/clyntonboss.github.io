@@ -1748,7 +1748,7 @@ body[data-mode="portfolio"] .side-portfolio {
 }
 
 #header-home-icon:not(.hidden) {
-  display: inline-flex;
+  display: inline-flex !important;
   opacity: 0.8;
   pointer-events: auto;
 }
