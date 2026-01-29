@@ -1708,30 +1708,17 @@ body[data-mode="portfolio"] .side-portfolio {
 
 /* Ícone Home */
 #header-home-icon {
-  background: transparent;
-  border: none;
-  padding: 0;
-  margin-right: 12px; /* aproxima do botão de tema */
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: var(--text-primary);
+   background: transparent;
+   border: none;
+   cursor: pointer;
+   font-size: 28px;
+   color: var(--header-name);
+   transition: transform 0.2s ease, color 0.2s ease;
+   opacity: 0.75;
+   transform: scale(0.8);
 }
 
-#header-home-icon i {
-  font-size: 1.35rem; /* maior e mais presente */
-  opacity: 0.75;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-#header-home-icon:hover i {
-  opacity: 1;
-  transform: scale(1.08);
-}
-
-#header-home-icon:active i {
-  transform: scale(0.95);
+#header-home-icon:hover {
+   transform: scale(1.2);
+   color: var(--accent-color);
 }
