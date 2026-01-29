@@ -1730,9 +1730,6 @@ body[data-mode="portfolio"] .side-portfolio {
    font-size: 32px;
    color: var(--header-name);
    transform: scale(0.8);
-   
-   opacity: 0;
-   pointer-events: none;
    transition: transform 0.2s ease, color 0.2s ease;
 }
 
@@ -1742,13 +1739,13 @@ body[data-mode="portfolio"] .side-portfolio {
 }
 
 #header-home-icon.hidden {
+   display: none;
    opacity: 0;
    pointer-events: none;
-   transform: scale(0.8);
 }
 
 #header-home-icon:not(.hidden) {
-  display: inline-flex !important;
+  display: inline-flex;
   opacity: 0.8;
   pointer-events: auto;
 }
