@@ -1741,3 +1741,7 @@ body[data-mode="portfolio"] .side-portfolio {
 #header-home-icon:hover {
   color: var(--accent-color);
 }
+
+#header-home-icon:hover::after {
+  content: attr(aria-label);
+}
