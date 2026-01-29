@@ -1721,7 +1721,8 @@ body[data-mode="portfolio"] .side-portfolio {
    transition: transform 0.2s ease, color 0.2s ease;
    opacity: 0.75;
    transform: scale(0.8);
-   margin-left: 90%;
+   margin-left: 80%;
+   margin-right: 24px;
 }
 
 #header-home-icon:hover {
