@@ -1740,12 +1740,12 @@ body[data-mode="portfolio"] .side-portfolio {
 }
 
 #header-home-icon.hidden {
-  opacity: 0;
-  pointer-events: none;
-  transform: scale(0.8);
+   opacity: 0;
+   pointer-events: none;
+   transform: scale(0.8);
 }
 
 #header-home-icon:not(.hidden) {
-  opacity: 0.75;
-  pointer-events: auto;
+   opacity: 0.75;
+   pointer-events: auto;
 }
