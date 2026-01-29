@@ -48,7 +48,7 @@ body {
 .header-controls {
   display: flex;
   align-items: center;
-  gap: 24px; /* define o “um pouco antes” */
+  gap: 32px; /* define o “um pouco antes” */
 }
 
 .header-left {
