@@ -48,7 +48,7 @@ body {
 .header-controls {
   display: flex;
   align-items: center;
-  gap: 10px; /* define o “um pouco antes” */
+  gap: 24px; /* define o “um pouco antes” */
 }
 
 .header-left {
@@ -1730,7 +1730,7 @@ body[data-mode="portfolio"] .side-portfolio {
    font-size: 32px;
    color: var(--header-name);
    transition: transform 0.2s ease, color 0.2s ease;
-   opacity: 0.75;
+   opacity: 0.8;
    transform: scale(0.8);
 }
 
@@ -1746,6 +1746,6 @@ body[data-mode="portfolio"] .side-portfolio {
 }
 
 #header-home-icon:not(.hidden) {
-   opacity: 0.75;
+   opacity: 0.8;
    pointer-events: auto;
 }
