@@ -472,3 +472,11 @@ function atualizarTooltipsViewMode(modoAtivo) {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const homeIcon = document.getElementById("header-home-icon");
+  if (!homeIcon) return;
+
+  // garante padrão de tooltip
+  homeIcon.setAttribute("aria-label", "Página Inicial");
+});
