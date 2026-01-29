@@ -1411,7 +1411,8 @@ body.static-header .last-update {
 .view-btn[aria-label]::after,
 #theme-toggle-home[aria-label]::after,
 #theme-toggle-portfolio[aria-label]::after,
-.copiar-btn[aria-label]::after {
+.copiar-btn[aria-label]::after,
+#header-home-icon[aria-label]::after {
   content: attr(aria-label);
   position: absolute;
   bottom: -28px;
@@ -1439,7 +1440,8 @@ body.static-header .last-update {
 .view-btn[aria-label]:hover::after,
 #theme-toggle-home[aria-label]:hover::after,
 #theme-toggle-portfolio[aria-label]:hover::after,
-.copiar-btn[aria-label]:hover::after {
+.copiar-btn[aria-label]:hover::after,
+#header-home-icon[aria-label]:hover::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
