@@ -1719,6 +1719,11 @@ body[data-mode="portfolio"] .side-portfolio {
 
 /* Ícone Home */
 #header-home-icon {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#header-home-icon {
    background: transparent;
    border: none;
    cursor: pointer;
@@ -1727,11 +1732,20 @@ body[data-mode="portfolio"] .side-portfolio {
    transition: transform 0.2s ease, color 0.2s ease;
    opacity: 0.75;
    transform: scale(0.8);
-   margin-left: 720px;
-   margin-right: 24px;
 }
 
 #header-home-icon:hover {
    transform: scale(1.02);
    color: var(--accent-color);
+}
+
+#header-home-icon.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+}
+
+#header-home-icon:not(.hidden) {
+  opacity: 0.75;
+  pointer-events: auto;
 }
