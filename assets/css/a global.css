@@ -45,6 +45,12 @@ body {
   box-shadow: var(--box-shadow-header);
 }
 
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 24px; /* define o “um pouco antes” */
+}
+
 .header-left {
   font-size: 1.7rem;
   font-weight: 600;
@@ -917,18 +923,17 @@ body.static-header .last-update {
 
 #theme-toggle-home,
 #theme-toggle-portfolio {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 28px;
-    color: var(--header-name);
-    transition: transform .2s ease, color .3s ease;
+   background: none;
+   border: none;
+   cursor: pointer;
+   font-size: 28px;
+   color: var(--header-name);
+   transition: transform 0.2s ease, color 0.2s ease;
 }
 
 /* Efeito hover elegante */
 #theme-toggle-home:hover,
 #theme-toggle-portfolio:hover {
-    transform: scale(1.2);
     color: var(--accent-color);
 }
 
@@ -1709,4 +1714,35 @@ body[data-mode="portfolio"] .side-portfolio {
     opacity: 0;
     transform: translateY(64px);
   }
+}
+
+/* Ícone Home */
+#header-home-icon {
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity 0.2s ease;
+}
+
+#header-home-icon {
+   background: transparent;
+   border: none;
+   cursor: pointer;
+   font-size: 32px;
+   color: var(--header-name);
+   transform: scale(0.8);
+   transition: transform 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+}
+
+#header-home-icon.hidden {
+   display: none;
+}
+
+#header-home-icon:not(.hidden) {
+   display: inline-flex;
+   opacity: 0.8;
+   pointer-events: auto;
+}
+
+#header-home-icon:hover {
+   color: var(--accent-color);
 }
