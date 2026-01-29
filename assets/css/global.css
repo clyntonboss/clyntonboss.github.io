@@ -1730,19 +1730,19 @@ body[data-mode="portfolio"] .side-portfolio {
    font-size: 32px;
    color: var(--header-name);
    transform: scale(0.8);
-   transition: transform 0.2s ease, color 0.2s ease;
+   transition: transform 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+}
+
+#header-home-icon.hidden {
+   display: none;
+}
+
+#header-home-icon:not(.hidden) {
+   display: inline-flex;
+   opacity: 0.8;
+   pointer-events: auto;
 }
 
 #header-home-icon:hover {
    color: var(--accent-color);
-}
-
-#header-home-icon.hidden {
-   opacity: 0;
-   pointer-events: none;
-}
-
-#header-home-icon:not(.hidden) {
-  opacity: 0.8;
-  pointer-events: auto;
 }
