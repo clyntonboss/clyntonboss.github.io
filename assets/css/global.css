@@ -554,6 +554,11 @@ main {
   line-height: 1.8;     /* mantém o espaçamento entre linhas */
 }
 
+.curriculo-text > div {
+  margin-bottom: 1.2em;
+  line-height: 1.8;
+}
+
 .curriculo-list {
     font-size: 1.25rem;
     flex: 1;
