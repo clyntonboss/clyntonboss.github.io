@@ -1723,7 +1723,7 @@ body[data-mode="portfolio"] .side-portfolio {
   cursor: pointer;
   font-size: 32px;
   color: var(--header-name);
-  transform: scale(1);
+  transform: scale(0.9);
   opacity: 0;
   pointer-events: none;
   display: inline-flex;
@@ -1740,8 +1740,4 @@ body[data-mode="portfolio"] .side-portfolio {
 
 #header-home-icon:hover {
   color: var(--accent-color);
-}
-
-#header-home-icon:hover::after {
-  content: attr(aria-label);
 }
