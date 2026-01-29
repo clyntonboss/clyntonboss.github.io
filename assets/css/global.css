@@ -45,6 +45,12 @@ body {
   box-shadow: var(--box-shadow-header);
 }
 
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* define o “um pouco antes” */
+}
+
 .header-left {
   font-size: 1.7rem;
   font-weight: 600;
