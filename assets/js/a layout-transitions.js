@@ -131,7 +131,7 @@ document.addEventListener("click", e => {
 });
 
 document.addEventListener("click", e => {
-  const link = e.target.closest('a[data-section="home"]');
+  const link = e.target.closest('[data-section="home"]');
   if (!link) return;
 
   e.preventDefault();
