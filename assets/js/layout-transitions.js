@@ -51,7 +51,11 @@ function aplicarEstadoHeader(estado) {
   const homeIconButton = document.getElementById("header-home-icon");
   
   if (homeIconButton) {
-    homeIconButton.classList.toggle("hidden", !data.showHomeIcon);
+    if (data.showHomeIcon) {
+      homeIconButton.classList.add("is-visible");
+    } else {
+      homeIconButton.classList.remove("is-visible");
+    }
   }
 
   /* =========================
