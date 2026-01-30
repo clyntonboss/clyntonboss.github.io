@@ -2,9 +2,8 @@
    global.css — versão refinada com tons neutros
    ============================== */
 
-/* Declaração da Escalabilidade Font Size */
 html {
-  font-size: 100%;
+  font-size: 100%;                                                /* Declaração da Escalabilidade do Tamanho da Fonte */
 }
 
 /* Reset e tipografia */
@@ -86,8 +85,8 @@ body {
 }
 
 .last-update.visible {
-  opacity: 1;
-  transform: translateX(0); /* termina na posição original */
+  opacity: 1;                                                /* Opacidade do Texto da Data de Atualização do Site */
+  transform: translateX(0);                                  /* Posição Original do Texto de Atualização do Site */
 }
 
 .header-right a {
