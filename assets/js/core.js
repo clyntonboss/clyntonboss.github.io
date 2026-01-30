@@ -1,6 +1,6 @@
 document.documentElement.classList.add("js-ready");
 
-// ==================== FUNÇÃO GLOBAL: ABRIR CERTIFICADO ====================
+// ================================ Função Global: Abrir Certificado ================================
 function abrirCertificado(url) {
   const largura = screen.availWidth;
   const altura = screen.availHeight;
@@ -18,7 +18,7 @@ function abrirCertificado(url) {
   }
 }
 
-// ==================== FUNÇÃO GLOBAL: ABRIR ARTIGO ====================
+// =================================== Função Global: Abrir Artigo ==================================
 function abrirArtigo(url) {
     const largura = screen.width;
     const altura = screen.height;
@@ -140,7 +140,7 @@ function initCertificados() {
 // ==================== Módulo Update Date ====================
 function initUpdateDate() {
     const lastUpdateElements = document.querySelectorAll('.last-update');
-    const dataAtualizacao = "28 de janeiro de 2026"; // Definir data aqui
+    const dataAtualizacao = "30 de janeiro de 2026"; // Definir data aqui
     lastUpdateElements.forEach(el => el.textContent = `Última atualização em: ${dataAtualizacao}`);
 }
 
