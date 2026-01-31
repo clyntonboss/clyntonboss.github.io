@@ -1,5 +1,13 @@
 let cursoAtualIndex = 0;
 
+// 🔹 Ordena cursos por data de conclusão (decrescente)
+datasetCategoria.sort((a, b) => {
+  const diffData =
+    new Date(b.conclusaoISO) - new Date(a.conclusaoISO);
+
+  return diffData !== 0 ? diffData : b.id - a.id;
+});
+
 // Função Utilitária
 
 function ativarTransicao(container) {
