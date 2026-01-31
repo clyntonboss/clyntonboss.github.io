@@ -1,17 +1,5 @@
 let cursoAtualIndex = 0;
 
-// 🔹 Inverte a ordem dos cursos (mais recentes primeiro)
-// Executa apenas quando o dataset já existir
-function inverterDatasetSeNecessario() {
-  if (
-    Array.isArray(window.datasetCategoria) &&
-    !window.datasetCategoria.__reversed
-  ) {
-    window.datasetCategoria.reverse();
-    window.datasetCategoria.__reversed = true;
-  }
-}
-
 // Função Utilitária
 
 function ativarTransicao(container) {
@@ -381,7 +369,6 @@ window.addEventListener("beforeunload", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  inverterDatasetSeNecessario();
 
   // 🔹 Detecta primeira entrada REAL na página (nova aba)
   const alreadyVisited = sessionStorage.getItem("coursesVisited");
