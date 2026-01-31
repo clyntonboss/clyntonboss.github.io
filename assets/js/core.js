@@ -1,14 +1,5 @@
 document.documentElement.classList.add("js-ready");
 
-function ordenarCursos() {
-  datasetCategoria.sort((a, b) => {
-    const diffData =
-      new Date(b.conclusaoISO) - new Date(a.conclusaoISO);
-
-    return diffData !== 0 ? diffData : b.id - a.id;
-  });
-}
-
 // ================================ Função Global: Abrir Certificado ================================
 function abrirCertificado(url) {
   const largura = screen.availWidth;
@@ -303,5 +294,4 @@ document.addEventListener('DOMContentLoaded', () => {
     initThemeHome();
     initThemePortfolio();
     initSyncDisclosureAccordion();
-    ordenarCursos();
 });
