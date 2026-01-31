@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 258,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Análise de Dados com Grafos",
+    
+    cargaHoraria: "51 h",
+
+    conclusaoISO: "2025-12-20",
+
+    dataConclusao: "20 de dezembro de 2025",
+
+    codigo: "AFBT01BR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Neo4j - Análise de Dados com Grafos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AFBT01BR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+
+  {
     id: 1,
 
     instituicao: "Empowerdata",
@@ -6072,31 +6097,6 @@ window.datasetCategoria = [
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/ADSMQ37S.pdf",
-      texto: "Verificar Autenticidade"
-    }
-  },
-
-  {
-    id: 258,
-
-    instituicao: "Digital Innovation One",
- 
-    curso: "Análise de Dados com Grafos",
-    
-    cargaHoraria: "51 h",
-
-    conclusaoISO: "2025-12-20",
-
-    dataConclusao: "20 de dezembro de 2025",
-
-    codigo: "AFBT01BR",
-
-    mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Neo4j - Análise de Dados com Grafos.png",
-
-    verificacao: {
-      url: "https://hermes.dio.me/certificates/AFBT01BR.pdf",
       texto: "Verificar Autenticidade"
     }
   }
