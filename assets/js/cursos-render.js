@@ -1,5 +1,10 @@
 let cursoAtualIndex = 0;
 
+// 🔹 Inverte a ordem dos cursos (mais recentes primeiro)
+if (Array.isArray(window.datasetCategoria)) {
+  window.datasetCategoria.reverse();
+}
+
 // Função Utilitária
 
 function ativarTransicao(container) {
