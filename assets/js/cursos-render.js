@@ -472,3 +472,12 @@ function atualizarTooltipsViewMode(modoAtivo) {
     }
   });
 }
+
+datasetCategoria.sort((a, b) => {
+  const diffData =
+    new Date(b.conclusaoISO) - new Date(a.conclusaoISO);
+
+  if (diffData !== 0) return diffData;
+
+  return b.id - a.id;
+});
