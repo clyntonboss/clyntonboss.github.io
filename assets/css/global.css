@@ -549,12 +549,11 @@ main {
 }
 
 .curriculo-text p {
-  margin-bottom: 1.2em; /* mesma distância que nas outras páginas */
-  line-height: 1.8;     /* mantém o espaçamento entre linhas */
+   margin-top: 8px;
+   margin-left: 16px;
 }
 
 .curriculo-text > div {
-   line-height: 1.8;
    margin-top: 8px;
    margin-left: 16px;
 }
