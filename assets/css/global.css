@@ -1,29 +1,135 @@
-/* ==============================
-   global.css — versão refinada com tons neutros
-   ============================== */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BASE TIPOGRÁFICA GLOBAL DO PROJETO
+   ---------------------------------------------------------
+   Define o tamanho de fonte raiz (root) do site.
+   Este valor serve como referência para todas as medidas
+   em "rem" usadas ao longo do CSS.
+   
+   IMPORTANTE:
+   - 100% equivale ao tamanho padrão do navegador (geralmente 16px)
+   - Respeita configurações de acessibilidade do usuário
+   - Alterar este valor muda a escala de TODO o site
+   ========================================================= */
 
 html {
-  font-size: 100%;                                                /* Declaração da Escalabilidade do Tamanho da Fonte */
+  font-size: 100%; /* Mantém a base tipográfica alinhada ao padrão do navegador */
 }
 
-/* Reset e tipografia */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   RESET GLOBAL DE ESPAÇAMENTOS E MODELO DE CAIXA
+   ---------------------------------------------------------
+   Aplica regras básicas a TODOS os elementos da página,
+   garantindo consistência visual entre navegadores.
+
+   Este bloco elimina margens e espaçamentos padrão e
+   define um modelo de cálculo previsível para larguras
+   e alturas dos elementos.
+
+   IMPORTANTE:
+   - Afeta absolutamente todos os elementos (*)
+   - Remover ou alterar este bloco impacta TODO o layout
+   - Deve permanecer no início do arquivo CSS
+   ========================================================= */
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0;         /* Remove margens padrão aplicadas pelo navegador */
+  padding: 0;        /* Remove espaçamentos internos padrão */
+  box-sizing: border-box; 
+  /* 
+     Garante que width e height incluam padding e border.
+     Evita cálculos manuais e quebras inesperadas de layout.
+  */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONFIGURAÇÃO GLOBAL DO CORPO DA PÁGINA (BODY)
+   ---------------------------------------------------------
+   Define o comportamento visual e estrutural padrão de
+   todo o conteúdo exibido no site.
+
+   Este bloco controla:
+   - Tipografia base
+   - Cores globais (via variáveis CSS)
+   - Ritmo de leitura do texto
+   - Estrutura vertical da página
+   - Comportamento de rolagem
+   - Transições visuais entre temas/estados
+
+   IMPORTANTE:
+   - Afeta TODAS as páginas e seções
+   - Alterações aqui impactam o site inteiro
+   - Deve ser tratado como configuração estrutural
+   ========================================================= */
 
 body {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background-color: var(--bg-color-page); /* fundo principal suavizado */
+  /* 
+     Define a família de fontes padrão do site.
+     A lista funciona como fallback: se uma fonte não existir,
+     o navegador tenta a próxima.
+     O tipo "sans-serif" garante legibilidade em qualquer sistema.
+  */
+
+  background-color: var(--bg-color-page);
+  /* 
+     Cor de fundo principal do site.
+     Utiliza variável CSS para permitir troca de tema
+     (ex: claro / escuro) sem alterar este bloco.
+  */
+
   color: var(--text-color);
+  /* 
+     Cor padrão de todos os textos.
+     Centralizar essa definição evita repetição e inconsistências.
+  */
+
   line-height: 1.6;
+  /* 
+     Define o espaçamento vertical entre linhas de texto.
+     Melhora a legibilidade e o conforto visual em leituras longas.
+     Valores entre 1.5 e 1.7 são considerados ideais.
+  */
+
   display: flex;
+  /* 
+     Transforma o body em um contêiner flexível.
+     Permite controlar facilmente o empilhamento vertical
+     dos principais blocos da página.
+  */
+
   flex-direction: column;
+  /* 
+     Organiza os elementos filhos do body em coluna (vertical).
+     Essencial para layouts com header, conteúdo e footer.
+  */
+
   min-height: 100vh;
+  /* 
+     Garante que a página tenha pelo menos a altura total da tela.
+     Evita fundos "cortados" em páginas com pouco conteúdo.
+  */
+
   scroll-behavior: smooth;
+  /* 
+     Ativa rolagem suave ao navegar por âncoras internas (#id).
+     Melhora a percepção de navegação e orientação do usuário.
+  */
+
   transition: background 0.4s ease, color 0.4s ease;
+  /* 
+     Suaviza a troca de cores de fundo e texto.
+     Usado principalmente em mudanças de tema (ex: dark/light).
+     Evita transições abruptas e desconfortáveis.
+  */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* Cabeçalho fixo */
 .header {
@@ -845,80 +951,6 @@ body.static-header .last-update {
         #EAEAEA,
         transparent
     );
-}
-
-/* ============================
-   CONFIGURAÇÃO DE TEMAS
-============================ */
-
-/* Tema Light */
-:root {
-   /* Cores de Fundo */
-   --bg-color-header: #0A3C5C;
-   --bg-color-page: #F8F8F8;
-   --bg-color-footer: #0A3C5C;
-
-   --bg-color-button: #0A3C5C;
-   --bg-color-button-hover: #224F6C;
-
-   /* Cor do Texto do Caabeçalho e do Rodapé */
-   --header-name: #F8F8F8;
-
-   /* Cor do Título da Seção Principal */
-   --fixed-header-section: #1C1C1C;
-
-   --intro-text: #282828;
-   --curriculo-list: #282828;
-   --curriculo-strong: #080808;
-   
-   --box-shadow-header: 0 6px 16px rgba(0,0,0,0.25);
-   --box-shadow-side-menu: 0 0px 16px rgba(0,0,0,0.25);
-   --box-shadow-footer: 0 -6px 16px rgba(0,0,0,0.25);
-   --box-shadow-button: 0 0px 16px rgba(0,0,0,0.25);
-   
-   --exp-period: #264653;
-   --exp-role: #282828;
-   --exp-toggle: #282828;
-   --exp-details: #4C4C4C;
-
-   --link-cert: #0A3C5C;
-   --box-shadow-link-cert: 0 0px 8px rgba(0,0,0,0.25);
-   
-   --text-color: #181818;
-   --card-bg: #f5f5f5;
-   --accent-color: #4e73df;
-}
-
-/* Tema Dark */
-[data-theme="dark"] {
-   --bg-color-header: #101010;                                       /* Cor de Fundo do Cabeçalho */
-   --bg-color-page: #1C1C1C;                                         /* Cor de Fundo da Seção Principal */
-   --bg-color-footer: #101010;                                       /* Cor de Fundo do Rodapé */
-   --bg-color-button: #101010;
-   --bg-color-button-hover: #181818;
-   --header-name: #B2B2B2;                                           /* Cor do Texto do Cabeçalho e do Rodapé */
-   --fixed-header-section: #DCDCDC;                                  /* Cor do Título da Seção Principal */
-   
-   --intro-text: #EAEAEA;
-   --curriculo-list: #F8F8F8;
-   --curriculo-strong: #808080;
-   
-   --box-shadow-header: 0 6px 16px rgba(255,255,255,0.25);
-   --box-shadow-side-menu: 0 0px 16px rgba(255,255,255,0.25);
-   --box-shadow-footer: 0 -6px 16px rgba(255,255,255,0.25);
-   --box-shadow-button: 0 0px 16px rgba(255,255,255,0.25);
-   
-   --exp-period: #547888;
-   --exp-role: #B2B2B2;
-   --exp-toggle: #B2B2B2;
-   --exp-details: #DCDCDC;
-
-   --link-cert: #476C83;
-   --box-shadow-link-cert: 0 0px 8px rgba(255,255,255,0.25);
-
-   --text-color: #EAEAEA;
-   --card-bg: #1e1e1e;
-   --accent-color: #8bb9ff;
 }
 
 /* ============================
@@ -1746,4 +1778,78 @@ body[data-mode="portfolio"] .side-portfolio {
 
 #header-home-icon:hover {
   color: var(--accent-color);
+}
+
+/* ============================
+   CONFIGURAÇÃO DE TEMAS
+============================ */
+
+/* Tema Light */
+:root {
+   /* Cores de Fundo */
+   --bg-color-header: #0A3C5C;
+   --bg-color-page: #F8F8F8;
+   --bg-color-footer: #0A3C5C;
+
+   --bg-color-button: #0A3C5C;
+   --bg-color-button-hover: #224F6C;
+
+   /* Cor do Texto do Caabeçalho e do Rodapé */
+   --header-name: #F8F8F8;
+
+   /* Cor do Título da Seção Principal */
+   --fixed-header-section: #1C1C1C;
+
+   --intro-text: #282828;
+   --curriculo-list: #282828;
+   --curriculo-strong: #080808;
+   
+   --box-shadow-header: 0 6px 16px rgba(0,0,0,0.25);
+   --box-shadow-side-menu: 0 0px 16px rgba(0,0,0,0.25);
+   --box-shadow-footer: 0 -6px 16px rgba(0,0,0,0.25);
+   --box-shadow-button: 0 0px 16px rgba(0,0,0,0.25);
+   
+   --exp-period: #264653;
+   --exp-role: #282828;
+   --exp-toggle: #282828;
+   --exp-details: #4C4C4C;
+
+   --link-cert: #0A3C5C;
+   --box-shadow-link-cert: 0 0px 8px rgba(0,0,0,0.25);
+   
+   --text-color: #181818;
+   --card-bg: #f5f5f5;
+   --accent-color: #4e73df;
+}
+
+/* Tema Dark */
+[data-theme="dark"] {
+   --bg-color-header: #101010;                                       /* Cor de Fundo do Cabeçalho */
+   --bg-color-page: #1C1C1C;                                         /* Cor de Fundo da Seção Principal */
+   --bg-color-footer: #101010;                                       /* Cor de Fundo do Rodapé */
+   --bg-color-button: #101010;
+   --bg-color-button-hover: #181818;
+   --header-name: #B2B2B2;                                           /* Cor do Texto do Cabeçalho e do Rodapé */
+   --fixed-header-section: #DCDCDC;                                  /* Cor do Título da Seção Principal */
+   
+   --intro-text: #EAEAEA;
+   --curriculo-list: #F8F8F8;
+   --curriculo-strong: #808080;
+   
+   --box-shadow-header: 0 6px 16px rgba(255,255,255,0.25);
+   --box-shadow-side-menu: 0 0px 16px rgba(255,255,255,0.25);
+   --box-shadow-footer: 0 -6px 16px rgba(255,255,255,0.25);
+   --box-shadow-button: 0 0px 16px rgba(255,255,255,0.25);
+   
+   --exp-period: #547888;
+   --exp-role: #B2B2B2;
+   --exp-toggle: #B2B2B2;
+   --exp-details: #DCDCDC;
+
+   --link-cert: #476C83;
+   --box-shadow-link-cert: 0 0px 8px rgba(255,255,255,0.25);
+
+   --text-color: #EAEAEA;
+   --card-bg: #1e1e1e;
+   --accent-color: #8bb9ff;
 }
