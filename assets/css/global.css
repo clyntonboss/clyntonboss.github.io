@@ -662,7 +662,7 @@ main {
 }
 
 .curriculo-list {
-    font-size: 1.25rem;
+    font-size: 18px;
     flex: 1;
     list-style-type: disc;
     padding-left: 20px;
@@ -680,17 +680,6 @@ main {
   cursor: default;
   pointer-events: none; /* impede clique */
   transition: color 0.3s ease, text-shadow 0.3s ease;
-}
-
-/* Simula o efeito de hover do nome, mas não permite clicar */
-.header-right a.active:hover {
-  color: #ffffff;
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* efeito de “acender” */
-  transform: none;
-}
-
-.header-right a.active::after {
-  content: none; /* remove a linha deslizante */
 }
 
 /* Estilo das experiências */
