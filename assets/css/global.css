@@ -413,7 +413,6 @@ main {
   flex-direction: column;
   margin-top: 16px;
   margin-left: 16px;
-  gap: 15px;
   align-items: center; /* ← centraliza foto e botão */
 }
 
