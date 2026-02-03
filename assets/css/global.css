@@ -414,6 +414,7 @@ main {
   margin-top: 16px;
   margin-left: 16px;
   align-items: center; /* ← centraliza foto e botão */
+  gap: 16px;
 }
 
 .intro-photo img {
