@@ -617,7 +617,7 @@ main {
   display: flex;
   flex-direction: row; /* para menu lateral + texto */
   align-items: flex-start; /* alinha o topo do texto com o topo do menu */
-  gap: 40px;
+  gap: 16px;
   max-width: 1324px;
   width: 100%;
   margin: 0 auto;
