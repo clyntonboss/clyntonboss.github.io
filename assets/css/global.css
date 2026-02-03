@@ -653,12 +653,12 @@ main {
 
 .curriculo-text p {
    line-height: 1.8;
-   margin: 16px 0;
+   margin: 0 0 16px;
 }
 
 .curriculo-text > div {
    line-height: 1.8;
-   margin: 16px 0;
+   margin: 0 0 16px;
 }
 
 .curriculo-list {
