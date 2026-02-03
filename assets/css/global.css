@@ -408,11 +408,10 @@ main {
 }
 
 .intro-photo {
-  flex: 0 0 312.48px;
+  flex: 0 0 308px;
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
-  margin-left: 16px;
+  margin: 16px;
   align-items: center; /* ← centraliza foto e botão */
   gap: 16px;
 }
@@ -540,7 +539,7 @@ main {
    Menu Lateral — Alinhamento perfeito
    ============================== */
 .side-menu {
-  width: 306px;                  /* largura fixa do menu */
+  width: 308px;                  /* largura fixa do menu */
   height: 620px;                 /* altura total do bloco */
   background-color: var(--bg-color-header);
   border-radius: 12px;
@@ -548,8 +547,7 @@ main {
   padding: 12px;                  /* distância interna do bloco */
   box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
   position: sticky;              /* fixo ao rolar */
-  top: 16px;                     /* abaixo do cabeçalho */
-  left: 16px;
+  margin: 16px;                     /* abaixo do cabeçalho */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;    /* itens do topo */
@@ -574,13 +572,13 @@ main {
   display: flex;
   align-items: center;           /* centraliza verticalmente o texto */
   height: 48px;                  /* altura fixa do botão */
-  width: 274px;
+  width: 276px;
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
   color: #C0C0C0;
   font-weight: 500;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   justify-content: flex-start;   /* texto alinhado à esquerda */
   margin-bottom: 4px;
 }
