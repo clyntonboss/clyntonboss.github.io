@@ -1235,6 +1235,7 @@ body.static-header .last-update {
 
 .courses-flow p {
    margin: 16px;
+   line-height: 1.4;
 }
 
 .courses-flow .cert-thumb {
