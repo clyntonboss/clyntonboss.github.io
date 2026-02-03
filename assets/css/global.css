@@ -635,7 +635,6 @@ main {
   font-size: 1rem;
   overflow-y: auto; /* ativa rolagem só no conteúdo */
   height: 100%; /* usa a altura total disponível */
-  padding-right: 16px; /* evita que o texto encoste na borda */
   box-sizing: border-box;
   scroll-behavior: smooth; /* rolagem suave */
     /* esconde a barra de rolagem sem desativar o scroll */
@@ -653,13 +652,13 @@ main {
 }
 
 .curriculo-text p {
+   line-height: 1.8;
    margin-top: 8px;
-   margin-left: 16px;
 }
 
 .curriculo-text > div {
+   line-height: 1.8;
    margin-top: 8px;
-   margin-left: 16px;
 }
 
 .curriculo-list {
