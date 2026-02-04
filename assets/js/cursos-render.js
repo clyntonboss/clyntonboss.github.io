@@ -110,7 +110,7 @@ function renderBlocoCurso(index) {
         onclick="abrirCertificado('${curso.thumb}')"
       >
 
-      <div class="course-block cert-text-margin">
+      <div class="course-block">
         <p><strong>Instituição:</strong> ${curso.instituicao}</p>
         <p><strong>Curso:</strong> ${curso.curso}</p>
         <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
