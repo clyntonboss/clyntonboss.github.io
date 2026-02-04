@@ -1145,6 +1145,7 @@ body.static-header .last-update {
 /* Estilização do Modo Bloco */
 .course-block {
    margin-top: 0px;
+   margin-left: 16px;
 }
 
 .course-block p {
