@@ -1968,29 +1968,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Databricks Academy</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Databricks Accredited Platform Administrator</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">8 h 36 min</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11, 2026)</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Platform Administrator</p>
+                  <p><strong>Carga Horária:</strong> 8 h 36 min</p>
+                  <p><strong>Data de Conclusão:</strong> 11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11, 2026)</p>
+                  <p><strong>Código:</strong> 3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8</p>
+                  <p><strong>Verificação:</strong>
                   <a href="https://credentials.databricks.com/3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2013,29 +1999,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Databricks Academy</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Databricks Accredited Databricks Fundamentals</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">1 h 30 min</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11,2026)</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Databricks Fundamentals</p>
+                  <p><strong>Carga Horária:</strong> 1 h 30 min</p>
+                  <p><strong>Data de Conclusão:</strong> 11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11,2026)</p>
+                  <p><strong>Código:</strong> 64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5</p>
+                  <p><strong>Verificação:</strong>
                   <a href="https://credentials.databricks.com/64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2058,29 +2030,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Databricks Academy</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Databricks Accredited Generative Artificial Intelligence Fundamentals</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">10 h 10 min</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">19 de junho de 2025 (Issue: June 19, 2025 / Expiration: June 19, 2027)</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Generative Artificial Intelligence Fundamentals</p>
+                  <p><strong>Carga Horária:</strong> 10 h 10 min</p>
+                  <p><strong>Data de Conclusão:</strong> 19 de junho de 2025 (Issue: June 19, 2025 / Expiration: June 19, 2027)</p>
+                  <p><strong>Código:</strong> 8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX</p>
+                  <p><strong>Verificação:</strong>
                   <a href="https://credentials.databricks.com/8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2103,29 +2061,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Databricks Academy</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Databricks Accredited Google Cloud Platform Databricks Platform Architect</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">3 h 20 min</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">21 de junho de 2025 (Issue: June 21, 2025 / Expiration: June 21, 2027)</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Google Cloud Platform Databricks Platform Architect</p>
+                  <p><strong>Carga Horária:</strong> 3 h 20 min</p>
+                  <p><strong>Data de Conclusão:</strong> 21 de junho de 2025 (Issue: June 21, 2025 / Expiration: June 21, 2027)</p>
+                  <p><strong>Código:</strong> 40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp</p>
+                  <p><strong>Verificação:</strong>
                   <a href="https://credentials.databricks.com/40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2148,29 +2092,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Databricks Academy</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Databricks Accredited Amazon Web Services Platform Architect</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">3 h 20 min</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">29 de junho de 2025 (Issue: June 29, 2025 / Expiration: June 29, 2027)</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Amazon Web Services Platform Architect</p>
+                  <p><strong>Carga Horária:</strong> 3 h 20 min</p>
+                  <p><strong>Data de Conclusão:</strong> 29 de junho de 2025 (Issue: June 29, 2025 / Expiration: June 29, 2027)</p>
+                  <p><strong>Código:</strong> 84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o</p>
+                  <p><strong>Verificação:</strong>
                   <a href="https://credentials.databricks.com/84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2193,29 +2123,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Databricks Academy</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Databricks Accredited Azure Platform Architect</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">4 h 10 min</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">01 de julho de 2025 (Issue: July 1, 2025 / Expiration: July 1, 2027)</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Azure Platform Architect</p>
+                  <p><strong>Carga Horária:</strong> 4 h 10 min</p>
+                  <p><strong>Data de Conclusão:</strong> 01 de julho de 2025 (Issue: July 1, 2025 / Expiration: July 1, 2027)</p>
+                  <p><strong>Código:</strong> e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g</p>
+                  <p><strong>Verificação:</strong>
                   <a href="https://credentials.databricks.com/e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
