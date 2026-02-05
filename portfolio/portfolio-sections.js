@@ -2267,21 +2267,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">EaD: a nova onda da educação – Virtudes e Desafios</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">III Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">27/08/2020</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> EaD: a nova onda da educação – Virtudes e Desafios</p>
+                  <p><strong>Evento Acadêmico:</strong> III Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 27 de agosto de 2020</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2324,21 +2314,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">Ensino a Distância: uma ferramenta de Inclusão Social</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">IV Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">26/10/2021</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> Ensino a Distância: uma ferramenta de Inclusão Social</p>
+                  <p><strong>Evento Acadêmico:</strong> IV Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 26 de outubro de 2021</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2382,21 +2362,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">V Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">26/11/2022</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</p>
+                  <p><strong>Evento Acadêmico:</strong> V Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 26 de novembro de 2022</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2439,21 +2409,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">V Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">26/11/2022</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD</p>
+                  <p><strong>Evento Acadêmico:</strong> V Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 26 de novembro de 2022</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2495,21 +2455,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">24/10/2023</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica</p>
+                  <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 24 de outubro de 2023</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2551,21 +2501,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">24/10/2023</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica</p>
+                  <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 24 de outubro de 2023</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2608,21 +2548,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">26/10/2023</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica</p>
+                  <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2664,21 +2594,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">26/10/2023</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica</p>
+                  <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2721,21 +2641,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">26/10/2023</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica</p>
+                  <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -2778,21 +2688,11 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">UBM - Centro Universitário de Barra Mansa</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Título:</span>
-                  <span style="font-weight: bold;">Computação Quântica: a revolução da Tecnologia da Informação – uma Revisão Bibliográfica</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Evento Acadêmico:</span>
-                  <span style="font-weight: bold;">VI Seminário de Pesquisa e Iniciação Científica - UBM</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Apresentação:</span>
-                  <span style="font-weight: bold;">26/10/2023</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+                  <p><strong>Título:</strong> Computação Quântica: a revolução da Tecnologia da Informação – uma Revisão Bibliográfica</p>
+                  <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
               <hr class="decorative-line-cert">
