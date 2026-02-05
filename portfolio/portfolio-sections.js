@@ -1887,29 +1887,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">FM2S</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Lean Six Sigma Yellow Belt</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">24 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">01 de março de 2024</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">328571</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
+                  <p><strong>Curso:</strong> Lean Six Sigma Yellow Belt</p>
+                  <p><strong>Carga Horária:</strong> 24 h</p>
+                  <p><strong>Data de Conclusão:</strong> 01 de março de 2024</p>
+                  <p><strong>Código:</strong> 328571</p>
+                  <p><strong>Verificação:</strong>
                   <a class="cert-no-verify">Indisponível</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -1920,29 +1906,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">VMEdu, Inc</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Six Sigma Yellow Belt</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">20 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">12 de novembro de 2025</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">1125351</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> VMEdu, Inc</p>
+                  <p><strong>Curso:</strong> Six Sigma Yellow Belt</p>
+                  <p><strong>Carga Horária:</strong> 20 h</p>
+                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
+                  <p><strong>Código:</strong> 1125351</p>
+                  <p><strong>Verificação:</strong>
                   <a href="https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/SixSigmaYellowBelt-RogérioClyntonRibeiro-1125351.pdf" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -1965,29 +1937,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Domus Lean Seis Sigma</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Lean Seis Sigma Green Belt</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">40 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">08 de setembro de 2024</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">#DLSSGB00006</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Domus Lean Seis Sigma</p>
+                  <p><strong>Curso:</strong> Lean Seis Sigma Green Belt</p>
+                  <p><strong>Carga Horária:</strong> 40 h</p>
+                  <p><strong>Data de Conclusão:</strong> 08 de setembro de 2024</p>
+                  <p><strong>Código:</strong> #DLSSGB00006</p>
+                  <p><strong>Verificação:</strong>
                   <a class="cert-no-verify">Indisponível</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
