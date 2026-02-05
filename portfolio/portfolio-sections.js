@@ -1761,29 +1761,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">FM2S</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Lean Six Sigma White Belt</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">8 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">28 de fevereiro de 2024</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">327940</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
+                  <p><strong>Curso:</strong> Lean Six Sigma White Belt</p>
+                  <p><strong>Carga Horária:</strong> 8 h</p>
+                  <p><strong>Data de Conclusão:</strong> 28 de fevereiro de 2024</p>
+                  <p><strong>Código:</strong> 327940</p>
+                  <p><strong>Verificação:</strong>
                   <a class="cert-no-verify">Indisponível</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
