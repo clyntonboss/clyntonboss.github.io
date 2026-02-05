@@ -1780,29 +1780,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Produzindo Engenharia</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">White Belt Lean Six Sigma</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">6 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">29 de fevereiro de 2024</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">WBFEV240077</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Produzindo Engenharia</p>
+                  <p><strong>Curso:</strong> White Belt Lean Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 6 h</p>
+                  <p><strong>Data de Conclusão:</strong> 29 de fevereiro de 2024</p>
+                  <p><strong>Código:</strong> WBFEV240077</p>
+                  <p><strong>Verificação:</strong>
                   <a class="cert-no-verify">Indisponível</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -1813,29 +1799,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Frons Educação</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">White Belt Lean Six Sigma</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">10 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">11 de novembro de 2025</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">733D78A22E-1451E0F1F-144C20C72</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Frons Educação</p>
+                  <p><strong>Curso:</strong> White Belt Lean Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 10 h</p>
+                  <p><strong>Data de Conclusão:</strong> 11 de novembro de 2025</p>
+                  <p><strong>Código:</strong> 733D78A22E-1451E0F1F-144C20C72</p>
+                  <p><strong>Verificação:</strong>
                   <a href="https://frons.com.br/verificacao-certificados/733D78A22E-1451E0F1F-144C20C72/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -1846,29 +1818,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Council for Six Sigma Certification</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Lean Six Sigma White Belt</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">8 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">11 de novembro de 2025</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">7th0wCFtCy</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Council for Six Sigma Certification</p>
+                  <p><strong>Curso:</strong> Lean Six Sigma White Belt</p>
+                  <p><strong>Carga Horária:</strong> 8 h</p>
+                  <p><strong>Data de Conclusão:</strong> 11 de novembro de 2025</p>
+                  <p><strong>Código:</strong> 7th0wCFtCy</p>
+                  <p><strong>Verificação:</strong>
                   <a class="cert-no-verify">Indisponível</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -1879,29 +1837,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Escola EDTI</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Certificação White Belt em Lean Six Sigma</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">8 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">12 de novembro de 2025</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">EDTIe62b390b3ae00a98c0df96b4b0d6c6c7</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Escola EDTI</p>
+                  <p><strong>Curso:</strong> Certificação White Belt em Lean Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 8 h</p>
+                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
+                  <p><strong>Código:</strong> EDTIe62b390b3ae00a98c0df96b4b0d6c6c7</p>
+                  <p><strong>Verificação:</strong>
                   <a class="cert-no-verify">Indisponível</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
@@ -1912,29 +1856,15 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div>
-                  <span style="font-weight: normal;">Instituição:</span>
-                  <span style="font-weight: bold;">Nortegubisian</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Curso:</span>
-                  <span style="font-weight: bold;">Six Sigma White Belt</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Carga Horária:</span>
-                  <span style="font-weight: bold;">4 h</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Data de Conclusão:</span>
-                  <span style="font-weight: bold;">12 de novembro de 2025</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Código:</span>
-                  <span style="font-weight: bold;">0001124</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Verificação:</span>
+              <div class="course-block">
+                  <p><strong>Instituição:</strong> Nortegubisian</p>
+                  <p><strong>Curso:</strong> Six Sigma White Belt</p>
+                  <p><strong>Carga Horária:</strong> 4 h</p>
+                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
+                  <p><strong>Código:</strong> 0001124</p>
+                  <p><strong>Verificação:</strong>
                   <a class="cert-no-verify">Indisponível</a>
+                  </p>
               </div>
       
               <hr class="decorative-line-cert">
