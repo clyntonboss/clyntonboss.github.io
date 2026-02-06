@@ -977,7 +977,7 @@ body.static-header .last-update {
    ============================================ */
 
 .tech-subtitle {
-    font-size: 14px; /* entre 1rem do título e 0.85rem da descrição */
+    font-size: 16px;
     color: var(--link-cert);
     font-style: italic;
     margin-bottom: 14px;
