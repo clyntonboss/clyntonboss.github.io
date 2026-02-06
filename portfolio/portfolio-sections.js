@@ -181,28 +181,28 @@ const sections = {
     icon: "/assets/icons/icone-formacao-academica.png",
     showViewModes: false,
     content: `
-      <hr class="decorative-line-cert">
-
       <div class="course-block-content">
-        <a href="#" onclick="abrirCertificado('/portfolio/formacao-academica/diploma/2024.03.13 · Centro Universitário de Barra Mansa · Engenharia de Produção.png'); return false;">
-            <img src="/portfolio/formacao-academica/diploma/2024.03.13 · Centro Universitário de Barra Mansa · Engenharia de Produção.png"
-                 alt="Engenharia de Produção" 
-                 class="cert-thumb"
-                 >
-        </a>
-        <div class="course-block">
-            <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-            <p><strong>Curso:</strong> Engenharia de Produção | Bacharelado</p>
-            <p><strong>Carga Horária:</strong> 3.800 horas (Fev/2019 a Mar/2024)</p>
-            <p><strong>Data de Conclusão:</strong> 13 de março de 2024</p>
-            <p><strong>Código:</strong> 514.514.4bb97a2ecb2b</p>
-            <p><strong>Verificação:</strong>
-            <a href="https://www.ubm.br/dd/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
-            </p>
-        </div>
+        <hr class="decorative-line-cert">
+  
+          <a href="#" onclick="abrirCertificado('/portfolio/formacao-academica/diploma/2024.03.13 · Centro Universitário de Barra Mansa · Engenharia de Produção.png'); return false;">
+              <img src="/portfolio/formacao-academica/diploma/2024.03.13 · Centro Universitário de Barra Mansa · Engenharia de Produção.png"
+                   alt="Engenharia de Produção" 
+                   class="cert-thumb"
+                   >
+          </a>
+          <div class="course-block">
+              <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
+              <p><strong>Curso:</strong> Engenharia de Produção | Bacharelado</p>
+              <p><strong>Carga Horária:</strong> 3.800 horas (Fev/2019 a Mar/2024)</p>
+              <p><strong>Data de Conclusão:</strong> 13 de março de 2024</p>
+              <p><strong>Código:</strong> 514.514.4bb97a2ecb2b</p>
+              <p><strong>Verificação:</strong>
+              <a href="https://www.ubm.br/dd/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+              </p>
+          </div>
+  
+        <hr class="decorative-line-cert">
       </div>
-
-      <hr class="decorative-line-cert">
       
       <div class="tech-subtitle">Participação contínua em eventos acadêmicos com apresentação de trabalhos científicos nas áreas de tecnologia, dados e produção.</div>
       
