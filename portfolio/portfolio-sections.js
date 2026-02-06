@@ -195,7 +195,6 @@ const sections = {
             <p><strong>Carga Horária:</strong> 3.800 horas (Fev/2019 a Mar/2024)</p>
             <p><strong>Data de Conclusão:</strong> 13 de março de 2024</p>
             <p><strong>Código:</strong> 514.514.4bb97a2ecb2b</p>
-            mostrarCopiar: true,
             <p><strong>Verificação:</strong>
             <a href="https://www.ubm.br/dd/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
             </p>
