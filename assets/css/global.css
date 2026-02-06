@@ -977,10 +977,10 @@ body.static-header .last-update {
    ============================================ */
 
 .tech-subtitle {
-    font-size: 12px; /* entre 1rem do título e 0.85rem da descrição */
+    font-size: 14px; /* entre 1rem do título e 0.85rem da descrição */
     color: var(--link-cert);
     font-style: italic;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     line-height: 1.4;
 }
 
