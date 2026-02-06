@@ -632,7 +632,7 @@ main {
   text-align: justify;
   line-height: 1.8;
   color: var(--curriculo-list);
-  font-size: 1rem;
+  font-size: 16px;
   overflow-y: auto; /* ativa rolagem só no conteúdo */
   height: 100%; /* usa a altura total disponível */
   box-sizing: border-box;
@@ -782,7 +782,7 @@ body {
     width: 240px;
     height: 170px;
     display: block;
-    margin: 28px 16px;
+    margin: 24px 16px;
     cursor: pointer;
    
     transition: transform 0.2s ease, box-shadow 0.2s ease;
