@@ -4,7 +4,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/analise-de-dados/analise-de-dados-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle"><p>Esta seção reúne formações complementares na área de Análise de Dados, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Análise de Dados, organizadas por conclusão cronológica.<br>
                                  Os cursos apresentados abrangem fundamentos analíticos, estatística, visualização de dados, ferramentas de BI e práticas aplicadas à tomada de decisão orientada por dados.</p></div>
       
       <hr class="decorative-line-cert">
@@ -46,8 +46,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle">As formações em Análise de Dados consolidaram uma base técnica voltada à coleta, tratamento, exploração e interpretação de dados em diferentes contextos.<br>
-                                 Esse conjunto de conhecimentos sustenta a construção de análises consistentes, indicadores confiáveis e soluções analíticas aplicadas a processos, negócios e tomada de decisão.</div>
+      <div class="tech-subtitle-inf"><p>As formações em Análise de Dados consolidaram uma base técnica voltada à coleta, tratamento, exploração e interpretação de dados em diferentes contextos.<br>
+                                 Esse conjunto de conhecimentos sustenta a construção de análises consistentes, indicadores confiáveis e soluções analíticas aplicadas a processos, negócios e tomada de decisão.</p></div>
     `
   },
 
