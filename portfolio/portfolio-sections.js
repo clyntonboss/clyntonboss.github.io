@@ -202,7 +202,7 @@ const sections = {
 
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle">Participação contínua em eventos acadêmicos com apresentação de trabalhos científicos nas áreas de tecnologia, dados e produção.</div>
+      <div class="tech-subtitle"><p>Participação contínua em eventos acadêmicos com apresentação de trabalhos científicos nas áreas de tecnologia, dados e produção.</p></div>
       
       <div class="experience">
           <div class="exp-header">
