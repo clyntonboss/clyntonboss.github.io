@@ -977,15 +977,16 @@ body.static-header .last-update {
    ============================================ */
 
 .tech-subtitle {
-    font-size: 14px;
-    color: var(--link-cert);
-    font-style: italic;
-    line-height: 1.4;
+   font-size: 14px;
+   color: var(--link-cert);
+   font-style: italic;
+   margin: 12px 0;
+   line-height: 1.4;
 }
 
-.tech-subtitle > div {
-    margin: 12px 0;
-    line-height: 1.4;
+.tech-subtitle p {
+   margin: 12px 0;
+   line-height: 1.4;
 }
 
 .tech-title {
