@@ -976,6 +976,22 @@ body.static-header .last-update {
    LISTA DE COMPETÊNCIAS TÉCNICAS
    ============================================ */
 
+.tech-subtitle-sup {
+   font-size: 14px;
+   color: var(--link-cert);
+   font-style: italic;
+   margin: 0 0 12px 0;
+   line-height: 1.4;
+}
+
+.tech-subtitle-sup p {
+   font-size: 14px;
+   color: var(--link-cert);
+   font-style: italic;
+   margin: 0 0 12px 0;
+   line-height: 1.4;
+}
+
 .tech-subtitle {
    font-size: 14px;
    color: var(--link-cert);
@@ -989,6 +1005,22 @@ body.static-header .last-update {
    color: var(--link-cert);
    font-style: italic;
    margin: 12px 0;
+   line-height: 1.4;
+}
+
+.tech-subtitle-inf {
+   font-size: 14px;
+   color: var(--link-cert);
+   font-style: italic;
+   margin: 12px 0 0 0;
+   line-height: 1.4;
+}
+
+.tech-subtitle-inf p {
+   font-size: 14px;
+   color: var(--link-cert);
+   font-style: italic;
+   margin: 12px 0 0 0;
    line-height: 1.4;
 }
 
