@@ -1260,7 +1260,7 @@ body.static-header .last-update {
 
 #course-block {
   position: relative;
-  height: 532px; /* 🔒 altura fixa REAL */
+  height: 534px; /* 🔒 altura fixa REAL */
   overflow: hidden;
 }
 
