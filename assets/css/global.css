@@ -1147,6 +1147,14 @@ body.static-header .last-update {
   font-size: 16px;
 }
 
+.course-list-item.first {
+  margin-top: 12px;
+}
+
+.course-list-item.last {
+  margin-bottom: 12px;
+}
+
 /* Estilização do Modo Grade */
 .courses-grid {
   display: grid;
