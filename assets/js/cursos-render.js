@@ -233,6 +233,9 @@ function renderListaCursos(cursos) {
     item.className = "course-list-item";
     item.dataset.index = index; // 👈 MUITO IMPORTANTE
 
+    if (index === 0) item.classList.add("first");
+    if (index === cursos.length - 1) item.classList.add("last");
+
     item.innerHTML = `
       <span class="course-name">${curso.curso}</span>
       <span class="course-date">${curso.dataConclusao}</span>
