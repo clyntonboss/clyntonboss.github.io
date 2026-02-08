@@ -1524,8 +1524,8 @@ const sections = {
     icon: "/assets/icons/icone-competencias-comportamentais.png",
     showViewModes: false,
     content: `
-      <div class="tech-subtitle">As competências comportamentais abaixo estão organizadas por domínio.<br>
-                                 Ao expandir cada categoria, são descritas atitudes, práticas e contextos de aplicação ao longo da minha trajetória.</div>
+      <div class="tech-subtitle-sup"><p>As competências comportamentais abaixo estão organizadas por domínio.<br>
+                                        Ao expandir cada categoria, são descritas atitudes, práticas e contextos de aplicação ao longo da minha trajetória.</p></div>
       
       <div class="experience">
           <div class="exp-header">
@@ -1688,8 +1688,8 @@ const sections = {
     icon: "/assets/icons/icone-formacoes-complementares.png",
     showViewModes: false,
     content: `
-      <div class="tech-subtitle">As formações complementares estão organizadas por área de conhecimento.<br>
-                                 Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</div>
+      <div class="tech-subtitle-sup"><p>As formações complementares estão organizadas por área de conhecimento.<br>
+                                        Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</p></div>
       
       <div class="cert-links">
           <!--  Dados e Inteligência -->
@@ -1743,8 +1743,8 @@ const sections = {
     icon: "/assets/icons/icone-certificacoes-e-credenciais.png",
     showViewModes: false,
     content: `
-      <div class="tech-subtitle">Esta seção reúne certificações e credenciais obtidas ao longo da trajetória profissional, organizadas por categoria e data de conclusão.<br>
-                                 Os registros apresentados representam validações formais de conhecimentos, emitidas por instituições e plataformas reconhecidas.</div>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne certificações e credenciais obtidas ao longo da trajetória profissional, organizadas por categoria e data de conclusão.<br>
+                                        Os registros apresentados representam validações formais de conhecimentos, emitidas por instituições e plataformas reconhecidas.</p></div>
       
       <div class="experience">
           <div class="exp-header">
@@ -2150,6 +2150,9 @@ const sections = {
     icon: "/assets/icons/icone-impactos-e-resultados.png",
     showViewModes: false,
     content: `
+      <div class="tech-subtitle-sup"><p>Resultados que vão além da tecnologia, construídos pela integração entre dados, processos e contexto organizacional, 
+                                        gerando impacto real, clareza decisória e eficiência sustentável.</p></div>
+                                        
       <p>
           Ao longo da minha trajetória profissional, a tecnologia sempre foi utilizada como meio, e não como fim. Os projetos e iniciativas desenvolvidos tiveram como
           objetivo central gerar impacto real, seja por meio da melhoria de processos, da organização da informação, do suporte à tomada de decisão ou da criação de soluções
@@ -2249,7 +2252,7 @@ const sections = {
     icon: "/assets/icons/icone-producoes-intelectuais.png",
     showViewModes: false,
     content: `
-      <div class="tech-subtitle">Produções acadêmicas apresentadas em eventos científicos, com foco em educação, tecnologia e inclusão digital.</div>
+      <div class="tech-subtitle-sup"><p>Produções acadêmicas apresentadas em eventos científicos, com foco em educação, tecnologia e inclusão digital.</p></div>
       
       <div class="experience">
           <div class="exp-header">
