@@ -286,8 +286,8 @@ const sections = {
     icon: "/assets/icons/icone-competencias-tecnicas.png",
     showViewModes: false,
     content: `
-      <div class="tech-subtitle">As competências abaixo estão organizadas por domínio técnico.<br>
-                                 Ao expandir cada categoria, são apresentados os principais métodos, ferramentas, tecnologias e aplicações práticas relacionadas.</div>
+      <div class="tech-subtitle-sup"><p>As competências abaixo estão organizadas por domínio técnico.<br>
+                                        Ao expandir cada categoria, são apresentados os principais métodos, ferramentas, tecnologias e aplicações práticas relacionadas.</p></div>
       
       <div class="experience">
           <div class="exp-header">
