@@ -1125,7 +1125,7 @@ body.static-header .last-update {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid var(--divider-color);
-  margin: 0px 16px;
+  margin: 0px;
   padding: 12px 8px;
   cursor: pointer;
   border-radius: 8px;
@@ -1133,8 +1133,8 @@ body.static-header .last-update {
 }
 
 .course-list-item:hover {
-  background-color: var(--surface-hover, #f2f2f2);
-  color: var(--text-hover, #000);
+  background-color: var(--bg-color-header);
+  color: #B2B2B2;
 }
 
 .course-name {
