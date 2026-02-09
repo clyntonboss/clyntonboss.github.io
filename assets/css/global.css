@@ -343,6 +343,7 @@ main {
   text-decoration: none;
   color: var(--header-name);
   transition: color 0.4s ease, transform 0.4s ease;
+   will-change: transform;
 }
 
 .footer a:hover {
