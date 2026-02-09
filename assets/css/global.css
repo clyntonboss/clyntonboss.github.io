@@ -980,7 +980,7 @@ body.static-header .last-update {
    font-size: 14px;
    color: var(--link-cert);
    font-style: italic;
-   margin: 0 0 12px 0;
+   margin: 2px 0 12px 0;
    line-height: 1.4;
 }
 
@@ -988,7 +988,7 @@ body.static-header .last-update {
    font-size: 14px;
    color: var(--link-cert);
    font-style: italic;
-   margin: 0 0 12px 0;
+   margin: 2px 0 12px 0;
    line-height: 1.4;
 }
 
