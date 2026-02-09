@@ -342,17 +342,17 @@ main {
   gap: 8px; /* espaço entre ícone e texto */
   text-decoration: none;
   color: var(--header-name);
-  transition: color 0.3s ease, transform 0.2s ease;
+  transition: color 0.4s ease, transform 0.4s ease;
 }
 
 .footer a:hover {
   color: #aad4ff;
-  transform: translateY(-2px);
+  transform: scale(1.04);
 }
 
 .footer-icon {
-  width: 20px;
-  height: 20px;
+  width: 32px;
+  height: 32px;
 }
 
 .footer-left {
