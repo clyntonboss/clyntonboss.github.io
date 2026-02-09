@@ -166,12 +166,6 @@ body {
   gap: 0px;           /* espaço entre foto e texto */
 }
 
-.header-left:hover {
-  color: #ffffff;
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
-  cursor: default;
-}
-
 .header-left .last-update {
   font-size: 0.7rem;          /* menor que o nome */
   color: var(--header-name);             /* tom discreto */
