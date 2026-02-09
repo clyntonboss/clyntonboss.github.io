@@ -1503,7 +1503,11 @@ body.static-header .last-update {
 #theme-toggle-home[aria-label]:hover::after,
 #theme-toggle-portfolio[aria-label]:hover::after,
 .copiar-btn[aria-label]:hover::after,
-#header-home-icon[aria-label]:hover::after {
+#header-home-icon[aria-label]:hover::after,
+#icon-linkedin[aria-label]:hover::after,
+#icon-github[aria-label]:hover::after,
+#icon-email[aria-label]:hover::after,
+#icon-whatsapp[aria-label]:hover::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
