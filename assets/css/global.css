@@ -1467,10 +1467,7 @@ body.static-header .last-update {
 #theme-toggle-portfolio[aria-label],
 .copiar-btn[aria-label],
 #header-home-icon[aria-label],
-#icon-linkedin[aria-label],
-#icon-github[aria-label],
-#icon-email[aria-label],
-#icon-whatsapp[aria-label] {
+.footer a[aria-label] {
   position: relative;
 }
 
@@ -1480,10 +1477,7 @@ body.static-header .last-update {
 #theme-toggle-portfolio[aria-label]::after,
 .copiar-btn[aria-label]::after,
 #header-home-icon[aria-label]::after,
-#icon-linkedin[aria-label]::after,
-#icon-github[aria-label]::after,
-#icon-email[aria-label]::after,
-#icon-whatsapp[aria-label]::after {
+.footer a[aria-label]::after {
   content: attr(aria-label);
   position: absolute;
   bottom: -28px;
@@ -1513,10 +1507,7 @@ body.static-header .last-update {
 #theme-toggle-portfolio[aria-label]:hover::after,
 .copiar-btn[aria-label]:hover::after,
 #header-home-icon[aria-label]:hover::after,
-#icon-linkedin[aria-label]:hover::after,
-#icon-github[aria-label]:hover::after,
-#icon-email[aria-label]:hover::after,
-#icon-whatsapp[aria-label]:hover::after {
+.footer a[aria-label]:hover::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
