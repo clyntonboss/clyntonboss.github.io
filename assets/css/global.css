@@ -348,12 +348,12 @@ main {
 
 .footer a:hover {
   color: #aad4ff;
-  transform: scale(1.04);
+  transform: scale(1.4);
 }
 
 .footer-icon {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 .footer-left {
