@@ -1465,7 +1465,12 @@ body.static-header .last-update {
 .view-btn[aria-label],
 #theme-toggle-home[aria-label],
 #theme-toggle-portfolio[aria-label],
-.copiar-btn[aria-label] {
+.copiar-btn[aria-label],
+#header-home-icon[aria-label],
+#icon-linkedin[aria-label],
+#icon-github[aria-label],
+#icon-email[aria-label],
+#icon-whatsapp[aria-label] {
   position: relative;
 }
 
@@ -1474,7 +1479,11 @@ body.static-header .last-update {
 #theme-toggle-home[aria-label]::after,
 #theme-toggle-portfolio[aria-label]::after,
 .copiar-btn[aria-label]::after,
-#header-home-icon[aria-label]::after {
+#header-home-icon[aria-label]::after,
+#icon-linkedin[aria-label]::after,
+#icon-github[aria-label]::after,
+#icon-email[aria-label]::after,
+#icon-whatsapp[aria-label]::after {
   content: attr(aria-label);
   position: absolute;
   bottom: -28px;
