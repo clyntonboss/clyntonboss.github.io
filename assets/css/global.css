@@ -348,7 +348,6 @@ main {
 
 .footer a:hover {
   color: #aad4ff;
-  transform: scale(1.2);
 }
 
 .footer-icon {
@@ -1529,7 +1528,8 @@ body.static-header .last-update {
 #theme-toggle-home[aria-label]:hover::after,
 #theme-toggle-portfolio[aria-label]:hover::after,
 .copiar-btn[aria-label]:hover::after,
-#header-home-icon[aria-label]:hover::after {
+#header-home-icon[aria-label]:hover::after,
+.footer a[aria-label]:hover::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
