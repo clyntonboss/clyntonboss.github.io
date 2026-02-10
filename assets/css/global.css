@@ -1851,10 +1851,10 @@ body[data-mode="portfolio"] .side-portfolio {
    /* Cor do Título da Seção Principal */
    --fixed-header-section: #080808;
 
-   --intro-text: #282828;
+   --intro-text: #5E5E5E;
 
-   --curriculo-text: #323232;
-   --curriculo-list: #323232;
+   --curriculo-text: #5E5E5E;
+   --curriculo-list: #5E5E5E;
    --curriculo-text-strong: #080808;
    
    --box-shadow-header: 0 6px 16px rgba(0,0,0,0.2);
