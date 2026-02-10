@@ -708,18 +708,13 @@ main {
 .exp-toggle {
   background: none;
   border: none;
-  color: #333;              /* mesma cor do texto */
+  color: var(--exp-toggle);              /* mesma cor do texto */
   font-weight: bold;
   font-size: 20px;          /* um pouco maior para boa leitura */
   cursor: pointer;
   padding: 0;
   margin-left: 8px;         /* leve afastamento do texto */
   transition: transform 0.2s ease;
-}
-
-.exp-toggle:hover {
-  transform: scale(1.2);    /* leve aumento ao passar o mouse */
-  color: #264653;           /* realce suave na cor do hover */
 }
 
 .exp-details {
@@ -1864,7 +1859,7 @@ body[data-mode="portfolio"] .side-portfolio {
    
    --exp-period: #264653;
    --exp-role: #080808;
-   --exp-toggle: #282828;
+   --exp-toggle: #080808;
    --exp-details: #4C4C4C;
 
    --link-cert: #0A3C5C;
@@ -1899,7 +1894,7 @@ body[data-mode="portfolio"] .side-portfolio {
    
    --exp-period: #547888;
    --exp-role: #808080;
-   --exp-toggle: #B2B2B2;
+   --exp-toggle: #808080;
    --exp-details: #DCDCDC;
 
    --link-cert: #476C83;
