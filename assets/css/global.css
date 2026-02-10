@@ -625,7 +625,7 @@ main {
   flex: 1;
   text-align: justify;
   line-height: 1.8;
-  color: var(--curriculo-list);
+  color: var(--curriculo-text);
   font-size: 16px;
   overflow-y: auto; /* ativa rolagem só no conteúdo */
   height: 100%; /* usa a altura total disponível */
@@ -638,7 +638,7 @@ main {
 }
 
 .curriculo-text strong {
-  color: var(--curriculo-strong);
+  color: var(--curriculo-text-strong);
 }
 
 .curriculo-text::-webkit-scrollbar {
@@ -1850,8 +1850,10 @@ body[data-mode="portfolio"] .side-portfolio {
    --fixed-header-section: #080808;
 
    --intro-text: #282828;
+
+   --curriculo-text: #282828;
    --curriculo-list: #282828;
-   --curriculo-strong: #080808;
+   --curriculo-text-strong: #080808;
    
    --box-shadow-header: 0 6px 16px rgba(0,0,0,0.2);
    --box-shadow-side-menu: 0 0 16px rgba(0,0,0,0.2);
@@ -1880,11 +1882,13 @@ body[data-mode="portfolio"] .side-portfolio {
    --bg-color-button: #101010;
    --bg-color-button-hover: #181818;
    
-   --fixed-header-section: #F8F8F8;                                  /* Cor do Título da Seção Principal */
+   --fixed-header-section: #C0C0C0;                                  /* Cor do Título da Seção Principal */
    
    --intro-text: #EAEAEA;
+
+   --curriculo-text: #F8F8F8;
    --curriculo-list: #F8F8F8;
-   --curriculo-strong: #808080;
+   --curriculo-text-strong: #C0C0C0;
    
    --box-shadow-header: 0 6px 16px rgba(255,255,255,0.2);
    --box-shadow-side-menu: 0 0 16px rgba(255,255,255,0.2);
