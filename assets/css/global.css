@@ -1024,6 +1024,13 @@ body.static-header .last-update {
     margin-bottom: 1px;
 }
 
+.tech-title p {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 16px 0;
+    color: var(--tech-title);
+}
+
 .tech-desc {
     font-size: 0.85rem;
     opacity: 0.8;
