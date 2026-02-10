@@ -1863,7 +1863,7 @@ body[data-mode="portfolio"] .side-portfolio {
    --box-shadow-button: 0 0 16px rgba(0,0,0,0.2);
    
    --exp-period: #264653;
-   --exp-role: #282828;
+   --exp-role: #080808;
    --exp-toggle: #282828;
    --exp-details: #4C4C4C;
 
@@ -1898,7 +1898,7 @@ body[data-mode="portfolio"] .side-portfolio {
    --box-shadow-button: 0 0 16px rgba(255,255,255,0.2);
    
    --exp-period: #547888;
-   --exp-role: #B2B2B2;
+   --exp-role: #808080;
    --exp-toggle: #B2B2B2;
    --exp-details: #DCDCDC;
 
