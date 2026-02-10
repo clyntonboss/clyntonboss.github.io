@@ -2234,7 +2234,7 @@ const sections = {
           </div>
       </div>
       
-      <div class="tech-title">Síntese e Continuidade</div>
+      <div class="tech-title"><p>Síntese e Continuidade</p></div>
       
       <p>
           Os impactos apresentados são resultado direto da aplicação prática de conhecimentos técnicos, analíticos e estratégicos, construídos ao longo da minha trajetória
