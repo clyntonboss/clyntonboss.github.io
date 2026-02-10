@@ -1856,10 +1856,10 @@ body[data-mode="portfolio"] .side-portfolio {
    --curriculo-list: #282828;
    --curriculo-strong: #080808;
    
-   --box-shadow-header: 0 6px 16px rgba(0,0,0,0.25);
-   --box-shadow-side-menu: 0 0px 16px rgba(0,0,0,0.25);
-   --box-shadow-footer: 0 -6px 16px rgba(0,0,0,0.25);
-   --box-shadow-button: 0 0px 16px rgba(0,0,0,0.25);
+   --box-shadow-header: 0 6px 16px rgba(0,0,0,0.2);
+   --box-shadow-side-menu: 0 0px 16px rgba(0,0,0,0.2);
+   --box-shadow-footer: 0 -6px 16px rgba(0,0,0,0.2);
+   --box-shadow-button: 0 0px 16px rgba(0,0,0,0.2);
    
    --exp-period: #264653;
    --exp-role: #282828;
@@ -1867,7 +1867,7 @@ body[data-mode="portfolio"] .side-portfolio {
    --exp-details: #4C4C4C;
 
    --link-cert: #0A3C5C;
-   --box-shadow-link-cert: 0 0px 8px rgba(0,0,0,0.25);
+   --box-shadow-link-cert: 0 0px 8px rgba(0,0,0,0.2);
    
    --text-color: #181818;
    --card-bg: #f5f5f5;
@@ -1888,10 +1888,10 @@ body[data-mode="portfolio"] .side-portfolio {
    --curriculo-list: #F8F8F8;
    --curriculo-strong: #808080;
    
-   --box-shadow-header: 0 6px 16px rgba(255,255,255,0.25);
-   --box-shadow-side-menu: 0 0px 16px rgba(255,255,255,0.25);
-   --box-shadow-footer: 0 -6px 16px rgba(255,255,255,0.25);
-   --box-shadow-button: 0 0px 16px rgba(255,255,255,0.25);
+   --box-shadow-header: 0 6px 16px rgba(255,255,255,0.2);
+   --box-shadow-side-menu: 0 0px 16px rgba(255,255,255,0.2);
+   --box-shadow-footer: 0 -6px 16px rgba(255,255,255,0.2);
+   --box-shadow-button: 0 0px 16px rgba(255,255,255,0.2);
    
    --exp-period: #547888;
    --exp-role: #B2B2B2;
@@ -1899,7 +1899,7 @@ body[data-mode="portfolio"] .side-portfolio {
    --exp-details: #DCDCDC;
 
    --link-cert: #476C83;
-   --box-shadow-link-cert: 0 0px 8px rgba(255,255,255,0.25);
+   --box-shadow-link-cert: 0 0px 8px rgba(255,255,255,0.2);
 
    --text-color: #EAEAEA;
    --card-bg: #1e1e1e;
