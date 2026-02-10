@@ -1019,7 +1019,7 @@ body.static-header .last-update {
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 4px;
-    color: var(--curriculo-text);
+    color: var(--tech-title);
     margin-top: 20px;
     margin-bottom: 1px;
 }
@@ -1029,7 +1029,7 @@ body.static-header .last-update {
     opacity: 0.8;
     line-height: 1.4;
     margin-bottom: 8px;
-    color: var(--curriculo-text);
+    color: var(--tech-desc);
 }
 
 .exp-list {
@@ -1861,6 +1861,8 @@ body[data-mode="portfolio"] .side-portfolio {
    --exp-role: #080808;
    --exp-toggle: #080808;
    --exp-details: #4C4C4C;
+   --tech-title: #080808;
+   --tech-desc: #4C4C4C;
 
    --link-cert: #0A3C5C;
    --box-shadow-link-cert: 0 0 8px rgba(0,0,0,0.2);
@@ -1896,6 +1898,8 @@ body[data-mode="portfolio"] .side-portfolio {
    --exp-role: #808080;
    --exp-toggle: #808080;
    --exp-details: #EAEAEA;
+   --tech-title: #808080;
+   --tech-desc: #EAEAEA;
 
    --link-cert: #476C83;
    --box-shadow-link-cert: 0 0 8px rgba(255,255,255,0.2);
