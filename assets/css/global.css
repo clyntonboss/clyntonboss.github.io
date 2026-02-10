@@ -570,7 +570,7 @@ main {
   padding: 0 12px;               /* distancia do texto para as bordas internas */
   border-radius: 8px;
   text-decoration: none;
-  color: #C0C0C0;
+  color: #F8F8F8;
   font-weight: 500;
   transition: all 0.4s ease;
   justify-content: flex-start;   /* texto alinhado à esquerda */
