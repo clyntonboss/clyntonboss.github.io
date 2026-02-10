@@ -1853,8 +1853,8 @@ body[data-mode="portfolio"] .side-portfolio {
 
    --intro-text: #282828;
 
-   --curriculo-text: #282828;
-   --curriculo-list: #282828;
+   --curriculo-text: #323232;
+   --curriculo-list: #323232;
    --curriculo-text-strong: #080808;
    
    --box-shadow-header: 0 6px 16px rgba(0,0,0,0.2);
@@ -1884,13 +1884,13 @@ body[data-mode="portfolio"] .side-portfolio {
    --bg-color-button: #101010;
    --bg-color-button-hover: #181818;
    
-   --fixed-header-section: #00FF00;                                  /* Cor do Título da Seção Principal */
+   --fixed-header-section: #B2B2B2;                                  /* Cor do Título da Seção Principal */
    
    --intro-text: #F8F8F8;
 
    --curriculo-text: #F8F8F8;
    --curriculo-list: #F8F8F8;
-   --curriculo-text-strong: #00FF00;
+   --curriculo-text-strong: #B2B2B2;
    
    --box-shadow-header: 0 6px 16px rgba(255,255,255,0.2);
    --box-shadow-side-menu: 0 0 16px rgba(255,255,255,0.2);
