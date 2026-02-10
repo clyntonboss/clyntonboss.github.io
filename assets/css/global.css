@@ -646,11 +646,13 @@ main {
 }
 
 .curriculo-text p {
+   color: var(--curriculo-text);
    line-height: 1.8;
    margin: 0 0 16px;
 }
 
 .curriculo-text > div {
+   color: var(--curriculo-text);
    line-height: 1.8;
    margin: 0;
 }
@@ -1884,7 +1886,7 @@ body[data-mode="portfolio"] .side-portfolio {
    
    --fixed-header-section: #C0C0C0;                                  /* Cor do Título da Seção Principal */
    
-   --intro-text: #EAEAEA;
+   --intro-text: #F8F8F8;
 
    --curriculo-text: #F8F8F8;
    --curriculo-list: #F8F8F8;
