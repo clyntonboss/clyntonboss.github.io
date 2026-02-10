@@ -420,7 +420,7 @@ main {
 
 .btn-projetos {
   background-color: var(--bg-color-button);
-  color: #e6e6e6;
+  color: #F8F8F8;
   padding: 10px 20px;
   width: 160px;
   text-decoration: none;
@@ -1128,7 +1128,7 @@ body.static-header .last-update {
 
 .course-list-item:hover {
   background-color: var(--bg-color-header);
-  color: #B2B2B2;
+  color: #F8F8F8;
 }
 
 .course-name {
