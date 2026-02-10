@@ -139,7 +139,7 @@ body {
   width: 100%;
   height: 80px;
   background-color: var(--bg-color-header); /* azul-petróleo elegante */
-  color: #e6e6e6; /* cinza claro */
+  color: #F8F8F8; /* cinza claro */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -157,26 +157,26 @@ body {
 }
 
 .header-left {
-  font-size: 1.7rem;
+  font-size: 30px;
   font-weight: 600;
-  letter-spacing: 0.5px;
-  color: #e6e6e6;
+  letter-spacing: 0.6px;
+  color: #F8F8F8;
   display: flex;
   align-items: center; /* centraliza verticalmente a foto com o nome */
   gap: 0px;           /* espaço entre foto e texto */
 }
 
 .header-left .last-update {
-  font-size: 0.7rem;          /* menor que o nome */
-  color: var(--header-name);             /* tom discreto */
+  font-size: 14px;          /* menor que o nome */
+  color: #F8F8F8;             /* tom discreto */
   font-weight: 400;
   margin-top: 4px;            /* espaço entre o nome e a data */
   line-height: 1.2;
 }
 
 .last-update {
-   font-size: 0.7rem;
-   color: var(--header-name);
+   font-size: 14px;
+   color: #F8F8F8;
    font-weight: 400;
    margin-top: 2px;
    opacity: 0;
@@ -191,10 +191,10 @@ body {
 
 .header-right a {
   position: relative;
-  margin-left: 25px;
+  margin-left: 26px;
   text-decoration: none;
-  color: #e6e6e6;
-  transition: color 0.3s ease, transform 0.2s ease;
+  color: #F8F8F8;
+  transition: color 0.2s ease, transform 0.2s ease;
   padding-bottom: 4px; /* espaço pra linha */
 }
 
@@ -206,7 +206,7 @@ body {
   width: 0;
   height: 2px;
   background-color: #aad4ff; /* mesma cor do hover */
-  transition: width 0.3s ease;
+  transition: width 0.4s ease;
 }
 
 .header-right a:hover {
@@ -246,9 +246,9 @@ body {
 }
 
 .header-name {
-  font-size: 1.8rem;
+  font-size: 30px;
   font-weight: 600;
-  color: var-(--header-name);
+  color: #F8F8F8;
   opacity: 0;                 /* começa invisível */
   transform: translateX(160px); /* começa fora da tela à direita */
   transition: opacity 1.2s ease, transform 1.2s ease;
@@ -299,8 +299,8 @@ main {
 .title-icon {
   width: 32px;
   height: 32px;
-  opacity: 0.85;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8;
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .title-icon:hover {
