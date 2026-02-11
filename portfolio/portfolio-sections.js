@@ -299,7 +299,7 @@ const sections = {
               <div class="tech-subtitle">Fundamentos, métodos e ferramentas para transformar dados brutos em informações valiosas e insights aplicáveis.</div>
               <div class="tech-title">Microsoft Power BI</div>
               <div class="tech-desc">
-                  <p>Modelagem de dados, ETL com Power Query, medidas DAX, modelagem dimensional, criação de dashboards corporativos, integração com bancos de dados, governança de workspaces, otimização de desempenho e técnicas profissionais de Data Storytelling.</p>
+                  Modelagem de dados, ETL com Power Query, medidas DAX, modelagem dimensional, criação de dashboards corporativos, integração com bancos de dados, governança de workspaces, otimização de desempenho e técnicas profissionais de Data Storytelling.
               </div>
           
               <div class="tech-title">Microsoft Excel</div>
