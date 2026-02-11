@@ -1039,6 +1039,10 @@ body.static-header .last-update {
     color: var(--tech-desc);
 }
 
+.tech-desc p {
+    color: var(--tech-desc);
+}
+
 .exp-list {
     margin: 16px 0;
     padding-left: 22px;
