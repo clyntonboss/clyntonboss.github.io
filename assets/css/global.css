@@ -1032,14 +1032,10 @@ body.static-header .last-update {
 }
 
 .tech-desc {
-    font-size: 0.85rem;
+    font-size: 15px;
     opacity: 0.8;
     line-height: 1.4;
     margin-bottom: 8px;
-    color: var(--tech-desc);
-}
-
-.tech-desc p {
     color: var(--tech-desc);
 }
 
