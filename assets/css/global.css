@@ -856,7 +856,7 @@ body.static-header .last-update {
 
 .signature-phrase {
     font-family: 'Dancing Script', cursive;
-    font-size: 2.4rem;
+    font-size: 36px;
     margin-top: 32px;
     color: var(--signature-phrase);
     text-align: center;
