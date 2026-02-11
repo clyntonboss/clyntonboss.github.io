@@ -1871,6 +1871,8 @@ body[data-mode="portfolio"] .side-portfolio {
    --tech-title: #080808;
    --tech-desc: #4C4C4C;
 
+   --signature-phrase: #4C4C4C;
+
    --link-cert: #0A3C5C;
    --box-shadow-link-cert: 0 0 8px rgba(0,0,0,0.2);
    
@@ -1907,6 +1909,8 @@ body[data-mode="portfolio"] .side-portfolio {
    --exp-details: #EAEAEA;
    --tech-title: #808080;
    --tech-desc: #EAEAEA;
+
+   --signature-phrase: #EAEAEA;
 
    --link-cert: #476C83;
    --box-shadow-link-cert: 0 0 8px rgba(255,255,255,0.2);
