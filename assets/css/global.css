@@ -735,7 +735,7 @@ main {
 }
 
 .exp-details a {
-   margin: 8px 0 16px 8px;
+   margin: 0 0 16px 8px;
 }
 
 .exp-details.open {
