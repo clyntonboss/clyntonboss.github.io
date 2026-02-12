@@ -7,7 +7,7 @@ const categoriasFormacoesComplementares = {
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Análise de Dados, organizadas por conclusão cronológica.<br>
                                         Os cursos apresentados abrangem fundamentos analíticos, estatística, visualização de dados, ferramentas de BI e práticas aplicadas à tomada de decisão orientada por dados.</p></div>
       
-      <hr class="decorative-line-cert decorative-line-sup">
+      <hr class="decorative-line-cert">
       
       <div id="course-block" class="course-block hidden">
           <div class="course-block-content"></div>
