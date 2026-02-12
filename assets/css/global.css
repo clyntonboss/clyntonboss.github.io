@@ -728,7 +728,7 @@ main {
 }
 
 .exp-details h4 {
-   font-size: 18px;
+   font-size: 20px;
    font-weight: 600;
    margin: 16px 0;
    color: var(--exp-details-h4);
@@ -736,7 +736,7 @@ main {
 
 .exp-details p {
    font-size: 16px;
-   line-height: 1.6;
+   line-height: 1.8;
    margin: 16px 0;
    color: var(--exp-details);
 }
