@@ -2711,13 +2711,11 @@ const sections = {
                   que trata a Computação Quântica (computadores quânticos) que desbrava um novo conceito de computação com hardwares baseados em Mecânica Quântica.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Computação Quântica (A Evolução da Tecnoologia da Informação).pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Computação Quântica (A Evolução da Tecnoologia da Informação).pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
     `
