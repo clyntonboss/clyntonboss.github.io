@@ -210,7 +210,7 @@ function renderFluxoCursos(cursos) {
     // 🔹 linha decorativa entre cursos (exceto após o último)
     if (index < cursos.length - 1) {
       const hr = document.createElement("hr");
-      hr.className = "decorative-line-cert decorative-line-sup";
+      hr.className = "decorative-line-cert";
       container.appendChild(hr);
     }
   });
