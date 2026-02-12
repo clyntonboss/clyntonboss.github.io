@@ -2691,8 +2691,8 @@ const sections = {
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> Computação Quântica: a revolução da Tecnologia da Informação – uma Revisão Bibliográfica</p>
                   <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> Computação Quântica: a revolução da Tecnologia da Informação – uma Revisão Bibliográfica</p>
                   <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
