@@ -741,6 +741,10 @@ main {
    color: var(--exp-details);
 }
 
+.exp-details p {
+   margin: 16px 0;
+}
+
 .exp-details.open {
   max-height: 2000px; /* valor alto */
   opacity: 1;
