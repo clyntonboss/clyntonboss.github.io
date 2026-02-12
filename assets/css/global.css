@@ -907,6 +907,10 @@ body.static-header .last-update {
     );
 }
 
+.decorative-line-sup {
+   margin-top: 8px;
+}
+
 /* ============================
    Linha Decorativa do Menu Lateral
 ============================ */
