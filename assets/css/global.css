@@ -622,7 +622,6 @@ main {
   flex: 1;
   text-align: justify;
   line-height: 1.8;
-  color: var(--curriculo-text);
   font-size: 16px;
   overflow-y: auto; /* ativa rolagem só no conteúdo */
   height: 100%; /* usa a altura total disponível */
@@ -644,14 +643,12 @@ main {
 
 .curriculo-text p {
    color: var(--curriculo-text);
-   line-height: 1.8;
    margin: 0 0 16px;
 }
 
 .curriculo-text > div {
    color: var(--curriculo-text);
-   line-height: 1.8;
-   margin: 0;
+   margin: 0 0 16px;
 }
 
 .curriculo-list {
