@@ -2641,10 +2641,10 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
                   <p><strong>Título:</strong> A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica</p>
                   <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
@@ -2653,10 +2653,10 @@ const sections = {
       
               <hr class="decorative-line-cert">
       
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   Uma vez que haja a compreensão de que o Engenheiro de Produção é formado para ser gestor, busca-se demonstrar onde esse profissional tem papel fundamental para
                   implantação, condução e operação da Indústria 4.0, visto que a quarta revolução industrial é uma realidade e as organizações estão em busca de se adequarem para
                   não perderem a competitividade, nem quedas na produtividade e consequentemente não serem prejudicadas, principalmente financeiramente. Essa demonstração se
@@ -2665,13 +2665,11 @@ const sections = {
                   tem papel fundamental para a mudança cultural no que tange a capacitação sobre a tecnologia digital e reestruturação dos parques industriais.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/A Atuação do Engenheiro de Produção na Indústria 4.0.pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/A Atuação do Engenheiro de Produção na Indústria 4.0.pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
