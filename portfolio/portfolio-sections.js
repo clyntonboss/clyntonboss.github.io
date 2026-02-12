@@ -2681,7 +2681,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" 
@@ -2696,7 +2696,7 @@ const sections = {
                   <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
               
               <h4>
                   Resumo
