@@ -741,7 +741,7 @@ main {
    color: var(--exp-details);
 }
 
-.exp-details p {
+.exp-details a {
    margin: 16px 0;
 }
 
