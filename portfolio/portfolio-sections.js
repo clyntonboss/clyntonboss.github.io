@@ -2700,9 +2700,9 @@ const sections = {
       
               <hr class="decorative-line-cert">
               
-              <h2><strong>
+              <h2>
                   Resumo
-              </strong></h2>
+              </h2>
               <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
                   Ao passo que a sociedade evolui, as tecnologias acompanham tal evolução e com isso surgem novos campos de estudos para aprimorar conhecimentos, mas sobretudo
                   para alavancar a evolução da ciência e revolucionar as indústrias para promover mais segurança para os cidadãos, maior precisão no desenvolvimento de produtos e
