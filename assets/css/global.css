@@ -744,6 +744,10 @@ main {
    margin: 8px 0;
 }
 
+.cert-thumb--compact {
+    margin: 24px 8px;
+}
+
 .exp-details.open {
   max-height: 2000px; /* valor alto */
   opacity: 1;
