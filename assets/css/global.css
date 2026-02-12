@@ -722,7 +722,7 @@ main {
   overflow: hidden;
   transition: max-height 0.4s ease, opacity 0.3s ease;
   opacity: 0;
-  padding-left: 10px;
+  padding-left: 8px;
   margin-top: 4px;
   color: var(--exp-details);
 }
@@ -730,12 +730,14 @@ main {
 .exp-details h4 {
    font-size: 18px;
    font-weight: 600;
+   margin: 16px 0;
    color: var(--exp-details-h4);
 }
 
 .exp-details p {
    font-size: 16px;
    line-height: 1.4;
+   margin: 16px 0;
    color: var(--exp-details);
 }
 
