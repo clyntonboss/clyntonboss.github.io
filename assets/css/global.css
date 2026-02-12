@@ -727,10 +727,10 @@ main {
   color: var(--exp-details);
 }
 
-.exp-details h2 {
-  font-size: 16px;
+.exp-details h4 {
+  font-size: 18px;
   font-weight: 600;
-  color: var(--exp-details-h2);
+  color: var(--exp-details-h4);
 }
 
 .exp-details.open {
@@ -1873,7 +1873,7 @@ body[data-mode="portfolio"] .side-portfolio {
    --exp-role: #080808;
    --exp-toggle: #080808;
    --exp-details: #4C4C4C;
-   --exp-details-h2: #080808;
+   --exp-details-h4: #080808;
    --tech-title: #080808;
    --tech-desc: #4C4C4C;
 
@@ -1913,7 +1913,7 @@ body[data-mode="portfolio"] .side-portfolio {
    --exp-role: #808080;
    --exp-toggle: #808080;
    --exp-details: #EAEAEA;
-   --exp-details-h2: #808080;
+   --exp-details-h4: #808080;
    --tech-title: #808080;
    --tech-desc: #EAEAEA;
 
