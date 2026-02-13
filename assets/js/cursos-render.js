@@ -182,7 +182,7 @@ function renderFluxoCursos(cursos) {
       <img 
         src="${curso.thumb}" 
         alt="${curso.curso}"
-        class="cert-thumb"
+        class="cert-thumb cert-thumb--compact"
         onclick="abrirCertificado('${curso.thumb}')"
       >
 
