@@ -2267,7 +2267,7 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
               <div>
@@ -2312,7 +2312,7 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
               <div>
@@ -2358,7 +2358,7 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
               <div>
@@ -2403,7 +2403,7 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
               <div>
@@ -2447,7 +2447,7 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
               <div>
@@ -2491,7 +2491,7 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
               <div>
@@ -2536,7 +2536,7 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
               <div>
@@ -2580,7 +2580,7 @@ const sections = {
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" 
                        alt="Artigo Científico" 
-                       class="cert-thumb"
+                       class="cert-thumb cert-thumb--compact"
                        >
               </a>
               <div>
