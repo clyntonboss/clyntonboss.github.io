@@ -2233,6 +2233,69 @@ const sections = {
               </div>
           </div>
       </div>
+
+                            <!-- Contexto do Problema -->
+                            <details class="project-section">
+                                <summary>
+                                    <span class="summary-text">Contexto do Problema</span>
+                                    <span class="summary-icon"></span>
+                                </summary>
+                                <p>
+                                    A organização enfrentava dificuldades em consolidar indicadores operacionais
+                                    dispersos em múltiplas fontes, comprometendo a tomada de decisão gerencial.
+                                </p>
+                            </details>
+                    
+                            <!-- Abordagem Estratégica -->
+                            <details class="project-section">
+                                <summary>
+                                    <span class="summary-text">Abordagem Estratégica</span>
+                                    <span class="summary-icon"></span>
+                                </summary>
+                                <p>
+                                    Foi adotada uma abordagem baseada em modelagem dimensional,
+                                    integração de dados e definição de KPIs alinhados aos objetivos do negócio.
+                                </p>
+                            </details>
+
+                            <!-- Impactos e Resultados -->
+                            <details class="project-section">
+                                <summary>
+                                    <span class="summary-text">Impactos e Resultados</span>
+                                    <span class="summary-icon"></span>
+                                </summary>
+                                <p>
+                                    O projeto resultou em maior clareza operacional,
+                                    redução de retrabalho analítico e aumento da eficiência
+                                    no acompanhamento dos indicadores estratégicos.
+                                </p>
+                            </details>
+                    
+                            <!-- Tecnologias Envolvidas -->
+                            <details class="project-section">
+                                <summary>
+                                    <span class="summary-text">Tecnologias Envolvidas</span>
+                                    <span class="summary-icon"></span>
+                                </summary>
+                                <p>
+                                    Power BI foi utilizado para visualização e storytelling,
+                                    SQL para tratamento e consolidação dos dados,
+                                    e Python para automatização de etapas de preparação.
+                                </p>
+                            </details>
+                    
+                            <!-- Conexão 5.0 -->
+                            <details class="project-section">
+                                <summary>
+                                    <span class="summary-text">Conexão com Indústria | Dados | Pessoas</span>
+                                    <span class="summary-icon"></span>
+                                </summary>
+                                <p>
+                                    A solução conectou dados operacionais do processo industrial
+                                    à análise estratégica, promovendo decisões mais ágeis
+                                    e ampliando a autonomia dos gestores.
+                                </p>
+                            </details>
       
       <div class="tech-title"><p>Síntese e Continuidade</p></div>
       
