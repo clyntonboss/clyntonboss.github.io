@@ -2234,6 +2234,7 @@ const sections = {
           </div>
       </div>
 
+                          <div class="exp-details">
                             <!-- Contexto do Problema -->
                             <details class="project-section">
                                 <summary>
@@ -2296,6 +2297,7 @@ const sections = {
                                     e ampliando a autonomia dos gestores.
                                 </p>
                             </details>
+                          </div>
       
       <div class="tech-title"><p>Síntese e Continuidade</p></div>
       
