@@ -2729,24 +2729,26 @@ const sections = {
               <button class="exp-toggle">+</button>
           </div>
           <div class="exp-details">
-      
+
               <hr class="decorative-line-cert decorative-line-sup">
-      
+
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
+
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
                   <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
                   <p><strong>Título:</strong> Computação Quântica: a revolução da Tecnologia da Informação – uma Revisão Bibliográfica</p>
                   <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
-      
+
               <hr class="decorative-line-cert decorative-line-sup">
-              
+
               <h4>
                   Resumo
               </h4>
+
               <p>
                   Ao passo que a sociedade evolui, as tecnologias acompanham tal evolução e com isso surgem novos campos de estudos para aprimorar conhecimentos, mas sobretudo
                   para alavancar a evolução da ciência e revolucionar as indústrias para promover mais segurança para os cidadãos, maior precisão no desenvolvimento de produtos e
@@ -2754,10 +2756,8 @@ const sections = {
                   que a Computação Clássica (computadores digitais) esteja próxima do seu limite de evolução e esse limite vem contribuindo para o investimento em um novo horizonte
                   que trata a Computação Quântica (computadores quânticos) que desbrava um novo conceito de computação com hardwares baseados em Mecânica Quântica.
               </p>
-      
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Computação Quântica (A Evolução da Tecnoologia da Informação).pdf')" 
-                 class="cert-link-verify">
+
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Computação Quântica (A Evolução da Tecnoologia da Informação).pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
