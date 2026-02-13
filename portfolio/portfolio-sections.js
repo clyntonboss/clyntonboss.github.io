@@ -2262,7 +2262,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" 
@@ -2270,19 +2270,19 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> EaD: a nova onda da educação – Virtudes e Desafios</p>
                   <p><strong>Evento Acadêmico:</strong> III Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> EaD: a nova onda da educação – Virtudes e Desafios</p>
                   <p><strong>Data de Apresentação:</strong> 27 de agosto de 2020</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   A modalidade de aula de Ensino à Distância (EaD) tomou conta de debates na sociedade no que diz respeito à educação de um modo geral nos últimos meses do ano de 2020.
                   Este artigo visa debater o assunto trazendo um pouco de história de quando e como surgiu o EaD, o perfil dos alunos que procuram este tipo de aula indicando os desafios
                   socioculturais, ferramentas computacionais apropriadas e as soluções. A metodologia utilizada se baseia em pesquisa bibliográfica e documental a respeito deste modo de
@@ -2291,13 +2291,11 @@ const sections = {
                   principal trazer cultura, informação e principalmente educação de qualidade a todos.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
@@ -2309,7 +2307,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" 
@@ -2317,19 +2315,19 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> Ensino a Distância: uma ferramenta de Inclusão Social</p>
                   <p><strong>Evento Acadêmico:</strong> IV Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> Ensino a Distância: uma ferramenta de Inclusão Social</p>
                   <p><strong>Data de Apresentação:</strong> 26 de outubro de 2021</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   A pandemia do COVID-19 que se alastrou desde dezembro de 2019, teve por
                   consequência que todas as pessoas mundialmente mudaram as rotinas habituais. As sociedades em todos os setores buscaram alternativas para minimizar os
                   impactos e levar conhecimento para os cidadãos. A Educação à Distância (EaD) tomou conta dos debates e se apresentou como uma alternativa de qualificar as
@@ -2339,13 +2337,11 @@ const sections = {
                   evolução do EaD se consolidou ao presencial impulsionado, também, através dessa nova ordem social e se disseminou tanto nos setores públicos quanto privados.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensino a Distância (Uma Ferramenta de Inclusão Social).pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensino a Distância (Uma Ferramenta de Inclusão Social).pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
@@ -2357,7 +2353,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" 
@@ -2365,19 +2361,19 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</p>
                   <p><strong>Evento Acadêmico:</strong> V Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</p>
                   <p><strong>Data de Apresentação:</strong> 26 de novembro de 2022</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
               
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   Vendas Especiais é uma das terminologias utilizadas para um setor que tem papel importante na cadeia de gestão de resíduos. Em busca do entendimento dessa cadeia
                   foi realizada uma pesquisa de campo numa organização que opera com esse setor com o objetivo de apontar onde se aplicam as políticas voltadas para a
                   sustentabilidade que é um dos grandes anseios da sociedade na atualidade, associado aos benefícios para a organização e implantação. O resultado da pesquisa
@@ -2386,13 +2382,11 @@ const sections = {
                   outras organizações como matéria-prima, aumentariam a satisfação financeira dos shareholders.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Vendas Especiais (Lucratividade Advinda de Resíduos Recicláveis).pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Vendas Especiais (Lucratividade Advinda de Resíduos Recicláveis).pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
@@ -2404,7 +2398,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" 
@@ -2412,19 +2406,19 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD</p>
                   <p><strong>Evento Acadêmico:</strong> V Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD</p>
                   <p><strong>Data de Apresentação:</strong> 26 de novembro de 2022</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
               
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   Em vista da demanda mundial pelo consumo de tecnologia da informação e a utilização cada vez mais maciça dos recursos tecnológicos, percebeu-se a
                   necessidade da criação e regulamentação de normas para atender o setor. A criação da LGPD (Lei Geral de Proteção de Dados) atende aos anseios da
                   sociedade para a proteção dos seus dados de forma a impedir que sua privacidade seja violada. Este trabalho que é resultado de pesquisa bibliográfica apresenta
@@ -2432,13 +2426,11 @@ const sections = {
                   específico sobre a TI (Tecnologia da Informação) que se refere à segurança da informação, conforme é explanado no decorrer do resultado da pesquisa.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Os Impactos da Aplicação da Lei Geral de Proteção de Dados - LGPD.pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Os Impactos da Aplicação da Lei Geral de Proteção de Dados - LGPD.pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
@@ -2450,7 +2442,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" 
@@ -2458,19 +2450,19 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica</p>
                   <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica</p>
                   <p><strong>Data de Apresentação:</strong> 24 de outubro de 2023</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
               
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   Analogamente se observa a redução do tempo de intervalo entre as revoluções industriais e esse fenômeno se consolida na percepção do intervalo entre a quarta
                   revolução industrial e a quinta. A quarta revolução industrial teve seu início oficializado em 2011 e apenas 6 anos depois, em 2017, começaram os debates sobre o que seria
                   a próxima revolução industrial que alguns autores descrevem como a evolução da Indústria 4.0. O principal foco da Indústria 4.0 é automatizar ao máximo os processos
@@ -2478,13 +2470,11 @@ const sections = {
                   A tendência é conciliar a robotização com o feeling humano promovendo sinergia entre os dois mundos.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensaio Sobre Perspectivas da Transição da Indústria 4.0 para a Indústria 5.0.pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensaio Sobre Perspectivas da Transição da Indústria 4.0 para a Indústria 5.0.pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
@@ -2496,7 +2486,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" 
@@ -2504,19 +2494,19 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica</p>
                   <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica</p>
                   <p><strong>Data de Apresentação:</strong> 24 de outubro de 2023</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
               
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   Diante o aumento exponencial da sociedade, cresce o consumo e com isso a preocupação com o meio ambiente. Da segunda metade do século XX em diante os
                   órgãos fiscalizadores em âmbito mundial passaram a aprimorar os dispositivos de combate a degradação do meio ambiente explicitando através de indicadores os
                   malefícios para o meio ambiente por consequência da desenfreada extração de Matérias-Primas para a fabricação de produtos e prestação de serviços. Por meio da
@@ -2525,13 +2515,11 @@ const sections = {
                   que são recicláveis. Com isso os Resíduos voltam para o processo fabril da própria organização ou é destinado para organizações de outros segmentos.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Utilização de Resíduos como Matéria-Prima na Indústria.pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Utilização de Resíduos como Matéria-Prima na Indústria.pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
@@ -2543,7 +2531,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" 
@@ -2551,19 +2539,19 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica</p>
                   <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica</p>
                   <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
               
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   O Engenheiro de Produção tem a competência de atuar nos mais variados setores de uma organização com foco na produtividade – reduzindo custos e desperdícios e
                   aumentando o lucro – e para ter sucesso no âmbito de suas atribuições não basta ter uma equipe capacitada e qualificada, é primordial o auxílio de Ferramentas
                   Computacionais em nível de produção, gestão, simulação e análise de indicadores. Esse artigo que é uma revisão bibliográfica apresenta as principais Ferramentas
@@ -2571,13 +2559,11 @@ const sections = {
                   ferramentas voltadas para Sustentabilidade e ESG – Environmental Social and Governance, que não podem faltar em nenhum segmento empresarial.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/As Principais Ferramentas Computacionais Aplicadas à Engenharia de Produção.pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/As Principais Ferramentas Computacionais Aplicadas à Engenharia de Produção.pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
@@ -2589,7 +2575,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" 
@@ -2597,19 +2583,19 @@ const sections = {
                        class="cert-thumb"
                        >
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica</p>
                   <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica</p>
                   <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
               
-              <p style="font-weight: bold; font-size: 20px; margin-bottom: 12px;">
+              <h4>
                   Resumo
-              </p>
-              <p style="text-align: justify; font-weight: normal; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+              </h4>
+              <p>
                   Com a popularização da internet e computadores a partir das décadas de 1980 e 1990, as organizações começaram a migrar postos de trabalho para o home office. Essa
                   prática que começou discretamente vem sendo alavancada pelo aumento populacional que está cada vez mais consciente dos benefícios da qualidade de vida
                   aliada ao trabalho e principalmente motivada pelo avanço das tecnologias eletrônica e da informação, impulsionado nos últimos anos por consequência da pandemia do
@@ -2618,13 +2604,11 @@ const sections = {
                   organizações quanto para os colaboradores e algumas organizações oferecem diversos benefícios para seus colaboradores.
               </p>
       
-              <p style="margin-top: 12px; font-size: 16px;">
-                  <a href="javascript:void(0);" 
-                     onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Análise da Demanda por Trabalho em Home Office.pdf')" 
-                     class="cert-link-verify">
-                     Acesse o artigo completo.
-                  </a>
-              </p>
+              <a href="javascript:void(0);" 
+                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Análise da Demanda por Trabalho em Home Office.pdf')" 
+                 class="cert-link-verify">
+                 Acesse o artigo completo.
+              </a>
           </div>
       </div>
       
@@ -2636,7 +2620,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png'); return false;">
                   <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" 
@@ -2646,12 +2630,12 @@ const sections = {
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
-                  <p><strong>Título:</strong> A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica</p>
                   <p><strong>Evento Acadêmico:</strong> VI Seminário de Pesquisa e Iniciação Científica - UBM</p>
+                  <p><strong>Título:</strong> A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica</p>
                   <p><strong>Data de Apresentação:</strong> 26 de outubro de 2023</p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <h4>
                   Resumo
