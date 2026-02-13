@@ -1299,7 +1299,14 @@ body.static-header .last-update {
 }
 
 .courses-flow p {
-   margin: 0 0 12px 16px;
+   font-size: 16px;
+   line-height: 1.8;
+   margin: 0 0 8px 8px;
+   color: var(--courses-flow);
+}
+
+.courses-flow a {
+   margin: 8px;
 }
 
 .courses-flow .cert-thumb {
@@ -1895,6 +1902,8 @@ body[data-mode="portfolio"] .side-portfolio {
    --tech-title: #080808;
    --tech-desc: #4C4C4C;
 
+   --courses-flow: #4C4C4C;
+
    --signature-phrase: #4C4C4C;
 
    --link-cert: #0A3C5C;
@@ -1934,6 +1943,8 @@ body[data-mode="portfolio"] .side-portfolio {
    --exp-details-h4: #808080;
    --tech-title: #808080;
    --tech-desc: #EAEAEA;
+
+   --courses-flow: #EAEAEA;
 
    --signature-phrase: #EAEAEA;
 
