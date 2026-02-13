@@ -720,7 +720,7 @@ main {
 .exp-details {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease, opacity 0.3s ease;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
   opacity: 0;
   padding-left: 8px;
   color: var(--exp-details);
@@ -1215,8 +1215,15 @@ body.static-header .last-update {
    margin-top: 0px;
 }
 
-.course-block p {
-   margin: 0 0 12px 16px;
+.courses-block p {
+   font-size: 16px;
+   line-height: 1.8;
+   margin: 0 0 8px 16px;
+   color: var(--courses-flow);
+}
+
+.courses-block a {
+   margin: 8px;
 }
 
 .course-block-content {
