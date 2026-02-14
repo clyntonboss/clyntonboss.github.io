@@ -745,6 +745,10 @@ main {
    margin: 8px;
 }
 
+.exp-details img {
+  display: block;
+}
+
 .exp-details.open {
   max-height: 2000px; /* valor alto */
   opacity: 1;
@@ -793,7 +797,6 @@ body {
     display: block;
     margin: 0 16px;
     cursor: pointer;
-    line-height: 0
    
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
