@@ -1332,7 +1332,7 @@ body.static-header .last-update {
     width: 240px;
     height: 170px;
     display: block;
-    margin: 16px;
+    margin: 20px 16px;
     cursor: pointer;
    
     transition: transform 0.2s ease, box-shadow 0.2s ease;
