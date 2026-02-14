@@ -724,15 +724,7 @@ main {
   opacity: 0;
   padding-left: 8px;
   color: var(--exp-details);
-  display: flow-root;
-}
-
-.exp-details > :first-child {
-  margin-top: 0;
-}
-
-.exp-details > :last-child {
-  margin-bottom: 0;
+  line-height: normal
 }
 
 .exp-details h4 {
