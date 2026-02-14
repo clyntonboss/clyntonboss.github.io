@@ -1109,19 +1109,19 @@ body.static-header .last-update {
     display: none;
 }
 
-/* Ícone ▸ / ▾ */
+/* Ícone único */
 .project-section summary::before {
     content: "▸";
-    font-size: 1rem;
+    font-size: 0.9rem;
     position: absolute;
     left: 0;
     font-weight: 600;
-    transition: transform 0.4s ease;
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* Quando aberto */
+/* Rotaciona quando aberto */
 .project-section[open] summary::before {
-    content: "▾";
+    transform: rotate(90deg);
 }
 
 /* Texto */
