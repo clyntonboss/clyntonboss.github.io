@@ -2112,149 +2112,74 @@ const sections = {
           alinhadas ao contexto de cada organização. Os resultados apresentados a seguir refletem ganhos concretos observados em diferentes cenários de atuação.
       </p>
       
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Processos</span>
-              <button class="exp-toggle">+</button>
+      <!-- Contexto do Problema -->
+      <details class="project-section">
+          <summary>
+              <span class="summary-text">Processos</span>
+              <span class="summary-icon"></span>
+          </summary>
+          <div class="tech-subtitle">Estruturação, padronização e melhoria contínua de fluxos operacionais e administrativos.</div>
+          <div class="tech-title">Situação Inicial:</div>
+          <div class="tech-desc">
+              Ambientes com processos pouco estruturados, alto grau de retrabalho, uso excessivo de controles manuais e ausência de padronização na organização das informações.
           </div>
-          <div class="exp-details">
       
-              <div class="tech-subtitle">Estruturação, padronização e melhoria contínua de fluxos operacionais e administrativos.</div>
-              <div class="tech-title">Situação Inicial:</div>
-              <div class="tech-desc">
-                  Ambientes com processos pouco estruturados, alto grau de retrabalho, uso excessivo de controles manuais e ausência de padronização na organização das informações.
-              </div>
-          
-              <div class="tech-title">Abordagem Adotada:</div>
-              <div class="tech-desc">
-                  Mapeamento de rotinas, reorganização de fluxos operacionais e aplicação de soluções tecnológicas adequadas à realidade de cada contexto, priorizando simplicidade, clareza e sustentabilidade das soluções ao longo do tempo.
-              </div>
-          
-              <div class="tech-title">Resultado Alcançado:</div>
-              <div class="tech-desc">
-                  Redução de retrabalho, maior previsibilidade operacional, padronização de procedimentos e melhoria significativa na organização dos processos administrativos e técnicos.
-              </div>
+          <div class="tech-title">Abordagem Adotada:</div>
+          <div class="tech-desc">
+              Mapeamento de rotinas, reorganização de fluxos operacionais e aplicação de soluções tecnológicas adequadas à realidade de cada contexto, priorizando simplicidade, clareza e sustentabilidade das soluções ao longo do tempo.
           </div>
-      </div>
       
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Informações e Tomada de Decisões</span>
-              <button class="exp-toggle">+</button>
+          <div class="tech-title">Resultado Alcançado:</div>
+          <div class="tech-desc">
+              Redução de retrabalho, maior previsibilidade operacional, padronização de procedimentos e melhoria significativa na organização dos processos administrativos e técnicos.
           </div>
-          <div class="exp-details">
-      
-              <div class="tech-subtitle">Transformação de dados em informação clara, confiável e acionável para suporte estratégico.</div>
-              <div class="tech-title">Situação Inicial:</div>
-              <div class="tech-desc">
-                  Dados dispersos, planilhas desconectadas, dificuldade de acesso à informação confiável e ausência de indicadores claros para apoiar decisões.
-              </div>
-          
-              <div class="tech-title">Abordagem Adotada:</div>
-              <div class="tech-desc">
-                  Estruturação de bases de dados, consolidação de múltiplas fontes de informação e desenvolvimento de soluções analíticas e visuais que transformam dados brutos em informação compreensível e acionável.
-              </div>
-          
-              <div class="tech-title">Resultado Alcançado:</div>
-              <div class="tech-desc">
-                  Maior clareza informacional, visão integrada dos dados, apoio efetivo à tomada de decisão e substituição de controles manuais por painéis e indicadores consistentes.
-              </div>
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Tecnológico</span>
-              <button class="exp-toggle">+</button>
-          </div>
-          <div class="exp-details">
-      
-              <div class="tech-subtitle">Aplicação de soluções tecnológicas alinhadas ao contexto, com foco em eficiência, integração e sustentabilidade.</div>
-              <div class="tech-title">Situação Inicial:</div>
-              <div class="tech-desc">
-                  Instituições com desafios na gestão da informação, suporte técnico reativo e dificuldades na utilização eficiente de recursos tecnológicos.
-              </div>
-          
-              <div class="tech-title">Abordagem Adotada:</div>
-              <div class="tech-desc">
-                  Atuação próxima às equipes administrativas, educacionais e usuários finais, com foco na organização da informação, no suporte acessível e na disseminação de uma cultura orientada ao uso consciente da tecnologia e dos dados.
-              </div>
-          
-              <div class="tech-title">Resultado Alcançado:</div>
-              <div class="tech-desc">
-                  Melhoria na gestão educacional e administrativa, maior autonomia dos usuários, melhor aproveitamento dos recursos tecnológicos disponíveis e fortalecimento da cultura organizacional orientada à informação.
-              </div>
-          </div>
-      </div>
+      </details>
 
-                            <!-- Contexto do Problema -->
-                            <details class="project-section">
-                                <summary>
-                                    <span class="summary-text">Processos</span>
-                                    <span class="summary-icon"></span>
-                                </summary>
-                                <div class="tech-subtitle">Estruturação, padronização e melhoria contínua de fluxos operacionais e administrativos.</div>
-                                <div class="tech-title">Situação Inicial:</div>
-                                <div class="tech-desc">
-                                    Ambientes com processos pouco estruturados, alto grau de retrabalho, uso excessivo de controles manuais e ausência de padronização na organização das informações.
-                                </div>
-                            
-                                <div class="tech-title">Abordagem Adotada:</div>
-                                <div class="tech-desc">
-                                    Mapeamento de rotinas, reorganização de fluxos operacionais e aplicação de soluções tecnológicas adequadas à realidade de cada contexto, priorizando simplicidade, clareza e sustentabilidade das soluções ao longo do tempo.
-                                </div>
-                            
-                                <div class="tech-title">Resultado Alcançado:</div>
-                                <div class="tech-desc">
-                                    Redução de retrabalho, maior previsibilidade operacional, padronização de procedimentos e melhoria significativa na organização dos processos administrativos e técnicos.
-                                </div>
-                            </details>
-                    
-                            <!-- Abordagem Estratégica -->
-                            <details class="project-section">
-                                <summary>
-                                    <span class="summary-text">Informações e Tomada de Decisões</span>
-                                    <span class="summary-icon"></span>
-                                </summary>
-                                <div class="tech-subtitle">Transformação de dados em informação clara, confiável e acionável para suporte estratégico.</div>
-                                <div class="tech-title">Situação Inicial:</div>
-                                <div class="tech-desc">
-                                    Dados dispersos, planilhas desconectadas, dificuldade de acesso à informação confiável e ausência de indicadores claros para apoiar decisões.
-                                </div>
-                            
-                                <div class="tech-title">Abordagem Adotada:</div>
-                                <div class="tech-desc">
-                                    Estruturação de bases de dados, consolidação de múltiplas fontes de informação e desenvolvimento de soluções analíticas e visuais que transformam dados brutos em informação compreensível e acionável.
-                                </div>
-                            
-                                <div class="tech-title">Resultado Alcançado:</div>
-                                <div class="tech-desc">
-                                    Maior clareza informacional, visão integrada dos dados, apoio efetivo à tomada de decisão e substituição de controles manuais por painéis e indicadores consistentes.
-                                </div>
-                            </details>
+      <!-- Abordagem Estratégica -->
+      <details class="project-section">
+          <summary>
+              <span class="summary-text">Informações e Tomada de Decisões</span>
+              <span class="summary-icon"></span>
+          </summary>
+          <div class="tech-subtitle">Transformação de dados em informação clara, confiável e acionável para suporte estratégico.</div>
+          <div class="tech-title">Situação Inicial:</div>
+          <div class="tech-desc">
+              Dados dispersos, planilhas desconectadas, dificuldade de acesso à informação confiável e ausência de indicadores claros para apoiar decisões.
+          </div>
+      
+          <div class="tech-title">Abordagem Adotada:</div>
+          <div class="tech-desc">
+              Estruturação de bases de dados, consolidação de múltiplas fontes de informação e desenvolvimento de soluções analíticas e visuais que transformam dados brutos em informação compreensível e acionável.
+          </div>
+      
+          <div class="tech-title">Resultado Alcançado:</div>
+          <div class="tech-desc">
+              Maior clareza informacional, visão integrada dos dados, apoio efetivo à tomada de decisão e substituição de controles manuais por painéis e indicadores consistentes.
+          </div>
+      </details>
 
-                            <!-- Impactos e Resultados -->
-                            <details class="project-section">
-                                <summary>
-                                    <span class="summary-text">Tecnológico</span>
-                                    <span class="summary-icon"></span>
-                                </summary>
-                                <div class="tech-subtitle">Aplicação de soluções tecnológicas alinhadas ao contexto, com foco em eficiência, integração e sustentabilidade.</div>
-                                <div class="tech-title">Situação Inicial:</div>
-                                <div class="tech-desc">
-                                    Instituições com desafios na gestão da informação, suporte técnico reativo e dificuldades na utilização eficiente de recursos tecnológicos.
-                                </div>
-                            
-                                <div class="tech-title">Abordagem Adotada:</div>
-                                <div class="tech-desc">
-                                    Atuação próxima às equipes administrativas, educacionais e usuários finais, com foco na organização da informação, no suporte acessível e na disseminação de uma cultura orientada ao uso consciente da tecnologia e dos dados.
-                                </div>
-                            
-                                <div class="tech-title">Resultado Alcançado:</div>
-                                <div class="tech-desc">
-                                    Melhoria na gestão educacional e administrativa, maior autonomia dos usuários, melhor aproveitamento dos recursos tecnológicos disponíveis e fortalecimento da cultura organizacional orientada à informação.
-                                </div>
-                            </details>
+      <!-- Impactos e Resultados -->
+      <details class="project-section">
+          <summary>
+              <span class="summary-text">Tecnológico</span>
+              <span class="summary-icon"></span>
+          </summary>
+          <div class="tech-subtitle">Aplicação de soluções tecnológicas alinhadas ao contexto, com foco em eficiência, integração e sustentabilidade.</div>
+          <div class="tech-title">Situação Inicial:</div>
+          <div class="tech-desc">
+              Instituições com desafios na gestão da informação, suporte técnico reativo e dificuldades na utilização eficiente de recursos tecnológicos.
+          </div>
+      
+          <div class="tech-title">Abordagem Adotada:</div>
+          <div class="tech-desc">
+              Atuação próxima às equipes administrativas, educacionais e usuários finais, com foco na organização da informação, no suporte acessível e na disseminação de uma cultura orientada ao uso consciente da tecnologia e dos dados.
+          </div>
+      
+          <div class="tech-title">Resultado Alcançado:</div>
+          <div class="tech-desc">
+              Melhoria na gestão educacional e administrativa, maior autonomia dos usuários, melhor aproveitamento dos recursos tecnológicos disponíveis e fortalecimento da cultura organizacional orientada à informação.
+          </div>
+      </details>
                           
       <div class="tech-title"><p>Síntese e Continuidade</p></div>
       
