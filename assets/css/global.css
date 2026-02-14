@@ -727,6 +727,14 @@ main {
   display: flow-root;
 }
 
+.exp-details > :first-child {
+  margin-top: 0;
+}
+
+.exp-details > :last-child {
+  margin-bottom: 0;
+}
+
 .exp-details h4 {
    font-size: 20px;
    font-weight: 600;
