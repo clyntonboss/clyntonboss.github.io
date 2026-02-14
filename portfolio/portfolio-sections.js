@@ -2330,10 +2330,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2356,9 +2353,7 @@ const sections = {
                   principal trazer cultura, informação e principalmente educação de qualidade a todos.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2375,10 +2370,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2402,9 +2394,7 @@ const sections = {
                   evolução do EaD se consolidou ao presencial impulsionado, também, através dessa nova ordem social e se disseminou tanto nos setores públicos quanto privados.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensino a Distância (Uma Ferramenta de Inclusão Social).pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensino a Distância (Uma Ferramenta de Inclusão Social).pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2421,10 +2411,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2447,9 +2434,7 @@ const sections = {
                   outras organizações como matéria-prima, aumentariam a satisfação financeira dos shareholders.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Vendas Especiais (Lucratividade Advinda de Resíduos Recicláveis).pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Vendas Especiais (Lucratividade Advinda de Resíduos Recicláveis).pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2466,10 +2451,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2491,9 +2473,7 @@ const sections = {
                   específico sobre a TI (Tecnologia da Informação) que se refere à segurança da informação, conforme é explanado no decorrer do resultado da pesquisa.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Os Impactos da Aplicação da Lei Geral de Proteção de Dados - LGPD.pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Os Impactos da Aplicação da Lei Geral de Proteção de Dados - LGPD.pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2510,10 +2490,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2535,9 +2512,7 @@ const sections = {
                   A tendência é conciliar a robotização com o feeling humano promovendo sinergia entre os dois mundos.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensaio Sobre Perspectivas da Transição da Indústria 4.0 para a Indústria 5.0.pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensaio Sobre Perspectivas da Transição da Indústria 4.0 para a Indústria 5.0.pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2554,10 +2529,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2580,9 +2552,7 @@ const sections = {
                   que são recicláveis. Com isso os Resíduos voltam para o processo fabril da própria organização ou é destinado para organizações de outros segmentos.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Utilização de Resíduos como Matéria-Prima na Indústria.pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Utilização de Resíduos como Matéria-Prima na Indústria.pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2599,10 +2569,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2624,9 +2591,7 @@ const sections = {
                   ferramentas voltadas para Sustentabilidade e ESG – Environmental Social and Governance, que não podem faltar em nenhum segmento empresarial.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/As Principais Ferramentas Computacionais Aplicadas à Engenharia de Produção.pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/As Principais Ferramentas Computacionais Aplicadas à Engenharia de Produção.pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2643,10 +2608,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2669,9 +2631,7 @@ const sections = {
                   organizações quanto para os colaboradores e algumas organizações oferecem diversos benefícios para seus colaboradores.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Análise da Demanda por Trabalho em Home Office.pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Análise da Demanda por Trabalho em Home Office.pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2688,10 +2648,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" 
-                       alt="Artigo Científico" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2714,9 +2671,7 @@ const sections = {
                   tem papel fundamental para a mudança cultural no que tange a capacitação sobre a tecnologia digital e reestruturação dos parques industriais.
               </p>
       
-              <a href="javascript:void(0);" 
-                 onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/A Atuação do Engenheiro de Produção na Indústria 4.0.pdf')" 
-                 class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/A Atuação do Engenheiro de Produção na Indústria 4.0.pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2733,7 +2688,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
 
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
               </a>
 
               <div>
