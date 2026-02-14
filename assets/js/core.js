@@ -241,31 +241,34 @@ function initThemePortfolio() {
 }
 
 // ==================== Disclosure Sections (controle manual) ====================
+// ==================== Disclosure Sections (agrupamento estrutural) ====================
 document.addEventListener('DOMContentLoaded', () => {
 
-  const groups = document.querySelectorAll('.experience');
+    document.querySelectorAll('.project-section').forEach(section => {
 
-  groups.forEach(group => {
+        const summary = section.querySelector('summary');
 
-    const sections = group.querySelectorAll('.project-section');
+        summary.addEventListener('click', e => {
+            e.preventDefault();
 
-    sections.forEach(section => {
-      section.addEventListener('click', (e) => {
+            const parent = section.parentElement;
+            const siblings = parent.querySelectorAll('.project-section');
 
-        if (e.target.tagName.toLowerCase() === 'summary') {
+            const isOpen = section.hasAttribute('open');
 
-          sections.forEach(other => {
-            if (other !== section) {
-              other.removeAttribute('open');
+            // Fecha todos do mesmo container
+            siblings.forEach(other => {
+                other.removeAttribute('open');
+            });
+
+            // Abre somente se não estava aberto
+            if (!isOpen) {
+                section.setAttribute('open', '');
             }
-          });
 
-        }
+        });
 
-      });
     });
-
-  });
 
 });
 
