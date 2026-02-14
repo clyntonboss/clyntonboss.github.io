@@ -724,6 +724,7 @@ main {
   opacity: 0;
   padding-left: 8px;
   color: var(--exp-details);
+  display: flow-root;
 }
 
 .exp-details h4 {
