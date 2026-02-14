@@ -2115,15 +2115,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert" decorative-line-sup>
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png"
-                       alt="Cloud" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
                   <p><strong>Curso:</strong> Databricks Accredited Azure Platform Architect</p>
                   <p><strong>Carga Horária:</strong> 4 h 10 min</p>
@@ -2134,7 +2131,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
