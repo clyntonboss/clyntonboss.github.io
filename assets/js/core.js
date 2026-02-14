@@ -243,25 +243,29 @@ function initThemePortfolio() {
 // ==================== Disclosure Sections (controle manual) ====================
 document.addEventListener('DOMContentLoaded', () => {
 
-    const sections = document.querySelectorAll('.project-section');
+  const groups = document.querySelectorAll('.experience');
+
+  groups.forEach(group => {
+
+    const sections = group.querySelectorAll('.project-section');
 
     sections.forEach(section => {
-        const summary = section.querySelector('summary');
+      section.addEventListener('click', (e) => {
 
-        summary.addEventListener('click', e => {
-            e.preventDefault();
+        if (e.target.tagName.toLowerCase() === 'summary') {
 
-            const isOpen = section.hasAttribute('open');
-
-            sections.forEach(other => {
-                other.removeAttribute('open');
-            });
-
-            if (!isOpen) {
-                section.setAttribute('open', '');
+          sections.forEach(other => {
+            if (other !== section) {
+              other.removeAttribute('open');
             }
-        });
+          });
+
+        }
+
+      });
     });
+
+  });
 
 });
 
