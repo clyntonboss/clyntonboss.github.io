@@ -241,7 +241,6 @@ function initThemePortfolio() {
 }
 
 // ==================== Disclosure Sections (controle manual) ====================
-// ==================== Disclosure Sections (agrupamento estrutural) ====================
 document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelectorAll('.project-section').forEach(section => {
@@ -251,13 +250,16 @@ document.addEventListener('DOMContentLoaded', () => {
         summary.addEventListener('click', e => {
             e.preventDefault();
 
-            const parent = section.parentElement;
-            const siblings = parent.querySelectorAll('.project-section');
+            // Procura o container mais próximo que agrupa
+            const group = section.closest('.experience, .curriculo-text');
 
+            if (!group) return;
+
+            const sections = group.querySelectorAll('.project-section');
             const isOpen = section.hasAttribute('open');
 
-            // Fecha todos do mesmo container
-            siblings.forEach(other => {
+            // Fecha todos do grupo
+            sections.forEach(other => {
                 other.removeAttribute('open');
             });
 
