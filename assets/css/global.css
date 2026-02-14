@@ -795,7 +795,7 @@ body {
     width: 240px;
     height: 170px;
     display: block;
-    margin: 0 16px;
+    margin: 24px 16px;
     cursor: pointer;
    
     transition: transform 0.2s ease, box-shadow 0.2s ease;
