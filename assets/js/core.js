@@ -243,32 +243,40 @@ function initThemePortfolio() {
 // ==================== Disclosure Sections (controle manual) ====================
 document.addEventListener('DOMContentLoaded', () => {
 
-    document.querySelectorAll('.project-section').forEach(section => {
+    document.addEventListener('click', function (e) {
 
-        const summary = section.querySelector('summary');
+        const summary = e.target.closest('summary');
+        if (!summary) return;
 
-        summary.addEventListener('click', e => {
-            e.preventDefault();
+        const section = summary.closest('.project-section');
+        if (!section) return;
 
-            // Procura o container mais próximo que agrupa
-            const group = section.closest('.experience, .curriculo-text');
+        e.preventDefault();
 
-            if (!group) return;
+        const isOpen = section.hasAttribute('open');
 
-            const sections = group.querySelectorAll('.project-section');
-            const isOpen = section.hasAttribute('open');
+        // 🔎 Encontra o container real do grupo dinamicamente
+        let container = section.parentElement;
 
-            // Fecha todos do grupo
-            sections.forEach(other => {
-                other.removeAttribute('open');
-            });
+        while (container && container !== document.body) {
+            const sections = container.querySelectorAll('.project-section');
+            if (sections.length > 1) break;
+            container = container.parentElement;
+        }
 
-            // Abre somente se não estava aberto
-            if (!isOpen) {
-                section.setAttribute('open', '');
-            }
+        if (!container) return;
 
+        const sections = container.querySelectorAll('.project-section');
+
+        // Fecha todos do grupo
+        sections.forEach(other => {
+            other.removeAttribute('open');
         });
+
+        // Abre somente se não estava aberto
+        if (!isOpen) {
+            section.setAttribute('open', '');
+        }
 
     });
 
