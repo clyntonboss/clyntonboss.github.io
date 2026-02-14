@@ -2190,13 +2190,24 @@ const sections = {
                             <!-- Contexto do Problema -->
                             <details class="project-section">
                                 <summary>
-                                    <span class="summary-text">Contexto do Problema</span>
+                                    <span class="summary-text">Processos</span>
                                     <span class="summary-icon"></span>
                                 </summary>
-                                <p>
-                                    A organização enfrentava dificuldades em consolidar indicadores operacionais
-                                    dispersos em múltiplas fontes, comprometendo a tomada de decisão gerencial.
-                                </p>
+                                <div class="tech-subtitle">Estruturação, padronização e melhoria contínua de fluxos operacionais e administrativos.</div>
+                                <div class="tech-title">Situação Inicial:</div>
+                                <div class="tech-desc">
+                                    Ambientes com processos pouco estruturados, alto grau de retrabalho, uso excessivo de controles manuais e ausência de padronização na organização das informações.
+                                </div>
+                            
+                                <div class="tech-title">Abordagem Adotada:</div>
+                                <div class="tech-desc">
+                                    Mapeamento de rotinas, reorganização de fluxos operacionais e aplicação de soluções tecnológicas adequadas à realidade de cada contexto, priorizando simplicidade, clareza e sustentabilidade das soluções ao longo do tempo.
+                                </div>
+                            
+                                <div class="tech-title">Resultado Alcançado:</div>
+                                <div class="tech-desc">
+                                    Redução de retrabalho, maior previsibilidade operacional, padronização de procedimentos e melhoria significativa na organização dos processos administrativos e técnicos.
+                                </div>
                             </details>
                     
                             <!-- Abordagem Estratégica -->
