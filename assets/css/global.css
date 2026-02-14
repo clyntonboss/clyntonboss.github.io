@@ -1149,13 +1149,13 @@ body.static-header .last-update {
 }
 
 .project-section[open] .disclosure-content {
-    animation: fadeInDisclosure 0.3s ease forwards;
+    animation: fadeInDisclosure 0.45s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
 }
 
 @keyframes fadeInDisclosure {
     from {
         opacity: 0;
-        transform: translateY(6px);
+        transform: translateY(8px);
     }
     to {
         opacity: 1;
