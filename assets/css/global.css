@@ -724,7 +724,7 @@ main {
   opacity: 0;
   padding-left: 8px;
   color: var(--exp-details);
-  line-height: normal
+  line-height: normal;
 }
 
 .exp-details h4 {
