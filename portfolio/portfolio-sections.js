@@ -2213,54 +2213,49 @@ const sections = {
                             <!-- Abordagem Estratégica -->
                             <details class="project-section">
                                 <summary>
-                                    <span class="summary-text">Abordagem Estratégica</span>
+                                    <span class="summary-text">Informações e Tomada de Decisões</span>
                                     <span class="summary-icon"></span>
                                 </summary>
-                                <p>
-                                    Foi adotada uma abordagem baseada em modelagem dimensional,
-                                    integração de dados e definição de KPIs alinhados aos objetivos do negócio.
-                                </p>
+                                <div class="tech-subtitle">Transformação de dados em informação clara, confiável e acionável para suporte estratégico.</div>
+                                <div class="tech-title">Situação Inicial:</div>
+                                <div class="tech-desc">
+                                    Dados dispersos, planilhas desconectadas, dificuldade de acesso à informação confiável e ausência de indicadores claros para apoiar decisões.
+                                </div>
+                            
+                                <div class="tech-title">Abordagem Adotada:</div>
+                                <div class="tech-desc">
+                                    Estruturação de bases de dados, consolidação de múltiplas fontes de informação e desenvolvimento de soluções analíticas e visuais que transformam dados brutos em informação compreensível e acionável.
+                                </div>
+                            
+                                <div class="tech-title">Resultado Alcançado:</div>
+                                <div class="tech-desc">
+                                    Maior clareza informacional, visão integrada dos dados, apoio efetivo à tomada de decisão e substituição de controles manuais por painéis e indicadores consistentes.
+                                </div>
                             </details>
 
                             <!-- Impactos e Resultados -->
                             <details class="project-section">
                                 <summary>
-                                    <span class="summary-text">Impactos e Resultados</span>
+                                    <span class="summary-text">Tecnológico</span>
                                     <span class="summary-icon"></span>
                                 </summary>
-                                <p>
-                                    O projeto resultou em maior clareza operacional,
-                                    redução de retrabalho analítico e aumento da eficiência
-                                    no acompanhamento dos indicadores estratégicos.
-                                </p>
+                                <div class="tech-subtitle">Aplicação de soluções tecnológicas alinhadas ao contexto, com foco em eficiência, integração e sustentabilidade.</div>
+                                <div class="tech-title">Situação Inicial:</div>
+                                <div class="tech-desc">
+                                    Instituições com desafios na gestão da informação, suporte técnico reativo e dificuldades na utilização eficiente de recursos tecnológicos.
+                                </div>
+                            
+                                <div class="tech-title">Abordagem Adotada:</div>
+                                <div class="tech-desc">
+                                    Atuação próxima às equipes administrativas, educacionais e usuários finais, com foco na organização da informação, no suporte acessível e na disseminação de uma cultura orientada ao uso consciente da tecnologia e dos dados.
+                                </div>
+                            
+                                <div class="tech-title">Resultado Alcançado:</div>
+                                <div class="tech-desc">
+                                    Melhoria na gestão educacional e administrativa, maior autonomia dos usuários, melhor aproveitamento dos recursos tecnológicos disponíveis e fortalecimento da cultura organizacional orientada à informação.
+                                </div>
                             </details>
-                    
-                            <!-- Tecnologias Envolvidas -->
-                            <details class="project-section">
-                                <summary>
-                                    <span class="summary-text">Tecnologias Envolvidas</span>
-                                    <span class="summary-icon"></span>
-                                </summary>
-                                <p>
-                                    Power BI foi utilizado para visualização e storytelling,
-                                    SQL para tratamento e consolidação dos dados,
-                                    e Python para automatização de etapas de preparação.
-                                </p>
-                            </details>
-                    
-                            <!-- Conexão 5.0 -->
-                            <details class="project-section">
-                                <summary>
-                                    <span class="summary-text">Conexão com Indústria | Dados | Pessoas</span>
-                                    <span class="summary-icon"></span>
-                                </summary>
-                                <p>
-                                    A solução conectou dados operacionais do processo industrial
-                                    à análise estratégica, promovendo decisões mais ágeis
-                                    e ampliando a autonomia dos gestores.
-                                </p>
-                            </details>
-      
+                          
       <div class="tech-title"><p>Síntese e Continuidade</p></div>
       
       <p>
