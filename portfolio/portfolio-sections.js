@@ -2115,7 +2115,7 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert" decorative-line-sup>
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png'); return false;">
                   <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
