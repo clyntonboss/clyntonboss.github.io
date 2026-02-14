@@ -1753,15 +1753,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
                   <p><strong>Curso:</strong> Lean Six Sigma White Belt</p>
                   <p><strong>Carga Horária:</strong> 8 h</p>
@@ -1772,15 +1769,12 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Produzindo Engenharia</p>
                   <p><strong>Curso:</strong> White Belt Lean Six Sigma</p>
                   <p><strong>Carga Horária:</strong> 6 h</p>
@@ -1791,15 +1785,12 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Frons Educação</p>
                   <p><strong>Curso:</strong> White Belt Lean Six Sigma</p>
                   <p><strong>Carga Horária:</strong> 10 h</p>
@@ -1810,15 +1801,12 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Council for Six Sigma Certification</p>
                   <p><strong>Curso:</strong> Lean Six Sigma White Belt</p>
                   <p><strong>Carga Horária:</strong> 8 h</p>
@@ -1829,15 +1817,12 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Escola EDTI</p>
                   <p><strong>Curso:</strong> Certificação White Belt em Lean Six Sigma</p>
                   <p><strong>Carga Horária:</strong> 8 h</p>
@@ -1848,15 +1833,12 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Nortegubisian</p>
                   <p><strong>Curso:</strong> Six Sigma White Belt</p>
                   <p><strong>Carga Horária:</strong> 4 h</p>
@@ -1867,7 +1849,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
@@ -1879,15 +1861,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
                   <p><strong>Curso:</strong> Lean Six Sigma Yellow Belt</p>
                   <p><strong>Carga Horária:</strong> 24 h</p>
@@ -1898,15 +1877,12 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> VMEdu, Inc</p>
                   <p><strong>Curso:</strong> Six Sigma Yellow Belt</p>
                   <p><strong>Carga Horária:</strong> 20 h</p>
@@ -1917,7 +1893,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
@@ -1929,15 +1905,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" 
-                       alt="Gestão da Qualidade" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Domus Lean Seis Sigma</p>
                   <p><strong>Curso:</strong> Lean Seis Sigma Green Belt</p>
                   <p><strong>Carga Horária:</strong> 40 h</p>
@@ -1948,7 +1921,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
@@ -1960,15 +1933,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png"
-                       alt="Cloud" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
                   <p><strong>Curso:</strong> Databricks Accredited Platform Administrator</p>
                   <p><strong>Carga Horária:</strong> 8 h 36 min</p>
@@ -1979,7 +1949,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
@@ -1991,15 +1961,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png"
-                       alt="Cloud" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
                   <p><strong>Curso:</strong> Databricks Accredited Databricks Fundamentals</p>
                   <p><strong>Carga Horária:</strong> 1 h 30 min</p>
@@ -2010,7 +1977,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
@@ -2022,15 +1989,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png"
-                       alt="Cloud" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
                   <p><strong>Curso:</strong> Databricks Accredited Generative Artificial Intelligence Fundamentals</p>
                   <p><strong>Carga Horária:</strong> 10 h 10 min</p>
@@ -2041,7 +2005,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
@@ -2053,15 +2017,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png"
-                       alt="Cloud" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
                   <p><strong>Curso:</strong> Databricks Accredited Google Cloud Platform Databricks Platform Architect</p>
                   <p><strong>Carga Horária:</strong> 3 h 20 min</p>
@@ -2072,7 +2033,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
@@ -2084,15 +2045,12 @@ const sections = {
           </div>
           <div class="exp-details">
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png"
-                       alt="Cloud" 
-                       class="cert-thumb"
-                       >
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
               </a>
-              <div class="course-block">
+              <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
                   <p><strong>Curso:</strong> Databricks Accredited Amazon Web Services Platform Architect</p>
                   <p><strong>Carga Horária:</strong> 3 h 20 min</p>
@@ -2103,7 +2061,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert">
+              <hr class="decorative-line-cert decorative-line-sup">
       
           </div>
       </div>
