@@ -325,5 +325,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initUpdateDate();
     initThemeHome();
     initThemePortfolio();
-    initSmoothDisclosure();
+    initSmoothAccordion();
 });
