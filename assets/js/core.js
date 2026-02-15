@@ -297,6 +297,49 @@ function initSyncDisclosureAccordion() {
     });
 }
 
+function initSmoothDisclosure() {
+    document.querySelectorAll('.project-section').forEach(details => {
+        const content = details.querySelector('.disclosure-content');
+
+        details.addEventListener('click', (e) => {
+            if (e.target.tagName !== 'SUMMARY') return;
+
+            e.preventDefault();
+
+            if (details.hasAttribute('open')) {
+                // Fechando
+                const height = content.scrollHeight;
+                content.style.height = height + 'px';
+
+                requestAnimationFrame(() => {
+                    content.style.height = '0px';
+                });
+
+                content.addEventListener('transitionend', function handler() {
+                    details.removeAttribute('open');
+                    content.style.height = '';
+                    content.removeEventListener('transitionend', handler);
+                });
+
+            } else {
+                // Abrindo
+                details.setAttribute('open', '');
+                const height = content.scrollHeight;
+                content.style.height = '0px';
+
+                requestAnimationFrame(() => {
+                    content.style.height = height + 'px';
+                });
+
+                content.addEventListener('transitionend', function handler() {
+                    content.style.height = '';
+                    content.removeEventListener('transitionend', handler);
+                });
+            }
+        });
+    });
+}
+
 // ==================== Inicialização ====================
 document.addEventListener('DOMContentLoaded', () => {
     initFadeIn();
@@ -307,4 +350,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initThemeHome();
     initThemePortfolio();
     initSyncDisclosureAccordion();
+    initSmoothDisclosure();
 });
