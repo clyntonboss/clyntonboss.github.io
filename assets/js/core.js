@@ -284,26 +284,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ==================== Módulo Sync Disclosure com Accordion ====================
 function initSmoothAccordion() {
-    const sections = document.querySelectorAll('.project-section');
+    const buttons = document.querySelectorAll('.project-summary');
 
-    sections.forEach(section => {
-        const button = section.querySelector('.project-summary');
-        const content = section.querySelector('.disclosure-content');
+    buttons.forEach(button => {
+        const content = button.nextElementSibling;
 
         button.addEventListener('click', () => {
-
             const isOpen = button.getAttribute('aria-expanded') === 'true';
 
-            // Fecha todos (modo accordion)
-            sections.forEach(s => {
-                const b = s.querySelector('.project-summary');
-                const c = s.querySelector('.disclosure-content');
+            if (isOpen) {
+                button.setAttribute('aria-expanded', 'false');
+                content.style.height = content.scrollHeight + 'px';
 
-                b.setAttribute('aria-expanded', 'false');
-                c.style.height = '0px';
-            });
+                requestAnimationFrame(() => {
+                    content.style.height = '0px';
+                });
 
-            if (!isOpen) {
+            } else {
                 button.setAttribute('aria-expanded', 'true');
                 content.style.height = content.scrollHeight + 'px';
 
