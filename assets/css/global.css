@@ -1478,12 +1478,12 @@ body.static-header .last-update {
 }
 
 .title-category .pipe {
-  color: #999; /* cinza elegante */
+  color: var(--category-pipe); /* cinza elegante */
   margin: 0px 12px 0px 0px;
 }
 
 .title-category .category-name {
-  color: #6fb3ff; /* destaque suave */
+  color: var(--category-name); /* destaque suave */
   font-weight: 500;
 }
 
@@ -1969,10 +1969,10 @@ body[data-mode="portfolio"] .side-portfolio {
 
    --courses-flow: #4C4C4C;
 
-   --summary-text: #4C4C4C;
-   --summary-icon: #4C4C4C;
-
    --signature-phrase: #4C4C4C;
+
+   --category-pipe: #282828;
+   --category-name: #282828;
 
    --link-cert: #0A3C5C;
    --box-shadow-link-cert: 0 0 8px rgba(0,0,0,0.2);
@@ -2014,10 +2014,10 @@ body[data-mode="portfolio"] .side-portfolio {
 
    --courses-flow: #EAEAEA;
 
-   --summary-text: #EAEAEA;
-   --summary-icon: #EAEAEA;
-
    --signature-phrase: #EAEAEA;
+
+   --category-pipe: #C0C0C0;
+   --category-name: #C0C0C0;
 
    --link-cert: #476C83;
    --box-shadow-link-cert: 0 0 8px rgba(255,255,255,0.2);
