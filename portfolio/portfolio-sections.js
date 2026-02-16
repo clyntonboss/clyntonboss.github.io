@@ -1528,7 +1528,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Comunicação & Relacionamento</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <div class="tech-subtitle">Forma de interagir, transmitir ideias e colaborar com os outros.</div>
@@ -1557,7 +1557,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Liderança & Gestão</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <div class="tech-subtitle">Coordenação de pessoas, gestão de processos e orientação de equipes.</div>
@@ -1581,7 +1581,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Pensamento Analítico & Estratégico</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <div class="tech-subtitle">Análise, raciocínio e tomada de decisão baseada em informações e lógica.</div>
@@ -1615,7 +1615,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Orientação a Resultados</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <div class="tech-subtitle">Foco em performance, metas e entrega de valor.</div>
