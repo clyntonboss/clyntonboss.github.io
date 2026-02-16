@@ -728,6 +728,10 @@ main {
   transition: transform 0.4s ease;
 }
 
+.exp-toggle--compact {
+  margin-left: 0;         /* leve afastamento do texto */
+}
+
 .exp-details {
   max-height: 0;
   overflow: hidden;
