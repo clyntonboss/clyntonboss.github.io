@@ -2114,7 +2114,7 @@ const sections = {
       
       <div class="experience experience--compact">
           <div class="exp-header">
-              <button class="exp-toggle">▶</button>
+              <button class="exp-toggle">►</button>
               <span class="exp-role">Processos</span>
           </div>
           <div class="exp-details">
@@ -2140,7 +2140,7 @@ const sections = {
 
       <div class="experience experience--compact">
           <div class="exp-header">
-              <button class="exp-toggle">▶</button>
+              <button class="exp-toggle">►</button>
               <span class="exp-role">Informações e Tomadas de Decisões</span>
           </div>
           <div class="exp-details">
@@ -2166,7 +2166,7 @@ const sections = {
 
       <div class="experience experience--compact">
           <div class="exp-header">
-              <button class="exp-toggle">▶</button>
+              <button class="exp-toggle">►</button>
               <span class="exp-role">Tecnológico</span>
           </div>
           <div class="exp-details">
