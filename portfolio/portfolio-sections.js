@@ -2186,6 +2186,34 @@ const sections = {
             </div>
           </div>
       </details>
+
+      <div class="experience">
+          <div class="exp-header">
+              <button class="exp-toggle">+</button>
+              <span class="exp-role">Green Belt - Lean Six Sigma</span>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert decorative-line-sup">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Domus Lean Seis Sigma</p>
+                  <p><strong>Curso:</strong> Lean Seis Sigma Green Belt</p>
+                  <p><strong>Carga Horária:</strong> 40 h</p>
+                  <p><strong>Data de Conclusão:</strong> 08 de setembro de 2024</p>
+                  <p><strong>Código:</strong> #DLSSGB00006</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
                           
       <div class="tech-title"><p>Síntese e Continuidade</p></div>
       
