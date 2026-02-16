@@ -1158,6 +1158,14 @@ body.static-header .last-update {
                 opacity 0.4s ease;
 }
 
+.summary-text {
+   color: var(--summary-text);
+}
+
+.summary-icon {
+   color: var(--summary-text);
+}
+
 /* Estilização do Modo Lista */
 .courses-list {
   display: flex;
@@ -1933,6 +1941,9 @@ body[data-mode="portfolio"] .side-portfolio {
 
    --courses-flow: #4C4C4C;
 
+   --summary-text: #4C4C4C;
+   --summary-icon: #4C4C4C;
+
    --signature-phrase: #4C4C4C;
 
    --link-cert: #0A3C5C;
@@ -1974,6 +1985,9 @@ body[data-mode="portfolio"] .side-portfolio {
    --tech-desc: #EAEAEA;
 
    --courses-flow: #EAEAEA;
+
+   --summary-text: #EAEAEA;
+   --summary-icon: #EAEAEA;
 
    --signature-phrase: #EAEAEA;
 
