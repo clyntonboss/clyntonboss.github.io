@@ -1747,7 +1747,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">White Belt - Lean Six Sigma</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1855,7 +1855,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Yellow Belt - Lean Six Sigma</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1899,7 +1899,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Green Belt - Lean Six Sigma</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1927,7 +1927,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Databricks Accredited Platform Administrator</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1955,7 +1955,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Databricks Accredited Databricks Fundamentals</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1983,7 +1983,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Databricks Accredited Generative Artificial Intelligence Fundamentals</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2011,7 +2011,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Databricks Accredited Google Cloud Platform Databricks Platform Architect</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2039,7 +2039,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Databricks Accredited Amazon Web Services Platform Architect</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2067,7 +2067,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Databricks Accredited Azure Platform Architect</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
