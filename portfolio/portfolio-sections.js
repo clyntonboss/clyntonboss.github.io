@@ -2214,7 +2214,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2020</span>
               <span class="exp-role">EaD: a nova onda da educação - Virtudes e Desafios</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2254,7 +2254,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2021</span>
               <span class="exp-role">Ensino a Distância: uma ferramenta de Inclusão Social</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2295,7 +2295,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2022</span>
               <span class="exp-role">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2335,7 +2335,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2022</span>
               <span class="exp-role">Os impactos da aplicação da Lei Geral de Proteção de Dados - LGPD</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2374,7 +2374,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2023</span>
               <span class="exp-role">Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2413,7 +2413,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2023</span>
               <span class="exp-role">Utilização de resíduos como matéria-prima na indústria</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2453,7 +2453,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2023</span>
               <span class="exp-role">As principais Ferramentas Computacionais aplicadas à Engenharia de Produção</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2492,7 +2492,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2023</span>
               <span class="exp-role">Análise da demanda por trabalho em Home Office</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2532,7 +2532,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2023</span>
               <span class="exp-role">A atuação do Engenheiro de Produção na Indústria 4.0</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -2572,7 +2572,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2023</span>
               <span class="exp-role">Computação Quântica: a evolução da Tecnologia da Informação</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
 
