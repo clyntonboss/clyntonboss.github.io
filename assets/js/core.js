@@ -309,6 +309,25 @@ function initSyncDisclosureAccordion() {
     });
 }
 
+// ==================== Animação do Rodapé ====================
+window.addEventListener("load", () => {
+  // --- Texto deslizando ---
+  const texts = document.querySelectorAll(".footer-left p");
+  texts.forEach((p, i) => {
+    setTimeout(() => {
+      p.classList.add("show");
+    }, i * 400); // 400ms de delay entre os parágrafos
+  });
+
+  // --- Ícones surgindo ---
+  const icons = document.querySelectorAll(".footer a .footer-icon");
+  icons.forEach((icon, i) => {
+    setTimeout(() => {
+      icon.classList.add("show");
+    }, 800 + i * 300); // começa depois do texto, 300ms de delay entre ícones
+  });
+});
+
 // ==================== Inicialização ====================
 document.addEventListener('DOMContentLoaded', () => {
     initFadeIn();
