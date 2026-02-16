@@ -206,7 +206,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2020</span>
               <span class="exp-role">III Seminário de Pesquisa e Iniciação Científica</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
