@@ -2115,8 +2115,8 @@ const sections = {
       <!-- Contexto do Problema -->
       <details class="project-section">
           <summary>
-              <span class="summary-text"><strong>Processos</strong></span>
-              <span class="summary-icon"><strong></strong></span>
+              <span class="summary-text">Processos</span>
+              <span class="summary-icon"></span>
           </summary>
           <div class="disclosure-content">
             <div class="tech-subtitle">Estruturação, padronização e melhoria contínua de fluxos operacionais e administrativos.</div>
