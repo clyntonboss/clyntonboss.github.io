@@ -54,9 +54,9 @@ const sections = {
           minha visão sobre como a informação se transforma em valor.
       </p>
       <p>
-          Atuo com uma perspectiva ampla e integrada, combinando <strong>Python™, R, SQL, Power BI, modelagem de dados, análise estatística, metodologias Lean Six Sigma, automação,
-          governança e qualidade de dados</strong>. Minha experiência se estende desde a construção de pipelines analíticos e processos de ETL até o desenvolvimento de dashboards interativos
-          e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
+          Atuo com uma perspectiva ampla e integrada, combinando <strong>Python™, R, SQL, Power BI, modelagem de dados, análises: descritiva, diagnóstica, preditiva, prescritiva, exploratória e
+          qualitativa</strong>, metodologias Lean Six Sigma, automação, governança e qualidade de dados</strong>. Minha experiência se estende desde a construção de pipelines analíticos e processos
+          de ETL até o desenvolvimento de dashboards interativos e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
       </p>
       <p>
           Acredito que cada dataset carrega uma narrativa própria — uma história que precisa ser revelada com precisão técnica, sensibilidade analítica e visão crítica. Para mim, analisar
@@ -64,8 +64,8 @@ const sections = {
           complexidade em clareza. Meu trabalho é encontrar significado onde muitos enxergam apenas números.
       </p>
       <p> 
-          Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong>Power BI, Python, SQL, MySQL, MongoDB, Estatística, Visualização de Dados, Data
-          Storytelling, Data Quality, Modelagem, Processos, LGPD e Cibersegurança</strong>. Essa evolução constante me permitiu unir técnica, estratégia e maturidade intelectual em um
+          Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong>Power BI, Python™, SQL, MySQL, MongoDB, Estatística, Visualização de Dados, Data
+          Storytelling, Data Quality, Modelagem, Processos, LGPD, Cibersegurança, entre outros</strong>. Essa evolução constante me permitiu unir técnica, estratégia e maturidade intelectual em um
           estilo de trabalho analítico que equilibra rigor, criatividade, lógica e intuição.
       </p>
       <p>
