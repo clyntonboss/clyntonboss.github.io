@@ -1438,6 +1438,10 @@ body.static-header .last-update {
   font-size: 1.2em;
 }
 
+.copiar-btn--compact {
+  margin-left: 12px;
+}
+
 /* Animação Ícone e Subtítulo */
 .portfolio-icon,
 .portfolio-subtitle {
