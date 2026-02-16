@@ -1159,13 +1159,16 @@ body.static-header .last-update {
 }
 
 .summary-text {
-   color: var(--summary-text);
+  all: unset;
+  color: var(--summary-text);
+  font-size: 16px;
 }
 
 .summary-icon {
-   color: var(--summary-text);
+  all: unset;
+  color: var(--summary-text);
+  font-size: 16px;
 }
-
 /* Estilização do Modo Lista */
 .courses-list {
   display: flex;
