@@ -324,7 +324,7 @@ window.addEventListener("load", () => {
   icons.forEach((icon, i) => {
     setTimeout(() => {
       icon.classList.add("show");
-    }, 800 + i * 400); // começa depois do texto, 300ms de delay entre ícones
+    }, 400 + i * 200); // começa depois do texto, 300ms de delay entre ícones
   });
 });
 
