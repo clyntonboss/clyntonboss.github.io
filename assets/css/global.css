@@ -693,6 +693,7 @@ main {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  padding-right: 4px;
   width: fit-content;
 }
 
