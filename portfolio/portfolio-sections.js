@@ -2187,7 +2187,7 @@ const sections = {
           </div>
       </details>
 
-      <div class="experience">
+      <div class="impactosresultados">
           <div class="exp-header">
               <button class="exp-toggle">+</button>
               <span class="exp-role">Green Belt - Lean Six Sigma</span>
