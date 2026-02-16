@@ -769,7 +769,7 @@ main {
   opacity: 1;
 }
 
-.exp-toggle--compact {
+.experience--compact .exp-header.open .exp-toggle {
   transform: rotate(90deg);
 }
 
