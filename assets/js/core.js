@@ -85,18 +85,15 @@ function initToggle() {
                 const otherDetails = otherBtn.parentElement.nextElementSibling;
                 if (otherDetails !== details) {
                     otherDetails.style.maxHeight = '0';
-                    otherBtn.textContent = '+';
                 }
             });
 
             if (isOpen) {
                 details.style.maxHeight = '0';
                 details.classList.remove('open');
-                btn.textContent = '+';
             } else {
                 details.style.maxHeight = details.scrollHeight + 'px';
                 details.classList.add('open');
-                btn.textContent = '−';
             }
         });
     });
