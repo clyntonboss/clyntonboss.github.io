@@ -684,6 +684,10 @@ main {
   padding: 8px 0;
 }
 
+.impactosresultados {
+  padding: 8px 0;
+}
+
 .exp-header {
   display: flex;
   justify-content: space-between;
