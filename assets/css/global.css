@@ -726,7 +726,7 @@ main {
   border: none;
   color: var(--exp-toggle);              /* mesma cor do texto */
   font-weight: bold;
-  font-size: 16px;          /* um pouco maior para boa leitura */
+  font-size: 20px;          /* um pouco maior para boa leitura */
   cursor: pointer;
   padding: 0;
   margin-left: 8px;         /* leve afastamento do texto */
