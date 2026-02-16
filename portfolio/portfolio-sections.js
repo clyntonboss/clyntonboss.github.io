@@ -1767,7 +1767,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png'); return false;">
                   <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
@@ -1783,7 +1783,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png'); return false;">
                   <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
@@ -1799,7 +1799,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png'); return false;">
                   <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
@@ -1815,7 +1815,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png'); return false;">
                   <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
@@ -1831,7 +1831,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png'); return false;">
                   <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
@@ -1847,7 +1847,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
@@ -1875,7 +1875,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png'); return false;">
                   <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
@@ -1891,7 +1891,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
@@ -1919,7 +1919,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
@@ -1947,7 +1947,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
@@ -1975,7 +1975,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
@@ -2003,7 +2003,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
@@ -2031,7 +2031,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
@@ -2059,7 +2059,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
@@ -2087,7 +2087,7 @@ const sections = {
                   </p>
               </div>
       
-              <hr class="decorative-line-cert decorative-line-sup">
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
