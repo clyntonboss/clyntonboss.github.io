@@ -696,6 +696,12 @@ main {
   cursor: pointer;
 }
 
+.experience--compact .exp-header {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* ajuste fino aqui */
+}
+
 .exp-period {
   font-weight: 600;
   margin-right: 10px;
