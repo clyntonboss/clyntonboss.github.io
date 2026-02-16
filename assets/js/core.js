@@ -74,22 +74,23 @@ function initToggle() {
         const header = exp.querySelector('.exp-header');
         const details = exp.querySelector('.exp-details');
 
+        if (!header || !details) return; // proteção
+
         header.addEventListener('click', () => {
 
             const isOpen = exp.classList.contains('active');
 
-            // Fecha todos os outros
             experiences.forEach(otherExp => {
-                if (otherExp !== exp) {
+                const otherDetails = otherExp.querySelector('.exp-details');
+                if (otherExp !== exp && otherDetails) {
                     otherExp.classList.remove('active');
-                    const otherDetails = otherExp.querySelector('.exp-details');
-                    otherDetails.style.maxHeight = '0';
+                    otherDetails.style.maxHeight = '0px';
                 }
             });
 
             if (isOpen) {
                 exp.classList.remove('active');
-                details.style.maxHeight = '0';
+                details.style.maxHeight = '0px';
             } else {
                 exp.classList.add('active');
                 details.style.maxHeight = details.scrollHeight + 'px';
