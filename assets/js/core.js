@@ -68,32 +68,35 @@ function initFadeIn() {
 
 // ==================== Módulo Expand/Toggle ====================
 function initToggle() {
-    const experiences = document.querySelectorAll('.experience');
+    const toggles = document.querySelectorAll('.exp-toggle');
+  
+    toggles.forEach(btn => {
 
-    experiences.forEach(exp => {
-        const header = exp.querySelector('.exp-header');
-        const details = exp.querySelector('.exp-details');
+        const header = btn.parentElement;
 
-        if (!header || !details) return; // proteção
+        // NOVO: torna o header clicável
+        header.addEventListener('click', () => btn.click());
 
-        header.addEventListener('click', () => {
+        btn.addEventListener('click', () => {
+            const details = btn.parentElement.nextElementSibling;
+            const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
 
-            const isOpen = exp.classList.contains('active');
-
-            experiences.forEach(otherExp => {
-                const otherDetails = otherExp.querySelector('.exp-details');
-                if (otherExp !== exp && otherDetails) {
-                    otherExp.classList.remove('active');
-                    otherDetails.style.maxHeight = '0px';
+            toggles.forEach(otherBtn => {
+                const otherDetails = otherBtn.parentElement.nextElementSibling;
+                if (otherDetails !== details) {
+                    otherDetails.style.maxHeight = '0';
+                    otherBtn.textContent = '+';
                 }
             });
 
             if (isOpen) {
-                exp.classList.remove('active');
-                details.style.maxHeight = '0px';
+                details.style.maxHeight = '0';
+                details.classList.remove('open');
+                btn.textContent = '+';
             } else {
-                exp.classList.add('active');
                 details.style.maxHeight = details.scrollHeight + 'px';
+                details.classList.add('open');
+                btn.textContent = '−';
             }
         });
     });
