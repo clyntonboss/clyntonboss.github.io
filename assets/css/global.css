@@ -1923,7 +1923,7 @@ body[data-mode="portfolio"] .side-portfolio {
 }
 
 #header-home-icon.is-visible {
-  opacity: 0.8;
+  opacity: 1;
   pointer-events: auto;
 }
 
