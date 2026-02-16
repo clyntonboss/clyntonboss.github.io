@@ -685,7 +685,8 @@ main {
 }
 
 .experience--compact {
-  padding: 0;
+   border-bottom: 0;
+   padding: 0;
 }
 
 .exp-header {
@@ -718,7 +719,7 @@ main {
   cursor: pointer;
   padding: 0;
   margin-left: 8px;         /* leve afastamento do texto */
-  transition: transform 0.2s ease;
+  transition: transform 0.4s ease;
 }
 
 .exp-details {
@@ -760,6 +761,10 @@ main {
 
 .experience.active .exp-details {
   overflow: visible;
+}
+
+.experience.active .exp-toggle {
+  transform: rotate(90deg);
 }
 
 /* Ocultação da Barra de Rolamento Lateral */
