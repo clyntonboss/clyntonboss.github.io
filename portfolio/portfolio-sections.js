@@ -206,7 +206,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2020</span>
               <span class="exp-role">III Seminário de Pesquisa e Iniciação Científica</span>
-              <span class="exp-toggle">▸</span>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
@@ -219,7 +219,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2021</span>
               <span class="exp-role">IV Seminário de Pesquisa e Iniciação Científica</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
@@ -232,7 +232,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2022</span>
               <span class="exp-role">V Seminário de Pesquisa e Iniciação Científica</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details" style="line-height: 1.8;">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
@@ -246,7 +246,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2023</span>
               <span class="exp-role">VI Seminário de Pesquisa e Iniciação Científica</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
@@ -264,7 +264,7 @@ const sections = {
           <div class="exp-header">
               <span class="exp-period">2023</span>
               <span class="exp-role">I Seminário de Ensino e Extensão</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
