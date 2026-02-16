@@ -860,8 +860,9 @@ body {
     font-size: 18px;
     color: var(--curriculo-list);
     transition: all 0.4s ease;
-    padding: 4px 2px; /* Pequeno espaçamento para manter o alinhamento */
+    padding: 4px 4px 4px 2px; /* Pequeno espaçamento para manter o alinhamento */
     margin-left: 8px;
+    width: fit-content;
 }
 
 /* Hover suave, elegante e SEM efeito de botão */
