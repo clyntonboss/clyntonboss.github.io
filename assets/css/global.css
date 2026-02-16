@@ -353,6 +353,11 @@ main {
 .footer-icon {
   width: 24px;
   height: 24px;
+  
+  /* --- Novos --- */
+  transform: scale(0); /* dentro para fora */
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .footer-left {
@@ -369,6 +374,11 @@ main {
 .footer-left p {
   margin: 0;
   line-height: 1.4;
+  
+  /* --- Novos --- */
+  transform: translateX(64px); /* começa fora da tela à direita */
+  opacity: 0;
+  transition: transform 0.8s ease, opacity 0.8s ease;
 }
 
 .privacy-note {
@@ -380,6 +390,18 @@ main {
 .footer-main-text {
   font-size: 16px; /* aumenta discretamente o tamanho da linha superior */
   color: #F8F8F8;
+}
+
+/* Quando o texto aparece */
+.footer-left p.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Quando o ícone aparece */
+.footer-icon.show {
+  transform: scale(1);
+  opacity: 1;
 }
 
 /* ==============================
