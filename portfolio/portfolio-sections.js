@@ -2189,7 +2189,7 @@ const sections = {
 
       <div class="experience experience--compact">
           <div class="exp-header">
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle exp-toggle--compact">+</button>
               <span class="exp-role">Green Belt - Lean Six Sigma</span>
           </div>
           <div class="exp-details">
@@ -2217,7 +2217,7 @@ const sections = {
 
       <div class="experience experience--compact">
           <div class="exp-header">
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle exp-toggle--compact">+</button>
               <span class="exp-role">Green Belt - Lean Six Sigma</span>
           </div>
           <div class="exp-details">
