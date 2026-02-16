@@ -74,7 +74,7 @@ function initToggle() {
 
         const header = btn.parentElement;
 
-        // NOVO: torna o header clicável
+        // torna o header clicável
         header.addEventListener('click', () => btn.click());
 
         btn.addEventListener('click', () => {
@@ -83,17 +83,23 @@ function initToggle() {
 
             toggles.forEach(otherBtn => {
                 const otherDetails = otherBtn.parentElement.nextElementSibling;
+                const otherHeader = otherBtn.parentElement;
+
                 if (otherDetails !== details) {
                     otherDetails.style.maxHeight = '0';
+                    otherDetails.classList.remove('open');
+                    otherHeader.classList.remove('open'); // ← IMPORTANTE
                 }
             });
 
             if (isOpen) {
                 details.style.maxHeight = '0';
                 details.classList.remove('open');
+                header.classList.remove('open'); // ← NOVO
             } else {
                 details.style.maxHeight = details.scrollHeight + 'px';
                 details.classList.add('open');
+                header.classList.add('open'); // ← NOVO
             }
         });
     });
