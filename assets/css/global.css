@@ -769,12 +769,12 @@ main {
   opacity: 1;
 }
 
-.experience.active .exp-details {
-  overflow: visible;
+.experience--compact .exp-details.open .exp-toggle {
+  transform: rotate(90deg);
 }
 
-.experience.active .exp-toggle {
-  transform: rotate(90deg);
+.experience.active .exp-details {
+  overflow: visible;
 }
 
 /* Ocultação da Barra de Rolamento Lateral */
