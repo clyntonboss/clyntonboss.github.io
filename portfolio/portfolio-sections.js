@@ -290,7 +290,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Análise de Dados</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -411,7 +411,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Banco de Dados</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -486,7 +486,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Big Data</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -545,7 +545,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Inteligência Artificial</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -661,7 +661,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Data Storytelling</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -682,7 +682,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Cloud</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -738,7 +738,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Sistema Operacional</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -769,7 +769,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Segurança da Informação</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -805,7 +805,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Programação</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -931,7 +931,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Robotic Process Automation</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -947,7 +947,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão de Projetos</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -973,7 +973,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Metodologia Ágil</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -999,7 +999,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão da Tecnologia</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1045,7 +1045,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão de Operações</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1076,7 +1076,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão da Qualidade</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1147,7 +1147,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão de Pessoas</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1198,7 +1198,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão de Negócios</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1229,7 +1229,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão de Marketing</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1280,7 +1280,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão Financeira</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1296,7 +1296,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Gestão Logística</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1317,7 +1317,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Design</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1368,7 +1368,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Autoconhecimento</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1384,7 +1384,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Habilidades</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1405,7 +1405,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Idiomas</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1421,7 +1421,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Sustentabilidade</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1457,7 +1457,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Credly</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
@@ -1474,7 +1474,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Arquitetura</span>
-              <button class="exp-toggle">+</button>
+              <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
       
