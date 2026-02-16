@@ -697,6 +697,11 @@ main {
   width: fit-content;
 }
 
+.exp-header--compact {
+  padding-right: 4px;
+  width: fit-content;
+}
+
 .experience--compact .exp-header {
    display: flex;
    align-items: center;
