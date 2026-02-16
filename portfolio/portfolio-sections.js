@@ -190,7 +190,7 @@ const sections = {
         <div class="course-block">
             <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
             <p><strong>Curso:</strong> Engenharia de Produção | Bacharelado</p>
-            <p><strong>Carga Horária:</strong> 3.800 horas (Fev/2019 a Mar/2024)</p>
+            <p><strong>Carga Horária:</strong> 3.800 h (Fev/2019 a Mar/2024)</p>
             <p><strong>Data de Conclusão:</strong> 13 de março de 2024</p>
             <p><strong>Código:</strong> 514.514.4bb97a2ecb2b</p>
             <p><strong>Verificação:</strong>
