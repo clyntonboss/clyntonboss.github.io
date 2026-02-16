@@ -1754,7 +1754,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
@@ -1770,7 +1770,7 @@ const sections = {
               <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Produzindo Engenharia</p>
@@ -1786,7 +1786,7 @@ const sections = {
               <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Frons Educação</p>
@@ -1802,7 +1802,7 @@ const sections = {
               <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Council for Six Sigma Certification</p>
@@ -1818,7 +1818,7 @@ const sections = {
               <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Escola EDTI</p>
@@ -1834,7 +1834,7 @@ const sections = {
               <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Nortegubisian</p>
@@ -1862,7 +1862,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
@@ -1878,7 +1878,7 @@ const sections = {
               <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> VMEdu, Inc</p>
@@ -1906,7 +1906,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Domus Lean Seis Sigma</p>
@@ -1934,7 +1934,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -1962,7 +1962,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -1990,7 +1990,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2018,7 +2018,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2046,7 +2046,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2074,7 +2074,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2197,7 +2197,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Domus Lean Seis Sigma</p>
@@ -2246,7 +2246,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2286,7 +2286,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2327,7 +2327,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2367,7 +2367,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2406,7 +2406,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2445,7 +2445,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2485,7 +2485,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2524,7 +2524,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2564,7 +2564,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2604,7 +2604,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
 
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" alt="Artigo Científico" class="cert-thumb cert-thumb-compact">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" alt="Artigo Científico" class="cert-thumb cert-thumb--compact">
               </a>
 
               <div>
