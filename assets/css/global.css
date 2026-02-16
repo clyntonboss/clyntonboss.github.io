@@ -697,9 +697,10 @@ main {
 }
 
 .experience--compact .exp-header {
-  display: flex;
-  align-items: center;
-  gap: 12px; /* ajuste fino aqui */
+   display: flex;
+   align-items: center;
+   padding-left: 0;
+   gap: 8px; /* ajuste fino aqui */
 }
 
 .exp-period {
