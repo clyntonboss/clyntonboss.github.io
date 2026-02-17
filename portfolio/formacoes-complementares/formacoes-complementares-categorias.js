@@ -219,7 +219,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Data Storytelling, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam técnicas de comunicação de dados, construção de narrativas visuais e tradução de análises em mensagens claras e orientadas à tomada de decisão.</p></div>
+                                        Os cursos apresentados abrangem técnicas de comunicação de dados, construção de narrativas visuais e tradução de análises em mensagens claras e orientadas à tomada de decisão.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -260,8 +260,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Data Storytelling fortaleceram a capacidade de transformar análises e indicadores em narrativas compreensíveis e relevantes para diferentes públicos.<br>
-                                        Esse conjunto de competências sustenta a criação de visualizações eficazes, apresentações executivas e painéis analíticos orientados à clareza, contexto e impacto na tomada de decisão.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Data Storytelling consolidaram uma base técnica voltada à análises e indicadores em narrativas compreensíveis e relevantes.<br>
+                                        O domínio desses conceitos sustenta atividades de visualizações eficazes, apresentações executivas e painéis analíticos orientados à clareza, contexto e impacto na tomada de decisão.</p></div>
     `
   },
 
