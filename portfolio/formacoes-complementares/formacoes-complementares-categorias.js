@@ -49,7 +49,7 @@ const categoriasFormacoesComplementares = {
       <hr class="decorative-line-cert">
       
       <div class="tech-subtitle-inf"><p>As formações em Análise de Dados consolidaram uma base técnica voltada à coleta, tratamento, exploração e interpretação de dados.<br>
-                                        Esse conjunto de conhecimentos sustenta a construção de análises consistentes, indicadores confiáveis e soluções analíticas aplicadas a processos, negócios e tomada de decisão em diferentes contextos.</p></div>
+                                        O domínio desses conceitos sustenta atividades de análises consistentes, indicadores confiáveis e soluções analíticas aplicadas a processos, negócios e tomada de decisão em diferentes contextos.</p></div>
     `
   },
 
@@ -60,7 +60,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Banco de Dados, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos listados oferecem uma abordagem completa sobre fundamentos, modelagem, elaboração de consultas, administração e aplicação de boas práticas no gerenciamento eficiente de sistemas de dados.</p></div>
+                                        Os cursos apresentados abrangem fundamentos, modelagem, elaboração de consultas, administração e aplicação de boas práticas no gerenciamento eficiente de sistemas de dados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -101,7 +101,7 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Banco de Dados consolidaram competências essenciais para a estruturação, consulta e gestão de dados.<br>
+      <div class="tech-subtitle-inf"><p>As formações em Banco de Dados consolidaram uma base técnica voltada à estruturação, consulta e gestão de dados.<br>
                                         O domínio desses conceitos sustenta atividades de análise de dados, inteligência de negócios e desenvolvimento de sistemas, garantindo integridade, desempenho e confiabilidade da informação ao longo dos processos em diferentes contextos.</p></div>
     `
   },
