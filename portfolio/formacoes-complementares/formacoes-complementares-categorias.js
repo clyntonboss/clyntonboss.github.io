@@ -272,7 +272,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Cloud Computing, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam conceitos, serviços e boas práticas relacionadas ao uso de ambientes em nuvem para armazenamento, processamento e disponibilização de soluções orientadas a dados.</p></div>
+                                        Os cursos apresentados abrangem conceitos, serviços e boas práticas relacionadas ao uso de ambientes em nuvem para armazenamento, processamento e disponibilização de soluções orientadas a dados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -313,8 +313,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Cloud contribuíram para a compreensão de arquiteturas, serviços e modelos de uso em ambientes de computação em nuvem, com foco em escalabilidade, disponibilidade e eficiência.<br>
-                                        Esses conhecimentos apoiam a implementação e o suporte a soluções analíticas, sistemas e serviços de dados, integrando infraestrutura e aplicações de forma segura e orientada às necessidades do negócio.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Cloud consolidaram uma base técnica voltada à compreensão de arquiteturas, serviços e modelos de uso em ambientes de computação em nuvem.<br>
+                                        O domínio desses conceitos sustenta atividades de implementação e o suporte a soluções analíticas, sistemas e serviços de dados, integrando infraestrutura e aplicações de forma segura e orientada às necessidades do negócio, com foco em escalabilidade, disponibilidade e eficiência.</p></div>
     `
   },
 
