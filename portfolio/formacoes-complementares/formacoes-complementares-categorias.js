@@ -1,4 +1,6 @@
 const categoriasFormacoesComplementares = {
+
+// 🔹 ============================================ Análise de Dados ========================================== 🔹
   analiseDados: {
     title: "Análise de Dados",
     dataset: "/portfolio/formacoes-complementares/analise-de-dados/analise-de-dados-dataset.js",
@@ -51,6 +53,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
+// 🔹 ============================================= Banco de Dados =========================================== 🔹
   bancoDados: {
     title: "Banco de Dados",
     dataset: "/portfolio/formacoes-complementares/banco-de-dados/banco-de-dados-dataset.js",
@@ -103,13 +106,14 @@ const categoriasFormacoesComplementares = {
     `
   },
 
+// 🔹 ================================================ Big Data ============================================== 🔹
   bigData: {
     title: "Big Data",
     dataset: "/portfolio/formacoes-complementares/big-data/big-data-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Big Data, organizadas por conclusão cronológica.<br>
-                                 Os cursos apresentados abordam conceitos, arquiteturas, tecnologias e práticas relacionadas ao processamento, armazenamento e análise de grandes volumes de dados.</div>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Big Data, organizadas por conclusão cronológica decrescente.<br>
+                                        Os cursos apresentados abordam conceitos, arquiteturas, tecnologias e práticas relacionadas ao processamento, armazenamento e análise de grandes volumes de dados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -150,8 +154,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle">As formações em Big Data ampliaram a compreensão sobre arquiteturas e estratégias para lidar com dados em larga escala, considerando desempenho, escalabilidade e confiabilidade.<br>
-                                 Esses conhecimentos complementam atividades de análise de dados e BI, especialmente em cenários que demandam processamento distribuído, integração de múltiplas fontes e tratamento eficiente de grandes volumes de informação.</div>
+      <div class="tech-subtitle-inf"><p>As formações em Big Data ampliaram a compreensão de arquiteturas e estratégias para dados em larga escala, com foco em desempenho, escalabilidade e confiabilidade.<br>
+                                        Esses conhecimentos complementam atividades de análise de dados e BI, especialmente em cenários que demandam processamento distribuído, integração de múltiplas fontes e tratamento eficiente de grandes volumes de informação.</p></div>
     `
   },
 
