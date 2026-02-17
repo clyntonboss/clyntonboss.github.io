@@ -56,8 +56,8 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/banco-de-dados/banco-de-dados-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle"><p>Esta seção apresenta formações complementares na área de Banco de Dados, organizadas por conclusão cronológica decrescente.<br>
-                                    Os cursos listados abordam fundamentos, modelagem, consultas, administração e boas práticas no uso de sistemas de gerenciamento de dados.</p></div>
+      <div class="tech-subtitle-sup"><p>Esta seção apresenta formações complementares na área de Banco de Dados, organizadas por conclusão cronológica decrescente.<br>
+                                        Os cursos listados abordam fundamentos, modelagem, consultas, administração e boas práticas no uso de sistemas de gerenciamento de dados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -98,8 +98,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle"><p>As formações em Banco de Dados consolidaram competências essenciais para a estruturação, consulta e gestão de dados.<br>
-                                    O domínio desses conceitos sustenta atividades de análise de dados, inteligência de negócios e desenvolvimento de sistemas, garantindo integridade, desempenho e confiabilidade da informação ao longo dos processos em diferentes contextos.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Banco de Dados consolidaram competências essenciais para a estruturação, consulta e gestão de dados.<br>
+                                        O domínio desses conceitos sustenta atividades de análise de dados, inteligência de negócios e desenvolvimento de sistemas, garantindo integridade, desempenho e confiabilidade da informação ao longo dos processos em diferentes contextos.</p></div>
     `
   },
 
