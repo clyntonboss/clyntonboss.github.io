@@ -378,7 +378,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Segurança da Informação, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam princípios, boas práticas e mecanismos voltados à proteção de dados, sistemas e informações em diferentes ambientes tecnológicos.</p></div>
+                                        Os cursos apresentados abrangem princípios, boas práticas e mecanismos voltados à proteção de dados, sistemas e informações em diferentes ambientes tecnológicos.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -419,8 +419,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Segurança da Informação contribuíram para o entendimento de práticas e controles voltados à proteção, confidencialidade e integridade da informação.<br>
-                                        Esses conhecimentos apoiam o uso responsável de dados, a conformidade com normas e a mitigação de riscos em ambientes analíticos, sistemas e processos organizacionais.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Segurança da Informação consolidaram uma base técnica voltada à proteção, confidencialidade e integridade da informação.<br>
+                                        O domínio desses conceitos sustenta atividades do uso responsável de dados, a conformidade com normas e a mitigação de riscos em ambientes analíticos, sistemas e processos organizacionais.</p></div>
     `
   },
 
