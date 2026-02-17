@@ -59,7 +59,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/banco-de-dados/banco-de-dados-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle-sup"><p>Esta seção apresenta formações complementares na área de Banco de Dados, organizadas por conclusão cronológica decrescente.<br>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Banco de Dados, organizadas por conclusão cronológica decrescente.<br>
                                         Os cursos listados oferecem uma abordagem completa sobre fundamentos, modelagem, elaboração de consultas, administração e aplicação de boas práticas no gerenciamento eficiente de sistemas de dados.</p></div>
       
       <hr class="decorative-line-cert">
@@ -164,7 +164,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/inteligencia-artificial/inteligencia-artificial-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Inteligência Artificial, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Inteligência Artificial, organizadas por conclusão cronológica decrescente.<br>
                                  Os cursos apresentados abordam conceitos fundamentais, aplicações práticas e o uso responsável de técnicas de IA no apoio à análise, automação e tomada de decisão.</div>
       
       <hr class="decorative-line-cert">
@@ -216,7 +216,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/data-storytelling/data-storytelling-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Data Storytelling, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Data Storytelling, organizadas por conclusão cronológica decrescente.<br>
                                  Os cursos apresentados abordam técnicas de comunicação de dados, construção de narrativas visuais e tradução de análises em mensagens claras e orientadas à tomada de decisão.</div>
       
       <hr class="decorative-line-cert">
@@ -268,7 +268,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/cloud/cloud-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Cloud Computing, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Cloud Computing, organizadas por conclusão cronológica decrescente.<br>
                                  Os cursos apresentados abordam conceitos, serviços e boas práticas relacionadas ao uso de ambientes em nuvem para armazenamento, processamento e disponibilização de soluções orientadas a dados.</div>
       
       <hr class="decorative-line-cert">
@@ -320,7 +320,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/sistemas-operacionais/sistemas-operacionais-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Sistemas Operacionais, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Sistemas Operacionais, organizadas por conclusão cronológica decrescente.<br>
                                  Os cursos apresentados abordam fundamentos, uso e boas práticas na administração de sistemas operacionais, com foco em ambientes computacionais utilizados em soluções de dados e sistemas.</div>
       
       <hr class="decorative-line-cert">
@@ -372,7 +372,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/seguranca-da-informacao/seguranca-da-informacao-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Segurança da Informação, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Segurança da Informação, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam princípios, boas práticas e mecanismos voltados à proteção de dados, sistemas e informações em diferentes ambientes tecnológicos.</div>
       
       <hr class="decorative-line-cert">
@@ -424,7 +424,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/programacao/programacao-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Programação, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Programação, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam fundamentos de lógica, linguagens e práticas de desenvolvimento aplicadas à automação, análise de dados e construção de soluções computacionais.</div>
       
       <hr class="decorative-line-cert">
@@ -476,7 +476,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/robotic-process-automation/robotic-process-automation-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Robotic Process Automation (RPA), organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Robotic Process Automation (RPA), organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam conceitos, ferramentas e práticas voltadas à automação de processos repetitivos e estruturados, integrando sistemas, dados e fluxos operacionais.</div>
       
       <hr class="decorative-line-cert">
@@ -528,7 +528,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-de-projetos/gestao-de-projetos-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Projetos, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Projetos, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam conceitos, métodos e práticas voltadas ao planejamento, execução, acompanhamento e entrega de projetos em diferentes contextos organizacionais.</div>
       
       <hr class="decorative-line-cert">
@@ -580,7 +580,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/metodologia-agil/metodologia-agil-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Metodologias Ágeis, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Metodologias Ágeis, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam princípios, frameworks e práticas ágeis aplicados à gestão de projetos, desenvolvimento de soluções e melhoria contínua de processos.</div>
       
       <hr class="decorative-line-cert">
@@ -632,7 +632,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-da-tecnologia/gestao-da-tecnologia-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão da Tecnologia, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão da Tecnologia, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam conceitos, práticas e modelos voltados à gestão de recursos tecnológicos, alinhamento estratégico e apoio à tomada de decisão organizacional.</div>
       
       <hr class="decorative-line-cert">
@@ -684,7 +684,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-de-operacoes/gestao-de-operacoes-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Operações, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Operações, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam conceitos, métodos e práticas voltados ao planejamento, controle e melhoria de operações, integrando processos, pessoas, tecnologia e indicadores de desempenho.</div>
       
       <hr class="decorative-line-cert">
@@ -736,7 +736,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-da-qualidade/gestao-da-qualidade-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão da Qualidade, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão da Qualidade, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam princípios, métodos e ferramentas voltados ao controle, garantia e melhoria da qualidade, com foco em processos, desempenho e atendimento aos requisitos do cliente.</div>
       
       <hr class="decorative-line-cert">
@@ -788,7 +788,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-de-pessoas/gestao-de-pessoas-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Pessoas, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Pessoas, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam práticas de liderança, desenvolvimento humano, comunicação, engajamento e gestão de equipes, com foco no alinhamento entre pessoas, processos e resultados organizacionais.</div>
       
       <hr class="decorative-line-cert">
@@ -840,7 +840,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-de-negocios/gestao-de-negocios-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Negócios, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Negócios, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam fundamentos estratégicos, tomada de decisão, análise de cenários, modelos de negócio e alinhamento entre estratégia, operações e resultados.</div>
       
       <hr class="decorative-line-cert">
@@ -892,7 +892,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-de-marketing/gestao-de-marketing-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Marketing, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão de Marketing, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam estratégias de marketing, comportamento do consumidor, posicionamento de marca, métricas de desempenho e análise de resultados, com foco em decisões orientadas a dados.</div>
       
       <hr class="decorative-line-cert">
@@ -944,7 +944,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-financeira/gestao-financeira-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão Financeira, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão Financeira, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam fundamentos financeiros, análise de custos, orçamento, indicadores financeiros e apoio à tomada de decisão, com foco no controle, planejamento e sustentabilidade dos negócios.</div>
       
       <hr class="decorative-line-cert">
@@ -996,7 +996,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/gestao-logistica/gestao-logistica-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão Logística, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Gestão Logística, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam planejamento logístico, gestão da cadeia de suprimentos, controle de estoques, distribuição, indicadores de desempenho e otimização de fluxos operacionais.</div>
       
       <hr class="decorative-line-cert">
@@ -1048,7 +1048,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/design/design-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Design, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Design, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam fundamentos de design, experiência do usuário, design visual, organização da informação e princípios de usabilidade, com foco na clareza, funcionalidade e comunicação eficaz.</div>
       
       <hr class="decorative-line-cert">
@@ -1100,7 +1100,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/autoconhecimento/autoconhecimento-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Autoconhecimento, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Autoconhecimento, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam desenvolvimento pessoal, inteligência emocional, autogestão, comunicação interpessoal e reflexão crítica, com foco no aprimoramento do comportamento profissional e das relações no ambiente de trabalho.</div>
       
       <hr class="decorative-line-cert">
@@ -1152,7 +1152,7 @@ const categoriasFormacoesComplementares = {
     dataset: "/portfolio/formacoes-complementares/skills/skills-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares voltadas ao desenvolvimento de skills profissionais, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Skills Profissionais, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam habilidades técnicas e comportamentais aplicadas ao contexto corporativo, com foco em produtividade, comunicação, resolução de problemas e atuação orientada a resultados.</div>
       
       <hr class="decorative-line-cert">
@@ -1204,7 +1204,7 @@ idiomas: {
     dataset: "/portfolio/formacoes-complementares/idiomas/idiomas-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Idiomas, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Idiomas, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam o desenvolvimento de competências linguísticas aplicadas ao contexto acadêmico e profissional, com foco em compreensão, comunicação e uso técnico da língua.</div>
       
       <hr class="decorative-line-cert">
@@ -1256,7 +1256,7 @@ sustentabilidade: {
     dataset: "/portfolio/formacoes-complementares/sustentabilidade/sustentabilidade-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Sustentabilidade, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Sustentabilidade, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam práticas sustentáveis, responsabilidade socioambiental, eficiência no uso de recursos, conformidade regulatória e integração da sustentabilidade aos processos organizacionais.</div>
       
       <hr class="decorative-line-cert">
@@ -1308,7 +1308,7 @@ credly: {
     dataset: "/portfolio/formacoes-complementares/credly/credly-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne credenciais digitais emitidas e verificadas pela plataforma Credly, organizadas por data de obtenção.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Credenciais, organizadas por conclusão cronológica decrescente.<br><br>
                                  As certificações apresentadas representam validações formais de competências técnicas e profissionais, emitidas por instituições reconhecidas e passíveis de verificação pública.</div>
       
       <hr class="decorative-line-cert">
@@ -1360,7 +1360,7 @@ arquitetura: {
     dataset: "/portfolio/formacoes-complementares/arquitetura/arquitetura-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Arquitetura na Construção Civil, organizadas por conclusão cronológica.<br>
+      <div class="tech-subtitle">Esta seção reúne formações complementares na área de Arquitetura, organizadas por conclusão cronológica decrescente.<br><br>
                                  Os cursos apresentados abordam fundamentos de projeto arquitetônico, leitura e interpretação de plantas, noções construtivas, normas técnicas, sustentabilidade e organização do espaço construído.</div>
       
       <hr class="decorative-line-cert">
