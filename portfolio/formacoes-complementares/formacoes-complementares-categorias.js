@@ -57,7 +57,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção apresenta formações complementares na área de Banco de Dados, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos listados abordam fundamentos, modelagem, consultas, administração e boas práticas no uso de sistemas de gerenciamento de dados.</p></div>
+                                        Os cursos listados oferecem uma abordagem completa sobre fundamentos, modelagem, elaboração de consultas, administração e aplicação de boas práticas no gerenciamento eficiente de sistemas de dados.</p></div>
       
       <hr class="decorative-line-cert">
       
