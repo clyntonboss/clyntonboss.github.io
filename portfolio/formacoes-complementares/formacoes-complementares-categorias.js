@@ -207,7 +207,7 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Inteligência Artificial consolidaram uma base técnica voltada ao entendimento de modelos, técnicas e limitações da Inteligência Artificial.<br>
+      <div class="tech-subtitle-inf"><p>As formações em Inteligência Artificial consolidaram uma base técnica voltada ao entendimento de modelos, técnicas e suas limitações.<br>
                                         O domínio desses conceitos sustenta atividades de análise de dados, automação de processos e apoio à decisão, considerando aspectos técnicos, éticos e de uso responsável da tecnologia.</p></div>
     `
   },
