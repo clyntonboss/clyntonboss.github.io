@@ -154,7 +154,7 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Big Data ampliaram a compreensão de arquiteturas e estratégias para dados em larga escala, com foco em desempenho, escalabilidade e confiabilidade.<br>
+      <div class="tech-subtitle-inf"><p>As formações em Big Data ampliaram a compreensão de arquiteturas para dados em larga escala, com foco em desempenho, escalabilidade e confiabilidade.<br>
                                         Esses conhecimentos complementam atividades de análise de dados e BI, especialmente em cenários que demandam processamento distribuído, integração de múltiplas fontes e tratamento eficiente de grandes volumes de informação.</p></div>
     `
   },
