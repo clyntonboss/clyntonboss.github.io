@@ -166,7 +166,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Inteligência Artificial, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam conceitos fundamentais, aplicações práticas e o uso responsável de técnicas de IA no apoio à análise, automação e tomada de decisão.</p></div>
+                                        Os cursos apresentados abrangem conceitos fundamentais, aplicações práticas e o uso responsável de técnicas de Inteligência Artificial no apoio à análise, automação e tomada de decisão.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -207,8 +207,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Inteligência Artificial contribuíram para o entendimento de modelos, técnicas e limitações da IA, com foco em aplicações práticas e integração a soluções orientadas por dados.<br>
-                                        Esse conhecimento complementa atividades de análise de dados, automação de processos e apoio à decisão, considerando aspectos técnicos, éticos e de uso responsável da tecnologia.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Inteligência Artificial consolidaram uma base técnica voltada ao entendimento de modelos, técnicas e limitações da Inteligência Artificial.<br>
+                                        O domínio desses conceitos sustenta atividades de análise de dados, automação de processos e apoio à decisão, considerando aspectos técnicos, éticos e de uso responsável da tecnologia.</p></div>
     `
   },
 
