@@ -113,7 +113,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Big Data, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam conceitos, arquiteturas, tecnologias e práticas relacionadas ao processamento, armazenamento e análise de grandes volumes de dados.</p></div>
+                                        Os cursos apresentados abrangem conceitos, arquiteturas, tecnologias e práticas relacionadas ao processamento, armazenamento e análise de grandes volumes de dados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -154,8 +154,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Big Data ampliaram a compreensão de arquiteturas escaláveis, com foco em desempenho e confiabilidade.<br>
-                                        Esses conhecimentos complementam atividades de análise de dados e BI, especialmente em cenários que demandam processamento distribuído, integração de múltiplas fontes e tratamento eficiente de grandes volumes de informação.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Big Data consolidaram uma base técnica voltada arquiteturas escaláveis, com foco em desempenho e confiabilidade.<br>
+                                        O domínio desses conceitos sustenta atividades de análise de dados e BI, especialmente em cenários que demandam processamento distribuído, integração de múltiplas fontes e tratamento eficiente de grandes volumes de informação.</p></div>
     `
   },
 
