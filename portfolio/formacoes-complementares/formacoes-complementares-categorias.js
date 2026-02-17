@@ -325,7 +325,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Sistemas Operacionais, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam fundamentos, uso e boas práticas na administração de sistemas operacionais, com foco em ambientes computacionais utilizados em soluções de dados e sistemas.</p></div>
+                                        Os cursos apresentados abrangem fundamentos, uso e boas práticas na administração de sistemas operacionais, com foco em ambientes computacionais utilizados em soluções de dados e sistemas.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -366,8 +366,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Sistemas Operacionais fortaleceram a compreensão sobre funcionamento, administração e interação entre hardware, software e aplicações.<br>
-                                        Esse conhecimento sustenta atividades relacionadas à infraestrutura, suporte a sistemas, ambientes de dados e integração de soluções, garantindo estabilidade, desempenho e confiabilidade operacional.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Sistemas Operacionais consolidaram uma base técnica voltada à administração e interação entre hardware e software.<br>
+                                        O domínio desses conceitos sustenta atividades de infraestrutura, suporte a sistemas, ambientes de dados e integração de soluções, garantindo estabilidade, desempenho e confiabilidade operacional.</p></div>
     `
   },
 
