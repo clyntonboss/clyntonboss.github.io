@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 25,
+
+    instituicao: "RL & Associados",
+ 
+    curso: "Formação White Belt Six Sigma",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2026-01-28",
+
+    dataConclusao: "28 de janeiro de 2026",
+
+    codigo: "119337",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 24,
 
     instituicao: "Produzindo Engenharia",
