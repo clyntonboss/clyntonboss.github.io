@@ -843,7 +843,7 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão de Pessoas consolidaram uma base técnica voltada à liderança, colaboração e desenvolvimento de equipes de alto desempenho.<br>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão de Pessoas consolidaram uma base técnica voltada à colaboração e desenvolvimento de equipes de alto desempenho.<br>
                                         O domínio desses conceitos sustenta atividades de gestão eficaz de pessoas em ambientes orientados a dados, processos e melhoria contínua, promovendo engajamento, responsabilidade e alinhamento estratégico.</p></div>
     `
   },
