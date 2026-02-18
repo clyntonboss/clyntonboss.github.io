@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 139,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Banco de Dados Relacionais (SQL)",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "QCOYENKL",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Introdução a Banco de Dados Relacionais (SQL).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QCOYENKL.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 138,
 
     instituicao: "Digital Innovation One",
