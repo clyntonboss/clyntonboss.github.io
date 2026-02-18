@@ -1279,7 +1279,7 @@ sustentabilidade: {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Sustentabilidade, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam práticas sustentáveis, responsabilidade socioambiental, eficiência no uso de recursos, conformidade regulatória e integração da sustentabilidade aos processos organizacionais.</p></div>
+                                        Os cursos apresentados abrangem práticas sustentáveis, responsabilidade socioambiental, eficiência no uso de recursos, conformidade regulatória e integração da sustentabilidade aos processos organizacionais.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1320,8 +1320,8 @@ sustentabilidade: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Sustentabilidade contribuíram para o desenvolvimento de uma visão crítica sobre o impacto ambiental, social e econômico das atividades organizacionais.<br>
-                                        Esses conhecimentos apoiam a incorporação de práticas sustentáveis na gestão de processos, na tomada de decisões e na busca por eficiência, conformidade e responsabilidade corporativa.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Sustentabilidade consolidaram uma base técnica voltada ao impacto ambiental, social e econômico das atividades organizacionais.<br>
+                                        O domínio desses conceitos sustenta atividades de incorporação de práticas sustentáveis na gestão de processos, tomada de decisões e busca por eficiência, conformidade e responsabilidade corporativa.</p></div>
     `
   },
 
@@ -1373,7 +1373,7 @@ credly: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As credenciais obtidas por meio da plataforma Credly reforçam a validação formal de conhecimentos e competências adquiridas ao longo da trajetória profissional.<br>
+      <div class="tech-subtitle-inf"><p>As credenciais obtidas através da plataforma Credly reforçam a validação de competências adquiridas ao longo da trajetória profissional.<br>
                                         Esses registros contribuem para a transparência, a confiabilidade das qualificações apresentadas e o alinhamento com práticas contemporâneas de certificação e reconhecimento profissional.</p></div>
     `
   },
@@ -1385,7 +1385,7 @@ arquitetura: {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Arquitetura, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam fundamentos de projeto arquitetônico, leitura e interpretação de plantas, noções construtivas, normas técnicas, sustentabilidade e organização do espaço construído.</p></div>
+                                        Os cursos apresentados abrangem fundamentos de projeto arquitetônico, leitura e interpretação de plantas, noções construtivas, normas técnicas, sustentabilidade e organização do espaço construído.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1426,8 +1426,8 @@ arquitetura: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Arquitetura na área de Construção Civil contribuíram para o desenvolvimento da compreensão técnica sobre projetos, espaços construídos e processos construtivos.<br>
-                                        Esses conhecimentos ampliam a capacidade de leitura técnica, análise de projetos e entendimento das interações entre planejamento, execução e normas, favorecendo uma visão multidisciplinar aplicada a diferentes contextos profissionais.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Arquitetura consolidaram uma base técnica voltada à visão técnica de projetos, espaços construídos e processos construtivos.<br>
+                                        O domínio desses conceitos sustenta atividades de capacidade de leitura técnica, análise de projetos e entendimento das interações entre planejamento, execução e normas, favorecendo uma visão multidisciplinar aplicada a diferentes contextos profissionais.</p></div>
     `
   },
 };
