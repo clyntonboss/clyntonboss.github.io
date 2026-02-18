@@ -643,7 +643,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão da Tecnologia, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam conceitos, práticas e modelos voltados à gestão de recursos tecnológicos, alinhamento estratégico e apoio à tomada de decisão organizacional.</p></div>
+                                        Os cursos apresentados abrangem conceitos, práticas e modelos voltados à gestão de recursos tecnológicos, alinhamento estratégico e apoio à tomada de decisão organizacional.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -684,8 +684,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão da Tecnologia contribuíram para o desenvolvimento de uma visão integrada sobre o papel da tecnologia nas organizações.<br>
-                                        Esses conhecimentos apoiam a tomada de decisão, a priorização de investimentos e a governança de soluções tecnológicas, promovendo alinhamento entre objetivos estratégicos, processos e recursos digitais.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão da Tecnologia consolidaram uma base técnica voltada à visão integrada sobre o papel da tecnologia nas organizações.<br>
+                                        O domínio desses conceitos sustenta atividades de tomada de decisão, priorização de investimentos e governança de soluções tecnológicas, promovendo alinhamento entre objetivos estratégicos, processos e recursos digitais.</p></div>
     `
   },
 
@@ -696,7 +696,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão de Operações, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam conceitos, métodos e práticas voltados ao planejamento, controle e melhoria de operações, integrando processos, pessoas, tecnologia e indicadores de desempenho.</p></div>
+                                        Os cursos apresentados abrangem conceitos, métodos e práticas voltados ao planejamento, controle e melhoria de operações, integrando processos, pessoas, tecnologia e indicadores de desempenho.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -737,8 +737,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão de Operações fortaleceram a compreensão sobre funcionamento e otimização de processos operacionais.<br>
-                                        Esses conhecimentos apoiam a análise de desempenho, a melhoria contínua e a tomada de decisão orientada a dados, promovendo eficiência, qualidade e alinhamento com os objetivos organizacionais.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão de Operações consolidaram uma base técnica voltada à otimização de processos operacionais.<br>
+                                        O domínio desses conceitos sustenta atividades de análise de desempenho, melhoria contínua e tomada de decisão orientada a dados, promovendo eficiência, qualidade e alinhamento com os objetivos organizacionais.</p></div>
     `
   },
 
