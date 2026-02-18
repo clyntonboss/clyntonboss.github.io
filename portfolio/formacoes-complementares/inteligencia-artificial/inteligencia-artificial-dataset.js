@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 138,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Acelere seu Aprendizado com Inteligência Artificial Generativa",
+    
+    cargaHoraria: "15 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "TLBMR5W0",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Acelere seu Aprendizado com Inteligência Artificial Generativa.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TLBMR5W0.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 137,
 
     instituicao: "Digital Innovation One",
