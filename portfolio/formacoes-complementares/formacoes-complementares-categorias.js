@@ -431,7 +431,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Programação, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam fundamentos de lógica, linguagens e práticas de desenvolvimento aplicadas à automação, análise de dados e construção de soluções computacionais.</p></div>
+                                        Os cursos apresentados abrangem fundamentos de lógica, linguagens e práticas de desenvolvimento aplicadas à automação, análise de dados e construção de soluções computacionais.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -472,7 +472,7 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Programação fortaleceram a capacidade de estruturar soluções por meio de código, aplicando lógica, organização e boas práticas de desenvolvimento.<br>
+      <div class="tech-subtitle-inf"><p>As formações em Programação consolidaram uma base técnica voltada à aplicakão de lógica, organização e boas práticas de desenvolvimento.<br>
                                         Esse conhecimento sustenta atividades de automação de processos, análise de dados e integração de sistemas, ampliando a eficiência e a capacidade de resolução de problemas em contextos profissionais.</p></div>
     `
   },
