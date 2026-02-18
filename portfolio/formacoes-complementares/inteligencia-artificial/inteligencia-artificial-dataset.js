@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 134,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos de Modelos de Linguagem de Grande Escala",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "RRSXGY1H",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Fundamentos de Modelos de Linguagem de Grande Escala.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RRSXGY1H.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 133,
 
     instituicao: "Digital Innovation One",
