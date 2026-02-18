@@ -590,7 +590,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Metodologias Ágeis, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam princípios, frameworks e práticas ágeis aplicados à gestão de projetos, desenvolvimento de soluções e melhoria contínua de processos.</p></div>
+                                        Os cursos apresentados abrangem princípios, frameworks e práticas ágeis aplicados à gestão de projetos, desenvolvimento de soluções e melhoria contínua de processos.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -631,8 +631,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Metodologias Ágeis fortaleceram a compreensão sobre práticas colaborativas, ciclos iterativos e adaptação contínua a mudanças.<br>
-                                        Esses conhecimentos apoiam a condução de projetos e iniciativas analíticas ou tecnológicas de forma incremental, promovendo alinhamento, transparência e entrega de valor ao longo do processo.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Metodologias Ágeis consolidaram uma base técnica voltada à práticas colaborativas, ciclos iterativos e adaptação contínua.<br>
+                                        O domínio desses conceitos sustenta atividades de condução de projetos e iniciativas analíticas ou tecnológicas de forma incremental, promovendo alinhamento, transparência e entrega de valor ao longo do processo.</p></div>
     `
   },
 
