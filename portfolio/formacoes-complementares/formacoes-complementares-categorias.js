@@ -484,7 +484,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Robotic Process Automation (RPA), organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam conceitos, ferramentas e práticas voltadas à automação de processos repetitivos e estruturados, integrando sistemas, dados e fluxos operacionais.</p></div>
+                                        Os cursos apresentados abrangem conceitos, ferramentas e práticas voltadas à automação de processos repetitivos e estruturados, integrando sistemas, dados e fluxos operacionais.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -525,8 +525,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em RPA contribuíram para o entendimento e aplicação de soluções de automação orientadas a processos, com foco em eficiência, padronização e redução de esforços operacionais.<br>
-                                        Esses conhecimentos apoiam a integração entre sistemas, o tratamento automatizado de dados e a melhoria contínua de fluxos de trabalho em diferentes contextos organizacionais.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em RPA consolidaram uma base técnica voltada à aplicação de soluções de automação orientadas a processos.<br>
+                                        O domínio desses conceitos sustenta atividades de integração entre sistemas, o tratamento automatizado de dados e a melhoria contínua de fluxos de trabalho em diferentes contextos organizacionais, com foco em eficiência, padronização e redução de esforços operacionais.</p></div>
     `
   },
 
@@ -537,7 +537,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão de Projetos, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam conceitos, métodos e práticas voltadas ao planejamento, execução, acompanhamento e entrega de projetos em diferentes contextos organizacionais.</p></div>
+                                        Os cursos apresentados abrangem conceitos, métodos e práticas voltadas ao planejamento, execução, acompanhamento e entrega de projetos em diferentes contextos organizacionais.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -578,8 +578,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão de Projetos contribuíram para o desenvolvimento de competências relacionadas à organização, priorização e condução de iniciativas com foco em prazo, escopo e qualidade.<br>
-                                        Esses conhecimentos apoiam a gestão de projetos analíticos, tecnológicos e de melhoria de processos, promovendo alinhamento entre objetivos, recursos e resultados esperados.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão de Projetos consolidaram uma base técnica voltada à organização, priorização e condução de iniciativas com foco em prazo.<br>
+                                        O domínio desses conceitos sustenta atividades de gestão de projetos analíticos, tecnológicos e de melhoria de processos, promovendo alinhamento entre objetivos, recursos e resultados esperados.</p></div>
     `
   },
 
