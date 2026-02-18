@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 259,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Jornada Python™ da Hashtag",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-01-15",
+
+    dataConclusao: "15 de janeiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.01.15 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=15%2F01%2F2026&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 258,
 
     instituicao: "Digital Innovation One",
