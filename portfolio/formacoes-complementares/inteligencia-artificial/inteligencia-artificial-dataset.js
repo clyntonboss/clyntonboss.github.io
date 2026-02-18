@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 140,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Banco de Dados Relacionais (SQL)",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Entendendo Operações Bancárias com Python™.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 139,
 
     instituicao: "Digital Innovation One",
