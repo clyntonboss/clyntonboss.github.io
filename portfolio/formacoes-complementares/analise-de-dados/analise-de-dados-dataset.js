@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 260,
+
+    instituicao: "Jornada de Dados",
+ 
+    curso: "Imersão Jornada de Dados",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-01-15",
+
+    dataConclusao: "15 de janeiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.01.15 · Jornada de Dados · Imersão Jornada de Dados.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 259,
 
     instituicao: "Hashtag Treinamentos",
