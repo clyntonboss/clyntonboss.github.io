@@ -1427,7 +1427,7 @@ arquitetura: {
       <hr class="decorative-line-cert">
       
       <div class="tech-subtitle-inf"><p>As formações em Arquitetura consolidaram uma base técnica voltada à visão técnica de projetos, espaços construídos e processos construtivos.<br>
-                                        O domínio desses conceitos sustenta atividades de capacidade de leitura técnica, análise de projetos e entendimento das interações entre planejamento, execução e normas, favorecendo uma visão multidisciplinar aplicada a diferentes contextos profissionais.</p></div>
+                                        O domínio desses conceitos sustenta atividades de leitura técnica, análise de projetos e entendimento das interações entre planejamento, execução e normas, favorecendo uma visão multidisciplinar aplicada a diferentes contextos profissionais.</p></div>
     `
   },
 };
