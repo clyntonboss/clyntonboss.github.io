@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 136,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Acelere sua Aprendizagem com Inteligência Artificial: Explore o Poder do NotebookLM",
+    
+    cargaHoraria: "4 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "HB8KWSRI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Acelere sua Aprendizagem com IA (Explore o Poder do NotebookLM).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HB8KWSRI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 135,
 
     instituicao: "Digital Innovation One",
