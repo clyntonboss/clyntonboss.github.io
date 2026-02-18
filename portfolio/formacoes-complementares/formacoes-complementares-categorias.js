@@ -473,7 +473,7 @@ const categoriasFormacoesComplementares = {
       <hr class="decorative-line-cert">
       
       <div class="tech-subtitle-inf"><p>As formações em Programação consolidaram uma base técnica voltada à aplicakão de lógica, organização e boas práticas de desenvolvimento.<br>
-                                        Esse conhecimento sustenta atividades de automação de processos, análise de dados e integração de sistemas, ampliando a eficiência e a capacidade de resolução de problemas em contextos profissionais.</p></div>
+                                        O domínio desses conceitos sustenta atividades de automação de processos, análise de dados e integração de sistemas, ampliando a eficiência e a capacidade de resolução de problemas em contextos profissionais.</p></div>
     `
   },
 
