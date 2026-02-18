@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 24,
+
+    instituicao: "Produzindo Engenharia",
+ 
+    curso: "Yellow Belt em Lean Six Sigma",
+    
+    cargaHoraria: "15 h",
+
+    conclusaoISO: "2026-01-15",
+
+    dataConclusao: "15 de janeiro de 2026",
+
+    codigo: "3DRWLM-CE000256",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 23,
 
     instituicao: "VMEdu, Inc",
