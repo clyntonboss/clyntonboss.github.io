@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 131,
+
+    instituicao: "Daxus",
+ 
+    curso: "Imersão Inteligência Artificial na Prática",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-01-29",
+
+    dataConclusao: "29 de janeiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.29 · Daxus · Imersão Inteligência Artificial na Prática.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 130,
 
     instituicao: "Hashtag Treinamentos",
