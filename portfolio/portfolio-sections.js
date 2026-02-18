@@ -1722,7 +1722,7 @@ const sections = {
       
           <!-- Desenvolvimento Humano & Soft Skills -->
           <a href="#" data-category="autoconhecimento">Autoconhecimento</a>
-          <a href="#" data-category="skills">Skills</a>
+          <a href="#" data-category="skills">Skills Profissionais</a>
       
           <!-- Outras categorias -->
           <a href="#" data-category="idiomas">Idiomas</a>
