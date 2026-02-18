@@ -1850,6 +1850,22 @@ const sections = {
               </div>
       
               <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> RL & Associados</p>
+                  <p><strong>Curso:</strong> Formação White Belt Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 2 h</p>
+                  <p><strong>Data de Conclusão:</strong> 28 de janeiro de 2026</p>
+                  <p><strong>Código:</strong> 119337</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
