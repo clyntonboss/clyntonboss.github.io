@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 132,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Boas-Vindas ao Bradesco - GenAI & Dados",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "A2E2ZFTV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Boas-Vindas ao Bradesco - GenAI & Dados.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/A2E2ZFTV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 131,
 
     instituicao: "Daxus",
