@@ -749,7 +749,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão da Qualidade, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam princípios, métodos e ferramentas voltados ao controle, garantia e melhoria da qualidade, com foco em processos, desempenho e atendimento aos requisitos do cliente.</p></div>
+                                        Os cursos apresentados abrangem princípios, métodos e ferramentas voltados ao controle, garantia e melhoria da qualidade, com foco em processos, desempenho e atendimento aos requisitos do cliente.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -790,8 +790,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão da Qualidade contribuíram para o desenvolvimento de uma visão sistêmica sobre processos, variabilidade e desempenho.<br>
-                                        Esses conhecimentos apoiam a aplicação de práticas de melhoria contínua, análise de causas, padronização e tomada de decisão orientada por dados, assegurando consistência, eficiência e conformidade organizacional.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão da Qualidade consolidaram uma base técnica voltada à visão sistêmica sobre processos, variabilidade e desempenho.<br>
+                                        O domínio desses conceitos sustenta atividades de aplicação de práticas de melhoria contínua, análise de causas, padronização e tomada de decisão orientada por dados, assegurando consistência, eficiência e conformidade organizacional.</p></div>
     `
   },
 
@@ -802,7 +802,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão de Pessoas, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam práticas de liderança, desenvolvimento humano, comunicação, engajamento e gestão de equipes, com foco no alinhamento entre pessoas, processos e resultados organizacionais.</p></div>
+                                        Os cursos apresentados abrangem práticas de liderança, desenvolvimento humano, comunicação, engajamento e gestão de equipes, com foco no alinhamento entre pessoas, processos e resultados organizacionais.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -843,8 +843,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão de Pessoas contribuíram para o fortalecimento de competências relacionadas à liderança, colaboração e desenvolvimento de equipes de alto desempenho.<br>
-                                        Esses conhecimentos apoiam a gestão eficaz de pessoas em ambientes orientados a dados, processos e melhoria contínua, promovendo engajamento, responsabilidade e alinhamento estratégico.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão de Pessoas consolidaram uma base técnica voltada à liderança, colaboração e desenvolvimento de equipes de alto desempenho.<br>
+                                        O domínio desses conceitos sustenta atividades de gestão eficaz de pessoas em ambientes orientados a dados, processos e melhoria contínua, promovendo engajamento, responsabilidade e alinhamento estratégico.</p></div>
     `
   },
 
