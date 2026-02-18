@@ -526,7 +526,7 @@ const categoriasFormacoesComplementares = {
       <hr class="decorative-line-cert">
       
       <div class="tech-subtitle-inf"><p>As formações em RPA consolidaram uma base técnica voltada à aplicação de soluções de automação orientadas a processos.<br>
-                                        O domínio desses conceitos sustenta atividades de integração entre sistemas, o tratamento automatizado de dados e a melhoria contínua de fluxos de trabalho em diferentes contextos organizacionais, com foco em eficiência, padronização e redução de esforços operacionais.</p></div>
+                                        O domínio desses conceitos sustenta atividades de integração entre sistemas, tratamento automatizado de dados e melhoria contínua de fluxos de trabalho em diferentes contextos organizacionais, com foco em eficiência, padronização e redução de esforços operacionais.</p></div>
     `
   },
 
