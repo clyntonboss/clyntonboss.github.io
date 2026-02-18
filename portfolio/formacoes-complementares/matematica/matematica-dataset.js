@@ -18,9 +18,6 @@ window.datasetCategoria = [
 
     thumb: "/portfolio/formacoes-complementares/matematica/certificados/2025.11.07 · Didática Tech · Matemática para Machine Learning.png",
 
-    verificacao: {
-      url: "https://www.escolavirtual.gov.br/documentos/validacao/",
-      texto: "Verificar Autenticidade"
-    }
+    verificacao: null
   }
 ];
