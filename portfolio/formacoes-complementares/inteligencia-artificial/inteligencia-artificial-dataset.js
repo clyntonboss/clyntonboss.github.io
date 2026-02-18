@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 137,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Live de Lançamento Bradesco - GenAI & Dados",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "NUSN1177",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Live de Lançamento Bradesco - GenAI & Dados.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NUSN1177.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 136,
 
     instituicao: "Digital Innovation One",
