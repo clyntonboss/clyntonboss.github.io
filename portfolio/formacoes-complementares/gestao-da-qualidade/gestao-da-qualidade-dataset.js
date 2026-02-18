@@ -583,5 +583,27 @@ window.datasetCategoria = [
     thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png",
 
     verificacao: null
+  },
+
+  {
+    id: 1,
+
+    instituicao: "RL & Associados",
+ 
+    curso: "White Belt - Six Sigma",
+    
+    cargaHoraria: "3 h 30 min",
+
+    conclusaoISO: "2021-11-21",
+
+    dataConclusao: "21 de novembro de 2021",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png",
+
+    verificacao: null
   }
 ];
