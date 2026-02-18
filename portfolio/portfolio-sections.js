@@ -1894,6 +1894,22 @@ const sections = {
               </div>
       
               <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Produzindo Engenharia</p>
+                  <p><strong>Curso:</strong> Yellow Belt em Lean Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 15 h</p>
+                  <p><strong>Data de Conclusão:</strong> 15 de janeiro de 2026</p>
+                  <p><strong>Código:</strong> 2DRWLM-CE000256</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
       
           </div>
       </div>
