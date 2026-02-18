@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 135,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução à Engenharia de Prompts",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "XIMIG8SB",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Introdução à Engenharia de Prompts.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XIMIG8SB.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 134,
 
     instituicao: "Digital Innovation One",
