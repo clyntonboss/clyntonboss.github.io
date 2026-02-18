@@ -1,5 +1,5 @@
 window.datasetCategoria = [
-{
+  {
     id: 1,
 
     instituicao: "Didática Tech",
@@ -10,7 +10,7 @@ window.datasetCategoria = [
 
     conclusaoISO: "2025-11-07",
 
-    dataConclusao: "07 de novembro de 2024",
+    dataConclusao: "07 de novembro de 2025",
 
     codigo: "Inaplicável",
 
