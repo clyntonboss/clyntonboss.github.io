@@ -1,6 +1,31 @@
 window.datasetCategoria = [
   {
-    id: 128,
+    id: 130,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Jornada Inteligência Artificial da Hashtag",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-01-22",
+
+    dataConclusao: "22 de janeiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.22 · Hashtag Treinamentos · Jornada Inteligência Artificial da Hashtag.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Inteligência+Artificial+da+Hashtag&dtcf=22%2F01%2F2026&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
+    id: 129,
 
     instituicao: "Simplifica Treinamentos",
  
