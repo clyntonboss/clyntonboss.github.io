@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 28,
+
+    instituicao: "Excelência Operacional Consultoria e Treinamentos",
+ 
+    curso: "Mentalidade Kaizen",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2026-01-29",
+
+    dataConclusao: "29 de janeiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.29 · Excelência Operacional Consultoria e Treinamentos · Mentalidade Kaizen.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 27,
 
     instituicao: "RL & Associados",
