@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 133,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "A Era da Inteligência Artificial: Machine Learning, LLMs, Inteligência Artificial Generativa e Agentes",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "6NJVNNOR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · A Era da IA (Machine Learning, LLMs, IA Generativa e Agentes).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6NJVNNOR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 132,
 
     instituicao: "Digital Innovation One",
