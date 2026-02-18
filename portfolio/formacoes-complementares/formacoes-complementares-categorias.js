@@ -420,7 +420,7 @@ const categoriasFormacoesComplementares = {
       <hr class="decorative-line-cert">
       
       <div class="tech-subtitle-inf"><p>As formações em Segurança da Informação consolidaram uma base técnica voltada à proteção, confidencialidade e integridade da informação.<br>
-                                        O domínio desses conceitos sustenta atividades do uso responsável de dados, a conformidade com normas e a mitigação de riscos em ambientes analíticos, sistemas e processos organizacionais.</p></div>
+                                        O domínio desses conceitos sustenta atividades do uso responsável de dados, conformidade com normas e mitigação de riscos em ambientes analíticos, sistemas e processos organizacionais.</p></div>
     `
   },
 
