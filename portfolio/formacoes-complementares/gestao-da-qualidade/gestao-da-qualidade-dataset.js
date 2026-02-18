@@ -1,6 +1,6 @@
 window.datasetCategoria = [
   {
-    id: 25,
+    id: 27,
 
     instituicao: "RL & Associados",
  
@@ -22,7 +22,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 24,
+    id: 26,
 
     instituicao: "Produzindo Engenharia",
  
@@ -44,7 +44,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 23,
+    id: 25,
 
     instituicao: "VMEdu, Inc",
  
@@ -69,7 +69,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 22,
+    id: 24,
 
     instituicao: "Nortegubisian",
  
@@ -91,7 +91,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 21,
+    id: 23,
 
     instituicao: "Escola EDTI",
  
@@ -113,7 +113,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 20,
+    id: 22,
 
     instituicao: "Grupo Voitto",
  
@@ -138,7 +138,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 19,
+    id: 21,
 
     instituicao: "Council for Six Sigma Certification",
  
@@ -160,7 +160,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 18,
+    id: 20,
 
     instituicao: "Frons Educação",
  
@@ -185,7 +185,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 17,
+    id: 19,
 
     instituicao: "Frons Educação",
  
@@ -210,7 +210,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 16,
+    id: 18,
 
     instituicao: "Frons Educação",
  
@@ -235,7 +235,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 15,
+    id: 17,
 
     instituicao: "Unieducar",
  
@@ -260,7 +260,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 14,
+    id: 16,
 
     instituicao: "FM2S Educação e Consultoria",
  
@@ -285,7 +285,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 13,
+    id: 15,
 
     instituicao: "Grupo Voitto",
  
@@ -310,7 +310,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 12,
+    id: 14,
 
     instituicao: "Grupo Voitto",
  
@@ -335,7 +335,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 11,
+    id: 13,
 
     instituicao: "FM2S Educação e Consultoria",
  
@@ -360,7 +360,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 10,
+    id: 12,
 
     instituicao: "FM2S Educação e Consultoria",
  
@@ -385,7 +385,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 9,
+    id: 11,
 
     instituicao: "FM2S Educação e Consultoria",
  
@@ -410,7 +410,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 8,
+    id: 10,
 
     instituicao: "Domus Lean Seis Sigma",
  
@@ -432,7 +432,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 7,
+    id: 9,
 
     instituicao: "Instituto Politécnico de Ensino a Distância - iPed",
  
@@ -454,7 +454,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 6,
+    id: 8,
 
     instituicao: "Escola Yokoten",
  
@@ -476,7 +476,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 5,
+    id: 7,
 
     instituicao: "FM2S Educação e Consultoria",
  
@@ -498,7 +498,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 4,
+    id: 6,
 
     instituicao: "FM2S Educação e Consultoria",
  
@@ -520,7 +520,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 3,
+    id: 5,
 
     instituicao: "FM2S Educação e Consultoria",
  
@@ -542,7 +542,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 2,
+    id: 4,
 
     instituicao: "Produzindo Engenharia",
  
@@ -564,7 +564,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 1,
+    id: 3,
 
     instituicao: "FM2S Educação e Consultoria",
  
@@ -586,7 +586,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 1,
+    id: 2,
 
     instituicao: "RL & Associados",
  
@@ -603,6 +603,28 @@ window.datasetCategoria = [
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png",
+
+    verificacao: null
+  },
+
+  {
+    id: 1,
+
+    instituicao: "RL & Associados",
+ 
+    curso: "Lean Manufacturing Nível I",
+    
+    cargaHoraria: "2 h 30 min",
+
+    conclusaoISO: "2023-08-18",
+
+    dataConclusao: "18 de agosto de 2023",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2023.08.18 · RL Associados · Lean Manufacturing Nível I.png",
 
     verificacao: null
   }
