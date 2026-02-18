@@ -848,14 +848,14 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 =========================================== Gestãod de Negócios ======================================== 🔹
+// 🔹 ============================================ Gestão de Negócios ======================================== 🔹
   gestaoNegocios: {
     title: "Gestão de Negócios",
     dataset: "/portfolio/formacoes-complementares/gestao-de-negocios/gestao-de-negocios-dataset.js",
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão de Negócios, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam fundamentos estratégicos, tomada de decisão, análise de cenários, modelos de negócio e alinhamento entre estratégia, operações e resultados.</p></div>
+                                        Os cursos apresentados abrangem fundamentos estratégicos, tomada de decisão, análise de cenários, modelos de negócio e alinhamento entre estratégia, operações e resultados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -896,8 +896,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão de Negócios ampliaram a capacidade de análise estratégica e compreensão do funcionamento organizacional como um todo.<br>
-                                        Esses conhecimentos sustentam decisões orientadas a dados, otimização de processos e geração de valor, conectando visão estratégica, execução operacional e resultados mensuráveis.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão de Negócios consolidaram uma base técnica voltada à análise estratégica e funcionamento organizacional.<br>
+                                        O domínio desses conceitos sustenta atividades de decisões orientadas a dados, otimização de processos e geração de valor, conectando visão estratégica, execução operacional e resultados mensuráveis.</p></div>
     `
   },
 
