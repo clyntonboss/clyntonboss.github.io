@@ -219,7 +219,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Matemática, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abrangem fundamentos matemáticos essenciais à modelagem computacional, incluindo estatística inferencial, teoria das probabilidades, álgebra linear aplicada, cálculo diferencial e integral, além de métodos de otimização.</p>
+                                        Os cursos apresentados abrangem fundamentos matemáticos essenciais à modelagem computacional, incluindo estatística inferencial, teoria das probabilidades, álgebra linear aplicada, cálculo diferencial e integral, além de métodos de otimização.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -261,7 +261,7 @@ const categoriasFormacoesComplementares = {
       <hr class="decorative-line-cert">
       
       <div class="tech-subtitle-inf"><p>As formações em Matemática consolidaram uma base técnica voltada à compreensão estrutural dos algoritmos e capacidade de análise crítica.<br>
-                                        O domínio desses conceitos sustenta atividades de análise crítica de modelos e métricas, fortalece a interpretação estatística dos resultados e embasa decisões técnicas fundamentadas em rigor analítico, reduzindo a dependência de abordagens puramente instrumentais.</p>
+                                        O domínio desses conceitos sustenta atividades de análise crítica de modelos e métricas, fortalece a interpretação estatística dos resultados e embasa decisões técnicas fundamentadas em rigor analítico, reduzindo a dependência de abordagens puramente instrumentais.</p></div>
     `
   },
 
