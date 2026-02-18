@@ -950,7 +950,7 @@ const categoriasFormacoesComplementares = {
       <hr class="decorative-line-cert">
       
       <div class="tech-subtitle-inf"><p>As formações em Gestão de Marketing consolidaram uma base técnica voltada à estratégias de mercado e mensuração de resultados.<br>
-                                        O domínio desses conceitos sustenta atividades de tomada de decisões baseada em dados, a avaliação de campanhas e o alinhamento entre objetivos de negócio, público-alvo e indicadores de performance.</p></div>
+                                        O domínio desses conceitos sustenta atividades de tomada de decisões baseada em dados, avaliação de campanhas e alinhamento entre objetivos de negócio, público-alvo e indicadores de performance.</p></div>
     `
   },
 
@@ -961,7 +961,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão Financeira, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam fundamentos financeiros, análise de custos, orçamento, indicadores financeiros e apoio à tomada de decisão, com foco no controle, planejamento e sustentabilidade dos negócios.</p></div>
+                                        Os cursos apresentados abrangem fundamentos financeiros, análise de custos, orçamento, indicadores financeiros e apoio à tomada de decisão, com foco no controle, planejamento e sustentabilidade dos negócios.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1002,8 +1002,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão Financeira contribuíram para o desenvolvimento de uma visão analítica sobre custos, receitas e indicadores econômicos.<br>
-                                        Esses conhecimentos apoiam o planejamento financeiro, a análise de viabilidade e a tomada de decisões orientadas a dados, promovendo equilíbrio entre controle, eficiência e geração de valor.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão Financeira consolidaram uma base técnica voltada à visão analítica sobre custos, receitas e indicadores financeiros.<br>
+                                        O domínio desses conceitos sustenta atividades de planejamento financeiro, análise de viabilidade e tomada de decisões orientadas a dados, promovendo equilíbrio entre controle, eficiência e geração de valor.</p></div>
     `
   },
 
@@ -1014,7 +1014,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão Logística, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam planejamento logístico, gestão da cadeia de suprimentos, controle de estoques, distribuição, indicadores de desempenho e otimização de fluxos operacionais.</p></div>
+                                        Os cursos apresentados abrangem planejamento logístico, gestão da cadeia de suprimentos, controle de estoques, distribuição, indicadores de desempenho e otimização de fluxos operacionais.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1055,8 +1055,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão Logística ampliaram a compreensão sobre o funcionamento da cadeia de suprimentos e a importância da eficiência operacional.<br>
-                                        Esses conhecimentos apoiam a análise de processos, o uso de indicadores logísticos e a tomada de decisões orientadas a dados, contribuindo para redução de custos, melhoria de prazos e aumento da confiabilidade operacional.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão Logística consolidaram uma base técnica voltada à cadeia de suprimentos e eficiência operacional.<br>
+                                        O domínio desses conceitos sustenta atividades de análise de processos, uso de indicadores logísticos e tomada de decisões orientadas a dados, contribuindo para redução de custos, melhoria de prazos e aumento da confiabilidade operacional.</p></div>
     `
   },
 
@@ -1067,7 +1067,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Design, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam fundamentos de design, experiência do usuário, design visual, organização da informação e princípios de usabilidade, com foco na clareza, funcionalidade e comunicação eficaz.</p></div>
+                                        Os cursos apresentados abrangem fundamentos de design, experiência do usuário, design visual, organização da informação e princípios de usabilidade, com foco na clareza, funcionalidade e comunicação eficaz.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1108,8 +1108,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Design contribuíram para o aprimoramento da capacidade de estruturar informações, criar interfaces funcionais e comunicar dados de forma clara.<br>
-                                        Esses conhecimentos apoiam a construção de soluções visuais eficientes, experiência do usuário consistente e apresentação de informações orientadas à compreensão e tomada de decisão.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Design consolidaram uma base técnica voltada à estruturar informações, criar interfaces funcionais e comunicar dados.<br>
+                                        O domínio desses conceitos sustenta atividades de construção de soluções visuais eficientes, experiência do usuário consistente e apresentação de informações orientadas à compreensão e tomada de decisão.</p></div>
     `
   },
 
@@ -1120,7 +1120,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Autoconhecimento, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam desenvolvimento pessoal, inteligência emocional, autogestão, comunicação interpessoal e reflexão crítica, com foco no aprimoramento do comportamento profissional e das relações no ambiente de trabalho.</p></div>
+                                        Os cursos apresentados abrangem desenvolvimento pessoal, inteligência emocional, autogestão, comunicação interpessoal e reflexão crítica, com foco no aprimoramento do comportamento profissional e das relações no ambiente de trabalho.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1161,8 +1161,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Autoconhecimento contribuíram para o desenvolvimento de habilidades relacionadas à autoconsciência, equilíbrio emocional e melhoria da comunicação.<br>
-                                        Esses conhecimentos apoiam a atuação profissional ética, colaborativa e responsável, fortalecendo a tomada de decisões, o trabalho em equipe e a adaptação a diferentes contextos organizacionais.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Autoconhecimento consolidaram uma base técnica voltada à autoconsciência, equilíbrio emocional e melhoria da comunicação.<br>
+                                        O domínio desses conceitos sustenta atividades de atuação profissional ética, colaborativa e responsável, fortalecendo a tomada de decisões, trabalho em equipe e adaptação a diferentes contextos organizacionais.</p></div>
     `
   },
 
@@ -1173,7 +1173,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Skills Profissionais, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam habilidades técnicas e comportamentais aplicadas ao contexto corporativo, com foco em produtividade, comunicação, resolução de problemas e atuação orientada a resultados.</p></div>
+                                        Os cursos apresentados abrangem habilidades técnicas e comportamentais aplicadas ao contexto corporativo, com foco em produtividade, comunicação, resolução de problemas e atuação orientada a resultados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1214,8 +1214,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações voltadas ao desenvolvimento de skills contribuíram para o fortalecimento de competências práticas essenciais à atuação profissional.<br>
-                                        Esses conhecimentos apoiam a melhoria da performance individual, a adaptação a diferentes contextos de trabalho e a aplicação eficaz de habilidades técnicas e comportamentais no dia a dia corporativo.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Skills Profissionais consolidaram uma base técnica voltada à fortalecimento de competências práticas essenciais.<br>
+                                        O domínio desses conceitos sustenta atividades de melhoria da performance individual, adaptação a diferentes contextos de trabalho e aplicação eficaz de habilidades técnicas e comportamentais no dia a dia corporativo.</p></div>
     `
   },
 
@@ -1226,7 +1226,7 @@ idiomas: {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Idiomas, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam o desenvolvimento de competências linguísticas aplicadas ao contexto acadêmico e profissional, com foco em compreensão, comunicação e uso técnico da língua.</p></div>
+                                        Os cursos apresentados abrangem o desenvolvimento de competências linguísticas aplicadas ao contexto acadêmico e profissional, com foco em compreensão, comunicação e uso técnico da língua.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1267,8 +1267,8 @@ idiomas: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Idiomas contribuíram para o aprimoramento da comunicação em contextos profissionais e técnicos.<br>
-                                        Esses conhecimentos apoiam a leitura, interpretação e produção de conteúdos, além da interação em ambientes multiculturais e no uso de materiais técnicos em língua estrangeira.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Idiomas consolidaram uma base técnica voltada ao aprimoramento da comunicação em contextos profissionais e técnicos.<br>
+                                        O domínio desses conceitos sustenta atividades de leitura, interpretação e produção de conteúdos, além da interação em ambientes multiculturais e no uso de materiais técnicos em língua estrangeira.</p></div>
     `
   },
 
