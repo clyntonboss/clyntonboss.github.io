@@ -2,6 +2,28 @@ window.datasetCategoria = [
   {
     id: 128,
 
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Inteligência Artificial Express",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-01-15",
+
+    dataConclusao: "15 de janeiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.15 · Simplifica Treinamentos · Simplifica Inteligência Artificial Express.png",
+
+    verificacao: null
+  },
+  
+  {
+    id: 128,
+
     instituicao: "Data Science Academy",
  
     curso: "Fundamentos de Linguagem Python™ do Básico a Aplicações de Inteligência Artificial",
