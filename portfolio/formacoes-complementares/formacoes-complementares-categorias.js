@@ -908,7 +908,7 @@ const categoriasFormacoesComplementares = {
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Gestão de Marketing, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abordam estratégias de marketing, comportamento do consumidor, posicionamento de marca, métricas de desempenho e análise de resultados, com foco em decisões orientadas a dados.</p></div>
+                                        Os cursos apresentados abrangem estratégias de marketing, comportamento do consumidor, posicionamento de marca, métricas de desempenho e análise de resultados, com foco em decisões orientadas a dados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -949,8 +949,8 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Gestão de Marketing fortaleceram a compreensão sobre estratégias de mercado, análise de desempenho e mensuração de resultados.<br>
-                                        Esses conhecimentos apoiam a tomada de decisões baseada em dados, a avaliação de campanhas e o alinhamento entre objetivos de negócio, público-alvo e indicadores de performance.</p></div>
+      <div class="tech-subtitle-inf"><p>As formações em Gestão de Marketing consolidaram uma base técnica voltada à estratégias de mercado e mensuração de resultados.<br>
+                                        O domínio desses conceitos sustenta atividades de tomada de decisões baseada em dados, a avaliação de campanhas e o alinhamento entre objetivos de negócio, público-alvo e indicadores de performance.</p></div>
     `
   },
 
