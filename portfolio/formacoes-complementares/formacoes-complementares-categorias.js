@@ -212,6 +212,59 @@ const categoriasFormacoesComplementares = {
     `
   },
 
+// 🔹 =========================================== Matemática Aplicada ======================================== 🔹
+  matematica: {
+    title: "Matemática Aplicada",
+    dataset: "/portfolio/formacoes-complementares/matematica/matematica-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Matemática, organizadas por conclusão cronológica decrescente.<br>
+                                        Os cursos apresentados abrangem fundamentos matemáticos essenciais à modelagem computacional, incluindo estatística inferencial, teoria das probabilidades, álgebra linear aplicada, cálculo diferencial e integral, além de métodos de otimização.</p>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+      
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle-inf"><p>As formações em Matemática consolidaram uma base técnica voltada à compreensão estrutural dos algoritmos e capacidade de análise crítica.<br>
+                                        O domínio desses conceitos sustenta atividades de análise crítica de modelos e métricas, fortalece a interpretação estatística dos resultados e embasa decisões técnicas fundamentadas em rigor analítico, reduzindo a dependência de abordagens puramente instrumentais.</p>
+    `
+  },
+
 // 🔹 ============================================ Data Storytelling ========================================= 🔹
   dataStorytelling: {
     title: "Data Storytelling",
