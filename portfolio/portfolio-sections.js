@@ -1752,8 +1752,24 @@ const sections = {
               <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
-      
+
               <hr class="decorative-line-cert decorative-line-sup">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> RL & Associados</p>
+                  <p><strong>Curso:</strong> White Belt - Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 3 h 30 min</p>
+                  <p><strong>Data de Conclusão:</strong> 21 de novembro de 2021</p>
+                  <p><strong>Código:</strong> Inaplicável</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png'); return false;">
                   <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
