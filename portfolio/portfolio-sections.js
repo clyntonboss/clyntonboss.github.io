@@ -1696,6 +1696,7 @@ const sections = {
           <a href="#" data-category="bancoDados">Bancos de Dados</a>
           <a href="#" data-category="bigData">Big Data</a>
           <a href="#" data-category="inteligenciaArtificial">Inteligência Artificial</a>
+          <a href="#" data-category="matematica">Matemática Aplicada</a>
           <a href="#" data-category="dataStorytelling">Data Storytelling</a>
           
           <!-- Tecnologia e Fundamentos -->
