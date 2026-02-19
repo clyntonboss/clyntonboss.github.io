@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 265,
+
+    instituicao: "Tetra Educação",
+ 
+    curso: "Imersão Excel Automate",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-02-05",
+
+    dataConclusao: "05 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.05 · Tetra Educação · Imersão Excel Automate.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 264,
 
     instituicao: "Comunidade DS",
