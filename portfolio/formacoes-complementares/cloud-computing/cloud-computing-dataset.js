@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 114,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Instalação e Configuração do GitHub Copilot com o VS Code",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "GBGVUAVV",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Instalação e Configuração do GitHub Copilot com o VS Code.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GBGVUAVV.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 113,
 
     instituicao: "Digital Innovation One",
