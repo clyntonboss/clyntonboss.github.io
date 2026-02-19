@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 264,
+
+    instituicao: "Comunidade DS",
+ 
+    curso: "Do Zero à Análise de Dados",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-02-05",
+
+    dataConclusao: "05 de fevereiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.05 · Comunidade DS · Do Zero à Análise de Dados.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 263,
 
     instituicao: "Planilheiros",
