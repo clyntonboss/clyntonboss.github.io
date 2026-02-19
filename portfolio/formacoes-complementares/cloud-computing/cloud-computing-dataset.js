@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 110,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Computação Serverless com Azure Functions",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "UOH9UJWE",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Computação Serverless com Azure Functions.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UOH9UJWE.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 109,
 
     instituicao: "Digital Innovation One",
