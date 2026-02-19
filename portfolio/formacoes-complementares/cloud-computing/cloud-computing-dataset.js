@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 95,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Armazenando Dados de um e-Commerce na Cloud",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "K77TEPL0",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Armazenando Dados de um e-Commerce na Cloud.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/K77TEPL0.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 94,
 
     instituicao: "Digital Innovation One",
