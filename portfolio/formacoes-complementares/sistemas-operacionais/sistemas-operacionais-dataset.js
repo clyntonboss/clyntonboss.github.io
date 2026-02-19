@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 6,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Android",
+    
+    cargaHoraria: "80 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "a6a545c534df69178affcc13e068f2ef",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2026.02.07 · FIAP Centro Universitário · Android.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=a6a545c534df69178affcc13e068f2ef&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 5,
 
     instituicao: "Cursa",
@@ -87,7 +112,7 @@ window.datasetCategoria = [
 
     dataConclusao: "15 de abril de 2025",
 
-    codigo: "Inaplicável",
+    codigo: "ff03a7806ef30659780b9ff061b98936",
 
     mostrarCopiar: false,
 
@@ -112,7 +137,7 @@ window.datasetCategoria = [
 
     dataConclusao: "10 de março de 2025",
 
-    codigo: "Inaplicável",
+    codigo: "b680d2fffda89a1e7ad608953a3f7fac",
 
     mostrarCopiar: false,
 
