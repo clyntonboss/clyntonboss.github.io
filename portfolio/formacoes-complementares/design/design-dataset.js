@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 37,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Design Gráfico",
+    
+    cargaHoraria: "140 h",
+
+    conclusaoISO: "2026-02-13",
+
+    dataConclusao: "13 de fevereiro de 2026",
+
+    codigo: "da40952733afe68ab104c0b839271786",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.13 · FIAP - Centro Universitário · Design Gráfico.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=da40952733afe68ab104c0b839271786&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 36,
 
     instituicao: "Pontifícia Universidade Católica do Rio Grande do Sul",
