@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 151,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Bradesco - GenAI & Dados",
+    
+    cargaHoraria: "52 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "PRURMSU2",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Bradesco - GenAI & Dados.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PRURMSU2.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 150,
 
     instituicao: "Digital Innovation One",
