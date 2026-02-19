@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 9,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Customer Experience Management",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2026-02-12",
+
+    dataConclusao: "12 de fevereiro de 2025",
+
+    codigo: "80222c2ebda653495e99505d9d68e992",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-de-pessoas/certificados/2026.02.12 · FIAP - Centro Universitário · Customer Experience Management.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=80222c2ebda653495e99505d9d68e992&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 8,
 
     instituicao: "Qulture Rocks",
