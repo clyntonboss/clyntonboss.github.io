@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 266,
+
+    instituicao: "Xperiun | Data Analytics",
+ 
+    curso: "Imersão em Power BI + Inteligência Artificial",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2026-02-05",
+
+    dataConclusao: "05 de fevereiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.05 · Xperiun · Data Analytics · Imersão em Power BI + Inteligência Artificial.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 265,
 
     instituicao: "Tetra Educação",
