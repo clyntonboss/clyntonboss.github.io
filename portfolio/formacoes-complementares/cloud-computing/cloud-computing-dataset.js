@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 108,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Guardando os Portões da sua API",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Guardando os Portões da sua API.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 107,
 
     instituicao: "Digital Innovation One",
