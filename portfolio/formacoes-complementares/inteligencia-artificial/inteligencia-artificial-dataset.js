@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 155,
+
+    instituicao: "Simplifica Treinamentos",
+ 
+    curso: "Simplifica Inteligência Artificial Express",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-02-12",
+
+    dataConclusao: "12 de fevereiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.12 · Simplifica Treinamentos · Simplifica Inteligência Artificial Express.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 154,
 
     instituicao: "FIAP - Centro Universitário",
