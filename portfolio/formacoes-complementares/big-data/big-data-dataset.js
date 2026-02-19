@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 13,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Big Data & Analytics",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2026-02-09",
+
+    dataConclusao: "09 de fevereiro de 2026",
+
+    codigo: "8016c13514590190a727db0a9f424346",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.02.09 · FIAP - Centro Universitário · Big Data & Analytics.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=8016c13514590190a727db0a9f424346&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 12,
 
     instituicao: "Escola Nacional de Administração Pública - ENAP",
