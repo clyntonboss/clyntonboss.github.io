@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 10,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Cybersecurity",
+    
+    cargaHoraria: "120 h",
+
+    conclusaoISO: "2026-02-12",
+
+    dataConclusao: "12 de fevereiro de 2025",
+
+    codigo: "28fb02da2a199ecf50634b1b54054ad6",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/seguranca-da-informacao/certificados/2026.02.12 · FIAP - Centro Universitário · Cybersecurity.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=28fb02da2a199ecf50634b1b54054ad6&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 9,
 
     instituicao: "FIAP - Centro Universitário",
