@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 142,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Explorando Conjuntos em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "SY2MHMRT",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Explorando Conjuntos em Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SY2MHMRT.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 141,
 
     instituicao: "Digital Innovation One",
