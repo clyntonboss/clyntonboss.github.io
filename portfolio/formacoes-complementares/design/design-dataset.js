@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 40,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Game Design",
+    
+    cargaHoraria: "160 h",
+
+    conclusaoISO: "2026-02-17",
+
+    dataConclusao: "17 de fevereiro de 2026",
+
+    codigo: "1426cce040a67d32db683b02c1cb0148",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.17 · FIAP - Centro Universitário · Game Design.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=1426cce040a67d32db683b02c1cb0148&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 39,
 
     instituicao: "FIAP - Centro Universitário",
