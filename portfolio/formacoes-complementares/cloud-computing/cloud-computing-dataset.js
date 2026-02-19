@@ -41,7 +41,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innivation One · Microsoft Certification Challenge 4 - AZ 204.png",
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Microsoft Certification Challenge 4 - AZ 204.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/PT1GRSPB.pdf",
