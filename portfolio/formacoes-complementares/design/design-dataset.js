@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 38,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Design Thinking",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2026-02-13",
+
+    dataConclusao: "13 de fevereiro de 2025",
+
+    codigo: "33ecc57f3926bb79168633f348edace7",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.13 · FIAP - Centro Universitário · Design Thinking.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=33ecc57f3926bb79168633f348edace7&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 37,
 
     instituicao: "FIAP - Centro Universitário",
