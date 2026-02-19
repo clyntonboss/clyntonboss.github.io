@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 115,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Inteligência Artificial no Desenvolvimento na Azure",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "F5HQLJOW",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Inteligência Artificial no Desenvolvimento na Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/F5HQLJOW.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 114,
 
     instituicao: "Digital Innovation One",
