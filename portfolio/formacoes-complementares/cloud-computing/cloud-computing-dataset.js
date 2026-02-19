@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 97,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Orquestração de Contêineres com Azure Kubernetes Service (AKS)",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "SPKUBA5Y",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Orquestração de Contêineres com Azure Kubernetes Service (AKS).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SPKUBA5Y.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 96,
 
     instituicao: "Digital Innovation One",
