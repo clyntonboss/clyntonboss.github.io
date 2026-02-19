@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 147,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Conversando por Voz com o ChatGPT Utilizando Whisper (OpenAI) e Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "VV6LPUTI",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Conversando por Voz com o ChatGPT Utilizando Whisper (OpenAI) e Python™.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VV6LPUTI.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 146,
 
     instituicao: "Digital Innovation One",
