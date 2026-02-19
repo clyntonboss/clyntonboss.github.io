@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 107,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "API de Pagamentos Segura com Azure API Management",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "YF7DAD8S",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · API de Pagamentos Segura com Azure API Management.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YF7DAD8S.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 106,
 
     instituicao: "Digital Innovation One",
