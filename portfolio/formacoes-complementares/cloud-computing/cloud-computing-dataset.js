@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 98,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Trabalhando com Azure Kubernetes Service (AKS e K8S)",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "I0DDJ7AY",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Trabalhando com Azure Kubernetes Service (AKS e K8S).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/I0DDJ7AY.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 97,
 
     instituicao: "Digital Innovation One",
