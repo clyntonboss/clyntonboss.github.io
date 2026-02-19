@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 154,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Chatbot",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2026-02-11",
+
+    dataConclusao: "11 de fevereiro de 2025",
+
+    codigo: "b82467de2bcdcab00ec247b6ea681f3d",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.11 · FIAP - Centro Universitário · Chatbots.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=b82467de2bcdcab00ec247b6ea681f3d&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 153,
 
     instituicao: "Hashtag Treinamentos",
