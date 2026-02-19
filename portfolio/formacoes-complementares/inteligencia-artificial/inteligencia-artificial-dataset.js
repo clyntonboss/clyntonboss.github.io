@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 156,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Inteligência Artificial e Computacional",
+    
+    cargaHoraria: "80 h",
+
+    conclusaoISO: "2026-02-19",
+
+    dataConclusao: "19 de fevereiro de 2026",
+
+    codigo: "4adf2eb22fdb35c0c3ae76d973f189cf",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.19 · FIAP - Centro Universitário · Inteligência Artificial e Computacional.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=4adf2eb22fdb35c0c3ae76d973f189cf&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 155,
 
     instituicao: "Simplifica Treinamentos",
