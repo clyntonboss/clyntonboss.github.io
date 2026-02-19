@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 146,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Visão Computacional",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "AAX6RRGS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Visão Computacional.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AAX6RRGS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 145,
 
     instituicao: "Digital Innovation One",
