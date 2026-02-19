@@ -29,7 +29,7 @@ window.datasetCategoria = [
 
     instituicao: "Digital Innovation One",
  
-    curso: "Introdução a Banco de Dados Relacionais (SQL)",
+    curso: "Entendendo Operações Bancárias com Python™",
     
     cargaHoraria: "1 h",
 
