@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 9,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Blockchain Advanced",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2026-02-10",
+
+    dataConclusao: "10 de fevereiro de 2026",
+
+    codigo: "113c1966209145df8c9b0ccf0dc4d421",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/seguranca-da-informacao/certificados/2026.02.10 · FIAP - Centro Universitário · Blockchain Advanced.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=113c1966209145df8c9b0ccf0dc4d421&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 8,
 
     instituicao: "FIAP - Centro Universitário",
@@ -104,7 +129,7 @@ window.datasetCategoria = [
 
     instituicao: "FIAP - Centro Universitário",
  
-    curso: "Blockchain · Advanced",
+    curso: "Blockchain Advanced",
     
     cargaHoraria: "40 h",
 
@@ -116,7 +141,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/seguranca-da-informacao/certificados/2025.03.13 · FIAP - Centro Universitário · Blockchain · Advanced.png",
+    thumb: "/portfolio/formacoes-complementares/seguranca-da-informacao/certificados/2025.03.13 · FIAP - Centro Universitário · Blockchain Advanced.png",
 
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=0aaf2ddd8b649cb262a40572387006c2&action=view",
