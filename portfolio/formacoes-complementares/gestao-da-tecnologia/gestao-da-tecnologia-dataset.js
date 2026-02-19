@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 15,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Gestão de Infraestrutura de TI",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2026-02-18",
+
+    dataConclusao: "18 de fevereiro de 2026",
+
+    codigo: "fd3fbd4225757b75339bf492c074f913",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-tecnologia/certificados/2026.02.18 · FIAP - Centro Universitário · Gestão de Infraestrutura de TI.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=fd3fbd4225757b75339bf492c074f913&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 14,
 
     instituicao: "Pontifícia Universidade Católica do Rio Grande do Sul",
