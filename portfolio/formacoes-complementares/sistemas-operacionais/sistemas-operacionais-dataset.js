@@ -10,7 +10,7 @@ window.datasetCategoria = [
 
     conclusaoISO: "2026-02-07",
 
-    dataConclusao: "07 de fevereiro de 2025",
+    dataConclusao: "07 de fevereiro de 2026",
 
     codigo: "a6a545c534df69178affcc13e068f2ef",
 
