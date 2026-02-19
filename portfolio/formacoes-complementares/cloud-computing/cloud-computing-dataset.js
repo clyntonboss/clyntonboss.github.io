@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 109,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Gerenciamento e Segurança de APIs na Azure",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "WZMOMPZD",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Gerenciamento e Segurança de APIs na Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WZMOMPZD.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 108,
 
     instituicao: "Digital Innovation One",
