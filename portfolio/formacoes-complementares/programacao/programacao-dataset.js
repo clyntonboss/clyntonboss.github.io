@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 131,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Engenharia de Software",
+    
+    cargaHoraria: "100 h",
+
+    conclusaoISO: "2026-02-17",
+
+    dataConclusao: "17 de fevereiro de 2026",
+
+    codigo: "280f07079eb92809633af50fa99b1eef",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.02.17 · FIAP - Centro Universitário · Engenharia de Software.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=280f07079eb92809633af50fa99b1eef&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 130,
 
     instituicao: "FIAP - Centro Universitário",
