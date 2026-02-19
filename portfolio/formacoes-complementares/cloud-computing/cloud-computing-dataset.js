@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 100,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desbravando Contêineres com AKS e App Service",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Desbravando Contêineres com AKS e App Service.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 99,
 
     instituicao: "Digital Innovation One",
