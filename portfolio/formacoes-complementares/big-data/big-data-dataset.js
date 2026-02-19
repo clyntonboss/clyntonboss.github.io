@@ -16,7 +16,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2025.02.09 · FIAP - Centro Universitário · Big Data & Analytics.png",
+    thumb: "/portfolio/formacoes-complementares/big-data/certificados/2026.02.09 · FIAP - Centro Universitário · Big Data & Analytics.png",
 
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=8016c13514590190a727db0a9f424346&action=view",
