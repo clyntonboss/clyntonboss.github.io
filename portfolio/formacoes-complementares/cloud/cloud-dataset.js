@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 93,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Introdução a Experiência Microsoft Azure Cloud Native 2026",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "DYD5Z2YK",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2026.02.07 · Digital Innovation One · Introdução a Experiência Microsoft Azure Cloud Native 2026.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DYD5Z2YK.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 92,
 
     instituicao: "Digital Innovation One",
