@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 261,
+
+    instituicao: "Planilheiros",
+ 
+    curso: "Básico de Excel",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-02-02",
+
+    dataConclusao: "02 de fevereiro de 2026",
+
+    codigo: "698075d34b84d9d8a00d4ffc",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.02 · Planilheiros · Básico de Excel",
+
+    verificacao: null
+  },
+  
+  {
     id: 260,
 
     instituicao: "Jornada de Dados",
