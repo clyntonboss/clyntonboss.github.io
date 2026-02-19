@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 145,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aprendendo Python™ e suas Estruturas de Dados",
+    
+    cargaHoraria: "17 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "U1MZSDER",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Aprendendo Python™ e suas Estruturas de Dados.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U1MZSDER.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 144,
 
     instituicao: "Digital Innovation One",
