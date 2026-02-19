@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 157,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Inteligência Artificial Responsável",
+    
+    cargaHoraria: "80 h",
+
+    conclusaoISO: "2026-02-19",
+
+    dataConclusao: "19 de fevereiro de 2026",
+
+    codigo: "74eeb0c02d795b38fa1592e4958f3167",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.19 · Tetra Educação · Imersão Gestor do Futuro.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=74eeb0c02d795b38fa1592e4958f3167&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 156,
 
     instituicao: "FIAP - Centro Universitário",
