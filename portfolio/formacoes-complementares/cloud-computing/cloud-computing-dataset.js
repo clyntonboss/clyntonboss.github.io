@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 99,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Aplicações Web com Azure App Service",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "IAZEOWXS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Aplicações Web com Azure App Service.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IAZEOWXS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 98,
 
     instituicao: "Digital Innovation One",
