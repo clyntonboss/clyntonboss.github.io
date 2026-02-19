@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 105,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desenvolvimento e Hospedagem de Aplicações Web com o Azure ML",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "UKBL2QUN",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Desenvolvimento e Hospedagem de Aplicações Web com o Azure ML.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UKBL2QUN.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 104,
 
     instituicao: "Digital Innovation One",
