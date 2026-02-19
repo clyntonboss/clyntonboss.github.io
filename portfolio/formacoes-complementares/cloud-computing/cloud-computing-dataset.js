@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 118,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Microsoft Azure Cloud Native 2026",
+    
+    cargaHoraria: "23 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "QBA6Z3RK",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Microsoft Azure Cloud Native 2026.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QBA6Z3RK.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 117,
 
     instituicao: "Digital Innovation One",
