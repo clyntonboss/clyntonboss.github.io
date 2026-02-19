@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 153,
+
+    instituicao: "Hashtag Treinamentos",
+ 
+    curso: "Imersão Agentes de Inteligência Artificial",
+    
+    cargaHoraria: "8 h",
+
+    conclusaoISO: "2026-02-05",
+
+    dataConclusao: "05 de fevereiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.05 · Hashtag Treinamentos · Imersão Agentes de Inteligência Artificial.png",
+
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Imersão+Agentes+de+IA&dtcf=05%2F02%2F2026&hcf=8",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 152,
 
     instituicao: "Comunidade Data Driven",
