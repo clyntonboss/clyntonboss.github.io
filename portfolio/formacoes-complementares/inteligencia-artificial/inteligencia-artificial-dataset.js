@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 141,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Do Excel ao SQL: Domine seus Dados com Inteligência",
+    
+    cargaHoraria: "11 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "CUSU75XE",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Do Excel ao SQL (Domine seus Dados com Inteligência).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CUSU75XE.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 140,
 
     instituicao: "Digital Innovation One",
