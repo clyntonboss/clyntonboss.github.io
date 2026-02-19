@@ -16,7 +16,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2026.02.07 · FIAP Centro Universitário · Android.png",
+    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2026.02.07 · FIAP - Centro Universitário · Android.png",
 
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=a6a545c534df69178affcc13e068f2ef&action=view",
@@ -116,7 +116,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2025.04.15 · FIAP Centro Universitário · Android.png",
+    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2025.04.15 · FIAP - Centro Universitário · Android.png",
 
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=ff03a7806ef30659780b9ff061b98936&action=view",
