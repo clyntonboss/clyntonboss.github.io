@@ -16,7 +16,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2026.02.07 · Digital Innovation One · Introdução a Experiência Microsoft Azure Cloud Native 2026.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Introdução a Experiência Microsoft Azure Cloud Native 2026.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/DYD5Z2YK.pdf",
@@ -41,7 +41,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Microsoft Certification Challenge 4 - AZ 204.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.30 · Digital Innovation One · Microsoft Certification Challenge 4 - AZ 204.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/PT1GRSPB.pdf",
@@ -66,7 +66,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Simulado Preparatório para o Exame AZ 204.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.30 · Digital Innovation One · Simulado Preparatório para o Exame AZ 204.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/QLQZPX9K.pdf",
@@ -91,7 +91,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Simulado Preparatório para o Exame AZ-204.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.30 · Digital Innovation One · Simulado Preparatório para o Exame AZ-204.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/XQDEAIJH.pdf",
@@ -116,7 +116,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Monitoramento e Cache no Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.30 · Digital Innovation One · Monitoramento e Cache no Azure.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/CPLRBQJY.pdf",
@@ -141,7 +141,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Criando um Gerenciador de Catálogos da Netflix com Azure Functions e Banco de Dados.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.30 · Digital Innovation One · Criando um Gerenciador de Catálogos da Netflix com Azure Functions e Banco de Dados.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/8YN3WO2V.pdf",
@@ -166,7 +166,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Implementando Cache para Soluções.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.30 · Digital Innovation One · Implementando Cache para Soluções.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/IA7EBJZJ.pdf",
@@ -191,7 +191,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.30 · Digital Innovation One · Solucionando Problemas usando o Application Insights.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.30 · Digital Innovation One · Solucionando Problemas usando o Application Insights.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZWL8NHZ1.pdf",
@@ -216,7 +216,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.29 · Digital Innovation One · Soluções Baseadas em Eventos e Mensagens.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.29 · Digital Innovation One · Soluções Baseadas em Eventos e Mensagens.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/AEFS1C0U.pdf",
@@ -241,7 +241,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.29 · Digital Innovation One · Como Fazer o Deploy de uma API na Nuvem na Prática.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.29 · Digital Innovation One · Como Fazer o Deploy de uma API na Nuvem na Prática.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/9G0NWNA4.pdf",
@@ -266,7 +266,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.27 · Digital Innovation One · Desenvolvendo Soluções Baseadas em Mensagem.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.27 · Digital Innovation One · Desenvolvendo Soluções Baseadas em Mensagem.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/0A0EBKAG.pdf",
@@ -291,7 +291,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.27 · Digital Innovation One · Desenvolvendo Soluções Baseadas em Eventos.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.27 · Digital Innovation One · Desenvolvendo Soluções Baseadas em Eventos.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/VKF2DICI.pdf",
@@ -316,7 +316,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.27 · Digital Innovation One · Segurança e Gerenciamento de API.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.27 · Digital Innovation One · Segurança e Gerenciamento de API.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/WL4AHLSP.pdf",
@@ -341,7 +341,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.27 · Digital Innovation One · Criando um Microsserviço Serverless para Validação de CPF.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.27 · Digital Innovation One · Criando um Microsserviço Serverless para Validação de CPF.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/EDWQQZPD.pdf",
@@ -366,7 +366,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.20 · Cursa · Criando uma Intranet com SharePoint.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.20 · Cursa · Criando uma Intranet com SharePoint.png",
 
     verificacao: {
       url: "https://cursa.com.br/certificate/595d26fb36",
@@ -391,7 +391,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Contêineres e Identidade no Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.15 · Digital Innovation One · Contêineres e Identidade no Azure.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/AKASI6PX.pdf",
@@ -416,7 +416,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Implementando a Plataforma de Identidade da Microsoft.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.15 · Digital Innovation One · Implementando a Plataforma de Identidade da Microsoft.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/8IG8BJDQ.pdf",
@@ -441,7 +441,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Implementando Aplicativos de Contêiner no Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.15 · Digital Innovation One · Implementando Aplicativos de Contêiner no Azure.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/HBNH41NV.pdf",
@@ -466,7 +466,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Armazenamento e Banco de Dados no Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.15 · Digital Innovation One · Armazenamento e Banco de Dados no Azure.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/BIHNKL9C.pdf",
@@ -491,7 +491,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Trabalhando com o Azure Cosmos DB.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.15 · Digital Innovation One · Trabalhando com o Azure Cosmos DB.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/DMN5U95D.pdf",
@@ -516,7 +516,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.15 · Digital Innovation One · Explorando o Armazenamento de Blobs do Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.15 · Digital Innovation One · Explorando o Armazenamento de Blobs do Azure.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZDLKCJJB.pdf",
@@ -541,7 +541,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Desenvolvimento de Aplicativos Web e Funções no Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.14 · Digital Innovation One · Desenvolvimento de Aplicativos Web e Funções no Azure.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/WMUTLSVL.pdf",
@@ -566,7 +566,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Microsoft Certification Challenge 4 (Dicas para se Preparar para o Hackathon).png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.14 · Digital Innovation One · Microsoft Certification Challenge 4 (Dicas para se Preparar para o Hackathon).png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/N89PIRVC.pdf",
@@ -591,7 +591,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Implementando o Azure Functions.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.14 · Digital Innovation One · Implementando o Azure Functions.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/QBFGQ3JN.pdf",
@@ -616,7 +616,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Explorando o Serviço de Aplicativo do Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.14 · Digital Innovation One · Explorando o Serviço de Aplicativo do Azure.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/5ZWZIPG9.pdf",
@@ -641,7 +641,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.10.14 · Digital Innovation One · Introdução ao Certification Challenge 4 com a Microsoft.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.10.14 · Digital Innovation One · Introdução ao Certification Challenge 4 com a Microsoft.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/SOI8CH5Y.pdf",
@@ -666,7 +666,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.09.04 · Databricks Academy · Large Language Models (Application through Production).png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.09.04 · Databricks Academy · Large Language Models (Application through Production).png",
 
     verificacao: null
   },
@@ -688,7 +688,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.08.05 · Databricks Academy · Genie Rooms Setup and Best Practice.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.08.05 · Databricks Academy · Genie Rooms Setup and Best Practice.png",
 
     verificacao: null
   },
@@ -710,7 +710,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.13 · Databricks Academy · Create Your First Workspace Using Databricks Express.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.13 · Databricks Academy · Create Your First Workspace Using Databricks Express.png",
 
     verificacao: null
   },
@@ -732,7 +732,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.13 · Databricks Academy · SQL Programming and Procedural Logic.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.13 · Databricks Academy · SQL Programming and Procedural Logic.png",
 
     verificacao: null
   },
@@ -754,7 +754,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.13 · Databricks Academy · Data Warehousing with Databricks.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.13 · Databricks Academy · Data Warehousing with Databricks.png",
 
     verificacao: null
   },
@@ -776,7 +776,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Automated Deployment with Databricks Asset Bundles.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.07 · Databricks Academy · Automated Deployment with Databricks Asset Bundles.png",
 
     verificacao: null
   },
@@ -798,7 +798,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Databricks Performance Optimization.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.07 · Databricks Academy · Databricks Performance Optimization.png",
 
     verificacao: null
   },
@@ -820,7 +820,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Databricks Data Privacy.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.07 · Databricks Academy · Databricks Data Privacy.png",
 
     verificacao: null
   },
@@ -842,7 +842,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.07 · Databricks Academy · Databricks Streaming and Delta Live Tables.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.07 · Databricks Academy · Databricks Streaming and Delta Live Tables.png",
 
     verificacao: null
   },
@@ -864,7 +864,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.06 · Databricks Academy · DevOps Essentials for Data Engineering.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.06 · Databricks Academy · DevOps Essentials for Data Engineering.png",
 
     verificacao: null
   },
@@ -886,7 +886,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.06 · Databricks Academy · Data Management and Governance with Unity Catalog.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.06 · Databricks Academy · Data Management and Governance with Unity Catalog.png",
 
     verificacao: null
   },
@@ -908,7 +908,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.06 · Databricks Academy · Build Data Pipelines with LakeFlow Declarative Pipelines.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.06 · Databricks Academy · Build Data Pipelines with LakeFlow Declarative Pipelines.png",
 
     verificacao: null
   },
@@ -930,7 +930,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.06 · Databricks Academy · Deploy Workloads with Lakeflow Jobs.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.06 · Databricks Academy · Deploy Workloads with Lakeflow Jobs.png",
 
     verificacao: null
   },
@@ -952,7 +952,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.04 · Databricks Academy · Data Ingestion with Lakeflow Connect.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.04 · Databricks Academy · Data Ingestion with Lakeflow Connect.png",
 
     verificacao: null
   },
@@ -974,7 +974,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.04 · Databricks Academy · Delta x Iceberg (Interoperability with Unity Catalog).png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.04 · Databricks Academy · Delta x Iceberg (Interoperability with Unity Catalog).png",
 
     verificacao: null
   },
@@ -996,7 +996,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.03 · Databricks Academy · Data Modeling Strategies.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.03 · Databricks Academy · Data Modeling Strategies.png",
 
     verificacao: null
   },
@@ -1018,7 +1018,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.01 · Databricks Academy · SQL Analytics on Databricks.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.01 · Databricks Academy · SQL Analytics on Databricks.png",
 
     verificacao: null
   },
@@ -1040,7 +1040,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.07.01 · Databricks Academy · Artificial Intelligence · Business Intelligence for Data Analysts.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.07.01 · Databricks Academy · Artificial Intelligence · Business Intelligence for Data Analysts.png",
 
     verificacao: null
   },
@@ -1062,7 +1062,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png",
 
     verificacao: {
       url: "https://credentials.databricks.com/e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g",
@@ -1087,7 +1087,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Azure Databricks Platform Architect Accreditation.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Azure Databricks Platform Architect Accreditation.png",
 
     verificacao: null
   },
@@ -1109,7 +1109,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Azure Databricks Cloud Integrations.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Azure Databricks Cloud Integrations.png",
 
     verificacao: null
   },
@@ -1131,7 +1131,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Azure Databricks Networking and Security Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Azure Databricks Networking and Security Fundamentals.png",
 
     verificacao: null
   },
@@ -1153,7 +1153,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Azure Databricks Workspace Administration Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Azure Databricks Workspace Administration Fundamentals.png",
 
     verificacao: null
   },
@@ -1175,7 +1175,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png",
 
     verificacao: {
       url: "https://credentials.databricks.com/84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o",
@@ -1200,7 +1200,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Amazon Web Services Databricks Platform Architect Accreditation.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Amazon Web Services Databricks Platform Architect Accreditation.png",
 
     verificacao: null
   },
@@ -1222,7 +1222,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Amazon Web Services Databricks Cloud Integrations.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Amazon Web Services Databricks Cloud Integrations.png",
 
     verificacao: null
   },
@@ -1244,7 +1244,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Amazon Web Services Databricks Networking and Security Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Amazon Web Services Databricks Networking and Security Fundamentals.png",
 
     verificacao: null
   },
@@ -1266,7 +1266,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Amazon Web Services Databricks Platform Administration Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Amazon Web Services Databricks Platform Administration Fundamentals.png",
 
     verificacao: null
   },
@@ -1288,7 +1288,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png",
 
     verificacao: {
       url: "https://credentials.databricks.com/40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp",
@@ -1313,7 +1313,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.20 · Databricks Academy · Google Cloud Platform Databricks Platform Architect Accreditation.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.20 · Databricks Academy · Google Cloud Platform Databricks Platform Architect Accreditation.png",
 
     verificacao: null
   },
@@ -1335,7 +1335,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.20 · Databricks Academy · Google Cloud Platform Databricks Cloud Integrations.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.20 · Databricks Academy · Google Cloud Platform Databricks Cloud Integrations.png",
 
     verificacao: null
   },
@@ -1357,7 +1357,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.20 · Databricks Academy · Google Cloud Platform Databricks Networking and Security Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.20 · Databricks Academy · Google Cloud Platform Databricks Networking and Security Fundamentals.png",
 
     verificacao: null
   },
@@ -1379,7 +1379,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.20 · Databricks Academy · Google Cloud Platform Databricks Platform Administration Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.20 · Databricks Academy · Google Cloud Platform Databricks Platform Administration Fundamentals.png",
 
     verificacao: null
   },
@@ -1401,7 +1401,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png",
 
     verificacao: {
       url: "https://credentials.databricks.com/8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX",
@@ -1426,7 +1426,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Application Deployment and Monitoring.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Application Deployment and Monitoring.png",
 
     verificacao: null
   },
@@ -1448,7 +1448,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Application Evaluation and Governance.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Application Evaluation and Governance.png",
 
     verificacao: null
   },
@@ -1470,7 +1470,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Application Development.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Application Development.png",
 
     verificacao: null
   },
@@ -1492,7 +1492,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Solution Development.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Solution Development.png",
 
     verificacao: null
   },
@@ -1514,7 +1514,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Fundamentals Accreditation.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Fundamentals Accreditation.png",
 
     verificacao: null
   },
@@ -1536,7 +1536,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Generative Artificial Intelligence Fundamentals.png",
 
     verificacao: null
   },
@@ -1558,7 +1558,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png",
 
     verificacao: {
       url: "https://credentials.databricks.com/64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5",
@@ -1583,7 +1583,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Fundamentals Accreditation.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Fundamentals Accreditation.png",
 
     verificacao: null
   },
@@ -1605,7 +1605,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Fundamentals.png",
 
     verificacao: null
   },
@@ -1627,7 +1627,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png",
 
     verificacao: {
       url: "https://credentials.databricks.com/3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8",
@@ -1652,7 +1652,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator Accreditation.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator Accreditation.png",
 
     verificacao: null
   },
@@ -1674,7 +1674,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · CI·CD Administration in Databricks.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · CI·CD Administration in Databricks.png",
 
     verificacao: null
   },
@@ -1696,7 +1696,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Compute Resource Administration.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Compute Resource Administration.png",
 
     verificacao: null
   },
@@ -1718,7 +1718,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Workspace Administration and Security.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Workspace Administration and Security.png",
 
     verificacao: null
   },
@@ -1740,7 +1740,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Identity Administration.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Identity Administration.png",
 
     verificacao: null
   },
@@ -1762,7 +1762,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Platform Administration Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Platform Administration Fundamentals.png",
 
     verificacao: null
   },
@@ -1784,7 +1784,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.09 · Databricks Academy · Get Started with Databricks for Data Engineering.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.09 · Databricks Academy · Get Started with Databricks for Data Engineering.png",
 
     verificacao: null
   },
@@ -1806,7 +1806,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.08 · Databricks Academy · Get Started with Databricks for Data Warehousing.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.08 · Databricks Academy · Get Started with Databricks for Data Warehousing.png",
 
     verificacao: null
   },
@@ -1828,7 +1828,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.07 · Databricks Academy · Get Started with Databricks for Generative Artificial Intelligence.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.07 · Databricks Academy · Get Started with Databricks for Generative Artificial Intelligence.png",
 
     verificacao: null
   },
@@ -1850,7 +1850,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.06 · Databricks Academy · Get Started with Databricks for Machine Learning.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.06 · Databricks Academy · Get Started with Databricks for Machine Learning.png",
 
     verificacao: null
   },
@@ -1872,7 +1872,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.05 · Databricks Academy · Get Started with Databricks Platform Administration.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.05 · Databricks Academy · Get Started with Databricks Platform Administration.png",
 
     verificacao: null
   },
@@ -1894,7 +1894,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.04 · Databricks Academy · Get Started with Lakehouse Architecture on Databricks.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.04 · Databricks Academy · Get Started with Lakehouse Architecture on Databricks.png",
 
     verificacao: null
   },
@@ -1916,7 +1916,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.03 · Databricks Academy · Get Started with SQL Analytics and BI on Databricks.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.03 · Databricks Academy · Get Started with SQL Analytics and BI on Databricks.png",
 
     verificacao: null
   },
@@ -1938,7 +1938,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.02 · Databricks Academy · Knowledge Check (Get Started with Databricks for Data Engineering).png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.02 · Databricks Academy · Knowledge Check (Get Started with Databricks for Data Engineering).png",
 
     verificacao: null
   },
@@ -1960,7 +1960,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.06.02 · Databricks Academy · Automate Production Workflows.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.02 · Databricks Academy · Automate Production Workflows.png",
 
     verificacao: null
   },
@@ -1982,7 +1982,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.03.04 · FIAP - Centro Universitário · Cloud Fundamentals, Administration and Solution Architect.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.03.04 · FIAP - Centro Universitário · Cloud Fundamentals, Administration and Solution Architect.png",
 
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=1d943ad0b9100be399f0059df696ac84&action=view",
@@ -2007,7 +2007,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2025.02.06 · TFTEC Cloud Company · Microsoft Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2025.02.06 · TFTEC Cloud Company · Microsoft Azure.png",
 
     verificacao: null
   },
@@ -2029,7 +2029,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2024.12.09 · Digital Innovation One · Introdução ao Microsoft Azure Advanced.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2024.12.09 · Digital Innovation One · Introdução ao Microsoft Azure Advanced.png",
 
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZMANG25S.pdf",
@@ -2054,7 +2054,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2024.11.08 · Cursa · Google Cloud Platform.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2024.11.08 · Cursa · Google Cloud Platform.png",
 
     verificacao: {
       url: "https://cursa.com.br/certificate/c0e4796e55",
@@ -2079,7 +2079,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2024.10.29 · Cursa · SharePoint para Iniciantes.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2024.10.29 · Cursa · SharePoint para Iniciantes.png",
 
     verificacao: {
       url: "https://cursa.com.br/certificate/b101026adc",
@@ -2104,7 +2104,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2024.10.28 · Cursa · AWS do Zero ao Expert.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2024.10.28 · Cursa · AWS do Zero ao Expert.png",
 
     verificacao: {
       url: "https://cursa.com.br/certificate/2b8b611dd2",
@@ -2129,7 +2129,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2024.10.26 · Cursa · Microsoft Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2024.10.26 · Cursa · Microsoft Azure.png",
 
     verificacao: {
       url: "https://cursa.com.br/certificate/441b6d0de7",
@@ -2154,7 +2154,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/cloud/certificados/2024.02.21 · D&K Cloud Architecture · Docker & Kubernetes.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2024.02.21 · D&K Cloud Architecture · Docker & Kubernetes.png",
 
     verificacao: null
   }
