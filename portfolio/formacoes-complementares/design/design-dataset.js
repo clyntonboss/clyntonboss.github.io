@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 39,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Design Thinking - Process",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2026-02-16",
+
+    dataConclusao: "16 de fevereiro de 2026",
+
+    codigo: "0aa222fc4aa6f01c42055647d46cfb92",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.16 · FIAP - Centro Universitário · Design Thinking - Process.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=0aa222fc4aa6f01c42055647d46cfb92&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 38,
 
     instituicao: "FIAP - Centro Universitário",
