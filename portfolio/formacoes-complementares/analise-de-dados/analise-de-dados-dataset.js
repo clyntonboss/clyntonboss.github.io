@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 262,
+
+    instituicao: "Planilheiros",
+ 
+    curso: "Básico de ETL no Power BI",
+    
+    cargaHoraria: "12 h",
+
+    conclusaoISO: "2026-02-03",
+
+    dataConclusao: "03 de fevereiro de 2026",
+
+    codigo: "6981ef1ccd275aa6e407c5e8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.03 · Planilheiros · Básico de ETL no Power BI",
+
+    verificacao: null
+  },
+  
+  {
     id: 261,
 
     instituicao: "Planilheiros",
