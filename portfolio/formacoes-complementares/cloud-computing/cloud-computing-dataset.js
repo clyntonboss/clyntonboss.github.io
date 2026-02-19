@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 111,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Serviço Autenticador de Boletos",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "CN095LDA",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Criando um Serviço Autenticador de Boletos.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CN095LDA.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 110,
 
     instituicao: "Digital Innovation One",
