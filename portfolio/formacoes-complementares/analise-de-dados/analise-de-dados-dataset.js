@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 263,
+
+    instituicao: "Planilheiros",
+ 
+    curso: "Descomplicando o Power BI",
+    
+    cargaHoraria: "15 h",
+
+    conclusaoISO: "2026-02-04",
+
+    dataConclusao: "04 de fevereiro de 2026",
+
+    codigo: "6982b8f61db0eee0410525bb",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.04 · Planilheiros · Descomplicando o Power BI.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 262,
 
     instituicao: "Planilheiros",
@@ -16,7 +38,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.03 · Planilheiros · Básico de ETL no Power BI",
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.03 · Planilheiros · Básico de ETL no Power BI.png",
 
     verificacao: null
   },
@@ -38,7 +60,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.02 · Planilheiros · Básico de Excel",
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.02 · Planilheiros · Básico de Excel.png",
 
     verificacao: null
   },
