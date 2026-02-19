@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 150,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desafio Final: Crie seu Chatbot Inteligente para o Mercado Financeiro",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "OHWFWPMG",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Desafio Final (Crie seu Chatbot Inteligente para o Mercado Financeiro).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OHWFWPMG.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 149,
 
     instituicao: "Digital Innovation One",
