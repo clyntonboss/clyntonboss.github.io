@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 119,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Cloud Fundamentals, Administration and Solution Architect",
+    
+    cargaHoraria: "80 h",
+
+    conclusaoISO: "2026-02-11",
+
+    dataConclusao: "11 de fevereiro de 2026",
+
+    codigo: "29405ffca11dc19fd267183f1a67eec9",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.11 · FIAP - Centro Universitário · Cloud Fundamentals, Administration and Solution Architect.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=29405ffca11dc19fd267183f1a67eec9&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 118,
 
     instituicao: "Digital Innovation One",
