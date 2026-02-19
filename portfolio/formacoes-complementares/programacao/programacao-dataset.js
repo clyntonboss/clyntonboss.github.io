@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 130,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "DevOps & Agile Culture",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2026-02-16",
+
+    dataConclusao: "16 de fevereiro de 2026",
+
+    codigo: "b875c0b372f1b39a78d3f7cd68718f0d",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.02.16 · FIAP - Centro Universitário · DevOps & Agile Culture.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=b875c0b372f1b39a78d3f7cd68718f0d&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 129,
 
     instituicao: "Cursa",
