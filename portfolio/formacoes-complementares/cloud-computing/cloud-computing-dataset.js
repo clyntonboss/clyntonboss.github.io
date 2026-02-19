@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 112,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Computação Serverless e Automação na Azure",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "CAEYWV6G",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Computação Serverless e Automação na Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CAEYWV6G.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 111,
 
     instituicao: "Digital Innovation One",
