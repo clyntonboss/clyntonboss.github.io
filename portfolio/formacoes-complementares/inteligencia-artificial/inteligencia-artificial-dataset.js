@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 148,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Os Pilares Formais da Inteligência Artificial: Do Machine Learning à Inteligência Artificial Generativa",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "IHLG0YMW",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Os Pilares Formais da Inteligência Artificial (Do Machine Learning à Inteligência Artificial Generativa).png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IHLG0YMW.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 147,
 
     instituicao: "Digital Innovation One",
