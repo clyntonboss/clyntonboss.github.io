@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 152,
+
+    instituicao: "Comunidade Data Driven",
+ 
+    curso: "Imersão Inteligência Artificial",
+    
+    cargaHoraria: "6 h",
+
+    conclusaoISO: "2026-02-04",
+
+    dataConclusao: "04 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.04 · Comunidade Data Driven · Imersão Inteligência Artificial.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 151,
 
     instituicao: "Digital Innovation One",
