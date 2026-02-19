@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 149,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Desafio de Projeto Final - Construa seu Assistente Virtual com Inteligência Artificial Generativa",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "SFA4PUOR",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Desafio de Projeto Final - Construa seu Assistente Virtual com Inteligência Artificial Generativa.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SFA4PUOR.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 148,
 
     instituicao: "Digital Innovation One",
