@@ -320,7 +320,7 @@ const categoriasFormacoesComplementares = {
 
 // 🔹 ============================================ Cloud Computing =========================================== 🔹
   cloud: {
-    title: "Cloud",
+    title: "Cloud Computing",
     dataset: "/portfolio/formacoes-complementares/cloud/cloud-dataset.js",
     showViewModes: true,
     content: `
