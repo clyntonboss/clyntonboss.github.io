@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 96,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Fundamentos da Plataforma Azure",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "THIMV2JU",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Fundamentos da Plataforma Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/THIMV2JU.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 95,
 
     instituicao: "Digital Innovation One",
