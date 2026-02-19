@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 103,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Criando um Blog com Container Apps",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "MIPOEZKS",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Criando um Blog com Container Apps.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MIPOEZKS.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 102,
 
     instituicao: "Digital Innovation One",
