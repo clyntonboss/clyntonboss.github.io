@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 124,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Business Intelligence",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2026-02-10",
+
+    dataConclusao: "10 de fevereiro de 2026",
+
+    codigo: "851dfebc72da73be3bdd9a0db7126ec2",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.10 · FIAP - Centro Universitário · Business Intelligence.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=851dfebc72da73be3bdd9a0db7126ec2&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 266,
 
     instituicao: "Xperiun | Data Analytics",
