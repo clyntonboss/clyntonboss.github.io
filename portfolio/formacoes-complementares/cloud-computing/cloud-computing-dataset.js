@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 101,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Contêiners e Orquestração na Azure",
+    
+    cargaHoraria: "5 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "3VKFRG2Y",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Contêiners e Orquestração na Azure.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3VKFRG2Y.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 100,
 
     instituicao: "Digital Innovation One",
