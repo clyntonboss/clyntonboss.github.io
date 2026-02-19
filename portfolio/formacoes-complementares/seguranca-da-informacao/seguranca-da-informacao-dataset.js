@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 8,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Blockchain",
+    
+    cargaHoraria: "40 h",
+
+    conclusaoISO: "2026-02-09",
+
+    dataConclusao: "09 de fevereiro de 2026",
+
+    codigo: "489f3093c4a6b5ce6cab3f7f0f72b9b0",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/seguranca-da-informacao/certificados/2026.02.09 · FIAP - Centro Universitário · Blockchain.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=489f3093c4a6b5ce6cab3f7f0f72b9b0&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 7,
 
     instituicao: "Pontifícia Universidade Católica do Rio Grande do Sul",
