@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 116,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Construção de uma Aplicação de Aluguel de Carros Totalmente Cloud-Native",
+    
+    cargaHoraria: "2 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "GHLYZGDL",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Construção de uma Aplicação de Aluguel de Carros Totalmente Cloud-Native.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GHLYZGDL.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 115,
 
     instituicao: "Digital Innovation One",
