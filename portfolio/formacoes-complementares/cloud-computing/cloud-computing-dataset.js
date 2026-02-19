@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 117,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Construção de uma Aplicação Cloud-Native",
+    
+    cargaHoraria: "3 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "W55BYV2T",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Construção de uma Aplicação Cloud-Native.png",
+
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/W55BYV2T.pdf",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 116,
 
     instituicao: "Digital Innovation One",
