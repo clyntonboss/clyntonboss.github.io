@@ -321,7 +321,7 @@ const categoriasFormacoesComplementares = {
 // 🔹 ============================================ Cloud Computing =========================================== 🔹
   cloud: {
     title: "Cloud Computing",
-    dataset: "/portfolio/formacoes-complementares/cloud/cloud-dataset.js",
+    dataset: "/portfolio/formacoes-complementares/cloud-computing/cloud-computing-dataset.js",
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Cloud Computing, organizadas por conclusão cronológica decrescente.<br>
