@@ -56,7 +56,7 @@ window.datasetCategoria = [
  
     curso: "Gerenciamento e Segurança de APIs na Azure",
     
-    cargaHoraria: "1 h",
+    cargaHoraria: "3 h",
 
     conclusaoISO: "2026-02-07",
 
