@@ -1,5 +1,30 @@
 window.datasetCategoria = [
   {
+    id: 2,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Gestão Financeira de Empresas",
+    
+    cargaHoraria: "20 h",
+
+    conclusaoISO: "2026-02-18",
+
+    dataConclusao: "18 de fevereiro de 2026",
+
+    codigo: "c728d0c905786e7be875d51463eadff8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-financeira/certificados/2026.02.18 · FIAP - Centro Universitário · Gestão Financeira de Empresas.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=c728d0c905786e7be875d51463eadff8&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 1,
 
     instituicao: "FIAP - Centro Universitário",
