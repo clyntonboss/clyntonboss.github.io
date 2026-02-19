@@ -16,7 +16,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.19 · Tetra Educação · Imersão Gestor do Futuro.png",
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.19 · FIAP - Centro Universitário · Inteligência Artificial Responsável.png",
 
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=74eeb0c02d795b38fa1592e4958f3167&action=view",
@@ -1599,7 +1599,7 @@ window.datasetCategoria = [
 
     mostrarCopiar: false,
 
-    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.08.14 · Tetra Educação · Imersão Gestor do Futuro.png",
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2025.08.29 · FIAP - Centro Universitário · Inteligência Artificial Responsável.png",
 
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=1bf246ca707640c9e7d1938ef9535c48&action=view",
