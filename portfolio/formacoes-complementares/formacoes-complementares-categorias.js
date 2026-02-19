@@ -366,7 +366,7 @@ const categoriasFormacoesComplementares = {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Cloud consolidaram uma base técnica voltada à serviços e modelos de uso em ambientes de computação em nuvem.<br>
+      <div class="tech-subtitle-inf"><p>As formações em Cloud Computing consolidaram uma base técnica voltada à serviços e modelos de uso em ambientes de computação em nuvem.<br>
                                         O domínio desses conceitos sustenta atividades de implementação e o suporte a soluções analíticas, sistemas e serviços de dados, integrando infraestrutura e aplicações de forma segura e orientada às necessidades do negócio, com foco em escalabilidade, disponibilidade e eficiência.</p></div>
     `
   },
