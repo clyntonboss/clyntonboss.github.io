@@ -1,5 +1,27 @@
 window.datasetCategoria = [
   {
+    id: 144,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Manipulação de Coleções e Funções em Python™",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-01-31",
+
+    dataConclusao: "31 de janeiro de 2026",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.01.31 · Digital Innovation One · Manipulação de Coleções e Funções em Python™.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 143,
 
     instituicao: "Digital Innovation One",
