@@ -1,12 +1,34 @@
 window.datasetCategoria = [
   {
+    id: 104,
+
+    instituicao: "Digital Innovation One",
+ 
+    curso: "Publicando e Escalando Apps com Estilo",
+    
+    cargaHoraria: "1 h",
+
+    conclusaoISO: "2026-02-07",
+
+    dataConclusao: "07 de fevereiro de 2025",
+
+    codigo: "Inaplicável",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.07 · Digital Innovation One · Publicando e Escalando Apps com Estilo.png",
+
+    verificacao: null
+  },
+  
+  {
     id: 103,
 
     instituicao: "Digital Innovation One",
  
     curso: "Criando um Blog com Container Apps",
     
-    cargaHoraria: "5 h",
+    cargaHoraria: "1 h",
 
     conclusaoISO: "2026-02-07",
 
@@ -31,7 +53,7 @@ window.datasetCategoria = [
  
     curso: "Aplicações Contêinerizadas com Azure Container Apps",
     
-    cargaHoraria: "5 h",
+    cargaHoraria: "1 h",
 
     conclusaoISO: "2026-02-07",
 
