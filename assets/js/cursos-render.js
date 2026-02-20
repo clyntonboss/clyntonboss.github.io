@@ -111,11 +111,11 @@ function renderBlocoCurso(index) {
       >
 
       <div>
-        <p><strong>${curso.nomeInstituicao}</strong> ${curso.instituicao}</p>
-        <p><strong>${curso.nomeCurso}</strong> ${curso.curso}</p>
-        <p><strong>${curso.nomeCargaHoraria}</strong> ${curso.cargaHoraria}</p>
-        <p><strong>${curso.nomeDataConclusao}</strong> ${curso.dataConclusao}</p>
-        <p><strong>${curso.nomeCodigo}</strong> ${curso.codigo}
+        <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
+        <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
+        <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
+        <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
+        <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
           ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
         </p>
         <p>
