@@ -14,7 +14,6 @@ const categoriasFormacoesComplementares = {
       <div id="course-block" class="course-block hidden">
           <div class="course-block-content"></div>
 
-        <div class="course-footer">
           <div class="course-block-nav">
           
             <span id="first-course" class="course-nav-action" role="button">
@@ -51,7 +50,6 @@ const categoriasFormacoesComplementares = {
       
       <div class="tech-subtitle-inf"><p>As formações em Análise de Dados consolidaram uma base técnica voltada à coleta, tratamento, exploração e interpretação de dados.<br>
                                         O domínio desses conceitos sustenta atividades de análises consistentes, indicadores confiáveis e soluções analíticas aplicadas a processos, negócios e tomada de decisão em diferentes contextos.</p></div>
-    </div>
     `
   },
 
