@@ -1316,6 +1316,7 @@ body.static-header .last-update {
   display: flex;
   flex-direction: column;
   transition: opacity 0.4s ease, transform 0.4s ease;
+   height: auto;
 }
 
 /* Estado de saída */
@@ -1376,8 +1377,9 @@ body.static-header .last-update {
 
 #course-block {
   position: relative;
-  min-height: 320px;
+  height: 478px;
   overflow: hidden;
+   transition: height 0.4s ease;
 }
 
 /* Estilização do Modo Fluido */
