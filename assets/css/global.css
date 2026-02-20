@@ -1365,8 +1365,9 @@ body.static-header .last-update {
 
 #course-block {
   position: relative;
-  min-height: 320px; /* espaço inicial */
+  height: auto; /* espaço inicial */
   overflow: visible; /* deixa o conteúdo expandir */
+   transition: height 0.4s ease;
 }
 
 /* Estilização do Modo Fluido */
