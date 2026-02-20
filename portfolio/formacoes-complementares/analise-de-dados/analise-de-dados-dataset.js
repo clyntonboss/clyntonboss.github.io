@@ -6,7 +6,7 @@ window.datasetCategoria = [
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
-    nomeCodigo: "Código",
+    nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
     
     instituicao: "FIAP - Centro Universitário",
