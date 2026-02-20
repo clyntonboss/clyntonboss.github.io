@@ -1376,10 +1376,11 @@ body.static-header .last-update {
 }
 
 #course-block {
-  position: relative;
-  height: 478px;
+  min-height: 320px;
+  height: auto;       /* altura agora é flexível */
+  max-height: 2000px; /* valor grande suficiente */
   overflow: hidden;
-   transition: height 0.4s ease;
+  transition: max-height 0.4s ease; /* animação suave */
 }
 
 /* Estilização do Modo Fluido */
