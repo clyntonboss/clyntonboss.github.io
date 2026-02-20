@@ -94,16 +94,14 @@ function renderBlocoCurso(index) {
   const curso = datasetCategoria[index];
   if (!curso) return;
 
+  // Atualiza índice global
   cursoAtualIndex = index;
 
-  // 🔹 Altura anterior do conteúdo
-  const prevHeight = container.dataset.prevHeight
-    ? parseInt(container.dataset.prevHeight)
-    : content.scrollHeight;
-
+  // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
 
   setTimeout(() => {
+    // 🔹 Renderiza novo conteúdo
     content.innerHTML = `
       <img 
         src="${curso.thumb}" 
@@ -131,37 +129,7 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
-    // 🔹 Nova altura do conteúdo
-    const newHeight = content.scrollHeight;
-    container.dataset.prevHeight = newHeight;
-
-    const heightDiff = newHeight - prevHeight;
-
-    // 🔹 Anima footer somente se houver diferença
-    if (heightDiff !== 0) {
-      const footerElements = [
-        container.querySelector(".course-block-nav"),
-        document.querySelectorAll("hr.decorative-line-cert")[1],
-        document.querySelector(".tech-subtitle-inf")
-      ];
-
-      footerElements.forEach(el => {
-        if (!el) return;
-        el.style.transition = "transform 0.4s ease";
-        el.style.transform = `translateY(${heightDiff}px)`;
-
-        setTimeout(() => {
-          el.style.transition = "";
-          el.style.transform = "";
-        }, 400);
-      });
-    }
-
-    requestAnimationFrame(() => {
-      content.classList.remove("is-transitioning");
-    });
-
-    // 🔹 Atualiza indicador
+    // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
       indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
@@ -189,6 +157,8 @@ function renderBlocoCurso(index) {
       lastBtn?.classList.remove("disabled");
     }
 
+    // 🔹 Finaliza transição (entrada)
+    content.classList.remove("is-transitioning");
   }, 200);
 }
 
