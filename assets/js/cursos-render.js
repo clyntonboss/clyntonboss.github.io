@@ -89,6 +89,8 @@ function renderBlocoCurso(index) {
   const container = document.getElementById("course-block");
   const content = container?.querySelector(".course-block-content");
 
+  container.style.height = content.scrollHeight + "px"; // fixa altura atual
+
   if (!container || !content) return;
 
   const curso = datasetCategoria[index];
@@ -128,6 +130,11 @@ function renderBlocoCurso(index) {
         </p>
       </div>
     `;
+
+    requestAnimationFrame(() => {
+      container.style.height = content.scrollHeight + "px"; // anima para nova altura
+      content.classList.remove("is-transitioning");
+    });
 
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
