@@ -126,6 +126,10 @@ function renderBlocoCurso(index) {
               : `<span class="cert-no-verify">Indisponível</span>`
           }
         </p>
+        <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
+        <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
+        <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
+        <p>${curso.projetoInterativo}</p>
       </div>
     `;
 
