@@ -32,7 +32,8 @@ window.datasetCategoria = [
     periodo: "",
     duracao: "",
     stackTecnica: "",
-    projetoInterativo: ""
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
