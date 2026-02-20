@@ -97,6 +97,11 @@ function renderBlocoCurso(index) {
   // Atualiza índice global
   cursoAtualIndex = index;
 
+  // 🔹 Altura anterior do conteúdo
+  const prevHeight = container.dataset.prevHeight
+    ? parseInt(container.dataset.prevHeight)
+    : content.scrollHeight;
+
   // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
 
@@ -129,6 +134,38 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
+    // 🔹 Altura nova do conteúdo
+    const newHeight = content.scrollHeight;
+    container.dataset.prevHeight = newHeight;
+
+    // 🔹 Calcula diferença
+    const heightDiff = newHeight - prevHeight;
+
+    // 🔹 Anima footer se houver diferença
+    if (heightDiff !== 0) {
+      const footerElements = [
+        container.querySelector(".course-block-nav"),
+        document.querySelectorAll("hr.decorative-line-cert")[1], // segunda linha
+        document.querySelector(".tech-subtitle-inf")
+      ];
+
+      footerElements.forEach(el => {
+        if (!el) return;
+        el.style.transition = "transform 0.4s ease";
+        el.style.transform = `translateY(${heightDiff}px)`;
+
+        // Resetar transform após animação
+        setTimeout(() => {
+          el.style.transition = "";
+          el.style.transform = "";
+        }, 400);
+      });
+    }
+
+    requestAnimationFrame(() => {
+      content.classList.remove("is-transitioning");
+    });
+
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
@@ -157,8 +194,6 @@ function renderBlocoCurso(index) {
       lastBtn?.classList.remove("disabled");
     }
 
-    // 🔹 Finaliza transição (entrada)
-    content.classList.remove("is-transitioning");
   }, 200);
 }
 
