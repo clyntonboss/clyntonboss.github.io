@@ -1335,7 +1335,7 @@ body.static-header .last-update {
 
 .course-block-nav {
   position: relative; /* ou absolute com bottom dentro do container */
-  margin-top: 12px; /* separa do conteúdo */
+  margin: 12px 0; /* separa do conteúdo */
   display: flex;
   justify-content: center;
   gap: 16px;
