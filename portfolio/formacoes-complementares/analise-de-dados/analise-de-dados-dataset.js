@@ -23,7 +23,16 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=851dfebc72da73be3bdd9a0db7126ec2&action=view",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: ""
   },
   
   {
