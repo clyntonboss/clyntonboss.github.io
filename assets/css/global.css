@@ -1307,16 +1307,11 @@ body.static-header .last-update {
 }
 
 .course-block-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; /* reserva fixa dos botões */
-
+  position: relative; /* permite altura automática */
   display: flex;
   flex-direction: column;
   transition: opacity 0.4s ease, transform 0.4s ease;
-   height: auto;
+  height: auto; /* cresce conforme o conteúdo */
 }
 
 /* Estado de saída */
@@ -1339,18 +1334,11 @@ body.static-header .last-update {
 }
 
 .course-block-nav {
+  position: relative; /* ou absolute com bottom dentro do container */
+  margin-top: 12px; /* separa do conteúdo */
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 16px;
-  font-size: 16px;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-   bottom: 12px;
-
-  height: 24px;
 }
 
 .course-nav-action {
@@ -1377,8 +1365,8 @@ body.static-header .last-update {
 
 #course-block {
   position: relative;
-  height: 478px;
-  overflow: hidden;
+  min-height: 320px; /* espaço inicial */
+  overflow: visible; /* deixa o conteúdo expandir */
 }
 
 /* Estilização do Modo Fluido */
