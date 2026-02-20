@@ -88,77 +88,75 @@ function renderBlocoCurso(index) {
 
   const container = document.getElementById("course-block");
   const content = container?.querySelector(".course-block-content");
-
   if (!container || !content) return;
 
   const curso = datasetCategoria[index];
   if (!curso) return;
 
-  // Atualiza índice global
   cursoAtualIndex = index;
 
   // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
 
+  // 🔹 Cria conteúdo temporário para medir altura
+  const tempContent = document.createElement("div");
+  tempContent.style.visibility = "hidden";
+  tempContent.style.position = "absolute";
+  tempContent.style.width = content.offsetWidth + "px"; // mesma largura
+  tempContent.innerHTML = `
+    <img src="${curso.thumb}" alt="${curso.curso}" class="cert-thumb cert-thumb-block" onclick="abrirCertificado('${curso.thumb}')">
+    <div>
+      <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
+      <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
+      <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
+      <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
+      <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
+        ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
+      </p>
+      <p><strong>${curso.nomeVerificacao}</strong>
+        ${curso.verificacao?.url
+          ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+          : `<span class="cert-no-verify">Indisponível</span>`}
+      </p>
+    </div>
+  `;
+  container.appendChild(tempContent);
+
+  // 🔹 Ajusta a altura do container para animar
+  const newHeight = tempContent.scrollHeight;
+  container.style.height = container.offsetHeight + "px"; // fixa altura atual
+  requestAnimationFrame(() => {
+    container.style.transition = "height 0.4s ease";
+    container.style.height = newHeight + "px";
+  });
+
   setTimeout(() => {
-    // 🔹 Renderiza novo conteúdo
-    content.innerHTML = `
-      <img 
-        src="${curso.thumb}" 
-        alt="${curso.curso}"
-        class="cert-thumb cert-thumb-block"
-        onclick="abrirCertificado('${curso.thumb}')"
-      >
+    // 🔹 Substitui conteúdo real
+    content.innerHTML = tempContent.innerHTML;
+    content.classList.remove("is-transitioning");
 
-      <div>
-        <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
-        <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
-        <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
-        <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
-        <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
-          ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
-        </p>
-        <p>
-          <strong>${curso.nomeVerificacao}</strong>
-          ${
-            curso.verificacao?.url
-              ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-              : `<span class="cert-no-verify">Indisponível</span>`
-          }
-        </p>
-      </div>
-    `;
+    // 🔹 Remove temporário
+    container.removeChild(tempContent);
 
-    // 🔹 Atualiza indicador (ex: 3 / 21)
+    // 🔹 Remove transição da altura após o efeito
+    setTimeout(() => {
+      container.style.transition = "";
+      container.style.height = "auto";
+    }, 400);
+
+    // 🔹 Atualiza indicador
     const indicator = document.getElementById("course-indicator");
-    if (indicator) {
-      indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
-    }
+    if (indicator) indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
 
-    // 🔹 Botões de navegação
+    // 🔹 Botões
     const firstBtn = document.getElementById("first-course");
     const prevBtn  = document.getElementById("prev-course");
     const nextBtn  = document.getElementById("next-course");
     const lastBtn  = document.getElementById("last-course");
-
-    if (index === 0) {
-      firstBtn?.classList.add("disabled");
-      prevBtn?.classList.add("disabled");
-    } else {
-      firstBtn?.classList.remove("disabled");
-      prevBtn?.classList.remove("disabled");
-    }
-
-    if (index === datasetCategoria.length - 1) {
-      nextBtn?.classList.add("disabled");
-      lastBtn?.classList.add("disabled");
-    } else {
-      nextBtn?.classList.remove("disabled");
-      lastBtn?.classList.remove("disabled");
-    }
-
-    // 🔹 Finaliza transição (entrada)
-    content.classList.remove("is-transitioning");
+    firstBtn?.classList.toggle("disabled", index === 0);
+    prevBtn?.classList.toggle("disabled", index === 0);
+    nextBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
+    lastBtn?.classList.toggle("disabled", index === datasetCategoria.length - 1);
   }, 200);
 }
 
