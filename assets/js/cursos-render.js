@@ -94,7 +94,6 @@ function renderBlocoCurso(index) {
   const curso = datasetCategoria[index];
   if (!curso) return;
 
-  // Atualiza índice global
   cursoAtualIndex = index;
 
   // 🔹 Altura anterior do conteúdo
@@ -102,11 +101,9 @@ function renderBlocoCurso(index) {
     ? parseInt(container.dataset.prevHeight)
     : content.scrollHeight;
 
-  // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
 
   setTimeout(() => {
-    // 🔹 Renderiza novo conteúdo
     content.innerHTML = `
       <img 
         src="${curso.thumb}" 
@@ -134,18 +131,17 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
-    // 🔹 Altura nova do conteúdo
+    // 🔹 Nova altura do conteúdo
     const newHeight = content.scrollHeight;
     container.dataset.prevHeight = newHeight;
 
-    // 🔹 Calcula diferença
     const heightDiff = newHeight - prevHeight;
 
-    // 🔹 Anima footer se houver diferença
+    // 🔹 Anima footer somente se houver diferença
     if (heightDiff !== 0) {
       const footerElements = [
         container.querySelector(".course-block-nav"),
-        document.querySelectorAll("hr.decorative-line-cert")[1], // segunda linha
+        document.querySelectorAll("hr.decorative-line-cert")[1],
         document.querySelector(".tech-subtitle-inf")
       ];
 
@@ -154,7 +150,6 @@ function renderBlocoCurso(index) {
         el.style.transition = "transform 0.4s ease";
         el.style.transform = `translateY(${heightDiff}px)`;
 
-        // Resetar transform após animação
         setTimeout(() => {
           el.style.transition = "";
           el.style.transform = "";
@@ -166,7 +161,7 @@ function renderBlocoCurso(index) {
       content.classList.remove("is-transitioning");
     });
 
-    // 🔹 Atualiza indicador (ex: 3 / 21)
+    // 🔹 Atualiza indicador
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
       indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
