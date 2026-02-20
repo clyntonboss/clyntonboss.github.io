@@ -130,6 +130,7 @@ function renderBlocoCurso(index) {
         <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
         <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
         <p>${curso.projetoInterativo}</p>
+        ${curso.descricaoProjeto}
       </div>
     `;
 
