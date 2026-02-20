@@ -89,9 +89,7 @@ function renderBlocoCurso(index) {
   const container = document.getElementById("course-block");
   const content = container?.querySelector(".course-block-content");
 
-  container.style.height = content.scrollHeight + "px"; // fixa altura atual
-
-  if (!container || !content) return;
+    if (!container || !content) return;
 
   const curso = datasetCategoria[index];
   if (!curso) return;
@@ -132,8 +130,12 @@ function renderBlocoCurso(index) {
     `;
 
     requestAnimationFrame(() => {
-      container.style.height = content.scrollHeight + "px"; // anima para nova altura
-      content.classList.remove("is-transitioning");
+      container.style.maxHeight = content.scrollHeight + "px";
+    
+      // 🔹 Reseta para altura auto depois que a transição visual terminar
+      setTimeout(() => {
+        container.style.maxHeight = "none";
+      }, 400); // tempo > duration da transição definida no CSS
     });
 
     // 🔹 Atualiza indicador (ex: 3 / 21)
