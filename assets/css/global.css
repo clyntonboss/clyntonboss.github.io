@@ -1376,7 +1376,7 @@ body.static-header .last-update {
 
 #course-block {
   position: relative;
-  height: auto;
+  min-height: 320px;
   overflow: hidden;
 }
 
