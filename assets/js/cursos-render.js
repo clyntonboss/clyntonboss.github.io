@@ -164,21 +164,11 @@ function renderBlocoCurso(index) {
 
     // 🔹 Finaliza transição (entrada)
     content.classList.remove("is-transitioning");
+    initSyncDisclosureAccordion();
   }, 200);
 }
 
 // ⛔ =============== The End =============== ⛔
-
-document.addEventListener("click", function (e) {
-  const toggle = e.target.closest(".exp-toggle");
-  if (!toggle) return;
-
-  const experience = toggle.closest(".experience");
-  const details = experience.querySelector(".exp-details");
-
-  details.classList.toggle("open");
-  toggle.textContent = details.classList.contains("open") ? "▾" : "▸";
-});
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
