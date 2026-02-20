@@ -1308,7 +1308,7 @@ body.static-header .last-update {
 
 .course-block-content {
   position: relative; /* permite altura automática */
-  display: flex;
+  display: block;
   flex-direction: column;
   transition: opacity 0.4s ease, transform 0.4s ease;
   height: auto; /* cresce conforme o conteúdo */
