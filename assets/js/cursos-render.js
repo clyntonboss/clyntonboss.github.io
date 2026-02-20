@@ -164,7 +164,6 @@ function renderBlocoCurso(index) {
 
     // 🔹 Finaliza transição (entrada)
     content.classList.remove("is-transitioning");
-    initSyncDisclosureAccordion();
   }, 200);
 }
 
