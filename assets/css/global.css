@@ -1369,11 +1369,6 @@ body.static-header .last-update {
   overflow: visible; /* deixa o conteúdo expandir */
 }
 
-.course-footer {
-  transition: transform 0.4s ease;
-  will-change: transform;
-}
-
 /* Estilização do Modo Fluido */
 .courses-flow {
     margin: 0px;
