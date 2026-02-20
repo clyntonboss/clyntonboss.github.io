@@ -2,16 +2,18 @@ window.datasetCategoria = [
   {
     id: 124,
 
-    instituicao: "FIAP - Centro Universitário",
- 
-    curso: "Business Intelligence",
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código",
+    nomeVerificacao: "Verificação: ",
     
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Business Intelligence",
     cargaHoraria: "40 h",
-
     conclusaoISO: "2026-02-10",
-
     dataConclusao: "10 de fevereiro de 2026",
-
     codigo: "851dfebc72da73be3bdd9a0db7126ec2",
 
     mostrarCopiar: false,
