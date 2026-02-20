@@ -2144,6 +2144,62 @@ const sections = {
     `
   },
 
+// 🔹 =============================================== Projetos 5.0 =========================================== 🔹
+
+  projetos50: {
+    pageTitle: "Projetos 5.0 | Rogério Clynton Ribeiro",
+    favicon: "/assets/icons/icone-projetos-50.png",
+    title: "Projetos 5.0",
+    icon: "/assets/icons/icone-projetos-50.png",
+    showViewModes: false,
+    content: `
+      <div class="tech-subtitle-sup"><p>As formações complementares estão organizadas por área de conhecimento.<br>
+                                        Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</p></div>
+      
+      <div class="cert-links">
+          <!--  Dados e Inteligência -->
+          <a href="#" data-category="analiseDados">Análise de Dados</a>
+          <a href="#" data-category="bancoDados">Bancos de Dados</a>
+          <a href="#" data-category="bigData">Big Data</a>
+          <a href="#" data-category="inteligenciaArtificial">Inteligência Artificial</a>
+          <a href="#" data-category="matematica">Matemática Aplicada</a>
+          <a href="#" data-category="dataStorytelling">Data Storytelling</a>
+          
+          <!-- Tecnologia e Fundamentos -->
+          <a href="#" data-category="cloud">Cloud Computing</a>
+          <a href="#" data-category="sistemasOperacionais">Sistemas Operacionais</a>
+          <a href="#" data-category="segurancaInformacao">Segurança da Informação</a>
+          <a href="#" data-category="programacao">Programação</a>
+          <a href="#" data-category="roboticProcessAutomation">Robotic Process Automation</a>
+                          
+          <!-- Gestão e Negócios -->
+          <a href="#" data-category="gestaoProjetos">Gestão de Projetos</a>
+          <a href="#" data-category="metodologiaAgil">Metodologia Ágil</a>
+          <a href="#" data-category="gestaoTecnologia">Gestão da Tecnologia</a>
+          <a href="#" data-category="gestaoOperacoes">Gestão de Operações</a>
+          <a href="#" data-category="gestaoQualidade">Gestão da Qualidade</a>
+          <a href="#" data-category="gestaoPessoas">Gestão de Pessoas</a>
+          <a href="#" data-category="gestaoNegocios">Gestão de Negócios</a>
+          <a href="#" data-category="gestaoMarketing">Gestão de Marketing</a>
+          <a href="#" data-category="gestaoFinanceira">Gestão Financeira</a>
+          <a href="#" data-category="gestaoLogistica">Gestão Logística</a>
+      
+          <!-- Design & Comunicação -->
+          <a href="#" data-category="design">Design</a>
+      
+          <!-- Desenvolvimento Humano & Soft Skills -->
+          <a href="#" data-category="autoconhecimento">Autoconhecimento</a>
+          <a href="#" data-category="skills">Skills Profissionais</a>
+      
+          <!-- Outras categorias -->
+          <a href="#" data-category="idiomas">Idiomas</a>
+          <a href="#" data-category="sustentabilidade">Sustentabilidade</a>
+          <a href="#" data-category="credly">Credly</a>
+          <a href="#" data-category="arquitetura">Arquitetura</a>
+      </div>
+    `
+  },
+
 // 🔹 ========================================= Impactos e Resultados ======================================== 🔹
 
   impactosResultados: {
