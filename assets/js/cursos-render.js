@@ -169,19 +169,15 @@ function renderBlocoCurso(index) {
 
 // ⛔ =============== The End =============== ⛔
 
-document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("course-block");
+document.addEventListener("click", function (e) {
+  const toggle = e.target.closest(".exp-toggle");
+  if (!toggle) return;
 
-  container.addEventListener("click", (e) => {
-    const toggle = e.target.closest(".exp-toggle");
-    if (!toggle) return;
+  const experience = toggle.closest(".experience");
+  const details = experience.querySelector(".exp-details");
 
-    const experience = toggle.closest(".experience");
-    const details = experience.querySelector(".exp-details");
-
-    details.classList.toggle("open");
-    toggle.textContent = details.classList.contains("open") ? "▾" : "▸";
-  });
+  details.classList.toggle("open");
+  toggle.textContent = details.classList.contains("open") ? "▾" : "▸";
 });
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
