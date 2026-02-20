@@ -4,14 +4,14 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: null,
+    nomeCargaHoraria: "",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
     
     instituicao: "FIAP - Centro Universitário",
     curso: "Business Intelligence",
-    cargaHoraria: null,
+    cargaHoraria: "",
     conclusaoISO: "2026-02-10",
     dataConclusao: "10 de fevereiro de 2026",
     codigo: "851dfebc72da73be3bdd9a0db7126ec2",
