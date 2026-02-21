@@ -29,7 +29,7 @@ window.datasetCategoria = [
     periodo: "Fev/2024",
     duracao: "8 dias",
     stackTecnica: "Python™ | SQL | Power BI",
-    projetoInterativo: `<a href="https://ufpraberta.ufpr.br/mod/simplecertificate/verify.php" target="_blank" class="cert-link-verify">Projeto Interativo</a>`,
+    projetoInterativo: `<a href="https://ufpraberta.ufpr.br/mod/simplecertificate/verify.php" target="_blank" class="cert-link-verify cert-links--compact">Projeto Interativo</a>`,
     descricaoProjeto: `
       <div class="experience experience--compact">
           <div class="exp-header exp-header--compact">
