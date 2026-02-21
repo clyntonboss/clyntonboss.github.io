@@ -102,6 +102,7 @@ function renderBlocoCurso(index) {
 
   // 🔹 Inicia transição de saída
   content.classList.add("is-transitioning");
+  content.classList.remove("is-visible");
 
   setTimeout(() => {
     // 🔹 Renderiza novo conteúdo
@@ -141,12 +142,10 @@ function renderBlocoCurso(index) {
 
     inicializarAccordionsCurso();
 
-    if (content) {
-      content.classList.remove('is-visible');
-      requestAnimationFrame(() => {
-        content.classList.add('is-visible');
-      });
-    }
+    // Força reflow para garantir que a transição aconteça
+    void content.offsetWidth;
+    
+    content.classList.add('is-visible');
 
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
