@@ -194,7 +194,7 @@ content.offsetHeight;
   
     content.addEventListener("transitionend", function handler(e) {
       if (e.propertyName === "height") {
-        content.style.height = "auto";
+        content.style.height = content.scrollHeight + "px";
         content.style.overflow = "";
         content.removeEventListener("transitionend", handler);
       }
