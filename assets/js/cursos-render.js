@@ -150,6 +150,34 @@ function renderBlocoCurso(index) {
     `;
     
     inicializarAccordionsCurso();
+
+    // 🔹 Atualiza indicador (ex: 3 / 21)
+    const indicator = document.getElementById("course-indicator");
+    if (indicator) {
+      indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
+    }
+
+    // 🔹 Botões de navegação
+    const firstBtn = document.getElementById("first-course");
+    const prevBtn  = document.getElementById("prev-course");
+    const nextBtn  = document.getElementById("next-course");
+    const lastBtn  = document.getElementById("last-course");
+
+    if (index === 0) {
+      firstBtn?.classList.add("disabled");
+      prevBtn?.classList.add("disabled");
+    } else {
+      firstBtn?.classList.remove("disabled");
+      prevBtn?.classList.remove("disabled");
+    }
+
+    if (index === datasetCategoria.length - 1) {
+      nextBtn?.classList.add("disabled");
+      lastBtn?.classList.add("disabled");
+    } else {
+      nextBtn?.classList.remove("disabled");
+      lastBtn?.classList.remove("disabled");
+    }
   
     // 🔹 4️⃣ espera 1 frame e mede nova altura
     requestAnimationFrame(() => {
