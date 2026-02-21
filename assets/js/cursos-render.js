@@ -91,94 +91,94 @@ function renderBlocoCurso(index) {
 
   if (!container || !content) return;
 
-  // 👉 ADICIONE AQUI
   container.classList.remove("hidden");
-  
-  // 🔥 GARANTE ESTADO INICIAL CONTROLADO
-  if (!content.classList.contains("is-visible")) {
-    content.classList.add("is-visible");
-  }
 
   const curso = datasetCategoria[index];
   if (!curso) return;
 
-  // Atualiza índice global
   cursoAtualIndex = index;
 
   // 🔹 Inicia transição de saída
   content.classList.remove("is-visible");
 
-  setTimeout(() => {
-    // 🔹 Renderiza novo conteúdo
-    content.innerHTML = `
-      <img 
-        src="${curso.thumb}" 
-        alt="${curso.curso}"
-        class="cert-thumb cert-thumb-block"
-        onclick="abrirCertificado('${curso.thumb}')"
-      >
+  // 🔥 Aguarda o navegador aplicar o estado invisível
+  requestAnimationFrame(() => {
 
-      <div>
-        <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
-        <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
-        <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
-        <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
-        <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
-          ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
-        </p>
-        <p>
-          <strong>${curso.nomeVerificacao}</strong>
-          ${
-            curso.verificacao === null
-              ? `<span class="cert-no-verify">Indisponível</span>`
-              : curso.verificacao?.url
-                ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-                : "" // vazio quando url = ""
-          }
-        </p>
-        <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
-        <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
-        <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
-        <p>${curso.projetoInterativo}</p>
-        ${curso.descricaoProjeto}
-      </div>
-    `;
+    setTimeout(() => {
 
-    inicializarAccordionsCurso();
+      // 🔹 Renderiza novo conteúdo
+      content.innerHTML = `
+        <img 
+          src="${curso.thumb}" 
+          alt="${curso.curso}"
+          class="cert-thumb cert-thumb-block"
+          onclick="abrirCertificado('${curso.thumb}')"
+        >
 
-    // Força reflow para garantir que a transição aconteça
-    void content.offsetWidth;
-    
-    content.classList.add('is-visible');
+        <div>
+          <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
+          <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
+          <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
+          <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
+          <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
+            ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
+          </p>
+          <p>
+            <strong>${curso.nomeVerificacao}</strong>
+            ${
+              curso.verificacao === null
+                ? `<span class="cert-no-verify">Indisponível</span>`
+                : curso.verificacao?.url
+                  ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+                  : ""
+            }
+          </p>
+          <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
+          <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
+          <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
+          <p>${curso.projetoInterativo}</p>
+          ${curso.descricaoProjeto}
+        </div>
+      `;
 
-    // 🔹 Atualiza indicador (ex: 3 / 21)
-    const indicator = document.getElementById("course-indicator");
-    if (indicator) {
-      indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
-    }
+      inicializarAccordionsCurso();
 
-    // 🔹 Botões de navegação
-    const firstBtn = document.getElementById("first-course");
-    const prevBtn  = document.getElementById("prev-course");
-    const nextBtn  = document.getElementById("next-course");
-    const lastBtn  = document.getElementById("last-course");
+      // 🔥 Força novo frame antes de animar entrada
+      requestAnimationFrame(() => {
+        content.classList.add('is-visible');
+      });
 
-    if (index === 0) {
-      firstBtn?.classList.add("disabled");
-      prevBtn?.classList.add("disabled");
-    } else {
-      firstBtn?.classList.remove("disabled");
-      prevBtn?.classList.remove("disabled");
-    }
+      // 🔹 Atualiza indicador
+      const indicator = document.getElementById("course-indicator");
+      if (indicator) {
+        indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
+      }
 
-    if (index === datasetCategoria.length - 1) {
-      nextBtn?.classList.add("disabled");
-      lastBtn?.classList.add("disabled");
-    } else {
-      nextBtn?.classList.remove("disabled");
-      lastBtn?.classList.remove("disabled");
-    }
-  }, 200);
+      // 🔹 Botões de navegação
+      const firstBtn = document.getElementById("first-course");
+      const prevBtn  = document.getElementById("prev-course");
+      const nextBtn  = document.getElementById("next-course");
+      const lastBtn  = document.getElementById("last-course");
+
+      if (index === 0) {
+        firstBtn?.classList.add("disabled");
+        prevBtn?.classList.add("disabled");
+      } else {
+        firstBtn?.classList.remove("disabled");
+        prevBtn?.classList.remove("disabled");
+      }
+
+      if (index === datasetCategoria.length - 1) {
+        nextBtn?.classList.add("disabled");
+        lastBtn?.classList.add("disabled");
+      } else {
+        nextBtn?.classList.remove("disabled");
+        lastBtn?.classList.remove("disabled");
+      }
+
+    }, 200);
+
+  });
 }
 
 // ⛔ =============== The End =============== ⛔
