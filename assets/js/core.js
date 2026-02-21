@@ -339,14 +339,3 @@ document.addEventListener('DOMContentLoaded', () => {
     initThemePortfolio();
     initSyncDisclosureAccordion();
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-
-  document.addEventListener('click', function (e) {
-    if (e.target.classList.contains('exp-toggle')) {
-      const experience = e.target.closest('.experience');
-      experience.classList.toggle('active');
-    }
-  });
-
-});
