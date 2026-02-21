@@ -1315,9 +1315,7 @@ body.static-header .last-update {
   display: flex;
   flex-direction: column;
   transition: opacity 0.4s ease, transform 0.4s ease;
-  min-height: 462px;
   height: auto; /* cresce conforme o conteúdo */
-  transition: height 0.4s ease;
 }
 
 /* Estado de saída */
