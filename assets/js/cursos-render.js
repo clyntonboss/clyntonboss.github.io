@@ -134,8 +134,6 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
-    inicializarAccordions(content);
-
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
@@ -170,15 +168,6 @@ function renderBlocoCurso(index) {
 }
 
 // ⛔ =============== The End =============== ⛔
-
-function inicializarAccordions(container) {
-  container.querySelectorAll('.exp-toggle').forEach(btn => {
-    btn.addEventListener('click', function () {
-      const experience = this.closest('.experience');
-      experience.classList.toggle('active');
-    });
-  });
-}
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
