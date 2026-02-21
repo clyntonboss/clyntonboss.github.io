@@ -31,6 +31,8 @@ window.datasetCategoria = [
     stackTecnica: "Python™ | SQL | Power BI",
     projetoInterativo: `<a href="https://ufpraberta.ufpr.br/mod/simplecertificate/verify.php" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
     descricaoProjeto: `
+      <div class="decorative-line-projetos"></div>
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
