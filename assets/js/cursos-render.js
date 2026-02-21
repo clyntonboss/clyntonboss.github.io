@@ -134,7 +134,11 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
-    initSyncDisclosureAccordion();
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+            initSyncDisclosureAccordion(content);
+        });
+    });
 
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
