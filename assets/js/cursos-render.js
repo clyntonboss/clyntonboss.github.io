@@ -138,6 +138,13 @@ function renderBlocoCurso(index) {
 
     inicializarAccordionsCurso();
 
+    // Força animação suave após renderizar
+    const content = container.querySelector('.course-block-content');
+    content.classList.remove('is-loaded'); // garante reset
+    setTimeout(() => {
+      content.classList.add('is-loaded'); // dispara transição
+    }, 200);
+
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
