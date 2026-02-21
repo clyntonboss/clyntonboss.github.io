@@ -104,79 +104,74 @@ function renderBlocoCurso(index) {
   // 🔥 Aguarda o navegador aplicar o estado invisível
   requestAnimationFrame(() => {
 
-    setTimeout(() => {
-
-      // 🔹 Renderiza novo conteúdo
-      content.innerHTML = `
-        <img 
-          src="${curso.thumb}" 
-          alt="${curso.curso}"
-          class="cert-thumb cert-thumb-block"
-          onclick="abrirCertificado('${curso.thumb}')"
-        >
-
-        <div>
-          <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
-          <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
-          <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
-          <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
-          <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
-            ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
-          </p>
-          <p>
-            <strong>${curso.nomeVerificacao}</strong>
-            ${
-              curso.verificacao === null
-                ? `<span class="cert-no-verify">Indisponível</span>`
-                : curso.verificacao?.url
-                  ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-                  : ""
-            }
-          </p>
-          <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
-          <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
-          <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
-          <p>${curso.projetoInterativo}</p>
-          ${curso.descricaoProjeto}
-        </div>
-      `;
-
-      inicializarAccordionsCurso();
-
-      // 🔥 Força novo frame antes de animar entrada
-      requestAnimationFrame(() => {
-        content.classList.add('is-visible');
-      });
-
-      // 🔹 Atualiza indicador
-      const indicator = document.getElementById("course-indicator");
-      if (indicator) {
-        indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
+  setTimeout(() => {
+  
+    // 🔹 1. trava altura atual
+    const alturaAtual = content.offsetHeight;
+    content.style.height = alturaAtual + "px";
+  
+    // 🔹 2. Renderiza novo conteúdo
+    content.innerHTML = `
+      <img 
+        src="${curso.thumb}" 
+        alt="${curso.curso}"
+        class="cert-thumb cert-thumb-block"
+        onclick="abrirCertificado('${curso.thumb}')"
+      >
+  
+      <div>
+        <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
+        <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
+        <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
+        <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
+        <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
+          ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
+        </p>
+        <p>
+          <strong>${curso.nomeVerificacao}</strong>
+          ${
+            curso.verificacao === null
+              ? `<span class="cert-no-verify">Indisponível</span>`
+              : curso.verificacao?.url
+                ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+                : ""
+          }
+        </p>
+        <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
+        <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
+        <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
+        <p>${curso.projetoInterativo}</p>
+        ${curso.descricaoProjeto}
+      </div>
+    `;
+  
+    inicializarAccordionsCurso();
+  
+    // 🔹 3. mede nova altura
+    const novaAltura = content.scrollHeight;
+  
+    // 🔹 4. força reflow
+    content.offsetHeight;
+  
+    // 🔹 5. anima para nova altura
+    content.style.height = novaAltura + "px";
+  
+    // 🔹 anima entrada visual
+    requestAnimationFrame(() => {
+      content.classList.add('is-visible');
+    });
+  
+    // 🔹 6. volta para auto após animação
+    content.addEventListener("transitionend", function handler(e) {
+      if (e.propertyName === "height") {
+        content.style.height = "auto";
+        content.removeEventListener("transitionend", handler);
       }
-
-      // 🔹 Botões de navegação
-      const firstBtn = document.getElementById("first-course");
-      const prevBtn  = document.getElementById("prev-course");
-      const nextBtn  = document.getElementById("next-course");
-      const lastBtn  = document.getElementById("last-course");
-
-      if (index === 0) {
-        firstBtn?.classList.add("disabled");
-        prevBtn?.classList.add("disabled");
-      } else {
-        firstBtn?.classList.remove("disabled");
-        prevBtn?.classList.remove("disabled");
-      }
-
-      if (index === datasetCategoria.length - 1) {
-        nextBtn?.classList.add("disabled");
-        lastBtn?.classList.add("disabled");
-      } else {
-        nextBtn?.classList.remove("disabled");
-        lastBtn?.classList.remove("disabled");
-      }
-
-    }, 200);
+    });
+  
+    // (mantém todo o resto do seu código abaixo intacto)
+  
+  }, 200);
 
   });
 }
