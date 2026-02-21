@@ -134,8 +134,6 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
-    inicializarAccordionsDinamicos(content);
-
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
@@ -171,25 +169,6 @@ function renderBlocoCurso(index) {
 
 // ⛔ =============== The End =============== ⛔
 
-// 🔹 Inicializa toggles de accordion do conteúdo dinâmico
-function inicializarAccordionsDinamicos(container) {
-  if (!container) return;
-
-  container.querySelectorAll('.exp-toggle').forEach(btn => {
-    // Remove qualquer listener antigo (clona o botão)
-    const novoBtn = btn.cloneNode(true);
-    btn.replaceWith(novoBtn);
-
-    // Adiciona o listener de toggle
-    novoBtn.addEventListener('click', () => {
-      const experience = novoBtn.closest('.experience');
-      if (!experience) return;
-
-      experience.classList.toggle('active');
-    });
-  });
-}
-
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
 // ❎ ======= Renderização  Flow Mode ======= ❎
@@ -208,26 +187,31 @@ function renderFluxoCursos(cursos) {
       <img 
         src="${curso.thumb}" 
         alt="${curso.curso}"
-        class="cert-thumb cert-thumb--compact"
+        class="cert-thumb cert-thumb-block"
         onclick="abrirCertificado('${curso.thumb}')"
       >
 
       <div>
-        <p><strong>Instituição:</strong> ${curso.instituicao}</p>
-        <p><strong>Curso:</strong> ${curso.curso}</p>
-        <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
-        <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
-        <p><strong>Código:</strong> ${curso.codigo}
+        <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
+        <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
+        <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
+        <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
+        <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
           ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
         </p>
         <p>
-          <strong>Verificação:</strong>
+          <strong>${curso.nomeVerificacao}</strong>
           ${
             curso.verificacao?.url
               ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
               : `<span class="cert-no-verify">Indisponível</span>`
           }
         </p>
+        <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
+        <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
+        <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
+        <p>${curso.projetoInterativo}</p>
+        ${curso.descricaoProjeto}
       </div>
     `;
 
