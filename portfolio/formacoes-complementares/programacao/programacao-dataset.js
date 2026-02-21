@@ -1,5 +1,55 @@
 window.datasetCategoria = [
   {
+    id: 133,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Java Fundamentos",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2026-02-20",
+
+    dataConclusao: "20 de fevereiro de 2026",
+
+    codigo: "174c689402730cad010870a3dc772633",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.02.20 · FIAP - Centro Universitário · Java Fundamentos.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=174c689402730cad010870a3dc772633&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
+    id: 132,
+
+    instituicao: "FIAP - Centro Universitário",
+ 
+    curso: "Java Development",
+    
+    cargaHoraria: "60 h",
+
+    conclusaoISO: "2026-02-20",
+
+    dataConclusao: "20 de fevereiro de 2026",
+
+    codigo: "d7114c632df66fb36686c3dbd82768a8",
+
+    mostrarCopiar: false,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.02.20 · FIAP - Centro Universitário · Java Development.png",
+
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=d7114c632df66fb36686c3dbd82768a8&action=view",
+      texto: "Verificar Autenticidade"
+    }
+  },
+  
+  {
     id: 131,
 
     instituicao: "FIAP - Centro Universitário",
