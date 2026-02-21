@@ -800,8 +800,15 @@ main {
   transform: rotate(90deg);
 }
 
+.experience .exp-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
 .experience.active .exp-details {
   overflow: visible;
+  max-height: 1000px;
 }
 
 /* Ocultação da Barra de Rolamento Lateral */
