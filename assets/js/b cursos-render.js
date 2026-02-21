@@ -89,7 +89,7 @@ function renderBlocoCurso(index) {
   const container = document.getElementById("course-block");
   const content = container?.querySelector(".course-block-content");
 
-    if (!container || !content) return;
+  if (!container || !content) return;
 
   const curso = datasetCategoria[index];
   if (!curso) return;
@@ -126,17 +126,13 @@ function renderBlocoCurso(index) {
               : `<span class="cert-no-verify">Indisponível</span>`
           }
         </p>
+        <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
+        <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
+        <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
+        <p>${curso.projetoInterativo}</p>
+        ${curso.descricaoProjeto}
       </div>
     `;
-
-    requestAnimationFrame(() => {
-      container.style.maxHeight = content.scrollHeight + "px";
-    
-      // 🔹 Reseta para altura auto depois que a transição visual terminar
-      setTimeout(() => {
-        container.style.maxHeight = "none";
-      }, 400); // tempo > duration da transição definida no CSS
-    });
 
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
