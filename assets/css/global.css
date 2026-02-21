@@ -1307,11 +1307,25 @@ body.static-header .last-update {
 }
 
 .course-block-content {
-  position: relative; /* permite altura automática */
-  display: flex;
+/*  position: relative; /* permite altura automática */
+/*  display: flex;
   flex-direction: column;
   transition: opacity 0.4s ease, transform 0.4s ease;
   height: auto; /* cresce conforme o conteúdo */
+
+  flex: 1;
+  text-align: justify;
+  line-height: 1.8;
+  color: var(--curriculo-text);
+  font-size: 16px;
+  overflow-y: auto; /* ativa rolagem só no conteúdo */
+  height: 100%; /* usa a altura total disponível */
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* rolagem suave */
+    /* esconde a barra de rolagem sem desativar o scroll */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE e Edge antigos */
+  padding-top: 8px;
 }
 
 /* Estado de saída */
