@@ -1006,13 +1006,12 @@ body.static-header .last-update {
     height: 1px;
     width: 40%;
 
-    margin-top: 16px;
-    margin-bottom: 24px;
+    margin: 16px 0 24px 12px;
 
     background: linear-gradient(
         to right,
-        #EAEAEA,
-        #EAEAEA,
+        var(--linha-proj),
+        var(--linha-proj),
         transparent
     );
 }
@@ -2003,6 +2002,7 @@ body[data-mode="portfolio"] .side-portfolio {
    --category-name: #282828;
 
    --experience-border: #4C4C4C;
+   --linha-proj: #4C4C4C;
 
    --link-cert: #0A3C5C;
    --box-shadow-link-cert: 0 0 8px rgba(0,0,0,0.2);
@@ -2050,6 +2050,8 @@ body[data-mode="portfolio"] .side-portfolio {
    --category-name: #C0C0C0;
 
    --experience-border: #EAEAEA;
+
+   --linha-proj: #EAEAEA;
 
    --link-cert: #476C83;
    --box-shadow-link-cert: 0 0 8px rgba(255,255,255,0.2);
