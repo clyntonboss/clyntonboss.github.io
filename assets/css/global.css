@@ -1347,12 +1347,6 @@ body.static-header .last-update {
   margin: 0px;
 }
 
-/* Estado de saída */
-.course-block-content.is-transitioning {
-  opacity: 0;
-  transform: translateY(8px);
-}
-
 .course-block-content img {
     border: 1px solid var(--fixed-header-section);
     border-radius: 6px;
