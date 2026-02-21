@@ -101,7 +101,6 @@ function renderBlocoCurso(index) {
   cursoAtualIndex = index;
 
   // 🔹 Inicia transição de saída
-  content.classList.add("is-transitioning");
   content.classList.remove("is-visible");
 
   setTimeout(() => {
@@ -174,9 +173,6 @@ function renderBlocoCurso(index) {
       nextBtn?.classList.remove("disabled");
       lastBtn?.classList.remove("disabled");
     }
-
-    // 🔹 Finaliza transição (entrada)
-    content.classList.remove("is-transitioning");
   }, 200);
 }
 
