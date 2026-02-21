@@ -104,16 +104,19 @@ function renderBlocoCurso(index) {
   // 🔥 Aguarda o navegador aplicar o estado invisível
   requestAnimationFrame(() => {
 
+// 🔹 1️⃣ mede e trava altura ANTES de mexer em classes
+const alturaAtual = content.getBoundingClientRect().height;
+content.style.height = alturaAtual + "px";
+content.style.overflow = "hidden";
+
+// 🔹 2️⃣ agora inicia transição de saída
+content.classList.remove("is-visible");
+
+// 🔹 3️⃣ força aplicação
+content.offsetHeight;
+
   setTimeout(() => {
-  
-    // 🔹 1️⃣ trava altura atual REAL
-    const alturaAtual = content.getBoundingClientRect().height;
-    content.style.height = alturaAtual + "px";
-    content.style.overflow = "hidden"; // 🔥 IMPORTANTE
-  
-    // 🔹 2️⃣ força aplicação
-    content.offsetHeight;
-  
+    
     // 🔹 2. Renderiza novo conteúdo
     content.innerHTML = `
       <img 
@@ -189,11 +192,10 @@ function renderBlocoCurso(index) {
   
     });
   
-    // 🔹 5️⃣ libera após transição
     content.addEventListener("transitionend", function handler(e) {
       if (e.propertyName === "height") {
         content.style.height = "auto";
-        content.style.overflow = ""; // 🔥 restaura
+        content.style.overflow = "";
         content.removeEventListener("transitionend", handler);
       }
     });
