@@ -57,7 +57,7 @@ window.datasetCategoria = [
           </div>
       </div>
 
-      <div class="experience experience--compact">
+      <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
               <span class="exp-role">Informações e Tomadas de Decisões</span>
@@ -83,7 +83,7 @@ window.datasetCategoria = [
           </div>
       </div>
 
-      <div class="experience experience--compact">
+      <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
               <span class="exp-role">Tecnológico</span>
