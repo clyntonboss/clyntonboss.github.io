@@ -906,11 +906,6 @@ body {
     transition: opacity 0.2s ease;
 }
 
-.cert-link-inf {
-    padding: 0;
-    margin-left: 12px;
-}
-
 .cert-link-verify:hover {
   text-shadow: var(--box-shadow-link-cert);
 }
