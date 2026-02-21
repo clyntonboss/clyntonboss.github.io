@@ -93,6 +93,11 @@ function renderBlocoCurso(index) {
 
   // 👉 ADICIONE AQUI
   container.classList.remove("hidden");
+  
+  // 🔥 GARANTE ESTADO INICIAL CONTROLADO
+  if (!content.classList.contains("is-visible")) {
+    content.classList.add("is-visible");
+  }
 
   const curso = datasetCategoria[index];
   if (!curso) return;
