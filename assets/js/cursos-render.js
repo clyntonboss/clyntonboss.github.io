@@ -91,6 +91,9 @@ function renderBlocoCurso(index) {
 
   if (!container || !content) return;
 
+  // 👉 ADICIONE AQUI
+  container.classList.remove("hidden");
+
   const curso = datasetCategoria[index];
   if (!curso) return;
 
@@ -138,10 +141,8 @@ function renderBlocoCurso(index) {
 
     inicializarAccordionsCurso();
 
-    const content = container.querySelector('.course-block-content');
-    
     if (content) {
-      content.classList.remove('is-visible'); // garante reset
+      content.classList.remove('is-visible');
       requestAnimationFrame(() => {
         content.classList.add('is-visible');
       });
