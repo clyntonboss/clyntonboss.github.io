@@ -34,179 +34,81 @@ window.datasetCategoria = [
     stackTecnica: "Python™ | SQL | Power BI",
     projetoInterativo: `<a href="https://ufpraberta.ufpr.br/mod/simplecertificate/verify.php" target="_blank" class="cert-link-verify">Projeto Interativo</a>`,
     descricaoProjeto: `
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Comunicação & Relacionamento</span>
-              <button class="exp-toggle">+</button>
+      <div class="experience experience--compact">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Processos</span>
           </div>
           <div class="exp-details">
-              <div class="tech-subtitle">Forma de interagir, transmitir ideias e colaborar com os outros.</div>
-              <div class="tech-title">Boa Comunicação</div>
-              <div class="tech-desc">
-                  Comunicação clara, estruturada e objetiva, com habilidade para transmitir informações complexas de forma acessível, adaptar o discurso ao público e fortalecer a assertividade em interações presenciais ou remotas. Capacidade de ouvir ativamente, sintetizar ideias e construir entendimentos comuns com precisão.
-              </div>
-
-              <div class="tech-title">Trabalho em Equipe</div>
-              <div class="tech-desc">
-                  Colaboração ativa em ambientes multidisciplinares, integração de competências diversas, compartilhamento de conhecimento e construção de resultados coletivos. Habilidade para alinhar expectativas, apoiar colegas e contribuir para um clima organizacional produtivo e equilibrado.
-              </div>
-
-              <div class="tech-title">Capacidade de Negociação</div>
-              <div class="tech-desc">
-                  Habilidade para conduzir diálogos estratégicos, compreender necessidades das partes envolvidas, identificar alternativas de ganho mútuo e construir acordos equilibrados. Atuação pautada por clareza, empatia e firmeza, garantindo resultados satisfatórios e sustentáveis.
-              </div>
-
-              <div class="tech-title">Gestão de Conflitos</div>
-              <div class="tech-desc">
-                  Abordagem imparcial e estruturada para mediação de divergências, construção de entendimento entre partes e restauração de ambientes produtivos. Capacidade de lidar com tensões com serenidade, isenção emocional e foco na solução, preservando relações profissionais e o andamento das atividades.
-              </div>
+      
+            <div class="tech-subtitle">Estruturação, padronização e melhoria contínua de fluxos operacionais e administrativos.</div>
+            <div class="tech-title">Situação Inicial:</div>
+            <div class="tech-desc">
+                Ambientes com processos pouco estruturados, alto grau de retrabalho, uso excessivo de controles manuais e ausência de padronização na organização das informações.
+            </div>
+        
+            <div class="tech-title">Abordagem Adotada:</div>
+            <div class="tech-desc">
+                Mapeamento de rotinas, reorganização de fluxos operacionais e aplicação de soluções tecnológicas adequadas à realidade de cada contexto, priorizando simplicidade, clareza e sustentabilidade das soluções ao longo do tempo.
+            </div>
+        
+            <div class="tech-title">Resultado Alcançado:</div>
+            <div class="tech-desc">
+                Redução de retrabalho, maior previsibilidade operacional, padronização de procedimentos e melhoria significativa na organização dos processos administrativos e técnicos.
+            </div>
+      
           </div>
       </div>
 
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Financeiro</span>
-              <button class="exp-toggle">+</button>
+      <div class="experience experience--compact">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Informações e Tomadas de Decisões</span>
           </div>
           <div class="exp-details">
-            
-              <hr class="decorative-line-cert">
-
-              <a href="#" onclick="abrirCertificado('/projetos/PainelFinanceiro.png'); return false;">
-                  <img src="/projetos/PainelFinanceiro.png" 
-                       alt="Análise de Dados" 
-                       class="cert-thumb"
-                       >
-              </a>
-              <div>
-                  <span style="font-weight: normal;">Período:</span>
-                  <span style="font-weight: bold;">Fev/2024</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Duração:</span>
-                  <span style="font-weight: bold;">8 dias</span>
-              </div>
-              <div>
-                  <span style="font-weight: normal;">Stack Técnica:</span>
-                  <span style="font-weight: bold;">Python™ | SQL | Power BI</span>
-              </div>
-              <div>
-                  <a href="https://ufpraberta.ufpr.br/mod/simplecertificate/verify.php" target="_blank" class="cert-link-verify">Projeto Interativo</a>
-              </div>
-
-              <div class="decorative-line-projetos"></div>
-
-              <!-- Contexto do Problema -->
-              <details class="project-section">
-                  <summary>
-                      <span class="summary-text">Contexto do Problema</span>
-                      <span class="summary-icon"></span>
-                  </summary>
-                  <p>
-                      A organização enfrentava dificuldades em consolidar indicadores operacionais
-                      dispersos em múltiplas fontes, comprometendo a tomada de decisão gerencial.
-                  </p>
-              </details>
       
-              <!-- Abordagem Estratégica -->
-              <details class="project-section">
-                  <summary>
-                      <span class="summary-text">Abordagem Estratégica</span>
-                      <span class="summary-icon"></span>
-                  </summary>
-                  <p>
-                      Foi adotada uma abordagem baseada em modelagem dimensional,
-                      integração de dados e definição de KPIs alinhados aos objetivos do negócio.
-                  </p>
-              </details>
-
-              <!-- Impactos e Resultados -->
-              <details class="project-section">
-                  <summary>
-                      <span class="summary-text">Impactos e Resultados</span>
-                      <span class="summary-icon"></span>
-                  </summary>
-                  <p>
-                      O projeto resultou em maior clareza operacional,
-                      redução de retrabalho analítico e aumento da eficiência
-                      no acompanhamento dos indicadores estratégicos.
-                  </p>
-              </details>
+            <div class="tech-subtitle">Transformação de dados em informação clara, confiável e acionável para suporte estratégico.</div>
+            <div class="tech-title">Situação Inicial:</div>
+            <div class="tech-desc">
+                Dados dispersos, planilhas desconectadas, dificuldade de acesso à informação confiável e ausência de indicadores claros para apoiar decisões.
+            </div>
+        
+            <div class="tech-title">Abordagem Adotada:</div>
+            <div class="tech-desc">
+                Estruturação de bases de dados, consolidação de múltiplas fontes de informação e desenvolvimento de soluções analíticas e visuais que transformam dados brutos em informação compreensível e acionável.
+            </div>
+        
+            <div class="tech-title">Resultado Alcançado:</div>
+            <div class="tech-desc">
+                Maior clareza informacional, visão integrada dos dados, apoio efetivo à tomada de decisão e substituição de controles manuais por painéis e indicadores consistentes.
+            </div>
       
-              <!-- Tecnologias Envolvidas -->
-              <details class="project-section">
-                  <summary>
-                      <span class="summary-text">Tecnologias Envolvidas</span>
-                      <span class="summary-icon"></span>
-                  </summary>
-                  <p>
-                      Power BI foi utilizado para visualização e storytelling,
-                      SQL para tratamento e consolidação dos dados,
-                      e Python para automatização de etapas de preparação.
-                  </p>
-              </details>
-      
-              <!-- Conexão 5.0 -->
-              <details class="project-section">
-                  <summary>
-                      <span class="summary-text">Conexão com Indústria | Dados | Pessoas</span>
-                      <span class="summary-icon"></span>
-                  </summary>
-                  <p>
-                      A solução conectou dados operacionais do processo industrial
-                      à análise estratégica, promovendo decisões mais ágeis
-                      e ampliando a autonomia dos gestores.
-                  </p>
-              </details>
-
           </div>
       </div>
 
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Pensamento Analítico & Estratégico</span>
-              <button class="exp-toggle">+</button>
+      <div class="experience experience--compact">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Tecnológico</span>
           </div>
           <div class="exp-details">
-              <div class="tech-subtitle">Análise, raciocínio e tomada de decisão baseada em informações e lógica.</div>
-              <div class="tech-title">Raciocínio Lógico</div>
-              <div class="tech-desc">
-                  Estruturação lógica do pensamento para analisar situações, decompor problemas e construir conclusões coerentes e fundamentadas. Capacidade de identificar inconsistências, estabelecer relações causais e produzir soluções claras e objetivas com base em critérios racionais e verificáveis.
-              </div>
-
-              <div class="tech-title">Pensamento Analítico</div>
-              <div class="tech-desc">
-                  Avaliação detalhada de informações, identificação de padrões relevantes, interpretação crítica de dados e capacidade de transformar elementos dispersos em insights práticos. Análise estruturada que favorece decisões estratégicas e sustentadas por evidências concretas.
-              </div>
-
-              <div class="tech-title">Resolução de Problemas Complexos</div>
-              <div class="tech-desc">
-                  Capacidade de investigar causas profundas, analisar variáveis interdependentes e desenvolver soluções robustas para desafios de alta complexidade. Abordagem orientada à mitigação de riscos, escolha de alternativas viáveis e implementação de estratégias eficazes de forma organizada e precisa.
-              </div>
-
-              <div class="tech-title">Tomada de Decisão Baseada em Dados</div>
-              <div class="tech-desc">
-                  Utilização de métricas, evidências e indicadores relevantes para fundamentar escolhas, minimizando vieses subjetivos e aumentando a precisão dos resultados. Capacidade de interpretar dados com senso crítico e direcionar ações alinhadas a objetivos estratégicos e mensuráveis.
-              </div>
-
-              <div class="tech-title">Pensamento Sistêmico</div>
-              <div class="tech-desc">
-                  Visão ampliada de cenários, compreensão das interdependências entre processos e análise de consequências de curto, médio e longo prazo. Capacidade de enxergar o todo, antecipar efeitos colaterais e propor soluções que considerem impactos organizacionais integrados.
-              </div>
-          </div>
-      </div>
-
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Orientação a Resultados</span>
-              <button class="exp-toggle">+</button>
-          </div>
-          <div class="exp-details">
-              <div class="tech-subtitle">Foco em performance, metas e entrega de valor.</div>
-              <div class="tech-title">Orientação a Resultados</div>
-              <div class="tech-desc">
-                  Foco contínuo em metas estratégicas, disciplina para monitorar progresso, capacidade de ajustar rotas e compromisso em entregar valor real. Atuação consistente, resiliente e guiada pela busca de desempenho elevado com precisão e responsabilidade.
-              </div>
+      
+            <div class="tech-subtitle">Aplicação de soluções tecnológicas alinhadas ao contexto, com foco em eficiência, integração e sustentabilidade.</div>
+            <div class="tech-title">Situação Inicial:</div>
+            <div class="tech-desc">
+                Instituições com desafios na gestão da informação, suporte técnico reativo e dificuldades na utilização eficiente de recursos tecnológicos.
+            </div>
+        
+            <div class="tech-title">Abordagem Adotada:</div>
+            <div class="tech-desc">
+                Atuação próxima às equipes administrativas, educacionais e usuários finais, com foco na organização da informação, no suporte acessível e na disseminação de uma cultura orientada ao uso consciente da tecnologia e dos dados.
+            </div>
+        
+            <div class="tech-title">Resultado Alcançado:</div>
+            <div class="tech-desc">
+                Melhoria na gestão educacional e administrativa, maior autonomia dos usuários, melhor aproveitamento dos recursos tecnológicos disponíveis e fortalecimento da cultura organizacional orientada à informação.
+            </div>
+      
           </div>
       </div>
     `
