@@ -20,10 +20,7 @@ window.datasetCategoria = [
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.10 · FIAP - Centro Universitário · Business Intelligence.png",
 
-    verificacao: {
-      url: "",
-      texto: ""
-    },
+    verificacao: "",
 
     nomePeriodo: "Período: ",
     nomeDuracao: "Duração: ",
