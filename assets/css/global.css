@@ -710,6 +710,10 @@ main {
    border-bottom: 0;
 }
 
+.experience--inf {
+   margin-left: 12px;
+}
+
 .exp-header {
   display: flex;
   justify-content: space-between;
