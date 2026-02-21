@@ -1323,6 +1323,10 @@ body.static-header .last-update {
   height: auto; /* cresce conforme o conteúdo */
 }
 
+.course-block-content a {
+  margin: 0px;
+}
+
 /* Estado de saída */
 .course-block-content.is-transitioning {
   opacity: 0;
