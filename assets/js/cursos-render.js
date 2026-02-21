@@ -134,8 +134,6 @@ function renderBlocoCurso(index) {
       </div>
     `;
 
-    inicializarAccordionsDinamicos(content);
-
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
@@ -170,25 +168,6 @@ function renderBlocoCurso(index) {
 }
 
 // ⛔ =============== The End =============== ⛔
-
-// 🔹 Inicializa accordions do conteúdo dinâmico
-function inicializarAccordionsDinamicos(container) {
-  if (!container) return;
-
-  container.querySelectorAll('.exp-toggle').forEach(btn => {
-    // Remove qualquer listener antigo (clonar o nó)
-    const novoBtn = btn.cloneNode(true);
-    btn.replaceWith(novoBtn);
-
-    // Adiciona o listener de toggle
-    novoBtn.addEventListener('click', () => {
-      const experience = novoBtn.closest('.experience');
-      if (!experience) return;
-
-      experience.classList.toggle('active');
-    });
-  });
-}
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
