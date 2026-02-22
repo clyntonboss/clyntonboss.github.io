@@ -2445,16 +2445,18 @@ window.datasetCategoria = [
   {
     id: 200,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Gerenciamento de Datasets com Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "2DUEEVCK",
 
     mostrarCopiar: false,
@@ -2470,16 +2472,18 @@ window.datasetCategoria = [
   {
     id: 199,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Gerenciamento de Workspaces com Power BI",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "RKEFFEMI",
 
     mostrarCopiar: false,
@@ -2495,16 +2499,18 @@ window.datasetCategoria = [
   {
     id: 198,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Data Analytics & Storytelling com Power BI",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "TJ7LIIID",
 
     mostrarCopiar: false,
@@ -2520,16 +2526,18 @@ window.datasetCategoria = [
   {
     id: 197,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando um Relatório Vendas e Lucros com Data Analytics com Power BI",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "2FT7OFXM",
 
     mostrarCopiar: false,
@@ -2545,16 +2553,18 @@ window.datasetCategoria = [
   {
     id: 196,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando um Dashboard Gerencial para Tomada de Decisões com Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "OJKK5TE8",
 
     mostrarCopiar: false,
@@ -2570,16 +2580,18 @@ window.datasetCategoria = [
   {
     id: 195,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Fundamentos de Data Analytics com Power BI",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "VTKY1X14",
 
     mostrarCopiar: false,
@@ -2595,16 +2607,18 @@ window.datasetCategoria = [
   {
     id: 194,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Explorando Recursos para Criar Storytelling dos Dados com Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "QVN7XJWR",
 
     mostrarCopiar: false,
@@ -2620,16 +2634,18 @@ window.datasetCategoria = [
   {
     id: 193,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Relatório & Experiência do Usuário no Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "1TKINRZ8",
 
     mostrarCopiar: false,
@@ -2645,16 +2661,18 @@ window.datasetCategoria = [
   {
     id: 192,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Modelagem de Dados com Power BI",
-    
     cargaHoraria: "15 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "DJXQ5UOJ",
 
     mostrarCopiar: false,
@@ -2670,16 +2688,18 @@ window.datasetCategoria = [
   {
     id: 191,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Modelando um Dashboard de e-Commerce com Power BI Utilizando Fórmulas DAX",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "BHNK3MQD",
 
     mostrarCopiar: false,
@@ -2695,16 +2715,18 @@ window.datasetCategoria = [
   {
     id: 190,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Dashboard de Vendas com Power BI Utilizando Star Schema",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "LUB5BH8Y",
 
     mostrarCopiar: false,
@@ -2720,16 +2742,18 @@ window.datasetCategoria = [
   {
     id: 189,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Otimização de Modelo de Dados com Foco em Desempenho no Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "R1AQCKMB",
 
     mostrarCopiar: false,
@@ -2745,16 +2769,18 @@ window.datasetCategoria = [
   {
     id: 188,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Primeiros Passos com DAX e Cálculos com Power BI",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "IXN8IDYO",
 
     mostrarCopiar: false,
@@ -2770,16 +2796,18 @@ window.datasetCategoria = [
   {
     id: 187,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Modelagem de Dados no Power BI",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "WTZLULAS",
 
     mostrarCopiar: false,
@@ -2795,16 +2823,18 @@ window.datasetCategoria = [
   {
     id: 186,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Fundamentos de Modelagem Dimensional",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "CLKCTMEN",
 
     mostrarCopiar: false,
@@ -2820,16 +2850,18 @@ window.datasetCategoria = [
   {
     id: 185,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Processamento de Dados com Power BI",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "WJL1SVZF",
 
     mostrarCopiar: false,
@@ -2845,16 +2877,18 @@ window.datasetCategoria = [
   {
     id: 184,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando um Dashboard Corporativo com Integração com MySQL e Azure",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "LYIOJKNQ",
 
     mostrarCopiar: false,
@@ -2870,16 +2904,18 @@ window.datasetCategoria = [
   {
     id: 183,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Limpeza e Transformação de Dados com Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "CIWDR2XH",
 
     mostrarCopiar: false,
@@ -2895,16 +2931,18 @@ window.datasetCategoria = [
   {
     id: 182,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Coleta e Extração de Dados com Power BI",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "NUORYDRD",
 
     mostrarCopiar: false,
@@ -2920,16 +2958,18 @@ window.datasetCategoria = [
   {
     id: 181,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Visualização de Dados e Relatórios com Power BI",
-    
     cargaHoraria: "9 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "VH7KKVF5",
 
     mostrarCopiar: false,
@@ -2945,16 +2985,18 @@ window.datasetCategoria = [
   {
     id: 180,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando um Relatório Gerencial de Vendas com Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "N1XZQCAJ",
 
     mostrarCopiar: false,
@@ -2970,16 +3012,18 @@ window.datasetCategoria = [
   {
     id: 179,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando Dashboards Interativos com Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "0NRUJMED",
 
     mostrarCopiar: false,
@@ -2995,16 +3039,18 @@ window.datasetCategoria = [
   {
     id: 178,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Fundamentos de BI: KPIs e Métricas",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "W6UHFSMK",
 
     mostrarCopiar: false,
@@ -3020,16 +3066,18 @@ window.datasetCategoria = [
   {
     id: 177,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Trabalhando com Visuais no Power BI",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "3PXGLZYD",
 
     mostrarCopiar: false,
@@ -3045,16 +3093,18 @@ window.datasetCategoria = [
   {
     id: 176,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Fundamentos de Power BI",
-    
     cargaHoraria: "5 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "RFX18W5R",
 
     mostrarCopiar: false,
@@ -3070,16 +3120,18 @@ window.datasetCategoria = [
   {
     id: 175,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Analisando Dados de um Dashboard de Vendas no Power BI",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "XOZZM8SJ",
 
     mostrarCopiar: false,
@@ -3095,16 +3147,18 @@ window.datasetCategoria = [
   {
     id: 174,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Primeiros Passos com Power BI",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "M3QCEGBT",
 
     mostrarCopiar: false,
@@ -3120,16 +3174,18 @@ window.datasetCategoria = [
   {
     id: 173,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Fundamentos Teóricos sobre ETL",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "MMI96OWW",
 
     mostrarCopiar: false,
@@ -3145,16 +3201,18 @@ window.datasetCategoria = [
   {
     id: 172,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Introdução a Análise de Dados com SQL",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "GIV3OFCI",
 
     mostrarCopiar: false,
@@ -3170,16 +3228,18 @@ window.datasetCategoria = [
   {
     id: 171,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Fundamentos de Business Intelligence",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "UHR6E3EG",
 
     mostrarCopiar: false,
@@ -3195,16 +3255,18 @@ window.datasetCategoria = [
   {
     id: 170,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Escola Nacional de Administração Pública - ENAP",
- 
     curso: "Análise de Negócios no Desenvolvimento de Soluções Baseadas em Dados",
-    
     cargaHoraria: "25 h",
-
     conclusaoISO: "2025-10-27",
-
     dataConclusao: "27 de outubro de 2025",
-
     codigo: "iez2193034252sit",
 
     mostrarCopiar: true,
@@ -3220,16 +3282,18 @@ window.datasetCategoria = [
   {
     id: 169,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Escola Nacional de Administração Pública - ENAP",
- 
     curso: "Análise de Dados: Uma Leitura Crítica das Informações",
-    
     cargaHoraria: "23 h",
-
     conclusaoISO: "2025-10-27",
-
     dataConclusao: "27 de outubro de 2025",
-
     codigo: "IyjF1930341257Q1",
 
     mostrarCopiar: true,
@@ -3245,16 +3309,18 @@ window.datasetCategoria = [
   {
     id: 168,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Xperiun | Data Analytics",
- 
     curso: "Profissional do Futuro",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2025-10-23",
-
     dataConclusao: "23 de outubro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3267,16 +3333,18 @@ window.datasetCategoria = [
   {
     id: 167,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Profissionais de Epidemiologia",
- 
     curso: "Painel de Indicadores",
-    
     cargaHoraria: "5 h",
-
     conclusaoISO: "2025-10-20",
-
     dataConclusao: "20 de outubro de 2025",
-
     codigo: "hHh4xWDmSg",
 
     mostrarCopiar: true,
@@ -3292,16 +3360,18 @@ window.datasetCategoria = [
   {
     id: 166,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Cursa",
- 
     curso: "Google Analytics",
-    
     cargaHoraria: "30 h",
-
     conclusaoISO: "2025-10-18",
-
     dataConclusao: "18 de outubro de 2025",
-
     codigo: "0d016abf59",
 
     mostrarCopiar: false,
@@ -3317,16 +3387,18 @@ window.datasetCategoria = [
   {
     id: 165,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Cursa",
- 
     curso: "Data Science com Puthon™",
-    
     cargaHoraria: "11 h",
-
     conclusaoISO: "2025-10-17",
-
     dataConclusao: "17 de outubro de 2025",
-
     codigo: "08b05ab7aa",
 
     mostrarCopiar: false,
@@ -3342,16 +3414,18 @@ window.datasetCategoria = [
   {
     id: 164,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Escola Nacional de Administração Pública - ENAP",
- 
     curso: "Soluções Preditivas Baseadas em Dados com o Uso do R e do Python",
-    
     cargaHoraria: "25 h",
-
     conclusaoISO: "2025-10-14",
-
     dataConclusao: "14 de outubro de 2025",
-
     codigo: "SHsT19068421Kb9j",
 
     mostrarCopiar: true,
@@ -3367,16 +3441,18 @@ window.datasetCategoria = [
   {
     id: 163,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Power BI",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-10-09",
-
     dataConclusao: "09 de outubro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3389,16 +3465,18 @@ window.datasetCategoria = [
   {
     id: 162,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Comunidade Data Driven",
- 
     curso: "Imersão Power BI na Era da Inteligência Artificial",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-10-08",
-
     dataConclusao: "08 de outubro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3411,16 +3489,18 @@ window.datasetCategoria = [
   {
     id: 161,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Unieducar",
- 
     curso: "Análise de Dados, Probabilidade e Distribuições de Probabilidade",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-09-28",
-
     dataConclusao: "28 de setembro de 2025",
-
     codigo: "202509283801637.1759075088",
 
     mostrarCopiar: false,
@@ -3436,16 +3516,18 @@ window.datasetCategoria = [
   {
     id: 160,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Imersão Excel Automate",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-09-25",
-
     dataConclusao: "25 de setembro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3458,16 +3540,18 @@ window.datasetCategoria = [
   {
     id: 159,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Hashtag Treinamentos",
- 
     curso: "Jornada Python™ da Hashtag",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-09-18",
-
     dataConclusao: "18 de setembro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3483,16 +3567,18 @@ window.datasetCategoria = [
   {
     id: 158,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Fundação Escola de Governo",
- 
     curso: "Excel Nível III",
-    
     cargaHoraria: "20 h",
-
     conclusaoISO: "2025-09-17",
-
     dataConclusao: "17 de setembro de 2025",
-
     codigo: "nIRqhvKy1J",
 
     mostrarCopiar: false,
@@ -3508,16 +3594,18 @@ window.datasetCategoria = [
   {
     id: 157,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Fundação Escola de Governo",
- 
     curso: "Excel Nível II",
-    
     cargaHoraria: "20 h",
-
     conclusaoISO: "2025-09-17",
-
     dataConclusao: "17 de setembro de 2025",
-
     codigo: "DaOL4gEAtp",
 
     mostrarCopiar: false,
@@ -3533,16 +3621,18 @@ window.datasetCategoria = [
   {
     id: 156,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Fundação Escola de Governo",
- 
     curso: "Excel Nível I",
-    
     cargaHoraria: "20 h",
-
     conclusaoISO: "2025-09-13",
-
     dataConclusao: "13 de setembro de 2025",
-
     codigo: "psjSS5ukMa",
 
     mostrarCopiar: false,
@@ -3558,16 +3648,18 @@ window.datasetCategoria = [
   {
     id: 155,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Fundação Escola de Governo",
- 
     curso: "Power BI Avançado",
-    
     cargaHoraria: "40 h",
-
     conclusaoISO: "2025-09-11",
-
     dataConclusao: "11 de setembro de 2025",
-
     codigo: "T6oQcAtXAt",
 
     mostrarCopiar: false,
@@ -3583,16 +3675,18 @@ window.datasetCategoria = [
   {
     id: 154,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Instituto Municipal de Administração Pública - Curitiba",
- 
     curso: "Power BI II",
-    
     cargaHoraria: "32 h",
-
     conclusaoISO: "2025-09-06",
-
     dataConclusao: "06 de setembro de 2025",
-
     codigo: "68bee9013dea8",
 
     mostrarCopiar: true,
@@ -3608,16 +3702,18 @@ window.datasetCategoria = [
   {
     id: 153,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Instituto Municipal de Administração Pública - Curitiba",
- 
     curso: "Power BI I",
-    
     cargaHoraria: "20 h",
-
     conclusaoISO: "2025-09-05",
-
     dataConclusao: "05 de setembro de 2025",
-
     codigo: "68bc1c37e3a87",
 
     mostrarCopiar: true,
@@ -3633,16 +3729,18 @@ window.datasetCategoria = [
   {
     id: 152,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Fundação Escola de Governo",
- 
     curso: "Power BI Básico",
-    
     cargaHoraria: "20 h",
-
     conclusaoISO: "2025-09-02",
-
     dataConclusao: "02 de setembro de 2025",
-
     codigo: "kcOoBHkhDi",
 
     mostrarCopiar: false,
@@ -3658,16 +3756,18 @@ window.datasetCategoria = [
   {
     id: 151,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "AUniversity",
- 
     curso: "Power BI: O que você precisa saber para conseguir seu estágio",
-    
     cargaHoraria: "5 h",
-
     conclusaoISO: "2025-09-02",
-
     dataConclusao: "02 de setembro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3680,16 +3780,18 @@ window.datasetCategoria = [
   {
     id: 150,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "EaD Excelência Consultoria & Educação",
- 
     curso: "Introdução ao Power BI",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-09-02",
-
     dataConclusao: "02 de setembro de 2025",
-
     codigo: "3fdm09",
 
     mostrarCopiar: false,
@@ -3705,16 +3807,18 @@ window.datasetCategoria = [
   {
     id: 149,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Imersão Excel Automate",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-08-28",
-
     dataConclusao: "28 de agosto de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3727,16 +3831,18 @@ window.datasetCategoria = [
   {
     id: 148,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Romual Office",
- 
     curso: "Power BI",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-08-22",
-
     dataConclusao: "22 de agosto de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3749,16 +3855,18 @@ window.datasetCategoria = [
   {
     id: 147,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Kultivi",
- 
     curso: "Power BI Descomplicado",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-08-21",
-
     dataConclusao: "21 de agosto de 2025",
-
     codigo: "13ebc3d0-7b20-4cef-aba8-f531198ca376",
 
     mostrarCopiar: false,
@@ -3771,16 +3879,18 @@ window.datasetCategoria = [
   {
     id: 146,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Simplifica Excel Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-08-07",
-
     dataConclusao: "07 de agosto de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3793,16 +3903,18 @@ window.datasetCategoria = [
   {
     id: 145,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Instituto Federal Sul-Rio-Grandense",
- 
     curso: "Introdução à Análise Exploratória de Dados com Inteligência Artificial",
-    
     cargaHoraria: "20 h",
-
     conclusaoISO: "2025-07-18",
-
     dataConclusao: "18 de julho de 2025",
-
     codigo: "687ac47b-0e30-4f43-b2d6-534e0a00c840",
 
     mostrarCopiar: false,
@@ -3818,16 +3930,18 @@ window.datasetCategoria = [
   {
     id: 144,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Cursa",
- 
     curso: "Analista de Dados Python™ | NumPy | Pandas",
-    
     cargaHoraria: "12 h",
-
     conclusaoISO: "2025-07-13",
-
     dataConclusao: "13 de julho de 2025",
-
     codigo: "ae50f1b555",
 
     mostrarCopiar: false,
@@ -3843,16 +3957,18 @@ window.datasetCategoria = [
   {
     id: 143,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Power Excel Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-07-10",
-
     dataConclusao: "10 de julho de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3865,16 +3981,18 @@ window.datasetCategoria = [
   {
     id: 142,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Imersão Excel Automate",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-06-12",
-
     dataConclusao: "12 de junho de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3887,16 +4005,18 @@ window.datasetCategoria = [
   {
     id: 141,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Hashtag Treinamentos",
- 
     curso: "Intensivão de Análise de Dados",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-06-12",
-
     dataConclusao: "12 de junho de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3912,16 +4032,18 @@ window.datasetCategoria = [
   {
     id: 140,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Simplifica Python™ Express",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2025-06-11",
-
     dataConclusao: "11 de junho de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3934,16 +4056,18 @@ window.datasetCategoria = [
   {
     id: 139,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Aprenda Mais",
- 
     curso: "Estrutura de Dados",
-    
     cargaHoraria: "20 h",
-
     conclusaoISO: "2025-06-06",
-
     dataConclusao: "06 de junho de 2025",
-
     codigo: "6843089f-896c-42eb-affd-303aac1f032a",
 
     mostrarCopiar: false,
@@ -3959,16 +4083,18 @@ window.datasetCategoria = [
   {
     id: 138,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Power Excel Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-06-05",
-
     dataConclusao: "05 de junho de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -3981,16 +4107,18 @@ window.datasetCategoria = [
   {
     id: 137,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Hashtag Treinamentos",
- 
     curso: "Jornada Python™ da Hashtag",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-06-05",
-
     dataConclusao: "05 de junho de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4006,16 +4134,18 @@ window.datasetCategoria = [
   {
     id: 136,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Instituto Federal Mato Grosso do Sul",
- 
     curso: "Introdução à Ciência de Dados",
-    
     cargaHoraria: "45 h",
-
     conclusaoISO: "2025-06-02",
-
     dataConclusao: "02 de junho de 2025",
-
     codigo: "683de066-2d00-4636-a258-9bbf0a01004c",
 
     mostrarCopiar: false,
@@ -4031,16 +4161,18 @@ window.datasetCategoria = [
   {
     id: 135,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Comunidade Data Driven",
- 
     curso: "Imersão Power BI",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-05-29",
-
     dataConclusao: "29 de maio de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4053,16 +4185,18 @@ window.datasetCategoria = [
   {
     id: 134,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simpli Learn",
- 
     curso: "Power BI Data Modelling Basics Tutorial Course",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-05-28",
-
     dataConclusao: "28 de maio de 2025",
-
     codigo: "8400989",
 
     mostrarCopiar: false,
@@ -4075,16 +4209,18 @@ window.datasetCategoria = [
   {
     id: 133,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simpli Learn",
- 
     curso: "Power BI for Beginners",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2025-05-27",
-
     dataConclusao: "27 de maio de 2025",
-
     codigo: "8396480",
 
     mostrarCopiar: false,
@@ -4097,16 +4233,18 @@ window.datasetCategoria = [
   {
     id: 132,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "FM2S Educação e Consultoria",
- 
     curso: "Power BI",
-    
     cargaHoraria: "17 h",
-
     conclusaoISO: "2025-05-18",
-
     dataConclusao: "18 de maio de 2025",
-
     codigo: "5f5f0112d73c5a73d3ec189307fa9a061cf14881",
 
     mostrarCopiar: false,
@@ -4122,16 +4260,18 @@ window.datasetCategoria = [
   {
     id: 131,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Imersão Excel Automate",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-05-08",
-
     dataConclusao: "08 de maio de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4144,16 +4284,18 @@ window.datasetCategoria = [
   {
     id: 130,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simpli Learn",
- 
     curso: "Getting Started with Apache™ Hadoop",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-04-17",
-
     dataConclusao: "17 de abril de 2025",
-
     codigo: "8206950",
 
     mostrarCopiar: false,
@@ -4166,16 +4308,18 @@ window.datasetCategoria = [
   {
     id: 129,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simpli Learn",
- 
     curso: "Apache™ Spark Beginners Course",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2025-04-13",
-
     dataConclusao: "13 de abril de 2025",
-
     codigo: "8185917",
 
     mostrarCopiar: false,
@@ -4188,16 +4332,18 @@ window.datasetCategoria = [
   {
     id: 128,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Simplifica Excel Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-04-10",
-
     dataConclusao: "10 de abril de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4210,16 +4356,18 @@ window.datasetCategoria = [
   {
     id: 127,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Empowerdata",
- 
     curso: "Acelerador de Carreira com Power BI",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-04-10",
-
     dataConclusao: "10 de abril de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4232,16 +4380,18 @@ window.datasetCategoria = [
   {
     id: 126,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Xperiun | Data Analytics",
- 
     curso: "Linguagem DAX Essencial",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2025-04-07",
-
     dataConclusao: "07 de abril de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4254,16 +4404,18 @@ window.datasetCategoria = [
   {
     id: 125,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Power BI",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-03-13",
-
     dataConclusao: "13 de março de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4276,16 +4428,18 @@ window.datasetCategoria = [
   {
     id: 124,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Simplifica Power BI Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-03-13",
-
     dataConclusao: "13 de março de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4298,16 +4452,18 @@ window.datasetCategoria = [
   {
     id: 123,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "FIAP - Centro Universitário",
- 
     curso: "Business Intelligence",
-    
     cargaHoraria: "40 h",
-
     conclusaoISO: "2025-02-27",
-
     dataConclusao: "27 de fevereiro de 2025",
-
     codigo: "71555f1cd0d212c3d7dc5dc3b2b67659",
 
     mostrarCopiar: false,
@@ -4323,16 +4479,18 @@ window.datasetCategoria = [
   {
     id: 122,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Gran Faculdade",
- 
     curso: "Hashtag Treinamentos",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-02-20",
-
     dataConclusao: "20 de fevereiro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4348,16 +4506,18 @@ window.datasetCategoria = [
   {
     id: 121,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Gran Faculdade",
- 
     curso: "Análise de Dados e Inteligência de Negócios",
-    
     cargaHoraria: "30 h",
-
     conclusaoISO: "2025-02-17",
-
     dataConclusao: "17 de fevereiro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4370,16 +4530,18 @@ window.datasetCategoria = [
   {
     id: 120,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Comunidade Data Driven",
- 
     curso: "Imersão Power BI",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-02-16",
-
     dataConclusao: "16 de fevereiro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4392,16 +4554,18 @@ window.datasetCategoria = [
   {
     id: 119,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Power Excel Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-02-13",
-
     dataConclusao: "13 de fevereiro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4414,16 +4578,18 @@ window.datasetCategoria = [
   {
     id: 118,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Imersão Excel Automate",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2025-02-06",
-
     dataConclusao: "06 de fevereiro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4436,16 +4602,18 @@ window.datasetCategoria = [
   {
     id: 117,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Simplifica Python™ Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-01-30",
-
     dataConclusao: "30 de janeiro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4458,16 +4626,18 @@ window.datasetCategoria = [
   {
     id: 116,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Simplifica Excel Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-01-09",
-
     dataConclusao: "09 de janeiro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4480,16 +4650,18 @@ window.datasetCategoria = [
   {
     id: 115,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Hashtag Treinamentos",
- 
     curso: "Intensivão de Análise de Dados",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2024-12-19",
-
     dataConclusao: "19 de dezembro de 2024",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4505,16 +4677,18 @@ window.datasetCategoria = [
   {
     id: 114,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Xperiun | Data Analytics",
- 
     curso: "Missão Zero: Bootcamp Power BI",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2024-12-08",
-
     dataConclusao: "08 de dezembro de 2024",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4527,16 +4701,18 @@ window.datasetCategoria = [
   {
     id: 113,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Power Excel Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2024-12-05",
-
     dataConclusao: "05 de dezembro de 2024",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4549,16 +4725,18 @@ window.datasetCategoria = [
   {
     id: 112,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Xperiun | Data Analytics",
- 
     curso: "Data Warehouse Week",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2024-11-21",
-
     dataConclusao: "21 de novembro de 2024",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4571,16 +4749,18 @@ window.datasetCategoria = [
   {
     id: 111,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Simplifica Treinamentos",
- 
     curso: "Simplifica Python™ Express",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2024-11-21",
-
     dataConclusao: "21 de novembro de 2024",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4593,16 +4773,18 @@ window.datasetCategoria = [
   {
     id: 110,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Instituto Federal Espírito Santo",
- 
     curso: "Estatística com R",
-    
     cargaHoraria: "30 h",
-
     conclusaoISO: "2024-11-14",
-
     dataConclusao: "14 de novembro de 2024",
-
     codigo: "6735e711-1df0-4a38-b2a6-4b9dac1a2c07",
 
     mostrarCopiar: true,
@@ -4618,16 +4800,18 @@ window.datasetCategoria = [
   {
     id: 109,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Instituto Federal Minas Gerais",
- 
     curso: "Fundamentos de Power BI",
-    
     cargaHoraria: "40 h",
-
     conclusaoISO: "2024-11-10",
-
     dataConclusao: "10 de novembro de 2024",
-
     codigo: "67306eaa-ede8-4c0e-8cf5-0c17ac140047",
 
     mostrarCopiar: true,
@@ -4643,16 +4827,18 @@ window.datasetCategoria = [
   {
     id: 108,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Mago dos Dados",
- 
     curso: "Qlik Sense",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2024-11-09",
-
     dataConclusao: "09 de novembro de 2024",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4665,16 +4851,18 @@ window.datasetCategoria = [
   {
     id: 107,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Escola Nacional de Administração Pública - ENAP",
- 
     curso: "Estatística",
-    
     cargaHoraria: "20 h",
-
     conclusaoISO: "2024-11-08",
-
     dataConclusao: "08 de novembro de 2024",
-
     codigo: "qRbI14630796Uvm6",
 
     mostrarCopiar: false,
@@ -4690,16 +4878,18 @@ window.datasetCategoria = [
   {
     id: 106,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Dashboards no Power BI",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2024-11-07",
-
     dataConclusao: "07 de novembro de 2024",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -4712,16 +4902,18 @@ window.datasetCategoria = [
   {
     id: 105,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Cursa",
- 
     curso: "Linguagem R",
-    
     cargaHoraria: "12 h",
-
     conclusaoISO: "2024-11-06",
-
     dataConclusao: "06 de novembro de 2024",
-
     codigo: "6c2bfd5fea",
 
     mostrarCopiar: false,
@@ -4737,16 +4929,18 @@ window.datasetCategoria = [
   {
     id: 104,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Escola Nacional de Administração Pública - ENAP",
- 
     curso: "Visualização de Dados Aplicada à Transformação Digital",
-    
     cargaHoraria: "25 h",
-
     conclusaoISO: "2024-11-04",
-
     dataConclusao: "04 de novembro de 2024",
-
     codigo: "uFYW14630809rvdz",
 
     mostrarCopiar: false,
@@ -4762,16 +4956,18 @@ window.datasetCategoria = [
   {
     id: 103,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Cursa",
- 
     curso: "Google Data Studio",
-    
     cargaHoraria: "32 h",
-
     conclusaoISO: "2024-10-31",
-
     dataConclusao: "31 de outubro de 2024",
-
     codigo: "cf91af79b9",
 
     mostrarCopiar: false,
@@ -4787,16 +4983,18 @@ window.datasetCategoria = [
   {
     id: 102,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Escola Nacional de Administração Pública - ENAP",
- 
     curso: "Análise de Dados como Suporte à Tomada de Decisão",
-    
     cargaHoraria: "30 h",
-
     conclusaoISO: "2024-10-30",
-
     dataConclusao: "30 de outubro de 2024",
-
     codigo: "1tJe14630738Kmwj",
 
     mostrarCopiar: false,
@@ -4812,16 +5010,18 @@ window.datasetCategoria = [
   {
     id: 101,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Data Science Academy",
- 
     curso: "Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Nível Intermediário)",
-    
     cargaHoraria: "72 h",
-
     conclusaoISO: "2024-10-30",
-
     dataConclusao: "30 de outubro de 2024",
-
     codigo: "672215dd1b82d3b22502b349",
 
     mostrarCopiar: false,
