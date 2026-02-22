@@ -259,6 +259,12 @@ document.addEventListener("click", e => {
     secao: secaoAtiva
   };
 
+  const contentEl = document.getElementById("section-content");
+  if (contentEl) {
+    contentEl.classList.remove("is-active");
+    void contentEl.offsetHeight; // força reflow
+  }
+
   animateViewTransition(() => {
     // SUBTÍTULO — acrescenta apenas a categoria
     const titleEl = document.getElementById("section-title");
