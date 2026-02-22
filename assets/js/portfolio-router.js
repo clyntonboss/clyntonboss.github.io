@@ -251,7 +251,7 @@ document.addEventListener("click", e => {
   e.preventDefault();
 
   const categoryKey = link.dataset.category;
-  const category = categoryMaps[secaoAtiva]?.[categoryKey];
+  const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
 
   estadoSubnivel = {
