@@ -251,14 +251,7 @@ document.addEventListener("click", e => {
   e.preventDefault();
 
   const categoryKey = link.dataset.category;
-  
-  // Mapeamento seguro das categorias por seção
-  const categoryMaps = {
-    formacoesComplementares: categoriasFormacoesComplementares,
-    projetos50: categoriasProjetos50
-  };
-  
-  const category = categoryMaps[secaoAtiva]?.[categoryKey];
+  const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
 
   estadoSubnivel = {
@@ -271,15 +264,6 @@ document.addEventListener("click", e => {
     contentEl.classList.remove("is-active");
     void contentEl.offsetHeight; // força reflow
   }
-
-  // 🔄 LIMPA TODAS AS CATEGORIAS VISUAIS ANTERIORES
-  const allCategoryBoxes = document.querySelectorAll(".title-category");
-  allCategoryBoxes.forEach(box => {
-    box.classList.remove("category-enter", "category-exit");
-    box.classList.add("hidden");
-    const nameEl = box.querySelector(".category-name");
-    if (nameEl) nameEl.textContent = "";
-  });
 
   animateViewTransition(() => {
     // SUBTÍTULO — acrescenta apenas a categoria
@@ -297,10 +281,14 @@ document.addEventListener("click", e => {
       }
     
       if (categoryBox && categoryName) {
-        categoryBox.classList.remove("hidden", "category-exit");
-        categoryBox.offsetHeight; // força reflow
-        categoryBox.classList.add("category-enter");
         categoryName.textContent = category.title;
+      
+        categoryBox.classList.remove("hidden", "category-exit");
+      
+        // força estado inicial fora da tela
+        categoryBox.offsetHeight;
+      
+        categoryBox.classList.add("category-enter");
       }
     }
   
