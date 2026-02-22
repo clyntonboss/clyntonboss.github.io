@@ -5,6 +5,11 @@ let estadoSubnivel = {
 
 let secaoAtiva = null;
 
+const categoryMaps = {
+  formacoesComplementares: categoriasFormacoesComplementares,
+  projetos50: categoriasProjetos50
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   const menuLinks = document.querySelectorAll("[data-section]");
   const titleEl = document.getElementById("section-title");
@@ -251,11 +256,6 @@ document.addEventListener("click", e => {
   e.preventDefault();
 
   const categoryKey = link.dataset.category;
-  const categoryMaps = {
-    formacoesComplementares: categoriasFormacoesComplementares,
-    projetos50: categoriasProjetos50
-  };
-  
   const category = categoryMaps[secaoAtiva]?.[categoryKey];
   if (!category) return;
 
