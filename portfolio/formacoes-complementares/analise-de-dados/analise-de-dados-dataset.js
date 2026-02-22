@@ -2330,7 +2330,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/2DUEEVCK.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2355,7 +2365,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/RKEFFEMI.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2380,7 +2400,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/TJ7LIIID.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2405,7 +2435,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/2FT7OFXM.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2430,7 +2470,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/OJKK5TE8.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2455,7 +2505,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/VTKY1X14.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2480,7 +2540,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/QVN7XJWR.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2505,7 +2575,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/1TKINRZ8.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2530,7 +2610,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/DJXQ5UOJ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2555,7 +2645,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/BHNK3MQD.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2580,7 +2680,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/LUB5BH8Y.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2605,7 +2715,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/R1AQCKMB.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2630,7 +2750,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/IXN8IDYO.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2655,7 +2785,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/WTZLULAS.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2680,7 +2820,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/CLKCTMEN.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2705,7 +2855,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/WJL1SVZF.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2730,7 +2890,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/LYIOJKNQ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2755,7 +2925,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/CIWDR2XH.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2780,7 +2960,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/NUORYDRD.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2805,7 +2995,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/VH7KKVF5.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2830,7 +3030,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/N1XZQCAJ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2855,7 +3065,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/0NRUJMED.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2880,7 +3100,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/W6UHFSMK.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2905,7 +3135,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/3PXGLZYD.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2930,7 +3170,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/RFX18W5R.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2955,7 +3205,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/XOZZM8SJ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -2980,7 +3240,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/M3QCEGBT.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3005,7 +3275,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/MMI96OWW.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3030,7 +3310,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/GIV3OFCI.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3055,7 +3345,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/UHR6E3EG.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3080,7 +3380,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3105,7 +3415,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3127,7 +3447,17 @@ window.datasetCategoria = [
     dataConclusao: "23 de outubro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3152,7 +3482,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://ead.proepi.org.br/ead/mod/customcert/verify_certificate.php",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3177,7 +3517,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/0d016abf59",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3202,7 +3552,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/08b05ab7aa",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3227,7 +3587,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3249,7 +3619,17 @@ window.datasetCategoria = [
     dataConclusao: "09 de outubro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3271,7 +3651,17 @@ window.datasetCategoria = [
     dataConclusao: "08 de outubro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3296,7 +3686,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://unieducar.org.br/consultar-certificado?numero_certificado=202509283801637.1759075088",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3318,7 +3718,17 @@ window.datasetCategoria = [
     dataConclusao: "25 de setembro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3343,7 +3753,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=18%2F09%2F2025&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3368,7 +3788,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=nIRqhvKy1J&qrcode=1",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3393,7 +3823,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=DaOL4gEAtp&qrcode=1",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3418,7 +3858,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=psjSS5ukMa&qrcode=1",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3443,7 +3893,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=T6oQcAtXAt&qrcode=1",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3468,7 +3928,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://aprendere.curitiba.pr.gov.br/validar-certificado/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3493,7 +3963,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://aprendere.curitiba.pr.gov.br/validar-certificado/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3518,7 +3998,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=kcOoBHkhDi&qrcode=1",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3540,7 +4030,17 @@ window.datasetCategoria = [
     dataConclusao: "02 de setembro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3565,7 +4065,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://ead.consultoriaexcelencia.com.br/certificate/3fdm09/2025-09-02",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3587,7 +4097,17 @@ window.datasetCategoria = [
     dataConclusao: "28 de agosto de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3609,7 +4129,17 @@ window.datasetCategoria = [
     dataConclusao: "22 de agosto de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3631,7 +4161,17 @@ window.datasetCategoria = [
     dataConclusao: "21 de agosto de 2025",
     codigo: "13ebc3d0-7b20-4cef-aba8-f531198ca376",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3653,7 +4193,17 @@ window.datasetCategoria = [
     dataConclusao: "07 de agosto de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3678,7 +4228,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3703,7 +4263,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/ae50f1b555",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3725,7 +4295,17 @@ window.datasetCategoria = [
     dataConclusao: "10 de julho de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3747,7 +4327,17 @@ window.datasetCategoria = [
     dataConclusao: "12 de junho de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3772,7 +4362,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Análise+de+Dados&dtcf=12%2F06%2F2025&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3794,7 +4394,17 @@ window.datasetCategoria = [
     dataConclusao: "11 de junho de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3819,7 +4429,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://aprendamais.mec.gov.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3841,7 +4461,17 @@ window.datasetCategoria = [
     dataConclusao: "05 de junho de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3866,7 +4496,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=05%2F06%2F2025&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3891,7 +4531,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursoslivres.ifms.edu.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3913,7 +4563,17 @@ window.datasetCategoria = [
     dataConclusao: "29 de maio de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3935,7 +4595,17 @@ window.datasetCategoria = [
     dataConclusao: "28 de maio de 2025",
     codigo: "8400989",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3957,7 +4627,17 @@ window.datasetCategoria = [
     dataConclusao: "27 de maio de 2025",
     codigo: "8396480",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -3982,7 +4662,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://ead.fm2s.com.br/verify/5f5f0112d73c5a73d3ec189307fa9a061cf14881",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4004,7 +4694,17 @@ window.datasetCategoria = [
     dataConclusao: "08 de maio de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4026,7 +4726,17 @@ window.datasetCategoria = [
     dataConclusao: "17 de abril de 2025",
     codigo: "8206950",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4048,7 +4758,17 @@ window.datasetCategoria = [
     dataConclusao: "13 de abril de 2025",
     codigo: "8185917",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4070,7 +4790,17 @@ window.datasetCategoria = [
     dataConclusao: "10 de abril de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4092,7 +4822,17 @@ window.datasetCategoria = [
     dataConclusao: "10 de abril de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4114,7 +4854,17 @@ window.datasetCategoria = [
     dataConclusao: "07 de abril de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4136,7 +4886,17 @@ window.datasetCategoria = [
     dataConclusao: "13 de março de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4158,7 +4918,17 @@ window.datasetCategoria = [
     dataConclusao: "13 de março de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4183,7 +4953,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=71555f1cd0d212c3d7dc5dc3b2b67659&action=view",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4208,7 +4988,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Power+BI&dtcf=20%2F02%2F2025&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4230,7 +5020,17 @@ window.datasetCategoria = [
     dataConclusao: "17 de fevereiro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4252,7 +5052,17 @@ window.datasetCategoria = [
     dataConclusao: "16 de fevereiro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4274,7 +5084,17 @@ window.datasetCategoria = [
     dataConclusao: "13 de fevereiro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4296,7 +5116,17 @@ window.datasetCategoria = [
     dataConclusao: "06 de fevereiro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4318,7 +5148,17 @@ window.datasetCategoria = [
     dataConclusao: "30 de janeiro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4340,7 +5180,17 @@ window.datasetCategoria = [
     dataConclusao: "09 de janeiro de 2025",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4365,7 +5215,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Análise+de+Dados&dtcf=19%2F12%2F2024&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4387,7 +5247,17 @@ window.datasetCategoria = [
     dataConclusao: "08 de dezembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4409,7 +5279,17 @@ window.datasetCategoria = [
     dataConclusao: "05 de dezembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4431,7 +5311,17 @@ window.datasetCategoria = [
     dataConclusao: "21 de novembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4453,7 +5343,17 @@ window.datasetCategoria = [
     dataConclusao: "21 de novembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4478,7 +5378,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4503,7 +5413,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4525,7 +5445,17 @@ window.datasetCategoria = [
     dataConclusao: "09 de novembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4550,7 +5480,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4572,7 +5512,17 @@ window.datasetCategoria = [
     dataConclusao: "07 de novembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4597,7 +5547,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/6c2bfd5fea",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4622,7 +5582,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4647,7 +5617,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/cf91af79b9",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4672,7 +5652,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4697,7 +5687,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mycourse.app/gnGgskSmNZh1CMiDA",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4722,7 +5722,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mycourse.app/5Rjaw6BrZdbF9fo19",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4747,7 +5757,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/ed7018a7ba",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4769,7 +5789,17 @@ window.datasetCategoria = [
     dataConclusao: "29 de outubro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4794,7 +5824,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mycourse.app/u7DQ5gpXpC8kGoqB9",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4816,7 +5856,17 @@ window.datasetCategoria = [
     dataConclusao: "25 de outubro de 2024",
     codigo: "e62989dc7c",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4838,7 +5888,17 @@ window.datasetCategoria = [
     dataConclusao: "23 de outubro de 2024",
     codigo: "ZKrT1oBa",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4860,7 +5920,17 @@ window.datasetCategoria = [
     dataConclusao: "22 de outubro de 2024",
     codigo: "6717424c655fa79f900de968",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4882,7 +5952,17 @@ window.datasetCategoria = [
     dataConclusao: "22 de outubro de 2024",
     codigo: "vlwCAEnr",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4904,7 +5984,17 @@ window.datasetCategoria = [
     dataConclusao: "22 de outubro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4926,7 +6016,17 @@ window.datasetCategoria = [
     dataConclusao: "21 de outubro de 2024",
     codigo: "671684a54cd9126eb104c038",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4948,7 +6048,17 @@ window.datasetCategoria = [
     dataConclusao: "21 de outubro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4970,7 +6080,17 @@ window.datasetCategoria = [
     dataConclusao: "20 de outubro de 2024",
     codigo: "1386a3a8-d63c-4f8d-9159-fddf5fe72692",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -4992,7 +6112,17 @@ window.datasetCategoria = [
     dataConclusao: "20 de outubro de 2024",
     codigo: "9d1crvad",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5014,7 +6144,17 @@ window.datasetCategoria = [
     dataConclusao: "18 de outubro de 2024",
     codigo: "lZefRw7n",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5039,7 +6179,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/8c2b646fc8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5061,7 +6211,17 @@ window.datasetCategoria = [
     dataConclusao: "17 de outubro de 2024",
     codigo: "67112e5b7ea891ce040a20d4",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5086,7 +6246,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5108,7 +6278,17 @@ window.datasetCategoria = [
     dataConclusao: "14 de outubro de 2024",
     codigo: "pGOFeP6D",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5130,7 +6310,17 @@ window.datasetCategoria = [
     dataConclusao: "12 de outubro de 2024",
     codigo: "2c120173-5769-42ce-bb0a-da71807eb60d",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5152,7 +6342,17 @@ window.datasetCategoria = [
     dataConclusao: "12 de outubro de 2024",
     codigo: "ALDfZl6n",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5174,7 +6374,17 @@ window.datasetCategoria = [
     dataConclusao: "11 de outubro de 2024",
     codigo: "WPvCvpvY",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5196,7 +6406,17 @@ window.datasetCategoria = [
     dataConclusao: "10 de outubro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5218,7 +6438,17 @@ window.datasetCategoria = [
     dataConclusao: "10 de outubro de 2024",
     codigo: "OA-2024-1010000601943",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5240,7 +6470,17 @@ window.datasetCategoria = [
     dataConclusao: "09 de outubro de 2024",
     codigo: "OA-2024-1009000599969",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5265,7 +6505,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mycourse.app/QxEr3Gt9VAaqJ43RA",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5290,7 +6540,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://studion-sescoop.dotgroup.com.br/external/validate-certificate",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5312,7 +6572,17 @@ window.datasetCategoria = [
     dataConclusao: "06 de outubro de 2024",
     codigo: "IgjXSTjEAB",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5334,7 +6604,17 @@ window.datasetCategoria = [
     dataConclusao: "06 de outubro de 2024",
     codigo: "67020256b81f4604ae041db8",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5359,7 +6639,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://unieducar.org.br/consultar-certificado?numero_certificado=202410043639908.1728023562",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5384,7 +6674,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mycourse.app/8cYDGQcbvD42wc5z5",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5406,7 +6706,17 @@ window.datasetCategoria = [
     dataConclusao: "29 de setembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5428,7 +6738,17 @@ window.datasetCategoria = [
     dataConclusao: "29 de setembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5450,7 +6770,17 @@ window.datasetCategoria = [
     dataConclusao: "26 de setembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5472,7 +6802,17 @@ window.datasetCategoria = [
     dataConclusao: "19 de setembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5494,7 +6834,17 @@ window.datasetCategoria = [
     dataConclusao: "12 de setembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5516,7 +6866,17 @@ window.datasetCategoria = [
     dataConclusao: "05 de setembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5538,7 +6898,17 @@ window.datasetCategoria = [
     dataConclusao: "05 de setembro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5560,7 +6930,17 @@ window.datasetCategoria = [
     dataConclusao: "28 de agosto de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5585,7 +6965,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mycourse.app/WjDZph7NvwKCZbVV6",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5607,7 +6997,17 @@ window.datasetCategoria = [
     dataConclusao: "25 de agosto de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5629,7 +7029,17 @@ window.datasetCategoria = [
     dataConclusao: "22 de agosto de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5651,7 +7061,17 @@ window.datasetCategoria = [
     dataConclusao: "08 de agosto de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5673,7 +7093,17 @@ window.datasetCategoria = [
     dataConclusao: "14 de junho de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5695,7 +7125,17 @@ window.datasetCategoria = [
     dataConclusao: "13 de junho de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5717,7 +7157,17 @@ window.datasetCategoria = [
     dataConclusao: "06 de junho de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5742,7 +7192,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://unieducar.org.br/consultar-certificado?numero_certificado=202406043582005.1717470357",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5764,7 +7224,17 @@ window.datasetCategoria = [
     dataConclusao: "02 de junho de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5789,7 +7259,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5811,7 +7291,17 @@ window.datasetCategoria = [
     dataConclusao: "30 de maio de 2024",
     codigo: "Y2VydGlmaWNhdGVfNjl5Ml8xNzc%3D",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5836,7 +7326,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5858,7 +7358,17 @@ window.datasetCategoria = [
     dataConclusao: "28 de maio de 2024",
     codigo: "Y2VydGlmaWNhdGVfNjI5MI8xNzU%3D",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5880,7 +7390,17 @@ window.datasetCategoria = [
     dataConclusao: "27 de maio de 2024",
     codigo: "Y2VydGlmaWNhdGVfNil5MI8xNzY%3D",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5902,7 +7422,17 @@ window.datasetCategoria = [
     dataConclusao: "23 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5924,7 +7454,17 @@ window.datasetCategoria = [
     dataConclusao: "20 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5946,7 +7486,17 @@ window.datasetCategoria = [
     dataConclusao: "19 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5971,7 +7521,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Semana+do+Excel&dtcf=16%2F05%2F2024&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -5993,7 +7553,17 @@ window.datasetCategoria = [
     dataConclusao: "09 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6015,7 +7585,17 @@ window.datasetCategoria = [
     dataConclusao: "09 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6037,7 +7617,17 @@ window.datasetCategoria = [
     dataConclusao: "09 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6059,7 +7649,17 @@ window.datasetCategoria = [
     dataConclusao: "04 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6081,7 +7681,17 @@ window.datasetCategoria = [
     dataConclusao: "04 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6103,7 +7713,17 @@ window.datasetCategoria = [
     dataConclusao: "04 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6125,7 +7745,17 @@ window.datasetCategoria = [
     dataConclusao: "02 de maio de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6150,7 +7780,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/d003da6f92",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6172,7 +7812,17 @@ window.datasetCategoria = [
     dataConclusao: "28 de abril de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6194,7 +7844,17 @@ window.datasetCategoria = [
     dataConclusao: "27 de abril de 2024",
     codigo: "341152",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6219,7 +7879,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Power+BI&dtcf=18%2F04%2F2024&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6241,7 +7911,17 @@ window.datasetCategoria = [
     dataConclusao: "18 de abril de 2024",
     codigo: "ID1l2CW3o",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6263,7 +7943,17 @@ window.datasetCategoria = [
     dataConclusao: "11 de abril de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6285,7 +7975,17 @@ window.datasetCategoria = [
     dataConclusao: "11 de abril de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6307,7 +8007,17 @@ window.datasetCategoria = [
     dataConclusao: "04 de abril de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6332,7 +8042,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursos.comunidadedashmaker.com.br/verify/96cc26aa3fa7c4a62cee25c835d1119e7ead3334",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6354,7 +8074,17 @@ window.datasetCategoria = [
     dataConclusao: "31 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6379,7 +8109,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6404,7 +8144,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6429,7 +8179,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6454,7 +8214,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6479,7 +8249,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://www.ev.org.br/validar-certificado/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6501,7 +8281,17 @@ window.datasetCategoria = [
     dataConclusao: "24 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6523,7 +8313,17 @@ window.datasetCategoria = [
     dataConclusao: "22 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6545,7 +8345,17 @@ window.datasetCategoria = [
     dataConclusao: "15 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6567,7 +8377,17 @@ window.datasetCategoria = [
     dataConclusao: "14 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6589,7 +8409,17 @@ window.datasetCategoria = [
     dataConclusao: "14 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6611,7 +8441,17 @@ window.datasetCategoria = [
     dataConclusao: "07 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6636,7 +8476,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=07%2F03%2F2024&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6658,7 +8508,17 @@ window.datasetCategoria = [
     dataConclusao: "03 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6680,7 +8540,17 @@ window.datasetCategoria = [
     dataConclusao: "28 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6705,7 +8575,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://sites.preditiva.ai/certificados/um9nw6lyaw8gumlizwlybw-0",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6730,7 +8610,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Power+BI&dtcf=22%2F02%2F2024&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6752,7 +8642,17 @@ window.datasetCategoria = [
     dataConclusao: "21 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6774,7 +8674,17 @@ window.datasetCategoria = [
     dataConclusao: "08 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6796,7 +8706,17 @@ window.datasetCategoria = [
     dataConclusao: "08 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6818,7 +8738,17 @@ window.datasetCategoria = [
     dataConclusao: "08 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6840,7 +8770,17 @@ window.datasetCategoria = [
     dataConclusao: "02 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6862,7 +8802,17 @@ window.datasetCategoria = [
     dataConclusao: "02 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6884,7 +8834,17 @@ window.datasetCategoria = [
     dataConclusao: "31 de janeiro de 2024",
     codigo: "ID1l2CW3o",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6906,7 +8866,17 @@ window.datasetCategoria = [
     dataConclusao: "25 de janeiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6928,7 +8898,17 @@ window.datasetCategoria = [
     dataConclusao: "25 de janeiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6950,7 +8930,17 @@ window.datasetCategoria = [
     dataConclusao: "25 de janeiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -6972,6 +8962,16 @@ window.datasetCategoria = [
     dataConclusao: "11 de janeiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   }
 ];
