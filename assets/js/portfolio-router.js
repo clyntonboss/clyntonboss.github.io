@@ -251,15 +251,17 @@ document.addEventListener("click", e => {
   e.preventDefault();
 
   const categoryKey = link.dataset.category;
-  const activeSection = sections[secaoAtiva];
-  const categorySource = activeSection?.categories;
-  
-  if (!categorySource) return;
-  
-  const category = categorySource[categoryKey];
 
+  // NOVO
+  const categoryMaps = {
+    formacoesComplementares: categoriasFormacoesComplementares,
+    projetos50: categoriasProjetos50
+  };
+
+  const category = categoryMaps[secaoAtiva]?.[categoryKey];
   if (!category) return;
 
+  // Atualiza o estado do subnível
   estadoSubnivel = {
     ativa: true,
     secao: secaoAtiva
