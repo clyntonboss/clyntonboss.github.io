@@ -229,6 +229,8 @@ window.datasetCategoria = [
   {
     id: 260,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.01.15 · Jornada de Dados · Imersão Jornada de Dados.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -242,11 +244,7 @@ window.datasetCategoria = [
     conclusaoISO: "2026-01-15",
     dataConclusao: "15 de janeiro de 2026",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.01.15 · Jornada de Dados · Imersão Jornada de Dados.png",
-
     verificacao: null,
 
     nomePeriodo: "",
@@ -263,6 +261,8 @@ window.datasetCategoria = [
   {
     id: 259,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.01.15 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -276,11 +276,7 @@ window.datasetCategoria = [
     conclusaoISO: "2026-01-15",
     dataConclusao: "15 de janeiro de 2026",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.01.15 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
-
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=15%2F01%2F2026&hcf=8",
       texto: "Verificar Autenticidade"
@@ -300,6 +296,8 @@ window.datasetCategoria = [
   {
     id: 258,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Neo4j - Análise de Dados com Grafos.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -313,11 +311,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-20",
     dataConclusao: "20 de dezembro de 2025",
     codigo: "AFBT01BR",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Neo4j - Análise de Dados com Grafos.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/AFBT01BR.pdf",
       texto: "Verificar Autenticidade"
@@ -337,6 +331,8 @@ window.datasetCategoria = [
   {
     id: 257,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Preparatório para a Certificação Neo4j.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -350,11 +346,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-20",
     dataConclusao: "20 de dezembro de 2025",
     codigo: "ADSMQ37S",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Preparatório para a Certificação Neo4j.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/ADSMQ37S.pdf",
       texto: "Verificar Autenticidade"
@@ -374,6 +366,8 @@ window.datasetCategoria = [
   {
     id: 256,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Como se Preparar para Certificação Neo4j Certified Professional.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -387,11 +381,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-20",
     dataConclusao: "20 de dezembro de 2025",
     codigo: "UDVCOXYT",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.20 · Digital Innovation One · Como se Preparar para Certificação Neo4j Certified Professional.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/UDVCOXYT.pdf",
       texto: "Verificar Autenticidade"
@@ -411,6 +401,8 @@ window.datasetCategoria = [
   {
     id: 255,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Soluções com Neo4j e GenAI.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -424,11 +416,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-19",
     dataConclusao: "19 de dezembro de 2025",
     codigo: "XXOBRQVF",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Soluções com Neo4j e GenAI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/XXOBRQVF.pdf",
       texto: "Verificar Autenticidade"
@@ -448,6 +436,8 @@ window.datasetCategoria = [
   {
     id: 254,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Entendendo Grafos (Frequência e Interseção em Python™).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -461,11 +451,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-19",
     dataConclusao: "19 de dezembro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Entendendo Grafos (Frequência e Interseção em Python™).png",
-
     verificacao: null,
 
     nomePeriodo: "",
@@ -482,6 +468,8 @@ window.datasetCategoria = [
   {
     id: 253,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Dominando a Biblioteca GraphRAG - Python™ para Grafos de Conhecimento.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -495,11 +483,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-19",
     dataConclusao: "19 de dezembro de 2025",
     codigo: "2S1EVZDT",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Dominando a Biblioteca GraphRAG - Python™ para Grafos de Conhecimento.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/2S1EVZDT.pdf",
       texto: "Verificar Autenticidade"
@@ -519,6 +503,8 @@ window.datasetCategoria = [
   {
     id: 252,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Trabalhando Vetores e Dados Não-Estruturados em LLM no Neo4j.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -532,11 +518,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-19",
     dataConclusao: "19 de dezembro de 2025",
     codigo: "H4HNTOER",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Trabalhando Vetores e Dados Não-Estruturados em LLM no Neo4j.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/H4HNTOER.pdf",
       texto: "Verificar Autenticidade"
@@ -556,6 +538,8 @@ window.datasetCategoria = [
   {
     id: 251,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Conectando Grafos de Conhecimento com Inteligência Artificial Generativa.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -569,11 +553,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-19",
     dataConclusao: "19 de dezembro de 2025",
     codigo: "JO517QYB",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Conectando Grafos de Conhecimento com Inteligência Artificial Generativa.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/JO517QYB.pdf",
       texto: "Verificar Autenticidade"
@@ -593,6 +573,8 @@ window.datasetCategoria = [
   {
     id: 250,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Data Science Academy · Fundamentos de Linguagem Python™ para Análise de Dados, Data Science e Machine Learning.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -606,11 +588,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-19",
     dataConclusao: "19 de dezembro de 2025",
     codigo: "6944fd6ceadbb6552208ff8a",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Data Science Academy · Fundamentos de Linguagem Python™ para Análise de Dados, Data Science e Machine Learning.png",
-
     verificacao: {
       url: "https://mycourse.app/OMXUpnjb6gVvegdJO",
       texto: "Verificar Autenticidade"
@@ -630,6 +608,8 @@ window.datasetCategoria = [
   {
     id: 249,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Pontifícia Universidade Católica do Rio Grande do Sul · Como usar Data Science e Artificial Intelligence para Otimizar a Logística e Operações.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -643,11 +623,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-19",
     dataConclusao: "19 de dezembro de 2025",
     codigo: "236969-776-1",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Pontifícia Universidade Católica do Rio Grande do Sul · Como usar Data Science e Artificial Intelligence para Otimizar a Logística e Operações.png",
-
     verificacao: {
       url: "https://educon.pucrs.br/validarcertificado/",
       texto: "Verificar Autenticidade"
@@ -667,6 +643,8 @@ window.datasetCategoria = [
   {
     id: 248,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Integrações Inteligentes com Neo4j.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -680,11 +658,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-18",
     dataConclusao: "18 de dezembro de 2025",
     codigo: "USBVS1WZ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Integrações Inteligentes com Neo4j.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/USBVS1WZ.pdf",
       texto: "Verificar Autenticidade"
@@ -704,6 +678,8 @@ window.datasetCategoria = [
   {
     id: 247,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Entendendo Grafos (Rotas e Relações em Python™).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -717,11 +693,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-18",
     dataConclusao: "18 de dezembro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Entendendo Grafos (Rotas e Relações em Python™).png",
-
     verificacao: null,
 
     nomePeriodo: "",
@@ -738,6 +710,8 @@ window.datasetCategoria = [
   {
     id: 246,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j com HTTP API (Comunicação e Integrações Personalizadas).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -751,11 +725,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-18",
     dataConclusao: "18 de dezembro de 2025",
     codigo: "RP2Z78CZ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j com HTTP API (Comunicação e Integrações Personalizadas).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/RP2Z78CZ.pdf",
       texto: "Verificar Autenticidade"
@@ -775,6 +745,8 @@ window.datasetCategoria = [
   {
     id: 245,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j e Spark (Integração para Análise de Dados).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -788,11 +760,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-18",
     dataConclusao: "18 de dezembro de 2025",
     codigo: "DVWYC5MT",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j e Spark (Integração para Análise de Dados).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/DVWYC5MT.pdf",
       texto: "Verificar Autenticidade"
@@ -812,6 +780,8 @@ window.datasetCategoria = [
   {
     id: 244,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j e GraphQL (Construindo APIs Orientadas a Grafos).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -825,11 +795,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-18",
     dataConclusao: "18 de dezembro de 2025",
     codigo: "FXTABGLJ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j e GraphQL (Construindo APIs Orientadas a Grafos).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/FXTABGLJ.pdf",
       texto: "Verificar Autenticidade"
@@ -849,6 +815,8 @@ window.datasetCategoria = [
   {
     id: 243,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j com Python™ (Aplicações, Queries e Automação com Cypher).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -862,11 +830,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-18",
     dataConclusao: "18 de dezembro de 2025",
     codigo: "JVVZFYPN",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Neo4j com Python™ (Aplicações, Queries e Automação com Cypher).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/JVVZFYPN.pdf",
       texto: "Verificar Autenticidade"
@@ -886,6 +850,8 @@ window.datasetCategoria = [
   {
     id: 242,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Ingestão de Dados no Neo4j (Importação, Transformação e Boas Práticas).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -899,11 +865,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-18",
     dataConclusao: "18 de dezembro de 2025",
     codigo: "MUIX7BUS",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Ingestão de Dados no Neo4j (Importação, Transformação e Boas Práticas).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/MUIX7BUS.pdf",
       texto: "Verificar Autenticidade"
@@ -923,6 +885,8 @@ window.datasetCategoria = [
   {
     id: 241,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Modelagem de Bancos Baseados em Grafos.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -936,11 +900,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-17",
     dataConclusao: "17 de dezembro de 2025",
     codigo: "NEURDOXA",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Modelagem de Bancos Baseados em Grafos.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/NEURDOXA.pdf",
       texto: "Verificar Autenticidade"
@@ -960,6 +920,8 @@ window.datasetCategoria = [
   {
     id: 240,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Analisando Dados de Redes Sociais com Base em Consultas de Grafos.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -973,11 +935,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-17",
     dataConclusao: "17 de dezembro de 2025",
     codigo: "HSII8RJQ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Analisando Dados de Redes Sociais com Base em Consultas de Grafos.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/HSII8RJQ.pdf",
       texto: "Verificar Autenticidade"
@@ -997,6 +955,8 @@ window.datasetCategoria = [
   {
     id: 239,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Performance no Neo4j (Análise com EXPLAIN · PROFILE e Índices Otimizados).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1010,11 +970,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-17",
     dataConclusao: "17 de dezembro de 2025",
     codigo: "SUYRMFCW",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Performance no Neo4j (Análise com EXPLAIN · PROFILE e Índices Otimizados).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/SUYRMFCW.pdf",
       texto: "Verificar Autenticidade"
@@ -1034,6 +990,8 @@ window.datasetCategoria = [
   {
     id: 238,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Estruturas de Navegação em Grafos (Lista Ligada e Padrões de Conexão).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1047,11 +1005,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-17",
     dataConclusao: "17 de dezembro de 2025",
     codigo: "YOKPDFEV",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Estruturas de Navegação em Grafos (Lista Ligada e Padrões de Conexão).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/YOKPDFEV.pdf",
       texto: "Verificar Autenticidade"
@@ -1071,6 +1025,8 @@ window.datasetCategoria = [
   {
     id: 237,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Modelagem Avançada em Grafos (Refatoração, Nós Intermediários e Timelines).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1084,11 +1040,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-17",
     dataConclusao: "17 de dezembro de 2025",
     codigo: "BE99DVWI",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.17 · Digital Innovation One · Modelagem Avançada em Grafos (Refatoração, Nós Intermediários e Timelines).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/BE99DVWI.pdf",
       texto: "Verificar Autenticidade"
@@ -1108,6 +1060,8 @@ window.datasetCategoria = [
   {
     id: 236,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Jornada de Dados · Aprenda uma ETL do Zero com API.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1121,11 +1075,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-16",
     dataConclusao: "16 de dezembro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Jornada de Dados · Aprenda uma ETL do Zero com API.png",
-
     verificacao: null,
 
     nomePeriodo: "",
@@ -1142,6 +1092,8 @@ window.datasetCategoria = [
   {
     id: 235,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Primeiros Passos com Cypher e Neo4j.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1155,11 +1107,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-16",
     dataConclusao: "16 de dezembro de 2025",
     codigo: "LIC57GC8",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Primeiros Passos com Cypher e Neo4j.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/LIC57GC8.pdf",
       texto: "Verificar Autenticidade"
@@ -1179,6 +1127,8 @@ window.datasetCategoria = [
   {
     id: 234,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Criando um Algoritmo de Recomendação de Músicas com Base em Grafos.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1192,11 +1142,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-16",
     dataConclusao: "16 de dezembro de 2025",
     codigo: "JC2XPZWS",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Criando um Algoritmo de Recomendação de Músicas com Base em Grafos.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/JC2XPZWS.pdf",
       texto: "Verificar Autenticidade"
@@ -1216,6 +1162,8 @@ window.datasetCategoria = [
   {
     id: 233,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Integrações e Extensões no Neo4j (LOAD CSV, Subqueries, APOC e QPP).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1229,11 +1177,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-16",
     dataConclusao: "16 de dezembro de 2025",
     codigo: "OZY74NFN",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Integrações e Extensões no Neo4j (LOAD CSV, Subqueries, APOC e QPP).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/OZY74NFN.pdf",
       texto: "Verificar Autenticidade"
@@ -1253,6 +1197,8 @@ window.datasetCategoria = [
   {
     id: 232,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Cypher Avançado (Modelagem, Constraints e Operações com MERGE e UNWIND).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1266,11 +1212,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-16",
     dataConclusao: "16 de dezembro de 2025",
     codigo: "CMFRG336",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Cypher Avançado (Modelagem, Constraints e Operações com MERGE e UNWIND).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/CMFRG336.pdf",
       texto: "Verificar Autenticidade"
@@ -1290,6 +1232,8 @@ window.datasetCategoria = [
   {
     id: 231,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Cypher Essencial (Consultas, Filtros e Agregações em Grafos).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1303,11 +1247,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-16",
     dataConclusao: "16 de dezembro de 2025",
     codigo: "32BS1XGV",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Cypher Essencial (Consultas, Filtros e Agregações em Grafos).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/32BS1XGV.pdf",
       texto: "Verificar Autenticidade"
@@ -1327,6 +1267,8 @@ window.datasetCategoria = [
   {
     id: 230,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Introdução a Linguagem de Consulta Cypher.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1340,11 +1282,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-16",
     dataConclusao: "16 de dezembro de 2025",
     codigo: "A8C4PY3R",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Digital Innovation One · Introdução a Linguagem de Consulta Cypher.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/A8C4PY3R.pdf",
       texto: "Verificar Autenticidade"
@@ -1364,6 +1302,8 @@ window.datasetCategoria = [
   {
     id: 229,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Fundamentos de Neo4j.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1377,11 +1317,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-15",
     dataConclusao: "15 de dezembro de 2025",
     codigo: "563ZQN83",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Fundamentos de Neo4j.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/563ZQN83.pdf",
       texto: "Verificar Autenticidade"
@@ -1401,6 +1337,8 @@ window.datasetCategoria = [
   {
     id: 228,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Modelagem de Dados em Grafos de um Serviço de Streaming.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1414,11 +1352,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-15",
     dataConclusao: "15 de dezembro de 2025",
     codigo: "JCTCCU7A",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Modelagem de Dados em Grafos de um Serviço de Streaming.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/JCTCCU7A.pdf",
       texto: "Verificar Autenticidade"
@@ -1438,6 +1372,8 @@ window.datasetCategoria = [
   {
     id: 227,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Boas Práticas de Modelagem Orientada a Grafos (Modelagem e Performance).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1451,11 +1387,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-15",
     dataConclusao: "15 de dezembro de 2025",
     codigo: "FUKBFJV0",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Boas Práticas de Modelagem Orientada a Grafos (Modelagem e Performance).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/FUKBFJV0.pdf",
       texto: "Verificar Autenticidade"
@@ -1475,6 +1407,8 @@ window.datasetCategoria = [
   {
     id: 226,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Visualização de Dados no Neo4j Browser.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1488,11 +1422,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-15",
     dataConclusao: "15 de dezembro de 2025",
     codigo: "ZVW027XK",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Visualização de Dados no Neo4j Browser.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZVW027XK.pdf",
       texto: "Verificar Autenticidade"
@@ -1512,6 +1442,8 @@ window.datasetCategoria = [
   {
     id: 225,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Instalando Ambiente Neo4j Desktop.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1525,11 +1457,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-15",
     dataConclusao: "15 de dezembro de 2025",
     codigo: "AEHDHHSJ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Instalando Ambiente Neo4j Desktop.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/AEHDHHSJ.pdf",
       texto: "Verificar Autenticidade"
@@ -1549,6 +1477,8 @@ window.datasetCategoria = [
   {
     id: 224,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Introdução a Graph Database e Neo4j.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1562,11 +1492,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-15",
     dataConclusao: "15 de dezembro de 2025",
     codigo: "D4JQMO0E",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Introdução a Graph Database e Neo4j.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/D4JQMO0E.pdf",
       texto: "Verificar Autenticidade"
@@ -1586,6 +1512,8 @@ window.datasetCategoria = [
   {
     id: 223,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Boas-Vindas ao Bootcamp (Neo4j - Análise de Dados com Grafos).png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1599,11 +1527,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-15",
     dataConclusao: "15 de dezembro de 2025",
     codigo: "WXX7R5SU",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.15 · Digital Innovation One · Boas-Vindas ao Bootcamp (Neo4j - Análise de Dados com Grafos).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/WXX7R5SU.pdf",
       texto: "Verificar Autenticidade"
@@ -1623,6 +1547,8 @@ window.datasetCategoria = [
   {
     id: 222,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Klabin - Excel e Power BI Dashboards.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1636,11 +1562,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "PR5CC6SD",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Klabin - Excel e Power BI Dashboards.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/PR5CC6SD.pdf",
       texto: "Verificar Autenticidade"
@@ -1660,6 +1582,8 @@ window.datasetCategoria = [
   {
     id: 221,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Análise de Dados com Excel e Copilot.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1673,11 +1597,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "VVPXQH2P",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Análise de Dados com Excel e Copilot.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/VVPXQH2P.pdf",
       texto: "Verificar Autenticidade"
@@ -1697,6 +1617,8 @@ window.datasetCategoria = [
   {
     id: 220,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Fórmulas Excel com Lógica de Programação.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1710,11 +1632,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Fórmulas Excel com Lógica de Programação.png",
-
     verificacao: null,
 
     nomePeriodo: "",
@@ -1731,6 +1649,8 @@ window.datasetCategoria = [
   {
     id: 219,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Criando um Dashboard de Vendas do Xbox com Excel.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1744,11 +1664,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "2BSGG81O",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Criando um Dashboard de Vendas do Xbox com Excel.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/2BSGG81O.pdf",
       texto: "Verificar Autenticidade"
@@ -1768,6 +1684,8 @@ window.datasetCategoria = [
   {
     id: 218,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Analisando Bases de Dados com Excel e Copilot.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1781,11 +1699,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "SKJCPOMZ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Analisando Bases de Dados com Excel e Copilot.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/SKJCPOMZ.pdf",
       texto: "Verificar Autenticidade"
@@ -1805,6 +1719,8 @@ window.datasetCategoria = [
   {
     id: 217,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Criando um Processo de ETL com Excel e Power Query.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1818,11 +1734,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "OXVXT5PI",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Criando um Processo de ETL com Excel e Power Query.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/OXVXT5PI.pdf",
       texto: "Verificar Autenticidade"
@@ -1842,6 +1754,8 @@ window.datasetCategoria = [
   {
     id: 216,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Utilizando Microsoft Copilot para Escrever Consultas SQL.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1855,11 +1769,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "LDIEBOYB",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Utilizando Microsoft Copilot para Escrever Consultas SQL.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/LDIEBOYB.pdf",
       texto: "Verificar Autenticidade"
@@ -1879,6 +1789,8 @@ window.datasetCategoria = [
   {
     id: 215,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Trabalhando com Microsoft Copilot.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1892,11 +1804,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "NVKBTJHU",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Trabalhando com Microsoft Copilot.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/NVKBTJHU.pdf",
       texto: "Verificar Autenticidade"
@@ -1916,6 +1824,8 @@ window.datasetCategoria = [
   {
     id: 214,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Introdução ao Excel 365.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1929,11 +1839,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "ZXIYW4H6",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Introdução ao Excel 365.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZXIYW4H6.pdf",
       texto: "Verificar Autenticidade"
@@ -1953,6 +1859,8 @@ window.datasetCategoria = [
   {
     id: 213,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Explorando Bancos Relacionais e Consultas SQL.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -1966,11 +1874,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "L7GKXCYS",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Explorando Bancos Relacionais e Consultas SQL.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/L7GKXCYS.pdf",
       texto: "Verificar Autenticidade"
@@ -1990,6 +1894,8 @@ window.datasetCategoria = [
   {
     id: 212,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Comandos SQL com Lógica de Programação.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2003,11 +1909,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Comandos SQL com Lógica de Programação.png",
-
     verificacao: null,
 
     nomePeriodo: "",
@@ -2024,6 +1926,8 @@ window.datasetCategoria = [
   {
     id: 211,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Construa um Projeto Lógico de Banco de Dados do Zero.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2037,11 +1941,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "Q6JXCLGO",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Construa um Projeto Lógico de Banco de Dados do Zero.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/Q6JXCLGO.pdf",
       texto: "Verificar Autenticidade"
@@ -2061,6 +1961,8 @@ window.datasetCategoria = [
   {
     id: 210,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Construindo seu Primeiro Projeto Lógico de Banco de Dados.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2074,11 +1976,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "RX4XNX4T",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Construindo seu Primeiro Projeto Lógico de Banco de Dados.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/RX4XNX4T.pdf",
       texto: "Verificar Autenticidade"
@@ -2098,6 +1996,8 @@ window.datasetCategoria = [
   {
     id: 209,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Agrupando Registros e Tabelas com Join Statement.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2111,11 +2011,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-06",
     dataConclusao: "06 de dezembro de 2025",
     codigo: "PLW5E92H",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Agrupando Registros e Tabelas com Join Statement.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/PLW5E92H.pdf",
       texto: "Verificar Autenticidade"
@@ -2135,6 +2031,8 @@ window.datasetCategoria = [
     {
     id: 208,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Criando Queries com Funções e Cláusulas de Agrupamento.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2148,11 +2046,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-05",
     dataConclusao: "05 de dezembro de 2025",
     codigo: "G6MHOJWG",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Criando Queries com Funções e Cláusulas de Agrupamento.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/G6MHOJWG.pdf",
       texto: "Verificar Autenticidade"
@@ -2172,6 +2066,8 @@ window.datasetCategoria = [
   {
     id: 207,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Explorando Queries com SQL.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2185,11 +2081,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-05",
     dataConclusao: "05 de dezembro de 2025",
     codigo: "Y7PFJNZ4",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Explorando Queries com SQL.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/Y7PFJNZ4.pdf",
       texto: "Verificar Autenticidade"
@@ -2209,6 +2101,8 @@ window.datasetCategoria = [
   {
     id: 206,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Primeiros Passos com SQL.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2222,11 +2116,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-05",
     dataConclusao: "05 de dezembro de 2025",
     codigo: "UUVTJTCM",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.05 · Digital Innovation One · Primeiros Passos com SQL.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/UUVTJTCM.pdf",
       texto: "Verificar Autenticidade"
@@ -2246,6 +2136,8 @@ window.datasetCategoria = [
   {
     id: 205,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Introdução a Análise de Dados e BI.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2259,11 +2151,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-04",
     dataConclusao: "04 de dezembro de 2025",
     codigo: "45QUXAFS",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Introdução a Análise de Dados e BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/45QUXAFS.pdf",
       texto: "Verificar Autenticidade"
@@ -2283,6 +2171,8 @@ window.datasetCategoria = [
     {
     id: 204,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Live de Lançamento - Klabin - Excel e Power BI Dashboards.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2296,11 +2186,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-04",
     dataConclusao: "04 de dezembro de 2025",
     codigo: "UKBZA89I",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Live de Lançamento - Klabin - Excel e Power BI Dashboards.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/UKBZA89I.pdf",
       texto: "Verificar Autenticidade"
@@ -2319,6 +2205,8 @@ window.datasetCategoria = [
   
   {
     id: 203,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Introdução ao Excel e Power BI Dashboards com a Klabin.png",
     
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2333,11 +2221,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-12-04",
     dataConclusao: "04 de dezembro de 2025",
     codigo: "MUDNRPKR",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.04 · Digital Innovation One · Introdução ao Excel e Power BI Dashboards com a Klabin.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/MUDNRPKR.pdf",
       texto: "Verificar Autenticidade"
@@ -2357,6 +2241,8 @@ window.datasetCategoria = [
   {
     id: 202,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Workspaces e Datasets com Power BI.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2370,11 +2256,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "PBTL3TPP",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Workspaces e Datasets com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/PBTL3TPP.pdf",
       texto: "Verificar Autenticidade"
@@ -2394,6 +2276,8 @@ window.datasetCategoria = [
   {
     id: 201,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando Relatórios Dinâmicos com o uso de Parâmetros no Power BI.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2407,11 +2291,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "ZYHZJCCJ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando Relatórios Dinâmicos com o uso de Parâmetros no Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZYHZJCCJ.pdf",
       texto: "Verificar Autenticidade"
