@@ -2158,7 +2158,7 @@ const sections = {
       
       <div class="cert-links">
           <!--  Dados e Inteligência -->
-          <a href="#" data-category="analiseDados">Análise de Dados</a>
+          <a href="#" data-category="powerBiFinanceiro">Financeiro</a>
           <a href="#" data-category="bancoDados">Bancos de Dados</a>
           <a href="#" data-category="bigData">Big Data</a>
           <a href="#" data-category="inteligenciaArtificial">Inteligência Artificial</a>
