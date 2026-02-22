@@ -81,7 +81,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Power BI foi utilizado para visualização e storytelling, SQL para tratamento e consolidação dos dados, e Python para automatização de etapas de preparação.
+                Power BI foi utilizado para visualização e storytelling, SQL para tratamento e consolidação dos dados, e Python™ para automatização de etapas de preparação.
             </div>
         
           </div>
