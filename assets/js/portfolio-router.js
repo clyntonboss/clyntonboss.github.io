@@ -5,11 +5,6 @@ let estadoSubnivel = {
 
 let secaoAtiva = null;
 
-const categoryMaps = {
-  formacoesComplementares: categoriasFormacoesComplementares,
-  projetos50: categoriasProjetos50
-};
-
 document.addEventListener("DOMContentLoaded", () => {
   const menuLinks = document.querySelectorAll("[data-section]");
   const titleEl = document.getElementById("section-title");
