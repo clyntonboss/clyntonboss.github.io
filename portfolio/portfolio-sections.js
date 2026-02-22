@@ -8,6 +8,7 @@ const sections = {
     title: "Transformando dados em decisões estratégicas.",
     icon: "/assets/icons/icone-dados.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <p>
           Analista de Dados movido pela curiosidade, pela precisão técnica e pelo compromisso de transformar informações complexas em decisões inteligentes e estratégicas.
@@ -46,6 +47,7 @@ const sections = {
     title: "Portfólio",
     icon: "/assets/icons/icone-portfolio.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <p>
           Minha trajetória é guiada por uma curiosidade que nunca adormeceu e por um desejo constante de compreender o mundo através dos dados. Ao longo dos últimos anos, mergulhei
@@ -83,6 +85,7 @@ const sections = {
     title: "Perfil",
     icon: "/assets/icons/icone-perfil.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <p>
           Minha trajetória profissional, iniciada em 1998, sempre foi movida por uma convicção simples e poderosa: 
@@ -127,6 +130,7 @@ const sections = {
     title: "Propósito",
     icon: "/assets/icons/icone-proposito.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <p>
           Meu propósito é construir pontes entre dados, entendimento e impacto real. 
@@ -180,6 +184,7 @@ const sections = {
     title: "Formação Acadêmica",
     icon: "/assets/icons/icone-formacao-academica.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <hr class="decorative-line-cert">
 
@@ -284,6 +289,7 @@ const sections = {
     title: "Competências Técnicas",
     icon: "/assets/icons/icone-competencias-tecnicas.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <div class="tech-subtitle-sup"><p>As competências abaixo estão organizadas por domínio técnico.<br>
                                         Ao expandir cada categoria, são apresentados os principais métodos, ferramentas, tecnologias e aplicações práticas relacionadas.</p></div>
@@ -1522,6 +1528,7 @@ const sections = {
     title: "Competências Comportamentais",
     icon: "/assets/icons/icone-competencias-comportamentais.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <div class="tech-subtitle-sup"><p>As competências comportamentais abaixo estão organizadas por domínio.<br>
                                         Ao expandir cada categoria, são descritas atitudes, práticas e contextos de aplicação ao longo da minha trajetória.</p></div>
@@ -1637,6 +1644,7 @@ const sections = {
     title: "Trajetória",
     icon: "/assets/icons/icone-trajetoria.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <p>
           Minha trajetória profissional foi construída de forma contínua, progressiva e intencional, unindo prática técnica, capacidade analítica e visão estratégica.
@@ -1686,6 +1694,7 @@ const sections = {
     title: "Formações Complementares",
     icon: "/assets/icons/icone-formacoes-complementares.png",
     showViewModes: false,
+    hasCategory: true,
     content: `
       <div class="tech-subtitle-sup"><p>As formações complementares estão organizadas por área de conhecimento.<br>
                                         Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</p></div>
@@ -1742,6 +1751,7 @@ const sections = {
     title: "Certificações e Credenciais",
     icon: "/assets/icons/icone-certificacoes-e-credenciais.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne certificações e credenciais obtidas ao longo da trajetória profissional, organizadas por categoria e data de conclusão.<br>
                                         Os registros apresentados representam validações formais de conhecimentos, emitidas por instituições e plataformas reconhecidas.</p></div>
@@ -2152,6 +2162,7 @@ const sections = {
     title: "Projetos 5.0",
     icon: "/assets/icons/icone-projetos-50.png",
     showViewModes: false,
+    hasCategory: true,
     content: `
       <div class="tech-subtitle-sup"><p>As formações complementares estão organizadas por área de conhecimento.<br>
                                         Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</p></div>
@@ -2208,6 +2219,7 @@ const sections = {
     title: "Impactos e Resultados",
     icon: "/assets/icons/icone-impactos-e-resultados.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <div class="tech-subtitle-sup"><p>Resultados que vão além da tecnologia, construídos pela integração entre dados, processos e contexto organizacional, 
                                         gerando impacto real, clareza decisória e eficiência sustentável.</p></div>
@@ -2313,6 +2325,7 @@ const sections = {
     title: "Produções Intelectuais",
     icon: "/assets/icons/icone-producoes-intelectuais.png",
     showViewModes: false,
+    hasCategory: false,
     content: `
       <div class="tech-subtitle-sup"><p>Produções acadêmicas apresentadas em eventos científicos, com foco em educação, tecnologia e inclusão digital.</p></div>
       
