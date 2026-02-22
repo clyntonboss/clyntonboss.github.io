@@ -1483,4 +1483,57 @@ arquitetura: {
                                         O domínio desses conceitos sustenta atividades de leitura técnica, análise de projetos e entendimento das interações entre planejamento, execução e normas, favorecendo uma visão multidisciplinar aplicada a diferentes contextos profissionais.</p></div>
     `
   },
+
+// 🔹 ===================================== Microsoft Power BI · Financeiro ================================== 🔹
+  powerBiFinanceiro: {
+    title: "Financeiro",
+    dataset: "/portfolio/projetos/microsoft-power-bi/financeiro/financeiro-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Análise de Dados, organizadas por conclusão cronológica decrescente.<br>
+                                        Os cursos apresentados abrangem fundamentos analíticos, estatística, visualização de dados, ferramentas de BI e práticas aplicadas à tomada de decisão orientada por dados.</p></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle-inf"><p>As formações em Análise de Dados consolidaram uma base técnica voltada à coleta, tratamento, exploração e interpretação de dados.<br>
+                                        O domínio desses conceitos sustenta atividades de análises consistentes, indicadores confiáveis e soluções analíticas aplicadas a processos, negócios e tomada de decisão em diferentes contextos.</p></div>
+    `
+  },
 };
