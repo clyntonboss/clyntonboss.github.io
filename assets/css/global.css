@@ -1313,21 +1313,11 @@ body.static-header .last-update {
    margin: 8px;
 }
 
-/*.course-block-content {
-/*  position: relative; /* permite altura automática */
-/*  display: flex;
-  flex-direction: column;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  min-height: 478px;
-  height: auto; /* cresce conforme o conteúdo */
-/*}*/
-
 .course-block-content {
   position: relative;
   display: flex;
   flex-direction: column;
   min-height: 478px;
-  height: auto;
   opacity: 0;
   transform: translateY(8px);
   transition: 
