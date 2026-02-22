@@ -1,131 +1,17 @@
 window.datasetCategoria = [
   {
-    id: 269,
-
-    nomeInstituicao: "",
-    nomeCurso: "",
-    nomeCargaHoraria: "",
-    nomeDataConclusao: "",
-    nomeCodigo: "",
-    nomeVerificacao: "",
-    
-    instituicao: "",
-    curso: "",
-    cargaHoraria: "",
-    conclusaoISO: "",
-    dataConclusao: "",
-    codigo: "",
-
-    mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.10 · FIAP - Centro Universitário · Business Intelligence.png",
-
-    verificacao: "",
-
-    nomePeriodo: "Período: ",
-    nomeDuracao: "Duração: ",
-    nomeStackTecnica: "Stack Técnica: ",
-
-    periodo: "Fev/2024",
-    duracao: "8 dias",
-    stackTecnica: "Python™ | SQL | Power BI",
-    projetoInterativo: `<a href="https://ufpraberta.ufpr.br/mod/simplecertificate/verify.php" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
-    descricaoProjeto: `
-      <div class="decorative-line-projetos"></div>
-      
-      <div class="experience experience--compact experience--inf">
-          <div class="exp-header exp-header--compact">
-              <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Processos</span>
-          </div>
-          <div class="exp-details">
-      
-            <div class="tech-subtitle">Estruturação, padronização e melhoria contínua de fluxos operacionais e administrativos.</div>
-            <div class="tech-title">Situação Inicial:</div>
-            <div class="tech-desc">
-                Ambientes com processos pouco estruturados, alto grau de retrabalho, uso excessivo de controles manuais e ausência de padronização na organização das informações.
-            </div>
-        
-            <div class="tech-title">Abordagem Adotada:</div>
-            <div class="tech-desc">
-                Mapeamento de rotinas, reorganização de fluxos operacionais e aplicação de soluções tecnológicas adequadas à realidade de cada contexto, priorizando simplicidade, clareza e sustentabilidade das soluções ao longo do tempo.
-            </div>
-        
-            <div class="tech-title">Resultado Alcançado:</div>
-            <div class="tech-desc">
-                Redução de retrabalho, maior previsibilidade operacional, padronização de procedimentos e melhoria significativa na organização dos processos administrativos e técnicos.
-            </div>
-      
-          </div>
-      </div>
-
-      <div class="experience experience--compact experience--inf">
-          <div class="exp-header exp-header--compact">
-              <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Informações e Tomadas de Decisões</span>
-          </div>
-          <div class="exp-details">
-      
-            <div class="tech-subtitle">Transformação de dados em informação clara, confiável e acionável para suporte estratégico.</div>
-            <div class="tech-title">Situação Inicial:</div>
-            <div class="tech-desc">
-                Dados dispersos, planilhas desconectadas, dificuldade de acesso à informação confiável e ausência de indicadores claros para apoiar decisões.
-            </div>
-        
-            <div class="tech-title">Abordagem Adotada:</div>
-            <div class="tech-desc">
-                Estruturação de bases de dados, consolidação de múltiplas fontes de informação e desenvolvimento de soluções analíticas e visuais que transformam dados brutos em informação compreensível e acionável.
-            </div>
-        
-            <div class="tech-title">Resultado Alcançado:</div>
-            <div class="tech-desc">
-                Maior clareza informacional, visão integrada dos dados, apoio efetivo à tomada de decisão e substituição de controles manuais por painéis e indicadores consistentes.
-            </div>
-      
-          </div>
-      </div>
-
-      <div class="experience experience--compact experience--inf">
-          <div class="exp-header exp-header--compact">
-              <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Tecnológico</span>
-          </div>
-          <div class="exp-details">
-      
-            <div class="tech-subtitle">Aplicação de soluções tecnológicas alinhadas ao contexto, com foco em eficiência, integração e sustentabilidade.</div>
-            <div class="tech-title">Situação Inicial:</div>
-            <div class="tech-desc">
-                Instituições com desafios na gestão da informação, suporte técnico reativo e dificuldades na utilização eficiente de recursos tecnológicos.
-            </div>
-        
-            <div class="tech-title">Abordagem Adotada:</div>
-            <div class="tech-desc">
-                Atuação próxima às equipes administrativas, educacionais e usuários finais, com foco na organização da informação, no suporte acessível e na disseminação de uma cultura orientada ao uso consciente da tecnologia e dos dados.
-            </div>
-        
-            <div class="tech-title">Resultado Alcançado:</div>
-            <div class="tech-desc">
-                Melhoria na gestão educacional e administrativa, maior autonomia dos usuários, melhor aproveitamento dos recursos tecnológicos disponíveis e fortalecimento da cultura organizacional orientada à informação.
-            </div>
-      
-          </div>
-      </div>
-    `
-  },
-  
-  {
-    id: 268,
+    id: 267,
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
     
     instituicao: "FIAP - Centro Universitário",
     curso: "Business Intelligence",
-    cargaHoraria: "",
+    cargaHoraria: "40 h",
     conclusaoISO: "2026-02-10",
     dataConclusao: "10 de fevereiro de 2026",
     codigo: "851dfebc72da73be3bdd9a0db7126ec2",
@@ -151,199 +37,258 @@ window.datasetCategoria = [
   },
   
   {
-    id: 267,
+    id: 266,
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "Carga Horária: ",
+    nomeCargaHoraria: "",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
-    
-    instituicao: "FIAP - Centro Universitário",
-    curso: "Business Intelligence",
-    cargaHoraria: "40 h",
-    conclusaoISO: "2026-02-10",
-    dataConclusao: "10 de fevereiro de 2026",
-    codigo: "851dfebc72da73be3bdd9a0db7126ec2",
-
-    mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.10 · FIAP - Centro Universitário · Business Intelligence.png",
-
-    verificacao: {
-      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=851dfebc72da73be3bdd9a0db7126ec2&action=view",
-      texto: "Verificar Autenticidade"
-    }
-  },
-  
-  {
-    id: 266,
 
     instituicao: "Xperiun | Data Analytics",
- 
     curso: "Imersão em Power BI + Inteligência Artificial",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2026-02-05",
-
     dataConclusao: "05 de fevereiro de 2026",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.05 · Xperiun · Data Analytics · Imersão em Power BI + Inteligência Artificial.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 265,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Tetra Educação",
- 
     curso: "Imersão Excel Automate",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2026-02-05",
-
     dataConclusao: "05 de fevereiro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.05 · Tetra Educação · Imersão Excel Automate.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 264,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Comunidade DS",
- 
     curso: "Do Zero à Análise de Dados",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2026-02-05",
-
     dataConclusao: "05 de fevereiro de 2026",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.05 · Comunidade DS · Do Zero à Análise de Dados.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 263,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Planilheiros",
- 
     curso: "Descomplicando o Power BI",
-    
     cargaHoraria: "15 h",
-
     conclusaoISO: "2026-02-04",
-
     dataConclusao: "04 de fevereiro de 2026",
-
     codigo: "6982b8f61db0eee0410525bb",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.04 · Planilheiros · Descomplicando o Power BI.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 262,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Planilheiros",
- 
     curso: "Básico de ETL no Power BI",
-    
     cargaHoraria: "12 h",
-
     conclusaoISO: "2026-02-03",
-
     dataConclusao: "03 de fevereiro de 2026",
-
     codigo: "6981ef1ccd275aa6e407c5e8",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.03 · Planilheiros · Básico de ETL no Power BI.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 261,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Planilheiros",
- 
     curso: "Básico de Excel",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2026-02-02",
-
     dataConclusao: "02 de fevereiro de 2026",
-
     codigo: "698075d34b84d9d8a00d4ffc",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.02 · Planilheiros · Básico de Excel.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 260,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Jornada de Dados",
- 
     curso: "Imersão Jornada de Dados",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2026-01-15",
-
     dataConclusao: "15 de janeiro de 2026",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.01.15 · Jornada de Dados · Imersão Jornada de Dados.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 259,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Hashtag Treinamentos",
- 
     curso: "Jornada Python™ da Hashtag",
-    
     cargaHoraria: "8 h",
-
     conclusaoISO: "2026-01-15",
-
     dataConclusao: "15 de janeiro de 2026",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
@@ -353,22 +298,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=15%2F01%2F2026&hcf=8",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 258,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Análise de Dados com Grafos",
-    
     cargaHoraria: "51 h",
-
     conclusaoISO: "2025-12-20",
-
     dataConclusao: "20 de dezembro de 2025",
-
     codigo: "AFBT01BR",
 
     mostrarCopiar: false,
@@ -378,22 +335,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/AFBT01BR.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 257,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Preparatório para a Certificação Neo4j",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-20",
-
     dataConclusao: "20 de dezembro de 2025",
-
     codigo: "ADSMQ37S",
 
     mostrarCopiar: false,
@@ -403,22 +372,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/ADSMQ37S.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 256,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Como se Preparar para Certificação Neo4j Certified Professional",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-20",
-
     dataConclusao: "20 de dezembro de 2025",
-
     codigo: "UDVCOXYT",
 
     mostrarCopiar: false,
@@ -428,22 +409,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/UDVCOXYT.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 255,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Soluções com Neo4j e GenAI",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-12-19",
-
     dataConclusao: "19 de dezembro de 2025",
-
     codigo: "XXOBRQVF",
 
     mostrarCopiar: false,
@@ -453,44 +446,68 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/XXOBRQVF.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 254,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Entendendo Grafos: Frequência e Interseção em Python™",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-19",
-
     dataConclusao: "19 de dezembro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.19 · Digital Innovation One · Entendendo Grafos (Frequência e Interseção em Python™).png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 253,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Dominando a Biblioteca GraphRAG - Python™ para Grafos de Conhecimento",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-19",
-
     dataConclusao: "19 de dezembro de 2025",
-
     codigo: "2S1EVZDT",
 
     mostrarCopiar: false,
@@ -500,22 +517,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/2S1EVZDT.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 252,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Trabalhando Vetores e Dados Não-Estruturados em LLM no Neo4j",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-19",
-
     dataConclusao: "19 de dezembro de 2025",
-
     codigo: "H4HNTOER",
 
     mostrarCopiar: false,
@@ -525,22 +554,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/H4HNTOER.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 251,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Conectando Grafos de Conhecimento com Inteligência Artificial Generativa",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-19",
-
     dataConclusao: "19 de dezembro de 2025",
-
     codigo: "JO517QYB",
 
     mostrarCopiar: false,
@@ -550,22 +591,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/JO517QYB.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 250,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Data Science Academy",
- 
     curso: "Fundamentos de Linguagem Python™ para Análise de Dados, Data Science e Machine Learning",
-    
     cargaHoraria: "64 h",
-
     conclusaoISO: "2025-12-19",
-
     dataConclusao: "19 de dezembro de 2025",
-
     codigo: "6944fd6ceadbb6552208ff8a",
 
     mostrarCopiar: false,
@@ -575,22 +628,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://mycourse.app/OMXUpnjb6gVvegdJO",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 249,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Pontifícia Universidade Católica do Rio Grande do Sul",
- 
     curso: "Como usar Data Science e Artificial Intelligence para Otimizar a Logística e Operações",
-    
     cargaHoraria: "10 h",
-
     conclusaoISO: "2025-12-19",
-
     dataConclusao: "19 de dezembro de 2025",
-
     codigo: "236969-776-1",
 
     mostrarCopiar: true,
@@ -600,22 +665,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://educon.pucrs.br/validarcertificado/",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 248,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Integrações Inteligentes com Neo4j",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2025-12-18",
-
     dataConclusao: "18 de dezembro de 2025",
-
     codigo: "USBVS1WZ",
 
     mostrarCopiar: false,
@@ -625,44 +702,68 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/USBVS1WZ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 247,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Entendendo Grafos: Rotas e Relações em Python™",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-18",
-
     dataConclusao: "18 de dezembro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.18 · Digital Innovation One · Entendendo Grafos (Rotas e Relações em Python™).png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 246,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Neo4j com HTTP API: Comunicação e Integrações Personalizadas",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-18",
-
     dataConclusao: "18 de dezembro de 2025",
-
     codigo: "RP2Z78CZ",
 
     mostrarCopiar: false,
@@ -672,22 +773,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/RP2Z78CZ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 245,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Neo4j e Spark: Integração para Análise de Dados",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-18",
-
     dataConclusao: "18 de dezembro de 2025",
-
     codigo: "DVWYC5MT",
 
     mostrarCopiar: false,
@@ -697,22 +810,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/DVWYC5MT.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 244,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Neo4j e GraphQL: Construindo APIs Orientadas a Grafos",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-18",
-
     dataConclusao: "18 de dezembro de 2025",
-
     codigo: "FXTABGLJ",
 
     mostrarCopiar: false,
@@ -722,22 +847,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/FXTABGLJ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 243,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Neo4j com Python™: Aplicações, Queries e Automação com Cypher",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-18",
-
     dataConclusao: "18 de dezembro de 2025",
-
     codigo: "JVVZFYPN",
 
     mostrarCopiar: false,
@@ -747,22 +884,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/JVVZFYPN.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 242,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Ingestão de Dados no Neo4j: Importação, Transformação e Boas Práticas",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-18",
-
     dataConclusao: "18 de dezembro de 2025",
-
     codigo: "MUIX7BUS",
 
     mostrarCopiar: false,
@@ -772,22 +921,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/MUIX7BUS.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 241,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Modelagem de Bancos Baseados em Grafos",
-    
     cargaHoraria: "5 h",
-
     conclusaoISO: "2025-12-17",
-
     dataConclusao: "17 de dezembro de 2025",
-
     codigo: "NEURDOXA",
 
     mostrarCopiar: false,
@@ -797,22 +958,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/NEURDOXA.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 240,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Analisando Dados de Redes Sociais com Base em Consultas de Grafos",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-12-17",
-
     dataConclusao: "17 de dezembro de 2025",
-
     codigo: "HSII8RJQ",
 
     mostrarCopiar: false,
@@ -822,22 +995,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/HSII8RJQ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 239,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Performance no Neo4j: Análise com EXPLAIN/PROFILE e Índices Otimizados",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-17",
-
     dataConclusao: "17 de dezembro de 2025",
-
     codigo: "SUYRMFCW",
 
     mostrarCopiar: false,
@@ -847,22 +1032,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/SUYRMFCW.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 238,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Estruturas de Navegação em Grafos: Lista Ligada e Padrões de Conexão",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-17",
-
     dataConclusao: "17 de dezembro de 2025",
-
     codigo: "YOKPDFEV",
 
     mostrarCopiar: false,
@@ -872,22 +1069,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/YOKPDFEV.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 237,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Modelagem Avançada em Grafos: Refatoração, Nós Intermediários e Timelines",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-17",
-
     dataConclusao: "17 de dezembro de 2025",
-
     codigo: "BE99DVWI",
 
     mostrarCopiar: false,
@@ -897,44 +1106,68 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/BE99DVWI.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 236,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Jornada de Dados",
- 
     curso: "Aprenda uma ETL do Zero com API",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-12-16",
-
     dataConclusao: "16 de dezembro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.16 · Jornada de Dados · Aprenda uma ETL do Zero com API.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 235,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Primeiros Passos com Cypher e Neo4j",
-    
     cargaHoraria: "6 h",
-
     conclusaoISO: "2025-12-16",
-
     dataConclusao: "16 de dezembro de 2025",
-
     codigo: "LIC57GC8",
 
     mostrarCopiar: false,
@@ -944,22 +1177,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/LIC57GC8.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 234,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando um Algoritmo de Recomendação de Músicas com Base em Grafos",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-12-16",
-
     dataConclusao: "16 de dezembro de 2025",
-
     codigo: "JC2XPZWS",
 
     mostrarCopiar: false,
@@ -969,22 +1214,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/JC2XPZWS.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 233,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Integrações e Extensões no Neo4j: LOAD CSV, Subqueries, APOC e QPP",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-16",
-
     dataConclusao: "16 de dezembro de 2025",
-
     codigo: "OZY74NFN",
 
     mostrarCopiar: false,
@@ -994,22 +1251,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/OZY74NFN.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 232,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Cypher Avançado: Modelagem, Constraints e Operações com MERGE e UNWIND",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-16",
-
     dataConclusao: "16 de dezembro de 2025",
-
     codigo: "CMFRG336",
 
     mostrarCopiar: false,
@@ -1019,22 +1288,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/CMFRG336.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 231,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Cypher Essencial: Consultas, Filtros e Agregações em Grafos",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-16",
-
     dataConclusao: "16 de dezembro de 2025",
-
     codigo: "32BS1XGV",
 
     mostrarCopiar: false,
@@ -1044,22 +1325,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/32BS1XGV.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 230,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Introdução a Linguagem de Consulta Cypher",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-16",
-
     dataConclusao: "16 de dezembro de 2025",
-
     codigo: "A8C4PY3R",
 
     mostrarCopiar: false,
@@ -1069,22 +1362,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/A8C4PY3R.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 229,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Fundamentos de Neo4j",
-    
     cargaHoraria: "7 h",
-
     conclusaoISO: "2025-12-15",
-
     dataConclusao: "15 de dezembro de 2025",
-
     codigo: "563ZQN83",
 
     mostrarCopiar: false,
@@ -1094,22 +1399,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/563ZQN83.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 228,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Modelagem de Dados em Grafos de um Serviço de Streaming",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-12-15",
-
     dataConclusao: "15 de dezembro de 2025",
-
     codigo: "JCTCCU7A",
 
     mostrarCopiar: false,
@@ -1119,22 +1436,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/JCTCCU7A.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 227,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Boas Práticas de Modelagem Orientada a Grafos (Modelagem e Performance)",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-15",
-
     dataConclusao: "15 de dezembro de 2025",
-
     codigo: "FUKBFJV0",
 
     mostrarCopiar: false,
@@ -1144,22 +1473,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/FUKBFJV0.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 226,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Visualização de Dados no Neo4j Browser",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-15",
-
     dataConclusao: "15 de dezembro de 2025",
-
     codigo: "ZVW027XK",
 
     mostrarCopiar: false,
@@ -1169,22 +1510,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZVW027XK.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 225,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Instalando Ambiente Neo4j Desktop",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-15",
-
     dataConclusao: "15 de dezembro de 2025",
-
     codigo: "AEHDHHSJ",
 
     mostrarCopiar: false,
@@ -1194,22 +1547,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/AEHDHHSJ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 224,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Introdução a Graph Database e Neo4j",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-15",
-
     dataConclusao: "15 de dezembro de 2025",
-
     codigo: "D4JQMO0E",
 
     mostrarCopiar: false,
@@ -1219,22 +1584,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/D4JQMO0E.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 223,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Boas-Vindas ao Bootcamp: Neo4j - Análise de Dados com Grafos",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-15",
-
     dataConclusao: "15 de dezembro de 2025",
-
     codigo: "WXX7R5SU",
 
     mostrarCopiar: false,
@@ -1244,22 +1621,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/WXX7R5SU.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 222,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Klabin - Excel e Power BI Dashboards",
-    
     cargaHoraria: "90 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "PR5CC6SD",
 
     mostrarCopiar: false,
@@ -1269,22 +1658,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/PR5CC6SD.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 221,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Análise de Dados com Excel e Copilot",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "VVPXQH2P",
 
     mostrarCopiar: false,
@@ -1294,44 +1695,68 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/VVPXQH2P.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 220,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Associando Fórmulas Excel com Lógica de Programação",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Fórmulas Excel com Lógica de Programação.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 219,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando um Dashboard de Vendas do Xbox com Excel",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "2BSGG81O",
 
     mostrarCopiar: false,
@@ -1341,22 +1766,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/2BSGG81O.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 218,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Analisando Bases de Dados com Excel e Copilot",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "SKJCPOMZ",
 
     mostrarCopiar: false,
@@ -1366,22 +1803,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/SKJCPOMZ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 217,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando um Processo de ETL com Excel e Power Query",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "OXVXT5PI",
 
     mostrarCopiar: false,
@@ -1391,22 +1840,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/OXVXT5PI.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 216,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Utilizando Microsoft Copilot para Escrever Consultas SQL",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "LDIEBOYB",
 
     mostrarCopiar: false,
@@ -1416,22 +1877,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/LDIEBOYB.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 215,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Trabalhando com Microsoft Copilot",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "NVKBTJHU",
 
     mostrarCopiar: false,
@@ -1441,22 +1914,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/NVKBTJHU.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 214,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Introdução ao Excel 365",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "ZXIYW4H6",
 
     mostrarCopiar: false,
@@ -1466,22 +1951,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZXIYW4H6.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 213,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Explorando Bancos Relacionais e Consultas SQL",
-    
     cargaHoraria: "19 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "L7GKXCYS",
 
     mostrarCopiar: false,
@@ -1491,44 +1988,68 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/L7GKXCYS.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 212,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Associando Comandos SQL com Lógica de Programação",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "Inaplicável",
 
     mostrarCopiar: false,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.12.06 · Digital Innovation One · Associando Comandos SQL com Lógica de Programação.png",
 
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 211,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Construa um Projeto Lógico de Banco de Dados do Zero",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "Q6JXCLGO",
 
     mostrarCopiar: false,
@@ -1538,22 +2059,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/Q6JXCLGO.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 210,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Construindo seu Primeiro Projeto Lógico de Banco de Dados",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "RX4XNX4T",
 
     mostrarCopiar: false,
@@ -1563,22 +2096,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/RX4XNX4T.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 209,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Agrupando Registros e Tabelas com Join Statement",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-12-06",
-
     dataConclusao: "06 de dezembro de 2025",
-
     codigo: "PLW5E92H",
 
     mostrarCopiar: false,
@@ -1588,22 +2133,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/PLW5E92H.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
     {
     id: 208,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando Queries com Funções e Cláusulas de Agrupamento",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-12-05",
-
     dataConclusao: "05 de dezembro de 2025",
-
     codigo: "G6MHOJWG",
 
     mostrarCopiar: false,
@@ -1613,22 +2170,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/G6MHOJWG.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 207,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Explorando Queries com SQL",
-    
     cargaHoraria: "3 h",
-
     conclusaoISO: "2025-12-05",
-
     dataConclusao: "05 de dezembro de 2025",
-
     codigo: "Y7PFJNZ4",
 
     mostrarCopiar: false,
@@ -1638,22 +2207,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/Y7PFJNZ4.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 206,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Primeiros Passos com SQL",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-12-05",
-
     dataConclusao: "05 de dezembro de 2025",
-
     codigo: "UUVTJTCM",
 
     mostrarCopiar: false,
@@ -1663,22 +2244,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/UUVTJTCM.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 205,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Introdução a Análise de Dados e BI",
-    
     cargaHoraria: "12 h",
-
     conclusaoISO: "2025-12-04",
-
     dataConclusao: "04 de dezembro de 2025",
-
     codigo: "45QUXAFS",
 
     mostrarCopiar: false,
@@ -1688,22 +2281,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/45QUXAFS.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
     {
     id: 204,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Live de Lançamento - Klabin - Excel e Power BI Dashboards",
-    
     cargaHoraria: "2 h",
-
     conclusaoISO: "2025-12-04",
-
     dataConclusao: "04 de dezembro de 2025",
-
     codigo: "UKBZA89I",
 
     mostrarCopiar: false,
@@ -1713,22 +2318,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/UKBZA89I.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 203,
+    
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
- 
     curso: "Introdução ao Excel e Power BI Dashboards com a Klabin",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-12-04",
-
     dataConclusao: "04 de dezembro de 2025",
-
     codigo: "MUDNRPKR",
 
     mostrarCopiar: false,
@@ -1738,22 +2355,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/MUDNRPKR.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 202,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Gerenciamento de Workspaces e Datasets com Power BI",
-    
     cargaHoraria: "4 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "PBTL3TPP",
 
     mostrarCopiar: false,
@@ -1763,22 +2392,34 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/PBTL3TPP.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
     id: 201,
 
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
     instituicao: "Digital Innovation One",
- 
     curso: "Criando Relatórios Dinâmicos com o uso de Parâmetros no Power BI",
-    
     cargaHoraria: "1 h",
-
     conclusaoISO: "2025-11-26",
-
     dataConclusao: "26 de novembro de 2025",
-
     codigo: "ZYHZJCCJ",
 
     mostrarCopiar: false,
@@ -1788,7 +2429,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://hermes.dio.me/certificates/ZYHZJCCJ.pdf",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
