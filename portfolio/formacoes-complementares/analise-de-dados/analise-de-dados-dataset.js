@@ -2311,6 +2311,8 @@ window.datasetCategoria = [
   {
     id: 200,
 
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Datasets com Power BI.png",
+
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
     nomeCargaHoraria: "Carga Horária: ",
@@ -2324,11 +2326,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "2DUEEVCK",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Datasets com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/2DUEEVCK.pdf",
       texto: "Verificar Autenticidade"
@@ -2337,6 +2335,8 @@ window.datasetCategoria = [
   
   {
     id: 199,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Workspaces com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2351,11 +2351,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "RKEFFEMI",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Gerenciamento de Workspaces com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/RKEFFEMI.pdf",
       texto: "Verificar Autenticidade"
@@ -2364,6 +2360,8 @@ window.datasetCategoria = [
   
   {
     id: 198,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Data Analytics & Storytelling com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2378,11 +2376,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "TJ7LIIID",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Data Analytics & Storytelling com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/TJ7LIIID.pdf",
       texto: "Verificar Autenticidade"
@@ -2391,6 +2385,8 @@ window.datasetCategoria = [
   
   {
     id: 197,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Relatório Vendas e Lucros com Data Analytics com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2405,11 +2401,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "2FT7OFXM",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Relatório Vendas e Lucros com Data Analytics com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/2FT7OFXM.pdf",
       texto: "Verificar Autenticidade"
@@ -2418,6 +2410,8 @@ window.datasetCategoria = [
   
   {
     id: 196,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Dashboard Gerencial para Tomada de Decisões com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2432,11 +2426,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "OJKK5TE8",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Dashboard Gerencial para Tomada de Decisões com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/OJKK5TE8.pdf",
       texto: "Verificar Autenticidade"
@@ -2445,6 +2435,8 @@ window.datasetCategoria = [
   
   {
     id: 195,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Data Analytics com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2459,11 +2451,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "VTKY1X14",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Data Analytics com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/VTKY1X14.pdf",
       texto: "Verificar Autenticidade"
@@ -2472,6 +2460,8 @@ window.datasetCategoria = [
   
   {
     id: 194,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Explorando Recursos para Criar Storytelling dos Dados com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2486,11 +2476,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "QVN7XJWR",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Explorando Recursos para Criar Storytelling dos Dados com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/QVN7XJWR.pdf",
       texto: "Verificar Autenticidade"
@@ -2499,6 +2485,8 @@ window.datasetCategoria = [
   
   {
     id: 193,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Relatório & Experiência do Usuário no Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2513,11 +2501,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "1TKINRZ8",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Relatório & Experiência do Usuário no Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/1TKINRZ8.pdf",
       texto: "Verificar Autenticidade"
@@ -2526,6 +2510,8 @@ window.datasetCategoria = [
   
   {
     id: 192,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelagem de Dados com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2540,11 +2526,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "DJXQ5UOJ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelagem de Dados com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/DJXQ5UOJ.pdf",
       texto: "Verificar Autenticidade"
@@ -2553,6 +2535,8 @@ window.datasetCategoria = [
   
   {
     id: 191,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelando um Dashboard de e-Commerce com Power BI Utilizando Fórmulas DAX.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2567,11 +2551,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "BHNK3MQD",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelando um Dashboard de e-Commerce com Power BI Utilizando Fórmulas DAX.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/BHNK3MQD.pdf",
       texto: "Verificar Autenticidade"
@@ -2580,6 +2560,8 @@ window.datasetCategoria = [
   
   {
     id: 190,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Dashboard de Vendas com Power BI Utilizando Star Schema.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2594,11 +2576,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "LUB5BH8Y",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Dashboard de Vendas com Power BI Utilizando Star Schema.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/LUB5BH8Y.pdf",
       texto: "Verificar Autenticidade"
@@ -2607,6 +2585,8 @@ window.datasetCategoria = [
   
   {
     id: 189,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Otimização de Modelo de Dados com Foco em Desempenho no Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2621,11 +2601,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "R1AQCKMB",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Otimização de Modelo de Dados com Foco em Desempenho no Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/R1AQCKMB.pdf",
       texto: "Verificar Autenticidade"
@@ -2634,6 +2610,8 @@ window.datasetCategoria = [
   
   {
     id: 188,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Primeiros Passos com DAX e Cálculos com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2648,11 +2626,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "IXN8IDYO",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Primeiros Passos com DAX e Cálculos com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/IXN8IDYO.pdf",
       texto: "Verificar Autenticidade"
@@ -2661,6 +2635,8 @@ window.datasetCategoria = [
   
   {
     id: 187,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelagem de Dados no Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2675,11 +2651,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "WTZLULAS",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Modelagem de Dados no Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/WTZLULAS.pdf",
       texto: "Verificar Autenticidade"
@@ -2688,6 +2660,8 @@ window.datasetCategoria = [
   
   {
     id: 186,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Modelagem Dimensional.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2702,11 +2676,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "CLKCTMEN",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Modelagem Dimensional.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/CLKCTMEN.pdf",
       texto: "Verificar Autenticidade"
@@ -2715,6 +2685,8 @@ window.datasetCategoria = [
   
   {
     id: 185,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Processamento de Dados com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2729,11 +2701,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "WJL1SVZF",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Processamento de Dados com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/WJL1SVZF.pdf",
       texto: "Verificar Autenticidade"
@@ -2742,6 +2710,8 @@ window.datasetCategoria = [
   
   {
     id: 184,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Dashboard Corporativo com Integração com MySQL e Azure.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2756,11 +2726,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "LYIOJKNQ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Dashboard Corporativo com Integração com MySQL e Azure.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/LYIOJKNQ.pdf",
       texto: "Verificar Autenticidade"
@@ -2769,6 +2735,8 @@ window.datasetCategoria = [
   
   {
     id: 183,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Limpeza e Transformação de Dados com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2783,11 +2751,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "CIWDR2XH",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Limpeza e Transformação de Dados com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/CIWDR2XH.pdf",
       texto: "Verificar Autenticidade"
@@ -2796,6 +2760,8 @@ window.datasetCategoria = [
   
   {
     id: 182,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Coleta e Extração de Dados com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2810,11 +2776,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "NUORYDRD",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Coleta e Extração de Dados com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/NUORYDRD.pdf",
       texto: "Verificar Autenticidade"
@@ -2823,6 +2785,8 @@ window.datasetCategoria = [
   
   {
     id: 181,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Visualização de Dados e Relatórios com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2837,11 +2801,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "VH7KKVF5",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Visualização de Dados e Relatórios com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/VH7KKVF5.pdf",
       texto: "Verificar Autenticidade"
@@ -2850,6 +2810,8 @@ window.datasetCategoria = [
   
   {
     id: 180,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Relatório Gerencial de Vendas com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2864,11 +2826,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "N1XZQCAJ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando um Relatório Gerencial de Vendas com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/N1XZQCAJ.pdf",
       texto: "Verificar Autenticidade"
@@ -2877,6 +2835,8 @@ window.datasetCategoria = [
   
   {
     id: 179,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando Dashboards Interativos com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2891,11 +2851,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "0NRUJMED",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Criando Dashboards Interativos com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/0NRUJMED.pdf",
       texto: "Verificar Autenticidade"
@@ -2904,6 +2860,8 @@ window.datasetCategoria = [
   
   {
     id: 178,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de BI (KPIs e Métricas).png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2918,11 +2876,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "W6UHFSMK",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de BI (KPIs e Métricas).png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/W6UHFSMK.pdf",
       texto: "Verificar Autenticidade"
@@ -2931,6 +2885,8 @@ window.datasetCategoria = [
   
   {
     id: 177,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Trabalhando com Visuais no Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2945,11 +2901,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "3PXGLZYD",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Trabalhando com Visuais no Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/3PXGLZYD.pdf",
       texto: "Verificar Autenticidade"
@@ -2958,6 +2910,8 @@ window.datasetCategoria = [
   
   {
     id: 176,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2972,11 +2926,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "RFX18W5R",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/RFX18W5R.pdf",
       texto: "Verificar Autenticidade"
@@ -2985,6 +2935,8 @@ window.datasetCategoria = [
   
   {
     id: 175,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Analisando Dados de um Dashboard de Vendas no Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2999,11 +2951,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "XOZZM8SJ",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Analisando Dados de um Dashboard de Vendas no Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/XOZZM8SJ.pdf",
       texto: "Verificar Autenticidade"
@@ -3012,6 +2960,8 @@ window.datasetCategoria = [
   
   {
     id: 174,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Primeiros Passos com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3026,11 +2976,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "M3QCEGBT",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Primeiros Passos com Power BI.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/M3QCEGBT.pdf",
       texto: "Verificar Autenticidade"
@@ -3039,6 +2985,8 @@ window.datasetCategoria = [
   
   {
     id: 173,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos Teóricos sobre ETL.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3053,11 +3001,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "MMI96OWW",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos Teóricos sobre ETL.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/MMI96OWW.pdf",
       texto: "Verificar Autenticidade"
@@ -3066,6 +3010,8 @@ window.datasetCategoria = [
   
   {
     id: 172,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Introdução a Análise de Dados com SQL.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3080,11 +3026,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "GIV3OFCI",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Introdução a Análise de Dados com SQL.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/GIV3OFCI.pdf",
       texto: "Verificar Autenticidade"
@@ -3093,6 +3035,8 @@ window.datasetCategoria = [
   
   {
     id: 171,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Business Intelligence.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3107,11 +3051,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-11-26",
     dataConclusao: "26 de novembro de 2025",
     codigo: "UHR6E3EG",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.11.26 · Digital Innovation One · Fundamentos de Business Intelligence.png",
-
     verificacao: {
       url: "https://hermes.dio.me/certificates/UHR6E3EG.pdf",
       texto: "Verificar Autenticidade"
@@ -3120,6 +3060,8 @@ window.datasetCategoria = [
   
   {
     id: 170,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.27 · Escola Nacional de Administração Pública · Análise de Negócios no Desenvolvimento de Soluções Baseadas em Dados.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3134,11 +3076,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-27",
     dataConclusao: "27 de outubro de 2025",
     codigo: "iez2193034252sit",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.27 · Escola Nacional de Administração Pública · Análise de Negócios no Desenvolvimento de Soluções Baseadas em Dados.png",
-
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
@@ -3147,6 +3085,8 @@ window.datasetCategoria = [
   
   {
     id: 169,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.27 · Escola Nacional de Administração Pública · Análise de Dados (Uma Leitura Crítica das Informações).png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3161,11 +3101,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-27",
     dataConclusao: "27 de outubro de 2025",
     codigo: "IyjF1930341257Q1",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.27 · Escola Nacional de Administração Pública · Análise de Dados (Uma Leitura Crítica das Informações).png",
-
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
@@ -3174,6 +3110,8 @@ window.datasetCategoria = [
   
   {
     id: 168,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.23 · Xperiun · Data Analytics · Profissional do Futuro.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3188,16 +3126,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-23",
     dataConclusao: "23 de outubro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.23 · Xperiun · Data Analytics · Profissional do Futuro.png",
-
     verificacao: null
   },
   
   {
     id: 167,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.20 · Profissionais de Epidemiologia · Painel de Indicadores.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3212,11 +3148,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-20",
     dataConclusao: "20 de outubro de 2025",
     codigo: "hHh4xWDmSg",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.20 · Profissionais de Epidemiologia · Painel de Indicadores.png",
-
     verificacao: {
       url: "https://ead.proepi.org.br/ead/mod/customcert/verify_certificate.php",
       texto: "Verificar Autenticidade"
@@ -3225,6 +3157,8 @@ window.datasetCategoria = [
   
   {
     id: 166,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.18 · Cursa · Google Analytics.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3239,11 +3173,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-18",
     dataConclusao: "18 de outubro de 2025",
     codigo: "0d016abf59",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.18 · Cursa · Google Analytics.png",
-
     verificacao: {
       url: "https://cursa.com.br/certificate/0d016abf59",
       texto: "Verificar Autenticidade"
@@ -3252,6 +3182,8 @@ window.datasetCategoria = [
   
   {
     id: 165,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.17 · Cursa · Data Science com Puthon™.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3266,11 +3198,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-17",
     dataConclusao: "17 de outubro de 2025",
     codigo: "08b05ab7aa",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.17 · Cursa · Data Science com Puthon™.png",
-
     verificacao: {
       url: "https://cursa.com.br/certificate/08b05ab7aa",
       texto: "Verificar Autenticidade"
@@ -3279,6 +3207,8 @@ window.datasetCategoria = [
   
   {
     id: 164,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.14 · Escola Nacional de Administração Pública · Soluções Preditivas Baseadas em Dados com o Uso do R e do Python™.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3293,11 +3223,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-14",
     dataConclusao: "14 de outubro de 2025",
     codigo: "SHsT19068421Kb9j",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.14 · Escola Nacional de Administração Pública · Soluções Preditivas Baseadas em Dados com o Uso do R e do Python™.png",
-
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
@@ -3306,6 +3232,8 @@ window.datasetCategoria = [
   
   {
     id: 163,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.09 · Tetra Educação · Básico de Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3320,16 +3248,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-09",
     dataConclusao: "09 de outubro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.09 · Tetra Educação · Básico de Power BI.png",
-
     verificacao: null
   },
   
   {
     id: 162,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.08 · Comunidade Data Driven · Imersão Power BI na Era da Inteligência Artificial.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3344,16 +3270,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-10-08",
     dataConclusao: "08 de outubro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.10.08 · Comunidade Data Driven · Imersão Power BI na Era da Inteligência Artificial.png",
-
     verificacao: null
   },
   
   {
     id: 161,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.28 · Unieducar · Análise de Dados, Probabilidade e Distribuições de Probabilidade.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3368,11 +3292,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-28",
     dataConclusao: "28 de setembro de 2025",
     codigo: "202509283801637.1759075088",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.28 · Unieducar · Análise de Dados, Probabilidade e Distribuições de Probabilidade.png",
-
     verificacao: {
       url: "https://unieducar.org.br/consultar-certificado?numero_certificado=202509283801637.1759075088",
       texto: "Verificar Autenticidade"
@@ -3381,6 +3301,8 @@ window.datasetCategoria = [
   
   {
     id: 160,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.25 · Tetra Educação · Imersão Excel Automate.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3395,16 +3317,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-25",
     dataConclusao: "25 de setembro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.25 · Tetra Educação · Imersão Excel Automate.png",
-
     verificacao: null
   },
   
   {
     id: 159,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.18 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3419,11 +3339,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-18",
     dataConclusao: "18 de setembro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.18 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
-
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=18%2F09%2F2025&hcf=8",
       texto: "Verificar Autenticidade"
@@ -3432,6 +3348,8 @@ window.datasetCategoria = [
   
   {
     id: 158,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.17 · Fundação Escola de Governo · Excel Nível III.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3446,11 +3364,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-17",
     dataConclusao: "17 de setembro de 2025",
     codigo: "nIRqhvKy1J",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.17 · Fundação Escola de Governo · Excel Nível III.png",
-
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=nIRqhvKy1J&qrcode=1",
       texto: "Verificar Autenticidade"
@@ -3459,6 +3373,8 @@ window.datasetCategoria = [
   
   {
     id: 157,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.17 · Fundação Escola de Governo · Excel Nível II.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3473,11 +3389,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-17",
     dataConclusao: "17 de setembro de 2025",
     codigo: "DaOL4gEAtp",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.17 · Fundação Escola de Governo · Excel Nível II.png",
-
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=DaOL4gEAtp&qrcode=1",
       texto: "Verificar Autenticidade"
@@ -3486,6 +3398,8 @@ window.datasetCategoria = [
   
   {
     id: 156,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.13 · Fundação Escola de Governo · Excel Nível I.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3500,11 +3414,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-13",
     dataConclusao: "13 de setembro de 2025",
     codigo: "psjSS5ukMa",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.13 · Fundação Escola de Governo · Excel Nível I.png",
-
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=psjSS5ukMa&qrcode=1",
       texto: "Verificar Autenticidade"
@@ -3513,6 +3423,8 @@ window.datasetCategoria = [
   
   {
     id: 155,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.11 · Fundação Escola de Governo · Power BI Avançado.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3527,11 +3439,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-11",
     dataConclusao: "11 de setembro de 2025",
     codigo: "T6oQcAtXAt",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.11 · Fundação Escola de Governo · Power BI Avançado.png",
-
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=T6oQcAtXAt&qrcode=1",
       texto: "Verificar Autenticidade"
@@ -3540,6 +3448,8 @@ window.datasetCategoria = [
   
   {
     id: 154,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.06 · Instituto Municipal de Administração Pública - Curitiba · Power BI II.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3554,11 +3464,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-06",
     dataConclusao: "06 de setembro de 2025",
     codigo: "68bee9013dea8",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.06 · Instituto Municipal de Administração Pública - Curitiba · Power BI II.png",
-
     verificacao: {
       url: "https://aprendere.curitiba.pr.gov.br/validar-certificado/",
       texto: "Verificar Autenticidade"
@@ -3567,6 +3473,8 @@ window.datasetCategoria = [
   
   {
     id: 153,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.05 · Instituto Municipal de Administração Pública - Curitiba · Power BI I.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3581,11 +3489,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-05",
     dataConclusao: "05 de setembro de 2025",
     codigo: "68bc1c37e3a87",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.05 · Instituto Municipal de Administração Pública - Curitiba · Power BI I.png",
-
     verificacao: {
       url: "https://aprendere.curitiba.pr.gov.br/validar-certificado/",
       texto: "Verificar Autenticidade"
@@ -3594,6 +3498,8 @@ window.datasetCategoria = [
   
   {
     id: 152,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · Fundação Escola de Governo · Power BI Básico.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3608,11 +3514,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-02",
     dataConclusao: "02 de setembro de 2025",
     codigo: "kcOoBHkhDi",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · Fundação Escola de Governo · Power BI Básico.png",
-
     verificacao: {
       url: "https://enavirtual.sc.gov.br/mod/customcert/verify_certificate.php?code=kcOoBHkhDi&qrcode=1",
       texto: "Verificar Autenticidade"
@@ -3621,6 +3523,8 @@ window.datasetCategoria = [
   
   {
     id: 151,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · AUniversity · Power BI (O que você precisa saber para conseguir seu estágio).png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3635,16 +3539,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-02",
     dataConclusao: "02 de setembro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · AUniversity · Power BI (O que você precisa saber para conseguir seu estágio).png",
-
     verificacao: null
   },
   
   {
     id: 150,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · Excelência Consultoria & Educação · Introdução ao Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3659,11 +3561,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-09-02",
     dataConclusao: "02 de setembro de 2025",
     codigo: "3fdm09",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.09.02 · Excelência Consultoria & Educação · Introdução ao Power BI.png",
-
     verificacao: {
       url: "https://ead.consultoriaexcelencia.com.br/certificate/3fdm09/2025-09-02",
       texto: "Verificar Autenticidade"
@@ -3672,6 +3570,8 @@ window.datasetCategoria = [
   
   {
     id: 149,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.28 · Tetra Educação · Imersão Excel Automate.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3686,16 +3586,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-08-28",
     dataConclusao: "28 de agosto de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.28 · Tetra Educação · Imersão Excel Automate.png",
-
     verificacao: null
   },
   
   {
     id: 148,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.22 · Romual Office · Minicurso de Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3710,16 +3608,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-08-22",
     dataConclusao: "22 de agosto de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.22 · Romual Office · Minicurso de Power BI.png",
-
     verificacao: null
   },
   
   {
     id: 147,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.21 · Kultivi · Power BI Descomplicado.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3734,16 +3630,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-08-21",
     dataConclusao: "21 de agosto de 2025",
     codigo: "13ebc3d0-7b20-4cef-aba8-f531198ca376",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.21 · Kultivi · Power BI Descomplicado.png",
-
     verificacao: null
   },
   
   {
     id: 146,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.07 · Simplifica Treinamentos · Simplifica Excel Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3758,16 +3652,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-08-07",
     dataConclusao: "07 de agosto de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.08.07 · Simplifica Treinamentos · Simplifica Excel Express.png",
-
     verificacao: null
   },
   
   {
     id: 145,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.18 · Instituto Federal Sul-Rio-Grandense · Introdução à Análise Exploratória de Dados com Inteligência Artificial.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3782,11 +3674,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-07-18",
     dataConclusao: "18 de julho de 2025",
     codigo: "687ac47b-0e30-4f43-b2d6-534e0a00c840",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.18 · Instituto Federal Sul-Rio-Grandense · Introdução à Análise Exploratória de Dados com Inteligência Artificial.png",
-
     verificacao: {
       url: "https://mundi.ifsul.edu.br/ava/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
@@ -3795,6 +3683,8 @@ window.datasetCategoria = [
   
   {
     id: 144,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.13 · Cursa · Analista de Dados Python™ · NumPy · Pandas.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3809,11 +3699,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-07-13",
     dataConclusao: "13 de julho de 2025",
     codigo: "ae50f1b555",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.13 · Cursa · Analista de Dados Python™ · NumPy · Pandas.png",
-
     verificacao: {
       url: "https://cursa.com.br/certificate/ae50f1b555",
       texto: "Verificar Autenticidade"
@@ -3822,6 +3708,8 @@ window.datasetCategoria = [
   
   {
     id: 143,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.10 · Simplifica Treinamentos · Power Excel Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3836,16 +3724,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-07-10",
     dataConclusao: "10 de julho de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.07.10 · Simplifica Treinamentos · Power Excel Express.png",
-
     verificacao: null
   },
   
   {
     id: 142,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.12 · Tetra Educação · Imersão Excel Automate.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3860,16 +3746,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-06-12",
     dataConclusao: "12 de junho de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.12 · Tetra Educação · Imersão Excel Automate.png",
-
     verificacao: null
   },
   
   {
     id: 141,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.12 · Hashtag Treinamentos · Intensivão de Análise de Dados.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3884,11 +3768,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-06-12",
     dataConclusao: "12 de junho de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.12 · Hashtag Treinamentos · Intensivão de Análise de Dados.png",
-
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Análise+de+Dados&dtcf=12%2F06%2F2025&hcf=8",
       texto: "Verificar Autenticidade"
@@ -3897,6 +3777,8 @@ window.datasetCategoria = [
   
   {
     id: 140,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.11 · Simplifica Treinamentos · Simplifica Python™ Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3911,16 +3793,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-06-11",
     dataConclusao: "11 de junho de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.11 · Simplifica Treinamentos · Simplifica Python™ Express.png",
-
     verificacao: null
   },
   
   {
     id: 139,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.06 · Aprenda Mais · Estrutura de Dados.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3935,11 +3815,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-06-06",
     dataConclusao: "06 de junho de 2025",
     codigo: "6843089f-896c-42eb-affd-303aac1f032a",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.06 · Aprenda Mais · Estrutura de Dados.png",
-
     verificacao: {
       url: "https://aprendamais.mec.gov.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
@@ -3948,6 +3824,8 @@ window.datasetCategoria = [
   
   {
     id: 138,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.05 · Simplifica Treinamentos · Power Excel Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3962,16 +3840,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-06-05",
     dataConclusao: "05 de junho de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.05 · Simplifica Treinamentos · Power Excel Express.png",
-
     verificacao: null
   },
   
   {
     id: 137,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.05 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -3986,11 +3862,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-06-05",
     dataConclusao: "05 de junho de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.05 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
-
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=05%2F06%2F2025&hcf=8",
       texto: "Verificar Autenticidade"
@@ -3999,6 +3871,8 @@ window.datasetCategoria = [
   
   {
     id: 136,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.02 · Instituto Federal Mato Grosso do Sul · Introdução à Ciência de Dados.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4013,11 +3887,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-06-02",
     dataConclusao: "02 de junho de 2025",
     codigo: "683de066-2d00-4636-a258-9bbf0a01004c",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.06.02 · Instituto Federal Mato Grosso do Sul · Introdução à Ciência de Dados.png",
-
     verificacao: {
       url: "https://cursoslivres.ifms.edu.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
@@ -4026,6 +3896,8 @@ window.datasetCategoria = [
   
   {
     id: 135,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.29 · Comunidade Data Driven · Imersão Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4040,16 +3912,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-05-29",
     dataConclusao: "29 de maio de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.29 · Comunidade Data Driven · Imersão Power BI.png",
-
     verificacao: null
   },
   
   {
     id: 134,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.28 · Simpli Learn · Power BI Data Modelling Basics Tutorial Course.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4064,16 +3934,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-05-28",
     dataConclusao: "28 de maio de 2025",
     codigo: "8400989",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.28 · Simpli Learn · Power BI Data Modelling Basics Tutorial Course.png",
-
     verificacao: null
   },
   
   {
     id: 133,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.27 · Simpli Learn · Power BI for Beginners.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4088,16 +3956,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-05-27",
     dataConclusao: "27 de maio de 2025",
     codigo: "8396480",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.27 · Simpli Learn · Power BI for Beginners.png",
-
     verificacao: null
   },
   
   {
     id: 132,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.18 · FM2S · Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4112,11 +3978,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-05-18",
     dataConclusao: "18 de maio de 2025",
     codigo: "5f5f0112d73c5a73d3ec189307fa9a061cf14881",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.18 · FM2S · Power BI.png",
-
     verificacao: {
       url: "https://ead.fm2s.com.br/verify/5f5f0112d73c5a73d3ec189307fa9a061cf14881",
       texto: "Verificar Autenticidade"
@@ -4125,6 +3987,8 @@ window.datasetCategoria = [
   
   {
     id: 131,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.08 · Tetra Educação · Imersão Excel Automate.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4139,16 +4003,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-05-08",
     dataConclusao: "08 de maio de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.05.08 · Tetra Educação · Imersão Excel Automate.png",
-
     verificacao: null
   },
   
   {
     id: 130,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.17 · Simpli Learn · Getting Started with Apache™ Hadoop.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4163,16 +4025,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-04-17",
     dataConclusao: "17 de abril de 2025",
     codigo: "8206950",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.17 · Simpli Learn · Getting Started with Apache™ Hadoop.png",
-
     verificacao: null
   },
   
   {
     id: 129,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.13 · Simpli Learn · Apache™ Spark Beginners Course.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4187,16 +4047,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-04-13",
     dataConclusao: "13 de abril de 2025",
     codigo: "8185917",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.13 · Simpli Learn · Apache™ Spark Beginners Course.png",
-
     verificacao: null
   },
   
   {
     id: 128,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.10 · Simplifica Treinamentos · Simplifica Excel Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4211,16 +4069,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-04-10",
     dataConclusao: "10 de abril de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.10 · Simplifica Treinamentos · Simplifica Excel Express.png",
-
     verificacao: null
   },
   
   {
     id: 127,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.10 · Empowerdata · Acelerador de Carreira com Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4235,16 +4091,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-04-10",
     dataConclusao: "10 de abril de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.10 · Empowerdata · Acelerador de Carreira com Power BI.png",
-
     verificacao: null
   },
   
   {
     id: 126,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.07 · Xperiun · Data Analytics · Linguagem DAX Essencial.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4259,16 +4113,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-04-07",
     dataConclusao: "07 de abril de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.04.07 · Xperiun · Data Analytics · Linguagem DAX Essencial.png",
-
     verificacao: null
   },
   
   {
     id: 125,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.03.13 · Tetra Educação · Básico de Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4283,16 +4135,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-03-13",
     dataConclusao: "13 de março de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.03.13 · Tetra Educação · Básico de Power BI.png",
-
     verificacao: null
   },
   
   {
     id: 124,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.03.13 · Simplifica Treinamentos · Simplifica Power BI Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4307,16 +4157,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-03-13",
     dataConclusao: "13 de março de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.03.13 · Simplifica Treinamentos · Simplifica Power BI Express.png",
-
     verificacao: null
   },
   
   {
     id: 123,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.27 · FIAP - Centro Universitário · Business Intelligence.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4331,11 +4179,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-02-27",
     dataConclusao: "27 de fevereiro de 2025",
     codigo: "71555f1cd0d212c3d7dc5dc3b2b67659",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.27 · FIAP - Centro Universitário · Business Intelligence.png",
-
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=71555f1cd0d212c3d7dc5dc3b2b67659&action=view",
       texto: "Verificar Autenticidade"
@@ -4344,6 +4188,8 @@ window.datasetCategoria = [
   
   {
     id: 122,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.20 · Hashtag Treinamentos · Intensivão de Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4358,11 +4204,7 @@ window.datasetCategoria = [
     conclusaoISO: "2025-02-20",
     dataConclusao: "20 de fevereiro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.20 · Hashtag Treinamentos · Intensivão de Power BI.png",
-
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Power+BI&dtcf=20%2F02%2F2025&hcf=8",
       texto: "Verificar Autenticidade"
@@ -4371,6 +4213,8 @@ window.datasetCategoria = [
   
   {
     id: 121,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.17 · Gran Faculdade · Análise de Dados e Inteligência de Negócios.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4385,16 +4229,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-02-17",
     dataConclusao: "17 de fevereiro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.17 · Gran Faculdade · Análise de Dados e Inteligência de Negócios.png",
-
     verificacao: null
   },
   
   {
     id: 120,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.16 · Comunidade Data Driven · Imersão Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4409,16 +4251,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-02-16",
     dataConclusao: "16 de fevereiro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.16 · Comunidade Data Driven · Imersão Power BI.png",
-
     verificacao: null
   },
   
   {
     id: 119,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.13 · Simplifica Treinamentos · Power Excel Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4433,16 +4273,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-02-13",
     dataConclusao: "13 de fevereiro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.13 · Simplifica Treinamentos · Power Excel Express.png",
-
     verificacao: null
   },
   
   {
     id: 118,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.06 · Tetra Educação · Imersão Excel Automate.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4457,16 +4295,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-02-06",
     dataConclusao: "06 de fevereiro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.02.06 · Tetra Educação · Imersão Excel Automate.png",
-
     verificacao: null
   },
   
   {
     id: 117,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.01.30 · Simplifica Treinamentos · Simplifica Python™ Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4481,16 +4317,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-01-30",
     dataConclusao: "30 de janeiro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.01.30 · Simplifica Treinamentos · Simplifica Python™ Express.png",
-
     verificacao: null
   },
   
   {
     id: 116,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.01.09 · Simplifica Treinamentos · Simplifica Excel Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4505,16 +4339,14 @@ window.datasetCategoria = [
     conclusaoISO: "2025-01-09",
     dataConclusao: "09 de janeiro de 2025",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2025.01.09 · Simplifica Treinamentos · Simplifica Excel Express.png",
-
     verificacao: null
   },
   
   {
     id: 115,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.19 · Hashtag Treinamentos · Intensivão de Análise de Dados.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4529,11 +4361,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-12-19",
     dataConclusao: "19 de dezembro de 2024",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.19 · Hashtag Treinamentos · Intensivão de Análise de Dados.png",
-
     verificacao: {
       url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Análise+de+Dados&dtcf=19%2F12%2F2024&hcf=8",
       texto: "Verificar Autenticidade"
@@ -4542,6 +4370,8 @@ window.datasetCategoria = [
   
   {
     id: 114,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.08 · Xperiun · Data Analytics · Missão Zero · Bootcamp Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4556,16 +4386,14 @@ window.datasetCategoria = [
     conclusaoISO: "2024-12-08",
     dataConclusao: "08 de dezembro de 2024",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.08 · Xperiun · Data Analytics · Missão Zero · Bootcamp Power BI.png",
-
     verificacao: null
   },
   
   {
     id: 113,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.05 · Simplifica Treinamentos · Power Excel Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4580,16 +4408,14 @@ window.datasetCategoria = [
     conclusaoISO: "2024-12-05",
     dataConclusao: "05 de dezembro de 2024",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.12.05 · Simplifica Treinamentos · Power Excel Express.png",
-
     verificacao: null
   },
   
   {
     id: 112,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.21 · Xperiun · Data Analytics · Data Warehouse Week.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4604,16 +4430,14 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-21",
     dataConclusao: "21 de novembro de 2024",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.21 · Xperiun · Data Analytics · Data Warehouse Week.png",
-
     verificacao: null
   },
   
   {
     id: 111,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.21 · Simplifica Treinamentos · Simplifica Python™ Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4628,16 +4452,14 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-21",
     dataConclusao: "21 de novembro de 2024",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.21 · Simplifica Treinamentos · Simplifica Python™ Express.png",
-
     verificacao: null
   },
   
   {
     id: 110,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.14 · Instituto Federal Espírito Santo · Estatística com R.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4652,11 +4474,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-14",
     dataConclusao: "14 de novembro de 2024",
     codigo: "6735e711-1df0-4a38-b2a6-4b9dac1a2c07",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.14 · Instituto Federal Espírito Santo · Estatística com R.png",
-
     verificacao: {
       url: "https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
@@ -4665,6 +4483,8 @@ window.datasetCategoria = [
   
   {
     id: 109,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.10 · Instituto Federal Minas Gerais · Fundamentos de Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4679,11 +4499,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-10",
     dataConclusao: "10 de novembro de 2024",
     codigo: "67306eaa-ede8-4c0e-8cf5-0c17ac140047",
-
     mostrarCopiar: true,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.10 · Instituto Federal Minas Gerais · Fundamentos de Power BI.png",
-
     verificacao: {
       url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
@@ -4692,6 +4508,8 @@ window.datasetCategoria = [
   
   {
     id: 108,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.09 · Mago dos Dados · Qlik Sense.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4706,16 +4524,14 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-09",
     dataConclusao: "09 de novembro de 2024",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.09 · Mago dos Dados · Qlik Sense.png",
-
     verificacao: null
   },
   
   {
     id: 107,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.08 · Escola Nacional de Administração Pública · Estatística.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4730,11 +4546,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-08",
     dataConclusao: "08 de novembro de 2024",
     codigo: "qRbI14630796Uvm6",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.08 · Escola Nacional de Administração Pública · Estatística.png",
-
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
@@ -4743,6 +4555,8 @@ window.datasetCategoria = [
   
   {
     id: 106,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.07 · Tetra Educação · Dashboards no Power BI.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4757,16 +4571,14 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-07",
     dataConclusao: "07 de novembro de 2024",
     codigo: "Inaplicável",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.07 · Tetra Educação · Dashboards no Power BI.png",
-
     verificacao: null
   },
   
   {
     id: 105,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.06 · Cursa · Linguagem R.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4781,11 +4593,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-06",
     dataConclusao: "06 de novembro de 2024",
     codigo: "6c2bfd5fea",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.06 · Cursa · Linguagem R.png",
-
     verificacao: {
       url: "https://cursa.com.br/certificate/6c2bfd5fea",
       texto: "Verificar Autenticidade"
@@ -4794,6 +4602,8 @@ window.datasetCategoria = [
   
   {
     id: 104,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.04 · Escola Nacional de Administração Pública · Visualização de Dados Aplicada à Transformação Digital.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4808,11 +4618,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-11-04",
     dataConclusao: "04 de novembro de 2024",
     codigo: "uFYW14630809rvdz",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.11.04 · Escola Nacional de Administração Pública · Visualização de Dados Aplicada à Transformação Digital.png",
-
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
@@ -4821,6 +4627,8 @@ window.datasetCategoria = [
   
   {
     id: 103,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.31 · Cursa · Google Data Studio.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4835,11 +4643,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-10-31",
     dataConclusao: "31 de outubro de 2024",
     codigo: "cf91af79b9",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.31 · Cursa · Google Data Studio.png",
-
     verificacao: {
       url: "https://cursa.com.br/certificate/cf91af79b9",
       texto: "Verificar Autenticidade"
@@ -4848,6 +4652,8 @@ window.datasetCategoria = [
   
   {
     id: 102,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.30 · Escola Nacional de Administração Pública · Análise de Dados como Suporte à Tomada de Decisão.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4862,11 +4668,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-10-30",
     dataConclusao: "30 de outubro de 2024",
     codigo: "1tJe14630738Kmwj",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.30 · Escola Nacional de Administração Pública · Análise de Dados como Suporte à Tomada de Decisão.png",
-
     verificacao: {
       url: "https://www.escolavirtual.gov.br/documentos/validacao/",
       texto: "Verificar Autenticidade"
@@ -4875,6 +4677,8 @@ window.datasetCategoria = [
   
   {
     id: 101,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.30 · Data Science Academy · Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Intermediário).png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -4889,11 +4693,7 @@ window.datasetCategoria = [
     conclusaoISO: "2024-10-30",
     dataConclusao: "30 de outubro de 2024",
     codigo: "672215dd1b82d3b22502b349",
-
     mostrarCopiar: false,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2024.10.30 · Data Science Academy · Fundamentos de Linguagem Python™ para Análise de Dados e Data Science (Intermediário).png",
-
     verificacao: {
       url: "https://mycourse.app/gnGgskSmNZh1CMiDA",
       texto: "Verificar Autenticidade"
