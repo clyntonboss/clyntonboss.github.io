@@ -174,25 +174,6 @@ function animateTransition(updateCallback) {
         return; // 🚨 NÃO executa animateTransition
       }
 
-      // 🔹 Se estamos saindo de uma seção com categoria, limpar visual
-      if (anteriorTemCategoria && !atualTemCategoria) {
-        const categoryBox = titleEl.querySelector(".title-category");
-        const categoryName = titleEl.querySelector(".category-name");
-      
-        if (categoryBox && categoryName) {
-          // remove classes de entrada/saída
-          categoryBox.classList.remove("category-enter", "category-exit");
-          categoryBox.classList.add("hidden");
-          categoryName.textContent = "";
-        }
-      
-        // zera estado
-        estadoSubnivel = {
-          ativa: false,
-          secao: null
-        };
-      }
-
       animateTransition(() => {
         // Ícone do H1
         iconEl.src = section.icon;
@@ -300,10 +281,14 @@ document.addEventListener("click", e => {
       }
     
       if (categoryBox && categoryName) {
-        categoryBox.classList.remove("hidden", "category-exit");
-        categoryBox.offsetHeight; // força reflow
-        categoryBox.classList.add("category-enter");
         categoryName.textContent = category.title;
+      
+        categoryBox.classList.remove("hidden", "category-exit");
+      
+        // força estado inicial fora da tela
+        categoryBox.offsetHeight;
+      
+        categoryBox.classList.add("category-enter");
       }
     }
   
