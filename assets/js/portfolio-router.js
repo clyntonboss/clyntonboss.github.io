@@ -249,8 +249,10 @@ document.addEventListener("click", e => {
       const categoryBox = titleEl.querySelector(".title-category");
       const categoryName = titleEl.querySelector(".category-name");
     
-      if (base) {
-        base.textContent = "Formações Complementares";
+      const activeSection = sections[secaoAtiva];
+      
+      if (base && activeSection) {
+        base.textContent = activeSection.title;
       }
     
       if (categoryBox && categoryName) {
