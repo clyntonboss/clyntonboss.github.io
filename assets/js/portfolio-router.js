@@ -78,7 +78,10 @@ function animateTransition(updateCallback) {
       secaoAtiva = key;
 
       // 🔁 RESET VISUAL DA CATEGORIA AO SAIR DE FORMACOES COMPLEMENTARES
-      if (secaoAnterior === "formacoesComplementares" && key !== "formacoesComplementares") {
+      const anteriorTemCategoria = sections[secaoAnterior]?.hasCategory;
+      const atualTemCategoria    = section?.hasCategory;
+      
+      if (anteriorTemCategoria && !atualTemCategoria) {
         const categoryBox = titleEl.querySelector(".title-category");
         const categoryName = titleEl.querySelector(".category-name");
       
@@ -93,9 +96,9 @@ function animateTransition(updateCallback) {
       
       // 🧠 CASO ESPECIAL: voltar para Formações Complementares a partir de categoria
       if (
-        key === "formacoesComplementares" &&
+        section?.hasCategory &&
         categoriaAtiva &&
-        secaoAnterior === "formacoesComplementares"
+        sections[secaoAnterior]?.hasCategory
       ) {
         contentEl.classList.remove("is-active");
 
