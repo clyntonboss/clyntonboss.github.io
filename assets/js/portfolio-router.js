@@ -81,6 +81,12 @@ function animateTransition(updateCallback) {
       const secaoAnterior = secaoAtiva;
       secaoAtiva = key;
 
+      // 🔄 RESET VISUAL COMPLETO DE TRANSIÇÃO DE CATEGORIA
+      document.querySelectorAll(".view-transition")
+        .forEach(el => {
+          el.classList.remove("is-active");
+        });
+
       if (estadoSubnivel.secao !== key) {
         estadoSubnivel = {
           ativa: false,
