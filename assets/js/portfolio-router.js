@@ -88,10 +88,6 @@ function animateTransition(updateCallback) {
         };
       }
 
-      if (secaoAnterior && secaoAnterior !== key) {
-        categoriaAtiva = false;
-      }
-
       // 🔁 RESET VISUAL DA CATEGORIA AO SAIR DE FORMACOES COMPLEMENTARES
       const anteriorTemCategoria = sections[secaoAnterior]?.hasCategory;
       const atualTemCategoria    = section?.hasCategory;
@@ -106,7 +102,6 @@ function animateTransition(updateCallback) {
           categoryName.textContent = "";
         }
       
-        categoriaAtiva = false;
       }
       
       // 🧠 CASO ESPECIAL: voltar para Formações Complementares a partir de categoria
