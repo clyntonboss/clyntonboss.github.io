@@ -77,6 +77,10 @@ function animateTransition(updateCallback) {
       const secaoAnterior = secaoAtiva;
       secaoAtiva = key;
 
+      if (secaoAnterior && secaoAnterior !== key) {
+        categoriaAtiva = false;
+      }
+
       // 🔁 RESET VISUAL DA CATEGORIA AO SAIR DE FORMACOES COMPLEMENTARES
       const anteriorTemCategoria = sections[secaoAnterior]?.hasCategory;
       const atualTemCategoria    = section?.hasCategory;
