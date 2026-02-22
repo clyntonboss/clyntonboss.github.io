@@ -41,7 +41,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -75,7 +75,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -109,7 +109,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -143,7 +143,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -177,7 +177,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -211,7 +211,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -245,7 +245,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -279,7 +279,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -316,7 +316,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -353,7 +353,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -390,7 +390,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -427,7 +427,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -464,7 +464,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -498,7 +498,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -535,7 +535,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -572,7 +572,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -609,7 +609,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -646,7 +646,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -683,7 +683,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -720,7 +720,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -754,7 +754,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -791,7 +791,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -828,7 +828,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -865,7 +865,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -902,7 +902,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -939,7 +939,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -976,7 +976,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1013,7 +1013,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1050,7 +1050,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1087,7 +1087,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1124,7 +1124,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1158,7 +1158,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1195,7 +1195,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1232,7 +1232,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1269,7 +1269,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1306,7 +1306,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1343,7 +1343,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1380,7 +1380,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1417,7 +1417,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1454,7 +1454,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1491,7 +1491,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1528,7 +1528,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1565,7 +1565,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1602,7 +1602,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1639,7 +1639,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1676,7 +1676,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1713,7 +1713,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1747,7 +1747,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1784,7 +1784,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1821,7 +1821,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1858,7 +1858,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1895,7 +1895,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1932,7 +1932,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -1969,7 +1969,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2006,7 +2006,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2040,7 +2040,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2077,7 +2077,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2114,7 +2114,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2151,7 +2151,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2188,7 +2188,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2225,7 +2225,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2262,7 +2262,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2299,7 +2299,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2336,7 +2336,7 @@ window.datasetCategoria = [
     
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2373,7 +2373,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
@@ -2410,7 +2410,7 @@ window.datasetCategoria = [
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
-    nomeCargaHoraria: "",
+    nomeCargaHoraria: "Carga Horária: ",
     nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
