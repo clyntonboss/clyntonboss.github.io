@@ -2168,45 +2168,39 @@ const sections = {
                                         Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</p></div>
       
       <div class="cert-links">
-          <!--  Dados e Inteligência -->
+          <!--  Financeiro & Controladoria -->
           <a href="#" data-category="powerBiFinanceiro">Financeiro</a>
-          <a href="#" data-category="bancoDados">Bancos de Dados</a>
-          <a href="#" data-category="bigData">Big Data</a>
-          <a href="#" data-category="inteligenciaArtificial">Inteligência Artificial</a>
-          <a href="#" data-category="matematica">Matemática Aplicada</a>
-          <a href="#" data-category="dataStorytelling">Data Storytelling</a>
+          <a href="#" data-category="bancoDados">Contabilidade</a>
+          <a href="#" data-category="bigData">Custos</a>
+          <a href="#" data-category="inteligenciaArtificial">Orçamento</a>
+          <a href="#" data-category="matematica">Faturamento</a>
+          <a href="#" data-category="dataStorytelling">Investimentos</a>
           
-          <!-- Tecnologia e Fundamentos -->
-          <a href="#" data-category="cloud">Cloud Computing</a>
-          <a href="#" data-category="sistemasOperacionais">Sistemas Operacionais</a>
-          <a href="#" data-category="segurancaInformacao">Segurança da Informação</a>
-          <a href="#" data-category="programacao">Programação</a>
-          <a href="#" data-category="roboticProcessAutomation">Robotic Process Automation</a>
+          <!-- Comercial & Marketing -->
+          <a href="#" data-category="cloud">Comercial</a>
+          <a href="#" data-category="sistemasOperacionais">Marketing</a>
+          <a href="#" data-category="segurancaInformacao">Produto</a>
+          <a href="#" data-category="programacao">Satisfação de Colaboradores</a>
+          <a href="#" data-category="roboticProcessAutomation">Serviço de Atendimento ao Consumidor</a>
                           
-          <!-- Gestão e Negócios -->
-          <a href="#" data-category="gestaoProjetos">Gestão de Projetos</a>
-          <a href="#" data-category="metodologiaAgil">Metodologia Ágil</a>
-          <a href="#" data-category="gestaoTecnologia">Gestão da Tecnologia</a>
-          <a href="#" data-category="gestaoOperacoes">Gestão de Operações</a>
-          <a href="#" data-category="gestaoQualidade">Gestão da Qualidade</a>
-          <a href="#" data-category="gestaoPessoas">Gestão de Pessoas</a>
-          <a href="#" data-category="gestaoNegocios">Gestão de Negócios</a>
-          <a href="#" data-category="gestaoMarketing">Gestão de Marketing</a>
-          <a href="#" data-category="gestaoFinanceira">Gestão Financeira</a>
-          <a href="#" data-category="gestaoLogistica">Gestão Logística</a>
+          <!-- Operações & Cadeia de Suprimentos -->
+          <a href="#" data-category="gestaoProjetos">Produção</a>
+          <a href="#" data-category="metodologiaAgil">Logística</a>
+          <a href="#" data-category="gestaoTecnologia">Estoque</a>
+          <a href="#" data-category="gestaoOperacoes">Ativos</a>
+          <a href="#" data-category="gestaoQualidade">Quebra de Equipamentos</a>
       
-          <!-- Design & Comunicação -->
-          <a href="#" data-category="design">Design</a>
+          <!-- Pessoas & Conformidade -->
+          <a href="#" data-category="design">Recursos Humanos</a>
+          <a href="#" data-category="design">Segurança do Trabalho</a>
+          <a href="#" data-category="design">Jurídico</a>
       
-          <!-- Desenvolvimento Humano & Soft Skills -->
-          <a href="#" data-category="autoconhecimento">Autoconhecimento</a>
-          <a href="#" data-category="skills">Skills Profissionais</a>
+          <!-- Qualidade & Governança de Dadps -->
+          <a href="#" data-category="autoconhecimento">Qualidade do Produto</a>
+          <a href="#" data-category="skills">Qualidade de Dados</a>
       
-          <!-- Outras categorias -->
-          <a href="#" data-category="idiomas">Idiomas</a>
-          <a href="#" data-category="sustentabilidade">Sustentabilidade</a>
-          <a href="#" data-category="credly">Credly</a>
-          <a href="#" data-category="arquitetura">Arquitetura</a>
+          <!-- Setoriais -->
+          <a href="#" data-category="idiomas">Acidentes em Rodovias</a>
       </div>
     `
   },
