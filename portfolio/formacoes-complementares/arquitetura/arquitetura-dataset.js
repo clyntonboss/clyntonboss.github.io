@@ -18,7 +18,17 @@ window.datasetCategoria = [
     dataConclusao: "07 de março de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -40,7 +50,17 @@ window.datasetCategoria = [
     dataConclusao: "04 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -62,7 +82,17 @@ window.datasetCategoria = [
     dataConclusao: "01 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -84,6 +114,16 @@ window.datasetCategoria = [
     dataConclusao: "01 de fevereiro de 2024",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: null
+    verificacao: null,
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   }
 ];
