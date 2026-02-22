@@ -1317,7 +1317,7 @@ body.static-header .last-update {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 432px;
+  min-height: 428px;
   opacity: 0;
   transform: translateY(8px);
   transition: 
