@@ -251,17 +251,9 @@ document.addEventListener("click", e => {
   e.preventDefault();
 
   const categoryKey = link.dataset.category;
-
-  // NOVO
-  const categoryMaps = {
-    formacoesComplementares: categoriasFormacoesComplementares,
-    projetos50: categoriasProjetos50
-  };
-
-  const category = categoryMaps[secaoAtiva]?.[categoryKey];
+  const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
 
-  // Atualiza o estado do subnível
   estadoSubnivel = {
     ativa: true,
     secao: secaoAtiva
