@@ -1,6 +1,6 @@
 window.datasetCategoria = [
   {
-    id: 269,
+    id: 1,
 
     nomeInstituicao: "",
     nomeCurso: "",
