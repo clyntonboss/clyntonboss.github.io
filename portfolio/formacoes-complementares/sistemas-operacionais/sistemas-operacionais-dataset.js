@@ -21,7 +21,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=a6a545c534df69178affcc13e068f2ef&action=view",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -46,7 +56,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://cursa.com.br/certificate/727ec39241",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -71,7 +91,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -96,7 +126,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://moodle.ifrs.edu.br/mod/simplecertificate/verify.php",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -121,7 +161,17 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=ff03a7806ef30659780b9ff061b98936&action=view",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   },
   
   {
@@ -146,6 +196,16 @@ window.datasetCategoria = [
     verificacao: {
       url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=b680d2fffda89a1e7ad608953a3f7fac&action=view",
       texto: "Verificar Autenticidade"
-    }
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
   }
 ];
