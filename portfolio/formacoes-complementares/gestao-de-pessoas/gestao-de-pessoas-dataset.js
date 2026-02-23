@@ -1,5 +1,75 @@
 window.datasetCategoria = [
   {
+    id: 11,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-de-pessoas/certificados/2026.02.23 · FIAP - Centro Universitário · Leadership Communication.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Leadership Communication",
+    cargaHoraria: "40 h",
+    conclusaoISO: "2026-02-23",
+    dataConclusao: "23 de fevereiro de 2026",
+    codigo: "f355d6eab93da15a31e1b44cd7f5b2cd",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=f355d6eab93da15a31e1b44cd7f5b2cd&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 10,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-de-pessoas/certificados/2026.02.23 · FIAP - Centro Universitário · Jovens Líderes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Jovens Líderes",
+    cargaHoraria: "40 h",
+    conclusaoISO: "2026-02-23",
+    dataConclusao: "23 de fevereiro de 2026",
+    codigo: "8652af7a5496d95375afd991233c9c04",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=8652af7a5496d95375afd991233c9c04&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 9,
 
     thumb: "/portfolio/formacoes-complementares/gestao-de-pessoas/certificados/2026.02.12 · FIAP - Centro Universitário · Customer Experience Management.png",
