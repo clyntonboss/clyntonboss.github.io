@@ -1221,7 +1221,7 @@ const categoriasFormacoesComplementares = {
 
 // 🔹 ========================================== Skills Profissionais ======================================== 🔹
   skills: {
-    title: "Skills",
+    title: "Skills Professionals",
     dataset: "/portfolio/formacoes-complementares/skills/skills-dataset.js",
     showViewModes: true,
     content: `
