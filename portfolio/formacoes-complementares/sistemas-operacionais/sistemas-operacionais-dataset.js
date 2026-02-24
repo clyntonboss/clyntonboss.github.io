@@ -2,7 +2,7 @@ window.datasetCategoria = [
   {
     id: 7,
 
-    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2026.02.24 · FIAP Centro Universitário · Linux Fundamentos.png",
+    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2026.02.24 · FIAP - Centro Universitário · Linux Fundamentos.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -212,7 +212,7 @@ window.datasetCategoria = [
   {
     id: 1,
 
-    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2025.03.10 · FIAP Centro Universitário · Linux Fundamentos.png",
+    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2025.03.10 · FIAP - Centro Universitário · Linux Fundamentos.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
