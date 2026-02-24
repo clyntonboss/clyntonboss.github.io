@@ -509,20 +509,20 @@ function trocarModo(mode) {
 
 // ❎ ====== Abrir Curso no Block Mode ====== ❎
 
-  document.addEventListener("click", (event) => {
+document.addEventListener("click", (event) => {
     const item = event.target.closest(
       ".course-list-item, .course-grid-item"
     );
     if (!item) return;
-
+    
     const index = parseInt(item.dataset.index, 10);
     if (!Number.isInteger(index)) return;
-
+    
     localStorage.setItem("blockCourseIndex", index);
-
+    
     setViewMode("block");
     renderBlocoCurso(index);
-  });
+});
 
 // ⛔ =============== The End =============== ⛔
 
