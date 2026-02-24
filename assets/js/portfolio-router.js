@@ -81,17 +81,25 @@ function animateTransition(updateCallback) {
       const secaoAnterior = secaoAtiva;
       secaoAtiva = key;
 
-      // 🔥 RESET IMEDIATO DE SUBNÍVEL AO TROCAR DE SEÇÃO
-      estadoSubnivel = {
-        ativa: false,
-        secao: null
-      };
-
       // 🔄 RESET VISUAL COMPLETO DE TRANSIÇÃO DE CATEGORIA
       document.querySelectorAll(".view-transition")
         .forEach(el => {
           el.classList.remove("is-active");
         });
+
+      // 🔥 LIMPA ESTADO RESIDUAL DE CATEGORIA
+      const categoryBox = titleEl.querySelector(".title-category");
+      if (categoryBox) {
+        categoryBox.classList.remove("category-enter", "category-exit");
+        categoryBox.classList.add("hidden");
+      }
+
+      if (estadoSubnivel.secao !== key) {
+        estadoSubnivel = {
+          ativa: false,
+          secao: null
+        };
+      }
 
       // 🔁 RESET VISUAL DA CATEGORIA AO SAIR DE FORMACOES COMPLEMENTARES
       const anteriorTemCategoria = sections[secaoAnterior]?.hasCategory;
