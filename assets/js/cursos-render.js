@@ -308,6 +308,8 @@ function renderFluxoCursos(cursos) {
       </div>
     `;
 
+    inicializarAccordionsCurso();
+
     container.appendChild(item);
 
     // 🔹 linha decorativa entre cursos (exceto após o último)
@@ -317,8 +319,6 @@ function renderFluxoCursos(cursos) {
       container.appendChild(hr);
     }
   });
-
-  inicializarAccordionsCurso();
 }
 
 // ⛔ =============== The End =============== ⛔
