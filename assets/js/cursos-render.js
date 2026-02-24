@@ -293,9 +293,11 @@ function renderFluxoCursos(cursos) {
         <p>
           <strong>${curso.nomeVerificacao}</strong>
           ${
-            curso.verificacao?.url
-              ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-              : `<span class="cert-no-verify">Indisponível</span>`
+            curso.verificacao === null
+              ? `<span class="cert-no-verify">Indisponível</span>`
+              : curso.verificacao?.url
+                ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+                : ""
           }
         </p>
         <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
