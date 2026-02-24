@@ -1,7 +1,54 @@
 let cursoAtualIndex = 0;
 
-// Função Utilitária
+// Inicializa toggles dentro do course-block (dataset)
+function inicializarAccordionsCurso() {
+    const toggles = document.querySelectorAll('#course-block .exp-toggle');
 
+    toggles.forEach(btn => {
+
+        // Evita adicionar múltiplos listeners se já estiver registrado
+        if (btn.dataset.listenerAttached) return;
+        btn.dataset.listenerAttached = "true";
+
+        const header = btn.parentElement;
+
+        // Torna o header clicável
+        header.addEventListener('click', () => btn.click());
+
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+
+            const details = header.nextElementSibling; // assume a estrutura correta
+            const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
+
+            // Fecha outros toggles do mesmo container
+            const allToggles = header.closest('#course-block').querySelectorAll('.exp-toggle');
+            allToggles.forEach(otherBtn => {
+                const otherDetails = otherBtn.parentElement.nextElementSibling;
+                const otherHeader = otherBtn.parentElement;
+
+                if (otherDetails !== details) {
+                    otherDetails.style.maxHeight = '0';
+                    otherDetails.classList.remove('open');
+                    otherHeader.classList.remove('open');
+                }
+            });
+
+            // Abre/fecha o toggle clicado
+            if (isOpen) {
+                details.style.maxHeight = '0';
+                details.classList.remove('open');
+                header.classList.remove('open');
+            } else {
+                details.style.maxHeight = details.scrollHeight + 'px';
+                details.classList.add('open');
+                header.classList.add('open');
+            }
+        });
+    });
+}
+
+// Função Utilitária
 function ativarTransicao(container) {
   // reset total
   container.classList.remove("view-transition", "is-active");
@@ -15,7 +62,6 @@ function ativarTransicao(container) {
 }
 
 // Modos de Visualização dos Cursos
-
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
 
@@ -207,54 +253,6 @@ content.offsetHeight;
 
 // ⛔ =============== The End =============== ⛔
 
-// Inicializa toggles dentro do course-block (dataset)
-function inicializarAccordionsCurso() {
-    const toggles = document.querySelectorAll('#course-block .exp-toggle');
-
-    toggles.forEach(btn => {
-
-        // Evita adicionar múltiplos listeners se já estiver registrado
-        if (btn.dataset.listenerAttached) return;
-        btn.dataset.listenerAttached = "true";
-
-        const header = btn.parentElement;
-
-        // Torna o header clicável
-        header.addEventListener('click', () => btn.click());
-
-        btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-
-            const details = header.nextElementSibling; // assume a estrutura correta
-            const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
-
-            // Fecha outros toggles do mesmo container
-            const allToggles = header.closest('#course-block').querySelectorAll('.exp-toggle');
-            allToggles.forEach(otherBtn => {
-                const otherDetails = otherBtn.parentElement.nextElementSibling;
-                const otherHeader = otherBtn.parentElement;
-
-                if (otherDetails !== details) {
-                    otherDetails.style.maxHeight = '0';
-                    otherDetails.classList.remove('open');
-                    otherHeader.classList.remove('open');
-                }
-            });
-
-            // Abre/fecha o toggle clicado
-            if (isOpen) {
-                details.style.maxHeight = '0';
-                details.classList.remove('open');
-                header.classList.remove('open');
-            } else {
-                details.style.maxHeight = details.scrollHeight + 'px';
-                details.classList.add('open');
-                header.classList.add('open');
-            }
-        });
-    });
-}
-
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
 // ❎ ======= Renderização  Flow Mode ======= ❎
@@ -300,6 +298,8 @@ function renderFluxoCursos(cursos) {
         ${curso.descricaoProjeto}
       </div>
     `;
+
+    inicializarAccordionsCurso();
 
     container.appendChild(item);
 
