@@ -134,9 +134,11 @@ document.addEventListener("click", e => {
   }, 1200); // tempo deve bater com duração da animação CSS
 });
 
+
 document.addEventListener("click", e => {
-  const link = e.target.closest('[data-section="home"]');
-  if (!link) return;
+  const linkPortfolio = e.target.closest('a[data-section="portfolio"]');
+  const linkProjetos50 = e.target.closest('a[data-section="projetos50"]');
+  if (!linkPortfolio && !linkProjetos50) return;
 
   e.preventDefault();
 
@@ -163,17 +165,15 @@ document.addEventListener("click", e => {
     intro.style.display = "flex";
     intro.classList.add("is-entering");
 
-    // 🔹 Atualiza header e layout **antes da animação do header**
-    aplicarEstadoHeader("home");  // ⚡ garante que o header seja atualizado para Home
-    setLayoutMode("home");        // ⚡ garante que o body saiba que estamos na Home
+    // 🔹 Atualiza header e layout
+    aplicarEstadoHeader("home");
+    setLayoutMode("home");
 
-    // 🔹 Header pré-entrada
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
 
     void header.offsetWidth;
 
-    // 🔹 Header entra animado
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
 
