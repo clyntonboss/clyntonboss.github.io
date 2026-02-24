@@ -94,22 +94,6 @@ function animateTransition(updateCallback) {
         };
       }
 
-      // 🔁 RESET VISUAL DA CATEGORIA AO SAIR DE FORMACOES COMPLEMENTARES
-      const anteriorTemCategoria = sections[secaoAnterior]?.hasCategory;
-      const atualTemCategoria    = section?.hasCategory;
-      
-      if (anteriorTemCategoria && !atualTemCategoria) {
-        const categoryBox = titleEl.querySelector(".title-category");
-        const categoryName = titleEl.querySelector(".category-name");
-      
-        if (categoryBox && categoryName) {
-          categoryBox.classList.remove("category-enter", "category-exit");
-          categoryBox.classList.add("hidden");
-          categoryName.textContent = "";
-        }
-      
-      }
-      
       // 🧠 CASO ESPECIAL: voltar para Formações Complementares a partir de categoria
       if (
         section?.hasCategory &&
@@ -283,11 +267,11 @@ document.addEventListener("click", e => {
       if (categoryBox && categoryName) {
         categoryName.textContent = category.title;
       
-        categoryBox.classList.remove("hidden", "category-exit");
-      
-        // força estado inicial fora da tela
-        categoryBox.offsetHeight;
-      
+        categoryBox.classList.remove("hidden", "category-enter", "category-exit");
+        
+        // força voltar para estado base
+        void categoryBox.offsetHeight;
+        
         categoryBox.classList.add("category-enter");
       }
     }
