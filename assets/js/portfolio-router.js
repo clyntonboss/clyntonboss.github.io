@@ -81,17 +81,16 @@ function animateTransition(updateCallback) {
       const secaoAnterior = secaoAtiva;
       secaoAtiva = key;
 
-      // 🔥 RESET TOTAL DE SUBNÍVEL AO TROCAR DE SEÇÃO
+      // 🔥 RESET IMEDIATO DE SUBNÍVEL AO TROCAR DE SEÇÃO
       estadoSubnivel = {
         ativa: false,
         secao: null
       };
-      
-      // 🔥 RESET VISUAL REAL DAS TRANSIÇÕES
+
+      // 🔄 RESET VISUAL COMPLETO DE TRANSIÇÃO DE CATEGORIA
       document.querySelectorAll(".view-transition")
         .forEach(el => {
           el.classList.remove("is-active");
-          void el.offsetHeight; // força reflow real
         });
 
       // 🔁 RESET VISUAL DA CATEGORIA AO SAIR DE FORMACOES COMPLEMENTARES
@@ -328,7 +327,7 @@ function animateViewTransition(callback) {
   });
 
   // 🔥 força reflow isolado
-  elements.forEach(el => el.offsetHeight);
+  void document.body.offsetHeight;
 
   // Fade-out
   setTimeout(() => {
@@ -345,7 +344,7 @@ function animateViewTransition(callback) {
     });
 
     // 🔥 força reflow novamente
-    elements.forEach(el => el.offsetHeight);
+    void document.body.offsetHeight;
 
     requestAnimationFrame(() => {
       newElements.forEach(el => {
