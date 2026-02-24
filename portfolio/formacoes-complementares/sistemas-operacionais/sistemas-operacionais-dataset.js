@@ -1,5 +1,40 @@
 window.datasetCategoria = [
   {
+    id: 7,
+
+    thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2026.02.24 · FIAP Centro Universitário · Linux Fundamentos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Linux Fundamentos",
+    cargaHoraria: "40 h",
+    conclusaoISO: "2026-02-24",
+    dataConclusao: "24 de fevereiro de 2026",
+    codigo: "3baddc714a5d119d82402a0be2a0d525",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=3baddc714a5d119d82402a0be2a0d525&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 6,
 
     thumb: "/portfolio/formacoes-complementares/sistemas-operacionais/certificados/2026.02.07 · FIAP - Centro Universitário · Android.png",
