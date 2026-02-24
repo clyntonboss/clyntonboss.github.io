@@ -135,9 +135,8 @@ document.addEventListener("click", e => {
 });
 
 document.addEventListener("click", e => {
-  const linkPortfolio = e.target.closest('a[data-section="portfolio"]');
-  const linkProjetos50 = e.target.closest('a[data-section="projetos50"]');
-  if (!linkPortfolio && !linkProjetos50) return;
+  const link = e.target.closest('[data-section="home"]');
+  if (!link) return;
 
   e.preventDefault();
 
@@ -147,38 +146,42 @@ document.addEventListener("click", e => {
 
   if (!header || !intro || !side) return;
 
-  const targetPage = linkPortfolio ? "portfolio" : "projetos50";
-
   resetHeaderAnimation(header);
-
+  
   // 🔹 SAÍDA HEADER
-  header.classList.add("portfolio-exit"); // pode manter "portfolio-exit" mesmo para projetos50
+  header.classList.add("portfolio-exit");
 
-  // 🔹 SAÍDA INTRO
-  intro.classList.add("is-leaving");
+  // 🔹 SAÍDA SIDE MENU (top → bottom)
+  side.classList.add("is-leaving");
 
   setTimeout(() => {
-    intro.style.display = "none";
-    intro.classList.remove("is-leaving");
+    // 🔹 Oculta Side Menu e remove classe de saída
+    side.style.display = "none";
+    side.classList.remove("is-leaving");
 
-    side.style.display = "flex";
-    side.classList.add("is-entering");
+    // 🔹 Exibe Intro e aplica animação de entrada (bottom → top)
+    intro.style.display = "flex";
+    intro.classList.add("is-entering");
 
-    carregarConteudoPagina(targetPage);
+    // 🔹 Atualiza header e layout **antes da animação do header**
+    aplicarEstadoHeader("home");  // ⚡ garante que o header seja atualizado para Home
+    setLayoutMode("home");        // ⚡ garante que o body saiba que estamos na Home
 
+    // 🔹 Header pré-entrada
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
 
     void header.offsetWidth;
 
+    // 🔹 Header entra animado
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
 
+    // 🔹 Remove classe de entrada do Intro após animação
     setTimeout(() => {
-      side.classList.remove("is-entering");
-    }, 400);
-
-  }, 1200);
+      intro.classList.remove("is-entering");
+    }, 1200); // tempo deve bater com duração da animação CSS
+  }, 400); // tempo deve bater com duração da animação CSS
 });
 
 document.addEventListener("DOMContentLoaded", () => {
