@@ -87,16 +87,6 @@ function animateTransition(updateCallback) {
           el.classList.remove("is-active");
         });
 
-      // 🔥 LIMPA ESTADO RESIDUAL DE CATEGORIA (APÓS TRANSIÇÃO)
-      const categoryBox = titleEl.querySelector(".title-category");
-      
-      if (categoryBox) {
-        categoryBox.addEventListener("animationend", () => {
-          categoryBox.classList.remove("category-enter", "category-exit");
-          categoryBox.classList.add("hidden");
-        }, { once: true });
-      }
-
       if (estadoSubnivel.secao !== key) {
         estadoSubnivel = {
           ativa: false,
