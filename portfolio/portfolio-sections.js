@@ -2632,7 +2632,7 @@ const sections = {
                   sustentabilidade que é um dos grandes anseios da sociedade na atualidade, associado aos benefícios para a organização e implantação. O resultado da pesquisa
                   apresentou que não se tratava apenas do cumprimento das determinações dos órgãos fiscalizadores, mas sim de uma reestruturação que abrangeria mudança cultural
                   organizacional, descarte correto dos resíduos não recicláveis em aterros sanitários. No caso daqueles recicláveis ora denominados de co-produtos, o beneficiamento para
-                  outras organizações como matéria-prima, aumentariam a satisfação financeira dos shareholders.
+                  outras organizações como matéria-prima, aumentariam a satisfação financeira dos <i>shareholders</i>.
               </p>
       
               <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Vendas Especiais (Lucratividade Advinda de Resíduos Recicláveis).pdf')" class="cert-link-verify">
