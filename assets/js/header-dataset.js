@@ -55,5 +55,30 @@ window.headerDataset = {
     // Estado visual
     showHomeIcon: true, // Portfólio mostra o ícone
     headerClass: "header-portfolio"
+  },
+
+  projetos50: {
+    showHomeIcon: true,
+    key: "projetos50",
+
+    // Conteúdo
+    name: "Rogério Clynton Ribeiro",
+    nameIsLink: true,
+    nameHref: "#",
+    nameSection: "projetos50", // 👈 link “Portfólio” aponta para Home
+
+    showPhoto: true,
+    photoSrc: "../assets/images/foto-rogerio.jpg",
+    photoAlt: "Foto de Rogério Clynton Ribeiro",
+
+    showLastUpdate: true,
+
+    // Comportamento
+    onNameClick: "home", // clicar no nome volta para Home
+    targetHeader: null,
+
+    // Estado visual
+    showHomeIcon: true, // Portfólio mostra o ícone
+    headerClass: "header-portfolio"
   }
 };
