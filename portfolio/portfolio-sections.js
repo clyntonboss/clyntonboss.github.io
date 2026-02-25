@@ -207,47 +207,20 @@ const sections = {
       
       <div class="tech-subtitle"><p>Participação contínua em eventos acadêmicos com desenvolvimento e apresentação de Artigos Científicos nas áreas de Inclusão Social, Inclusão Digital,
                                     Tecnologia da Informação, Dados, Produção e Sustentabilidade, incluindo Economia Circular e ESG (Environmental Social and Governance).</p></div>
-      
+
       <div class="experience">
           <div class="exp-header">
-              <span class="exp-period">2020</span>
-              <span class="exp-role">III Seminário de Pesquisa e Iniciação Científica</span>
+              <span class="exp-period">2023</span>
+              <span class="exp-role">I Seminário de Ensino e Extensão</span>
               <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
-                  <li style="margin-bottom: 16px;">EaD: a nova onda da educação - Virtudes e Desafios</li>
+                  <li style="margin-bottom: 16px;">SGCE - Sistema de Gerenciamento da Carreira Estudantil</li>
               </ul>
           </div>
       </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-period">2021</span>
-              <span class="exp-role">IV Seminário de Pesquisa e Iniciação Científica</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
-              <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
-                  <li style="margin-bottom: 16px;">Ensino a Distância: uma ferramenta de inclusão social</li>
-              </ul>
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-period">2022</span>
-              <span class="exp-role">V Seminário de Pesquisa e Iniciação Científica</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details" style="line-height: 1.8;">
-              <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
-                  <li style="margin-bottom: 16px;">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</li>
-                  <li style="margin-bottom: 16px;">Os impactos da aplicação da Lei Geral de Proteção de Dados - LGPD</li>
-              </ul>
-          </div>
-      </div>
-      
+
       <div class="experience">
           <div class="exp-header">
               <span class="exp-period">2023</span>
@@ -265,16 +238,43 @@ const sections = {
               </ul>
           </div>
       </div>
-      
+
       <div class="experience">
           <div class="exp-header">
-              <span class="exp-period">2023</span>
-              <span class="exp-role">I Seminário de Ensino e Extensão</span>
+              <span class="exp-period">2022</span>
+              <span class="exp-role">V Seminário de Pesquisa e Iniciação Científica</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details" style="line-height: 1.8;">
+              <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
+                  <li style="margin-bottom: 16px;">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</li>
+                  <li style="margin-bottom: 16px;">Os impactos da aplicação da Lei Geral de Proteção de Dados - LGPD</li>
+              </ul>
+          </div>
+      </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2021</span>
+              <span class="exp-role">IV Seminário de Pesquisa e Iniciação Científica</span>
               <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
-                  <li style="margin-bottom: 16px;">SGCE - Sistema de Gerenciamento da Carreira Estudantil</li>
+                  <li style="margin-bottom: 16px;">Ensino a Distância: uma ferramenta de inclusão social</li>
+              </ul>
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-period">2020</span>
+              <span class="exp-role">III Seminário de Pesquisa e Iniciação Científica</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+              <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
+                  <li style="margin-bottom: 16px;">EaD: a nova onda da educação - Virtudes e Desafios</li>
               </ul>
           </div>
       </div>
