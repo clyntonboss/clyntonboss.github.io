@@ -108,7 +108,7 @@ const sections = {
       </p>
       
       <p>
-          O que você encontra neste portfólio não é apenas um conjunto de projetos ou certificações, mas um reflexo dessa caminhada: 
+          O que se encontra neste portfólio não é apenas um conjunto de projetos ou certificações, mas um reflexo dessa caminhada: 
           uma trajetória marcada por <strong>expansão intelectual</strong>, <strong>busca de profundidade técnica</strong>, 
           <strong>exploração contínua</strong> e uma dedicação real à excelência. 
           Cada entrega aqui representa não apenas o que faço, mas sobretudo <strong>como penso e como evoluo</strong>.
