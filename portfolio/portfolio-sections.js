@@ -2670,7 +2670,7 @@ const sections = {
                   A pandemia do COVID-19 que se alastrou desde dezembro de 2019, teve por
                   consequência que todas as pessoas mundialmente mudaram as rotinas habituais. As sociedades em todos os setores buscaram alternativas para minimizar os
                   impactos e levar conhecimento para os cidadãos. A Educação à Distância (EaD) tomou conta dos debates e se apresentou como uma alternativa de qualificar as
-                  pessoas sem o convívio social. Este trabalho apresenta o resultado de uma pesquisa de bibliográfica e documental realizada no período compreendido entre
+                  pessoas sem o convívio social. Este trabalho apresenta o resultado de uma pesquisa bibliográfica e documental realizada no período compreendido entre
                   agosto/2020 a julho de 2021. Os resultados indicaram que anteriormente a pandemia a população já buscava no EaD uma fonte de aprimoramento profissional,
                   principalmente em pessoas com rotinas variáveis de horário que não dispunham diariamente de tempo fixo para realizarem suas próprias qualificações. Além disso, a
                   evolução do EaD se consolidou ao presencial impulsionado, também, através dessa nova ordem social e se disseminou tanto nos setores públicos quanto privados.
