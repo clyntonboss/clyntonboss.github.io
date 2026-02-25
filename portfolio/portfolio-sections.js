@@ -143,7 +143,7 @@ const sections = {
           meu compromisso é criar análises que não apenas expliquem o que aconteceu, 
           mas que revelem o <strong>porquê</strong>, o <strong>e se</strong> e o <strong>o que fazer a seguir</strong>.  
           Meu trabalho não se limita a gráficos ou métricas; ele tem como essência provocar entendimento, 
-          gerar insight e sustentar decisões mais estratégicas.
+          gerar <i>insight</i> e sustentar decisões mais estratégicas.
       </p>
       
       <p>
