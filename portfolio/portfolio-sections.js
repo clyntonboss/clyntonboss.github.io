@@ -2474,7 +2474,7 @@ const sections = {
                   aumentando o lucro – e para ter sucesso no âmbito de suas atribuições não basta ter uma equipe capacitada e qualificada, é primordial o auxílio de Ferramentas
                   Computacionais em nível de produção, gestão, simulação e análise de indicadores. Esse artigo que é uma revisão bibliográfica apresenta as principais Ferramentas
                   Computacionais que auxiliam o Engenheiro de Produção, bem como as suas aplicações em diversos setores das organizações, considerando também as
-                  ferramentas voltadas para Sustentabilidade e ESG – Environmental Social and Governance, que não podem faltar em nenhum segmento empresarial.
+                  ferramentas voltadas para Sustentabilidade e <i>ESG – Environmental Social and Governance</i>, que não podem faltar em nenhum segmento empresarial.
               </p>
       
               <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/As Principais Ferramentas Computacionais Aplicadas à Engenharia de Produção.pdf')" class="cert-link-verify">
