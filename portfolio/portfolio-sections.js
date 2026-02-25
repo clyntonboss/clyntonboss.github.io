@@ -1755,375 +1755,7 @@ const sections = {
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne certificações e credenciais obtidas ao longo da trajetória profissional, organizadas por categoria e data de conclusão.<br>
                                         Os registros apresentados representam validações formais de conhecimentos, emitidas por instituições e plataformas reconhecidas.</p></div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">White Belt - Lean Six Sigma</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
 
-              <hr class="decorative-line-cert decorative-line-sup">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> RL & Associados</p>
-                  <p><strong>Curso:</strong> White Belt - Six Sigma</p>
-                  <p><strong>Carga Horária:</strong> 3 h 30 min</p>
-                  <p><strong>Data de Conclusão:</strong> 21 de novembro de 2021</p>
-                  <p><strong>Código:</strong> Inaplicável</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
-                  <p><strong>Curso:</strong> Lean Six Sigma White Belt</p>
-                  <p><strong>Carga Horária:</strong> 8 h</p>
-                  <p><strong>Data de Conclusão:</strong> 28 de fevereiro de 2024</p>
-                  <p><strong>Código:</strong> 327940</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Produzindo Engenharia</p>
-                  <p><strong>Curso:</strong> White Belt Lean Six Sigma</p>
-                  <p><strong>Carga Horária:</strong> 6 h</p>
-                  <p><strong>Data de Conclusão:</strong> 29 de fevereiro de 2024</p>
-                  <p><strong>Código:</strong> WBFEV240077</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Frons Educação</p>
-                  <p><strong>Curso:</strong> White Belt Lean Six Sigma</p>
-                  <p><strong>Carga Horária:</strong> 10 h</p>
-                  <p><strong>Data de Conclusão:</strong> 11 de novembro de 2025</p>
-                  <p><strong>Código:</strong> 733D78A22E-1451E0F1F-144C20C72</p>
-                  <p><strong>Verificação:</strong>
-                  <a href="https://frons.com.br/verificacao-certificados/733D78A22E-1451E0F1F-144C20C72/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Council for Six Sigma Certification</p>
-                  <p><strong>Curso:</strong> Lean Six Sigma White Belt</p>
-                  <p><strong>Carga Horária:</strong> 8 h</p>
-                  <p><strong>Data de Conclusão:</strong> 11 de novembro de 2025</p>
-                  <p><strong>Código:</strong> 7th0wCFtCy</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Escola EDTI</p>
-                  <p><strong>Curso:</strong> Certificação White Belt em Lean Six Sigma</p>
-                  <p><strong>Carga Horária:</strong> 8 h</p>
-                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
-                  <p><strong>Código:</strong> EDTIe62b390b3ae00a98c0df96b4b0d6c6c7</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Nortegubisian</p>
-                  <p><strong>Curso:</strong> Six Sigma White Belt</p>
-                  <p><strong>Carga Horária:</strong> 4 h</p>
-                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
-                  <p><strong>Código:</strong> 0001124</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> RL & Associados</p>
-                  <p><strong>Curso:</strong> Formação White Belt Six Sigma</p>
-                  <p><strong>Carga Horária:</strong> 2 h</p>
-                  <p><strong>Data de Conclusão:</strong> 28 de janeiro de 2026</p>
-                  <p><strong>Código:</strong> 119337</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Yellow Belt - Lean Six Sigma</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
-      
-              <hr class="decorative-line-cert decorative-line-sup">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
-                  <p><strong>Curso:</strong> Lean Six Sigma Yellow Belt</p>
-                  <p><strong>Carga Horária:</strong> 24 h</p>
-                  <p><strong>Data de Conclusão:</strong> 01 de março de 2024</p>
-                  <p><strong>Código:</strong> 328571</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> VMEdu, Inc</p>
-                  <p><strong>Curso:</strong> Six Sigma Yellow Belt</p>
-                  <p><strong>Carga Horária:</strong> 20 h</p>
-                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
-                  <p><strong>Código:</strong> 1125351</p>
-                  <p><strong>Verificação:</strong>
-                  <a href="https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/SixSigmaYellowBelt-RogérioClyntonRibeiro-1125351.pdf" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Produzindo Engenharia</p>
-                  <p><strong>Curso:</strong> Yellow Belt em Lean Six Sigma</p>
-                  <p><strong>Carga Horária:</strong> 15 h</p>
-                  <p><strong>Data de Conclusão:</strong> 15 de janeiro de 2026</p>
-                  <p><strong>Código:</strong> 2DRWLM-CE000256</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Green Belt - Lean Six Sigma</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
-      
-              <hr class="decorative-line-cert decorative-line-sup">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Domus Lean Seis Sigma</p>
-                  <p><strong>Curso:</strong> Lean Seis Sigma Green Belt</p>
-                  <p><strong>Carga Horária:</strong> 40 h</p>
-                  <p><strong>Data de Conclusão:</strong> 08 de setembro de 2024</p>
-                  <p><strong>Código:</strong> #DLSSGB00006</p>
-                  <p><strong>Verificação:</strong>
-                  <a class="cert-no-verify">Indisponível</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Databricks Accredited Platform Administrator</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
-      
-              <hr class="decorative-line-cert decorative-line-sup">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Databricks Academy</p>
-                  <p><strong>Curso:</strong> Databricks Accredited Platform Administrator</p>
-                  <p><strong>Carga Horária:</strong> 8 h 36 min</p>
-                  <p><strong>Data de Conclusão:</strong> 11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11, 2026)</p>
-                  <p><strong>Código:</strong> 3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8</p>
-                  <p><strong>Verificação:</strong>
-                  <a href="https://credentials.databricks.com/3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Databricks Accredited Databricks Fundamentals</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
-      
-              <hr class="decorative-line-cert decorative-line-sup">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Databricks Academy</p>
-                  <p><strong>Curso:</strong> Databricks Accredited Databricks Fundamentals</p>
-                  <p><strong>Carga Horária:</strong> 1 h 30 min</p>
-                  <p><strong>Data de Conclusão:</strong> 11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11,2026)</p>
-                  <p><strong>Código:</strong> 64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5</p>
-                  <p><strong>Verificação:</strong>
-                  <a href="https://credentials.databricks.com/64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Databricks Accredited Generative Artificial Intelligence Fundamentals</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
-      
-              <hr class="decorative-line-cert decorative-line-sup">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Databricks Academy</p>
-                  <p><strong>Curso:</strong> Databricks Accredited Generative Artificial Intelligence Fundamentals</p>
-                  <p><strong>Carga Horária:</strong> 10 h 10 min</p>
-                  <p><strong>Data de Conclusão:</strong> 19 de junho de 2025 (Issue: June 19, 2025 / Expiration: June 19, 2027)</p>
-                  <p><strong>Código:</strong> 8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX</p>
-                  <p><strong>Verificação:</strong>
-                  <a href="https://credentials.databricks.com/8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Databricks Accredited Google Cloud Platform Databricks Platform Architect</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
-      
-              <hr class="decorative-line-cert decorative-line-sup">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Databricks Academy</p>
-                  <p><strong>Curso:</strong> Databricks Accredited Google Cloud Platform Databricks Platform Architect</p>
-                  <p><strong>Carga Horária:</strong> 3 h 20 min</p>
-                  <p><strong>Data de Conclusão:</strong> 21 de junho de 2025 (Issue: June 21, 2025 / Expiration: June 21, 2027)</p>
-                  <p><strong>Código:</strong> 40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp</p>
-                  <p><strong>Verificação:</strong>
-                  <a href="https://credentials.databricks.com/40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-          </div>
-      </div>
-      
-      <div class="experience">
-          <div class="exp-header">
-              <span class="exp-role">Databricks Accredited Amazon Web Services Platform Architect</span>
-              <button class="exp-toggle">▸</button>
-          </div>
-          <div class="exp-details">
-      
-              <hr class="decorative-line-cert decorative-line-sup">
-      
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
-              </a>
-              <div>
-                  <p><strong>Instituição:</strong> Databricks Academy</p>
-                  <p><strong>Curso:</strong> Databricks Accredited Amazon Web Services Platform Architect</p>
-                  <p><strong>Carga Horária:</strong> 3 h 20 min</p>
-                  <p><strong>Data de Conclusão:</strong> 29 de junho de 2025 (Issue: June 29, 2025 / Expiration: June 29, 2027)</p>
-                  <p><strong>Código:</strong> 84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o</p>
-                  <p><strong>Verificação:</strong>
-                  <a href="https://credentials.databricks.com/84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
-                  </p>
-              </div>
-      
-              <hr class="decorative-line-cert">
-      
-          </div>
-      </div>
-      
       <div class="experience">
           <div class="exp-header">
               <span class="exp-role">Databricks Accredited Azure Platform Architect</span>
@@ -2151,6 +1783,375 @@ const sections = {
       
           </div>
       </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Amazon Web Services Platform Architect</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert decorative-line-sup">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Amazon Web Services Platform Architect</p>
+                  <p><strong>Carga Horária:</strong> 3 h 20 min</p>
+                  <p><strong>Data de Conclusão:</strong> 29 de junho de 2025 (Issue: June 29, 2025 / Expiration: June 29, 2027)</p>
+                  <p><strong>Código:</strong> 84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o</p>
+                  <p><strong>Verificação:</strong>
+                  <a href="https://credentials.databricks.com/84a4d7a4-f3bd-4671-b524-9999d80703e3#acc.H4zfQY7o" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Google Cloud Platform Databricks Platform Architect</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert decorative-line-sup">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Google Cloud Platform Databricks Platform Architect</p>
+                  <p><strong>Carga Horária:</strong> 3 h 20 min</p>
+                  <p><strong>Data de Conclusão:</strong> 21 de junho de 2025 (Issue: June 21, 2025 / Expiration: June 21, 2027)</p>
+                  <p><strong>Código:</strong> 40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp</p>
+                  <p><strong>Verificação:</strong>
+                  <a href="https://credentials.databricks.com/40006ffa-eb9f-4310-967c-2638c0f90ac1#acc.Czf2X0tp" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Generative Artificial Intelligence Fundamentals</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert decorative-line-sup">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Generative Artificial Intelligence Fundamentals</p>
+                  <p><strong>Carga Horária:</strong> 10 h 10 min</p>
+                  <p><strong>Data de Conclusão:</strong> 19 de junho de 2025 (Issue: June 19, 2025 / Expiration: June 19, 2027)</p>
+                  <p><strong>Código:</strong> 8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX</p>
+                  <p><strong>Verificação:</strong>
+                  <a href="https://credentials.databricks.com/8860b920-cc9e-44ef-b74f-d8dade5f4097#acc.wtGEnHhX" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Databricks Fundamentals</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert decorative-line-sup">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Databricks Fundamentals</p>
+                  <p><strong>Carga Horária:</strong> 1 h 30 min</p>
+                  <p><strong>Data de Conclusão:</strong> 11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11,2026)</p>
+                  <p><strong>Código:</strong> 64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5</p>
+                  <p><strong>Verificação:</strong>
+                  <a href="https://credentials.databricks.com/64c80be0-4b36-4a4f-8d3d-3b10e5482c53#acc.QxLS6wM5" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Databricks Accredited Platform Administrator</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert decorative-line-sup">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Databricks Academy</p>
+                  <p><strong>Curso:</strong> Databricks Accredited Platform Administrator</p>
+                  <p><strong>Carga Horária:</strong> 8 h 36 min</p>
+                  <p><strong>Data de Conclusão:</strong> 11 de junho de 2025 (Issue: June 11, 2025 / Expiration: June 11, 2026)</p>
+                  <p><strong>Código:</strong> 3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8</p>
+                  <p><strong>Verificação:</strong>
+                  <a href="https://credentials.databricks.com/3906926c-3c2a-4a78-9d83-7e84ed580cea#acc.6qvTaop8" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Green Belt - Lean Six Sigma</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert decorative-line-sup">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Domus Lean Seis Sigma</p>
+                  <p><strong>Curso:</strong> Lean Seis Sigma Green Belt</p>
+                  <p><strong>Carga Horária:</strong> 40 h</p>
+                  <p><strong>Data de Conclusão:</strong> 08 de setembro de 2024</p>
+                  <p><strong>Código:</strong> #DLSSGB00006</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Yellow Belt - Lean Six Sigma</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+      
+              <hr class="decorative-line-cert decorative-line-sup">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Produzindo Engenharia</p>
+                  <p><strong>Curso:</strong> Yellow Belt em Lean Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 15 h</p>
+                  <p><strong>Data de Conclusão:</strong> 15 de janeiro de 2026</p>
+                  <p><strong>Código:</strong> 2DRWLM-CE000256</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> VMEdu, Inc</p>
+                  <p><strong>Curso:</strong> Six Sigma Yellow Belt</p>
+                  <p><strong>Carga Horária:</strong> 20 h</p>
+                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
+                  <p><strong>Código:</strong> 1125351</p>
+                  <p><strong>Verificação:</strong>
+                  <a href="https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/SixSigmaYellowBelt-RogérioClyntonRibeiro-1125351.pdf" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
+                  <p><strong>Curso:</strong> Lean Six Sigma Yellow Belt</p>
+                  <p><strong>Carga Horária:</strong> 24 h</p>
+                  <p><strong>Data de Conclusão:</strong> 01 de março de 2024</p>
+                  <p><strong>Código:</strong> 328571</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+      
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">White Belt - Lean Six Sigma</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+
+              <hr class="decorative-line-cert decorative-line-sup">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> RL & Associados</p>
+                  <p><strong>Curso:</strong> Formação White Belt Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 2 h</p>
+                  <p><strong>Data de Conclusão:</strong> 28 de janeiro de 2026</p>
+                  <p><strong>Código:</strong> 119337</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Nortegubisian</p>
+                  <p><strong>Curso:</strong> Six Sigma White Belt</p>
+                  <p><strong>Carga Horária:</strong> 4 h</p>
+                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
+                  <p><strong>Código:</strong> 0001124</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Escola EDTI</p>
+                  <p><strong>Curso:</strong> Certificação White Belt em Lean Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 8 h</p>
+                  <p><strong>Data de Conclusão:</strong> 12 de novembro de 2025</p>
+                  <p><strong>Código:</strong> EDTIe62b390b3ae00a98c0df96b4b0d6c6c7</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Council for Six Sigma Certification</p>
+                  <p><strong>Curso:</strong> Lean Six Sigma White Belt</p>
+                  <p><strong>Carga Horária:</strong> 8 h</p>
+                  <p><strong>Data de Conclusão:</strong> 11 de novembro de 2025</p>
+                  <p><strong>Código:</strong> 7th0wCFtCy</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Frons Educação</p>
+                  <p><strong>Curso:</strong> White Belt Lean Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 10 h</p>
+                  <p><strong>Data de Conclusão:</strong> 11 de novembro de 2025</p>
+                  <p><strong>Código:</strong> 733D78A22E-1451E0F1F-144C20C72</p>
+                  <p><strong>Verificação:</strong>
+                  <a href="https://frons.com.br/verificacao-certificados/733D78A22E-1451E0F1F-144C20C72/" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> Produzindo Engenharia</p>
+                  <p><strong>Curso:</strong> White Belt Lean Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 6 h</p>
+                  <p><strong>Data de Conclusão:</strong> 29 de fevereiro de 2024</p>
+                  <p><strong>Código:</strong> WBFEV240077</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
+                  <p><strong>Curso:</strong> Lean Six Sigma White Belt</p>
+                  <p><strong>Carga Horária:</strong> 8 h</p>
+                  <p><strong>Data de Conclusão:</strong> 28 de fevereiro de 2024</p>
+                  <p><strong>Código:</strong> 327940</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+              </a>
+              <div>
+                  <p><strong>Instituição:</strong> RL & Associados</p>
+                  <p><strong>Curso:</strong> White Belt - Six Sigma</p>
+                  <p><strong>Carga Horária:</strong> 3 h 30 min</p>
+                  <p><strong>Data de Conclusão:</strong> 21 de novembro de 2021</p>
+                  <p><strong>Código:</strong> Inaplicável</p>
+                  <p><strong>Verificação:</strong>
+                  <a class="cert-no-verify">Indisponível</a>
+                  </p>
+              </div>
+      
+              <hr class="decorative-line-cert">
+      
+          </div>
+      </div>
+
     `
   },
 
