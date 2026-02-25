@@ -1,5 +1,40 @@
 window.datasetCategoria = [
   {
+    id: 12,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-de-marketing/certificados/2026.02.25 · FIAP - Centro Universitário · Marketing em Plataformas de Social Media.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Marketing em Plataformas de Social Media",
+    cargaHoraria: "60 h",
+    conclusaoISO: "2026-02-25",
+    dataConclusao: "25 de fevereiro de 2026",
+    codigo: "232cb414a45659e8c094335663ffd615",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=232cb414a45659e8c094335663ffd615&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 11,
 
     thumb: "/portfolio/formacoes-complementares/gestao-de-marketing/certificados/2025.12.25 · Pontifícia Universidade Católica do Rio Grande do Sul · Dados, Pesquisa e Tendências (Como fazer Marketing Inteligente).png",
