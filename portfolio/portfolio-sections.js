@@ -2407,7 +2407,7 @@ const sections = {
       <div class="experience">
           <div class="exp-header">
               <span class="exp-period">2023</span>
-              <span class="exp-role">Análise da demanda por trabalho em Home Office</span>
+              <span class="exp-role">Análise da demanda por trabalho em <i>Home Office</i></span>
               <button class="exp-toggle">▸</button>
           </div>
           <div class="exp-details">
@@ -2430,7 +2430,7 @@ const sections = {
                   Resumo
               </h4>
               <p>
-                  Com a popularização da internet e computadores a partir das décadas de 1980 e 1990, as organizações começaram a migrar postos de trabalho para o home office. Essa
+                  Com a popularização da internet e computadores a partir das décadas de 1980 e 1990, as organizações começaram a migrar postos de trabalho para o <i>Home Office</i>. Essa
                   prática que começou discretamente vem sendo alavancada pelo aumento populacional que está cada vez mais consciente dos benefícios da qualidade de vida
                   aliada ao trabalho e principalmente motivada pelo avanço das tecnologias eletrônica e da informação, impulsionado nos últimos anos por consequência da pandemia do
                   COVID-19. Não é uma tarefa fácil essa migração, considerando que há de se ter um alto nível de disciplina com disposição para rever a cultura profissional e entender que
