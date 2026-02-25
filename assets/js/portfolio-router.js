@@ -15,89 +15,53 @@ document.addEventListener("DOMContentLoaded", () => {
   const header = document.getElementById("portfolio-header");
 
   const animatedElements = [iconEl, titleEl, contentEl];
+  
+function animateTransition(updateCallback) {
+  const titleGroup = document.getElementById("portfolio-title-group");
+  const contentEl  = document.getElementById("section-content");
 
-  // =====> INICIALIZAÇÃO AUTOMÁTICA DA SEÇÃO “Projetos 5.0”
-  if (!secaoAtiva) {
-    secaoAtiva = "projetos50"; // chave da seção
-    estadoSubnivel = { ativa: false, secao: null };
-  
-    clearSideMenuActive(); // limpa qualquer ativo antigo
-  
-    // ativa visualmente o link do menu
-    const targetLink = document.querySelector('.side-menu a[data-section="projetos50"]');
-    if (targetLink) targetLink.classList.add("active");
-  
-    // atualiza header, ícone e título
-    const section = sections[secaoAtiva];
-    if (section) {
-      const baseTitle = titleEl.querySelector(".title-base");
-      const categoryBox = titleEl.querySelector(".title-category");
-      const categoryName = titleEl.querySelector(".category-name");
-  
-      if (baseTitle) baseTitle.textContent = section.title;
-      if (categoryBox && categoryName) {
-        categoryBox.classList.add("hidden");
-        categoryName.textContent = "";
-      }
-  
-      iconEl.src = section.icon;
-      iconEl.alt = `Ícone ${section.title}`;
-      contentEl.innerHTML = section.content;
-  
-      if (section.favicon) faviconEl.href = section.favicon;
-      document.title = section.pageTitle;
-    }
-  
-    // ativa os elementos animados na entrada
-    animatedElements.forEach(el => el.classList.add("is-active"));
-  }
-  
-  function animateTransition(updateCallback) {
-    const titleGroup = document.getElementById("portfolio-title-group");
-    const contentEl  = document.getElementById("section-content");
-  
-    if (!titleGroup || !contentEl) return;
-  
+  if (!titleGroup || !contentEl) return;
+
+  /* =========================
+     SAÍDA
+  ========================= */
+
+  // título: saída direcional
+  titleGroup.classList.remove("portfolio-enter");
+  titleGroup.classList.add("portfolio-exit");
+
+  // conteúdo: fade-out
+  contentEl.classList.remove("is-active");
+
+  setTimeout(() => {
     /* =========================
-       SAÍDA
+       TROCA DE CONTEÚDO
     ========================= */
-  
-    // título: saída direcional
-    titleGroup.classList.remove("portfolio-enter");
-    titleGroup.classList.add("portfolio-exit");
-  
-    // conteúdo: fade-out
-    contentEl.classList.remove("is-active");
-  
-    setTimeout(() => {
+    updateCallback();
+
+    /* =========================
+       PREPARA ENTRADA
+    ========================= */
+    titleGroup.classList.remove("portfolio-exit");
+    titleGroup.classList.add("portfolio-pre-enter");
+
+    // força reflow
+    titleGroup.offsetHeight;
+    contentEl.offsetHeight;
+
+    requestAnimationFrame(() => {
       /* =========================
-         TROCA DE CONTEÚDO
+         ENTRADA
       ========================= */
-      updateCallback();
-  
-      /* =========================
-         PREPARA ENTRADA
-      ========================= */
-      titleGroup.classList.remove("portfolio-exit");
-      titleGroup.classList.add("portfolio-pre-enter");
-  
-      // força reflow
-      titleGroup.offsetHeight;
-      contentEl.offsetHeight;
-  
-      requestAnimationFrame(() => {
-        /* =========================
-           ENTRADA
-        ========================= */
-        titleGroup.classList.remove("portfolio-pre-enter");
-        titleGroup.classList.add("portfolio-enter");
-  
-        // conteúdo: fade-in
-        contentEl.classList.add("is-active");
-      });
-  
-    }, 400);
-  }
+      titleGroup.classList.remove("portfolio-pre-enter");
+      titleGroup.classList.add("portfolio-enter");
+
+      // conteúdo: fade-in
+      contentEl.classList.add("is-active");
+    });
+
+  }, 400);
+}
 
   menuLinks.forEach(link => {
     link.addEventListener("click", e => {
@@ -233,6 +197,34 @@ document.addEventListener("DOMContentLoaded", () => {
       link.classList.add("active");
     });
   });
+
+  // 🔹 HOME → BOTÃO PROJETOS 5.0
+  const btnProjetos50 = document.querySelector('.btn-projetos[data-section="projetos50"]');
+  if (btnProjetos50) {
+    btnProjetos50.addEventListener("click", e => {
+      e.preventDefault();
+  
+      // 🔹 Chama a animação de transição de conteúdo, já existente
+      animateViewTransition(() => {
+        const contentEl = document.getElementById("section-content");
+        contentEl.innerHTML = sections["projetos50"].content;
+  
+        // inicializa explicitamente o block mode
+        trocarModo("block");
+      });
+  
+      // 🔹 MARCA O LINK CORRESPONDENTE DO SIDE MENU
+      const sideMenuLinks = document.querySelectorAll(".side-menu a");
+      sideMenuLinks.forEach(link => link.classList.remove("active"));
+  
+      const projetosLink = document.querySelector('.side-menu a[data-section="projetos50"]');
+      if (projetosLink) projetosLink.classList.add("active");
+  
+      // 🔹 ATUALIZA variáveis de estado (opcional, mantém consistência)
+      secaoAtiva = "projetos50";
+      estadoSubnivel = { ativa: false, secao: null };
+    });
+  }
 
   // Estado inicial
   animatedElements.forEach(el => el.classList.add("is-active"));
