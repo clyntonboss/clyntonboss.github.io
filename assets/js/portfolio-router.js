@@ -5,22 +5,6 @@ let estadoSubnivel = {
 
 let secaoAtiva = null;
 
-// 🔹 Inicializa Side Menu quando acessa Projetos50 diretamente
-document.addEventListener("DOMContentLoaded", () => {
-  if (document.body.dataset.mode === "projetos50") {
-    secaoAtiva = "projetos50";
-    estadoSubnivel = { ativa: false, secao: null };
-
-    // 🔹 Limpa qualquer ativo anterior no Side Menu
-    const activeLinks = document.querySelectorAll(".side-portfolio a.active");
-    activeLinks.forEach(l => l.classList.remove("active"));
-
-    // 🔹 Marca a primeira categoria como ativa (opcional)
-    const firstCategory = document.querySelector(".side-portfolio a[data-category]");
-    if (firstCategory) firstCategory.classList.add("active");
-  }
-});
-
 document.addEventListener("DOMContentLoaded", () => {
   const menuLinks = document.querySelectorAll("[data-section]");
   const titleEl = document.getElementById("section-title");
@@ -31,6 +15,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const header = document.getElementById("portfolio-header");
 
   const animatedElements = [iconEl, titleEl, contentEl];
+
+  // 🔹 INICIALIZAÇÃO ESPECIAL PARA Projetos50 VIA HOME
+  if (document.body.dataset.mode === "projetos50") {
+    secaoAtiva = "projetos50";
+    estadoSubnivel = { ativa: false, secao: null };
+
+    // Limpa todos os links ativos do Side Menu
+    document.querySelectorAll(".side-menu a.active")
+      .forEach(l => l.classList.remove("active"));
+
+    // Marca como ativo o link da seção Projetos50
+    const targetLink = document.querySelector('.side-menu a[data-section="projetos50"]');
+    if (targetLink) targetLink.classList.add("active");
+  }
   
 function animateTransition(updateCallback) {
   const titleGroup = document.getElementById("portfolio-title-group");
