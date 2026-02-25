@@ -199,7 +199,7 @@ const sections = {
             <p><strong>Data de Conclusão:</strong> 13 de março de 2024</p>
             <p><strong>Código:</strong> 514.514.4bb97a2ecb2b<button class="copiar-btn copiar-btn--compact" aria-label="Copiar Código" onclick="copiarCodigo('514.514.4bb97a2ecb2b', this)">📋</button></p>
             <p><strong>Verificação:</strong>
-            <a href="https://www.ubm.br/dd/" target="_blank" class="cert-link-verify cert-links--compact">Verificar Autenticidade</a>
+            <a href="https://www.ubm.br/dd/" target="_blank" class="cert-link-verify course-block--compact">Verificar Autenticidade</a>
             </p>
         </div>
 
