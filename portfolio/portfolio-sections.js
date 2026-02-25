@@ -2143,7 +2143,7 @@ const sections = {
                   <p><strong>Data de Conclusão:</strong> 01 de julho de 2025 (Issue: July 1, 2025 / Expiration: July 1, 2027)</p>
                   <p><strong>Código:</strong> e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g</p>
                   <p><strong>Verificação:</strong>
-                  <a href="https://credentials.databricks.com/e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g" target="_blank" class="cert-link-verify">Verificar Autenticidade</a>
+                  <a href="https://credentials.databricks.com/e9b19a1a-c9bc-4299-bac8-e8c63ecfa6b8#acc.Zox1Ip6g" target="_blank" class="cert-link-verify exp-details--compact">Verificar Autenticidade</a>
                   </p>
               </div>
       
