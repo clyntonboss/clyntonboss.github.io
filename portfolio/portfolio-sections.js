@@ -1766,7 +1766,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -1794,7 +1794,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -1822,7 +1822,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -1850,7 +1850,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -1878,7 +1878,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -1906,7 +1906,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -1934,7 +1934,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.09.08 · Domus Lean Seis Sigma · Lean Seis Sigma Green Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Domus Lean Seis Sigma</p>
@@ -1962,7 +1962,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.15 · Produzindo Engenharia · Yellow Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Produzindo Engenharia</p>
@@ -1978,7 +1978,7 @@ const sections = {
               <hr class="decorative-line-cert">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · VMEdu, Inc · Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> VMEdu, Inc</p>
@@ -1994,7 +1994,7 @@ const sections = {
               <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.03.01 · FM2S · Certificação Lean Six Sigma Yellow Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
@@ -2022,7 +2022,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2026.01.28 · RL Associados · Formação White Belt Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> RL & Associados</p>
@@ -2038,7 +2038,7 @@ const sections = {
               <hr class="decorative-line-cert">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Nortegubisian · Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Nortegubisian</p>
@@ -2054,7 +2054,7 @@ const sections = {
               <hr class="decorative-line-cert">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.12 · Escola EDTI · Certificação White Belt em Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Escola EDTI</p>
@@ -2070,7 +2070,7 @@ const sections = {
               <hr class="decorative-line-cert">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Council for Six Sigma Certification · Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Council for Six Sigma Certification</p>
@@ -2086,7 +2086,7 @@ const sections = {
               <hr class="decorative-line-cert">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2025.11.11 · Frons Educação · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Frons Educação</p>
@@ -2102,7 +2102,7 @@ const sections = {
               <hr class="decorative-line-cert">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.29 · Produzindo Engenharia · White Belt Lean Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Produzindo Engenharia</p>
@@ -2118,7 +2118,7 @@ const sections = {
               <hr class="decorative-line-cert">
 
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2024.02.28 · FM2S · Certificação Lean Six Sigma White Belt.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> FM2S Educação e Consultoria</p>
@@ -2134,7 +2134,7 @@ const sections = {
               <hr class="decorative-line-cert">
       
               <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--compact">
+                  <img src="/portfolio/formacoes-complementares/gestao-da-qualidade/certificados/2021.11.21 · RL Associados · White Belt - Six Sigma.png" alt="Gestão da Qualidade" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> RL & Associados</p>
