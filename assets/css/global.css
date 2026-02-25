@@ -788,10 +788,6 @@ main {
 }
 
 .exp-details a {
-   margin: 8px;
-}
-
-.exp-details--compact {
    margin: 8px 0;
 }
 
