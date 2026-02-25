@@ -1,5 +1,40 @@
 window.datasetCategoria = [
   {
+    id: 13,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-de-marketing/certificados/2026.02.25 · FIAP - Centro Universitário · Mobile Marketing.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Mobile Marketing",
+    cargaHoraria: "60 h",
+    conclusaoISO: "2026-02-25",
+    dataConclusao: "25 de fevereiro de 2026",
+    codigo: "476337b2dbf63c7a216c928713b8851e",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=476337b2dbf63c7a216c928713b8851e&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 12,
 
     thumb: "/portfolio/formacoes-complementares/gestao-de-marketing/certificados/2026.02.25 · FIAP - Centro Universitário · Marketing em Plataformas de Social Media.png",
