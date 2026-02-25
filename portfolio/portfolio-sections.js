@@ -2512,7 +2512,7 @@ const sections = {
                   Diante o aumento exponencial da sociedade, cresce o consumo e com isso a preocupação com o meio ambiente. Da segunda metade do século XX em diante os
                   órgãos fiscalizadores em âmbito mundial passaram a aprimorar os dispositivos de combate a degradação do meio ambiente explicitando através de indicadores os
                   malefícios para o meio ambiente por consequência da desenfreada extração de Matérias-Primas para a fabricação de produtos e prestação de serviços. Por meio da
-                  evolução das políticas de Sustentabilidade mudando a direção sistemática de economia linear para Economia Circular, as organizações passaram a buscar
+                  evolução das políticas de Sustentabilidade mudando a direção sistemática de Economia Linear para Economia Circular, as organizações passaram a buscar
                   alternativas para aquisição de Matérias-Primas, através principalmente da reciclagem, mas também através da substituição de Matérias-Primas não recicláveis por aquelas
                   que são recicláveis. Com isso os Resíduos voltam para o processo fabril da própria organização ou é destinado para organizações de outros segmentos.
               </p>
