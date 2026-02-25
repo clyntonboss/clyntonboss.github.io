@@ -71,8 +71,8 @@ const sections = {
           estratégia e maturidade intelectual em um estilo de trabalho analítico que equilibra rigor, criatividade, lógica e intuição.
       </p>
       <p>
-          Este portfólio reúne minha caminhada, meus aprendizados e minha visão: a de que dados são mais do que insumos. São instrumentos de decisão, transformação e impacto. Aqui você
-          encontrará não apenas projetos, mas uma construção consciente de experiência — fruto de disciplina, foco, curiosidade e um compromisso permanente com a excelência. 
+          Este portfólio reúne minha caminhada, meus aprendizados e minha visão: a de que dados são mais do que insumos. São instrumentos de decisão, transformação e impacto. Aqui se
+          encontra não apenas projetos, mas uma construção consciente de experiência — fruto de disciplina, foco, curiosidade e um compromisso permanente com a excelência. 
       </p>
     `
   },
