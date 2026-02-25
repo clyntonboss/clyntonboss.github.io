@@ -866,6 +866,10 @@ body {
 .cert-thumb--compact {
     margin: 0 8px;
 }
+
+.cert-thumb--accordion {
+    margin: 20px 8px;
+}
 /* Categorias dos Certificados */
 
 .cert-categories {
