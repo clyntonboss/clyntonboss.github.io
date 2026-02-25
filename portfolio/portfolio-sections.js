@@ -1993,8 +1993,8 @@ const sections = {
       
               <hr class="decorative-line-cert decorative-line-sup">
       
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Platform Administrator.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2021,8 +2021,8 @@ const sections = {
       
               <hr class="decorative-line-cert decorative-line-sup">
       
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.11 · Databricks Academy · Databricks Accredited Databricks Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2049,8 +2049,8 @@ const sections = {
       
               <hr class="decorative-line-cert decorative-line-sup">
       
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.19 · Databricks Academy · Databricks Accredited Generative Artificial Intelligence Fundamentals.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2077,8 +2077,8 @@ const sections = {
       
               <hr class="decorative-line-cert decorative-line-sup">
       
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.21 · Databricks Academy · Databricks Accredited Google Cloud Platform Databricks Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2105,8 +2105,8 @@ const sections = {
       
               <hr class="decorative-line-cert decorative-line-sup">
       
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.29 · Databricks Academy · Databricks Accredited Amazon Web Services Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
@@ -2133,8 +2133,8 @@ const sections = {
       
               <hr class="decorative-line-cert decorative-line-sup">
       
-              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png'); return false;">
-                  <img src="/portfolio/formacoes-complementares/cloud/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
+              <a href="#" onclick="abrirCertificado('/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png'); return false;">
+                  <img src="/portfolio/formacoes-complementares/cloud-computing/certificados/2025.06.30 · Databricks Academy · Databricks Accredited Azure Platform Architect.png" alt="Cloud" class="cert-thumb cert-thumb--compact">
               </a>
               <div>
                   <p><strong>Instituição:</strong> Databricks Academy</p>
