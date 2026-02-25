@@ -1313,6 +1313,10 @@ body.static-header .last-update {
    margin: 8px;
 }
 
+.course-block--compact {
+   margin-left: 0;
+}
+
 .course-block-content {
   position: relative;
   display: flex;
