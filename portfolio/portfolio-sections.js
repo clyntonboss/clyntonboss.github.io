@@ -95,8 +95,8 @@ const sections = {
       </p>
       
       <p>
-          Essa jornada, porém, ganhou um novo contorno nos últimos anos. O que antes era uma atuação ampla dentro de TI evoluiu para 
-          uma fase de <strong>especialização intensa</strong>, impulsionada por uma <strong>curiosidade insaciável</strong> e por um 
+          Essa jornada, porém, ganhou um novo contorno nos últimos anos. O que antes era uma atuação ampla dentro de TI (Tecnologia da Informação) 
+          evoluiu para uma fase de <strong>especialização intensa</strong>, impulsionada por uma <strong>curiosidade insaciável</strong> e por um 
           comprometimento diário com o <strong>desenvolvimento autodidata</strong>. A cada estudo, desafio ou projeto, busco mais do que 
           conhecimento técnico: busco compreender o sentido, a lógica e o impacto de cada conceito, de cada ferramenta e de cada decisão.
       </p>
