@@ -134,11 +134,9 @@ document.addEventListener("click", e => {
   }, 1200); // tempo deve bater com duração da animação CSS
 });
 
-
 document.addEventListener("click", e => {
-  const linkPortfolio = e.target.closest('a[data-section="portfolio"]');
-  const linkProjetos50 = e.target.closest('a[data-section="projetos50"]');
-  if (!linkPortfolio && !linkProjetos50) return;
+  const link = e.target.closest('[data-section="home"]');
+  if (!link) return;
 
   e.preventDefault();
 
