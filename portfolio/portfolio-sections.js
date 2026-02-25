@@ -2553,7 +2553,7 @@ const sections = {
                   revolução industrial e a quinta. A quarta revolução industrial teve seu início oficializado em 2011 e apenas 6 anos depois, em 2017, começaram os debates sobre o que seria
                   a próxima revolução industrial que alguns autores descrevem como a evolução da Indústria 4.0. O principal foco da Indústria 4.0 é automatizar ao máximo os processos
                   produtivos que é contraposto nos debates para a próxima revolução industrial que levará de volta para os parques fabris os recursos humanos, porém, especializados.
-                  A tendência é conciliar a robotização com o feeling humano promovendo sinergia entre os dois mundos.
+                  A tendência é conciliar a robotização com o <i>feeling</i> humano promovendo sinergia entre os dois mundos.
               </p>
       
               <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensaio Sobre Perspectivas da Transição da Indústria 4.0 para a Indústria 5.0.pdf')" class="cert-link-verify">
