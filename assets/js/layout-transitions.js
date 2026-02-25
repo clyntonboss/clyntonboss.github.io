@@ -135,11 +135,12 @@ document.addEventListener("click", e => {
 });
 
 document.addEventListener("click", e => {
-  const link = e.target.closest('[data-section="home"]');
+  const link = e.target.closest("[data-section]");
   if (!link) return;
 
   e.preventDefault();
 
+  const pageKey = link.dataset.section; // "home", "portfolio" ou "projetos50"
   const header = document.querySelector("header.header");
   const intro = document.querySelector(".intro-photo");
   const side = document.querySelector(".side-portfolio");
@@ -147,26 +148,29 @@ document.addEventListener("click", e => {
   if (!header || !intro || !side) return;
 
   resetHeaderAnimation(header);
-  
+
   // 🔹 SAÍDA HEADER
   header.classList.add("portfolio-exit");
 
-  // 🔹 SAÍDA SIDE MENU (top → bottom)
-  side.classList.add("is-leaving");
+  // 🔹 SAÍDA DA AREA ATUAL
+  const leavingEl = pageKey === "home" ? side : intro;
+  leavingEl.classList.add("is-leaving");
 
   setTimeout(() => {
-    // 🔹 Oculta Side Menu e remove classe de saída
-    side.style.display = "none";
-    side.classList.remove("is-leaving");
+    // 🔹 Oculta a área atual
+    leavingEl.style.display = "none";
+    leavingEl.classList.remove("is-leaving");
 
-    // 🔹 Exibe Intro e aplica animação de entrada (bottom → top)
-    intro.style.display = "flex";
-    intro.classList.add("is-entering");
+    // 🔹 Exibe a nova área
+    const enteringEl = pageKey === "home" ? intro : side;
+    enteringEl.style.display = pageKey === "home" ? "flex" : "flex";
+    enteringEl.classList.add("is-entering");
 
-    // 🔹 Atualiza header e layout
-    aplicarEstadoHeader("home");
-    setLayoutMode("home");
+    // 🔹 Atualiza header e body
+    aplicarEstadoHeader(pageKey);
+    setLayoutMode(pageKey);
 
+    // 🔹 Animação do header
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
 
@@ -175,11 +179,10 @@ document.addEventListener("click", e => {
     header.classList.remove("portfolio-pre-enter");
     header.classList.add("portfolio-enter");
 
-    // 🔹 Remove classe de entrada do Intro após animação
     setTimeout(() => {
-      intro.classList.remove("is-entering");
-    }, 1200); // tempo deve bater com duração da animação CSS
-  }, 400); // tempo deve bater com duração da animação CSS
+      enteringEl.classList.remove("is-entering");
+    }, pageKey === "home" ? 1200 : 400); // mantém os tempos originais
+  }, pageKey === "home" ? 400 : 1200); // mantém os tempos originais
 });
 
 document.addEventListener("DOMContentLoaded", () => {
