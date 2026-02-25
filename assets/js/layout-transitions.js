@@ -138,6 +138,9 @@ document.addEventListener("click", e => {
   const link = e.target.closest("[data-section]");
   if (!link) return;
 
+  // 🔹 Filtra apenas links da navegação principal
+  if (link.closest(".side-portfolio")) return; // clicou dentro do Side Menu → ignora aqui
+
   e.preventDefault();
 
   const pageKey = link.dataset.section; // "home", "portfolio" ou "projetos50"
@@ -157,20 +160,18 @@ document.addEventListener("click", e => {
   leavingEl.classList.add("is-leaving");
 
   setTimeout(() => {
-    // 🔹 Oculta a área atual
     leavingEl.style.display = "none";
     leavingEl.classList.remove("is-leaving");
 
-    // 🔹 Exibe a nova área
     const enteringEl = pageKey === "home" ? intro : side;
-    enteringEl.style.display = pageKey === "home" ? "flex" : "flex";
+    enteringEl.style.display = "flex";
     enteringEl.classList.add("is-entering");
 
-    // 🔹 Atualiza header e body
+    // 🔹 Atualiza header e layout
     aplicarEstadoHeader(pageKey);
     setLayoutMode(pageKey);
 
-    // 🔹 Animação do header
+    // 🔹 Header animado
     resetHeaderAnimation(header);
     header.classList.add("portfolio-pre-enter");
 
@@ -181,8 +182,47 @@ document.addEventListener("click", e => {
 
     setTimeout(() => {
       enteringEl.classList.remove("is-entering");
-    }, pageKey === "home" ? 1200 : 400); // mantém os tempos originais
-  }, pageKey === "home" ? 400 : 1200); // mantém os tempos originais
+    }, pageKey === "home" ? 1200 : 400);
+  }, pageKey === "home" ? 400 : 1200);
+});
+
+document.addEventListener("click", e => {
+  const link = e.target.closest(".side-portfolio a[data-category]");
+  if (!link) return;
+
+  e.preventDefault();
+
+  const content = document.querySelector(".main-content");
+  const subtitle = document.querySelector(".tech-subtitle-sup");
+  const icon = document.querySelector("#header-home-icon");
+
+  if (!content || !subtitle || !icon) return;
+
+  // 🔹 Apenas animação de conteúdo e subtítulo, sem tocar Header ou Side Menu
+  content.classList.add("is-leaving");
+  subtitle.classList.add("is-leaving");
+  icon.classList.add("is-leaving");
+
+  setTimeout(() => {
+    // 🔹 Atualiza conteúdo e subtítulo
+    const categoria = link.dataset.category;
+    carregarConteudoCategoria(categoria); // função que troca conteúdo no main-content
+    subtitle.textContent = link.textContent;
+
+    content.classList.remove("is-leaving");
+    subtitle.classList.remove("is-leaving");
+    icon.classList.remove("is-leaving");
+
+    content.classList.add("is-entering");
+    subtitle.classList.add("is-entering");
+    icon.classList.add("is-entering");
+
+    setTimeout(() => {
+      content.classList.remove("is-entering");
+      subtitle.classList.remove("is-entering");
+      icon.classList.remove("is-entering");
+    }, 400); // tempo da animação do conteúdo
+  }, 200); // delay curto para dar sensação de saída
 });
 
 document.addEventListener("DOMContentLoaded", () => {
