@@ -1310,11 +1310,7 @@ body.static-header .last-update {
 }
 
 .course-block a {
-   margin: 0;
-}
-
-.course-block--compact {
-   margin-left: 0;
+   margin: 8px 0;
 }
 
 .course-block-content {
