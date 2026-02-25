@@ -11,10 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
     secaoAtiva = "projetos50";
     estadoSubnivel = { ativa: false, secao: null };
 
-    // Limpa classes active
-    clearSideMenuActive();
+    // 🔹 Limpa qualquer ativo anterior no Side Menu
+    const activeLinks = document.querySelectorAll(".side-portfolio a.active");
+    activeLinks.forEach(l => l.classList.remove("active"));
 
-    // Se quiser marcar a primeira categoria como ativa
+    // 🔹 Marca a primeira categoria como ativa (opcional)
     const firstCategory = document.querySelector(".side-portfolio a[data-category]");
     if (firstCategory) firstCategory.classList.add("active");
   }
