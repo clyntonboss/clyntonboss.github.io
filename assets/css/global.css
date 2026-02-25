@@ -791,6 +791,10 @@ main {
    margin: 8px;
 }
 
+.exp-details--compact {
+   margin: 8px 0;
+}
+
 .exp-details img {
   display: block;
 }
