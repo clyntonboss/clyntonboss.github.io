@@ -192,7 +192,7 @@ const sections = {
             <img src="/portfolio/formacao-academica/diploma/2024.03.13 · Centro Universitário de Barra Mansa · Engenharia de Produção.png" alt="Engenharia de Produção" class="cert-thumb cert-thumb-block">
         </a>
         
-        <div class="course-block">
+        <div>
             <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
             <p><strong>Curso:</strong> Engenharia de Produção | Bacharelado</p>
             <p><strong>Carga Horária:</strong> 3.800 h (Fev/2019 a Mar/2024)</p>
