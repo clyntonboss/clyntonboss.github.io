@@ -23,7 +23,7 @@ const sections = {
       </p>
       
       <p>
-          Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos e construção de painéis
+          Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos e construção de <i>dashboards</i>
           executivos</strong>. Em cada entrega, priorizo métricas confiáveis, rastreabilidade dos resultados e impacto tangível, sempre alinhando tecnologia, método e propósito.
       </p>
       
@@ -56,8 +56,8 @@ const sections = {
           minha visão sobre como a informação se transforma em valor.
       </p>
       <p>
-          Atuo com uma perspectiva ampla e integrada, combinando <strong><i>Python™</i>, <i>R</i>, <i>SQL</i>, <i>Power BI</i>, modelagem de dados, análises: descritiva, diagnóstica, preditiva, 
-          prescritiva, exploratória e qualitativa</strong>, metodologias <i>Lean Six Sigma</i>, automação, governança e qualidade de dados</strong>. Minha experiência se estende desde a construção 
+          Atuo com uma perspectiva ampla e integrada, combinando <strong><i>Python</i>, <i>R</i>, <i>SQL</i>, <i>Power BI</i>, modelagem de dados, análises descritiva, diagnóstica, preditiva, 
+          prescritiva, exploratória e qualitativa, metodologias <i>Lean Six Sigma</i>, automação, governança e qualidade de dados</strong>. Minha experiência se estende desde a construção 
           de <i>pipelines</i> analíticos e processos de <i>ETL</i> até o desenvolvimento de <i>dashboards</i> interativos e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
       </p>
       <p>
@@ -66,13 +66,13 @@ const sections = {
           complexidade em clareza. Meu trabalho é encontrar significado onde muitos enxergam apenas números.
       </p>
       <p> 
-          Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong><i>Power BI</i>, <i>Python™</i>, <i>SQL</i>, <i>MySQL</i>, <i>MongoDB</i>, Estatística, 
-          Visualização de Dados, <i>Data Storytelling</i>, <i>Data Quality</i>, Modelagem, Processos, LGPD, Cibersegurança, entre outros</strong>. Essa evolução constante me permitiu unir técnica, 
-          estratégia e maturidade intelectual em um estilo de trabalho analítico que equilibra rigor, criatividade, lógica e intuição.
+          Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong><i>Power BI</i>, <i>Python</i>, <i>SQL</i>, <i>MySQL</i>, <i>MongoDB</i>, Estatística, 
+          Visualização de Dados, <i>Data Storytelling</i>, <i>Data Quality</i>, Modelagem, Processos, Lei Geral de Proteção de Dados (LGPD), Cibersegurança</strong>, entre outros. Essa evolução 
+          constante me permitiu unir técnica, estratégia e maturidade intelectual em um estilo de trabalho analítico que equilibra rigor, criatividade, lógica e intuição.
       </p>
       <p>
           Este portfólio reúne minha caminhada, meus aprendizados e minha visão: a de que dados são mais do que insumos. São instrumentos de decisão, transformação e impacto. Aqui se
-          encontra não apenas projetos, mas uma construção consciente de experiência — fruto de disciplina, foco, curiosidade e um compromisso permanente com a excelência. 
+          encontram não apenas projetos, mas uma construção consciente de experiência — fruto de disciplina, foco, curiosidade e um compromisso permanente com a excelência. 
       </p>
     `
   },
