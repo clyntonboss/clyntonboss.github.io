@@ -2695,7 +2695,7 @@ const sections = {
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2020.08.28 · UBM - Centro Universitário de Barra Mansa · EaD (a nova onda da educação – Virtudes e Desafios).png" alt="Artigo Científico" class="cert-thumb">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
