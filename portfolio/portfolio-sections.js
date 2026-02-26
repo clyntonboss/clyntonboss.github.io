@@ -2690,7 +2690,7 @@ const sections = {
               <span class="exp-role">EaD: a nova onda da educação - Virtudes e Desafios</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details">
+          <div class="exp-details exp-details-artigos">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
