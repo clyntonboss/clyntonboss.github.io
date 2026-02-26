@@ -56,9 +56,9 @@ const sections = {
           minha visão sobre como a informação se transforma em valor.
       </p>
       <p>
-          Atuo com uma perspectiva ampla e integrada, combinando <strong><i>Python</i>, <i>R</i>, <i>SQL</i>, <i>Power BI</i>, modelagem de dados, análises descritiva, diagnóstica, preditiva, 
-          prescritiva, exploratória e qualitativa, metodologias <i>Lean Six Sigma</i>, automação, governança e qualidade de dados</strong>. Minha experiência se estende desde a construção 
-          de <i>pipelines</i> analíticos e processos de <i>ETL</i> até o desenvolvimento de <i>dashboards</i> interativos e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
+          Atuo com uma perspectiva ampla e integrada, combinando <strong>Python, R, SQL, Power BI, modelagem de dados, análises descritiva, diagnóstica, preditiva, 
+          prescritiva, exploratória e qualitativa, metodologias Lean Six Sigma, automação, governança e qualidade de dados</strong>. Minha experiência se estende desde a construção 
+          de pipelines analíticos e processos de ETL até o desenvolvimento de dashboards interativos e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
       </p>
       <p>
           Acredito que cada <i>dataset</i> carrega uma narrativa própria — uma história que precisa ser revelada com precisão técnica, sensibilidade analítica e visão crítica. Para mim, analisar
@@ -66,8 +66,8 @@ const sections = {
           complexidade em clareza. Meu trabalho é encontrar significado onde muitos enxergam apenas números.
       </p>
       <p> 
-          Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong><i>Power BI</i>, <i>Python</i>, <i>SQL</i>, <i>MySQL</i>, <i>MongoDB</i>, Estatística, 
-          Visualização de Dados, <i>Data Storytelling</i>, <i>Data Quality</i>, Modelagem, Processos, Lei Geral de Proteção de Dados (LGPD), Cibersegurança</strong>, entre outros. Essa evolução 
+          Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong>Power BI, Python, SQL, MySQL, MongoDB, Estatística, 
+          Visualização de Dados, Data Storytelling, Data Quality, Modelagem, Processos, Lei Geral de Proteção de Dados (LGPD), Cibersegurança</strong>, entre outros. Essa evolução 
           constante me permitiu unir técnica, estratégia e maturidade intelectual em um estilo de trabalho analítico que equilibra rigor, criatividade, lógica e intuição.
       </p>
       <p>
