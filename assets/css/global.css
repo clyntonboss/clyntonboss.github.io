@@ -792,7 +792,7 @@ main {
 }
 
 .exp-details-artigos a {
-   margin-left: 8px;
+   margin: 0 8px;
 }
 
 .exp-details img {
