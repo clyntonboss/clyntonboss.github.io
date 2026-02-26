@@ -95,7 +95,7 @@ const sections = {
       </p>
       
       <p>
-          Essa jornada, porém, ganhou um novo contorno nos últimos anos. O que antes era uma atuação ampla dentro de TI (Tecnologia da Informação) 
+          Essa jornada, porém, ganhou um novo contorno nos últimos anos. O que antes era uma atuação ampla dentro de Tecnologia da Informação (TI) 
           evoluiu para uma fase de <strong>especialização intensa</strong>, impulsionada por uma <strong>curiosidade insaciável</strong> e por um 
           comprometimento diário com o <strong>desenvolvimento autodidata</strong>. A cada estudo, desafio ou projeto, busco mais do que 
           conhecimento técnico: busco compreender o sentido, a lógica e o impacto de cada conceito, de cada ferramenta e de cada decisão.
@@ -108,7 +108,7 @@ const sections = {
       </p>
       
       <p>
-          O que se encontra neste portfólio não é apenas um conjunto de projetos ou certificações, mas um reflexo dessa caminhada: 
+          O que se encontra neste portfólio não é apenas um conjunto de projetos ou certificações, mas o reflexo dessa caminhada: 
           uma trajetória marcada por <strong>expansão intelectual</strong>, <strong>busca de profundidade técnica</strong>, 
           <strong>exploração contínua</strong> e uma dedicação real à excelência. 
           Cada entrega aqui representa não apenas o que faço, mas sobretudo <strong>como penso e como evoluo</strong>.
@@ -116,7 +116,7 @@ const sections = {
       
       <p>
           Este espaço é, portanto, a síntese de anos de prática, estudo e refinamento. 
-          Um recorte vivo de uma jornada que continua — com propósito, coerência e uma vontade permanente de aprender, transformar 
+          Um recorte vivo de uma jornada que continua — com propósito, coerência e um compromisso permanente de aprender, transformar 
           e contribuir para um futuro mais inteligente, mais integrado, mais sustentável e mais humano.
       </p>
     `
