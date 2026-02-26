@@ -12,18 +12,18 @@ const sections = {
     content: `
       <p>
           Analista de Dados movido pela curiosidade, pela precisão técnica e pelo compromisso de transformar informações complexas em decisões inteligentes e estratégicas.
-          Com sólida experiência em <strong><i>Python</i>, <i>R</i>, <i>SQL</i> e <i>Power BI</i></strong>, atuo na criação de soluções analíticas que conectam indicadores à visão de negócio,
+          Com sólida experiência em <strong>Python, R, SQL e Power BI</strong>, atuo na criação de soluções analíticas que conectam indicadores à visão de negócio,
           permitindo identificar padrões, antecipar cenários e orientar ações com clareza e segurança.
       </p>
       
       <p>
-          Minha abordagem integra <strong>processos de <i>Extract, Transform and Load (ETL)</i>, modelagem estruturada, visualização interativa e análises descritiva, diagnóstica, preditiva,
-          prescritiva, exploratória e qualitativa</strong>, garantindo que cada <i>insight</i> seja não apenas preciso, mas aplicável e relevante para o contexto da organização. Acredito que
+          Minha abordagem integra <strong>processos de Extract, Transform and Load (ETL), modelagem estruturada, visualização interativa e análises descritiva, diagnóstica, preditiva,
+          prescritiva, exploratória e qualitativa</strong>, garantindo que cada insight seja não apenas preciso, mas aplicável e relevante para o contexto da organização. Acredito que
           todo conjunto de dados carrega uma narrativa valiosa — e meu papel é revelá-la com rigor analítico e comunicação clara, traduzindo complexidade em entendimento estratégico.
       </p>
       
       <p>
-          Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos e construção de <i>dashboards</i>
+          Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos e construção de dashboards
           executivos</strong>. Em cada entrega, priorizo métricas confiáveis, rastreabilidade dos resultados e impacto tangível, sempre alinhando tecnologia, método e propósito.
       </p>
       
