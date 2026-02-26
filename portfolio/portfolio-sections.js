@@ -2718,7 +2718,7 @@ const sections = {
                   principal trazer cultura, informação e principalmente educação de qualidade a todos.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" class="cert-link-verify cert-links--accordion">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" class="cert-link-verify">
                  Acesse o artigo completo.
               </a>
           </div>
