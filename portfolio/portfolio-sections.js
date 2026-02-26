@@ -233,7 +233,7 @@ const sections = {
                   <li style="margin-bottom: 16px;">Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0</li>
                   <li style="margin-bottom: 16px;">Utilização de resíduos como matéria-prima na indústria</li>
                   <li style="margin-bottom: 16px;">As principais Ferramentas Computacionais Aplicadas à Engenharia de Produção</li>
-                  <li style="margin-bottom: 16px;">Análise da demanda por trabalho em <i>Home Office</i></li>
+                  <li style="margin-bottom: 16px;">Análise da demanda por trabalho em Home Office</li>
                   <li style="margin-bottom: 16px;">A atuação do Engenheiro de Produção na Indústria 4.0</li>
                   <li style="margin-bottom: 16px;">Computação Quântica: a evolução da Tecnologia da Informação</li>
               </ul>
