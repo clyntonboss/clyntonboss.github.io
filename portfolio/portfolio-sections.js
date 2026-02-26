@@ -232,7 +232,7 @@ const sections = {
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
                   <li style="margin-bottom: 16px;">Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0</li>
                   <li style="margin-bottom: 16px;">Utilização de resíduos como matéria-prima na indústria</li>
-                  <li style="margin-bottom: 16px;">As principais Ferramentas Computacionais Aplicadas à Engenharia de Produção</li>
+                  <li style="margin-bottom: 16px;">As principais ferramentas computacionais aplicadas à Engenharia de Produção</li>
                   <li style="margin-bottom: 16px;">Análise da demanda por trabalho em Home Office</li>
                   <li style="margin-bottom: 16px;">A atuação do Engenheiro de Produção na Indústria 4.0</li>
                   <li style="margin-bottom: 16px;">Computação Quântica: a evolução da Tecnologia da Informação</li>
@@ -248,8 +248,8 @@ const sections = {
           </div>
           <div class="exp-details" style="line-height: 1.8;">
               <ul style="margin-top: 15px; list-style-type: disc; padding-left: 20px;">
-                  <li style="margin-bottom: 16px;">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</li>
-                  <li style="margin-bottom: 16px;">Os impactos da aplicação da Lei Geral de Proteção de Dados - LGPD</li>
+                  <li style="margin-bottom: 16px;">Vendas Especiais: lucratividade advinda de resíduos Rrcicláveis</li>
+                  <li style="margin-bottom: 16px;">Os impactos da aplicação da Lei Geral de Proteção de Dados (LGPD)</li>
               </ul>
           </div>
       </div>
