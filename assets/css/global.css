@@ -924,10 +924,6 @@ body {
     margin-left: 0;
 }
 
-.cert-links--accordion {
-    margin-left: 8px;
-}
-
 /* Remove margem superior apenas na página de certificados */
 #curriculo .cert-categories {
     margin-top: 0 !important;
