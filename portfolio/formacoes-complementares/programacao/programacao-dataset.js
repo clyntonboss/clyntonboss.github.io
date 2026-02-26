@@ -1,5 +1,75 @@
 window.datasetCategoria = [
   {
+    id: 136,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.02.26 · FIAP - Centro Universitário · Python™ Development.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Python™ Development",
+    cargaHoraria: "80 h",
+    conclusaoISO: "2026-02-26",
+    dataConclusao: "26 de fevereiro de 2026",
+    codigo: "1362714bf7177e71557a2c2c129d7b08",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=1362714bf7177e71557a2c2c129d7b08&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 135,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.02.26 · FIAP - Centro Universitário · Python™.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Python™",
+    cargaHoraria: "80 h",
+    conclusaoISO: "2026-02-26",
+    dataConclusao: "26 de fevereiro de 2026",
+    codigo: "59059d6b258a37f6e245b2bc889970d4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=59059d6b258a37f6e245b2bc889970d4&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 134,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.02.24 · FIAP - Centro Universitário · Learn to Program.png",
