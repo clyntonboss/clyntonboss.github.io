@@ -205,8 +205,9 @@ const sections = {
 
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle"><p>Participação contínua em eventos acadêmicos com desenvolvimento e apresentação de Artigos Científicos nas áreas de Inclusão Social, Inclusão Digital,
-                                    Tecnologia da Informação, Dados, Produção e Sustentabilidade, incluindo Economia Circular e ESG (Environmental Social and Governance).</p></div>
+      <div class="tech-subtitle"><p>Participações contínuas em Seminários Acadêmicos com desenvolvimento e apresentação de Artigos Científicos nas áreas de Inclusão Social, Inclusão Digital,
+                                    Tecnologia da Informação, Dados, Produção e Sustentabilidade, incluindo Economia Circular e ESG (Environmental Social and Governance).<br>
+                                    Todos os Artigos Científicos estão disponíveis para acesso e leitura na seção Produções Intelectuais.</p></div>
 
       <div class="experience">
           <div class="exp-header">
