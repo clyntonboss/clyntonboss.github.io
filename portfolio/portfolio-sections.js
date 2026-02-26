@@ -139,22 +139,22 @@ const sections = {
       </p>
       
       <p>
-          Em um cenário onde o volume de dados cresce mais rápido que a capacidade de interpretá-los, 
+          Em um cenário em que o volume de dados cresce mais rápido do que a capacidade de interpretá-los, 
           meu compromisso é criar análises que não apenas expliquem o que aconteceu, 
           mas que revelem o <strong>porquê</strong>, o <strong>e se</strong> e o <strong>o que fazer a seguir</strong>.  
           Meu trabalho não se limita a gráficos ou métricas; ele tem como essência provocar entendimento, 
-          gerar <i>insight</i> e sustentar decisões mais estratégicas.
+          gerar <i>insights</i> relevantes e sustentar decisões mais estratégicas.
       </p>
       
       <p>
           Vejo a análise de dados como um processo vivo — uma convergência entre lógica, curiosidade e visão de negócio.  
-          Por isso, busco sempre unir profundidade técnica com pensamento crítico, conectando técnicas avançadas, 
+          Por isso, busco unir profundidade técnica a pensamento crítico, conectando técnicas avançadas, 
           modelagem cuidadosa e narrativas claras que permitam às organizações enxergar seus desafios e oportunidades 
           com precisão e inteligência.
       </p>
       
       <p>
-          Meu propósito também é evoluir continuamente: estudar, testar, questionar, reconstruir.  
+          Evoluir continuamente também faz parte desse compromisso: estudar, testar, questionar, reconstruir.  
           Não apenas para acompanhar a velocidade da tecnologia, mas para <strong>antecipar caminhos</strong> 
           e entregar soluções que façam sentido hoje e sustentem decisões de amanhã.
       </p>
