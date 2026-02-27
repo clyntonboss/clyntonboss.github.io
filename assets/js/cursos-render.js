@@ -214,7 +214,7 @@ function renderBlocoCurso(index) {
     setTimeout(() => {
 
       // 🔹 2. Renderiza novo conteúdo (mesmo que antes)
-      content.innerHTML = `
+      wrapper.innerHTML = `
         <img 
           src="${curso.thumb}" 
           alt="${curso.curso}"
@@ -340,7 +340,7 @@ function renderFluxoCursos(cursos) {
     const item = document.createElement("div");
     item.className = "course-flow-item";
 
-    item.innerHTML = `
+    wrapper.innerHTML = `
       <img 
         src="${curso.thumb}" 
         alt="${curso.curso}"
@@ -446,7 +446,7 @@ function renderListaCursos(cursos) {
     const titulo = isFormacao ? itemData.curso : itemData.titulo;
     const segundaColuna = isFormacao ? itemData.dataConclusao : itemData.periodo;
 
-    item.innerHTML = `
+    wrapper.innerHTML = `
       <span class="course-name">${titulo || ""}</span>
       <span class="course-date">${segundaColuna || ""}</span>
     `;
@@ -510,7 +510,7 @@ function renderGradeCursos(cursos) {
     item.className = "course-grid-item";
     item.dataset.index = index; // 👈 fundamental
 
-    item.innerHTML = `
+    wrapper.innerHTML = `
       <img 
         src="${curso.thumb}" 
         alt="${curso.curso}" 
