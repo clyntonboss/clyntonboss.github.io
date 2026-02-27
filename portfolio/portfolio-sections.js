@@ -2331,12 +2331,12 @@ const sections = {
               <span class="exp-role">Computação Quântica: a evolução da Tecnologia da Informação</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
 
               <hr class="decorative-line-cert decorative-line-sup">
 
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Computação Quântica (a revolução da Tecnologia da Informação – uma Revisão Bibliográfica).png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
 
               <div>
@@ -2360,7 +2360,7 @@ const sections = {
                   que trata a Computação Quântica (computadores quânticos) que desbrava um novo conceito de computação com hardwares baseados em Mecânica Quântica.
               </p>
 
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Computação Quântica (A Evolução da Tecnoologia da Informação).pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Computação Quântica (A Evolução da Tecnoologia da Informação).pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2372,12 +2372,12 @@ const sections = {
               <span class="exp-role">A atuação do Engenheiro de Produção na Indústria 4.0</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · A atuação do Engenheiro de Produção na Indústria 4.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2400,7 +2400,7 @@ const sections = {
                   tem papel fundamental para a mudança cultural no que tange a capacitação sobre a tecnologia digital e reestruturação dos parques industriais.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/A Atuação do Engenheiro de Produção na Indústria 4.0.pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/A Atuação do Engenheiro de Produção na Indústria 4.0.pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2412,12 +2412,12 @@ const sections = {
               <span class="exp-role">Análise da demanda por trabalho em <i>Home Office</i></span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Análise da demanda por trabalho em Home Office – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2440,7 +2440,7 @@ const sections = {
                   organizações quanto para os colaboradores e algumas organizações oferecem diversos benefícios para seus colaboradores.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Análise da Demanda por Trabalho em Home Office.pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Análise da Demanda por Trabalho em Home Office.pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2452,12 +2452,12 @@ const sections = {
               <span class="exp-role">As principais Ferramentas Computacionais aplicadas à Engenharia de Produção</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · As principais Ferramentas Computacionais aplicadas à Engenharia de Produção – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2479,7 +2479,7 @@ const sections = {
                   ferramentas voltadas para Sustentabilidade e <i>ESG – Environmental Social and Governance</i>, que não podem faltar em nenhum segmento empresarial.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/As Principais Ferramentas Computacionais Aplicadas à Engenharia de Produção.pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/As Principais Ferramentas Computacionais Aplicadas à Engenharia de Produção.pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2491,12 +2491,12 @@ const sections = {
               <span class="exp-role">Utilização de resíduos como matéria-prima na indústria</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Utilização de resíduos como matéria-prima na indústria – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2519,7 +2519,7 @@ const sections = {
                   que são recicláveis. Com isso os Resíduos voltam para o processo fabril da própria organização ou é destinado para organizações de outros segmentos.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Utilização de Resíduos como Matéria-Prima na Indústria.pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Utilização de Resíduos como Matéria-Prima na Indústria.pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2531,12 +2531,12 @@ const sections = {
               <span class="exp-role">Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2023.11.22 · UBM - Centro Universitário de Barra Mansa · Ensaio sobre perspectivas da transição da Indústria 4.0 para a Indústria 5.0 – uma Revisão Bibliográfica.png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2558,7 +2558,7 @@ const sections = {
                   A tendência é conciliar a robotização com o <i>feeling</i> humano promovendo sinergia entre os dois mundos.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensaio Sobre Perspectivas da Transição da Indústria 4.0 para a Indústria 5.0.pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensaio Sobre Perspectivas da Transição da Indústria 4.0 para a Indústria 5.0.pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2570,12 +2570,12 @@ const sections = {
               <span class="exp-role">Os impactos da aplicação da Lei Geral de Proteção de Dados - LGPD</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Os impactos da aplicação da Lei Geral de Proteção de Dados – LGPD.png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2597,7 +2597,7 @@ const sections = {
                   específico sobre a TI (Tecnologia da Informação) que se refere à segurança da informação, conforme é explanado no decorrer do resultado da pesquisa.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Os Impactos da Aplicação da Lei Geral de Proteção de Dados - LGPD.pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Os Impactos da Aplicação da Lei Geral de Proteção de Dados - LGPD.pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2609,12 +2609,12 @@ const sections = {
               <span class="exp-role">Vendas Especiais: lucratividade advinda de Resíduos Recicláveis</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2022.12.08 · UBM - Centro Universitário de Barra Mansa · Vendas Especiais (lucratividade advinda de Resíduos Recicláveis).png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2637,7 +2637,7 @@ const sections = {
                   outras organizações como matéria-prima, aumentariam a satisfação financeira dos <i>shareholders</i>.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Vendas Especiais (Lucratividade Advinda de Resíduos Recicláveis).pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Vendas Especiais (Lucratividade Advinda de Resíduos Recicláveis).pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
@@ -2649,12 +2649,12 @@ const sections = {
               <span class="exp-role">Ensino a Distância: uma ferramenta de Inclusão Social</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
               <a href="#" onclick="abrirCertificado('/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png'); return false;">
-                  <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" alt="Artigo Científico" class="cert-thumb">
+                  <img src="/portfolio/producoes-intelectuais/certificados/2021.11.19 · UBM - Centro Universitário de Barra Mansa · Ensino a Distância (uma ferramenta de Inclusão Social).png" alt="Artigo Científico" class="cert-thumb cert-thumb--accordion">
               </a>
               <div>
                   <p><strong>Instituição:</strong> UBM - Centro Universitário de Barra Mansa</p>
@@ -2678,7 +2678,7 @@ const sections = {
                   evolução do EaD se consolidou ao presencial impulsionado, também, através dessa nova ordem social e se disseminou tanto nos setores públicos quanto privados.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensino a Distância (Uma Ferramenta de Inclusão Social).pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/Ensino a Distância (Uma Ferramenta de Inclusão Social).pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
