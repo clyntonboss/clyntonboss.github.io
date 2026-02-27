@@ -1,5 +1,40 @@
 window.datasetCategoria = [
   {
+    id: 158,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.27 · FIAP - Centro Universitário · Soluções Tecnológicas Emergentes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "Soluções Tecnológicas Emergentes",
+    cargaHoraria: "40 h",
+    conclusaoISO: "2026-02-27",
+    dataConclusao: "27 de fevereiro de 2026",
+    codigo: "13edb179828560136f819809d3c91901",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=13edb179828560136f819809d3c91901&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 157,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.19 · FIAP - Centro Universitário · Inteligência Artificial Responsável.png",
