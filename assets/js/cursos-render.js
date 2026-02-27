@@ -347,6 +347,8 @@ function renderFluxoCursos(cursos) {
       container.appendChild(hr);
     }
   });
+
+  inicializarAccordionsCurso();
 }
 
 // ⛔ =============== The End =============== ⛔
