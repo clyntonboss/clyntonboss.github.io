@@ -1,5 +1,33 @@
 let cursoAtualIndex = 0;
 
+function resetarCursosCategoria() {
+  // zera índice
+  cursoAtualIndex = 0;
+
+  // limpa localStorage relacionado
+  localStorage.removeItem("blockCourseIndex");
+
+  // limpa block internamente
+  const block = document.getElementById("course-block");
+  const content = block?.querySelector(".course-block-content");
+
+  if (content) {
+    content.innerHTML = "";
+    content.style.height = "";
+    content.style.overflow = "";
+    content.classList.remove("is-visible");
+  }
+
+  // limpa outros modos
+  const flow  = document.getElementById("courses-flow");
+  const list  = document.getElementById("courses-container");
+  const grid  = document.getElementById("courses-grid");
+
+  if (flow)  flow.innerHTML = "";
+  if (list)  list.innerHTML = "";
+  if (grid)  grid.innerHTML = "";
+}
+
 // Inicializa toggles dentro do course-block (dataset)
 function inicializarAccordionsCurso() {
     const toggles = document.querySelectorAll('#course-block .exp-toggle');
