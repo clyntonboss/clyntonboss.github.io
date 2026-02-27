@@ -7,9 +7,12 @@ let cursoAtualIndex = 0;
 let datasetAtivo = [];
 
 function capturarDatasetAtual() {
-  if (Array.isArray(window.datasetCategoria)) {
-    datasetAtivo = window.datasetCategoria.map(item => ({ ...item }));
-  }
+  if (!Array.isArray(window.datasetCategoria)) return;
+
+  datasetAtivo = window.datasetCategoria.map(item => ({ ...item }));
+
+  // 🔐 trava contra futuras mutações
+  Object.freeze(datasetAtivo);
 }
 
 // Inicializa toggles dentro do course-block (dataset)
@@ -121,9 +124,9 @@ function trocarModoInterno(mode) {
     renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
   }
 
-  if (mode === "flow") renderFluxoCursos(datasetCategoria);
-  if (mode === "list") renderListaCursos(datasetCategoria);
-  if (mode === "grid") renderGradeCursos(datasetCategoria);
+  if (mode === "flow") renderFluxoCursos(datasetAtivo);
+  if (mode === "list") renderListaCursos(datasetAtivo);
+  if (mode === "grid") renderGradeCursos(datasetAtivo);
 
   // 🔹 SCROLL PARA O TOPO DA SEÇÃO (CORRETO)
   if (mode !== "block") {
@@ -422,13 +425,13 @@ document.addEventListener("click", (event) => {
 
   if (
     btn.id === "next-course" &&
-    cursoAtualIndex < datasetCategoria.length - 1
+    cursoAtualIndex < datasetAtivo.length - 1
   ) {
     renderBlocoCurso(cursoAtualIndex + 1);
   }
 
   if (btn.id === "last-course") {
-    renderBlocoCurso(datasetCategoria.length - 1);
+    renderBlocoCurso(datasetAtivo.length - 1);
   }
 });
 
@@ -600,16 +603,8 @@ function iniciarCursosComSeguranca(tentativas = 0) {
     return;
   }
 
-  // 🔥 AQUI — assim que o dataset estiver pronto
   capturarDatasetAtual();
 
   const savedMode = localStorage.getItem("coursesViewMode") || "block";
   setViewMode(savedMode);
-
-  if (savedMode === "block") {
-    const savedIndex =
-      parseInt(localStorage.getItem("blockCourseIndex"), 10) || 0;
-
-    renderBlocoCurso(savedIndex);
-  }
 }
