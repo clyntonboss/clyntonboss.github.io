@@ -1,5 +1,42 @@
 window.datasetCategoria = [
   {
+    id: 22,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.02.26 · Vico Digital [Vico Treinamentos e Tecnologia LTDA] · SQL para Analistas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Vico Digital [Vico Treinamentos e Tecnologia LTDA]",
+    curso: "SQL para Analistas",
+    cargaHoraria: "7 h 40 min",
+    conclusaoISO: "2026-02-26",
+    dataConclusao: "26 de fevereiro de 2026",
+    codigo: "eu9isb",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://vicotreinamentos.eadplataforma.app/certificate/view/eu9isb/2026-02-26",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 21,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2025.11.21 · Instituto Federal Rio Grande do Sul · Administrador de Banco de Dados.png",
