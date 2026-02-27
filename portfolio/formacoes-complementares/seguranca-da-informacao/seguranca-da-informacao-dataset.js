@@ -23,10 +23,12 @@ window.datasetCategoria = [
       texto: "Verificar Autenticidade"
     },
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -58,10 +60,12 @@ window.datasetCategoria = [
       texto: "Verificar Autenticidade"
     },
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -93,10 +97,12 @@ window.datasetCategoria = [
       texto: "Verificar Autenticidade"
     },
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -128,10 +134,12 @@ window.datasetCategoria = [
       texto: "Verificar Autenticidade"
     },
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -163,10 +171,12 @@ window.datasetCategoria = [
       texto: "Verificar Autenticidade"
     },
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -198,10 +208,12 @@ window.datasetCategoria = [
       texto: "Verificar Autenticidade"
     },
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -233,10 +245,12 @@ window.datasetCategoria = [
       texto: "Verificar Autenticidade"
     },
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -268,10 +282,12 @@ window.datasetCategoria = [
       texto: "Verificar Autenticidade"
     },
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -300,10 +316,12 @@ window.datasetCategoria = [
     mostrarCopiar: false,
     verificacao: null,
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
@@ -332,10 +350,12 @@ window.datasetCategoria = [
     mostrarCopiar: false,
     verificacao: null,
 
+    nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
     nomeStackTecnica: "",
 
+    titulo: "",
     periodo: "",
     duracao: "",
     stackTecnica: "",
