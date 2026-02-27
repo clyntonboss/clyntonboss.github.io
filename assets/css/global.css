@@ -131,40 +131,136 @@ body {
 
 /* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
-/* Cabeçalho fixo */
+/* =========================================================
+   HEADER FIXO GLOBAL
+   ---------------------------------------------------------
+   Define o cabeçalho fixo visível em todas as páginas.
+   Controla:
+   - Posição e altura
+   - Cores e estilo visual
+   - Layout interno e alinhamento de conteúdo
+   - Prioridade de sobreposição (z-index)
+   - Sombreamento para destaque
+
+   IMPORTANTE:
+   - Afeta TODA a navegação do site
+   - Alterações em dimensões, padding ou z-index podem
+     impactar menus e elementos flutuantes
+   - Variáveis CSS permitem personalização de cores e sombra
+   ========================================================= */
+
 .header {
   position: fixed;
+  /* Mantém o header fixo no topo da página durante a rolagem */
+
   top: 0;
+  /* Define que o topo do header começa na borda superior da tela */
+
   left: 0;
+  /* Posiciona o header no canto esquerdo da tela */
+
   width: 100%;
+  /* O header ocupa 100% da largura da tela */
+
   height: 80px;
-  background-color: var(--bg-color-header); /* azul-petróleo elegante */
-  color: #F8F8F8; /* cinza claro */
+  /* Define a altura do header. Alterar pode afetar alinhamento de menus e conteúdo */
+
+  background-color: var(--bg-color-header);
+  /* Cor de fundo do header usando variável CSS para fácil customização */
+
+  color: #F8F8F8;
+  /* Cor padrão do texto no header (ex: título, links) */
+
   display: flex;
+  /* Transforma o header em contêiner flexível, permitindo alinhamento interno */
+
   align-items: center;
+  /* Alinha verticalmente o conteúdo do header ao centro */
+
   justify-content: space-between;
+  /* Distribui o conteúdo do header com espaço igual entre os elementos */
+
   padding: 0 50px;
+  /* Espaçamento interno lateral. Ajustar altera distanciamento de itens do header */
+
   font-weight: 600;
+  /* Define a espessura da fonte do texto do header */
+
   letter-spacing: 0.4px;
+  /* Define o espaçamento entre letras para melhor legibilidade */
+
   z-index: 1000;
+  /* Garante que o header fique acima de outros elementos sobrepostos */
+
   box-shadow: var(--box-shadow-header);
+  /* Sombra do header usando variável CSS, adiciona profundidade visual */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTÊINER DE CONTROLES DO HEADER
+   ---------------------------------------------------------
+   Define o layout interno dos elementos de controle
+   dentro do header, como botões, ícones e menus.
+   
+   IMPORTANTE:
+   - Afeta somente a disposição horizontal dos elementos
+   - Alterar o gap ou alinhamento pode impactar a estética
+     e o espaçamento dos controles
+   - Este bloco depende de `.header` estar configurado como flex
+   ========================================================= */
 
 .header-controls {
   display: flex;
+  /* Transforma o contêiner em flexível, permitindo alinhar os itens em linha */
+
   align-items: center;
-  gap: 32px; /* define o “um pouco antes” */
+  /* Alinha verticalmente todos os elementos ao centro */
+
+  gap: 32px;
+  /* Define o espaço entre cada item do contêiner */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SEÇÃO ESQUERDA DO HEADER (.header-left)
+   ---------------------------------------------------------
+   Define o estilo e layout do conteúdo posicionado à
+   esquerda do header, geralmente logo ou título.
+   
+   IMPORTANTE:
+   - Afeta somente a parte esquerda do header
+   - Alterar font-size, gap ou alinhamento impacta
+     a aparência e espaçamento dos itens internos
+   - Este bloco deve estar em harmonia com `.header-controls`
+   ========================================================= */
 
 .header-left {
   font-size: 30px;
+  /* Define o tamanho da fonte dos elementos dentro da seção esquerda */
+
   font-weight: 600;
+  /* Define a espessura da fonte (negrito médio) */
+
   letter-spacing: 0.6px;
+  /* Define o espaçamento entre letras para melhor legibilidade */
+
   color: #F8F8F8;
+  /* Cor do texto da seção esquerda do header */
+
   display: flex;
-  align-items: center; /* centraliza verticalmente a foto com o nome */
-  gap: 0px;           /* espaço entre foto e texto */
+  /* Transforma o contêiner em flexível, permitindo alinhar itens em linha */
+
+  align-items: center;
+  /* Alinha verticalmente todos os itens ao centro */
+
+  gap: 0px;
+  /* Espaçamento entre os elementos internos. 0px significa que estão colados */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 .header-left .last-update {
   font-size: 14px;          /* menor que o nome */
