@@ -346,7 +346,11 @@ function renderFluxoCursos(cursos) {
     }
   });
 
-  inicializarAccordionsCurso();
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      inicializarAccordionsCurso();
+    });
+  });
 }
 
 // ⛔ =============== The End =============== ⛔
