@@ -1,5 +1,40 @@
 window.datasetCategoria = [
   {
+    id: 41,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.27 · FIAP - Centro Universitário · User Experience.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "FIAP - Centro Universitário",
+    curso: "User Experience",
+    cargaHoraria: "60 h",
+    conclusaoISO: "2026-02-27",
+    dataConclusao: "27 de fevereiro de 2026",
+    codigo: "c0dd49bdc4f9e7d79092781e58918f6c",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=c0dd49bdc4f9e7d79092781e58918f6c&action=view",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 40,
 
     thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.17 · FIAP - Centro Universitário · Game Design.png",
