@@ -1438,12 +1438,6 @@ body.static-header .last-update {
     flex-direction: column;
 }
 
-#courses-flow {
-  position: relative;
-  height: auto; /* espaço inicial */
-  overflow: visible; /* deixa o conteúdo expandir */
-}
-
 /* Transição dos modos de visualização*/
 
 .view-transition {
