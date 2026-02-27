@@ -1,20 +1,5 @@
 let cursoAtualIndex = 0;
 
-// ===============================
-// CONTROLE DE DATASET ATIVO
-// ===============================
-
-let datasetAtivo = [];
-
-function capturarDatasetAtual() {
-  if (!Array.isArray(window.datasetCategoria)) return;
-
-  datasetAtivo = window.datasetCategoria.map(item => ({ ...item }));
-
-  // 🔐 trava contra futuras mutações
-  Object.freeze(datasetAtivo);
-}
-
 // Inicializa toggles dentro do course-block (dataset)
 function inicializarAccordionsCurso() {
     const toggles = document.querySelectorAll('#course-block .exp-toggle');
@@ -124,9 +109,9 @@ function trocarModoInterno(mode) {
     renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
   }
 
-  if (mode === "flow") renderFluxoCursos(datasetAtivo);
-  if (mode === "list") renderListaCursos(datasetAtivo);
-  if (mode === "grid") renderGradeCursos(datasetAtivo);
+  if (mode === "flow") renderFluxoCursos(datasetCategoria);
+  if (mode === "list") renderListaCursos(datasetCategoria);
+  if (mode === "grid") renderGradeCursos(datasetCategoria);
 
   // 🔹 SCROLL PARA O TOPO DA SEÇÃO (CORRETO)
   if (mode !== "block") {
@@ -145,16 +130,6 @@ function trocarModoInterno(mode) {
 // ❎ ======= Renderização Block Mode ======= ❎
 
 function renderBlocoCurso(index) {
-  // 🔒 Garante que exista dataset válido
-  if (!datasetAtivo || datasetAtivo.length === 0) return;
-
-  // 🔒 Proteção contra índice inválido
-  if (index < 0) index = 0;
-  if (index >= datasetAtivo.length) index = datasetAtivo.length - 1;
-
-  cursoAtualIndex = index;
-
-  // 🔐 Salva apenas após validar
   localStorage.setItem("blockCourseIndex", index);
 
   const container = document.getElementById("course-block");
@@ -164,12 +139,15 @@ function renderBlocoCurso(index) {
 
   container.classList.remove("hidden");
 
-  const curso = datasetAtivo[index];
+  const curso = datasetCategoria[index];
   if (!curso) return;
+
+  cursoAtualIndex = index;
 
   // 🔹 Inicia transição de saída
   content.classList.remove("is-visible");
 
+  // 🔥 Aguarda o navegador aplicar o estado invisível
   requestAnimationFrame(() => {
 
 // 🔹 1️⃣ mede e trava altura ANTES de mexer em classes
@@ -225,7 +203,7 @@ content.offsetHeight;
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
     if (indicator) {
-      indicator.textContent = `${index + 1} / ${datasetAtivo.length}`;
+      indicator.textContent = `${index + 1} / ${datasetCategoria.length}`;
     }
 
     // 🔹 Botões de navegação
@@ -242,7 +220,7 @@ content.offsetHeight;
       prevBtn?.classList.remove("disabled");
     }
 
-    if (index === datasetAtivo.length - 1) {
+    if (index === datasetCategoria.length - 1) {
       nextBtn?.classList.add("disabled");
       lastBtn?.classList.add("disabled");
     } else {
@@ -425,13 +403,13 @@ document.addEventListener("click", (event) => {
 
   if (
     btn.id === "next-course" &&
-    cursoAtualIndex < datasetAtivo.length - 1
+    cursoAtualIndex < datasetCategoria.length - 1
   ) {
     renderBlocoCurso(cursoAtualIndex + 1);
   }
 
   if (btn.id === "last-course") {
-    renderBlocoCurso(datasetAtivo.length - 1);
+    renderBlocoCurso(datasetCategoria.length - 1);
   }
 });
 
@@ -596,15 +574,20 @@ function atualizarTooltipsViewMode(modoAtivo) {
 }
 
 function iniciarCursosComSeguranca(tentativas = 0) {
-  if (!Array.isArray(window.datasetCategoria) || window.datasetCategoria.length === 0) {
-    if (tentativas < 40) {
+  if (!Array.isArray(datasetCategoria) || datasetCategoria.length === 0) {
+    if (tentativas < 20) {
       setTimeout(() => iniciarCursosComSeguranca(tentativas + 1), 50);
     }
     return;
   }
 
-  capturarDatasetAtual();
-
+  // tudo pronto → inicia normalmente
   const savedMode = localStorage.getItem("coursesViewMode") || "block";
   setViewMode(savedMode);
+
+  if (savedMode === "block") {
+    const savedIndex =
+      parseInt(localStorage.getItem("blockCourseIndex"), 10) || 0;
+    renderBlocoCurso(savedIndex);
+  }
 }
