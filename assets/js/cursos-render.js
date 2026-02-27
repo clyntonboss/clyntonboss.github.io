@@ -218,6 +218,7 @@ content.offsetHeight;
                 : ""
           }
         </p>
+        <p><strong>${curso.nomeTitulo}</strong>${curso.titulo}</p>
         <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
         <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
         <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
@@ -328,6 +329,7 @@ function renderFluxoCursos(cursos) {
                 : ""
           }
         </p>
+        <p><strong>${curso.nomeTitulo}</strong>${curso.titulo}</p>
         <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
         <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
         <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
