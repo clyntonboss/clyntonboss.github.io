@@ -2690,7 +2690,7 @@ const sections = {
               <span class="exp-role">EaD: a nova onda da educação - Virtudes e Desafios</span>
               <button class="exp-toggle">▸</button>
           </div>
-          <div class="exp-details exp-details-artigos">
+          <div class="exp-details">
       
               <hr class="decorative-line-cert decorative-line-sup">
       
@@ -2718,7 +2718,7 @@ const sections = {
                   principal trazer cultura, informação e principalmente educação de qualidade a todos.
               </p>
       
-              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" class="cert-link-verify">
+              <a href="javascript:void(0);" onclick="abrirArtigo('/portfolio/producoes-intelectuais/artigos-cientificos/EaD (A Nova Onda da Educação - Virtudes e Desafios).pdf')" class="cert-link-verify link-artigo-destaque">
                  Acesse o artigo completo.
               </a>
           </div>
