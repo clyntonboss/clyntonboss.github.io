@@ -1,5 +1,42 @@
 window.datasetCategoria = [
   {
+    id: 268,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.26 · Vico Digital [Vico Treinamentos e Tecnologia LTDA] · Power Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+    
+    instituicao: "Vico Digital [Vico Treinamentos e Tecnologia LTDA]",
+    curso: "Power Platform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-02-26",
+    dataConclusao: "26 de fevereiro de 2026",
+    codigo: "0othxr",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://vicotreinamentos.eadplataforma.app/certificate/view/0othxr/2026-02-26",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 267,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.10 · FIAP - Centro Universitário · Business Intelligence.png",
