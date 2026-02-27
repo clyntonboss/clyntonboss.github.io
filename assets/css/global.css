@@ -1439,6 +1439,10 @@ body.static-header .last-update {
   overflow: visible;
 }
 
+.course-flow-item a {
+   margin: 8px 0;
+}
+
 /* Transição dos modos de visualização*/
 
 .view-transition {
