@@ -20,10 +20,12 @@ window.datasetCategoria = [
     mostrarCopiar: false,
     verificacao: "",
 
+    nomeTitulo: "Título: ",
     nomePeriodo: "Período: ",
     nomeDuracao: "Duração: ",
     nomeStackTecnica: "Stack Técnica: ",
 
+    titulo: "Performance de Vendas",
     periodo: "Fev/2024",
     duracao: "8 dias",
     stackTecnica: "Python™ | SQL | Power BI",
@@ -124,10 +126,13 @@ window.datasetCategoria = [
     mostrarCopiar: false,
     verificacao: "",
 
+
+    nomeTitulo: "Título: ",
     nomePeriodo: "Período: ",
     nomeDuracao: "Duração: ",
     nomeStackTecnica: "Stack Técnica: ",
 
+    titulo: "Análise de Faturamento",
     periodo: "Fev/2024",
     duracao: "8 dias",
     stackTecnica: "Python™ | SQL | Power BI",
