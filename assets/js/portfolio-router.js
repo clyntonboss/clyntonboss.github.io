@@ -262,6 +262,9 @@ document.addEventListener("click", e => {
 
   e.preventDefault();
 
+  limparTodosOsModos();
+  localStorage.removeItem("blockCourseIndex");
+
   const categoryKey = link.dataset.category;
   const category = categoriasFormacoesComplementares[categoryKey];
   if (!category) return;
