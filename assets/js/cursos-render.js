@@ -149,6 +149,19 @@ function trocarModoInterno(mode) {
     }
   }
 
+  // 🔹 animar altura do wrapper para deslocar curadoria/linha decorativa
+  const wrapper = document.querySelector(".courses-mode-wrapper");
+  if (wrapper) {
+    // força repaint
+    wrapper.style.height = wrapper.offsetHeight + "px";
+  
+    requestAnimationFrame(() => {
+      // mede a altura do modo visível recém-renderizado
+      const novaAltura = alvo.offsetHeight;
+      wrapper.style.height = novaAltura + "px";
+    });
+  }
+
   // 🔹 anima entrada
   requestAnimationFrame(() => {
     ativarTransicao(alvo);
