@@ -127,6 +127,7 @@ function trocarModoInterno(mode) {
 
   // 🔹 mostra o modo
   alvo.classList.remove("hidden");
+  alvo.classList.add("view-transition"); // já começa com opacity 0
 
   // 🔹 renderiza
   if (mode === "block") {
@@ -151,7 +152,7 @@ function trocarModoInterno(mode) {
 
   // 🔹 anima entrada
   requestAnimationFrame(() => {
-    ativarTransicao(alvo);
+    alvo.classList.add("is-active");
   });
 }
 
