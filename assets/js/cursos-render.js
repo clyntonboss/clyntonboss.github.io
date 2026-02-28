@@ -165,7 +165,7 @@ function trocarModoInterno(mode) {
       const alturaNova = alvo.offsetHeight;
   
       // aplica transição suave
-      wrapper.style.transition = "height 0.4s ease";
+      wrapper.style.transition = "height 0.8s ease";
       wrapper.style.height = alturaNova + "px";
   
       // limpa transição após terminar
