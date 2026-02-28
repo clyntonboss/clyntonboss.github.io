@@ -1544,12 +1544,11 @@ body.static-header .last-update {
 
 .view-transition {
   opacity: 0;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.8s ease-in-out;
 }
 
 .view-transition.is-active {
   opacity: 1;
-  transition: opacity 0.8s ease;
 }
 
 /* Botão Copiar */
