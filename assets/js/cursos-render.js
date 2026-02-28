@@ -149,27 +149,6 @@ function trocarModoInterno(mode) {
     }
   }
 
-  // anima altura do wrapper para deslocar linha decorativa / curadoria
-  const wrapper = document.querySelector(".courses-mode-wrapper");
-  if (wrapper) {
-    // altura atual
-    wrapper.style.height = wrapper.offsetHeight + "px";
-
-    requestAnimationFrame(() => {
-      const novaAltura = alvo.offsetHeight;
-      wrapper.style.transition = "height 0.4s ease";
-      wrapper.style.height = novaAltura + "px";
-
-      wrapper.addEventListener("transitionend", function handler(e) {
-        if (e.propertyName === "height") {
-          wrapper.style.height = "";
-          wrapper.style.transition = "";
-          wrapper.removeEventListener("transitionend", handler);
-        }
-      });
-    });
-  }
-
   // 🔹 anima entrada
   requestAnimationFrame(() => {
     ativarTransicao(alvo);
