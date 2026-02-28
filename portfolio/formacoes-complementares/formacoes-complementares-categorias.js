@@ -10,8 +10,6 @@ const categoriasFormacoesComplementares = {
                                         Os cursos apresentados abrangem fundamentos analíticos, estatística, visualização de dados, ferramentas de BI e práticas aplicadas à tomada de decisão orientada por dados.</p></div>
       
       <hr class="decorative-line-cert">
-
-      <div class="courses-mode-wrapper">
       
       <div id="course-block" class="course-block hidden">
           <div class="course-block-content"></div>
@@ -41,14 +39,12 @@ const categoriasFormacoesComplementares = {
           </div>
       
       </div>
-
+      
       <div id="courses-flow" class="courses-flow hidden"></div>
       
       <div id="courses-container" class="courses-list hidden"></div>
       
       <div id="courses-grid" class="courses-grid hidden"></div>
-
-      </div>
       
       <hr class="decorative-line-cert">
       
