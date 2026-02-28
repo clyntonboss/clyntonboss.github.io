@@ -1554,7 +1554,7 @@ body.static-header .last-update {
 
 /* Wrapper animável para altura variável */
 .courses-mode-wrapper {
-  transition: height 2s ease;
+  transition: height 0.8s ease;
   height: auto; /* altura inicial automática */
   overflow: hidden; /* evita “flash” durante a animação */
 }
