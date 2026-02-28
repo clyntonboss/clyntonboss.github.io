@@ -113,58 +113,43 @@ function setViewMode(mode) {
 }
 
 function trocarModoInterno(mode) {
-  const wrapper = document.querySelector(".courses-mode-wrapper");
-  if (!wrapper) return;
-
-  // 🔹 guarda altura atual do wrapper
-  const alturaAtual = wrapper.offsetHeight;
-  wrapper.style.height = alturaAtual + "px";
-
-  // 🔹 limpa modos antigos
+  // 🔹 limpa tudo
   limparTodosOsModos();
 
-  // 🔹 seleciona alvo do novo modo
   let alvo = null;
+
   if (mode === "block") alvo = document.getElementById("course-block");
   if (mode === "flow")  alvo = document.getElementById("courses-flow");
   if (mode === "list")  alvo = document.getElementById("courses-container");
   if (mode === "grid")  alvo = document.getElementById("courses-grid");
+
   if (!alvo) return;
 
-  // 🔹 mostra o novo modo
+  // 🔹 mostra o modo
   alvo.classList.remove("hidden");
 
-  // 🔹 renderiza conteúdo do modo
+  // 🔹 renderiza
   if (mode === "block") {
-    const savedIndex = parseInt(localStorage.getItem("blockCourseIndex"), 10);
+    const savedIndex = parseInt(
+      localStorage.getItem("blockCourseIndex"),
+      10
+    );
     renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
   }
+
   if (mode === "flow") renderFluxoCursos(datasetCategoria);
   if (mode === "list") renderListaCursos(datasetCategoria);
   if (mode === "grid") renderGradeCursos(datasetCategoria);
 
-  // 🔹 scroll para topo da seção
+  // 🔹 SCROLL PARA O TOPO DA SEÇÃO (CORRETO)
   if (mode !== "block") {
     const secao = document.querySelector(".curriculo-text");
-    if (secao) secao.scrollIntoView({ behavior: "instant", block: "start" });
+    if (secao) {
+      secao.scrollIntoView({ behavior: "instant", block: "start" });
+    }
   }
 
-  // 🔹 anima altura do wrapper
-  requestAnimationFrame(() => {
-    const novaAltura = wrapper.scrollHeight;
-    wrapper.style.transition = "height 0.4s ease";
-    wrapper.style.height = novaAltura + "px";
-
-    wrapper.addEventListener("transitionend", function handler(e) {
-      if (e.propertyName === "height") {
-        wrapper.style.height = "";
-        wrapper.style.transition = "";
-        wrapper.removeEventListener("transitionend", handler);
-      }
-    });
-  });
-
-  // 🔹 mantém fade-in do modo atual
+  // 🔹 anima entrada
   requestAnimationFrame(() => {
     ativarTransicao(alvo);
   });
