@@ -113,6 +113,7 @@ function setViewMode(mode) {
 }
 
 function trocarModoInterno(mode) {
+  // 🔹 limpa tudo
   limparTodosOsModos();
 
   let alvo = null;
@@ -124,55 +125,47 @@ function trocarModoInterno(mode) {
 
   if (!alvo) return;
 
-  // 🔹 mostra imediatamente
+  // 🔹 mostra o modo
   alvo.classList.remove("hidden");
 
-  // 🔹 renderiza conteúdo
+  // 🔹 renderiza
   if (mode === "block") {
-    const savedIndex = parseInt(localStorage.getItem("blockCourseIndex"), 10);
+    const savedIndex = parseInt(
+      localStorage.getItem("blockCourseIndex"),
+      10
+    );
     renderBlocoCurso(Number.isInteger(savedIndex) ? savedIndex : 0);
   }
+
   if (mode === "flow") renderFluxoCursos(datasetCategoria);
   if (mode === "list") renderListaCursos(datasetCategoria);
   if (mode === "grid") renderGradeCursos(datasetCategoria);
 
-  // 🔹 scroll para topo da seção (exceto block)
+  // 🔹 SCROLL PARA O TOPO DA SEÇÃO (CORRETO)
   if (mode !== "block") {
     const secao = document.querySelector(".curriculo-text");
-    if (secao) secao.scrollIntoView({ behavior: "instant", block: "start" });
+    if (secao) {
+      secao.scrollIntoView({ behavior: "instant", block: "start" });
+    }
   }
 
-  // 🔹 animação slide + fade só para modos diferentes de block
-  if (mode !== "block") {
-    const altura = alvo.scrollHeight;
-
-    // aplica altura inicial zero
-    alvo.style.maxHeight = "0";
-    alvo.style.opacity = "0";
-    alvo.style.transform = "translateY(20px)";
-    alvo.style.overflow = "hidden";
-
+  // 🔹 animar altura do wrapper para deslocar curadoria/linha decorativa
+  const wrapper = document.querySelector(".courses-mode-wrapper");
+  if (wrapper) {
     // força repaint
-    alvo.offsetHeight;
-
-    // dispara animação
-    alvo.style.transition = "max-height 0.4s ease, opacity 0.4s ease, transform 0.4s ease";
-    alvo.style.maxHeight = altura + "px";
-    alvo.style.opacity = "1";
-    alvo.style.transform = "translateY(0)";
-
-    // limpa estilos após a transição
-    alvo.addEventListener("transitionend", function handler(e) {
-      if (["max-height", "opacity", "transform"].includes(e.propertyName)) {
-        alvo.style.maxHeight = "";
-        alvo.style.transition = "";
-        alvo.style.overflow = "";
-        alvo.style.opacity = "";
-        alvo.style.transform = "";
-        alvo.removeEventListener("transitionend", handler);
-      }
+    wrapper.style.height = wrapper.offsetHeight + "px";
+  
+    requestAnimationFrame(() => {
+      // mede a altura do modo visível recém-renderizado
+      const novaAltura = alvo.offsetHeight;
+      wrapper.style.height = novaAltura + "px";
     });
   }
+
+  // 🔹 anima entrada
+  requestAnimationFrame(() => {
+    ativarTransicao(alvo);
+  });
 }
 
 // ❎ ======= Renderização Block Mode ======= ❎
