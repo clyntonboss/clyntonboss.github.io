@@ -124,11 +124,8 @@ function trocarModoInterno(mode) {
 
   if (!alvo) return;
 
-  // 🔹 aplica classe de slide antes de tornar visível
-  alvo.classList.add("view-slide");
-
-  // 🔹 força repaint
-  alvo.offsetHeight;
+  // 🔹 mostra imediatamente
+  alvo.classList.remove("hidden");
 
   // 🔹 renderiza conteúdo
   if (mode === "block") {
@@ -145,20 +142,37 @@ function trocarModoInterno(mode) {
     if (secao) secao.scrollIntoView({ behavior: "instant", block: "start" });
   }
 
-  // 🔹 anima entrada
-  requestAnimationFrame(() => {
-    alvo.classList.add("active");
+  // 🔹 animação slide + fade só para modos diferentes de block
+  if (mode !== "block") {
+    const altura = alvo.scrollHeight;
 
-    // 🔹 quando terminar a transição, limpa as classes para não acumular
+    // aplica altura inicial zero
+    alvo.style.maxHeight = "0";
+    alvo.style.opacity = "0";
+    alvo.style.transform = "translateY(20px)";
+    alvo.style.overflow = "hidden";
+
+    // força repaint
+    alvo.offsetHeight;
+
+    // dispara animação
+    alvo.style.transition = "max-height 0.4s ease, opacity 0.4s ease, transform 0.4s ease";
+    alvo.style.maxHeight = altura + "px";
+    alvo.style.opacity = "1";
+    alvo.style.transform = "translateY(0)";
+
+    // limpa estilos após a transição
     alvo.addEventListener("transitionend", function handler(e) {
       if (["max-height", "opacity", "transform"].includes(e.propertyName)) {
-        alvo.classList.remove("view-slide", "active");
         alvo.style.maxHeight = "";
+        alvo.style.transition = "";
         alvo.style.overflow = "";
+        alvo.style.opacity = "";
+        alvo.style.transform = "";
         alvo.removeEventListener("transitionend", handler);
       }
     });
-  });
+  }
 }
 
 // ❎ ======= Renderização Block Mode ======= ❎
