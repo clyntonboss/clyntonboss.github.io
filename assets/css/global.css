@@ -4010,35 +4010,112 @@ body.static-header .last-update {
 
 /* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
+/* =========================================================
+   DIVISOR DE ITENS DO MENU (.menu-divider-item)
+   ---------------------------------------------------------
+   Estiliza elementos de lista usados como divisores ou
+   espaçadores dentro de menus laterais ou seções do site.
+
+   Este bloco define:
+   - list-style: none para remover marcadores padrão de lista
+   - padding: 0 para eliminar espaçamento interno padrão
+   - margin: 8px 0 para criar espaço vertical entre itens do menu
+
+   IMPORTANTE:
+   - Útil para separar visualmente grupos de links ou seções
+   - Ajustar margin altera o espaçamento vertical entre elementos
+   ========================================================= */
+
 .menu-divider-item {
     list-style: none;
+    /* Remove marcadores padrão da lista */
+
     padding: 0;
+    /* Remove espaçamento interno padrão */
+
     margin: 8px 0;
+    /* Espaçamento vertical entre itens do menu */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINHA DECORATIVA PARA MENU (.decorative-line-menu)
+   ---------------------------------------------------------
+   Cria uma linha horizontal para separar itens de menu ou
+   seções dentro de menus laterais ou cabeçalhos, utilizando
+   gradiente para efeito sutil.
+
+   Este bloco define:
+   - border: 0 para remover borda padrão
+   - height: 1px para definir espessura fina da linha
+   - width: 100% para ocupar toda a largura do container
+   - margin: 4px 0 para criar pequeno espaçamento vertical
+     entre elementos
+   - background: linear-gradient(to right, #EAEAEA, #EAEAEA, transparent)
+     para criar efeito de fade na extremidade direita
+
+   IMPORTANTE:
+   - Gradiente cria transição suave visual, evitando corte brusco
+   - Ajustar height ou margin altera percepção visual da linha
+   ========================================================= */
 
 .decorative-line-menu {
     border: 0;
+    /* Remove borda padrão do elemento */
+
     height: 1px;
+    /* Define espessura fina da linha decorativa */
+
     width: 100%;
+    /* Ocupa toda a largura do container pai */
+
     margin: 4px 0;
+    /* Espaçamento vertical acima e abaixo da linha */
+
     background: linear-gradient(
         to right,
         #EAEAEA,
         #EAEAEA,
         transparent
     );
+    /* Gradiente sutil da esquerda para a direita */
 }
 
-/* ============================
-   Linha Decorativa dos Projetos
-============================ */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINHA DECORATIVA PARA PROJETOS (.decorative-line-projetos)
+   ---------------------------------------------------------
+   Cria uma linha horizontal para separar ou destacar seções
+   de projetos no portfólio, utilizando gradiente para efeito
+   visual suave e elegante.
+
+   Este bloco define:
+   - border: 0 para remover borda padrão do elemento
+   - height: 1px para definir espessura fina da linha
+   - width: 40% para ocupar menos que a largura total do container
+   - margin: 16px para criar espaçamento uniforme ao redor da linha
+   - background: linear-gradient(to right, var(--linha-proj), var(--linha-proj), transparent)
+     para criar efeito de fade na extremidade direita da linha
+
+   IMPORTANTE:
+   - Ajustar width ou margin altera o alinhamento e equilíbrio visual
+   - Gradiente utiliza variável CSS (--linha-proj) para manter consistência de cores
+   ========================================================= */
 
 .decorative-line-projetos {
     border: 0;
+    /* Remove borda padrão do elemento */
+
     height: 1px;
+    /* Define espessura fina da linha decorativa */
+
     width: 40%;
+    /* Largura relativa ao container, menor que 100% */
 
     margin: 16px;
+    /* Espaçamento uniforme ao redor da linha */
 
     background: linear-gradient(
         to right,
@@ -4046,413 +4123,1908 @@ body.static-header .last-update {
         var(--linha-proj),
         transparent
     );
+    /* Gradiente sutil da esquerda para a direita */
 }
 
-/* ============================
-   Botão do Toggle
-============================ */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BOTÕES DE TROCA DE TEMA (#theme-toggle-home, #theme-toggle-portfolio)
+   ---------------------------------------------------------
+   Estiliza os botões de alternância de tema (ex: claro/escuro)
+   nas páginas Home e Portfólio, garantindo consistência visual
+   e interatividade.
+
+   Este bloco define:
+   - background: none para remover qualquer fundo padrão
+   - border: none para remover bordas padrão do botão
+   - cursor: pointer para indicar interatividade
+   - font-size: 28px para tornar o ícone ou símbolo visível
+   - color: var(--header-name) para manter consistência de cores
+   - transition: transform 0.2s ease, color 0.2s ease para animação suave
+     de escala e cor durante hover ou clique
+
+   IMPORTANTE:
+   - Usado geralmente em conjunto com ícones (ex: sol/lua)
+   - Alterar font-size ou color afeta a visibilidade e hierarquia visual
+   ========================================================= */
 
 #theme-toggle-home,
 #theme-toggle-portfolio {
-   background: none;
-   border: none;
-   cursor: pointer;
-   font-size: 28px;
-   color: var(--header-name);
-   transition: transform 0.2s ease, color 0.2s ease;
+    background: none;
+    /* Remove fundo padrão do botão */
+
+    border: none;
+    /* Remove borda padrão do botão */
+
+    cursor: pointer;
+    /* Indica que o botão é clicável */
+
+    font-size: 28px;
+    /* Define tamanho do ícone/texto do botão */
+
+    color: var(--header-name);
+    /* Mantém cor consistente com o header */
+
+    transition: transform 0.2s ease, color 0.2s ease;
+    /* Anima suavemente mudanças de cor e transformação */
 }
 
-/* Efeito hover elegante */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   HOVER PARA BOTÕES DE TROCA DE TEMA
+   (#theme-toggle-home:hover, #theme-toggle-portfolio:hover)
+   ---------------------------------------------------------
+   Define o comportamento visual ao passar o mouse sobre os
+   botões de alternância de tema, aumentando a percepção
+   de interatividade.
+
+   Este bloco define:
+   - color: var(--accent-color) para destacar o botão com a
+     cor principal do tema ou site durante o hover
+
+   IMPORTANTE:
+   - Combina com a transição definida em #theme-toggle-home
+     e #theme-toggle-portfolio para suavidade
+   - Não altera tamanho nem posição, apenas a cor
+   ========================================================= */
+
 #theme-toggle-home:hover,
 #theme-toggle-portfolio:hover {
     color: var(--accent-color);
+    /* Destaca o botão com a cor principal ao passar o mouse */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ÍCONES DE TEMAS INICIAIS (#theme-icon-home, #theme-icon-portfolio)
+   ---------------------------------------------------------
+   Define o estado inicial dos ícones de alternância de tema
+   antes de entrarem em cena (ex: animação ou carregamento).
+
+   Este bloco define:
+   - opacity: 0 para iniciar invisível
+   - transform: scale(0.8) para reduzir levemente o tamanho
+     inicial, criando efeito de “entrada” ao aparecer
+   - transition: opacity 0.8s ease, transform 0.8s ease para
+     animação suave ao tornar visível ou mudar de escala
+
+   IMPORTANTE:
+   - A transição será ativada adicionando classes via JS
+     ou alterações de estado
+   - Mantém consistência visual com efeitos de fade e zoom
+   ========================================================= */
 
 #theme-icon-home,
 #theme-icon-portfolio {
-    opacity: 0;               /* começa invisível */
-    transform: scale(0.8);    /* leve encolhimento inicial */
+    opacity: 0;
+    /* Inicialmente invisível para efeito de entrada */
+
+    transform: scale(0.8);
+    /* Reduz levemente o tamanho inicial para animação */
+
     transition: opacity 0.8s ease, transform 0.8s ease;
+    /* Define transição suave de opacidade e escala */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ÍCONES DE TEMAS VISÍVEIS APÓS CARREGAMENTO
+   (#theme-toggle-home.loaded #theme-icon-home,
+    #theme-toggle-portfolio.loaded #theme-icon-portfolio)
+   ---------------------------------------------------------
+   Define o estado visível dos ícones de alternância de tema
+   quando o botão possui a classe .loaded, ativando animação
+   de entrada suave.
+
+   Este bloco define:
+   - opacity: 1 para tornar o ícone totalmente visível
+   - transform: scale(1) para posicionar o ícone em tamanho
+     normal, removendo a escala inicial menor
+
+   IMPORTANTE:
+   - Combina com a transição definida em #theme-icon-home
+     e #theme-icon-portfolio para efeito de fade + zoom
+   - A classe .loaded é geralmente adicionada via JS após
+     carregamento ou inicialização do tema
+   ========================================================= */
 
 #theme-toggle-home.loaded #theme-icon-home,
 #theme-toggle-portfolio.loaded #theme-icon-portfolio {
-    opacity: 1;               /* fica visível */
-    transform: scale(1);      /* tamanho normal */
+    opacity: 1;
+    /* Torna o ícone visível */
+
+    transform: scale(1);
+    /* Restaura tamanho original, removendo escala inicial */
 }
 
-/* ============================================
-   LISTA DE COMPETÊNCIAS TÉCNICAS
-   ============================================ */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SUBTÍTULO PARA TECNOLOGIAS (.tech-subtitle-sup)
+   ---------------------------------------------------------
+   Estiliza subtítulos ou legendas de seções de tecnologias
+   no portfólio ou certificados, criando hierarquia visual
+   e destaque sutil.
+
+   Este bloco define:
+   - font-size: 14px para subtítulo menor que o texto principal
+   - color: var(--link-cert) para manter consistência com links ou cores de destaque
+   - font-style: italic para diferenciar do texto principal
+   - margin: 2px 0 12px 0 para espaçamento vertical acima e abaixo
+   - line-height: 1.4 para legibilidade do subtítulo
+
+   IMPORTANTE:
+   - Usado geralmente como complemento de títulos de seções
+   - Ajustar margin ou font-size altera hierarquia visual
+   ========================================================= */
 
 .tech-subtitle-sup {
-   font-size: 14px;
-   color: var(--link-cert);
-   font-style: italic;
-   margin: 2px 0 12px 0;
-   line-height: 1.4;
+    font-size: 14px;
+    /* Tamanho menor que o texto principal para hierarquia */
+
+    color: var(--link-cert);
+    /* Cor de destaque consistente com links e certificados */
+
+    font-style: italic;
+    /* Diferencia visualmente o subtítulo do texto principal */
+
+    margin: 2px 0 12px 0;
+    /* Espaçamento vertical acima e abaixo do subtítulo */
+
+    line-height: 1.4;
+    /* Legibilidade e espaçamento entre linhas */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DENTRO DE SUBTÍTULOS DE TECNOLOGIAS
+   (.tech-subtitle-sup p)
+   ---------------------------------------------------------
+   Estiliza parágrafos que estão dentro de subtítulos de
+   tecnologias ou legendas, garantindo consistência visual
+   com o subtítulo pai.
+
+   Este bloco define:
+   - font-size: 14px para manter tamanho de subtítulo
+   - color: var(--link-cert) para cor consistente com links e destaque
+   - font-style: italic para diferenciar do texto principal
+   - margin: 2px 0 12px 0 para espaçamento vertical adequado
+   - line-height: 1.4 para legibilidade do texto
+
+   IMPORTANTE:
+   - Mantém consistência com .tech-subtitle-sup
+   - Ajustar margin ou font-size altera hierarquia visual
+   ========================================================= */
 
 .tech-subtitle-sup p {
-   font-size: 14px;
-   color: var(--link-cert);
-   font-style: italic;
-   margin: 2px 0 12px 0;
-   line-height: 1.4;
+    font-size: 14px;
+    /* Mantém tamanho de subtítulo */
+
+    color: var(--link-cert);
+    /* Cor consistente com subtítulo e links */
+
+    font-style: italic;
+    /* Mantém estilo itálico do subtítulo */
+
+    margin: 2px 0 12px 0;
+    /* Espaçamento vertical acima e abaixo do parágrafo */
+
+    line-height: 1.4;
+    /* Legibilidade e espaçamento entre linhas */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SUBTÍTULO PARA TECNOLOGIAS (.tech-subtitle)
+   ---------------------------------------------------------
+   Estiliza subtítulos ou legendas de tecnologias no portfólio,
+   garantindo consistência visual e hierarquia dentro da seção.
+
+   Este bloco define:
+   - font-size: 14px para manter tamanho menor que o texto principal
+   - color: var(--link-cert) para manter consistência com links e cores de destaque
+   - font-style: italic para diferenciar do texto principal
+   - margin: 12px 0 para criar espaçamento vertical uniforme acima e abaixo
+   - line-height: 1.4 para legibilidade e espaçamento entre linhas
+
+   IMPORTANTE:
+   - Usado para títulos de subseções ou legendas de conteúdo técnico
+   - Ajustar margin ou font-size altera a hierarquia visual da seção
+   ========================================================= */
 
 .tech-subtitle {
-   font-size: 14px;
-   color: var(--link-cert);
-   font-style: italic;
-   margin: 12px 0;
-   line-height: 1.4;
+    font-size: 14px;
+    /* Tamanho menor que o texto principal para hierarquia */
+
+    color: var(--link-cert);
+    /* Cor consistente com links e destaque de certificados */
+
+    font-style: italic;
+    /* Diferencia visualmente o subtítulo do texto principal */
+
+    margin: 12px 0;
+    /* Espaçamento vertical acima e abaixo do subtítulo */
+
+    line-height: 1.4;
+    /* Legibilidade e espaçamento entre linhas */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DENTRO DE SUBTÍTULOS DE TECNOLOGIAS
+   (.tech-subtitle p)
+   ---------------------------------------------------------
+   Estiliza parágrafos que estão dentro de subtítulos de
+   tecnologias, garantindo consistência visual com o subtítulo
+   pai (.tech-subtitle).
+
+   Este bloco define:
+   - font-size: 14px para manter tamanho de subtítulo
+   - color: var(--link-cert) para cor consistente com links e destaque
+   - font-style: italic para diferenciar do texto principal
+   - margin: 12px 0 para espaçamento vertical adequado
+   - line-height: 1.4 para legibilidade do texto
+
+   IMPORTANTE:
+   - Mantém consistência com .tech-subtitle
+   - Ajustar margin ou font-size altera hierarquia visual
+   ========================================================= */
 
 .tech-subtitle p {
-   font-size: 14px;
-   color: var(--link-cert);
-   font-style: italic;
-   margin: 12px 0;
-   line-height: 1.4;
+    font-size: 14px;
+    /* Mantém tamanho de subtítulo para os parágrafos */
+
+    color: var(--link-cert);
+    /* Cor consistente com subtítulo e links */
+
+    font-style: italic;
+    /* Mantém estilo itálico do subtítulo */
+
+    margin: 12px 0;
+    /* Espaçamento vertical acima e abaixo do parágrafo */
+
+    line-height: 1.4;
+    /* Legibilidade e espaçamento entre linhas */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SUBTÍTULO INFERIOR PARA TECNOLOGIAS (.tech-subtitle-inf)
+   ---------------------------------------------------------
+   Estiliza subtítulos ou legendas inferiores em seções de
+   tecnologias, garantindo consistência visual e hierarquia
+   dentro da seção.
+
+   Este bloco define:
+   - font-size: 14px para manter tamanho menor que o texto principal
+   - color: var(--link-cert) para consistência com links e destaque
+   - font-style: italic para diferenciar do texto principal
+   - margin: 12px 0 0 0 para espaçamento apenas acima, sem margem inferior
+   - line-height: 1.4 para legibilidade e espaçamento entre linhas
+
+   IMPORTANTE:
+   - Usado para legendas ou notas inferiores de seções de tecnologias
+   - Ajustar margin ou font-size altera a hierarquia visual da seção
+   ========================================================= */
 
 .tech-subtitle-inf {
-   font-size: 14px;
-   color: var(--link-cert);
-   font-style: italic;
-   margin: 12px 0 0 0;
-   line-height: 1.4;
+    font-size: 14px;
+    /* Tamanho menor que o texto principal para hierarquia */
+
+    color: var(--link-cert);
+    /* Cor consistente com links e destaque */
+
+    font-style: italic;
+    /* Diferencia visualmente o subtítulo inferior */
+
+    margin: 12px 0 0 0;
+    /* Espaçamento vertical apenas acima do subtítulo */
+
+    line-height: 1.4;
+    /* Legibilidade e espaçamento entre linhas */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DENTRO DE SUBTÍTULOS INFERIORES DE TECNOLOGIAS
+   (.tech-subtitle-inf p)
+   ---------------------------------------------------------
+   Estiliza parágrafos que estão dentro de subtítulos inferiores
+   de tecnologias, garantindo consistência visual com o subtítulo
+   pai (.tech-subtitle-inf).
+
+   Este bloco define:
+   - font-size: 14px para manter tamanho de subtítulo
+   - color: var(--link-cert) para cor consistente com links e destaque
+   - font-style: italic para diferenciar do texto principal
+   - margin: 12px 0 0 0 para espaçamento apenas acima, sem margem inferior
+   - line-height: 1.4 para legibilidade do texto
+
+   IMPORTANTE:
+   - Mantém consistência com .tech-subtitle-inf
+   - Ajustar margin ou font-size altera hierarquia visual
+   ========================================================= */
+
 .tech-subtitle-inf p {
-   font-size: 14px;
-   color: var(--link-cert);
-   font-style: italic;
-   margin: 12px 0 0 0;
-   line-height: 1.4;
+    font-size: 14px;
+    /* Mantém tamanho de subtítulo para os parágrafos */
+
+    color: var(--link-cert);
+    /* Cor consistente com subtítulo inferior e links */
+
+    font-style: italic;
+    /* Mantém estilo itálico do subtítulo inferior */
+
+    margin: 12px 0 0 0;
+    /* Espaçamento vertical apenas acima do parágrafo */
+
+    line-height: 1.4;
+    /* Legibilidade e espaçamento entre linhas */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TÍTULO DE TECNOLOGIAS (.tech-title)
+   ---------------------------------------------------------
+   Estiliza títulos principais dentro das seções de tecnologias,
+   garantindo destaque e hierarquia visual consistente.
+
+   Este bloco define:
+   - font-weight: 600 para dar ênfase e negrito ao título
+   - font-size: 16px para tamanho maior que subtítulos e parágrafos
+   - margin-top: 20px para espaçamento acima do título
+   - margin-bottom: 4px para pequeno espaçamento abaixo do título
+   - color: var(--tech-title) para consistência visual com tema de tecnologias
+
+   IMPORTANTE:
+   - Usado como título de subseções dentro da área de tecnologia
+   - Ajustar margin ou font-size altera hierarquia e leitura
+   ========================================================= */
 
 .tech-title {
     font-weight: 600;
+    /* Negrito para destaque do título */
+
     font-size: 16px;
-    margin-bottom: 4px;
-    color: var(--tech-title);
+    /* Tamanho maior que subtítulos e parágrafos */
+
     margin-top: 20px;
+    /* Espaçamento acima para separar do conteúdo anterior */
+
+    margin-bottom: 4px;
+    /* Pequeno espaçamento abaixo do título */
+
+    color: var(--tech-title);
+    /* Cor consistente com tema de tecnologias */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DENTRO DE TÍTULOS DE TECNOLOGIAS (.tech-title p)
+   ---------------------------------------------------------
+   Estiliza parágrafos que estão dentro de títulos de tecnologias,
+   garantindo consistência visual e hierarquia com o título pai
+   (.tech-title).
+
+   Este bloco define:
+   - font-weight: 600 para manter ênfase e destaque
+   - font-size: 18px para que o parágrafo seja ligeiramente maior
+     que o título pai, podendo destacar informações importantes
+   - margin: 16px 0 para espaçamento vertical uniforme
+   - color: var(--tech-title) para consistência com o título da tecnologia
+
+   IMPORTANTE:
+   - Mantém destaque e hierarquia visual dentro da seção de tecnologias
+   - Ajustar font-size ou margin altera percepção e legibilidade
+   ========================================================= */
 
 .tech-title p {
     font-weight: 600;
+    /* Mantém ênfase e destaque do parágrafo */
+
     font-size: 18px;
+    /* Maior que o título pai para chamar atenção ao conteúdo */
+
     margin: 16px 0;
+    /* Espaçamento vertical uniforme acima e abaixo */
+
     color: var(--tech-title);
+    /* Cor consistente com o título da tecnologia */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   DESCRIÇÃO DE TECNOLOGIAS (.tech-desc)
+   ---------------------------------------------------------
+   Estiliza textos descritivos dentro das seções de tecnologias,
+   fornecendo informações adicionais sobre ferramentas ou skills.
+
+   Este bloco define:
+   - font-size: 15px para texto de corpo, menor que títulos
+   - opacity: 0.8 para suavizar a presença do texto, deixando-o
+     menos dominante que títulos e subtítulos
+   - line-height: 1.4 para legibilidade e espaçamento entre linhas
+   - margin-bottom: 8px para separar do próximo elemento
+   - color: var(--tech-desc) para consistência com o tema de tecnologias
+
+   IMPORTANTE:
+   - Usado em descrições ou explicações de habilidades ou ferramentas
+   - Ajustar font-size, opacity ou margin altera hierarquia visual
+   ========================================================= */
 
 .tech-desc {
     font-size: 15px;
+    /* Tamanho menor que títulos, adequado para descrição */
+
     opacity: 0.8;
+    /* Torna o texto levemente translúcido para suavidade */
+
     line-height: 1.4;
+    /* Espaçamento entre linhas para legibilidade */
+
     margin-bottom: 8px;
+    /* Espaçamento abaixo do texto para separar de próximos elementos */
+
     color: var(--tech-desc);
+    /* Cor consistente com tema de descrições de tecnologias */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LISTA DE EXPERIÊNCIAS (.exp-list)
+   ---------------------------------------------------------
+   Estiliza listas de experiências ou responsabilidades dentro
+   de seções de experiência profissional.
+
+   Este bloco define:
+   - margin: 16px 0 para espaçamento vertical acima e abaixo da lista
+   - padding-left: 22px para alinhar o conteúdo da lista com indentação
+   - list-style-type: disc para exibir marcadores padrão de lista
+   - color: var(--text-color) para consistência com o texto principal
+   - font-size: 0.95rem para tamanho de texto adequado dentro da lista
+   - line-height: 1.65 para legibilidade e espaçamento entre linhas
+   - opacity: 0.9 para suavizar ligeiramente a presença do texto
+
+   IMPORTANTE:
+   - Usado para responsabilidades, tarefas ou detalhes de experiência
+   - Ajustar margin, padding ou font-size altera hierarquia e legibilidade
+   ========================================================= */
 
 .exp-list {
     margin: 16px 0;
+    /* Espaçamento vertical acima e abaixo da lista */
+
     padding-left: 22px;
+    /* Indentação para alinhar os itens da lista */
+
     list-style-type: disc;
+    /* Marcadores padrão de lista */
+
     color: var(--text-color);
+    /* Cor consistente com o texto da seção de experiências */
+
     font-size: 0.95rem;
+    /* Tamanho do texto adequado para listas */
+
     line-height: 1.65;
+    /* Espaçamento entre linhas para legibilidade */
+
     opacity: 0.9;
+    /* Suaviza ligeiramente a presença do texto */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ITENS DA LISTA DE EXPERIÊNCIAS (.exp-list li)
+   ---------------------------------------------------------
+   Estiliza cada item individual dentro da lista de experiências
+   ou responsabilidades, garantindo espaçamento adequado entre eles.
+
+   Este bloco define:
+   - margin-bottom: 8px para separar visualmente cada item da lista
+
+   IMPORTANTE:
+   - Mantém a lista organizada e legível
+   - Ajustar margin-bottom altera o espaçamento entre itens
+   ========================================================= */
 
 .exp-list li {
     margin-bottom: 8px;
+    /* Espaçamento abaixo de cada item da lista */
 }
 
-/* ============================= */
-/* Disclosure Sections */
-/* ============================= */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SEÇÃO DE PROJETOS (.project-section)
+   ---------------------------------------------------------
+   Estiliza cada bloco ou seção de projeto dentro do portfólio,
+   fornecendo espaçamento adequado entre projetos.
+
+   Este bloco define:
+   - margin-bottom: 12px para criar distância entre esta seção
+     e a próxima, evitando que os projetos fiquem muito juntos
+
+   IMPORTANTE:
+   - Usado para separar visualmente projetos listados em sequência
+   - Ajustar margin-bottom altera o espaçamento vertical entre seções
+   ========================================================= */
 
 .project-section {
-   margin-bottom: 12px;
+    margin-bottom: 12px;
+    /* Espaçamento abaixo da seção de projeto */
 }
 
-/* Summary */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SUMMARY DE PROJETOS (.project-section summary)
+   ---------------------------------------------------------
+   Estiliza o elemento <summary> dentro de cada seção de projeto,
+   geralmente usado em detalhes expansíveis (<details>) para títulos
+   ou cabeçalhos de projetos.
+
+   Este bloco define:
+   - display: flex para alinhar o conteúdo horizontalmente
+   - align-items: center para centralizar verticalmente os itens
+   - justify-content: space-between para separar título e ícone de toggle
+   - font-weight: 600 para dar ênfase ao título do projeto
+   - cursor: pointer para indicar interatividade ao usuário
+   - list-style: none para remover marcadores padrão de lista
+   - position: relative para permitir posicionamentos internos absolutos
+   - padding-left: 18px para criar espaçamento interno à esquerda
+
+   IMPORTANTE:
+   - Usado em combinação com <details> para permitir expandir/colapsar conteúdo
+   - Ajustar padding ou justify-content altera a apresentação visual do header
+   ========================================================= */
+
 .project-section summary {
     display: flex;
+    /* Alinha itens horizontalmente */
+
     align-items: center;
+    /* Centraliza verticalmente os itens do summary */
+
     justify-content: space-between;
+    /* Separa título e ícone de toggle nos extremos */
+
     font-weight: 600;
+    /* Dá ênfase ao título do projeto */
+
     cursor: pointer;
+    /* Indica que o summary é clicável */
+
     list-style: none;
+    /* Remove marcadores padrão de lista */
+
     position: relative;
+    /* Permite posicionamento interno de elementos absolutos */
+
     padding-left: 18px;
+    /* Espaçamento interno à esquerda */
 }
 
-/* Remove marcador padrão */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   REMOÇÃO DO MARCADOR PADRÃO DO SUMMARY
+   (.project-section summary::-webkit-details-marker)
+   ---------------------------------------------------------
+   Remove o marcador padrão (seta) exibido pelo navegador
+   para elementos <summary> dentro das seções de projeto.
+
+   Este bloco define:
+   - display: none para ocultar o marcador padrão
+
+   IMPORTANTE:
+   - Usado para permitir a personalização do toggle do summary
+   - Funciona apenas em navegadores baseados em WebKit (Chrome, Safari)
+   - Para compatibilidade cross-browser, pode-se adicionar pseudo-elementos personalizados
+   ========================================================= */
+
 .project-section summary::-webkit-details-marker {
     display: none;
+    /* Oculta o marcador padrão de <summary> */
 }
 
-/* Ícone único */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ÍCONE PERSONALIZADO ANTES DO SUMMARY
+   (.project-section summary::before)
+   ---------------------------------------------------------
+   Adiciona um marcador personalizado antes do elemento <summary>
+   em seções de projetos, geralmente usado como seta para toggle.
+
+   Este bloco define:
+   - content: "▸" para exibir o ícone de seta antes do texto
+   - font-size: 0.9rem para tamanho adequado e proporcional ao texto
+   - position: absolute para posicionar o ícone relativamente ao summary
+   - left: 0 para alinhar o ícone à esquerda do summary
+   - font-weight: 600 para manter consistência com títulos em negrito
+   - transition: transform 0.4s cubic-bezier(...) para animação suave
+     quando a seta gira ao expandir/colapsar o summary
+
+   IMPORTANTE:
+   - Funciona em conjunto com a rotação do summary quando aberto
+   - Permite personalização do estilo de toggle sem o marcador padrão
+   ========================================================= */
+
 .project-section summary::before {
     content: "▸";
+    /* Ícone de seta personalizado */
+
     font-size: 0.9rem;
+    /* Tamanho proporcional ao texto */
+
     position: absolute;
+    /* Permite posicionamento em relação ao summary */
+
     left: 0;
+    /* Alinha o ícone à esquerda */
+
     font-weight: 600;
+    /* Mantém consistência com o texto em negrito */
+
     transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    /* Animação suave para girar a seta ao expandir/colapsar */
 }
 
-/* Rotaciona quando aberto */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ROTAÇÃO DO ÍCONE QUANDO O SUMMARY ESTÁ ABERTO
+   (.project-section[open] summary::before)
+   ---------------------------------------------------------
+   Gira o ícone personalizado antes do summary quando a seção
+   de projeto (<details>) está expandida.
+
+   Este bloco define:
+   - transform: rotate(90deg) para girar a seta 90 graus
+     indicando visualmente que o conteúdo está aberto
+
+   IMPORTANTE:
+   - Funciona em conjunto com .project-section summary::before
+   - Mantém feedback visual consistente ao usuário
+   - O valor 90deg é padrão para indicar expansão; pode ser ajustado
+     para outras orientações de seta
+   ========================================================= */
+
 .project-section[open] summary::before {
     transform: rotate(90deg);
+    /* Gira a seta 90° quando a seção está aberta */
 }
 
-/* Texto */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DIRETOS DENTRO DE PROJECT SECTION
+   (.project-section > p)
+   ---------------------------------------------------------
+   Estiliza parágrafos diretamente contidos em cada seção
+   de projeto, normalmente usados para descrição ou detalhes
+   do projeto.
+
+   Este bloco define:
+   - margin-top: 8px para espaçamento acima do parágrafo
+   - text-align: justify para alinhamento uniforme do texto
+   - font-size: 15px para legibilidade e consistência com descrições
+   - line-height: 1.6 para espaçamento confortável entre linhas
+   - animation: fadeInDetails 0.4s ease para animação suave
+     de entrada quando o parágrafo aparece
+
+   IMPORTANTE:
+   - Animação fadeInDetails deve estar definida em outro bloco
+     do CSS com keyframes correspondentes
+   - Ajustar margin, font-size ou line-height altera legibilidade
+   ========================================================= */
+
 .project-section > p {
     margin-top: 8px;
+    /* Espaçamento acima do parágrafo */
+
     text-align: justify;
+    /* Alinhamento uniforme do texto */
+
     font-size: 15px;
+    /* Tamanho de fonte adequado para descrições de projetos */
+
     line-height: 1.6;
+    /* Espaçamento entre linhas para melhor leitura */
+
     animation: fadeInDetails 0.4s ease;
+    /* Animação suave de entrada do parágrafo */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTEÚDO DE DIVULGAÇÃO EM PROJECT SECTION
+   (.project-section .disclosure-content)
+   ---------------------------------------------------------
+   Estiliza o conteúdo expansível dentro de uma seção de projeto,
+   usado geralmente em toggles ou detalhes adicionais que ficam
+   ocultos inicialmente.
+
+   Este bloco define:
+   - opacity: 0 para manter o conteúdo invisível até ser ativado
+
+   IMPORTANTE:
+   - Funciona em conjunto com scripts ou classes que ativam
+     a visibilidade (ex: adicionar classe .visible)
+   - Pode ser animado usando transições ou keyframes para efeito de fade-in
+   ========================================================= */
 
 .project-section .disclosure-content {
     opacity: 0;
+    /* Mantém o conteúdo inicialmente invisível */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE CONTEÚDO EXPANSÍVEL EM PROJECT SECTION
+   (.project-section[open] .disclosure-content)
+   ---------------------------------------------------------
+   Aplica animação ao conteúdo expansível dentro da seção de projeto
+   quando o elemento <details> é aberto.
+
+   Este bloco define:
+   - animation: fadeInDisclosure 0.8s ease forwards
+       • fadeInDisclosure: keyframes que devem estar definidos
+         em outro bloco do CSS para animar a entrada do conteúdo
+       • 0.8s: duração da animação
+       • ease: curva de aceleração/desaceleração suave
+       • forwards: mantém o estado final da animação (visível)
+
+   IMPORTANTE:
+   - Garante efeito de fade-in quando o usuário expande o projeto
+   - Funciona junto com .project-section .disclosure-content { opacity: 0; }
+   ========================================================= */
 
 .project-section[open] .disclosure-content {
     animation: fadeInDisclosure 0.8s ease forwards;
+    /* Animação de entrada do conteúdo quando a seção é aberta */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO FADE-IN PARA CONTEÚDO DE PROJECT SECTION
+   (@keyframes fadeInDisclosure)
+   ---------------------------------------------------------
+   Define a animação usada para revelar o conteúdo expansível
+   (.disclosure-content) quando a seção de projeto é aberta.
+
+   Este bloco define:
+   - from: estado inicial da animação
+       • opacity: 0 → conteúdo invisível no início
+       • transform: translateY(16px) → conteúdo deslocado 16px para baixo
+   - to: estado final da animação
+       • opacity: 1 → conteúdo totalmente visível
+       • transform: translateY(0) → conteúdo na posição original
+       
+   IMPORTANTE:
+   - Esta animação é aplicada em .project-section[open] .disclosure-content
+   - Cria efeito de fade-in combinado com leve movimento para cima
+   - Pode ser ajustada alterando duração, distância ou curva de easing
+   ========================================================= */
 
 @keyframes fadeInDisclosure {
     from {
         opacity: 0;
+        /* Começa invisível */
+
         transform: translateY(16px);
+        /* Deslocamento vertical inicial para efeito de slide-up */
     }
     to {
         opacity: 1;
+        /* Termina totalmente visível */
+
         transform: translateY(0);
+        /* Conteúdo retorna à posição original */
     }
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TRANSIÇÃO DE CONTEÚDO EXPANSÍVEL (.disclosure-content)
+   ---------------------------------------------------------
+   Estiliza a transição visual do conteúdo expansível dentro
+   da seção de projeto, permitindo animações suaves ao expandir
+   ou recolher.
+
+   Este bloco define:
+   - overflow: hidden para evitar que o conteúdo ultrapasse o container
+   - transition: define animações suaves para:
+       • height: 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) → animação suave
+         do crescimento/retração vertical do conteúdo
+       • opacity: 0.4s ease → fade-in e fade-out do conteúdo
+
+   IMPORTANTE:
+   - Funciona em conjunto com keyframes ou alterações de classe
+     que controlam visibilidade e altura
+   - Ajustar valores de tempo ou curva de easing altera percepção da animação
+   ========================================================= */
+
 .disclosure-content {
     overflow: hidden;
+    /* Oculta conteúdo que ultrapassa o container */
+
     transition: height 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
                 opacity 0.4s ease;
+    /* Transição suave de altura e opacidade */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TEXTO DENTRO DE SUMMARY (.summary-text)
+   ---------------------------------------------------------
+   Estiliza elementos de texto dentro do <summary> em seções
+   expansíveis ou toggles, garantindo consistência visual
+   e removendo estilos padrões indesejados.
+
+   Este bloco define:
+   - all: unset → remove todos os estilos herdados ou padrões do navegador
+   - color: var(--summary-text) → cor do texto consistente com o tema
+   - font-size: 16px → tamanho de fonte legível para títulos ou labels
+
+   IMPORTANTE:
+   - all: unset deve ser usado com cuidado, pois remove
+     heranças e propriedades padrão como display, margin, padding
+   - Pode ser combinado com outras propriedades para reestilização completa
+   ========================================================= */
 
 .summary-text {
   all: unset;
+  /* Remove todos os estilos padrões e herdados do navegador */
+
   color: var(--summary-text);
+  /* Cor do texto consistente com o tema */
+
   font-size: 16px;
+  /* Tamanho da fonte legível e uniforme */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ÍCONE DENTRO DE SUMMARY (.summary-icon)
+   ---------------------------------------------------------
+   Estiliza ícones ou elementos gráficos dentro do <summary>,
+   garantindo consistência com o texto e removendo estilos
+   padrão do navegador.
+
+   Este bloco define:
+   - all: unset → remove todos os estilos herdados ou padrões do navegador
+   - color: var(--summary-text) → cor consistente com o texto do summary
+   - font-size: 16px → tamanho uniforme e proporcional ao texto
+
+   IMPORTANTE:
+   - all: unset remove heranças e propriedades padrão (ex: margin, padding)
+   - Ideal para ícones inline que acompanham labels de summary
+   ========================================================= */
 
 .summary-icon {
   all: unset;
+  /* Remove todos os estilos padrões e herdados do navegador */
+
   color: var(--summary-text);
+  /* Cor consistente com o texto do summary */
+
   font-size: 16px;
+  /* Tamanho uniforme e proporcional ao texto */
 }
 
-/* Estilização do Modo Lista */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LISTA DE CURSOS (.courses-list)
+   ---------------------------------------------------------
+   Estiliza a lista de cursos ou formações, organizando
+   os itens em coluna para melhor legibilidade.
+
+   Este bloco define:
+   - display: flex → define layout flexível
+   - flex-direction: column → organiza os itens verticalmente
+
+   IMPORTANTE:
+   - Cada curso ou formação pode ser um item dentro da lista
+   - Pode ser combinado com gap ou margin nos itens para espaçamento
+   ========================================================= */
+
 .courses-list {
   display: flex;
+  /* Ativa layout flexível para a lista de cursos */
+
   flex-direction: column;
+  /* Organiza os itens verticalmente */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ITEM DA LISTA DE CURSOS (.course-list-item)
+   ---------------------------------------------------------
+   Estiliza cada item individual dentro da lista de cursos,
+   permitindo interatividade e separação visual clara entre os cursos.
+
+   Este bloco define:
+   - display: flex → organiza o conteúdo interno do item horizontalmente
+   - justify-content: space-between → separa título e informações adicionais
+   - border-bottom: 1px solid var(--divider-color) → cria linha divisória entre itens
+   - margin: 0px → remove margens externas
+   - padding: 12px 8px → adiciona espaçamento interno ao redor do conteúdo
+   - cursor: pointer → indica que o item é interativo/clicável
+   - border-radius: 8px → cantos arredondados para aparência suave
+   - transition: background-color 0.4s ease, color 0.4s ease → animação suave
+     ao alterar cores em hover ou estados ativos
+
+   IMPORTANTE:
+   - Mantém consistência visual e feedback ao usuário
+   - Ajustar padding ou border-radius altera aparência e espaçamento
+   ========================================================= */
 
 .course-list-item {
   display: flex;
+  /* Layout flexível para alinhar conteúdo horizontalmente */
+
   justify-content: space-between;
+  /* Separa o conteúdo nos extremos (ex: título e data) */
+
   border-bottom: 1px solid var(--divider-color);
+  /* Linha divisória inferior entre itens da lista */
+
   margin: 0px;
+  /* Remove margens externas */
+
   padding: 12px 8px;
+  /* Espaçamento interno do item */
+
   cursor: pointer;
+  /* Indica interatividade */
+
   border-radius: 8px;
+  /* Cantos arredondados para suavizar aparência */
+
   transition: background-color 0.4s ease, color 0.4s ease;
+  /* Transição suave ao alterar cores */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   HOVER NOS ITENS DE CURSOS (.course-list-item:hover)
+   ---------------------------------------------------------
+   Estiliza o efeito visual quando o usuário passa o mouse
+   sobre um item da lista de cursos, fornecendo feedback
+   interativo.
+
+   Este bloco define:
+   - background-color: var(--bg-color-header) → altera a cor de fundo
+     para destacar o item selecionado
+   - color: #F8F8F8 → altera a cor do texto para contraste com o fundo
+
+   IMPORTANTE:
+   - Funciona em conjunto com a propriedade transition definida
+     em .course-list-item para suavizar a animação
+   - Ajustar cores altera o contraste e percepção visual do hover
+   ========================================================= */
 
 .course-list-item:hover {
   background-color: var(--bg-color-header);
+  /* Destaca o item ao passar o mouse */
+
   color: #F8F8F8;
+  /* Texto claro para contraste com o fundo */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   NOME DO CURSO (.course-name)
+   ---------------------------------------------------------
+   Estiliza o título ou nome de cada curso dentro da lista
+   de cursos, garantindo legibilidade e consistência visual.
+
+   Este bloco define:
+   - font-weight: 500 → peso médio da fonte, balanceando
+     destaque e legibilidade
+   - font-size: 16px → tamanho da fonte adequado para leitura
+
+   IMPORTANTE:
+   - Pode ser combinado com outras propriedades (como color)
+     para integrar ao tema geral do portfólio
+   - Mantém consistência com outros textos de títulos de seções
+   ========================================================= */
 
 .course-name {
   font-weight: 500;
+  /* Peso médio da fonte para destaque sem exagero */
+
   font-size: 16px;
+  /* Tamanho de fonte legível e uniforme */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   DATA DO CURSO (.course-date)
+   ---------------------------------------------------------
+   Estiliza a data associada a cada curso na lista de cursos,
+   fornecendo informação complementar de forma discreta.
+
+   Este bloco define:
+   - opacity: 0.8 → suaviza a cor do texto para diferenciar da
+     informação principal (nome do curso)
+   - font-size: 16px → mantém o tamanho consistente com o nome do curso
+
+   IMPORTANTE:
+   - A opacidade permite que a data seja visível, mas sem competir
+     visualmente com o título do curso
+   - Pode ser combinada com font-style ou color para diferenciar ainda mais
+   ========================================================= */
 
 .course-date {
   opacity: 0.8;
+  /* Suaviza a visibilidade para não competir com o nome do curso */
+
   font-size: 16px;
+  /* Mantém tamanho consistente com o título do curso */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PRIMEIRO ITEM DA LISTA DE CURSOS (.course-list-item.first)
+   ---------------------------------------------------------
+   Adiciona espaçamento extra no topo apenas para o primeiro
+   item da lista de cursos, garantindo consistência visual
+   e evitando que fique colado ao container pai.
+
+   Este bloco define:
+   - margin-top: 12px → cria espaço acima do primeiro item
+
+   IMPORTANTE:
+   - Aplica-se somente ao item que possui a classe adicional .first
+   - Mantém alinhamento e espaçamento uniforme na lista de cursos
+   - Não afeta os demais itens da lista
+   ========================================================= */
 
 .course-list-item.first {
   margin-top: 12px;
+  /* Espaçamento extra acima do primeiro item da lista */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ÚLTIMO ITEM DA LISTA DE CURSOS (.course-list-item.last)
+   ---------------------------------------------------------
+   Adiciona espaçamento extra abaixo apenas para o último
+   item da lista de cursos, garantindo consistência visual
+   e evitando que fique colado ao container pai.
+
+   Este bloco define:
+   - margin-bottom: 12px → cria espaço abaixo do último item
+
+   IMPORTANTE:
+   - Aplica-se somente ao item que possui a classe adicional .last
+   - Mantém alinhamento e espaçamento uniforme na lista de cursos
+   - Não afeta os demais itens da lista
+   ========================================================= */
 
 .course-list-item.last {
   margin-bottom: 12px;
+  /* Espaçamento extra abaixo do último item da lista */
 }
 
-/* Estilização do Modo Grade */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   GRID DE CURSOS (.courses-grid)
+   ---------------------------------------------------------
+   Organiza cursos ou cards de forma responsiva utilizando
+   CSS Grid, permitindo que se ajustem automaticamente
+   ao tamanho do container.
+
+   Este bloco define:
+   - display: grid → ativa o layout em grade para os cursos
+   - grid-template-columns: repeat(auto-fill, minmax(220px, 1fr))
+       • auto-fill: cria quantas colunas couberem no container
+       • minmax(220px, 1fr): cada coluna terá no mínimo 220px
+         e crescerá até preencher igualmente o espaço disponível
+   - gap: 16px → espaçamento uniforme entre linhas e colunas
+
+   IMPORTANTE:
+   - Grid responsivo que se adapta a diferentes larguras de tela
+   - Ideal para exibir cards de cursos ou certificações
+   ========================================================= */
+
 .courses-grid {
   display: grid;
+  /* Ativa o layout em grade */
+
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  /* Colunas responsivas que se ajustam automaticamente */
+
   gap: 16px;
+  /* Espaçamento uniforme entre os itens da grid */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ITEM DA GRID DE CURSOS (.course-grid-item)
+   ---------------------------------------------------------
+   Estiliza cada item dentro da grade de cursos, geralmente
+   usado para cards ou mini-containers de curso/certificação.
+
+   Este bloco define:
+   - border: none → remove bordas padrões
+   - background: none → remove fundo padrão
+   - box-shadow: none → remove sombras padrão
+   - display: flex → permite alinhar conteúdo internamente
+   - justify-content: center → centraliza conteúdo horizontalmente
+   - align-items: center → centraliza conteúdo verticalmente
+
+   IMPORTANTE:
+   - Mantém cada item limpo e pronto para receber conteúdo
+     personalizado (ex: imagens, textos, links)
+   - Pode ser combinado com padding, gap ou hover para estilização adicional
+   ========================================================= */
 
 .course-grid-item {
   border: none;
+  /* Remove borda padrão do item */
+
   background: none;
+  /* Remove fundo padrão do item */
+
   box-shadow: none;
+  /* Remove sombra padrão do item */
+
   display: flex;
+  /* Ativa layout flexível para alinhar conteúdo */
+
   justify-content: center;
+  /* Centraliza conteúdo horizontalmente */
+
   align-items: center;
+  /* Centraliza conteúdo verticalmente */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   IMAGEM DENTRO DO ITEM DA GRID DE CURSOS (.course-grid-item img)
+   ---------------------------------------------------------
+   Estiliza imagens exibidas dentro de cada item da grade
+   de cursos ou certificações, garantindo consistência visual
+   e interatividade.
+
+   Este bloco define:
+   - border: 1px solid var(--fixed-header-section) → borda fina para destaque
+   - border-radius: 6px → cantos arredondados para suavidade visual
+   - padding: 2px → pequeno espaçamento interno entre a borda e a imagem
+   - width: 240px → largura fixa do card/imagem
+   - height: 170px → altura fixa do card/imagem
+   - display: block → remove comportamentos inline e permite margens precisas
+   - margin: 16px → espaçamento externo para separar dos outros itens
+   - cursor: pointer → indica interatividade clicável
+   - transition: transform 0.2s ease, box-shadow 0.2s ease → animação suave
+     para efeitos de hover ou clique
+
+   IMPORTANTE:
+   - Mantém padrão uniforme para todas as imagens da grid
+   - Facilita efeitos visuais ao interagir com a imagem
+   ========================================================= */
 
 .course-grid-item img {
     border: 1px solid var(--fixed-header-section);
+    /* Borda fina para destacar a imagem */
+
     border-radius: 6px;
+    /* Cantos arredondados para suavidade visual */
+
     padding: 2px;
+    /* Espaço entre borda e imagem */
 
     width: 240px;
     height: 170px;
+    /* Dimensões fixas consistentes para todas as imagens */
+
     display: block;
+    /* Garante comportamento de bloco, evitando alinhamento inline */
+
     margin: 16px;
+    /* Espaçamento externo uniforme */
+
     cursor: pointer;
-   
+    /* Indica que a imagem é clicável/interativa */
+
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Animações suaves para hover ou efeitos de foco */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CLASSE DE OCULTAÇÃO (.hidden)
+   ---------------------------------------------------------
+   Permite esconder qualquer elemento do DOM sem removê-lo
+   completamente, útil para toggles, modais ou animações.
+
+   Este bloco define:
+   - display: none → o elemento não será renderizado visualmente
+     e não ocupará espaço na página
+
+   IMPORTANTE:
+   - O elemento continua presente no DOM e pode ser manipulado
+     via JavaScript ou removido de forma condicional
+   - Útil para controles de visibilidade, menus, pop-ups, etc.
+   ========================================================= */
 
 .hidden {
   display: none;
+  /* Oculta completamente o elemento e libera espaço na página */
 }
 
-/* Estilização do Modo Bloco */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOCO DE CURSOS (.course-block)
+   ---------------------------------------------------------
+   Define o espaçamento superior para containers ou seções
+   que agrupam cursos, garantindo alinhamento com outros
+   elementos da página.
+
+   Este bloco define:
+   - margin-top: 0px → remove qualquer espaço acima do bloco,
+     alinhando-o diretamente com o elemento anterior
+
+   IMPORTANTE:
+   - Pode ser ajustado se for necessário criar mais espaçamento
+     entre seções
+   - Útil para controlar layout vertical de listas ou grids de cursos
+   ========================================================= */
+
 .course-block {
    margin-top: 0px;
+   /* Remove espaçamento superior do bloco de cursos */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DENTRO DO BLOCO DE CURSOS (.course-block p)
+   ---------------------------------------------------------
+   Estiliza o texto dentro de cada bloco de cursos ou seções
+   de cursos em fluxo (flow), garantindo legibilidade e
+   consistência visual.
+
+   Este bloco define:
+   - font-size: 16px → tamanho de fonte legível e uniforme
+   - line-height: 1.8 → espaçamento entre linhas para melhor leitura
+   - margin: 0 0 8px 16px → remove margem superior e lateral esquerda,
+     adiciona margem inferior de 8px e margem esquerda de 16px para alinhamento
+   - color: var(--courses-flow) → cor do texto consistente com o tema de cursos
+
+   IMPORTANTE:
+   - Mantém legibilidade e espaçamento coerente com outros elementos
+   - Ajustar margin-left ou line-height afeta o layout visual do bloco
+   ========================================================= */
 
 .course-block p {
    font-size: 16px;
+   /* Tamanho de fonte legível */
+
    line-height: 1.8;
+   /* Espaçamento entre linhas para melhor leitura */
+
    margin: 0 0 8px 16px;
+   /* Margem inferior e alinhamento à esquerda */
+
    color: var(--courses-flow);
+   /* Cor do texto consistente com o tema de cursos */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DENTRO DO BLOCO DE CURSOS (.course-block a)
+   ---------------------------------------------------------
+   Estiliza links contidos em cada bloco de cursos, garantindo
+   espaçamento consistente entre eles e melhor organização visual.
+
+   Este bloco define:
+   - margin: 8px 0 → adiciona espaçamento vertical acima e
+     abaixo do link, separando-o de outros elementos do bloco
+
+   IMPORTANTE:
+   - Mantém consistência visual e evita que links fiquem muito
+     próximos de parágrafos ou outros links
+   - Pode ser combinado com hover, color ou text-decoration
+     para indicar interatividade
+   ========================================================= */
 
 .course-block a {
    margin: 8px 0;
+   /* Espaçamento vertical para separar o link de outros elementos */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTEÚDO DO BLOCO DE CURSOS (.course-block-content)
+   ---------------------------------------------------------
+   Define a área interna de cada bloco de curso, que pode
+   conter textos, links, imagens ou outros elementos. Suporta
+   animações de entrada suave e layout vertical.
+
+   Este bloco define:
+   - position: relative → permite posicionamento interno de elementos
+     com base no container
+   - display: flex → ativa layout flexível para organizar elementos
+   - flex-direction: column → organiza o conteúdo verticalmente
+   - min-height: 432px → altura mínima do bloco, garantindo consistência
+     de layout entre diferentes cursos
+   - opacity: 0 → inicialmente invisível, útil para animações
+   - transform: translateY(8px) → deslocamento inicial para animação de entrada
+   - transition: 
+       • opacity 0.4s ease → transição suave de transparência
+       • transform 0.4s ease → transição suave de posição
+       • height 0.4s ease → transição de altura para expansão gradual
+
+   IMPORTANTE:
+   - Ideal para blocos que aparecem ou se expandem ao interagir
+   - Mantém consistência visual e suavidade na animação de entrada
+   ========================================================= */
 
 .course-block-content {
   position: relative;
+  /* Permite posicionamento interno de elementos filhos */
+
   display: flex;
+  /* Layout flexível para organizar conteúdo */
+
   flex-direction: column;
+  /* Organiza conteúdo verticalmente */
+
   min-height: 432px;
+  /* Altura mínima para consistência entre blocos */
+
   opacity: 0;
+  /* Inicialmente invisível para animação de entrada */
+
   transform: translateY(8px);
+  /* Pequeno deslocamento inicial para efeito de movimento */
+
   transition: 
     opacity 0.4s ease, 
     transform 0.4s ease,
-    height 0.4s ease; /* 🔥 ADICIONADO */
+    height 0.4s ease;
+  /* Transições suaves para animação de entrada e expansão */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOCO DE CURSOS VISÍVEL (.course-block-content.is-visible)
+   ---------------------------------------------------------
+   Controla o estado de visibilidade do conteúdo interno de
+   cada bloco de curso, permitindo animações suaves ao exibir
+   o conteúdo.
+
+   Este bloco define:
+   - opacity: 1 → torna o conteúdo totalmente visível
+   - transform: translateY(0) → reposiciona o conteúdo para
+     sua posição original, removendo o deslocamento inicial usado
+     para animação de entrada
+
+   IMPORTANTE:
+   - Deve ser usado em conjunto com .course-block-content
+     para criar animação de fade-in e movimento suave
+   - A transição é controlada pelas propriedades definidas em
+     .course-block-content (opacity, transform, height)
+   ========================================================= */
 
 .course-block-content.is-visible {
   opacity: 1;
+  /* Torna o conteúdo visível */
+
   transform: translateY(0);
+  /* Move o conteúdo para a posição original */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOCO DE CURSOS CARREGADO (.course-block-content.is-loaded)
+   ---------------------------------------------------------
+   Controla o estado do conteúdo interno do bloco de cursos
+   quando este foi totalmente carregado ou expandido, permitindo
+   que fique totalmente visível e com altura suficiente para
+   exibir todo o conteúdo.
+
+   Este bloco define:
+   - max-height: 2000px → altura máxima expandida, permitindo
+     que todo o conteúdo seja mostrado sem cortar elementos
+   - opacity: 1 → garante que o conteúdo esteja totalmente visível
+
+   IMPORTANTE:
+   - Deve ser usado em conjunto com .course-block-content
+     para animação de expansão
+   - A transição suave é controlada pelas propriedades definidas
+     em .course-block-content (opacity, transform, height)
+   - O valor de max-height deve ser maior que o conteúdo esperado
+     para evitar cortes
+   ========================================================= */
+
 .course-block-content.is-loaded {
-  max-height: 2000px; /* valor grande suficiente para todo conteúdo */
+  max-height: 2000px;
+  /* Altura máxima expandida para exibir todo o conteúdo */
+
   opacity: 1;
+  /* Torna o conteúdo totalmente visível */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DENTRO DO CONTEÚDO DO BLOCO DE CURSOS
+   (.course-block-content a)
+   ---------------------------------------------------------
+   Define o espaçamento dos links contidos no conteúdo
+   interno de cada bloco de cursos, garantindo consistência
+   com o layout geral do bloco.
+
+   Este bloco define:
+   - margin: 0px → remove qualquer espaçamento padrão
+     aplicado a links, permitindo controle total sobre
+     posicionamento e alinhamento
+
+   IMPORTANTE:
+   - Útil quando os links estão dentro de elementos animados
+     ou com padding/margem própria
+   - Pode ser combinado com hover, text-decoration ou color
+     para indicar interatividade
+   ========================================================= */
 
 .course-block-content a {
   margin: 0px;
+  /* Remove margens externas padrão dos links */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   IMAGENS DENTRO DO CONTEÚDO DO BLOCO DE CURSOS
+   (.course-block-content img)
+   ---------------------------------------------------------
+   Estiliza imagens exibidas dentro do conteúdo de cada
+   bloco de curso, garantindo consistência visual, interatividade
+   e suavidade nas transições de efeitos.
+
+   Este bloco define:
+   - border: 1px solid var(--fixed-header-section) → borda fina
+     para destacar a imagem dentro do bloco
+   - border-radius: 6px → cantos arredondados para suavidade visual
+   - padding: 2px → espaçamento interno entre a borda e a imagem
+   - width: 240px → largura fixa para padronização de cards
+   - height: 170px → altura fixa para manter proporção consistente
+   - display: block → remove comportamento inline e permite margens precisas
+   - cursor: pointer → indica que a imagem é clicável/interativa
+   - transition: transform 0.4s ease, box-shadow 0.4s ease →
+     animação suave para efeitos de hover ou clique
+
+   IMPORTANTE:
+   - Mantém padrão uniforme para todas as imagens do bloco
+   - Facilita efeitos visuais de destaque e interação
+   ========================================================= */
 
 .course-block-content img {
     border: 1px solid var(--fixed-header-section);
+    /* Borda fina para destaque da imagem */
+
     border-radius: 6px;
+    /* Cantos arredondados para suavidade visual */
+
     padding: 2px;
+    /* Espaço entre borda e imagem */
 
     width: 240px;
     height: 170px;
+    /* Dimensões consistentes para todas as imagens */
+
     display: block;
+    /* Remove comportamento inline e permite margens precisas */
+
     cursor: pointer;
-   
+    /* Indica que a imagem é clicável */
+
     transition: transform 0.4s ease, box-shadow 0.4s ease;
+    /* Animação suave para efeitos de hover e destaque */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   NAVEGAÇÃO DO BLOCO DE CURSOS (.course-block-nav)
+   ---------------------------------------------------------
+   Define o container responsável pelos controles de navegação
+   dentro do bloco de cursos (ex: botões anterior/próximo,
+   indicadores ou ações relacionadas).
+
+   Este bloco define:
+   - position: relative → permite posicionamento interno
+     de elementos absolutos, se necessário
+   - margin: 12px 0 → espaçamento vertical acima e abaixo
+     da navegação
+   - display: flex → ativa layout flexível para organizar os controles
+   - justify-content: center → centraliza os itens horizontalmente
+   - gap: 16px → espaçamento uniforme entre os controles
+
+   IMPORTANTE:
+   - Ideal para botões de navegação ou indicadores visuais
+   - Pode ser combinado com botões estilizados ou ícones
+   ========================================================= */
+
 .course-block-nav {
-  position: relative; /* ou absolute com bottom dentro do container */
-  margin: 12px 0; /* separa do conteúdo */
+  position: relative;
+  /* Permite posicionamento interno relativo */
+
+  margin: 12px 0;
+  /* Espaçamento vertical acima e abaixo do bloco de navegação */
+
   display: flex;
+  /* Ativa layout flexível */
+
   justify-content: center;
+  /* Centraliza os itens horizontalmente */
+
   gap: 16px;
+  /* Espaçamento uniforme entre os elementos de navegação */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   AÇÃO DE NAVEGAÇÃO DO BLOCO DE CURSOS (.course-nav-action)
+   ---------------------------------------------------------
+   Estiliza elementos interativos usados na navegação do bloco
+   de cursos (ex: botões de avançar/voltar ou indicadores clicáveis).
+
+   Este bloco define:
+   - cursor: pointer → indica que o elemento é clicável
+   - font-weight: 500 → peso médio da fonte para dar leve destaque
+   - user-select: none → impede que o texto seja selecionado
+     ao clicar repetidamente
+   - transition: opacity 0.4s ease → suaviza alterações de opacidade
+     (ex: hover, desativado, foco)
+
+   IMPORTANTE:
+   - Pode ser combinado com :hover ou .disabled para controle visual
+   - user-select: none melhora experiência ao usar como botão textual
+   ========================================================= */
 
 .course-nav-action {
   cursor: pointer;
+  /* Indica que o elemento é interativo */
+
   font-weight: 500;
+  /* Peso médio para leve destaque visual */
+
   user-select: none;
+  /* Impede seleção acidental do texto */
+
   transition: opacity 0.4s ease;
+  /* Transição suave ao alterar opacidade */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   HOVER NA AÇÃO DE NAVEGAÇÃO (.course-nav-action:hover)
+   ---------------------------------------------------------
+   Define o efeito visual quando o usuário passa o mouse
+   sobre um elemento interativo de navegação do bloco de cursos.
+
+   Este bloco define:
+   - opacity: 0.8 → reduz levemente a opacidade para criar
+     feedback visual sutil de interação
+
+   IMPORTANTE:
+   - Funciona em conjunto com transition: opacity 0.4s ease
+     definido em .course-nav-action
+   - Mantém efeito discreto e elegante sem alterar layout
+   ========================================================= */
 
 .course-nav-action:hover {
   opacity: 0.8;
+  /* Reduz levemente a opacidade ao passar o mouse */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   INDICADOR DE NAVEGAÇÃO DO BLOCO DE CURSOS
+   (.course-nav-indicator)
+   ---------------------------------------------------------
+   Estiliza o elemento responsável por indicar o estado atual
+   da navegação (ex: "1 / 5", página atual ou item ativo).
+
+   Este bloco define:
+   - font-weight: bold → destaca visualmente o indicador
+   - opacity: 0.8 → suaviza levemente o texto para manter
+     equilíbrio visual com os botões de navegação
+
+   IMPORTANTE:
+   - Pode ser combinado com variações de cor para indicar
+     estado ativo ou destaque adicional
+   - Mantém consistência com outros elementos informativos
+   ========================================================= */
 
 .course-nav-indicator {
   font-weight: bold;
+  /* Destaca o indicador visualmente */
+
   opacity: 0.8;
+  /* Suaviza levemente a intensidade visual */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DESABILITADO DA AÇÃO DE NAVEGAÇÃO
+   (.course-nav-action.disabled)
+   ---------------------------------------------------------
+   Define o comportamento visual e funcional quando uma
+   ação de navegação (ex: botão anterior/próximo) está
+   desabilitada.
+
+   Este bloco define:
+   - opacity: 0.4 → reduz significativamente a visibilidade,
+     indicando que o elemento está inativo
+   - cursor: default → remove o cursor de ponteiro,
+     sinalizando que não é clicável
+   - pointer-events: none → impede qualquer interação
+     (cliques, hover, etc.)
+
+   IMPORTANTE:
+   - Garante feedback visual claro de estado inativo
+   - pointer-events: none evita disparos acidentais de eventos
+   - Funciona em conjunto com a transição de opacidade
+     definida em .course-nav-action
+   ========================================================= */
 
 .course-nav-action.disabled {
   opacity: 0.4;
+  /* Indica visualmente que o botão está desativado */
+
   cursor: default;
+  /* Remove o cursor de clique */
+
   pointer-events: none;
+  /* Bloqueia qualquer interação do usuário */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTAINER PRINCIPAL DO BLOCO DE CURSOS (#course-block)
+   ---------------------------------------------------------
+   Define o comportamento estrutural do container principal
+   que envolve todo o bloco de cursos.
+
+   Este bloco define:
+   - position: relative → permite posicionamento absoluto
+     de elementos filhos com base neste container
+   - height: auto → altura ajustada automaticamente
+     conforme o conteúdo interno
+   - overflow: visible → permite que elementos internos
+     ultrapassem os limites do container, se necessário
+
+   IMPORTANTE:
+   - position: relative é útil para elementos internos
+     com position: absolute (ex: indicadores, overlays)
+   - overflow: visible evita cortes visuais durante
+     animações ou expansões de conteúdo
+   ========================================================= */
 
 #course-block {
   position: relative;
-  height: auto; /* espaço inicial */
-  overflow: visible; /* deixa o conteúdo expandir */
+  /* Define o container como referência para posicionamento interno */
+
+  height: auto;
+  /* Ajusta altura automaticamente conforme conteúdo */
+
+  overflow: visible;
+  /* Permite que conteúdo expandido ultrapasse os limites */
 }
 
-/* Estilização do Modo Fluido */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTAINER DE CURSOS EM FLUXO (.courses-flow)
+   ---------------------------------------------------------
+   Define o comportamento de margem do container que organiza
+   cursos em formato de fluxo (flow layout), garantindo que
+   não haja espaçamento externo indesejado.
+
+   Este bloco define:
+   - margin: 0px → remove qualquer margem externa aplicada
+     ao container
+
+   IMPORTANTE:
+   - Útil para manter alinhamento preciso dentro do layout
+   - Pode ser combinado com padding interno se necessário
+     para controlar espaçamento sem afetar o fluxo externo
+   ========================================================= */
+
 .courses-flow {
     margin: 0px;
+    /* Remove margens externas do container */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS EM CURSOS NO FORMATO FLOW (.courses-flow p)
+   ---------------------------------------------------------
+   Estiliza os textos exibidos dentro do container de cursos
+   em fluxo, garantindo legibilidade, espaçamento adequado
+   e consistência visual com o tema.
+
+   Este bloco define:
+   - font-size: 16px → tamanho de fonte confortável para leitura
+   - line-height: 1.8 → espaçamento entre linhas para melhor fluidez
+   - margin: 0 0 8px 16px → remove margem superior,
+     adiciona margem inferior de 8px e recuo à esquerda de 16px
+   - color: var(--courses-flow) → aplica cor temática específica
+     para textos de cursos
+
+   IMPORTANTE:
+   - Mantém padrão consistente com outros blocos de texto
+   - O recuo à esquerda ajuda na organização visual do conteúdo
+   ========================================================= */
 
 .courses-flow p {
    font-size: 16px;
+   /* Tamanho de fonte legível e uniforme */
+
    line-height: 1.8;
+   /* Espaçamento entre linhas para melhor leitura */
+
    margin: 0 0 8px 16px;
+   /* Espaçamento inferior e recuo à esquerda */
+
    color: var(--courses-flow);
+   /* Cor temática aplicada ao texto */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS EM CURSOS NO FORMATO FLOW (.courses-flow a)
+   ---------------------------------------------------------
+   Define o espaçamento aplicado aos links dentro do container
+   de cursos exibidos em formato de fluxo.
+
+   Este bloco define:
+   - margin: 8px → adiciona espaçamento uniforme ao redor
+     do link (superior, inferior, esquerda e direita)
+
+   IMPORTANTE:
+   - Garante separação visual entre links e outros elementos
+   - Pode ser combinado com hover ou estilos adicionais
+     para reforçar interatividade
+   ========================================================= */
 
 .courses-flow a {
    margin: 8px;
+   /* Espaçamento uniforme ao redor do link */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   MINIATURA DE CERTIFICADO EM CURSOS FLOW
+   (.courses-flow .cert-thumb)
+   ---------------------------------------------------------
+   Estiliza a imagem de miniatura (thumbnail) de certificados
+   dentro do container de cursos em formato de fluxo.
+
+   Este bloco define:
+   - border: 1px solid var(--fixed-header-section) → borda fina
+     para destacar visualmente a miniatura
+   - border-radius: 6px → cantos arredondados para suavidade
+   - padding: 2px → pequeno espaçamento interno entre borda e imagem
+   - width: 240px → largura fixa padronizada
+   - height: 170px → altura fixa padronizada
+   - display: block → remove comportamento inline
+   - margin: 20px 16px → espaçamento externo vertical e horizontal
+   - cursor: pointer → indica que a miniatura é clicável
+   - transition: transform 0.2s ease, box-shadow 0.2s ease →
+     animação suave para interações (hover/destaque)
+   - align-self: flex-start → alinha a miniatura ao início
+     do eixo cruzado dentro de um container flex
+
+   IMPORTANTE:
+   - Mantém consistência visual com outras imagens de cursos
+   - align-self garante alinhamento adequado dentro do layout flex
+   - Facilita aplicação de efeitos como zoom ou sombra no hover
+   ========================================================= */
 
 .courses-flow .cert-thumb {
     border: 1px solid var(--fixed-header-section);
+    /* Borda fina para destaque visual */
+
     border-radius: 6px;
+    /* Cantos arredondados */
+
     padding: 2px;
+    /* Espaço interno entre borda e imagem */
 
     width: 240px;
     height: 170px;
+    /* Dimensões padronizadas */
+
     display: block;
+    /* Garante comportamento de bloco */
+
     margin: 20px 16px;
+    /* Espaçamento externo */
+
     cursor: pointer;
-   
+    /* Indica interatividade */
+
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-   
+    /* Transição suave para efeitos visuais */
+
     align-self: flex-start;
+    /* Alinha a miniatura ao início dentro de container flex */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 .course-flow-item {
   display: block;
