@@ -6026,154 +6026,842 @@ body.static-header .last-update {
 
 /* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
+/* =========================================================
+   ITEM INDIVIDUAL EM CURSOS FLOW (.course-flow-item)
+   ---------------------------------------------------------
+   Define o comportamento estrutural de cada item individual
+   dentro do container de cursos no formato flow.
+
+   Este bloco define:
+   - display: block → o item ocupa toda a largura disponível
+     e se comporta como elemento de bloco
+   - flex-direction: column → indica organização vertical
+     (aplicável apenas se o display for flex)
+   - overflow: visible → permite que conteúdo interno
+     ultrapasse os limites do container, se necessário
+
+   IMPORTANTE:
+   - flex-direction só terá efeito se o display for alterado
+     para flex em algum momento
+   - overflow: visible evita cortes durante animações
+     ou exibição de elementos internos maiores
+   ========================================================= */
+
 .course-flow-item {
   display: block;
+  /* Elemento se comporta como bloco */
+
   flex-direction: column;
+  /* Organização vertical (ativo apenas se display for flex) */
+
   overflow: visible;
+  /* Permite que conteúdo interno ultrapasse limites */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DENTRO DO ITEM DE CURSO FLOW
+   (.course-flow-item a)
+   ---------------------------------------------------------
+   Define o espaçamento vertical dos links contidos dentro
+   de cada item individual do formato flow.
+
+   Este bloco define:
+   - margin: 8px 0 → adiciona espaçamento acima e abaixo
+     do link, mantendo alinhamento lateral
+
+   IMPORTANTE:
+   - Garante separação visual entre links e outros elementos
+     como parágrafos ou imagens
+   - Mantém consistência com padrões já usados em outros blocos
+   ========================================================= */
 
 .course-flow-item a {
    margin: 8px 0;
+   /* Espaçamento vertical uniforme para links */
 }
 
-/* Transição dos modos de visualização*/
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TRANSIÇÃO DE VISUALIZAÇÃO (.view-transition)
+   ---------------------------------------------------------
+   Define um estado inicial invisível para elementos que
+   participarão de uma transição suave de entrada (fade-in).
+
+   Este bloco define:
+   - opacity: 0 → elemento inicia completamente invisível
+   - transition: opacity 0.8s ease-in-out → cria animação
+     suave de entrada e saída baseada na opacidade
+
+   IMPORTANTE:
+   - Deve ser combinado com uma classe adicional (ex: .visible)
+     que altere a opacidade para 1
+   - ease-in-out cria aceleração suave no início e no fim
+     da animação
+   - Ideal para transições entre views, seções ou páginas
+   ========================================================= */
 
 .view-transition {
   opacity: 0;
+  /* Estado inicial invisível */
+
   transition: opacity 0.8s ease-in-out;
+  /* Transição suave de opacidade */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO ATIVO DA TRANSIÇÃO DE VISUALIZAÇÃO
+   (.view-transition.is-active)
+   ---------------------------------------------------------
+   Define o estado visível de elementos que utilizam
+   a classe .view-transition para animação de fade-in.
+
+   Este bloco define:
+   - opacity: 1 → torna o elemento totalmente visível
+
+   IMPORTANTE:
+   - Funciona em conjunto com:
+       .view-transition {
+           opacity: 0;
+           transition: opacity 0.8s ease-in-out;
+         }
+   - A troca de classes (ex: via JavaScript) dispara
+     a animação suave de aparecimento
+   - Ideal para alternância entre views ou seções
+   ========================================================= */
 
 .view-transition.is-active {
   opacity: 1;
+  /* Torna o elemento visível com animação suave */
 }
 
-/* Botão Copiar */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BOTÃO DE COPIAR (.copiar-btn)
+   ---------------------------------------------------------
+   Estiliza o botão utilizado para ações de cópia
+   (ex: copiar e-mail, link ou texto), mantendo visual limpo
+   e integrado ao layout.
+
+   Este bloco define:
+   - background: none → remove fundo padrão do botão
+   - border: none → remove borda padrão
+   - cursor: pointer → indica que o botão é clicável
+   - margin-left: 8px → adiciona espaçamento à esquerda
+     para separar do texto associado
+   - font-size: 1.2em → aumenta levemente o tamanho
+     para melhor visibilidade (ex: ícone)
+
+   IMPORTANTE:
+   - Ideal para botões com ícones (ex: 📋)
+   - Pode ser combinado com hover ou animação
+     para feedback visual adicional
+   ========================================================= */
+
 .copiar-btn {
   background: none;
+  /* Remove fundo padrão */
+
   border: none;
+  /* Remove borda padrão */
+
   cursor: pointer;
+  /* Indica interatividade */
+
   margin-left: 8px;
+  /* Espaçamento à esquerda */
+
   font-size: 1.2em;
+  /* Leve aumento de tamanho para destaque */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   VARIAÇÃO COMPACTA DO BOTÃO DE COPIAR
+   (.copiar-btn--compact)
+   ---------------------------------------------------------
+   Define uma variação do botão de copiar com ajuste
+   específico de espaçamento, geralmente utilizada em
+   contextos onde é necessário maior separação lateral.
+
+   Este bloco define:
+   - margin-left: 12px → aumenta o espaçamento à esquerda
+     em relação ao botão padrão (.copiar-btn)
+
+   IMPORTANTE:
+   - Funciona como modificador (padrão BEM)
+   - Deve ser utilizado em conjunto com .copiar-btn
+   - Permite ajustes visuais sem alterar o estilo base
+   ========================================================= */
 
 .copiar-btn--compact {
   margin-left: 12px;
+  /* Espaçamento maior à esquerda em relação ao padrão */
 }
 
-/* Animação Ícone e Subtítulo */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TRANSIÇÃO DE ÍCONE E SUBTÍTULO DO PORTFÓLIO
+   (.portfolio-icon, .portfolio-subtitle)
+   ---------------------------------------------------------
+   Define animações suaves para elementos visuais do
+   portfólio, como ícones e subtítulos, permitindo efeitos
+   elegantes de entrada, saída ou movimento.
+
+   Este bloco define:
+   - transition:
+       • opacity 0.4s ease → animação suave de transparência
+       • transform 0.4s ease → animação suave de movimento
+         (ex: translate, scale, rotate)
+
+   IMPORTANTE:
+   - Deve ser combinado com estados que alterem opacity
+     ou transform (ex: .hidden, .is-active, etc.)
+   - ease cria aceleração natural na animação
+   - Mantém consistência visual entre ícones e textos
+   ========================================================= */
+
 .portfolio-icon,
 .portfolio-subtitle {
   transition:
     opacity 0.4s ease,
     transform 0.4s ease;
+  /* Transições suaves para opacidade e transformação */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DO SUBTÍTULO DO PORTFÓLIO
+   (.portfolio-exit .portfolio-subtitle)
+   ---------------------------------------------------------
+   Define o comportamento visual do subtítulo quando o
+   portfólio entra em estado de saída (ex: transição de página
+   ou troca de seção).
+
+   Este bloco define:
+   - opacity: 0 → torna o subtítulo invisível
+   - transform: translateX(64px) → desloca o subtítulo
+     64px para a direita, criando efeito de saída lateral
+   - transition-delay: 0s → remove qualquer atraso na
+     transição para que a animação inicie imediatamente
+
+   IMPORTANTE:
+   - Funciona em conjunto com as transições definidas em:
+       .portfolio-icon,
+       .portfolio-subtitle
+   - Ideal para animações de saída suaves e coordenadas
+   - Pode ser sincronizado com outros elementos para
+     criar efeito de transição encadeada
+   ========================================================= */
 
 .portfolio-exit .portfolio-subtitle {
   opacity: 0;
+  /* Torna o subtítulo invisível */
+
   transform: translateX(64px);
+  /* Desloca o subtítulo para a direita */
+
   transition-delay: 0s;
+  /* Inicia a transição imediatamente */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DO ÍCONE DO PORTFÓLIO
+   (.portfolio-exit .portfolio-icon)
+   ---------------------------------------------------------
+   Define o comportamento visual do ícone quando o portfólio
+   entra em estado de saída (ex: transição de página ou seção).
+
+   Este bloco define:
+   - opacity: 0 → torna o ícone invisível
+   - transform: translateX(64px) → desloca o ícone 64px
+     para a direita, criando efeito de saída lateral
+   - transition-delay: 0.16s → adiciona pequeno atraso
+     para criar efeito encadeado (stagger)
+
+   IMPORTANTE:
+   - Funciona em conjunto com:
+       .portfolio-icon,
+       .portfolio-subtitle
+   - O delay cria animação sequencial:
+       1️⃣ Subtítulo sai primeiro
+       2️⃣ Ícone sai logo depois
+   - Produz efeito mais refinado e profissional
+   ========================================================= */
 
 .portfolio-exit .portfolio-icon {
   opacity: 0;
+  /* Torna o ícone invisível */
+
   transform: translateX(64px);
+  /* Desloca o ícone para a direita */
+
   transition-delay: 0.16s;
+  /* Pequeno atraso para efeito encadeado */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO PRÉ-ENTRADA DO ÍCONE E SUBTÍTULO
+   (.portfolio-pre-enter .portfolio-icon,
+    .portfolio-pre-enter .portfolio-subtitle)
+   ---------------------------------------------------------
+   Define o estado inicial antes da animação de entrada
+   do portfólio. Os elementos começam invisíveis e deslocados,
+   preparando o efeito de transição suave.
+
+   Este bloco define:
+   - opacity: 0 → elementos iniciam invisíveis
+   - transform: translateX(64px) → desloca os elementos
+     64px para a direita, criando ponto inicial da animação
+
+   IMPORTANTE:
+   - Deve ser combinado com a remoção da classe
+     .portfolio-pre-enter para disparar a animação
+   - Funciona junto com as transições definidas em:
+       .portfolio-icon,
+       .portfolio-subtitle
+   - Permite efeito elegante de slide-in lateral
+   ========================================================= */
 
 .portfolio-pre-enter .portfolio-icon,
 .portfolio-pre-enter .portfolio-subtitle {
   opacity: 0;
+  /* Estado inicial invisível */
+
   transform: translateX(64px);
+  /* Deslocamento inicial para animação de entrada */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DO ÍCONE DO PORTFÓLIO
+   (.portfolio-enter .portfolio-icon)
+   ---------------------------------------------------------
+   Define o comportamento do ícone durante a animação
+   de entrada do portfólio.
+
+   Este bloco define:
+   - opacity: 1 → torna o ícone totalmente visível
+   - transform: translateX(0) → reposiciona o ícone
+     para sua posição original
+   - transition-delay: 0s → inicia a animação
+     imediatamente ao entrar
+
+   IMPORTANTE:
+   - Funciona em conjunto com:
+       .portfolio-pre-enter (estado inicial)
+       .portfolio-icon (transições definidas)
+   - Remove o deslocamento aplicado anteriormente
+   - Mantém fluidez na sequência de entrada
+   ========================================================= */
 
 .portfolio-enter .portfolio-icon {
   opacity: 1;
+  /* Torna o ícone visível */
+
   transform: translateX(0);
+  /* Retorna o ícone à posição original */
+
   transition-delay: 0s;
+  /* Inicia a animação imediatamente */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DO SUBTÍTULO DO PORTFÓLIO
+   (.portfolio-enter .portfolio-subtitle)
+   ---------------------------------------------------------
+   Define o comportamento do subtítulo durante a animação
+   de entrada do portfólio, criando efeito encadeado
+   (stagger) em relação ao ícone.
+
+   Este bloco define:
+   - opacity: 1 → torna o subtítulo totalmente visível
+   - transform: translateX(0) → retorna o subtítulo
+     para sua posição original
+   - transition-delay: 0.16s → adiciona pequeno atraso
+     para criar sequência animada elegante
+
+   IMPORTANTE:
+   - Funciona em conjunto com:
+       .portfolio-pre-enter (estado inicial)
+       .portfolio-subtitle (transições base)
+   - O delay cria entrada sequencial:
+       1️⃣ Ícone entra primeiro
+       2️⃣ Subtítulo entra logo depois
+   - Gera efeito mais refinado e profissional
+   ========================================================= */
 
 .portfolio-enter .portfolio-subtitle {
   opacity: 1;
+  /* Torna o subtítulo visível */
+
   transform: translateX(0);
+  /* Retorna o subtítulo à posição original */
+
   transition-delay: 0.16s;
+  /* Pequeno atraso para efeito encadeado */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TRANSIÇÃO DE CATEGORIA (.category-fade)
+   ---------------------------------------------------------
+   Define uma animação suave baseada em opacidade,
+   geralmente utilizada para troca ou filtragem de
+   categorias dentro do portfólio.
+
+   Este bloco define:
+   - transition: opacity 0.2s ease → cria transição
+     rápida e suave ao alterar a opacidade do elemento
+
+   IMPORTANTE:
+   - Deve ser combinado com estados que alterem opacity
+     (ex: 0 para esconder, 1 para mostrar)
+   - Duração curta (0.2s) mantém a interface ágil
+   - Ideal para filtros de categorias ou alternância de conteúdo
+   ========================================================= */
 
 .category-fade {
   transition: opacity 0.2s ease;
+  /* Transição rápida e suave de opacidade */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE DESAPARECIMENTO DA CATEGORIA
+   (.category-fade.is-fading)
+   ---------------------------------------------------------
+   Define o estado visual quando um elemento de categoria
+   está em processo de ocultação (fade-out).
+
+   Este bloco define:
+   - opacity: 0 → torna o elemento invisível
+
+   IMPORTANTE:
+   - Funciona em conjunto com:
+       .category-fade {
+         transition: opacity 0.2s ease;
+       }
+   - Ao adicionar a classe .is-fading, o elemento
+     desaparece suavemente
+   - Ideal para filtros de categorias e transições rápidas
+   ========================================================= */
 
 .category-fade.is-fading {
   opacity: 0;
+  /* Torna o elemento invisível com transição suave */
 }
 
-/* Categoria Subtítulo */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TÍTULO DA CATEGORIA (.title-category)
+   ---------------------------------------------------------
+   Define o comportamento estrutural e alinhamento do
+   título associado a uma categoria dentro do portfólio.
+
+   Este bloco define:
+   - display: inline-flex → permite alinhamento flexível
+     mantendo o elemento em fluxo inline
+   - align-items: center → centraliza verticalmente
+     os elementos internos (ex: ícone + texto)
+   - margin-left: 8px → adiciona pequeno espaçamento
+     à esquerda para separação visual
+
+   IMPORTANTE:
+   - inline-flex permite alinhamento preciso sem quebrar linha
+   - Ideal para combinações como:
+       [ícone] + [texto da categoria]
+   - Mantém consistência visual com outros títulos do layout
+   ========================================================= */
+
 .title-category {
   display: inline-flex;
+  /* Permite alinhamento flex mantendo fluxo inline */
+
   align-items: center;
+  /* Centraliza verticalmente elementos internos */
+
   margin-left: 8px;
+  /* Espaçamento à esquerda */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE FADE DO TÍTULO DA CATEGORIA
+   (.title-category.is-fading)
+   ---------------------------------------------------------
+   Define o comportamento visual quando o título da
+   categoria está em processo de transição ou ocultação.
+
+   Este bloco define:
+   - opacity: 0 → torna o título invisível
+
+   IMPORTANTE:
+   - Deve ser usado em conjunto com uma transição
+     definida anteriormente (ex: transition: opacity)
+   - Ideal para animações suaves durante troca
+     ou filtragem de categorias
+   - Não altera layout, apenas visibilidade
+   ========================================================= */
 
 .title-category.is-fading {
   opacity: 0;
+  /* Torna o título invisível com efeito de fade */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO OCULTO DO TÍTULO DA CATEGORIA
+   (.title-category.hidden)
+   ---------------------------------------------------------
+   Define o comportamento quando o título da categoria
+   precisa ser completamente removido do layout.
+
+   Este bloco define:
+   - display: none → remove o elemento do fluxo do documento,
+     ocultando-o totalmente e eliminando seu espaço
+
+   DIFERENÇA IMPORTANTE:
+   - opacity: 0 → apenas torna invisível, mas mantém espaço
+   - display: none → remove completamente do layout
+
+   USO RECOMENDADO:
+   - Após animação de fade-out finalizar
+   - Quando a categoria não deve ocupar espaço algum
+   ========================================================= */
 
 .title-category.hidden {
   display: none;
+  /* Remove completamente do layout */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SEPARADOR (PIPE) NO TÍTULO DA CATEGORIA
+   (.title-category .pipe)
+   ---------------------------------------------------------
+   Estiliza o elemento separador visual (ex: "|")
+   utilizado dentro do título da categoria.
+
+   Este bloco define:
+   - color: var(--category-pipe) → aplica cor temática
+     específica para o separador
+   - margin: 0px 12px 0px 0px → adiciona espaçamento
+     apenas à direita, separando visualmente do texto
+
+   IMPORTANTE:
+   - Mantém o separador visualmente discreto
+   - O espaçamento evita que o pipe fique colado
+     ao conteúdo seguinte
+   - Pode ser ajustado para alinhar com diferentes layouts
+   ========================================================= */
 
 .title-category .pipe {
-  color: var(--category-pipe); /* cinza elegante */
+  color: var(--category-pipe);
+  /* Cor temática do separador */
+
   margin: 0px 12px 0px 0px;
+  /* Espaçamento à direita para separação visual */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   NOME DA CATEGORIA NO TÍTULO
+   (.title-category .category-name)
+   ---------------------------------------------------------
+   Estiliza especificamente o texto que representa
+   o nome da categoria dentro do título.
+
+   Este bloco define:
+   - color: var(--category-name) → aplica cor temática
+     específica para o nome da categoria
+   - font-weight: 500 → peso médio para dar leve destaque
+     sem ficar excessivamente forte
+
+   IMPORTANTE:
+   - Mantém separação visual clara entre:
+       • Separador (.pipe)
+       • Nome da categoria (.category-name)
+   - Facilita personalização de cores por tema
+   - Pode ser combinado com transições ou estados
+     como .is-fading
+   ========================================================= */
+
 .title-category .category-name {
-  color: var(--category-name); /* destaque suave */
+  color: var(--category-name);
+  /* Cor temática do nome da categoria */
+
   font-weight: 500;
+  /* Leve destaque sem exagero */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO INICIAL (PRÉ-ENTRADA) DO PIPE E NOME DA CATEGORIA
+   (.title-category .pipe,
+    .title-category .category-name)
+   ---------------------------------------------------------
+   Define o estado inicial invisível e deslocado dos
+   elementos internos do título da categoria, preparando
+   a animação de entrada suave.
+
+   Este bloco define:
+   - opacity: 0 → torna os elementos invisíveis
+   - transform: translateX(64px) → desloca os elementos
+     64px para a direita, criando ponto inicial da animação
+
+   IMPORTANTE:
+   - Deve ser combinado com uma transição previamente
+     definida (opacity + transform)
+   - Permite efeito de slide-in lateral elegante
+   - Pode ser utilizado antes da aplicação de uma classe
+     de entrada (ex: .is-active)
+   ========================================================= */
 
 .title-category .pipe,
 .title-category .category-name {
   opacity: 0;
+  /* Estado inicial invisível */
+
   transform: translateX(64px);
+  /* Deslocamento inicial para animação de entrada */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ENTRADA DO PIPE DA CATEGORIA
+   (.title-category.category-enter .pipe)
+   ---------------------------------------------------------
+   Define a animação de entrada do separador visual (pipe)
+   dentro do título da categoria.
+
+   Este bloco define:
+   - opacity: 1 → torna o pipe totalmente visível
+   - transform: translateX(0) → retorna à posição original
+   - transition: opacity 0.4s ease, transform 0.4s ease →
+     animação suave de fade + movimento lateral
+   - transition-delay: 0s → inicia imediatamente
+
+   IMPORTANTE:
+   - Funciona em conjunto com o estado inicial:
+       .title-category .pipe { opacity: 0; transform: translateX(64px); }
+   - Cria efeito de slide-in elegante
+   - Pode ser combinado com delay diferente no
+     .category-name para efeito encadeado (stagger)
+   ========================================================= */
 
 .title-category.category-enter .pipe {
   opacity: 1;
+  /* Torna o pipe visível */
+
   transform: translateX(0);
+  /* Retorna à posição original */
+
   transition: opacity 0.4s ease, transform 0.4s ease;
+  /* Animação suave de entrada */
+
   transition-delay: 0s;
+  /* Inicia imediatamente */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ENTRADA DO NOME DA CATEGORIA
+   (.title-category.category-enter .category-name)
+   ---------------------------------------------------------
+   Define a animação de entrada do texto que representa
+   o nome da categoria, criando efeito encadeado
+   em relação ao pipe.
+
+   Este bloco define:
+   - opacity: 1 → torna o nome totalmente visível
+   - transform: translateX(0) → retorna à posição original
+   - transition: opacity 0.4s ease, transform 0.4s ease →
+     animação suave de fade + movimento lateral
+   - transition-delay: 0.16s → adiciona pequeno atraso
+     para efeito sequencial (stagger)
+
+   IMPORTANTE:
+   - Funciona em conjunto com o estado inicial:
+       .title-category .category-name {
+         opacity: 0;
+         transform: translateX(64px);
+       }
+   - Cria sequência animada:
+       1️⃣ Pipe entra primeiro
+       2️⃣ Nome entra logo depois
+   - Mantém consistência com o padrão de animação
+     usado no portfólio
+   ========================================================= */
 
 .title-category.category-enter .category-name {
   opacity: 1;
+  /* Torna o nome visível */
+
   transform: translateX(0);
+  /* Retorna à posição original */
+
   transition: opacity 0.4s ease, transform 0.4s ease;
+  /* Animação suave de entrada */
+
   transition-delay: 0.16s;
+  /* Pequeno atraso para efeito encadeado */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SAÍDA DO NOME DA CATEGORIA
+   (.title-category.category-exit .category-name)
+   ---------------------------------------------------------
+   Define a animação de saída do texto que representa
+   o nome da categoria, aplicando efeito de fade-out
+   com deslocamento lateral.
+
+   Este bloco define:
+   - opacity: 0 → torna o nome invisível
+   - transform: translateX(64px) → desloca o nome
+     64px para a direita
+   - transition: opacity 0.4s ease, transform 0.4s ease →
+     animação suave de saída
+   - transition-delay: 0s → inicia imediatamente
+
+   IMPORTANTE:
+   - Funciona como contraponto ao estado:
+       .title-category.category-enter .category-name
+   - Pode ser combinado com delay no .pipe
+     para criar saída encadeada
+   - Mantém consistência com o padrão global
+     de animação horizontal (64px)
+   ========================================================= */
 
 .title-category.category-exit .category-name {
   opacity: 0;
+  /* Torna o nome invisível */
+
   transform: translateX(64px);
+  /* Desloca para a direita criando efeito de saída */
+
   transition: opacity 0.4s ease, transform 0.4s ease;
+  /* Animação suave de saída */
+
   transition-delay: 0s;
+  /* Inicia imediatamente */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SAÍDA DO PIPE DA CATEGORIA
+   (.title-category.category-exit .pipe)
+   ---------------------------------------------------------
+   Define a animação de saída do separador visual (pipe)
+   dentro do título da categoria, criando efeito
+   encadeado em relação ao nome.
+
+   Este bloco define:
+   - opacity: 0 → torna o pipe invisível
+   - transform: translateX(64px) → desloca o pipe
+     64px para a direita
+   - transition: opacity 0.4s ease, transform 0.4s ease →
+     animação suave de saída
+   - transition-delay: 0.16s → adiciona pequeno atraso
+     para efeito sequencial (stagger)
+
+   IMPORTANTE:
+   - Funciona como contraponto ao estado:
+       .title-category.category-enter .pipe
+   - Cria sequência animada na saída:
+       1️⃣ Nome sai primeiro
+       2️⃣ Pipe sai logo depois
+   - Mantém consistência com o padrão global
+     de animação horizontal (64px)
+   ========================================================= */
 
 .title-category.category-exit .pipe {
   opacity: 0;
+  /* Torna o pipe invisível */
+
   transform: translateX(64px);
+  /* Desloca para a direita criando efeito de saída */
+
   transition: opacity 0.4s ease, transform 0.4s ease;
+  /* Animação suave de saída */
+
   transition-delay: 0.16s;
+  /* Pequeno atraso para efeito encadeado */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO BASE (INICIAL) DOS ELEMENTOS DA CATEGORIA
+   (.title-category .pipe,
+    .title-category .category-name)
+   ---------------------------------------------------------
+   Define o estado inicial dos dois elementos internos
+   do título da categoria antes das animações de entrada.
+
+   Este bloco aplica:
+   - opacity: 0 → elementos começam invisíveis
+   - transform: translateX(64px) → posiciona os
+     elementos 64px à direita do estado final
+
+   FUNÇÃO ARQUITETURAL:
+   - Serve como ponto de partida para:
+       .category-enter
+       .category-exit
+   - Garante consistência visual no padrão
+     de animação horizontal do projeto
+   - Evita “saltos visuais” ao ativar classes
+     dinamicamente via JavaScript
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ Estado base (invisível + deslocado)
+   2️⃣ .category-enter → move para 0 + fade-in
+   3️⃣ .category-exit → retorna ao estado deslocado
+
+   IMPORTANTE:
+   - Não possui transition aqui de propósito.
+   - A transição é definida apenas nos estados
+     de entrada e saída para maior controle.
+   ========================================================= */
 
 .title-category .pipe,
 .title-category .category-name {
   opacity: 0;
+  /* Começam invisíveis */
+
   transform: translateX(64px);
+  /* Começam deslocados para a direita */
 }
 
-/* ===============================
-   VIEW MODE ICONS – ANIMAÇÃO
-================================ */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 .view-btn {
   opacity: 0;
