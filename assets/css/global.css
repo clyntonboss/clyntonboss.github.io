@@ -262,410 +262,1791 @@ body {
 
 /* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
+/* =========================================================
+   TEXTO DE ÚLTIMA ATUALIZAÇÃO NO HEADER ESQUERDO
+   (.header-left .last-update)
+   ---------------------------------------------------------
+   Estiliza a informação de data ou status exibida abaixo
+   do título/logo na seção esquerda do header.
+   
+   IMPORTANTE:
+   - Afeta somente o elemento específico de atualização
+   - Alterar font-size, margin ou line-height impacta
+     legibilidade e alinhamento visual
+   - Mantém hierarquia visual clara em relação ao título principal
+   ========================================================= */
+
 .header-left .last-update {
-  font-size: 14px;          /* menor que o nome */
-  color: #F8F8F8;             /* tom discreto */
+  font-size: 14px;
+  /* Define o tamanho da fonte do texto de última atualização */
+
+  color: #F8F8F8;
+  /* Cor do texto, garantindo contraste com o fundo do header */
+
   font-weight: 400;
-  margin-top: 4px;            /* espaço entre o nome e a data */
+  /* Espessura normal da fonte, menos chamativa que o título */
+
+  margin-top: 4px;
+  /* Espaçamento acima do texto, separando do elemento principal */
+
   line-height: 1.2;
+  /* Altura da linha para leitura compacta e visual alinhado */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ELEMENTO DE ÚLTIMA ATUALIZAÇÃO VISUAL (.last-update)
+   ---------------------------------------------------------
+   Controla o estilo e animação do texto de atualização
+   que pode aparecer dinamicamente no header ou outros
+   componentes.
+
+   IMPORTANTE:
+   - Afeta a visibilidade e posição inicial do elemento
+   - Propriedades como opacity e transform são usadas
+     para animação (entrada suave)
+   - Alterações sem entender a animação podem quebrar
+     o efeito visual
+   ========================================================= */
 
 .last-update {
    font-size: 14px;
+   /* Define o tamanho da fonte do texto de atualização */
+
    color: #F8F8F8;
+   /* Cor do texto, garantindo contraste com o fundo */
+
    font-weight: 400;
+   /* Espessura normal da fonte, para não competir com títulos */
+
    margin-top: 2px;
+   /* Espaçamento acima do elemento, separando de outros textos */
+
    opacity: 0;
-   transform: translateX(80px); /* começa deslocado para a direita */
-   transition: opacity 1.2s ease, transform 1.2s ease; /* duração maior e easing suave */
+   /* Inicialmente invisível; usado para animação de aparecimento */
+
+   transform: translateX(80px);
+   /* Posição inicial deslocada horizontalmente (80px à direita) para animação */
+
+   transition: opacity 1.2s ease, transform 1.2s ease;
+   /* Define a duração e suavidade da animação de entrada:
+      - Opacidade
+      - Movimento horizontal
+   */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE EXIBIÇÃO DO TEXTO DE ATUALIZAÇÃO
+   (.last-update.visible)
+   ---------------------------------------------------------
+   Controla o estado visível do elemento `.last-update`.
+   Quando a classe `.visible` é adicionada via JS ou interação,
+   o texto aparece suavemente na posição correta.
+
+   IMPORTANTE:
+   - Depende do estado inicial definido em `.last-update`
+   - Alterar valores de opacity ou transform pode quebrar a animação
+   - Esta classe geralmente é aplicada dinamicamente via JavaScript
+   ========================================================= */
+
 .last-update.visible {
-  opacity: 1;                                                /* Opacidade do Texto da Data de Atualização do Site */
-  transform: translateX(0);                                  /* Posição Original do Texto de Atualização do Site */
+  opacity: 1;
+  /* Torna o elemento totalmente visível */
+
+  transform: translateX(0);
+  /* Move o elemento para a posição original, desfazendo o deslocamento inicial */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DO HEADER DIREITO (.header-right a)
+   ---------------------------------------------------------
+   Estiliza os links posicionados na seção direita do header,
+   geralmente usados para navegação, botões ou ícones.
+   
+   IMPORTANTE:
+   - Afeta apenas links dentro de `.header-right`
+   - Alterações em margin, padding ou transition podem impactar
+     o espaçamento e animação visual
+   - Propriedade position relativa permite pseudo-elementos
+     ou animações baseadas em deslocamento
+   ========================================================= */
 
 .header-right a {
   position: relative;
+  /* Permite posicionamento relativo para animações ou pseudo-elementos */
+
   margin-left: 26px;
+  /* Espaçamento à esquerda entre links, criando separação visual */
+
   text-decoration: none;
+  /* Remove sublinhado padrão do link */
+
   color: #F8F8F8;
+  /* Cor do texto do link, garantindo contraste com o fundo do header */
+
   transition: color 0.2s ease, transform 0.2s ease;
-  padding-bottom: 4px; /* espaço pra linha */
+  /* Suaviza mudanças de cor e movimentos ao interagir com o link */
+
+  padding-bottom: 4px;
+  /* Pequeno espaçamento interno inferior, útil para hover effects ou sublinhados animados */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PSEUDO-ELEMENTO DE DESTAQUE DO LINK (.header-right a::after)
+   ---------------------------------------------------------
+   Cria uma barra visual (underline animado) que aparece
+   quando o usuário interage com os links da seção direita
+   do header.
+
+   IMPORTANTE:
+   - Depende do link ter `position: relative` (.header-right a)
+   - Alterações em width, height ou transition afetam a animação
+   - A cor do background define a cor da barra de destaque
+   ========================================================= */
 
 .header-right a::after {
   content: "";
+  /* Cria o pseudo-elemento vazio que será a barra animada */
+
   position: absolute;
+  /* Permite posicionar a barra em relação ao link */
+
   left: 0;
+  /* Posiciona a barra na extremidade esquerda do link */
+
   bottom: 0;
+  /* Posiciona a barra na base do link */
+
   width: 0;
+  /* Inicialmente invisível; largura será animada ao hover */
+
   height: 2px;
-  background-color: #aad4ff; /* mesma cor do hover */
+  /* Altura da barra, definindo sua espessura */
+
+  background-color: #aad4ff;
+  /* Cor da barra animada (destaque visual do link) */
+
   transition: width 0.4s ease;
+  /* Suaviza a expansão da barra quando a largura muda (ex: hover) */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER NOS LINKS DO HEADER DIREITO
+   (.header-right a:hover)
+   ---------------------------------------------------------
+   Controla a interação visual quando o usuário passa o mouse
+   sobre os links na seção direita do header.
+
+   Este bloco trabalha em conjunto com:
+   - `.header-right a` (layout e transição)
+   - `.header-right a::after` (barra animada de destaque)
+
+   IMPORTANTE:
+   - Alterações em color ou transform podem quebrar a animação esperada
+   - Mantém feedback visual consistente e melhora UX
+   ========================================================= */
 
 .header-right a:hover {
   color: #aad4ff;
+  /* Muda a cor do link para a cor de destaque ao passar o mouse */
+
   transform: translateY(-2px);
+  /* Move o link levemente para cima, criando efeito de “elevação” */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EXPANSÃO DA BARRA DO LINK AO HOVER
+   (.header-right a:hover::after)
+   ---------------------------------------------------------
+   Controla a animação da barra de destaque (pseudo-elemento ::after)
+   quando o usuário passa o mouse sobre o link na seção direita
+   do header.
+
+   Este bloco trabalha em conjunto com:
+   - `.header-right a::after` (define a barra inicial e transição)
+   - `.header-right a:hover` (altera cor e elevação do link)
+
+   IMPORTANTE:
+   - Alterar width ou transition pode quebrar o efeito visual
+   - Permite que a barra se expanda suavemente de 0 até 100%
+   ========================================================= */
 
 .header-right a:hover::after {
   width: 100%;
+  /* Expande a barra de destaque para ocupar toda a largura do link */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   FOTO DO HEADER (.header-photo)
+   ---------------------------------------------------------
+   Controla o estilo e animação da imagem de perfil ou ícone
+   dentro do header.
+
+   Este bloco define:
+   - Tamanho e formato da imagem
+   - Comportamento de exibição inicial (invisível e deslocada)
+   - Animação suave de entrada
+
+   IMPORTANTE:
+   - Depende de `.header` ou outro contêiner flexível para alinhamento
+   - Alterar width, height ou border-radius altera proporção e formato
+   - Alterar opacity ou transform impacta a animação de entrada
+   ========================================================= */
+
 .header-photo {
-  width: 70px;            /* altura do cabeçalho = 80px, então 50px fica proporcional */
+  width: 70px;
+  /* Largura da imagem no header */
+
   height: 70px;
-  border-radius: 50%;     /* deixa a foto redonda */
-  object-fit: cover;      /* mantém proporção sem distorcer */
+  /* Altura da imagem no header */
+
+  border-radius: 50%;
+  /* Torna a imagem redonda (círculo perfeito) */
+
+  object-fit: cover;
+  /* Garante que a imagem preencha a área sem distorção,
+     cortando partes excedentes se necessário */
+
   vertical-align: middle;
+  /* Alinha verticalmente em relação a elementos de texto ou inline */
+
   opacity: 0;
-  transform: translateX(40px); /* começa deslocado para a direita */
-  transition: opacity 1.2s ease, transform 1.2s ease; /* duração maior e easing suave */
+  /* Inicialmente invisível; usado para animação de entrada */
+
+  transform: translateX(40px);
+  /* Posição inicial deslocada horizontalmente (40px à direita)
+     para animação de entrada */
+
+  transition: opacity 1.2s ease, transform 1.2s ease;
+  /* Suaviza a animação de aparecimento:
+     - Opacidade
+     - Movimento horizontal
+  */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE EXIBIÇÃO DA FOTO DO HEADER
+   (.header-photo.visible)
+   ---------------------------------------------------------
+   Controla o estado visível da imagem do header. Quando a
+   classe `.visible` é adicionada via JS ou interação, a
+   imagem aparece suavemente no lugar correto.
+
+   Este bloco trabalha em conjunto com:
+   - `.header-photo` (define tamanho, formato e estado inicial)
+   - Contêiner flexível do header para alinhamento
+
+   IMPORTANTE:
+   - Alterar opacity ou transform pode quebrar a animação
+   - Esta classe geralmente é aplicada dinamicamente via JavaScript
+   ========================================================= */
 
 .header-photo.visible {
   opacity: 1;
-  transform: translateX(0); /* termina na posição original */
+  /* Torna a imagem totalmente visível */
+
+  transform: translateX(0);
+  /* Move a imagem para sua posição original, desfazendo o deslocamento inicial */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SEÇÃO DE NOME E DATA NO HEADER (.header-name-date)
+   ---------------------------------------------------------
+   Organiza os elementos de texto relacionados ao usuário ou
+   título com a data associada, geralmente ao lado da foto
+   do header.
+
+   Este bloco define:
+   - Layout vertical dos elementos
+   - Espaçamento entre linhas para leitura clara
+
+   IMPORTANTE:
+   - Depende do contêiner pai ter display flex ou alinhamento apropriado
+   - Alterar line-height ou flex-direction impacta legibilidade e layout
+   ========================================================= */
 
 .header-name-date {
   display: flex;
-  flex-direction: column; /* nome em cima, data embaixo */
+  /* Define o contêiner como flexível para organizar itens internamente */
+
+  flex-direction: column;
+  /* Empilha os elementos verticalmente (nome acima da data) */
+
   line-height: 1.2;
+  /* Espaçamento vertical entre linhas, garantindo leitura compacta e alinhamento visual */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TEXTO DO HEADER (.header-text)
+   ---------------------------------------------------------
+   Contêiner usado para agrupar elementos de texto dentro
+   do header, como título, subtítulo ou informações adicionais.
+
+   Este bloco define:
+   - Layout interno dos textos
+   - Organização vertical dos elementos
+
+   IMPORTANTE:
+   - Depende do contêiner pai para posicionamento correto
+   - Alterar flex-direction muda a forma como os textos são empilhados
+   ========================================================= */
 
 .header-text {
   display: flex;
-  flex-direction: column;  /* nome em cima, data embaixo */
+  /* Define o contêiner como flexível, permitindo organizar itens internamente */
+
+  flex-direction: column;
+  /* Empilha os elementos verticalmente, criando hierarquia visual clara */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   NOME DO USUÁRIO NO HEADER (.header-name)
+   ---------------------------------------------------------
+   Controla o estilo e animação do nome exibido no header,
+   geralmente ao lado da foto do usuário.
+
+   Este bloco define:
+   - Tipografia (tamanho, peso e cor)
+   - Estado inicial invisível e deslocado horizontalmente
+   - Animação suave de entrada quando ativado
+
+   IMPORTANTE:
+   - Alterar opacity ou transform impacta a animação
+   - Alterar font-size ou font-weight impacta hierarquia visual
+   ========================================================= */
 
 .header-name {
   font-size: 30px;
+  /* Tamanho da fonte para destaque do nome */
+
   font-weight: 600;
+  /* Espessura da fonte para destacar o nome visualmente */
+
   color: #F8F8F8;
-  opacity: 0;                 /* começa invisível */
-  transform: translateX(160px); /* começa fora da tela à direita */
+  /* Cor do texto garantindo contraste com o fundo do header */
+
+  opacity: 0;
+  /* Inicialmente invisível para animação de entrada */
+
+  transform: translateX(160px);
+  /* Deslocamento inicial para a direita para efeito de animação */
+
   transition: opacity 1.2s ease, transform 1.2s ease;
+  /* Suaviza a transição de visibilidade e posição quando a classe de ativação é adicionada */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE EXIBIÇÃO DO NOME DO HEADER
+   (.header-name.visible)
+   ---------------------------------------------------------
+   Controla o estado visível do nome do usuário no header.
+   Quando a classe `.visible` é adicionada via JS ou interação,
+   o nome aparece suavemente na posição correta.
+
+   Este bloco trabalha em conjunto com:
+   - `.header-name` (define tipografia e estado inicial invisível)
+
+   IMPORTANTE:
+   - Alterar opacity ou transform pode quebrar a animação
+   - Esta classe geralmente é aplicada dinamicamente via JavaScript
+   ========================================================= */
 
 .header-name.visible {
   opacity: 1;
+  /* Torna o nome totalmente visível */
+
   transform: translateX(0);
+  /* Move o nome para sua posição original, desfazendo o deslocamento inicial */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINK DENTRO DO NOME DO HEADER (.header-name a)
+   ---------------------------------------------------------
+   Estiliza qualquer link presente dentro do nome do usuário
+   no header, garantindo que ele herde o estilo do texto pai.
+
+   Este bloco define:
+   - Cor, decoração e peso da fonte do link
+   - Coerência visual sem sobrescrever a tipografia do pai
+
+   IMPORTANTE:
+   - Alterar color ou font-weight aqui pode quebrar a consistência visual
+   - Este bloco mantém links discretos sem sublinhado ou cores diferentes
+   ========================================================= */
 
 .header-name a {
-  color: inherit;           /* mantém a cor definida no .header-name */
-  text-decoration: none;    /* remove sublinhado */
-  font-weight: inherit;     /* mantém a mesma espessura da fonte */
+  color: inherit;
+  /* Herda a cor do elemento pai (.header-name) */
+
+  text-decoration: none;
+  /* Remove sublinhado padrão de links */
+
+  font-weight: inherit;
+  /* Herda a espessura da fonte do elemento pai */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER NOS LINKS DO NOME DO HEADER
+   (.header-name a:hover)
+   ---------------------------------------------------------
+   Controla a interação visual quando o usuário passa o mouse
+   sobre links dentro do nome do header.
+
+   Este bloco garante que:
+   - O link não receba sublinhado inesperado
+   - A cor permaneça coerente com o elemento pai
+
+   IMPORTANTE:
+   - Alterar color ou text-decoration pode quebrar a coerência visual
+   - Mantém feedback discreto e consistente no hover
+   ========================================================= */
 
 .header-name a:hover {
-  text-decoration: none; /* opcional: efeito ao passar o mouse */
-  color: inherit;          /* mantém a cor original ao passar o mouse */
+  text-decoration: none;
+  /* Garante que o link não fique sublinhado ao passar o mouse */
+
+  color: inherit;
+  /* Mantém a cor herdada do elemento pai, evitando mudanças visuais */
 }
 
-/* Área principal */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ÁREA PRINCIPAL DO SITE (MAIN)
+   ---------------------------------------------------------
+   Define o contêiner principal do conteúdo da página.
+
+   Este bloco controla:
+   - Expansão do conteúdo para preencher o espaço disponível
+   - Espaçamento interno (padding) em torno do conteúdo
+   - Alinhamento horizontal do texto
+
+   IMPORTANTE:
+   - Alterar padding pode impactar a distância de header e footer
+   - Alterar flex afeta a distribuição de espaço vertical
+   - text-align center centraliza apenas o conteúdo inline/texto
+   ========================================================= */
+
 main {
   flex: 1;
+  /* Faz o main expandir para ocupar o espaço restante do contêiner flexível */
+
   padding: 90px 20px 100px;
+  /* Espaçamento interno: 
+     - 90px do topo (evita sobreposição com o header)
+     - 20px laterais (margem mínima em telas menores)
+     - 100px inferior (afasta do footer) */
+
   text-align: center;
+  /* Centraliza horizontalmente o conteúdo de texto ou inline dentro do main */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTÊINER CENTRALIZADO (.container)
+   ---------------------------------------------------------
+   Define uma área de conteúdo centralizada com largura
+   máxima, garantindo alinhamento consistente em diferentes
+   tamanhos de tela.
+
+   Este bloco controla:
+   - Limite máximo de largura
+   - Centralização horizontal
+   - Espaçamento interno lateral
+
+   IMPORTANTE:
+   - Alterar max-width muda o ponto de quebra do layout
+   - Alterar margin ou padding impacta alinhamento e responsividade
+   ========================================================= */
 
 .container {
   max-width: 1324px;
+  /* Define a largura máxima do contêiner para telas grandes */
+
   margin: 0 auto;
+  /* Centraliza horizontalmente o contêiner usando margin automática */
+
   padding: 0 20px;
+  /* Espaçamento interno lateral para evitar que o conteúdo encoste nas bordas da tela */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TÍTULO PRINCIPAL DAS SEÇÕES (.main-section h1)
+   ---------------------------------------------------------
+   Estiliza os títulos de nível 1 dentro das seções principais
+   da página, garantindo alinhamento, hierarquia visual e
+   layout flexível.
+
+   Este bloco controla:
+   - Layout flexível dos elementos dentro do título
+   - Tipografia (tamanho, peso, cor)
+   - Espaçamento inferior
+   - Limite máximo de largura
+   - Comportamento responsivo com quebra de linha
+
+   IMPORTANTE:
+   - Alterar font-size ou font-weight impacta hierarquia visual
+   - Alterar flex-wrap ou gap afeta disposição de ícones ou elementos internos
+   ========================================================= */
 
 .main-section h1 {
   display: flex;
+  /* Transforma o título em contêiner flexível para alinhar ícones ou elementos internos */
+
   align-items: center;
+  /* Alinha verticalmente o conteúdo do título ao centro */
+
   gap: 10px;
+  /* Espaço entre elementos internos, como ícones e texto */
+
   font-size: 2rem;
+  /* Define o tamanho da fonte para destaque visual do título */
+
   font-weight: 600;
+  /* Espessura da fonte para enfatizar hierarquia do título */
+
   color: #264653;
+  /* Cor do texto do título, garantindo contraste e destaque */
+
   margin-bottom: 0.5rem;
+  /* Espaçamento abaixo do título, separando do conteúdo seguinte */
+
   max-width: 1324px;
+  /* Limita a largura do título para manter consistência em telas grandes */
+
   position: relative;
+  /* Permite posicionamento absoluto de elementos filhos se necessário */
+
   flex-wrap: wrap;
+  /* Permite que elementos internos quebrem linha em telas menores */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ÍCONE DO TÍTULO (.title-icon)
+   ---------------------------------------------------------
+   Estiliza os ícones que acompanham os títulos dentro das
+   seções principais, controlando tamanho, opacidade e
+   animação ao interagir.
+
+   Este bloco define:
+   - Dimensões do ícone
+   - Nível de visibilidade inicial
+   - Suavidade das transformações e interações visuais
+
+   IMPORTANTE:
+   - Alterar width ou height impacta proporção e alinhamento
+   - Alterar opacity muda a visibilidade e destaque do ícone
+   - Transition controla animações suaves em hover ou efeitos JS
+   ========================================================= */
 
 .title-icon {
   width: 32px;
+  /* Largura do ícone */
+
   height: 32px;
+  /* Altura do ícone, mantendo proporção quadrada */
+
   opacity: 0.8;
+  /* Define a transparência inicial, tornando o ícone levemente suavizado */
+
   transition: transform 0.4s ease, opacity 0.4s ease;
+  /* Suaviza alterações de posição e visibilidade ao interagir com o ícone */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER NO ÍCONE DO TÍTULO (.title-icon:hover)
+   ---------------------------------------------------------
+   Controla a interação visual quando o usuário passa o mouse
+   sobre ícones que acompanham os títulos das seções principais.
+
+   Este bloco define:
+   - Aumento leve do tamanho (zoom) do ícone
+   - Intensificação da opacidade para destaque visual
+
+   IMPORTANTE:
+   - Depende de `.title-icon` para definir tamanho, opacidade e transição
+   - Alterar transform ou opacity pode quebrar o efeito de hover
+   - Melhora o feedback visual e a experiência do usuário
+   ========================================================= */
 
 .title-icon:hover {
   transform: scale(1.08);
+  /* Aumenta o tamanho do ícone em 8% ao passar o mouse */
+
   opacity: 1;
+  /* Torna o ícone totalmente visível ao interagir */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTÊINER DO TÍTULO (.main-section .title-wrapper)
+   ---------------------------------------------------------
+   Agrupa o título e seus elementos associados, como ícones,
+   permitindo posicionamento relativo para efeitos visuais
+   ou pseudo-elementos.
+
+   Este bloco define:
+   - Comportamento do contêiner como inline-block
+   - Referência para posicionamento absoluto de elementos filhos
+
+   IMPORTANTE:
+   - Alterar display ou position pode impactar alinhamento e
+     a aplicação de pseudo-elementos
+   - Mantém a estrutura organizada para animações ou ícones
+   ========================================================= */
 
 .main-section .title-wrapper {
   display: inline-block;
+  /* Permite que o contêiner se comporte como bloco inline,
+     respeitando alinhamento horizontal e ocupando apenas o espaço necessário */
+
   position: relative;
+  /* Cria contexto de referência para posicionamento absoluto de elementos
+     filhos ou pseudo-elementos dentro do contêiner */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DAS SEÇÕES PRINCIPAIS (.main-section p)
+   ---------------------------------------------------------
+   Estiliza os textos em parágrafos dentro das seções principais,
+   garantindo legibilidade, tamanho adequado e contraste com o fundo.
+
+   Este bloco define:
+   - Tamanho da fonte para leitura confortável
+   - Cor do texto baseada em variável CSS para consistência
+
+   IMPORTANTE:
+   - Alterar font-size impacta hierarquia visual e leitura
+   - Alterar color sem usar a variável pode quebrar o tema geral do site
+   ========================================================= */
 
 .main-section p {
   font-size: 1.05rem;
+  /* Define o tamanho da fonte para parágrafos das seções */
+
   color: var(--text-color);
+  /* Define a cor do texto usando variável CSS para consistência com o tema */
 }
 
-/* Rodapé fixo */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   RODAPÉ FIXO DA PÁGINA (.footer)
+   ---------------------------------------------------------
+   Define o estilo e posicionamento do footer fixo na parte
+   inferior da página, garantindo alinhamento centralizado
+   e estética consistente.
+
+   Este bloco controla:
+   - Posição fixa na tela
+   - Dimensões do footer
+   - Layout interno usando flexbox
+   - Estilo visual (cor, sombra, tipografia)
+   - Espaçamento entre elementos internos
+
+   IMPORTANTE:
+   - Alterar height, padding ou gap impacta alinhamento do conteúdo
+   - Alterar z-index pode causar sobreposição com outros elementos
+   ========================================================= */
+
 .footer {
   position: fixed;
+  /* Mantém o footer fixo no final da página, mesmo ao rolar o conteúdo */
+
   bottom: 0;
+  /* Posiciona o footer na parte inferior da tela */
+
   left: 0;
+  /* Alinha o footer à esquerda da tela */
+
   width: 100%;
+  /* Ocupa toda a largura da tela */
+
   height: 80px;
+  /* Altura do footer */
+
   background-color: var(--bg-color-footer);
+  /* Cor de fundo do footer, definida por variável CSS */
+
   color: #F8F8F8;
+  /* Cor do texto do footer */
+
   display: flex;
+  /* Transforma o contêiner em flexível para organizar itens internos */
+
   align-items: center;
+  /* Alinha verticalmente os elementos ao centro */
+
   justify-content: center;
+  /* Centraliza horizontalmente os elementos internos */
+
   gap: 40px;
+  /* Espaço entre elementos internos do footer */
+
   font-size: 0.95rem;
+  /* Tamanho da fonte do conteúdo do footer */
+
   z-index: 1000;
+  /* Garante que o footer fique acima de outros elementos se necessário */
+
   box-shadow: var(--box-shadow-footer);
+  /* Sombra do footer para destaque visual */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DO FOOTER (.footer a)
+   ---------------------------------------------------------
+   Estiliza os links dentro do footer, geralmente contendo
+   texto acompanhado de ícones, garantindo alinhamento
+   e animação suave.
+
+   Este bloco define:
+   - Layout flexível para alinhar ícone e texto
+   - Espaçamento entre ícone e texto
+   - Cor e estilo do link
+   - Transição suave de interações visuais
+   - Performance otimizada para transformações
+
+   IMPORTANTE:
+   - Alterar gap ou align-items impacta alinhamento do conteúdo
+   - Alterar color ou text-decoration muda a aparência do link
+   - will-change indica ao navegador que transform será alterado, 
+     melhorando performance da animação
+   ========================================================= */
 
 .footer a {
   display: flex;
+  /* Transforma o link em contêiner flexível para alinhar ícone e texto */
+
   align-items: center;
-  gap: 8px; /* espaço entre ícone e texto */
+  /* Alinha verticalmente o ícone e o texto ao centro */
+
+  gap: 8px; 
+  /* Espaço entre o ícone e o texto dentro do link */
+
   text-decoration: none;
+  /* Remove sublinhado padrão do link */
+
   color: #F8F8F8;
+  /* Define a cor do link */
+
   transition: color 0.4s ease, transform 0.4s ease;
-   will-change: transform;
+  /* Suaviza mudanças de cor e transformações ao interagir com o link */
+
+  will-change: transform;
+  /* Informa ao navegador que a propriedade transform será animada,
+     ajudando na performance */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER NOS LINKS DO FOOTER (.footer a:hover)
+   ---------------------------------------------------------
+   Controla a interação visual quando o usuário passa o mouse
+   sobre os links do footer.
+
+   Este bloco define:
+   - Aumento leve do tamanho do link para destaque
+   - Feedback visual claro sem alterar a cor ou alinhamento
+
+   IMPORTANTE:
+   - Depende de `.footer a` para alinhamento, cor e transição
+   - Alterar transform pode impactar animações existentes
+   - Melhora a experiência do usuário ao indicar interatividade
+   ========================================================= */
+
 .footer a:hover {
-   transform: scale(1.1);
+  transform: scale(1.1);
+  /* Aumenta o link em 10% ao passar o mouse, criando efeito de destaque */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ÍCONES DO FOOTER (.footer-icon)
+   ---------------------------------------------------------
+   Estiliza os ícones presentes dentro dos links do footer,
+   controlando tamanho, visibilidade inicial e animação de entrada.
+
+   Este bloco define:
+   - Dimensões do ícone
+   - Estado inicial invisível e reduzido
+   - Transição suave para transformações e opacidade
+
+   IMPORTANTE:
+   - Alterar width ou height impacta proporção e alinhamento
+   - Alterar transform ou opacity muda a animação de entrada
+   - Transition define a suavidade das alterações visuais
+   ========================================================= */
 
 .footer-icon {
   width: 24px;
+  /* Largura do ícone */
+
   height: 24px;
-  
-  /* --- Novos --- */
-  transform: scale(0); /* dentro para fora */
+  /* Altura do ícone, mantendo proporção quadrada */
+
+  transform: scale(0);
+  /* Inicialmente reduzido a 0, usado para animação de entrada */
+
   opacity: 0;
+  /* Inicialmente invisível */
+
   transition: transform 0.5s ease, opacity 0.5s ease;
+  /* Suaviza alterações de tamanho e visibilidade ao exibir o ícone */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SEÇÃO ESQUERDA DO FOOTER (.footer-left)
+   ---------------------------------------------------------
+   Controla o layout e estilo do conteúdo localizado à esquerda
+   do footer, geralmente usado para informações de contato,
+   direitos autorais ou textos adicionais.
+
+   Este bloco define:
+   - Posicionamento absoluto em relação ao footer
+   - Layout flexível vertical
+   - Alinhamento e espaçamento dos elementos internos
+   - Tipografia e cor do texto
+
+   IMPORTANTE:
+   - Alterar left ou position impacta o alinhamento horizontal
+   - Alterar flex-direction ou align-items muda a disposição dos elementos
+   - Alterar font-size ou color altera a legibilidade e destaque
+   ========================================================= */
 
 .footer-left {
   position: absolute;
+  /* Permite posicionamento preciso do contêiner dentro do footer */
+
   left: 50px;
+  /* Distância da borda esquerda do footer */
+
   display: flex;
-  flex-direction: column; /* 👈 força o conteúdo a ficar um embaixo do outro */
-  align-items: flex-start; /* 👈 alinha à esquerda */
-  gap: 2px; /* 👈 pequeno espaçamento entre as linhas */
+  /* Transforma o contêiner em flexível para organizar itens internamente */
+
+  flex-direction: column;
+  /* Empilha os elementos verticalmente */
+
+  align-items: flex-start;
+  /* Alinha os elementos à esquerda do contêiner */
+
+  gap: 2px;
+  /* Espaçamento entre elementos internos, garantindo separação mínima */
+
   font-size: 14px;
+  /* Define tamanho da fonte do conteúdo da seção esquerda */
+
   color: #F8F8F8;
+  /* Cor do texto da seção esquerda, garantindo contraste com o fundo */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS NA SEÇÃO ESQUERDA DO FOOTER (.footer-left p)
+   ---------------------------------------------------------
+   Estiliza os parágrafos dentro da seção esquerda do footer,
+   controlando espaçamento, alinhamento inicial e animação de
+   entrada.
+
+   Este bloco define:
+   - Margens e espaçamento entre linhas
+   - Estado inicial invisível e deslocado horizontalmente
+   - Transição suave para animação de entrada
+
+   IMPORTANTE:
+   - Alterar transform ou opacity impacta animação de entrada
+   - Alterar margin ou line-height afeta legibilidade e layout
+   ========================================================= */
 
 .footer-left p {
   margin: 0;
+  /* Remove margens padrão para evitar espaçamento indesejado */
+
   line-height: 1.4;
-  
-  /* --- Novos --- */
-  transform: translateX(64px); /* começa fora da tela à direita */
+  /* Define altura das linhas para leitura confortável */
+
+  transform: translateX(64px);
+  /* Deslocamento horizontal inicial usado para animação de entrada */
+
   opacity: 0;
+  /* Inicialmente invisível para efeito de fade-in */
+
   transition: transform 0.8s ease, opacity 0.8s ease;
+  /* Suaviza a transição de posição e visibilidade ao animar */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   NOTA DE PRIVACIDADE (.privacy-note)
+   ---------------------------------------------------------
+   Estiliza textos de aviso ou notas de privacidade, geralmente
+   exibidos no footer ou seções informativas.
+
+   Este bloco define:
+   - Tamanho da fonte para legibilidade discreta
+   - Cor do texto coerente com o tema do footer
+   - Estilo itálico para diferenciar do conteúdo principal
+
+   IMPORTANTE:
+   - Alterar font-size impacta legibilidade em dispositivos menores
+   - Alterar color pode quebrar contraste e acessibilidade
+   - font-style italic diferencia visualmente a nota de outros textos
+   ========================================================= */
 
 .privacy-note {
   font-size: 14px;
+  /* Tamanho da fonte para nota de privacidade, pequeno mas legível */
+
   color: #F8F8F8;
+  /* Cor do texto da nota, mantendo contraste com o fundo */
+
   font-style: italic;
+  /* Aplica itálico para diferenciar visualmente do conteúdo normal */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TEXTO PRINCIPAL DO FOOTER (.footer-main-text)
+   ---------------------------------------------------------
+   Estiliza os textos principais dentro do footer, garantindo
+   legibilidade e contraste com o fundo.
+
+   Este bloco define:
+   - Tamanho da fonte adequado para destaque sem exagero
+   - Cor do texto consistente com o tema do footer
+
+   IMPORTANTE:
+   - Alterar font-size impacta hierarquia visual e legibilidade
+   - Alterar color pode quebrar contraste com o fundo
+   ========================================================= */
 
 .footer-main-text {
-  font-size: 16px; /* aumenta discretamente o tamanho da linha superior */
+  font-size: 16px;
+  /* Define tamanho da fonte para o conteúdo principal do footer */
+
   color: #F8F8F8;
+  /* Cor do texto garantindo contraste com o fundo */
 }
 
-/* Quando o texto aparece */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE EXIBIÇÃO DOS PARÁGRAFOS DA SEÇÃO ESQUERDA
+   DO FOOTER (.footer-left p.show)
+   ---------------------------------------------------------
+   Controla a animação de entrada para os parágrafos da
+   seção esquerda do footer. Quando a classe `.show` é
+   adicionada via JavaScript ou interação, os parágrafos
+   aparecem suavemente no lugar correto.
+
+   Este bloco trabalha em conjunto com:
+   - `.footer-left p` (define estado inicial invisível e deslocado)
+
+   IMPORTANTE:
+   - Alterar transform ou opacity impacta a animação
+   - Esta classe é aplicada dinamicamente para criar efeito de fade-in
+   ========================================================= */
+
 .footer-left p.show {
   transform: translateX(0);
+  /* Move o parágrafo para a posição original, desfazendo o deslocamento inicial */
+
   opacity: 1;
+  /* Torna o parágrafo totalmente visível */
 }
 
-/* Quando o ícone aparece */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE EXIBIÇÃO DOS ÍCONES DO FOOTER (.footer-icon.show)
+   ---------------------------------------------------------
+   Controla a animação de entrada para os ícones dentro dos
+   links do footer. Quando a classe `.show` é adicionada via
+   JavaScript ou interação, os ícones aparecem suavemente.
+
+   Este bloco trabalha em conjunto com:
+   - `.footer-icon` (define estado inicial invisível e reduzido)
+
+   IMPORTANTE:
+   - Alterar transform ou opacity impacta a animação
+   - Esta classe é aplicada dinamicamente para criar efeito de fade-in e scale
+   ========================================================= */
+
 .footer-icon.show {
   transform: scale(1);
+  /* Redimensiona o ícone para seu tamanho original, desfazendo a redução inicial */
+
   opacity: 1;
+  /* Torna o ícone totalmente visível */
 }
 
-/* ==============================
-   Configurações da Página Inicial
-   ============================== */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SEÇÃO DE INTRODUÇÃO (.intro-section)
+   ---------------------------------------------------------
+   Define o layout da seção de introdução do site, geralmente
+   usada para apresentar o conteúdo inicial ou banner.
+
+   Este bloco controla:
+   - Layout flexível para centralizar conteúdo
+   - Espaçamento interno (padding) para respiro visual
+
+   IMPORTANTE:
+   - Alterar justify-content muda o alinhamento horizontal
+   - Alterar padding impacta distância do conteúdo em relação às bordas
+   ========================================================= */
 
 .intro-section {
   display: flex;
+  /* Transforma a seção em contêiner flexível */
+
   justify-content: center;
+  /* Centraliza horizontalmente todo o conteúdo interno */
+
   padding: 60px 20px;
+  /* Espaçamento interno:
+     - 60px no topo e inferior
+     - 20px nas laterais */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTÊINER INTERNO DA SEÇÃO DE INTRODUÇÃO (.intro-container)
+   ---------------------------------------------------------
+   Agrupa os elementos internos da seção de introdução (como
+   texto e imagens), garantindo alinhamento, espaçamento e
+   largura máxima para consistência visual.
+
+   Este bloco define:
+   - Layout flexível e alinhamento vertical
+   - Espaçamento entre elementos internos
+   - Limite máximo de largura e centralização na tela
+   - Ocupação total da largura disponível
+
+   IMPORTANTE:
+   - Alterar gap impacta o espaçamento entre elementos internos
+   - Alterar max-width ou width impacta responsividade
+   - Alterar align-items muda o alinhamento vertical
+   ========================================================= */
 
 .intro-container {
   display: flex;
+  /* Transforma o contêiner em flexível para organizar os elementos internos */
+
   align-items: center;
+  /* Alinha verticalmente os elementos ao centro do contêiner */
+
   gap: 40px;
+  /* Espaçamento horizontal entre elementos internos */
+
   max-width: 1324px;
+  /* Define largura máxima para manter layout consistente em telas grandes */
+
   width: 100%;
+  /* Faz o contêiner ocupar toda a largura disponível */
+
   margin: 0 auto;
+  /* Centraliza horizontalmente o contêiner na tela */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   FOTO DE INTRODUÇÃO (.intro-photo)
+   ---------------------------------------------------------
+   Estiliza o contêiner que envolve a foto da seção de
+   introdução, controlando tamanho, layout interno e
+   espaçamento.
+
+   Este bloco define:
+   - Flex-basis e comportamento do contêiner no layout flex
+   - Layout interno flexível vertical
+   - Margem e alinhamento centralizado
+   - Espaçamento entre elementos internos
+
+   IMPORTANTE:
+   - Alterar flex impacta tamanho e comportamento responsivo
+   - Alterar margin ou gap altera a separação visual
+   - align-items: center mantém elementos centralizados verticalmente
+   ========================================================= */
 
 .intro-photo {
   flex: 0 0 308px;
+  /* Define tamanho fixo do contêiner dentro do layout flexível:
+     - flex-grow: 0 (não cresce)
+     - flex-shrink: 0 (não encolhe)
+     - flex-basis: 308px (largura inicial) */
+
   display: flex;
+  /* Ativa layout flex interno para organizar elementos dentro do contêiner */
+
   flex-direction: column;
+  /* Empilha elementos verticalmente */
+
   margin: 16px;
-  align-items: center; /* ← centraliza foto e botão */
+  /* Espaçamento externo ao redor do contêiner */
+
+  align-items: center;
+  /* Centraliza horizontalmente os elementos internos */
+
   gap: 16px;
+  /* Espaço entre elementos internos do contêiner */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   IMAGEM DA FOTO DE INTRODUÇÃO (.intro-photo img)
+   ---------------------------------------------------------
+   Estiliza a imagem dentro do contêiner `.intro-photo`,
+   garantindo proporção, formato circular e destaque visual
+   com sombra.
+
+   Este bloco define:
+   - Ocupação total da largura do contêiner
+   - Proporção quadrada da imagem
+   - Bordas arredondadas em círculo
+   - Como a imagem se ajusta ao contêiner
+   - Sombra para profundidade visual
+
+   IMPORTANTE:
+   - Alterar width impacta tamanho da imagem
+   - Alterar aspect-ratio muda proporção, podendo distorcer
+     a imagem
+   - border-radius 50% cria formato circular
+   - object-fit: cover garante que a imagem preencha o círculo
+   - box-shadow adiciona destaque visual
+   ========================================================= */
 
 .intro-photo img {
   width: 100%;
+  /* Faz a imagem ocupar toda a largura do contêiner pai */
+
   aspect-ratio: 1 / 1;
+  /* Garante proporção quadrada (altura = largura) */
+
   border-radius: 50%;
+  /* Transforma a imagem em círculo */
+
   object-fit: cover;
+  /* Corta ou ajusta a imagem para preencher o contêiner sem distorção */
+
   box-shadow: var(--box-shadow-side-menu);
+  /* Aplica sombra definida na variável CSS para destaque visual */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BOTÃO DE PROJETOS (.btn-projetos)
+   ---------------------------------------------------------
+   Estiliza os botões usados na seção de projetos, controlando
+   aparência, dimensões, espaçamento e efeitos visuais.
+
+   Este bloco define:
+   - Cor de fundo e cor do texto
+   - Padding interno e largura do botão
+   - Bordas arredondadas e sombra para destaque
+   - Transições suaves para hover ou interações
+   - Margens externas para separação de outros elementos
+
+   IMPORTANTE:
+   - Alterar background-color ou color muda aparência principal
+   - Alterar border-radius ou box-shadow muda estética e profundidade
+   - O correto é 'margin-bottom', atualmente está escrito 'margin-botton' e precisa corrigir
+   ========================================================= */
 
 .btn-projetos {
   background-color: var(--bg-color-button);
+  /* Cor de fundo do botão, definida por variável CSS */
+
   color: #F8F8F8;
+  /* Cor do texto do botão */
+
   padding: 10px 20px;
+  /* Espaçamento interno vertical (10px) e horizontal (20px) */
+
   width: 160px;
+  /* Largura fixa do botão */
+
   text-decoration: none;
+  /* Remove sublinhado padrão de links se usados como <a> */
+
   font-weight: 400;
+  /* Espessura da fonte do texto do botão */
+
   border-radius: 25px;
+  /* Bordas arredondadas para formato de pílula */
+
   box-shadow: var(--box-shadow-button);
+  /* Sombra para destaque visual do botão */
+
   transition: background-color 0.4s ease, transform 0.4s ease;
+  /* Suaviza mudanças de cor e transformações ao interagir */
+
   margin-top: 16px;
+  /* Espaço acima do botão */
+
   margin-botton: 16px;
+  /* Atenção: escrito incorretamente, deve ser 'margin-bottom' */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER DO BOTÃO DE PROJETOS (.btn-projetos:hover)
+   ---------------------------------------------------------
+   Controla a interação visual quando o usuário passa o mouse
+   sobre os botões de projetos.
+
+   Este bloco define:
+   - Mudança da cor de fundo para feedback visual
+   - Aumento leve do botão para indicar interatividade
+
+   IMPORTANTE:
+   - Depende de `.btn-projetos` para largura, padding e bordas
+   - Alterar transform ou background-color impacta animação e estética
+   - Garante melhor experiência do usuário ao indicar que o botão é clicável
+   ========================================================= */
 
 .btn-projetos:hover {
   background-color: var(--bg-color-button-hover);
+  /* Altera a cor de fundo ao passar o mouse */
+
   transform: scale(1.06);
+  /* Aumenta o botão em 6% para criar efeito de destaque */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TEXTO DA SEÇÃO DE INTRODUÇÃO (.intro-text)
+   ---------------------------------------------------------
+   Estiliza o bloco de texto da seção de introdução, controlando
+   layout, legibilidade e cor.
+
+   Este bloco define:
+   - Comportamento flexível para ocupar espaço disponível
+   - Alinhamento justificado do texto
+   - Espaçamento interno e altura das linhas
+   - Cor e tamanho da fonte para leitura confortável
+
+   IMPORTANTE:
+   - Alterar flex impacta a ocupação do espaço dentro do contêiner
+   - Alterar text-align muda a forma como o texto é exibido
+   - Alterar line-height ou font-size impacta legibilidade
+   ========================================================= */
 
 .intro-text {
   flex: 1;
+  /* Faz o bloco de texto ocupar o espaço restante dentro do contêiner flex */
+
   text-align: justify;
+  /* Alinha o texto horizontalmente de forma justificada */
+
   margin-top: 12px;
+  /* Espaçamento acima do texto para separar de outros elementos */
+
   line-height: 1.7;
+  /* Altura das linhas para melhor legibilidade */
+
   color: var(--intro-text);
+  /* Define a cor do texto usando variável CSS para consistência visual */
+
   font-size: 1rem;
+  /* Tamanho da fonte do texto da introdução */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DENTRO DO TEXTO DE INTRODUÇÃO (.intro-text p)
+   ---------------------------------------------------------
+   Estiliza os parágrafos individuais dentro do bloco `.intro-text`,
+   controlando espaçamento e legibilidade.
+
+   Este bloco define:
+   - Espaçamento inferior entre parágrafos
+   - Altura das linhas para leitura confortável e fluida
+
+   IMPORTANTE:
+   - Alterar margin-bottom muda a distância entre parágrafos
+   - Alterar line-height impacta legibilidade e densidade visual
+   ========================================================= */
 
 .intro-text p {
   margin-bottom: 1.2em;
+  /* Espaço inferior de 1.2 vezes o tamanho da fonte para separar parágrafos */
+
   line-height: 1.8;
+  /* Altura das linhas aumentada para melhorar a leitura e fluidez do texto */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TEXTO EM NEGRITO DENTRO DE INTRO-TEXT (.intro-text strong)
+   ---------------------------------------------------------
+   Estiliza os elementos `<strong>` dentro do bloco de texto
+   da seção de introdução, garantindo consistência de cor
+   com o restante do texto.
+
+   Este bloco define:
+   - Cor do texto em negrito para manter uniformidade visual
+
+   IMPORTANTE:
+   - Alterar color impacta destaque de partes importantes do texto
+   - Mantém a hierarquia de leitura e contraste adequado
+   ========================================================= */
 
 .intro-text strong {
   color: var(--intro-text);
+  /* Mantém a cor do texto em negrito consistente com o restante do texto */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LISTA DE INTRODUÇÃO (.intro-list)
+   ---------------------------------------------------------
+   Estiliza listas dentro da seção de introdução, controlando
+   espaçamento, estilo de marcador, cor e tamanho do texto.
+
+   Este bloco define:
+   - Margem superior para separar a lista de elementos anteriores
+   - Espaçamento interno à esquerda para alinhar marcadores
+   - Tipo de marcador da lista
+   - Cor e tamanho do texto da lista
+
+   IMPORTANTE:
+   - Alterar margin-top impacta distância da lista em relação a outros elementos
+   - Alterar padding-left muda o recuo dos marcadores
+   - Alterar list-style-type muda o tipo de marcador (círculo, quadrado, número)
+   - Alterar color ou font-size impacta legibilidade e contraste
+   ========================================================= */
 
 .intro-list {
     margin-top: 16px;
+    /* Espaço acima da lista para separar de outros elementos */
+
     padding-left: 20px;
+    /* Recuo interno para posicionar os marcadores corretamente */
+
     list-style-type: disc;
+    /* Define o marcador da lista como círculo preenchido */
+
     color: var(--curriculo-list);
-   font-size: 1.06rem;
+    /* Cor do texto da lista, definida pela variável CSS */
+
+    font-size: 1.06rem;
+    /* Tamanho da fonte dos itens da lista */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ITENS DA LISTA DE INTRODUÇÃO (.intro-list li)
+   ---------------------------------------------------------
+   Estiliza cada item `<li>` dentro da lista `.intro-list`,
+   controlando espaçamento, legibilidade e cor do texto.
+
+   Este bloco define:
+   - Espaçamento inferior entre os itens da lista
+   - Altura das linhas para melhor leitura
+   - Cor consistente com o restante da lista
+
+   IMPORTANTE:
+   - Alterar margin-bottom muda a distância entre itens
+   - Alterar line-height impacta legibilidade e densidade visual
+   - Alterar color deve manter contraste adequado com o fundo
+   ========================================================= */
 
 .intro-list li {
     margin-bottom: 16px;
+    /* Espaço inferior entre cada item da lista */
+
     line-height: 1.7;
+    /* Altura das linhas para facilitar leitura */
+
     color: var(--curriculo-list);
+    /* Cor do texto do item da lista, consistente com a variável CSS */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   MARCADORES DOS ITENS DA LISTA DE INTRODUÇÃO (.intro-list li::marker)
+   ---------------------------------------------------------
+   Estiliza os marcadores (bolinhas) de cada item da lista
+   `.intro-list`, garantindo consistência de cor com o texto.
+
+   Este bloco define:
+   - Cor dos marcadores para combinar com os itens da lista
+
+   IMPORTANTE:
+   - Alterar color impacta contraste e destaque do marcador
+   - Mantém uniformidade visual da lista com o tema do site
+   ========================================================= */
 
 .intro-list li::marker {
     color: var(--curriculo-list);
+    /* Define a cor do marcador da lista usando a variável CSS */
 }
 
-/* Efeito fade-in geral para itens da seção */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ITENS COM EFEITO FADE-IN (.fade-item)
+   ---------------------------------------------------------
+   Define o estado inicial de elementos que serão exibidos
+   com efeito de transição suave (fade-in + slide vertical).
+
+   Este bloco define:
+   - Opacidade inicial invisível
+   - Deslocamento vertical inicial para efeito de movimento
+   - Transição suave para exibição de elementos
+
+   IMPORTANTE:
+   - Alterar opacity ou transform impacta a animação
+   - transition define duração e suavidade do efeito
+   - Esta classe deve ser combinada com uma classe ativa (ex: .show) para animar
+   ========================================================= */
+
 .fade-item {
   opacity: 0;
+  /* Inicialmente invisível */
+
   transform: translateY(30px);
+  /* Deslocamento vertical inicial (30px para baixo) */
+
   transition: opacity 0.8s ease, transform 0.8s ease;
+  /* Suaviza alterações de opacidade e posição ao aparecer */
 }
 
-/* Quando ativo, todos aparecem */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE EXIBIÇÃO DOS ITENS COM FADE-IN (.fade-item.visible)
+   ---------------------------------------------------------
+   Controla a transição de elementos com a classe `.fade-item`.
+   Quando a classe `.visible` é adicionada via JavaScript ou interação,
+   os elementos aparecem suavemente, desfazendo o deslocamento inicial.
+
+   Este bloco trabalha em conjunto com:
+   - `.fade-item` (define estado inicial invisível e deslocado)
+
+   IMPORTANTE:
+   - Alterar transform ou opacity impacta diretamente a animação
+   - Esta classe deve ser aplicada dinamicamente para criar efeito de fade-in e slide
+   ========================================================= */
+
 .fade-item.visible {
   opacity: 1;
+  /* Torna o elemento totalmente visível */
+
   transform: translateY(0);
+  /* Move o elemento para sua posição original, desfazendo o deslocamento inicial */
 }
 
-/* ==============================
-   Fixação da seção de título
-   ============================== */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SEÇÃO COM CABEÇALHO FIXO (.fixed-header-section)
+   ---------------------------------------------------------
+   Estiliza uma seção que permanece visível no topo ao rolar a página,
+   mas com comportamento "sticky" abaixo de um header fixo.
+
+   Este bloco define:
+   - Posição fixa relativa ao scroll
+   - Distância do topo da página
+   - Cor de fundo inicial transparente
+   - Ordem de empilhamento para sobreposição de elementos
+   - Espaçamento interno inferior
+   - Layout flexível interno
+
+   IMPORTANTE:
+   - Alterar top muda a posição inicial do sticky
+   - Alterar z-index impacta sobreposição com outros elementos
+   - Alterar display flex permite alinhar itens internamente
+   ========================================================= */
 
 .fixed-header-section {
   position: sticky;
-  top: 80px; /* altura do cabeçalho */
-  background-color: transparent; /* fundo transparente */
+  /* Mantém a seção fixa ao rolar a página, respeitando o offset definido */
+
+  top: 80px;
+  /* Distância do topo da página para iniciar comportamento sticky */
+
+  background-color: transparent;
+  /* Cor de fundo inicial transparente */
+
   z-index: 50;
+  /* Define a camada de empilhamento para sobreposição correta */
+
   padding-bottom: 10px;
+  /* Espaço interno inferior para separar conteúdo de bordas ou elementos abaixo */
+
   display: flex;
-    /* Removido justify-content: center para alinhar à esquerda */
+  /* Ativa layout flex interno para organizar elementos horizontalmente */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO ATIVO DA SEÇÃO FIXA DO CABEÇALHO
+   (.fixed-header-section.is-active)
+   ---------------------------------------------------------
+   Controla a exibição da seção sticky quando ela se torna
+   ativa, geralmente via JavaScript ao rolar ou interagir
+   com a página.
+
+   Este bloco trabalha em conjunto com:
+   - `.fixed-header-section` (define posição, layout e comportamento sticky)
+
+   IMPORTANTE:
+   - Alterar opacity ou transform impacta animação de entrada
+   - pointer-events: auto garante que elementos internos possam ser clicados
+   ========================================================= */
 
 .fixed-header-section.is-active {
   opacity: 1;
+  /* Torna a seção totalmente visível */
+
   transform: translateY(0);
+  /* Move a seção para sua posição original, desfazendo qualquer deslocamento inicial */
+
   pointer-events: auto;
+  /* Permite interações do usuário com elementos dentro da seção */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTÊINER DA SEÇÃO FIXA DO CABEÇALHO (.fixed-header-container)
+   ---------------------------------------------------------
+   Define o contêiner interno da seção sticky, garantindo
+   limite máximo de largura e ocupação total da área disponível.
+
+   Este bloco define:
+   - Largura máxima para manter consistência visual em telas grandes
+   - Largura total do contêiner para responsividade
+
+   IMPORTANTE:
+   - Alterar max-width impacta layout em telas grandes
+   - Alterar width impacta comportamento responsivo
+   ========================================================= */
+
 .fixed-header-container {
-  max-width: 1324px; /* respeita largura máxima */
+  max-width: 1324px;
+  /* Limita a largura máxima do contêiner para manter consistência visual */
+
   width: 100%;
+  /* Faz o contêiner ocupar toda a largura disponível do elemento pai */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TÍTULO H1 DA SEÇÃO FIXA DO CABEÇALHO
+   (.fixed-header-section h1)
+   ---------------------------------------------------------
+   Estiliza o título principal dentro da seção sticky, controlando
+   layout, alinhamento, espaçamento e tipografia.
+
+   Este bloco define:
+   - Layout flexível para organizar ícones ou elementos internos
+   - Alinhamento vertical dos elementos
+   - Espaçamento entre elementos internos
+   - Tamanho, peso e cor da fonte
+   - Remoção de margens padrão do h1
+
+   IMPORTANTE:
+   - Alterar display ou align-items impacta alinhamento dos elementos internos
+   - Alterar gap muda o espaço entre ícones/textos internos
+   - Alterar font-size ou font-weight impacta hierarquia visual
+   - Alterar color deve manter contraste com o fundo
+   ========================================================= */
 
 .fixed-header-section h1 {
   display: flex;
+  /* Define layout flexível para organizar elementos internos (ex: ícones + texto) */
+
   align-items: center;
+  /* Alinha verticalmente os elementos ao centro */
+
   gap: 10px;
+  /* Espaçamento horizontal de 10px entre elementos internos */
+
   font-size: 2rem;
+  /* Define tamanho do texto do título */
+
   font-weight: 600;
+  /* Define peso da fonte para maior destaque */
+
   color: var(--fixed-header-section);
+  /* Define cor do título usando variável CSS para consistência visual */
+
   margin: 0;
+  /* Remove margem padrão do h1 para alinhamento preciso */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINHA DECORATIVA NA SEÇÃO FIXA DO CABEÇALHO
+   (.fixed-header-section .decorative-line)
+   ---------------------------------------------------------
+   Estiliza a linha decorativa usada na seção sticky, geralmente
+   abaixo do título, para dar destaque visual e separar conteúdos.
+
+   Este bloco define:
+   - Largura e altura da linha
+   - Cor da linha consistente com a seção
+   - Bordas arredondadas para suavidade visual
+   - Margem superior para separar do título e alinhamento correto
+
+   IMPORTANTE:
+   - Alterar width ou height muda a proporção visual da linha
+   - Alterar background-color impacta contraste e visibilidade
+   - border-radius suaviza as extremidades da linha
+   - margin define separação do título ou elementos acima
+   ========================================================= */
 
 .fixed-header-section .decorative-line {
-  width: 400px; /* largura da linha igual à largura do título */
+  width: 400px;
+  /* Largura da linha decorativa */
+
   height: 2px;
+  /* Espessura da linha */
+
   background-color: var(--fixed-header-section);
+  /* Cor da linha, consistente com a seção sticky */
+
   border-radius: 2px;
-  margin: 8px 0 0 0; /* 8px de distância do título, alinhada à esquerda */
+  /* Bordas arredondadas para suavizar extremidades */
+
+  margin: 8px 0 0 0;
+  /* Margem superior de 8px; margens direita, inferior e esquerda zeradas */
 }
 
-/* ==============================
-   Menu Lateral — Alinhamento perfeito
-   ============================== */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   MENU LATERAL (.side-menu)
+   ---------------------------------------------------------
+   Estiliza o contêiner do menu lateral, controlando tamanho,
+   aparência, layout interno e comportamento sticky.
+
+   Este bloco define:
+   - Dimensões fixas do menu
+   - Cor de fundo e bordas arredondadas
+   - Sombra para destaque visual
+   - Espaçamento interno (padding) e controle de box-sizing
+   - Comportamento sticky para manter visível ao rolar a página
+   - Margem externa para separar do conteúdo adjacente
+   - Layout flex vertical para organizar itens internos
+   - Alinhamento e espaçamento entre elementos internos
+
+   IMPORTANTE:
+   - Alterar width ou height impacta ocupação visual
+   - Alterar border-radius ou box-shadow muda estética
+   - Alterar padding ou gap altera espaçamento interno
+   - position: sticky mantém o menu visível durante o scroll
+   ========================================================= */
+
 .side-menu {
-  width: 308px;                  /* largura fixa do menu */
-  height: 620px;                 /* altura total do bloco */
+  width: 308px;
+  /* Largura fixa do menu lateral */
+
+  height: 620px;
+  /* Altura fixa do menu lateral */
+
   background-color: var(--bg-color-header);
+  /* Cor de fundo definida por variável CSS */
+
   border-radius: 12px;
+  /* Bordas arredondadas para suavizar o contêiner */
+
   box-shadow: var(--box-shadow-side-menu);
-  padding: 12px;                  /* distância interna do bloco */
-  box-sizing: border-box;        /* garante que padding não aumente o tamanho total */
-  position: sticky;              /* fixo ao rolar */
-  margin: 16px;                     /* abaixo do cabeçalho */
+  /* Sombra para criar profundidade visual */
+
+  padding: 12px;
+  /* Espaçamento interno do contêiner */
+
+  box-sizing: border-box;
+  /* Inclui padding e border dentro do cálculo de largura/altura */
+
+  position: sticky;
+  /* Mantém o menu fixo ao rolar a página */
+
+  margin: 16px;
+  /* Espaço externo para separar o menu de outros elementos */
+
   display: flex;
+  /* Ativa layout flexível interno */
+
   flex-direction: column;
-  justify-content: flex-start;    /* itens do topo */
-  align-self: flex-start;         /* impede centralização vertical */
-  gap: 4px;                       /* distância entre os botões */
+  /* Organiza os elementos verticalmente */
+
+  justify-content: flex-start;
+  /* Alinha os elementos no topo do contêiner */
+
+  align-self: flex-start;
+  /* Alinha o contêiner no início do eixo flex do pai */
+
+  gap: 4px;
+  /* Espaçamento entre elementos internos do menu */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 .side-menu ul {
   list-style: none;
