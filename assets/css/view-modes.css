@@ -1,3 +1,31 @@
+/* =========================================================
+   ESTILO DE HEADER COM CONTROLES
+   (.header-with-controls)
+   ---------------------------------------------------------
+   Define o layout e alinhamento do header quando
+   ele contém elementos de controle, como botões
+   ou ícones interativos.
+
+   Este bloco aplica:
+   - display: flex → ativa o modelo Flexbox
+   - align-items: center → alinha verticalmente os
+     itens ao centro
+   - justify-content: space-between → distribui os
+     elementos horizontalmente com espaçamento máximo
+     entre eles
+
+   FUNÇÃO ARQUITETURAL:
+   - Cria um header responsivo e organizado
+   - Permite posicionamento consistente de logo, título,
+     e controles à direita ou esquerda
+   - Mantém coerência visual com o design geral do projeto
+
+   IMPORTANTE:
+   - Elementos internos devem respeitar o flex container
+   - Flexbox facilita adaptação a diferentes larguras
+     de tela e layouts
+   ========================================================= */
+
 .header-with-controls {
     display: flex;
     align-items: center;
