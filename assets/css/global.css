@@ -3021,215 +3021,994 @@ main {
 
 /* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
+/* =========================================================
+   PARÁGRAFOS NOS DETALHES DE EXPERIÊNCIA (.exp-details p)
+   ---------------------------------------------------------
+   Estiliza o texto dentro do bloco de detalhes de cada experiência,
+   garantindo legibilidade, espaçamento consistente e hierarquia visual.
+
+   Este bloco define:
+   - Tamanho da fonte para leitura confortável
+   - Altura da linha para espaçamento adequado entre linhas
+   - Margem inferior e recuo à esquerda para alinhamento com outros elementos
+   - Cor consistente com a paleta de detalhes da experiência
+
+   IMPORTANTE:
+   - Alterar font-size ou line-height impacta legibilidade
+   - margin-left cria hierarquia visual em relação ao header
+   - color deve seguir variável CSS para manter consistência visual
+   ========================================================= */
+
 .exp-details p {
    font-size: 16px;
+   /* Tamanho da fonte para leitura clara do conteúdo */
+
    line-height: 1.8;
+   /* Altura da linha para espaçamento vertical confortável */
+
    margin: 0 0 8px 8px;
+   /* Margem inferior para separar parágrafos e recuo à esquerda */
+
    color: var(--exp-details);
+   /* Cor do texto definida para os detalhes da experiência */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS NOS DETALHES DE EXPERIÊNCIA (.exp-details a)
+   ---------------------------------------------------------
+   Estiliza links contidos dentro do bloco de detalhes de cada
+   experiência, garantindo espaçamento adequado entre links
+   ou entre links e outros elementos do conteúdo.
+
+   Este bloco define:
+   - Margem vertical para separar links de outros elementos
+     (acima e abaixo do link)
+
+   IMPORTANTE:
+   - Alterar margin impacta o espaçamento visual entre links e textos
+   - A cor e comportamento dos links podem ser definidos separadamente
+   ========================================================= */
 
 .exp-details a {
    margin: 8px 0;
+   /* Espaçamento vertical acima e abaixo de cada link nos detalhes */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DE ARTIGOS NOS DETALHES DE EXPERIÊNCIA
+   (.exp-details-artigos a)
+   ---------------------------------------------------------
+   Estiliza links de artigos ou referências dentro do bloco de
+   detalhes de cada experiência, garantindo espaçamento
+   horizontal consistente entre links.
+
+   Este bloco define:
+   - Margem horizontal (esquerda e direita) para separar links
+     entre si e evitar que fiquem colados
+
+   IMPORTANTE:
+   - margin afeta o espaçamento lateral, útil para listas de links
+   - cores e hover devem ser definidos separadamente para consistência
+   ========================================================= */
 
 .exp-details-artigos a {
    margin: 0 8px;
+   /* Espaçamento horizontal entre links de artigos nos detalhes */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINK DE ARTIGO DESTAQUE NOS DETALHES DE EXPERIÊNCIA
+   (.exp-details .link-artigo-destaque)
+   ---------------------------------------------------------
+   Estiliza links destacados dentro do bloco de detalhes de
+   cada experiência, geralmente usados para artigos ou
+   referências mais importantes.
+
+   Este bloco define:
+   - Margem à esquerda para separar o link de outros elementos
+     dentro do bloco de detalhes
+
+   IMPORTANTE:
+   - margin-left ajusta o recuo horizontal do link destacado
+   - Útil para criar hierarquia visual e destaque em relação a
+     outros links ou textos
+   ========================================================= */
 
 .exp-details .link-artigo-destaque {
    margin-left: 8px;
+   /* Recuo à esquerda para destacar visualmente o link */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   IMAGENS NOS DETALHES DE EXPERIÊNCIA (.exp-details img)
+   ---------------------------------------------------------
+   Estiliza imagens contidas dentro do bloco de detalhes de
+   cada experiência, garantindo que sejam renderizadas como
+   blocos e evitando espaços indesejados abaixo da imagem.
+
+   Este bloco define:
+   - display: block para remover comportamento inline padrão
+     de imagens e prevenir gaps verticais
+
+   IMPORTANTE:
+   - Alterar display impacta o alinhamento e espaçamento
+     das imagens dentro do conteúdo
+   ========================================================= */
 
 .exp-details img {
   display: block;
+  /* Garante que a imagem seja exibida como bloco, eliminando gaps verticais */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   DETALHES DE EXPERIÊNCIA ABERTOS (.exp-details.open)
+   ---------------------------------------------------------
+   Estiliza o estado "aberto" dos detalhes de cada experiência,
+   geralmente acionado ao clicar no toggle, permitindo que o
+   conteúdo seja visível com animação suave.
+
+   Este bloco define:
+   - max-height grande para que o conteúdo possa ser totalmente exibido
+   - Opacidade 1 para tornar o conteúdo visível
+
+   IMPORTANTE:
+   - max-height deve ser suficiente para conter todo o conteúdo
+     sem cortar elementos
+   - opacity garante efeito de fade-in ao abrir os detalhes
+   - A transição definida em .exp-details suaviza a abertura
+   ========================================================= */
+
 .exp-details.open {
-  max-height: 2000px; /* valor alto */
+  max-height: 2000px;
+  /* Define altura máxima suficiente para mostrar todo o conteúdo */
+
   opacity: 1;
+  /* Torna o conteúdo visível ao usuário */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TOGGLE ROTACIONADO QUANDO DETALHES ABERTOS
+   (.exp-header.open .exp-toggle)
+   ---------------------------------------------------------
+   Estiliza o botão de toggle dentro do header de experiência
+   quando o bloco de detalhes está aberto, indicando visualmente
+   que o conteúdo foi expandido.
+
+   Este bloco define:
+   - Rotação de 90° do toggle para sinalizar expansão do conteúdo
+
+   IMPORTANTE:
+   - transform: rotate(90deg) gira o botão ou ícone (ex.: seta)
+     sem alterar seu layout
+   - Este estado é acionado via classe .open no header
+   - A transição definida em .exp-toggle suaviza a rotação
+   ========================================================= */
 
 .exp-header.open .exp-toggle {
   transform: rotate(90deg);
+  /* Gira o botão de toggle 90° quando os detalhes da experiência estão abertos */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   DETALHES DE EXPERIÊNCIA ATIVA (.experience.active .exp-details)
+   ---------------------------------------------------------
+   Estiliza o bloco de detalhes de uma experiência quando
+   a experiência está marcada como ativa, permitindo que
+   o conteúdo excedente seja visível.
+
+   Este bloco define:
+   - overflow: visible para permitir que o conteúdo que ultrapassa
+     o container seja exibido corretamente
+
+   IMPORTANTE:
+   - Útil em casos onde detalhes contêm elementos que podem
+     "sair" do container principal (ex.: imagens, listas longas)
+   - Não afeta o max-height ou opacity, apenas a renderização
+     do conteúdo dentro do container
+   ========================================================= */
 
 .experience.active .exp-details {
   overflow: visible;
+  /* Permite que o conteúdo interno do bloco de detalhes apareça fora do container, se necessário */
 }
 
-/* Ocultação da Barra de Rolamento Lateral */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTILO GLOBAL PARA HTML E BODY
+   (html, body)
+   ---------------------------------------------------------
+   Define propriedades essenciais para a estrutura base do site,
+   garantindo que o layout ocupe 100% da altura da tela e
+   removendo margens e padding padrão do navegador.
+
+   Este bloco define:
+   - height: 100% para que o HTML e o body preencham toda a altura da janela
+   - margin: 0 remove margens padrão do navegador
+   - padding: 0 remove padding padrão do navegador
+   - overflow: hidden impede barras de rolagem, útil para layouts
+     de tela cheia ou quando o scroll é controlado por outros elementos
+
+   IMPORTANTE:
+   - Alterar overflow pode reativar a rolagem padrão da página
+   - Essas propriedades afetam toda a página, portanto mudanças
+     impactam todos os elementos filhos
+   ========================================================= */
+
 html, body {
   height: 100%;
+  /* Garante que a página ocupe toda a altura da janela do navegador */
+
   margin: 0;
+  /* Remove a margem padrão aplicada pelo navegador */
+
   padding: 0;
-  overflow: hidden; /* Remove a barra do body */
+  /* Remove o padding padrão aplicado pelo navegador */
+
+  overflow: hidden;
+  /* Bloqueia a rolagem padrão da página */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   WRAPPER DE SCROLL VERTICAL (.scroll-wrapper)
+   ---------------------------------------------------------
+   Cria um container que controla a rolagem vertical da página
+   ou de seções específicas, permitindo scroll interno mesmo
+   quando o body está com overflow: hidden.
+
+   Este bloco define:
+   - height: 100% para ocupar toda a altura do container pai
+   - overflow-y: scroll para permitir rolagem vertical
+   - scrollbar-width: none para esconder a barra de rolagem no Firefox
+   - -ms-overflow-style: none para esconder a barra de rolagem no IE/Edge
+
+   IMPORTANTE:
+   - Útil quando o layout global bloqueia o scroll do body
+   - Mantém a rolagem apenas dentro do wrapper
+   - Alterar height ou overflow impacta como o conteúdo é rolado
+   ========================================================= */
 
 .scroll-wrapper {
   height: 100%;
-  overflow-y: scroll;       /* Permite rolagem vertical */
-  scrollbar-width: none;    /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+  /* Ocupar toda a altura do container pai */
+
+  overflow-y: scroll;
+  /* Permite rolagem vertical do conteúdo interno */
+
+  scrollbar-width: none;
+  /* Oculta a barra de rolagem no Firefox */
+
+  -ms-overflow-style: none;
+  /* Oculta a barra de rolagem no IE e Edge */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESCONDER BARRA DE ROLAGEM NO WEBKIT
+   (.scroll-wrapper::-webkit-scrollbar)
+   ---------------------------------------------------------
+   Remove a barra de rolagem em navegadores baseados em WebKit
+   (Chrome, Safari, Edge Chromium) para manter aparência limpa
+   do scroll interno do wrapper.
+
+   Este bloco define:
+   - display: none para esconder a barra de rolagem nativa
+
+   IMPORTANTE:
+   - Funciona apenas em navegadores que suportam pseudo-elemento ::-webkit-scrollbar
+   - O conteúdo ainda pode ser rolado, apenas a barra fica invisível
+   - Essencial para manter design minimalista quando usado com .scroll-wrapper
+   ========================================================= */
 
 .scroll-wrapper::-webkit-scrollbar {
-  display: none; /* Chrome, Safari e Edge */
+  display: none;
+  /* Oculta a barra de rolagem nativa no Chrome, Safari e Edge Chromium */
 }
 
-/* Impede seleção de texto em toda a página */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOQUEIO DE SELEÇÃO DE TEXTO NO BODY
+   (body)
+   ---------------------------------------------------------
+   Impede que o usuário selecione texto na página, mantendo
+   a interface limpa e evitando marcações acidentais.
+
+   Este bloco define:
+   - user-select: none para navegadores modernos
+   - -webkit-user-select: none para Chrome, Safari e Edge Chromium
+   - -moz-user-select: none para Firefox
+   - -ms-user-select: none para Internet Explorer e Edge Legacy
+
+   IMPORTANTE:
+   - Evita seleção de texto em todo o body
+   - Útil para interfaces que dependem de interação por clique/drag sem seleção de texto
+   - Alterar ou remover permite que o usuário selecione texto normalmente
+   ========================================================= */
+
 body {
-  user-select: none;          /* padrão moderno */
-  -webkit-user-select: none;  /* Chrome, Safari */
-  -moz-user-select: none;     /* Firefox */
-  -ms-user-select: none;      /* IE/Edge antigo */
+  user-select: none;
+  /* Bloqueia seleção de texto em navegadores modernos */
+
+  -webkit-user-select: none;
+  /* Bloqueia seleção em Chrome, Safari e Edge Chromium */
+
+  -moz-user-select: none;
+  /* Bloqueia seleção em Firefox */
+
+  -ms-user-select: none;
+  /* Bloqueia seleção em Internet Explorer e Edge Legacy */
 }
 
-/* Borda dos Certificados */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   MINIATURAS DE CERTIFICADOS (.cert-thumb)
+   ---------------------------------------------------------
+   Estiliza imagens em miniatura de certificados ou diplomas,
+   garantindo tamanho consistente, borda visível e interação
+   visual ao passar o mouse.
+
+   Este bloco define:
+   - border: 1px sólido com cor da seção fixa do header
+     para destaque sutil da miniatura
+   - border-radius: 6px para cantos arredondados
+   - padding: 2px para criar pequeno espaçamento interno
+   - width e height fixos para uniformidade das miniaturas
+   - display: block para remover comportamento inline padrão de imagens
+   - cursor: pointer para indicar que a miniatura é clicável
+   - transition em transform e box-shadow para animação suave em hover
+
+   IMPORTANTE:
+   - Alterar width/height impacta layout do grid ou carrossel
+   - A cor da borda deve seguir paleta do site para consistência visual
+   ========================================================= */
 
 .cert-thumb {
-    border: 1px solid var(--fixed-header-section);                         /* borda bem discreta */
-    border-radius: 6px;                                         /* cantos levemente arredondados */
-    padding: 2px;                                               /* pequena área interna */
+    border: 1px solid var(--fixed-header-section);
+    /* Borda sutil usando cor da seção fixa do header */
+
+    border-radius: 6px;
+    /* Cantos arredondados para estética agradável */
+
+    padding: 2px;
+    /* Pequeno espaçamento interno entre imagem e borda */
 
     width: 240px;
     height: 170px;
+    /* Dimensões fixas para uniformidade das miniaturas */
+
     display: block;
+    /* Garante que a imagem se comporte como bloco */
+
     cursor: pointer;
-   
+    /* Indica que a miniatura é clicável */
+
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Suaviza transformações visuais ao interagir com a miniatura */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER PARA MINIATURAS DE CERTIFICADOS
+   (.cert-thumb:hover)
+   ---------------------------------------------------------
+   Adiciona interação visual quando o usuário passa o mouse
+   sobre a miniatura de certificado, destacando o elemento.
+
+   Este bloco define:
+   - transform: scale(1.02) para aumentar levemente a miniatura
+     criando efeito de zoom
+   - box-shadow usando variável de sombra do side menu para dar
+     profundidade e destaque visual
+
+   IMPORTANTE:
+   - A transição suave é controlada pelo .cert-thumb (transform e box-shadow)
+   - Alterar scale ou box-shadow muda a intensidade do efeito visual
+   ========================================================= */
 
 .cert-thumb:hover {
     transform: scale(1.02);
+    /* Leve aumento da miniatura para indicar interatividade */
+
     box-shadow: var(--box-shadow-side-menu);
+    /* Adiciona sombra para criar profundidade e destaque visual */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   MARGEM PARA TEXTO DE CERTIFICADOS (.cert-text-margin)
+   ---------------------------------------------------------
+   Define recuo à esquerda para textos associados às
+   miniaturas de certificados, garantindo alinhamento e
+   espaçamento consistente em relação à imagem.
+
+   Este bloco define:
+   - margin-left: 16px para separar visualmente o texto da miniatura
+
+   IMPORTANTE:
+   - Ajustar esta margem afeta o alinhamento horizontal do texto
+   - Mantém consistência visual entre diferentes certificados
+   ========================================================= */
 
 .cert-text-margin {
     margin-left: 16px;
+    /* Espaçamento à esquerda para separar o texto da miniatura */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOCO DE MINIATURAS DE CERTIFICADOS (.cert-thumb-block)
+   ---------------------------------------------------------
+   Define espaçamento externo para cada bloco de miniatura de
+   certificado, garantindo separação consistente entre as
+   miniaturas no layout.
+
+   Este bloco define:
+   - margin: 20px 16px para criar espaço vertical e horizontal
+     entre os blocos de miniaturas
+
+   IMPORTANTE:
+   - Ajustar estas margens impacta a distribuição das miniaturas
+     dentro do container
+   - Mantém uniformidade e evita que as miniaturas fiquem coladas
+   ========================================================= */
 
 .cert-thumb-block {
     margin: 20px 16px;
+    /* Espaçamento vertical e horizontal entre miniaturas */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   MINIATURAS DE CERTIFICADOS COMPACTAS (.cert-thumb--compact)
+   ---------------------------------------------------------
+   Define espaçamento reduzido para miniaturas de certificados
+   em layouts compactos ou quando várias miniaturas são exibidas
+   em linha.
+
+   Este bloco define:
+   - margin: 0 8px para criar pequeno espaçamento horizontal
+     entre miniaturas, sem adicionar margem vertical
+
+   IMPORTANTE:
+   - Útil para grids ou carrosséis de certificados onde o espaço
+     horizontal é limitado
+   - Mantém consistência visual mesmo em layouts compactos
+   ========================================================= */
 
 .cert-thumb--compact {
     margin: 0 8px;
+    /* Pequeno espaçamento horizontal entre miniaturas compactas */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   MINIATURAS DE CERTIFICADOS EM ACORDION (.cert-thumb--accordion)
+   ---------------------------------------------------------
+   Define espaçamento externo para miniaturas de certificados
+   exibidas dentro de um componente tipo accordion, garantindo
+   separação consistente entre os itens.
+
+   Este bloco define:
+   - margin: 20px 8px para espaçamento vertical (20px) e
+     horizontal (8px) entre miniaturas dentro do accordion
+
+   IMPORTANTE:
+   - Ajustar esta margem impacta a distribuição das miniaturas
+     no accordion
+   - Mantém alinhamento e estética uniforme do layout
+   ========================================================= */
 
 .cert-thumb--accordion {
     margin: 20px 8px;
+    /* Espaçamento vertical e horizontal para miniaturas no accordion */
 }
-/* Categorias dos Certificados */
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   SEÇÃO DE CATEGORIAS DE CERTIFICADOS (.cert-categories)
+   ---------------------------------------------------------
+   Define o espaçamento interno e externo da lista ou barra de
+   categorias de certificados, garantindo alinhamento e
+   separação visual consistente.
+
+   Este bloco define:
+   - margin-top: 0px e margin-bottom: 0px para remover
+     margens externas e evitar espaçamento extra
+   - padding: 16px 0 para adicionar espaçamento interno
+     vertical, mantendo o conteúdo confortável visualmente
+
+   IMPORTANTE:
+   - Ajustar padding altera a distância entre categorias
+     e outros elementos
+   - Mantém consistência no layout do portfólio de certificados
+   ========================================================= */
 
 .cert-categories {
     margin-top: 0px;
     margin-bottom: 0px;
+    /* Remove margens externas para controle de espaçamento */
+
     padding: 16px 0;
+    /* Espaçamento interno vertical entre categorias */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DE CERTIFICADOS EM GRID (.cert-links)
+   ---------------------------------------------------------
+   Organiza links ou miniaturas de certificados em uma grade
+   responsiva, facilitando a visualização lado a lado.
+
+   Este bloco define:
+   - display: grid para criar layout de grade
+   - grid-template-columns: 1fr 1fr para dividir a área em duas
+     colunas iguais
+   - gap: 12px 40px define espaçamento vertical (12px) e horizontal (40px)
+     entre os itens da grade
+   - margin-top: 8px para espaçamento acima da grade em relação
+     a elementos anteriores
+
+   IMPORTANTE:
+   - Ajustar grid-template-columns altera o número de colunas
+   - Gap controla espaçamento entre itens; cuidado com valores grandes
+     em telas pequenas
+   ========================================================= */
 
 .cert-links {
     display: grid;
+    /* Cria um layout de grade para os links/miniaturas */
+
     grid-template-columns: 1fr 1fr;
-    gap: 12px 40px; /* espaço vertical | horizontal */
+    /* Define duas colunas iguais na grade */
+
+    gap: 12px 40px;
+    /* Espaçamento vertical de 12px e horizontal de 40px entre itens */
+
     margin-top: 8px;
+    /* Espaçamento acima da grade para separar de elementos anteriores */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTILO DOS LINKS DE CERTIFICADOS (.cert-links a)
+   ---------------------------------------------------------
+   Estiliza os links individuais dentro da grade de certificados,
+   garantindo legibilidade, interatividade e espaçamento adequado.
+
+   Este bloco define:
+   - text-decoration: none para remover sublinhado padrão dos links
+   - font-size: 18px para tamanho de texto legível
+   - color: var(--curriculo-list) para manter consistência com a paleta do currículo
+   - transition: all 0.4s ease para animações suaves em hover e outros estados
+   - padding: 4px 4px 4px 2px para controle de espaçamento interno
+   - margin-left: 8px para separação horizontal em relação a outros elementos
+   - width: fit-content para que o link ocupe apenas o espaço necessário ao texto
+
+   IMPORTANTE:
+   - Alterar padding ou margin impacta alinhamento e espaçamento visual
+   - O transition facilita efeitos de hover ou transformação sem mudanças bruscas
+   ========================================================= */
 
 .cert-links a {
     text-decoration: none;
+    /* Remove sublinhado padrão dos links */
+
     font-size: 18px;
+    /* Define tamanho legível do texto */
+
     color: var(--curriculo-list);
+    /* Mantém cor consistente com a paleta do currículo */
+
     transition: all 0.4s ease;
-    padding: 4px 4px 4px 2px; /* Pequeno espaçamento para manter o alinhamento */
+    /* Suaviza mudanças de estilo ao interagir com o link */
+
+    padding: 4px 4px 4px 2px;
+    /* Espaçamento interno do link (topo, direita, baixo, esquerda) */
+
     margin-left: 8px;
+    /* Espaçamento horizontal em relação a elementos anteriores */
+
     width: fit-content;
+    /* Faz o link ocupar apenas o espaço necessário ao conteúdo */
 }
 
-/* Hover suave, elegante e SEM efeito de botão */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER PARA LINKS DE CERTIFICADOS
+   (.cert-links a:hover)
+   ---------------------------------------------------------
+   Adiciona interatividade visual quando o usuário passa o
+   mouse sobre os links de certificados, destacando o elemento.
+
+   Este bloco define:
+   - transform: scale(1.04) para aumentar levemente o link
+     criando efeito de zoom
+   - color: var(--link-cert) para alterar a cor do texto em hover
+   - text-shadow: var(--box-shadow-link-cert) para adicionar profundidade
+     e destaque visual ao texto
+
+   IMPORTANTE:
+   - A transição suave é controlada pelo .cert-links a (transition: all 0.4s ease)
+   - Ajustar scale, color ou text-shadow muda a intensidade do efeito visual
+   ========================================================= */
+
 .cert-links a:hover {
-    transform: scale(1.04);   /* Cresce de forma suave */
+    transform: scale(1.04);
+    /* Leve aumento do link para indicar interatividade */
+
     color: var(--link-cert);
+    /* Alteração de cor do texto no hover para destaque */
+
     text-shadow: var(--box-shadow-link-cert);
+    /* Sombra sutil no texto para maior profundidade visual */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINK DE VERIFICAÇÃO DE CERTIFICADO (.cert-link-verify)
+   ---------------------------------------------------------
+   Estiliza links de verificação de certificados ou diplomas,
+   tornando-os destacados, interativos e visualmente consistentes.
+
+   Este bloco define:
+   - font-weight: bold para tornar o link mais visível e legível
+   - text-decoration: none para remover sublinhado padrão
+   - color: var(--link-cert) para manter a paleta de links do site
+   - cursor: pointer para indicar que o elemento é clicável
+   - transition: opacity 0.2s ease para animações suaves em hover ou interações
+
+   IMPORTANTE:
+   - Este link normalmente aponta para verificação externa de certificado
+   - Alterar a cor ou font-weight impacta a hierarquia visual em relação a outros links
+   ========================================================= */
 
 .cert-link-verify {
     font-weight: bold;
+    /* Torna o link mais visível e destacado */
+
     text-decoration: none;
-    color: var(--link-cert); /* acompanha tema claro/escuro */
+    /* Remove sublinhado padrão do link */
+
+    color: var(--link-cert);
+    /* Mantém cor consistente com outros links de certificados */
+
     cursor: pointer;
+    /* Indica que o link é clicável */
+
     transition: opacity 0.2s ease;
+    /* Suaviza mudanças de opacidade em interações ou hover */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER PARA LINK DE VERIFICAÇÃO DE CERTIFICADO
+   (.cert-link-verify:hover)
+   ---------------------------------------------------------
+   Adiciona destaque visual ao passar o mouse sobre o link
+   de verificação de certificado, criando profundidade e
+   atraindo a atenção do usuário.
+
+   Este bloco define:
+   - text-shadow: var(--box-shadow-link-cert) para aplicar uma
+     sombra sutil ao texto, aumentando o destaque durante o hover
+
+   IMPORTANTE:
+   - A transição suave já está definida em .cert-link-verify
+     (transition: opacity 0.2s ease)
+   - Alterar text-shadow muda a intensidade do destaque visual
+   ========================================================= */
+
 .cert-link-verify:hover {
-  text-shadow: var(--box-shadow-link-cert);
+    text-shadow: var(--box-shadow-link-cert);
+    /* Aplica sombra ao texto para destaque visual no hover */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINK DE CERTIFICADO NÃO VERIFICADO (.cert-no-verify)
+   ---------------------------------------------------------
+   Estiliza textos ou links que indicam certificados não
+   verificados, mantendo consistência visual com os links
+   de verificação, mas sem interatividade.
+
+   Este bloco define:
+   - font-weight: bold para destacar o texto em relação ao corpo
+   - text-decoration: none para remover sublinhado padrão
+   - color: var(--link-cert) para manter a paleta de links do site
+
+   IMPORTANTE:
+   - Diferencia visualmente de certificados verificáveis
+   - Não há cursor pointer nem efeitos de hover, indicando
+     que não é clicável
+   ========================================================= */
 
 .cert-no-verify {
     font-weight: bold;
+    /* Destaca visualmente o texto do certificado */
+
     text-decoration: none;
-    color: var(--link-cert); /* acompanha tema claro/escuro */
+    /* Remove sublinhado padrão do texto */
+
+    color: var(--link-cert);
+    /* Mantém cor consistente com a paleta de links de certificados */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DE CERTIFICADOS COMPACTOS (.cert-links--compact)
+   ---------------------------------------------------------
+   Ajusta o posicionamento de links de certificados em layouts
+   compactos, geralmente usados quando há pouco espaço
+   horizontal ou dentro de grids mais apertados.
+
+   Este bloco define:
+   - margin-left: 0 para remover qualquer espaçamento à esquerda
+     e alinhar os links diretamente ao início do container
+
+   IMPORTANTE:
+   - Útil em layouts compactos para manter consistência visual
+   - Altera apenas a margem esquerda, mantendo demais estilos
+     dos links
+   ========================================================= */
 
 .cert-links--compact {
     margin-left: 0;
+    /* Remove margem esquerda para alinhamento em layouts compactos */
 }
 
-/* Remove margem superior apenas na página de certificados */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   AJUSTE ESPECÍFICO DE CATEGORIAS DE CERTIFICADOS NO CURRÍCULO
+   (#curriculo .cert-categories)
+   ---------------------------------------------------------
+   Remove margens e espaçamento interno no topo da seção de
+   categorias de certificados dentro do container #curriculo,
+   garantindo alinhamento preciso com outros elementos.
+
+   Este bloco define:
+   - margin-top: 0 !important para remover qualquer margem superior
+   - padding-top: 0 !important para eliminar espaçamento interno
+     no topo
+
+   IMPORTANTE:
+   - O uso de !important força a prioridade sobre regras anteriores
+   - Útil para correções pontuais de layout em containers específicos
+   - Deve ser usado com cuidado para não dificultar manutenção futura
+   ========================================================= */
+
 #curriculo .cert-categories {
     margin-top: 0 !important;
+    /* Remove margem superior, garantindo alinhamento exato */
+
     padding-top: 0 !important;
+    /* Remove espaçamento interno superior, mantendo layout compacto */
 }
 
-/* Página estática */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADOS FIXOS PARA HEADER EM BODY STATIC
+   (body.static-header .header-photo, .header-name, .last-update)
+   ---------------------------------------------------------
+   Força a exibição completa dos elementos do header quando
+   o body possui a classe static-header, ignorando transições
+   ou animações.
+
+   Este bloco define:
+   - opacity: 1 !important para garantir que todos os elementos
+     estejam visíveis
+   - transform: translateX(0) !important para posicionar os
+     elementos na posição original sem deslocamento
+   - transition: none !important para remover qualquer animação
+     ou efeito de transição aplicado anteriormente
+
+   IMPORTANTE:
+   - Útil quando o header deve aparecer estático, sem animações
+   - Uso de !important garante que esta regra sobrescreva todas
+     as anteriores
+   ========================================================= */
+
 body.static-header .header-photo,
 body.static-header .header-name,
 body.static-header .last-update {
     opacity: 1 !important;
+    /* Garante que o elemento esteja totalmente visível */
+
     transform: translateX(0) !important;
-    transition: none !important; /* desativa animação */
+    /* Posiciona o elemento sem deslocamento horizontal */
+
+    transition: none !important;
+    /* Remove qualquer transição ou animação */
 }
 
-/* Frase */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   FRASE DE ASSINATURA (.signature-phrase)
+   ---------------------------------------------------------
+   Estiliza a frase de assinatura do portfólio ou currículo,
+   aplicando fonte cursiva, alinhamento central e efeitos
+   de animação para entrada suave na página.
+
+   Este bloco define:
+   - font-family: 'Dancing Script', cursive para estilo caligráfico
+   - font-size: 36px para destaque visual
+   - margin-top: 32px para espaçamento em relação a elementos acima
+   - color: var(--signature-phrase) para manter consistência com a paleta
+   - text-align: center para centralizar o texto
+   - opacity: 0 e transform: translateY(20px) para iniciar escondido e
+     deslocado verticalmente
+   - transition: opacity 1.2s ease, transform 1.2s ease para animação suave
+   - line-height: 1.4 para melhorar legibilidade do texto
+
+   IMPORTANTE:
+   - A animação será ativada adicionando a classe .visible via JS ou CSS
+   - Alterar font-size ou margin-top impacta hierarquia visual e espaçamento
+   ========================================================= */
 
 .signature-phrase {
     font-family: 'Dancing Script', cursive;
+    /* Fonte cursiva elegante para assinatura */
+
     font-size: 36px;
+    /* Destaca visualmente a frase de assinatura */
+
     margin-top: 32px;
+    /* Espaçamento em relação a elementos superiores */
+
     color: var(--signature-phrase);
+    /* Cor definida na paleta de estilos */
+
     text-align: center;
+    /* Centraliza o texto no container */
+
     opacity: 0;
+    /* Inicialmente invisível para animação */
+
     transform: translateY(20px);
+    /* Deslocamento vertical inicial para efeito de entrada */
+
     transition: opacity 1.2s ease, transform 1.2s ease;
+    /* Animação suave de opacidade e posição */
+
     line-height: 1.4;
-}
-.signature-phrase.visible {
-    opacity: 1;
-    transform: translateY(0);
+    /* Espaçamento entre linhas para legibilidade */
 }
 
-/* ============================
-   Linha Decorativa Entre os Certificados
-============================ */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO DE ENTRADA PARA FRASE DE ASSINATURA
+   (.signature-phrase.visible)
+   ---------------------------------------------------------
+   Define o estado visível da frase de assinatura, ativando
+   animação suave de entrada que faz o texto aparecer e se
+   posicionar no local correto.
+
+   Este bloco define:
+   - opacity: 1 para tornar o texto totalmente visível
+   - transform: translateY(0) para posicionar o texto na posição
+     original, eliminando deslocamento inicial da animação
+
+   IMPORTANTE:
+   - A classe .visible geralmente é adicionada via JS quando
+     o elemento entra na viewport ou ao carregar a página
+   - Combina com a transição definida em .signature-phrase
+   ========================================================= */
+
+.signature-phrase.visible {
+    opacity: 1;
+    /* Torna a frase totalmente visível */
+
+    transform: translateY(0);
+    /* Remove deslocamento vertical inicial, mostrando a posição final */
+}
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINHA DECORATIVA PARA CERTIFICADOS (.decorative-line-cert)
+   ---------------------------------------------------------
+   Cria uma linha horizontal estilizada para separar seções
+   ou destacar certificados, utilizando gradiente para efeito
+   visual suave.
+
+   Este bloco define:
+   - border: 0 para remover borda padrão
+   - height: 2px para definir a espessura da linha
+   - width: 80% para ocupar a maior parte do container
+   - margin: 1px auto para centralizar horizontalmente
+   - background: linear-gradient(to right, transparent, var(--bg-color-header), transparent)
+     para criar efeito de fade nas extremidades
+
+   IMPORTANTE:
+   - A largura e gradiente podem ser ajustadas para destacar
+     mais ou menos a linha
+   - Funciona bem como separador visual entre certificados ou
+     outros blocos de conteúdo
+   ========================================================= */
 
 .decorative-line-cert {
     border: 0;
+    /* Remove borda padrão do elemento */
+
     height: 2px;
+    /* Define a espessura da linha decorativa */
+
     width: 80%;
+    /* Define largura relativa ao container pai */
+
     margin: 1px auto;
+    /* Centraliza horizontalmente com pequena margem vertical */
+
     background: linear-gradient(
         to right,
         transparent,
         var(--bg-color-header),
         transparent
     );
+    /* Gradiente que cria efeito suave nas extremidades da linha */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINHA DECORATIVA SUPERIOR (.decorative-line-sup)
+   ---------------------------------------------------------
+   Adiciona espaçamento acima de linhas decorativas ou
+   separadores em seções do portfólio, garantindo melhor
+   hierarquia visual e respiro entre elementos.
+
+   Este bloco define:
+   - margin-top: 16px para criar espaçamento vertical
+     entre a linha e o conteúdo acima
+
+   IMPORTANTE:
+   - Ajustar margin-top altera o espaçamento e o equilíbrio
+     visual da seção
+   - Esta linha geralmente complementa títulos ou blocos
+     de conteúdo, funcionando como divisor sutil
+   ========================================================= */
 
 .decorative-line-sup {
-   margin-top: 16px;
+    margin-top: 16px;
+    /* Espaçamento vertical acima da linha decorativa */
 }
 
-/* ============================
-   Linha Decorativa do Menu Lateral
-============================ */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 .menu-divider-item {
     list-style: none;
