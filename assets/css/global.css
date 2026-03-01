@@ -2048,214 +2048,978 @@ main {
 
 /* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
+/* =========================================================
+   LISTA DO MENU LATERAL (.side-menu ul)
+   ---------------------------------------------------------
+   Estiliza a lista interna do menu lateral, controlando
+   espaçamento, layout e ocupação do contêiner.
+
+   Este bloco define:
+   - Remove marcadores padrão da lista
+   - Remove padding e margem padrão do navegador
+   - Layout flexível para organizar itens verticalmente
+   - Ocupação total da altura do contêiner pai
+
+   IMPORTANTE:
+   - Alterar display ou flex-direction muda a organização dos itens
+   - Alterar height impacta o comportamento de scroll ou preenchimento
+   ========================================================= */
+
 .side-menu ul {
   list-style: none;
+  /* Remove os marcadores padrão da lista */
+
   padding: 0;
+  /* Remove o espaçamento interno padrão da lista */
+
   margin: 0;
+  /* Remove a margem externa padrão da lista */
+
   display: flex;
+  /* Ativa layout flex para organizar os itens da lista */
+
   flex-direction: column;
-  height: 100%;                  /* para que os botões preencham verticalmente se necessário */
+  /* Empilha os itens verticalmente */
+
+  height: 100%;
+  /* Faz a lista ocupar toda a altura do contêiner pai */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ITENS DA LISTA DO MENU LATERAL (.side-menu li)
+   ---------------------------------------------------------
+   Estiliza cada item `<li>` dentro da lista do menu lateral,
+   controlando margens e espaçamento.
+
+   Este bloco define:
+   - Remove margens padrão aplicadas pelo navegador aos itens da lista
+
+   IMPORTANTE:
+   - Alterar margin impacta espaçamento entre itens do menu
+   - Geralmente combinado com padding ou gap do contêiner pai
+   ========================================================= */
 
 .side-menu li {
   margin: 0;
+  /* Remove qualquer margem padrão do item da lista */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINKS DO MENU LATERAL (.side-menu a)
+   ---------------------------------------------------------
+   Estiliza os links internos do menu lateral, controlando
+   layout, dimensões, aparência e interatividade.
+
+   Este bloco define:
+   - Layout flexível para alinhar ícones e texto
+   - Dimensões fixas de altura e largura para consistência
+   - Padding interno para espaçamento confortável
+   - Bordas arredondadas para estética suave
+   - Remoção de sublinhado padrão
+   - Cor e peso da fonte para legibilidade
+   - Transições suaves ao interagir
+   - Alinhamento dos elementos internos
+   - Espaçamento inferior entre links
+
+   IMPORTANTE:
+   - Alterar display, align-items ou justify-content muda alinhamento do conteúdo
+   - Alterar height ou width impacta tamanho visual do botão
+   - Alterar padding, margin ou border-radius impacta layout e estética
+   - transition: all suaviza qualquer alteração visual de cor, fundo ou tamanho
+   ========================================================= */
 
 .side-menu a {
   display: flex;
-  align-items: center;           /* centraliza verticalmente o texto */
-  height: 48px;                  /* altura fixa do botão */
+  /* Layout flexível para alinhar ícones e texto horizontalmente */
+
+  align-items: center;
+  /* Alinha verticalmente o conteúdo interno ao centro */
+
+  height: 48px;
+  /* Altura fixa do link para uniformidade visual */
+
   width: 276px;
-  padding: 0 12px;               /* distancia do texto para as bordas internas */
+  /* Largura fixa do link, respeitando padding e border-radius */
+
+  padding: 0 12px;
+  /* Espaçamento interno horizontal; vertical zero */
+
   border-radius: 8px;
+  /* Bordas arredondadas para estética suave */
+
   text-decoration: none;
+  /* Remove sublinhado padrão de links */
+
   color: #F8F8F8;
+  /* Cor do texto do link */
+
   font-weight: 500;
+  /* Peso da fonte para destaque moderado */
+
   transition: all 0.4s ease;
-  justify-content: flex-start;   /* texto alinhado à esquerda */
+  /* Suaviza alterações de cor, fundo e transformações ao interagir */
+
+  justify-content: flex-start;
+  /* Alinha o conteúdo do link ao início do eixo horizontal */
+
   margin-bottom: 4px;
+  /* Espaço inferior entre links */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO HOVER NOS LINKS DO MENU LATERAL (.side-menu a:hover)
+   ---------------------------------------------------------
+   Define o comportamento visual quando o usuário passa o mouse
+   sobre os links do menu lateral, criando feedback de interação.
+
+   Este bloco define:
+   - Mudança de cor de fundo
+   - Mudança de cor do texto
+   - Pequeno deslocamento horizontal
+   - Sombra para efeito de destaque
+
+   IMPORTANTE:
+   - Alterar background-color ou color impacta contraste e leitura
+   - Alterar transform ajusta deslocamento do link ao passar o mouse
+   - Alterar box-shadow muda percepção de profundidade
+   - Geralmente usado em conjunto com transition definido em `.side-menu a`
+   ========================================================= */
 
 .side-menu a:hover {
   background-color: var(--bg-color-page);
+  /* Altera a cor de fundo do link quando em hover */
+
   color: var(--intro-text);
+  /* Altera a cor do texto para indicar destaque */
+
   transform: translateX(4px);
+  /* Move o link levemente para a direita, criando efeito de movimento */
+
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  /* Adiciona sombra para criar efeito de profundidade e destaque */
 }
 
-/* ==============================
-   Menu Lateral — Link Ativo
-   ============================== */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINK ATIVO DO MENU LATERAL (.side-menu a.active)
+   ---------------------------------------------------------
+   Define o estilo visual do link que representa a página ou seção
+   atualmente ativa, diferenciando-o dos demais links do menu.
+
+   Este bloco define:
+   - Cor de fundo e texto igual ao hover para indicar destaque
+   - Cursor diferente para indicar que não é clicável
+   - Efeito de sombra sutil no texto
+   - Remove transform para que não haja deslocamento
+
+   IMPORTANTE:
+   - Alterar background-color ou color impacta contraste e destaque
+   - cursor: not-allowed indica que o link está inativo/clicável
+   - text-shadow cria leve destaque e profundidade no texto
+   - transform: none mantém o link alinhado, sem efeito de movimento
+   ========================================================= */
+
 .side-menu a.active {
   background-color: var(--bg-color-page);
-  color: var(--intro-text);                                               /* cor do texto contrastante */
-  cursor: not-allowed;                                                    /* desabilita o clique */
-  text-shadow: 0 0 8px rgba(248, 248, 248, 0.1);                          /* efeito "acende" igual ao nome no topo */
-  transform: none;                                                        /* remove deslocamento do hover */
+  /* Mantém fundo destacado igual ao hover */
+
+  color: var(--intro-text);
+  /* Mantém cor do texto consistente com hover e destaque */
+
+  cursor: not-allowed;
+  /* Indica que o link não é clicável */
+
+  text-shadow: 0 0 8px rgba(248, 248, 248, 0.1);
+  /* Adiciona sombra sutil ao texto para destaque leve */
+
+  transform: none;
+  /* Remove qualquer deslocamento aplicado em hover ou animações */
 }
 
-/* Mantém efeito ao passar o mouse, mas sem deslocamento nem sublinhado */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINK ATIVO DO MENU LATERAL AO PASSAR O MOUSE
+   (.side-menu a.active:hover)
+   ---------------------------------------------------------
+   Define o comportamento visual quando o usuário passa o mouse
+   sobre um link que já está ativo. Mantém o destaque do link
+   ativo sem permitir interações de hover que alterem sua posição.
+
+   Este bloco define:
+   - Mantém fundo e cor do texto consistentes com o link ativo
+   - Ajusta a sombra do texto para leve efeito visual
+   - Remove transform para que o link não se mova
+
+   IMPORTANTE:
+   - Alterar background-color ou color impacta contraste e destaque
+   - text-shadow cria efeito sutil de profundidade visual
+   - transform: none garante que o link ativo permaneça fixo
+   ========================================================= */
+
 .side-menu a.active:hover {
   background-color: var(--bg-color-page);
-  color: var(--intro-text);                     /* mantém a cor do texto */
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* mesmo efeito "acende" */
-  transform: none;                    /* sem movimentação */
+  /* Mantém fundo destacado igual ao estado ativo */
+
+  color: var(--intro-text);
+  /* Mantém cor do texto consistente com o estado ativo */
+
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  /* Leve sombra no texto para efeito visual sutil */
+
+  transform: none;
+  /* Remove qualquer deslocamento ou animação de hover */
 }
 
-/* ==============================
-   Currículo — Ajuste do conteúdo principal
-   ============================== */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CONTÊINER DO CURRÍCULO (.curriculo-container)
+   ---------------------------------------------------------
+   Estiliza o contêiner principal da seção de currículo,
+   organizando o layout horizontal, espaçamento e dimensões
+   para o conteúdo interno.
+
+   Este bloco define:
+   - Layout flexível em linha (row) para organizar colunas internas
+   - Alinhamento vertical dos itens no topo
+   - Espaçamento horizontal entre colunas
+   - Limite máximo de largura e largura total responsiva
+   - Centralização horizontal com margin auto
+   - Altura calculada para preencher tela menos altura do header/footer
+   - Controle de overflow ocultando conteúdo que excede o contêiner
+   - Posição relativa para permitir posicionamento absoluto de elementos internos
+   - Padding superior inicial (zero neste caso)
+
+   IMPORTANTE:
+   - Alterar flex-direction muda orientação das colunas
+   - gap controla espaçamento entre colunas
+   - height: calc(...) ajusta altura dinâmica com base em outros elementos da página
+   - overflow: hidden evita que conteúdos internos ultrapassem os limites visuais
+   ========================================================= */
 
 .curriculo-container {
   display: flex;
-  flex-direction: row; /* para menu lateral + texto */
-  align-items: flex-start; /* alinha o topo do texto com o topo do menu */
+  /* Ativa layout flexível para organizar colunas ou blocos internos horizontalmente */
+
+  flex-direction: row;
+  /* Mantém itens organizados em linha (horizontal) */
+
+  align-items: flex-start;
+  /* Alinha os itens no topo do contêiner */
+
   gap: 24px;
+  /* Espaçamento horizontal entre colunas internas */
+
   max-width: 1324px;
+  /* Limita largura máxima para manter consistência em telas grandes */
+
   width: 100%;
+  /* Faz o contêiner ocupar toda a largura disponível do elemento pai */
+
   margin: 0 auto;
-  height: calc(100vh - 266px); /* ocupa o espaço entre cabeçalho e rodapé */
-  overflow: hidden; /* impede rolagem da página inteira */
+  /* Centraliza o contêiner horizontalmente */
+
+  height: calc(100vh - 266px);
+  /* Altura calculada para preencher a tela menos 266px (provavelmente header + footer) */
+
+  overflow: hidden;
+  /* Oculta qualquer conteúdo que ultrapasse os limites do contêiner */
+
   position: relative;
-  padding-top: 0; /* garante que não crie espaço acima */
+  /* Permite posicionamento absoluto de elementos internos */
+
+  padding-top: 0;
+  /* Remove padding superior inicial */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOCO DE TEXTO DO CURRÍCULO (.curriculo-text)
+   ---------------------------------------------------------
+   Estiliza o contêiner de texto principal dentro da seção
+   de currículo, controlando layout, rolagem, tipografia
+   e comportamento visual do conteúdo.
+
+   Este bloco define:
+   - Flexibilidade para ocupar espaço disponível dentro do contêiner pai
+   - Alinhamento do texto justificado
+   - Altura da linha e cor do texto
+   - Tamanho da fonte
+   - Rolagem vertical automática para conteúdos maiores que o contêiner
+   - Ocupação total da altura do contêiner
+   - Box-sizing para incluir padding dentro do cálculo de dimensões
+   - Rolagem suave para interações programáticas
+   - Oculta barras de rolagem nativas em diferentes navegadores
+   - Espaçamento interno superior
+
+   IMPORTANTE:
+   - Alterar flex impacta como o elemento cresce ou encolhe dentro do contêiner
+   - overflow-y: auto permite rolar conteúdo sem expandir o contêiner
+   - scrollbar-width e -ms-overflow-style ocultam barras de rolagem nativas
+   - scroll-behavior: smooth suaviza navegação via âncoras ou JS
+   ========================================================= */
 
 .curriculo-text {
   flex: 1;
+  /* Ocupa espaço disponível no contêiner pai */
+
   text-align: justify;
+  /* Justifica o texto, criando alinhamento uniforme nas extremidades */
+
   line-height: 1.8;
+  /* Altura da linha para melhor legibilidade */
+
   color: var(--curriculo-text);
+  /* Cor do texto definida por variável CSS para consistência visual */
+
   font-size: 16px;
-  overflow-y: auto; /* ativa rolagem só no conteúdo */
-  height: 100%; /* usa a altura total disponível */
+  /* Tamanho da fonte */
+
+  overflow-y: auto;
+  /* Permite rolagem vertical caso o conteúdo ultrapasse a altura do contêiner */
+
+  height: 100%;
+  /* Faz o bloco de texto ocupar toda a altura do contêiner pai */
+
   box-sizing: border-box;
-  scroll-behavior: smooth; /* rolagem suave */
-    /* esconde a barra de rolagem sem desativar o scroll */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE e Edge antigos */
+  /* Inclui padding e border no cálculo de altura e largura */
+
+  scroll-behavior: smooth;
+  /* Suaviza a rolagem programática ou via âncoras */
+
+  scrollbar-width: none;
+  /* Oculta barra de rolagem no Firefox */
+
+  -ms-overflow-style: none;
+  /* Oculta barra de rolagem no Internet Explorer e Edge Legacy */
+
   padding-top: 8px;
+  /* Espaçamento interno superior para separar do topo */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TEXTO NEGRITO DENTRO DO BLOCO DE CURRÍCULO
+   (.curriculo-text strong)
+   ---------------------------------------------------------
+   Estiliza especificamente os elementos `<strong>` dentro
+   do bloco de texto do currículo, garantindo destaque visual
+   sem afetar o restante do texto.
+
+   Este bloco define:
+   - Cor diferenciada para textos importantes ou destacados
+   - Mantém a semântica do HTML, usando <strong> para ênfase
+
+   IMPORTANTE:
+   - Alterar color muda o destaque visual do texto
+   - Pode ser combinado com font-weight para maior contraste
+   ========================================================= */
 
 .curriculo-text strong {
   color: var(--curriculo-text-strong);
+  /* Define cor especial para textos em negrito dentro do currículo */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   OCULTAÇÃO DA BARRA DE ROLAGEM NO WEBKIT
+   (.curriculo-text::-webkit-scrollbar)
+   ---------------------------------------------------------
+   Estiliza a barra de rolagem do bloco de texto do currículo
+   especificamente para navegadores baseados em WebKit (Chrome,
+   Safari, Edge Chromium), escondendo-a para aparência mais limpa.
+
+   Este bloco define:
+   - display: none para ocultar a barra de rolagem visível
+   - Funciona em conjunto com scrollbar-width e -ms-overflow-style
+     para navegadores Firefox e IE/Edge Legacy
+
+   IMPORTANTE:
+   - Alterar esta propriedade permite mostrar ou estilizar a barra
+   - Ocultar a barra não afeta a rolagem, que continua funcional
+   ========================================================= */
 
 .curriculo-text::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+  display: none;
+  /* Oculta a barra de rolagem em navegadores WebKit */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PARÁGRAFOS DENTRO DO BLOCO DE CURRÍCULO
+   (.curriculo-text p)
+   ---------------------------------------------------------
+   Estiliza todos os elementos `<p>` dentro do bloco de texto
+   do currículo, controlando cor, espaçamento e legibilidade.
+
+   Este bloco define:
+   - Cor do texto consistente com o restante do conteúdo
+   - Altura da linha para facilitar leitura
+   - Margem inferior para separar parágrafos, sem margem superior
+
+   IMPORTANTE:
+   - Alterar color impacta contraste e visibilidade do texto
+   - line-height afeta legibilidade, principalmente em textos longos
+   - margin define espaçamento vertical entre parágrafos
+   ========================================================= */
 
 .curriculo-text p {
-   color: var(--curriculo-text);
-   line-height: 1.8;
-   margin: 0 0 16px;
+  color: var(--curriculo-text);
+  /* Cor do texto padrão do parágrafo */
+
+  line-height: 1.8;
+  /* Altura da linha para leitura confortável */
+
+  margin: 0 0 16px;
+  /* Margem superior e lateral zero, margem inferior de 16px para separar parágrafos */
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   DIVS DIRETAS DENTRO DO BLOCO DE CURRÍCULO
+   (.curriculo-text > div)
+   ---------------------------------------------------------
+   Estiliza qualquer `<div>` que seja **filho direto** do bloco
+   de texto do currículo, garantindo consistência visual e
+   legibilidade dentro do conteúdo.
+
+   Este bloco define:
+   - Cor do texto consistente com o restante do currículo
+   - Altura da linha uniforme para melhor leitura
+   - Margem zerada para evitar espaçamentos indesejados
+
+   IMPORTANTE:
+   - Alterar color impacta contraste e visibilidade do conteúdo
+   - line-height afeta legibilidade, especialmente em textos agrupados
+   - margin: 0 evita espaçamentos automáticos do navegador
+   ========================================================= */
+
 .curriculo-text > div {
-   color: var(--curriculo-text);
-   line-height: 1.8;
-   margin: 0;
+  color: var(--curriculo-text);
+  /* Cor do texto consistente com o bloco de currículo */
+
+  line-height: 1.8;
+  /* Altura da linha para leitura confortável */
+
+  margin: 0;
+  /* Remove qualquer margem padrão do navegador */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LISTAS DO CURRÍCULO (.curriculo-list)
+   ---------------------------------------------------------
+   Estiliza listas internas do bloco de currículo, garantindo
+   legibilidade, espaçamento adequado e consistência visual.
+
+   Este bloco define:
+   - Tamanho da fonte para leitura confortável
+   - Flexibilidade para ocupar espaço dentro do contêiner pai
+   - Tipo de marcador da lista (disco)
+   - Padding à esquerda para alinhamento dos marcadores
+   - Margem zerada para evitar espaçamento externo indesejado
+   - Altura da linha para clareza visual
+
+   IMPORTANTE:
+   - Alterar font-size impacta legibilidade da lista
+   - flex: 1 permite que a lista se expanda dentro do contêiner
+   - list-style-type define tipo de marcador (disc, circle, square)
+   - padding-left controla espaço entre borda e marcadores
+   - line-height afeta espaçamento vertical entre itens
+   ========================================================= */
 
 .curriculo-list {
     font-size: 18px;
+    /* Define tamanho da fonte para os itens da lista */
+
     flex: 1;
+    /* Permite que a lista ocupe espaço disponível dentro do contêiner pai */
+
     list-style-type: disc;
+    /* Define marcador de disco para cada item da lista */
+
     padding-left: 20px;
+    /* Espaço interno à esquerda para separar marcadores da borda */
+
     margin: 0;
-    line-height: 2.4; /* ← espaçamento vertical */
+    /* Remove margem padrão da lista */
+
+    line-height: 2.4;
+    /* Altura da linha para melhor leitura e espaçamento entre itens */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ITENS DA LISTA DO CURRÍCULO (.curriculo-list li)
+   ---------------------------------------------------------
+   Estiliza cada item `<li>` dentro da lista de currículo,
+   garantindo consistência de cor e legibilidade.
+
+   Este bloco define:
+   - Cor do texto dos itens da lista, separando visualmente
+     do texto padrão do currículo
+
+   IMPORTANTE:
+   - Alterar color impacta contraste e destaque dos itens da lista
+   - Pode ser combinado com line-height e font-size do pai para uniformidade
+   ========================================================= */
 
 .curriculo-list li {
     color: var(--curriculo-list);
+    /* Define cor específica para itens da lista dentro do currículo */
 }
 
-/* Link ativo no cabeçalho */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   LINK ATIVO NO HEADER DIREITO (.header-right a.active)
+   ---------------------------------------------------------
+   Estiliza links do header que estão ativos (representando
+   a página atual), diferenciando-os visualmente e bloqueando
+   interações do usuário.
+
+   Este bloco define:
+   - Cor do texto do link ativo
+   - Cursor padrão para indicar que não é clicável
+   - Desativa eventos de clique
+   - Transição suave ao alterar cor ou sombra do texto
+
+   IMPORTANTE:
+   - Alterar color impacta destaque visual do link ativo
+   - cursor: default mostra que o link não é interativo
+   - pointer-events: none bloqueia qualquer interação do usuário
+   - transition mantém suavidade caso haja mudanças programáticas
+   ========================================================= */
+
 .header-right a.active {
   color: #ffffff;
+  /* Cor do link ativo no header direito */
+
   cursor: default;
-  pointer-events: none; /* impede clique */
+  /* Cursor padrão para indicar que o link não é clicável */
+
+  pointer-events: none;
+  /* Bloqueia qualquer interação de clique ou hover */
+
   transition: color 0.3s ease, text-shadow 0.3s ease;
+  /* Suaviza mudanças de cor ou sombra caso ocorram via JS ou hover */
 }
 
-/* Estilo das experiências */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOCO DE EXPERIÊNCIA (.experience)
+   ---------------------------------------------------------
+   Estiliza cada item ou seção de experiência dentro do currículo
+   ou portfólio, separando visualmente cada entrada.
+
+   Este bloco define:
+   - Borda inferior fina para dividir experiências
+   - Padding vertical para espaçamento interno confortável
+
+   IMPORTANTE:
+   - Alterar border-bottom impacta a separação visual entre itens
+   - Alterar padding afeta altura do bloco e espaçamento interno
+   ========================================================= */
+
 .experience {
   border-bottom: 0.8px solid var(--experience-border);
+  /* Borda inferior fina para separar visualmente cada experiência */
+
   padding: 8px 0;
+  /* Espaçamento interno vertical (topo e base) */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOCO DE EXPERIÊNCIA COMPACTA (.experience--compact)
+   ---------------------------------------------------------
+   Estiliza versões compactas do bloco de experiência, geralmente
+   usadas quando não se deseja exibir a borda inferior separadora.
+
+   Este bloco define:
+   - Remove a borda inferior padrão de `.experience`
+
+   IMPORTANTE:
+   - Útil para última experiência da lista ou quando o layout exige 
+     visual mais limpo
+   - Alterar border-bottom pode afetar a percepção de separação entre itens
+   ========================================================= */
 
 .experience--compact {
    border-bottom: 0;
+   /* Remove a borda inferior para uma aparência mais compacta */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BLOCO DE INFORMAÇÕES DA EXPERIÊNCIA (.experience--inf)
+   ---------------------------------------------------------
+   Estiliza elementos internos de informação de uma experiência,
+   aplicando recuo para diferenciar do restante do conteúdo.
+
+   Este bloco define:
+   - Margem à esquerda para deslocar levemente o conteúdo
+     dentro do bloco de experiência
+
+   IMPORTANTE:
+   - Alterar margin-left ajusta o recuo do texto ou informações
+   - Útil para criar hierarquia visual dentro do item de experiência
+   ========================================================= */
 
 .experience--inf {
    margin-left: 12px;
+   /* Aplica recuo à esquerda para conteúdo interno da experiência */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CABEÇALHO DO BLOCO DE EXPERIÊNCIA (.exp-header)
+   ---------------------------------------------------------
+   Estiliza o cabeçalho de cada bloco de experiência, geralmente
+   contendo título, datas ou ícones de interação, permitindo
+   que seja clicável ou expansível.
+
+   Este bloco define:
+   - Layout flexível para organizar conteúdo horizontalmente
+   - Distribuição dos elementos entre extremidades (space-between)
+   - Alinhamento vertical ao centro
+   - Cursor de ponteiro para indicar que é clicável/interativo
+
+   IMPORTANTE:
+   - Alterar display, justify-content ou align-items muda o layout do header
+   - cursor: pointer é essencial para indicar interatividade ao usuário
+   ========================================================= */
 
 .exp-header {
   display: flex;
+  /* Ativa layout flexível horizontal para os elementos do header */
+
   justify-content: space-between;
+  /* Distribui elementos entre as extremidades (esquerda e direita) */
+
   align-items: center;
+  /* Alinha verticalmente os elementos ao centro */
+
   cursor: pointer;
+  /* Indica que o header é clicável */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CABEÇALHO COMPACTO DO BLOCO DE EXPERIÊNCIA
+   (.exp-header--compact)
+   ---------------------------------------------------------
+   Estiliza uma versão compacta do cabeçalho de experiência,
+   usada quando se deseja um tamanho reduzido ou ajuste fino
+   do layout.
+
+   Este bloco define:
+   - Padding à direita para reduzir espaço interno do header
+   - Largura ajustável ao conteúdo (fit-content) para não ocupar
+     espaço desnecessário
+
+   IMPORTANTE:
+   - Alterar padding-right muda o espaçamento interno à direita
+   - width: fit-content faz o elemento ocupar apenas o espaço necessário
+   - Útil em layouts mais densos ou quando o header precisa ser enxuto
+   ========================================================= */
 
 .exp-header--compact {
   padding-right: 4px;
+  /* Reduz espaçamento interno à direita do cabeçalho compacto */
+
   width: fit-content;
+  /* Ajusta a largura do header ao conteúdo interno */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CABEÇALHO DO BLOCO DE EXPERIÊNCIA COMPACTA
+   (.experience--compact .exp-header)
+   ---------------------------------------------------------
+   Estiliza o cabeçalho de experiências quando o bloco é
+   marcado como compacto, ajustando layout, alinhamento e
+   espaçamento interno.
+
+   Este bloco define:
+   - Layout flexível para manter elementos em linha
+   - Alinhamento vertical centralizado
+   - Padding à esquerda removido para compactar o header
+   - Gap entre elementos internos para separar visualmente
+
+   IMPORTANTE:
+   - Alterar display ou align-items muda o layout dos itens
+   - padding-left: 0 garante alinhamento consistente com o bloco compacto
+   - gap define espaçamento entre elementos internos (ícones, título, datas)
+   ========================================================= */
 
 .experience--compact .exp-header {
    display: flex;
+   /* Mantém layout flexível em linha dentro do header compacto */
+
    align-items: center;
+   /* Centraliza verticalmente todos os elementos do header */
+
    padding-left: 0;
-   gap: 8px; /* ajuste fino aqui */
+   /* Remove padding à esquerda para compactar o cabeçalho */
+
+   gap: 8px;
+   /* Espaçamento uniforme entre elementos internos do header */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   PERÍODO DA EXPERIÊNCIA (.exp-period)
+   ---------------------------------------------------------
+   Estiliza o texto que representa o período de cada experiência,
+   geralmente datas de início e término, destacando visualmente
+   e permitindo pequenas interações de estilo.
+
+   Este bloco define:
+   - Peso da fonte para destacar o período
+   - Espaçamento à direita para separar de outros elementos
+   - Cor específica para o período
+   - Remove qualquer decoração de texto (sublinhado)
+   - Transição suave ao alterar a cor (hover ou JS)
+
+   IMPORTANTE:
+   - Alterar font-weight muda destaque visual
+   - margin-right ajusta espaçamento entre período e título ou ícones
+   - text-decoration: none garante aparência limpa
+   - transition mantém suavidade em mudanças de cor
+   ========================================================= */
 
 .exp-period {
   font-weight: 600;
+  /* Deixa o texto do período mais destacado */
+
   margin-right: 10px;
+  /* Espaço entre o período e o elemento seguinte */
+
   color: var(--exp-period);
+  /* Cor definida para os períodos das experiências */
+
   text-decoration: none;
+  /* Remove sublinhado ou outras decorações do texto */
+
   transition: color 0.3s ease;
+  /* Suaviza qualquer mudança de cor do período */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   CARGO OU FUNÇÃO DA EXPERIÊNCIA (.exp-role)
+   ---------------------------------------------------------
+   Estiliza o texto que representa o cargo ou função exercida
+   dentro de cada bloco de experiência, garantindo destaque
+   e alinhamento visual consistente.
+
+   Este bloco define:
+   - Flex: 1 para que o elemento ocupe o espaço disponível
+     dentro do container do header da experiência
+   - Peso da fonte intermediário para equilíbrio visual
+   - Cor específica para diferenciar do período ou outros textos
+
+   IMPORTANTE:
+   - Alterar flex impacta como o cargo se comporta no layout
+   - font-weight: 500 garante destaque sem exagero
+   - color deve seguir a paleta do site para consistência visual
+   ========================================================= */
 
 .exp-role {
   flex: 1;
+  /* Ocupa o espaço restante dentro do header da experiência */
+
   font-weight: 500;
+  /* Peso da fonte para destaque moderado do cargo/função */
+
   color: var(--exp-role);
+  /* Cor específica para o cargo ou função dentro do bloco de experiência */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BOTÃO DE EXPANSÃO/TOGGLE DA EXPERIÊNCIA (.exp-toggle)
+   ---------------------------------------------------------
+   Estiliza o botão usado para expandir ou recolher detalhes
+   de cada bloco de experiência, garantindo destaque visual
+   e interatividade clara para o usuário.
+
+   Este bloco define:
+   - Background transparente para não interferir no layout
+   - Sem borda, mantendo aparência limpa
+   - Cor definida por variável CSS para consistência
+   - Peso da fonte em bold para destaque
+   - Tamanho da fonte 20px para visibilidade
+   - Cursor pointer para indicar que é clicável
+   - Padding zero para evitar espaçamento interno indesejado
+   - Margem à esquerda para separar de outros elementos
+   - Transição suave para transformações (ex.: rotação ao expandir)
+
+   IMPORTANTE:
+   - Alterar color impacta contraste e destaque visual
+   - cursor: pointer é essencial para sinalizar interatividade
+   - transition garante animação suave em transformações aplicadas via JS ou hover
+   ========================================================= */
 
 .exp-toggle {
   background: none;
+  /* Remove fundo para manter aparência limpa */
+
   border: none;
-  color: var(--exp-toggle);              /* mesma cor do texto */
+  /* Remove borda padrão de botão */
+
+  color: var(--exp-toggle);
+  /* Cor do toggle definida por variável CSS */
+
   font-weight: bold;
-  font-size: 20px;          /* um pouco maior para boa leitura */
+  /* Destaca o toggle com fonte em negrito */
+
+  font-size: 20px;
+  /* Tamanho da fonte para boa visibilidade */
+
   cursor: pointer;
+  /* Indica que o botão é clicável */
+
   padding: 0;
-  margin-left: 8px;         /* leve afastamento do texto */
+  /* Remove padding interno padrão */
+
+  margin-left: 8px;
+  /* Espaço à esquerda do toggle em relação a outros elementos */
+
   transition: transform 0.4s ease;
+  /* Suaviza animações de transformação, como rotação */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   BOTÃO DE TOGGLE COMPACTO DA EXPERIÊNCIA (.exp-toggle--compact)
+   ---------------------------------------------------------
+   Estiliza a versão compacta do botão de expansão/recolhimento
+   dentro de experiências, ajustando o posicionamento no layout
+   compacto.
+
+   Este bloco define:
+   - Remove a margem à esquerda do toggle, alinhando-o mais próximo
+     de outros elementos internos do header compacto
+
+   IMPORTANTE:
+   - Útil quando o header da experiência está em formato compacto
+   - Alterar margin-left ajusta a distância horizontal do toggle
+   ========================================================= */
 
 .exp-toggle--compact {
   margin-left: 0;
+  /* Remove o espaçamento à esquerda para compactar o botão no layout */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   DETALHES DA EXPERIÊNCIA (.exp-details)
+   ---------------------------------------------------------
+   Estiliza o conteúdo expandível/recolhível de cada experiência,
+   geralmente mostrado ao clicar no toggle, mantendo animação
+   suave e alinhamento consistente.
+
+   Este bloco define:
+   - max-height: 0 e overflow: hidden para esconder detalhes inicialmente
+   - Transição suave em max-height e opacity para animação de abertura/fechamento
+   - Opacidade inicial 0 para efeito de fade-in
+   - Padding-left para recuo em relação ao header da experiência
+   - Cor específica para os detalhes
+   - line-height normal para leitura compacta
+
+   IMPORTANTE:
+   - Alterar max-height impacta quanto do conteúdo será exibido
+   - overflow: hidden garante que nada "vaze" quando fechado
+   - transition define suavidade da animação
+   - opacity controla visibilidade do conteúdo
+   ========================================================= */
 
 .exp-details {
   max-height: 0;
+  /* Oculta o conteúdo verticalmente inicialmente */
+
   overflow: hidden;
+  /* Garante que conteúdo excedente não apareça quando fechado */
+
   transition: max-height 0.4s ease, opacity 0.4s ease;
+  /* Anima suavemente a abertura e fechamento dos detalhes */
+
   opacity: 0;
+  /* Torna o conteúdo invisível inicialmente */
+
   padding-left: 8px;
+  /* Recuo à esquerda para separar do header */
+
   color: var(--exp-details);
+  /* Cor do texto dos detalhes da experiência */
+
   line-height: normal;
+  /* Altura da linha para manter o texto legível e compacto */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TÍTULOS H4 NOS DETALHES DE EXPERIÊNCIA (.exp-details h4)
+   ---------------------------------------------------------
+   Estiliza os títulos internos (h4) dentro do bloco de detalhes
+   de cada experiência, destacando seções ou subtítulos.
+
+   Este bloco define:
+   - Tamanho da fonte para dar destaque sem exagero
+   - Peso da fonte em 600 (semi-negrito) para destaque
+   - Margem uniforme ao redor do título para separar visualmente
+   - Cor específica para diferenciar do texto normal dos detalhes
+
+   IMPORTANTE:
+   - Alterar font-size impacta hierarquia visual do conteúdo
+   - margin controla espaçamento interno e entre outros elementos
+   - color deve seguir paleta de cores definida para consistência
+   ========================================================= */
 
 .exp-details h4 {
    font-size: 20px;
+   /* Tamanho da fonte para destaque dos subtítulos */
+
    font-weight: 600;
+   /* Peso semi-negrito para destacar os títulos */
+
    margin: 8px;
+   /* Espaçamento uniforme em todos os lados do título */
+
    color: var(--exp-details-h4);
+   /* Cor definida para títulos H4 dentro dos detalhes */
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 .exp-details p {
    font-size: 16px;
