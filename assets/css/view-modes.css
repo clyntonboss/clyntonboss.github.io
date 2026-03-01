@@ -32,6 +32,35 @@
     justify-content: space-between;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTILO BASE DOS CONTROLES DE MODO DE VISUALIZAÇÃO
+   (.view-mode-controls)
+   ---------------------------------------------------------
+   Define o estado inicial dos controles de modo de
+   visualização, que podem incluir botões ou ícones
+   para alternar entre diferentes modos.
+
+   Este bloco aplica:
+   - display: none → controles inicialmente escondidos
+   - gap: 24px → espaçamento entre elementos internos
+   - opacity: 0 → invisíveis visualmente
+   - pointer-events: none → não interativos enquanto ocultos
+
+   FUNÇÃO ARQUITETURAL:
+   - Mantém os controles fora da interface até que sejam
+     ativados dinamicamente via JavaScript ou interação do usuário
+   - Preserva consistência visual e evita sobreposição
+     de elementos
+   - Gap define espaçamento uniforme entre os controles
+     quando ativados
+
+   IMPORTANTE:
+   - Para exibição, é necessário alterar display,
+     opacity e pointer-events dinamicamente
+   ========================================================= */
+
 .view-mode-controls {
   display: none;
   gap: 24px;
@@ -39,11 +68,70 @@
   pointer-events: none;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO VISÍVEL DOS CONTROLES DE MODO DE VISUALIZAÇÃO
+   (.view-mode-controls.is-visible)
+   ---------------------------------------------------------
+   Define as propriedades dos controles de modo de
+   visualização quando devem estar visíveis e interativos.
+
+   Este bloco aplica:
+   - display: flex → exibe os controles usando Flexbox
+   - opacity: 1 → torna os controles totalmente visíveis
+   - pointer-events: auto → habilita interação do usuário
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite que os controles apareçam dinamicamente
+     de forma organizada e responsiva
+   - Mantém coerência visual com o layout definido
+     em .view-mode-controls
+   - Suporta transições suaves se aplicadas no estado base
+
+   IMPORTANTE:
+   - A visibilidade é controlada via classe dinâmica
+     .is-visible adicionada por JavaScript
+   - Outras propriedades como gap permanecem definidas
+     no estado base
+   ========================================================= */
+
 .view-mode-controls.is-visible {
   display: flex;
   opacity: 1;
   pointer-events: auto;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTILO BASE DOS BOTÕES DE VISUALIZAÇÃO
+   (.view-btn)
+   ---------------------------------------------------------
+   Define o estilo visual e comportamento inicial dos
+   botões de controle de visualização.
+
+   Este bloco aplica:
+   - background: none → sem cor de fundo
+   - border: none → sem borda
+   - font-size: 1.4rem → tamanho do texto ou ícone
+   - cursor: pointer → indica interatividade
+   - color: var(--text-color) → cor do texto ou ícone
+   - opacity: 0.6 → parcialmente visível
+   - transition: opacity 0.2s ease, transform 0.2s ease →
+     suaviza mudanças de opacidade e transformações
+
+   FUNÇÃO ARQUITETURAL:
+   - Fornece aparência limpa e minimalista
+   - Permite feedback visual durante hover ou animações
+   - Mantém consistência de estilo entre múltiplos botões
+     de visualização no projeto
+
+   IMPORTANTE:
+   - Alterações de estado (hover, ativo, visível) devem ser
+     controladas por classes ou scripts
+   - Transitions garantem animações suaves sem saltos
+   ========================================================= */
 
 .view-btn {
     background: none;
@@ -55,21 +143,137 @@
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO DE HOVER DOS BOTÕES DE VISUALIZAÇÃO
+   (.view-btn:hover)
+   ---------------------------------------------------------
+   Define a alteração de opacidade e leve deslocamento
+   vertical quando o usuário passa o cursor sobre
+   o botão de visualização.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o botão totalmente visível
+   - transform: translateY(-1px) → eleva levemente o botão
+
+   FUNÇÃO ARQUITETURAL:
+   - Fornece feedback visual de interatividade
+   - Complementa as transições definidas no estado base
+     (.view-btn)
+   - Mantém consistência de animação com outros elementos
+     interativos do projeto
+
+   IMPORTANTE:
+   - O efeito só é perceptível se o botão estiver visível
+     (opacity > 0) e interativo (pointer-events: auto)
+   - O deslocamento é intencionalmente sutil para evitar
+     movimentos bruscos
+   ========================================================= */
+
 .view-btn:hover {
     opacity: 1;
     transform: translateY(-1px);
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO ATIVO DOS BOTÕES DE VISUALIZAÇÃO
+   (.view-btn.active)
+   ---------------------------------------------------------
+   Define a aparência e comportamento do botão de
+   visualização quando está ativo ou selecionado.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o botão totalmente visível
+   - font-weight: 600 → enfatiza o texto ou ícone
+   - cursor: not-allowed → indica que não é clicável
+   - transform: scale(1.2) translateX(0) → aumenta
+     levemente o tamanho, mantendo a posição horizontal
+
+   FUNÇÃO ARQUITETURAL:
+   - Destaca visualmente o botão ativo
+   - Impede interação adicional enquanto ativo
+   - Mantém coerência com feedback visual e animações
+     definidas para outros estados do botão
+
+   IMPORTANTE:
+   - A classe .active deve ser aplicada dinamicamente
+     via JavaScript
+   - Transitions do estado base (.view-btn) suavizam
+     a alteração de opacidade e transformações
+   ========================================================= */
+
 .view-btn.active {
     opacity: 1;
     font-weight: 600;
-    cursor: not-allowed;        /* remove aparência de ação */
+    cursor: not-allowed;
     transform: scale(1.2) translateX(0);
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO INTERATIVO DOS BOTÕES DE VISUALIZAÇÃO NÃO ATIVOS
+   (.view-btn:not(.active))
+   ---------------------------------------------------------
+   Define a interação dos botões de visualização que
+   não estão ativos, permitindo que sejam clicáveis.
+
+   Este bloco aplica:
+   - pointer-events: auto → habilita interação do usuário
+     apenas para botões que não possuem a classe .active
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante que apenas botões inativos possam ser clicados
+   - Mantém consistência de comportamento com o
+     estado ativo (.view-btn.active), que desabilita
+     a interação
+   - Permite alternância dinâmica entre botões ativos e
+     inativos sem afetar o layout ou animações
+
+   IMPORTANTE:
+   - Controla a interatividade sem alterar opacidade
+     ou transformações definidas nos outros estados
+   ========================================================= */
 
 .view-btn:not(.active) {
   pointer-events: auto;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTILO BASE DO PSEUDO-ELEMENTO ::AFTER DOS BOTÕES DE VISUALIZAÇÃO
+   (.view-btn::after)
+   ---------------------------------------------------------
+   Define a aparência e posicionamento do conteúdo
+   adicional exibido após os botões de visualização,
+   geralmente usado para labels ou tooltips.
+
+   Este bloco aplica:
+   - font-size: 12px → tamanho da fonte do texto adicional
+   - font-weight: 400 → peso normal da fonte
+   - transform: translateX(-50%) translateY(4px) scale(1) →
+     centraliza horizontalmente, desloca verticalmente 4px
+     e mantém escala padrão
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante alinhamento consistente do conteúdo adicional
+     em relação ao botão
+   - Mantém tipografia uniforme com outros elementos
+     de interface
+   - Suporta animações de entrada/saída quando combinada
+     com opacity e transitions
+
+   IMPORTANTE:
+   - Outras propriedades visuais (cor, background,
+     opacity, pointer-events) devem ser definidas em
+     regras separadas
+   - Transformações podem ser animadas via transition
+     para efeitos suaves
+   ========================================================= */
 
 .view-btn::after {
   font-size: 12px;
@@ -77,20 +281,114 @@
   transform: translateX(-50%) translateY(4px) scale(1);
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
-/* tooltip base */
+/* =========================================================
+   ESTADO BASE DO PSEUDO-ELEMENTO ::AFTER COM ARIA-LABEL
+   (.view-btn[aria-label]::after)
+   ---------------------------------------------------------
+   Define o estado inicial do tooltip ou label acessível
+   de botões que possuem o atributo aria-label.
+
+   Este bloco aplica:
+   - opacity: 0 → inicia invisível
+   - transform: translateX(-50%) translateY(4px) →
+     posiciona centralizado horizontalmente e deslocado
+     verticalmente 4px
+   - transition: opacity 0.15s ease, transform 0.15s ease →
+     garante animação suave ao aparecer/desaparecer
+
+   FUNÇÃO ARQUITETURAL:
+   - Suporta acessibilidade exibindo labels dinâmicos
+     via pseudo-elemento ::after
+   - Prepara o tooltip para animações de hover ou foco
+   - Mantém consistência de posicionamento e transição
+     entre diferentes botões
+
+   IMPORTANTE:
+   - A visibilidade é ativada via hover ou classes
+     dinâmicas
+   - Outras propriedades como background, cor e padding
+     devem ser definidas separadamente
+   ========================================================= */
+
 .view-btn[aria-label]::after {
   opacity: 0;
   transform: translateX(-50%) translateY(4px);
   transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
-/* hover dispara animação */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE HOVER DO TOOLTIP DO BOTÃO DE VISUALIZAÇÃO
+   (.view-btn[aria-label]:hover::after)
+   ---------------------------------------------------------
+   Aplica animação ao pseudo-elemento ::after de botões
+   que possuem aria-label quando o usuário passa o cursor
+   sobre o botão.
+
+   Este bloco aplica:
+   - animation: tooltip-life 4s ease forwards →
+     executa a animação definida em @keyframes tooltip-life
+     por 4 segundos com easing suave e mantém o estado final
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite que o tooltip apareça e desapareça de forma
+     animada, melhorando a experiência do usuário
+   - Mantém consistência com outros tooltips do projeto
+   - Combina opacidade e transform para efeito de entrada
+     e saída suave
+
+   IMPORTANTE:
+   - A animação é ativada apenas em hover
+   - A duração (4s) pode ser ajustada conforme necessidade
+   - Outros estilos do tooltip (cor, padding, borda) são
+     definidos em regras separadas
+   ========================================================= */
+
 .view-btn[aria-label]:hover::after {
   animation: tooltip-life 4s ease forwards;
 }
 
-/* ciclo de vida do tooltip */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE VIDA DO TOOLTIP
+   (@keyframes tooltip-life)
+   ---------------------------------------------------------
+   Controla a entrada, permanência e saída do tooltip
+   exibido pelos pseudo-elementos ::after de botões
+   com aria-label.
+
+   FLUXO DE ANIMAÇÃO:
+   0%:
+     - opacity: 0 → invisível no início
+     - transform: translateX(-50%) translateY(6px) →
+       deslocado levemente para baixo
+   25%:
+     - opacity: 1 → totalmente visível
+     - transform: translateX(-50%) translateY(0) →
+       centralizado verticalmente
+   75%:
+     - opacity: 1 → mantém visível
+   100%:
+     - opacity: 0 → desaparece suavemente
+
+   FUNÇÃO ARQUITETURAL:
+   - Cria efeito de fade-in e fade-out do tooltip
+   - Adiciona movimento vertical sutil para reforçar
+     percepção visual
+   - Mantém consistência de comportamento entre todos
+     os tooltips do projeto
+
+   IMPORTANTE:
+   - Deve ser chamado via propriedade animation
+     nos pseudo-elementos ::after durante hover
+   - A duração e easing da animação podem ser ajustados
+     conforme necessidade
+   ========================================================= */
+
 @keyframes tooltip-life {
   0% {
     opacity: 0;
