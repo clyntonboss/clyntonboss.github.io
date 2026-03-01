@@ -6863,6 +6863,44 @@ body.static-header .last-update {
 
 /* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
+/* =========================================================
+   ESTADO BASE DO BOTÃO DE VISUALIZAÇÃO
+   (.view-btn)
+   ---------------------------------------------------------
+   Define o estado inicial do botão responsável
+   pela ação de visualização dentro do fluxo
+   de interação da interface.
+
+   Este bloco aplica:
+   - opacity: 0 → botão inicia invisível
+   - transform: translateX(-32px) → inicia
+     deslocado 32px à esquerda do estado final
+   - transition → define suavização padrão
+     para opacity e transform (0.4s ease)
+   - pointer-events: none → impede qualquer
+     interação enquanto estiver invisível
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante que o botão não seja clicável
+     antes da ativação visual
+   - Mantém coerência com o padrão de
+     animações horizontais do projeto
+   - Evita interações prematuras durante
+     transições de estado controladas via JS
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ Estado base (invisível + deslocado à esquerda)
+   2️⃣ Classe de ativação → opacity 1 + translateX(0)
+   3️⃣ Botão torna-se visível e interativo
+
+   IMPORTANTE:
+   - pointer-events: none é essencial para
+     impedir cliques invisíveis
+   - A transição já está declarada neste
+     estado base por se tratar de um elemento
+     com ativação direta e isolada
+   ========================================================= */
+
 .view-btn {
   opacity: 0;
   transform: translateX(-32px);
@@ -6872,32 +6910,185 @@ body.static-header .last-update {
   pointer-events: none;
 }
 
-/* ENTRADA */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DO BOTÃO DE VISUALIZAÇÃO
+   (.view-btn.vm-enter)
+   ---------------------------------------------------------
+   Define o estado ativo do botão de visualização
+   após a aplicação da classe de entrada.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o botão visível
+   - transform: translateX(0) → retorna
+     ao posicionamento original
+   - pointer-events: auto → reativa
+     a interação do usuário
+
+   FUNÇÃO ARQUITETURAL:
+   - Representa o estado final da animação
+     iniciada a partir do estado base (.view-btn)
+   - Restaura a interatividade somente após
+     a conclusão visual da transição
+   - Mantém coerência com o padrão de
+     animações horizontais do projeto
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ Estado base (.view-btn)
+       → invisível + deslocado à esquerda
+   2️⃣ Aplicação de .vm-enter
+       → fade-in + movimento para posição 0
+   3️⃣ Botão torna-se visível e clicável
+
+   IMPORTANTE:
+   - A transição não é redefinida aqui,
+     pois já foi declarada no estado base
+   - pointer-events: auto só deve existir
+     no estado ativo para evitar cliques
+     durante fases invisíveis
+   ========================================================= */
+
 .view-btn.vm-enter {
   opacity: 1;
   transform: translateX(0);
   pointer-events: auto;
 }
 
-/* SAÍDA */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DO BOTÃO DE VISUALIZAÇÃO
+   (.view-btn.vm-exit)
+   ---------------------------------------------------------
+   Define o estado de retorno do botão de visualização
+   quando a interface exige sua remoção visual.
+
+   Este bloco aplica:
+   - opacity: 0 → torna o botão invisível
+   - transform: translateX(-32px) → desloca
+     novamente 32px para a esquerda
+   - pointer-events: none → desativa
+     qualquer interação durante a saída
+
+   FUNÇÃO ARQUITETURAL:
+   - Representa o estado de retração do botão
+   - Mantém simetria com o estado base
+   - Garante consistência no padrão de
+     animação horizontal do projeto
+   - Evita cliques durante o processo
+     de transição visual
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ Estado ativo (.vm-enter)
+       → visível + posição original
+   2️⃣ Aplicação de .vm-exit
+       → fade-out + deslocamento à esquerda
+   3️⃣ Retorno ao estado invisível e inativo
+
+   IMPORTANTE:
+   - A transição permanece controlada pelo
+     estado base (.view-btn)
+   - O deslocamento espelha exatamente
+     o valor definido no estado inicial,
+     garantindo coerência visual
+   ========================================================= */
+
 .view-btn.vm-exit {
   opacity: 0;
   transform: translateX(-32px);
   pointer-events: none;
 }
 
-/* Estado invisível REAL */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO OCULTO FORÇADO DO BOTÃO DE VISUALIZAÇÃO
+   (.view-btn.vm-hidden)
+   ---------------------------------------------------------
+   Define um estado de ocultação estática do botão,
+   utilizado para garantir que o elemento permaneça
+   invisível e inativo independentemente do fluxo
+   de animação.
+
+   Este bloco aplica:
+   - opacity: 0 → mantém o botão invisível
+   - transform: translateX(-32px) → mantém
+     o deslocamento padrão à esquerda
+   - pointer-events: none → impede qualquer
+     tipo de interação
+
+   FUNÇÃO ARQUITETURAL:
+   - Atua como estado de segurança visual
+   - Garante previsibilidade quando o botão
+     não deve participar do fluxo de entrada/saída
+   - Pode ser usado para reset estrutural
+     antes da aplicação de novas classes
+   - Evita conflitos entre .vm-enter e .vm-exit
+
+   DIFERENÇA CONCEITUAL:
+   - .vm-exit → participa do fluxo animado
+   - .vm-hidden → estado oculto fixo/forçado,
+     independente de transição
+
+   IMPORTANTE:
+   - Mantém os mesmos valores do estado base
+     para preservar consistência horizontal
+   - Não redefine transition, pois esta já
+     está declarada no seletor principal
+   ========================================================= */
+
 .view-btn.vm-hidden {
   opacity: 0;
   transform: translateX(-32px);
   pointer-events: none;
 }
 
-/* ===============================
-   TOOLTIP PARA ÍCONES (ARIA)
-================================ */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
-/* garante contexto */
+/* =========================================================
+   BASE PARA TOOLTIP VIA ATRIBUTO aria-label
+   (.view-btn, toggles, copiar-btn, ícones e links)
+   ---------------------------------------------------------
+   Define o contexto de posicionamento necessário
+   para exibição de tooltips personalizados baseados
+   no atributo aria-label.
+
+   Este bloco aplica:
+   - position: relative → estabelece o elemento
+     como referência para posicionamento absoluto
+     de pseudo-elementos (::before / ::after)
+
+   ELEMENTOS ABRANGIDOS:
+   - .view-btn
+   - #theme-toggle-home
+   - #theme-toggle-portfolio
+   - .copiar-btn
+   - #header-home-icon
+   - .footer a
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite a criação de tooltips sem alterar
+     a estrutura HTML
+   - Garante que qualquer pseudo-elemento
+     absoluto seja posicionado em relação
+     ao próprio elemento interativo
+   - Mantém encapsulamento visual e evita
+     dependência de containers externos
+
+   PADRÃO UTILIZADO:
+   - O conteúdo do tooltip é derivado do
+     atributo aria-label
+   - Reforça acessibilidade ao mesmo tempo
+     em que fornece feedback visual
+
+   IMPORTANTE:
+   - Não altera layout externo
+   - Não interfere no fluxo normal do documento
+   - Atua apenas como base estrutural
+     para renderização de camadas adicionais
+   ========================================================= */
+
 .view-btn[aria-label],
 #theme-toggle-home[aria-label],
 #theme-toggle-portfolio[aria-label],
@@ -6907,7 +7098,61 @@ body.static-header .last-update {
   position: relative;
 }
 
-/* tooltip */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TOOLTIP VISUAL (PSEUDO-ELEMENTO ::after)
+   (Elementos com aria-label)
+   ---------------------------------------------------------
+   Cria o tooltip visual dinâmico utilizando o
+   valor do atributo aria-label como conteúdo.
+
+   Este bloco aplica:
+   - content: attr(aria-label) → injeta
+     automaticamente o texto do atributo
+   - position: absolute → posicionamento
+     relativo ao elemento pai (position: relative)
+   - bottom: -28px → posiciona abaixo do elemento
+   - left: 50% + translateX(-50%) → centraliza
+     horizontalmente
+   - translateY(4px) → pequeno deslocamento
+     inicial para animação suave
+
+   ESTILIZAÇÃO VISUAL:
+   - background: rgba(0,0,0,0.75) → fundo escuro translúcido
+   - color: #fff → contraste de leitura
+   - font-size: 0.7rem → tamanho discreto
+   - padding: 4px 8px → área de respiro
+   - border-radius: 4px → bordas suavizadas
+   - white-space: nowrap → impede quebra de linha
+
+   CONTROLE DE VISIBILIDADE:
+   - opacity: 0 → inicia invisível
+   - pointer-events: none → impede interferência
+   - transition → anima opacity e transform (0.15s ease)
+   - z-index: 1000 → garante sobreposição adequada
+
+   FUNÇÃO ARQUITETURAL:
+   - Implementa sistema de tooltip sem JS
+   - Mantém acessibilidade via aria-label
+   - Centraliza padrão visual para múltiplos
+     elementos interativos do projeto
+   - Garante microanimação consistente
+     com identidade visual da interface
+
+   FLUXO DE INTERAÇÃO:
+   1️⃣ Estado base → invisível + levemente deslocado
+   2️⃣ :hover ou classe ativa → opacity 1
+       + translateY(0)
+   3️⃣ Tooltip aparece suavemente centralizado
+
+   IMPORTANTE:
+   - Depende de position: relative no elemento pai
+   - Não altera fluxo do layout
+   - Utiliza apenas CSS puro para controle
+     visual e transição
+   ========================================================= */
+
 .view-btn[aria-label]::after,
 #theme-toggle-home[aria-label]::after,
 #theme-toggle-portfolio[aria-label]::after,
@@ -6918,23 +7163,77 @@ body.static-header .last-update {
   bottom: -28px;
   left: 50%;
   transform: translateX(-50%) translateY(4px);
-
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
   font-size: 0.7rem;
   padding: 4px 8px;
   border-radius: 4px;
   white-space: nowrap;
-
   opacity: 0;
   pointer-events: none;
-
   transition:
     opacity 0.15s ease,
     transform 0.15s ease;
-
   z-index: 1000;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TOOLTIP SUPERIOR PARA LINKS DO FOOTER
+   (.footer a[aria-label]::after)
+   ---------------------------------------------------------
+   Cria a variação de tooltip específica para
+   links localizados no footer, ajustando o
+   posicionamento vertical para exibição acima
+   do elemento.
+
+   Este bloco aplica:
+   - content: attr(aria-label) → utiliza o
+     texto do atributo como conteúdo
+   - position: absolute → relativo ao link
+     (que possui position: relative)
+   - bottom: 28px → posiciona acima do link
+   - left: 50% + translateX(-50%) → centralização horizontal
+   - translateY(4px) → leve deslocamento inicial
+     para microanimação de entrada
+
+   ESTILIZAÇÃO VISUAL:
+   - background escuro translúcido
+   - color: #fff → alto contraste
+   - font-size: 0.7rem → padrão discreto
+   - padding: 4px 8px → área confortável
+   - border-radius: 4px → suavização visual
+   - white-space: nowrap → impede quebra de linha
+
+   CONTROLE DE VISIBILIDADE:
+   - opacity: 0 → inicia invisível
+   - pointer-events: none → evita interferência
+   - transition (0.15s ease) → suaviza
+     opacity e transform
+   - z-index: 1000 → garante sobreposição
+
+   FUNÇÃO ARQUITETURAL:
+   - Mantém consistência com o sistema
+     global de tooltips
+   - Ajusta direção de exibição para
+     evitar conflito com o limite inferior
+     da viewport
+   - Preserva acessibilidade via aria-label
+   - Evita necessidade de JavaScript
+
+   DIFERENCIAL EM RELAÇÃO AO PADRÃO:
+   - Exibição acima do elemento
+     (ao invés de abaixo)
+   - Adequado para elementos posicionados
+     na borda inferior da interface
+
+   IMPORTANTE:
+   - Depende de position: relative no link
+   - Não altera o fluxo do layout
+   - Mantém microanimação coerente com
+     o restante do projeto
+   ========================================================= */
 
 .footer a[aria-label]::after {
   content: attr(aria-label);
@@ -6942,25 +7241,61 @@ body.static-header .last-update {
   bottom: 28px;
   left: 50%;
   transform: translateX(-50%) translateY(4px);
-
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
   font-size: 0.7rem;
   padding: 4px 8px;
   border-radius: 4px;
   white-space: nowrap;
-
   opacity: 0;
   pointer-events: none;
-
   transition:
     opacity 0.15s ease,
     transform 0.15s ease;
-
   z-index: 1000;
 }
 
-/* hover */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE EXIBIÇÃO DO TOOLTIP (HOVER)
+   (Elementos com aria-label)
+   ---------------------------------------------------------
+   Define o momento de ativação visual do tooltip
+   quando o usuário interage com o elemento via hover.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o tooltip visível
+   - transform: translateX(-50%) translateY(0)
+     → remove o deslocamento vertical inicial,
+       concluindo a microanimação
+
+   FUNÇÃO ARQUITETURAL:
+   - Conclui o ciclo iniciado no estado base (::after)
+   - Cria efeito de fade-in + leve subida
+   - Mantém consistência entre todos os
+     elementos interativos que utilizam aria-label
+   - Centraliza o comportamento de exibição
+     em um único padrão reutilizável
+
+   FLUXO DE INTERAÇÃO:
+   1️⃣ Estado base (::after)
+       → opacity: 0
+       → translateY(4px)
+   2️⃣ :hover
+       → opacity: 1
+       → translateY(0)
+   3️⃣ Saída do hover
+       → retorna suavemente ao estado inicial
+
+   IMPORTANTE:
+   - Não redefine transições (já declaradas no base)
+   - Mantém translateX(-50%) para preservar
+     alinhamento horizontal centralizado
+   - Funciona exclusivamente via CSS,
+     sem dependência de JavaScript
+   ========================================================= */
+
 .view-btn[aria-label]:hover::after,
 #theme-toggle-home[aria-label]:hover::after,
 #theme-toggle-portfolio[aria-label]:hover::after,
@@ -6971,21 +7306,137 @@ body.static-header .last-update {
   transform: translateX(-50%) translateY(0);
 }
 
-/* Side Menu começa invisível */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO BASE DO PAINEL LATERAL DO PORTFÓLIO
+   (.side-portfolio)
+   ---------------------------------------------------------
+   Define o estado estrutural inicial do painel
+   lateral do portfólio antes de qualquer ativação
+   dinâmica via JavaScript.
+
+   Este bloco aplica:
+   - display: none → remove completamente
+     o elemento do fluxo do layout
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante que o painel não ocupe espaço
+     nem influencie o layout inicial
+   - Evita renderização prematura antes
+     da lógica de controle de estado
+   - Permite ativação controlada por classe
+     específica ou manipulação via JS
+
+   DIFERENÇA CONCEITUAL:
+   - display: none → remove do fluxo e
+     impede qualquer interação
+   - Diferente de opacity: 0 → que apenas
+     oculta visualmente mantendo espaço
+
+   FLUXO DE ATIVAÇÃO:
+   1️⃣ Estado base → não renderizado
+   2️⃣ Classe de ativação aplicada
+       → display alterado (ex: flex/block)
+   3️⃣ Painel passa a integrar o layout
+
+   IMPORTANTE:
+   - Elementos com display: none não
+     permitem transições diretas
+   - Caso haja animação de entrada,
+     ela deve ocorrer após a reativação
+     do display via classe específica
+   ========================================================= */
+
 .side-portfolio {
   display: none;
 }
 
-/* =========================================
-   Animação Header (Nome + Data)
-========================================= */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
-/* Saída */
+/* =========================================================
+   ESTADO DE SAÍDA DO NOME NO HEADER
+   (.header-exit .header-name)
+   ---------------------------------------------------------
+   Define o comportamento de saída do elemento
+   que representa o nome no cabeçalho quando a
+   classe estrutural .header-exit é ativada.
+
+   Este bloco aplica:
+   - opacity: 0 → torna o nome invisível
+   - transform: translateX(64px) → desloca
+     64px para a direita (padrão horizontal do projeto)
+   - transition-delay: 0s → garante início
+     imediato da animação de saída
+
+   FUNÇÃO ARQUITETURAL:
+   - Representa o estado de retração visual
+     do nome no header
+   - Mantém coerência com o padrão global
+     de animações horizontais (+64px à direita)
+   - Permite sincronização precisa com outros
+     elementos do header durante transição de modo
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ Estado ativo → visível + posição original
+   2️⃣ Aplicação de .header-exit
+       → fade-out + deslocamento à direita
+   3️⃣ Elemento preparado para possível
+       reentrada futura (.header-enter)
+
+   IMPORTANTE:
+   - transition-delay: 0s evita defasagem
+     indesejada na saída
+   - O valor 64px mantém consistência
+     com outros componentes do sistema
+   - Depende de transition previamente
+     declarada no estado base
+   ========================================================= */
+
 .header-exit .header-name {
   opacity: 0;
   transform: translateX(64px);
   transition-delay: 0s;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DA INFORMAÇÃO "LAST UPDATE"
+   (.header-exit .last-update)
+   ---------------------------------------------------------
+   Define o comportamento de saída do elemento
+   que exibe a última atualização no header
+   quando a classe estrutural .header-exit é ativada.
+
+   Este bloco aplica:
+   - opacity: 0 → torna o elemento invisível
+   - transform: translateX(64px) → desloca
+     64px para a direita (padrão horizontal)
+   - transition-delay: 0.16s → cria atraso
+     controlado na animação de saída
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite animação escalonada (stagger)
+     em relação a outros elementos do header
+   - Mantém coerência com o padrão de
+     deslocamento horizontal do projeto
+   - Contribui para fluidez e hierarquia
+     visual durante a transição de modo
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-name inicia saída (delay 0s)
+   2️⃣ .last-update inicia após 0.16s
+   3️⃣ Cria efeito sequencial organizado
+
+   IMPORTANTE:
+   - O transition-delay garante ritmo
+     e evita saída simultânea abrupta
+   - O valor 64px mantém alinhamento
+     com demais animações horizontais
+   - Depende de transition declarada
+     previamente no estado base
+   ========================================================= */
 
 .header-exit .last-update {
   opacity: 0;
@@ -6993,19 +7444,143 @@ body.static-header .last-update {
   transition-delay: 0.16s;
 }
 
-/* Pré-entrada */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO PRÉ-ENTRADA DO HEADER
+   (.header-pre-enter)
+   ---------------------------------------------------------
+   Define o estado preparatório dos elementos
+   internos do header antes da aplicação da
+   animação oficial de entrada.
+
+   Este bloco aplica:
+   - opacity: 0 → mantém os elementos invisíveis
+   - transform: translateX(64px) → posiciona
+     64px à direita do estado final
+
+   ELEMENTOS AFETADOS:
+   - .header-name
+   - .last-update
+
+   FUNÇÃO ARQUITETURAL:
+   - Prepara visualmente os elementos para
+     a animação de entrada subsequente
+   - Garante que não haja “salto visual”
+     ao remover .header-exit
+   - Mantém consistência com o padrão
+     horizontal adotado no projeto
+
+   DIFERENÇA CONCEITUAL:
+   - .header-exit → estado animado de saída
+   - .header-pre-enter → estado estático
+     preparatório antes da entrada
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-exit removido
+   2️⃣ .header-pre-enter aplicado
+       → elementos invisíveis + deslocados
+   3️⃣ Classe de entrada aplicada
+       → fade-in + translateX(0)
+
+   IMPORTANTE:
+   - Não define transition aqui,
+     permitindo controle total no
+     estado oficial de entrada
+   - O valor 64px preserva o padrão
+     estrutural de animação horizontal
+   ========================================================= */
+
 .header-pre-enter .header-name,
 .header-pre-enter .last-update {
   opacity: 0;
   transform: translateX(64px);
 }
 
-/* Entrada */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DO NOME NO HEADER
+   (.header-enter .header-name)
+   ---------------------------------------------------------
+   Define o comportamento de entrada do elemento
+   que representa o nome no cabeçalho quando a
+   classe estrutural .header-enter é ativada.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o elemento visível
+   - transform: translateX(0) → posiciona
+     no estado final (sem deslocamento)
+   - transition-delay: 0s → inicia a animação
+     imediatamente
+
+   FUNÇÃO ARQUITETURAL:
+   - Conclui o ciclo iniciado em
+     .header-pre-enter
+   - Mantém coerência com o padrão
+     horizontal do projeto (64px → 0)
+   - Permite sincronização precisa
+     com outros elementos do header
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-pre-enter
+       → invisível + deslocado à direita
+   2️⃣ Aplicação de .header-enter
+       → fade-in + movimento para posição 0
+   3️⃣ Elemento totalmente visível e estabilizado
+
+   IMPORTANTE:
+   - transition deve estar declarada
+     no estado base do elemento
+   - transition-delay: 0s garante que
+     este elemento lidere a sequência
+     caso exista animação escalonada
+   ========================================================= */
+
 .header-enter .header-name {
   opacity: 1;
   transform: translateX(0);
   transition-delay: 0s;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DA INFORMAÇÃO "LAST UPDATE"
+   (.header-enter .last-update)
+   ---------------------------------------------------------
+   Define o comportamento de entrada do elemento
+   que exibe a última atualização no header
+   quando a classe estrutural .header-enter é ativada.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o elemento visível
+   - transform: translateX(0) → retorna
+     ao posicionamento original
+   - transition-delay: 0.16s → cria atraso
+     intencional na animação de entrada
+
+   FUNÇÃO ARQUITETURAL:
+   - Conclui o ciclo iniciado em
+     .header-pre-enter
+   - Implementa efeito escalonado (stagger)
+     em relação a .header-name
+   - Reforça hierarquia visual e ritmo
+     na transição do header
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-name entra primeiro (delay 0s)
+   2️⃣ .last-update inicia após 0.16s
+   3️⃣ Sequência visual organizada e fluida
+
+   IMPORTANTE:
+   - transition deve estar declarada
+     no estado base do elemento
+   - O delay mantém coerência com o
+     padrão aplicado no estado de saída
+   - O deslocamento 64px → 0 segue
+     o padrão horizontal do projeto
+   ========================================================= */
 
 .header-enter .last-update {
   opacity: 1;
@@ -7013,7 +7588,44 @@ body.static-header .last-update {
   transition-delay: 0.16s;
 }
 
-/* Estado Base Header Portfólio */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   TRANSIÇÃO PADRÃO DOS ELEMENTOS DO HEADER DO PORTFÓLIO
+   (.header-portfolio)
+   ---------------------------------------------------------
+   Define as propriedades de transição para os
+   elementos internos do header do portfólio,
+   garantindo animação suave durante mudanças
+   de estado.
+
+   Este bloco aplica:
+   - transition → controla a animação de:
+       • opacity 0.4s ease → suaviza
+         aparecimento/desaparecimento
+       • transform 0.4s ease → suaviza
+         movimentos horizontais/verticais
+
+   ELEMENTOS AFETADOS:
+   - .header-photo → imagem do header
+   - .header-name → nome do usuário ou título
+   - .last-update → informação de última atualização
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante uniformidade visual entre
+     os elementos do header do portfólio
+   - Facilita aplicação de classes de entrada
+     (.header-enter) ou saída (.header-exit)
+   - Centraliza configuração de animação
+     evitando declarações repetidas
+
+   IMPORTANTE:
+   - Apenas define o efeito de transição,
+     não altera estados de opacity ou transform
+   - Mantém consistência com o padrão horizontal
+     de animação adotado no projeto
+   ========================================================= */
+
 .header-portfolio .header-photo,
 .header-portfolio .header-name,
 .header-portfolio .last-update {
@@ -7022,26 +7634,187 @@ body.static-header .last-update {
     transform 0.4s ease;
 }
 
-/* Nome */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DO NOME NO PORTFÓLIO
+   (.portfolio-exit .header-name)
+   ---------------------------------------------------------
+   Define o comportamento de saída do elemento
+   que representa o nome dentro do header do
+   portfólio quando a classe estrutural
+   .portfolio-exit é ativada.
+
+   Este bloco aplica:
+   - opacity: 0 → torna o elemento invisível
+   - transform: translateX(64px) → desloca
+     64px para a direita (padrão horizontal do projeto)
+   - transition-delay: 0s → inicia a animação
+     imediatamente
+
+   FUNÇÃO ARQUITETURAL:
+   - Representa o estado de retração visual
+     do nome no portfólio
+   - Mantém coerência com o padrão horizontal
+     adotado no header principal
+   - Permite sincronização precisa com outros
+     elementos do portfólio durante a transição
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ Estado ativo → visível + posição original
+   2️⃣ Aplicação de .portfolio-exit
+       → fade-out + deslocamento à direita
+   3️⃣ Elemento preparado para possível
+       reentrada futura (.portfolio-enter)
+
+   IMPORTANTE:
+   - transition-delay: 0s garante que este
+     elemento inicie a saída antes de outros
+     elementos escalonados
+   - Depende de transition declarada previamente
+     no estado base
+   ========================================================= */
+
 .portfolio-exit .header-name {
   opacity: 0;
   transform: translateX(64px);
   transition-delay: 0s;
 }
 
-/* Data */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DA INFORMAÇÃO "LAST UPDATE" NO PORTFÓLIO
+   (.portfolio-exit .last-update)
+   ---------------------------------------------------------
+   Define o comportamento de saída do elemento
+   que exibe a última atualização dentro do
+   header do portfólio quando a classe
+   .portfolio-exit é ativada.
+
+   Este bloco aplica:
+   - opacity: 0 → torna o elemento invisível
+   - transform: translateX(64px) → desloca
+     64px para a direita
+   - transition-delay: 0.12s → cria atraso
+     controlado para saída escalonada
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite animação escalonada em relação
+     ao .header-name do portfólio
+   - Mantém coerência visual com o padrão
+     horizontal do projeto
+   - Contribui para fluidez e hierarquia
+     visual durante a transição de saída
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-name inicia saída (delay 0s)
+   2️⃣ .last-update inicia após 0.12s
+   3️⃣ Sequência visual organizada e fluida
+
+   IMPORTANTE:
+   - O transition-delay garante ritmo e evita
+     saída simultânea abrupta
+   - O deslocamento 64px → 0 deve ser mantido
+     no estado de entrada para consistência
+   - Depende de transition declarada previamente
+     no estado base
+   ========================================================= */
+
 .portfolio-exit .last-update {
   opacity: 0;
   transform: translateX(64px);
   transition-delay: 0.12s;
 }
 
-/* Foto */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DA FOTO NO HEADER DO PORTFÓLIO
+   (.portfolio-exit .header-photo)
+   ---------------------------------------------------------
+   Define o comportamento de saída do elemento
+   que exibe a foto no header do portfólio quando
+   a classe estrutural .portfolio-exit é ativada.
+
+   Este bloco aplica:
+   - opacity: 0 → torna a foto invisível
+   - transform: translateX(64px) → desloca
+     64px para a direita
+   - transition-delay: 0.24s → cria atraso
+     controlado, escalonando a saída em relação
+     aos outros elementos do header
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite animação sequencial do header do
+     portfólio, criando hierarquia visual
+   - Mantém coerência com o padrão horizontal
+     de animação adotado no projeto
+   - Garante fluidez e organização durante
+     a transição de saída
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-name inicia saída (delay 0s)
+   2️⃣ .last-update inicia após 0.12s
+   3️⃣ .header-photo inicia após 0.24s
+   4️⃣ Elementos totalmente retraídos e prontos
+       para possível reentrada
+
+   IMPORTANTE:
+   - O transition-delay escalonado reforça ritmo
+     e legibilidade da transição
+   - O deslocamento 64px → 0 deve ser mantido
+     no estado de entrada para consistência
+   - Depende de transition declarada previamente
+     no estado base
+   ========================================================= */
+
 .portfolio-exit .header-photo {
   opacity: 0;
   transform: translateX(64px);
   transition-delay: 0.24s;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO PRÉ-ENTRADA DO HEADER DO PORTFÓLIO
+   (.portfolio-pre-enter)
+   ---------------------------------------------------------
+   Define o estado inicial preparatório dos elementos
+   internos do header do portfólio antes da aplicação
+   da animação oficial de entrada.
+
+   Este bloco aplica:
+   - opacity: 0 → elementos iniciam invisíveis
+   - transform: translateX(64px) → posiciona
+     64px à direita do estado final
+
+   ELEMENTOS AFETADOS:
+   - .header-photo → imagem do portfólio
+   - .header-name → nome/título do portfólio
+   - .last-update → informação de última atualização
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante que os elementos estejam preparados
+     para a animação de entrada sem saltos visuais
+   - Mantém coerência com o padrão horizontal
+     adotado para todas as transições
+   - Permite que a classe de entrada subsequente
+     (.portfolio-enter) execute fade-in e
+     deslocamento de forma suave
+
+   DIFERENÇA CONCEITUAL:
+   - .portfolio-exit → animação de saída
+   - .portfolio-pre-enter → estado estático
+     inicial antes da entrada
+
+   IMPORTANTE:
+   - Não define transition aqui, permitindo
+     controle total no estado de entrada
+   - O valor de 64px garante consistência
+     com o padrão de animação horizontal
+   ========================================================= */
 
 .portfolio-pre-enter .header-photo,
 .portfolio-pre-enter .header-name,
@@ -7050,44 +7823,302 @@ body.static-header .last-update {
   transform: translateX(64px);
 }
 
-/* Foto */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DA FOTO NO HEADER DO PORTFÓLIO
+   (.portfolio-enter .header-photo)
+   ---------------------------------------------------------
+   Define o comportamento de entrada do elemento
+   que exibe a foto no header do portfólio quando
+   a classe estrutural .portfolio-enter é ativada.
+
+   Este bloco aplica:
+   - opacity: 1 → torna a foto visível
+   - transform: translateX(0) → posiciona
+     no estado final
+   - transition-delay: 0s → inicia a animação imediatamente
+
+   FUNÇÃO ARQUITETURAL:
+   - Conclui o ciclo iniciado em .portfolio-pre-enter
+   - Mantém coerência com o padrão horizontal
+     de 64px → 0 adotado no projeto
+   - Permite sincronização escalonada com
+     outros elementos do header do portfólio
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .portfolio-pre-enter
+       → invisível + deslocado à direita
+   2️⃣ Aplicação de .portfolio-enter
+       → fade-in + movimento para posição 0
+   3️⃣ Elemento totalmente visível e estabilizado
+
+   IMPORTANTE:
+   - Transition deve estar declarada previamente
+     no estado base
+   - Transition-delay: 0s garante que a foto
+     lidere a sequência de entrada
+   ========================================================= */
+
 .portfolio-enter .header-photo {
   opacity: 1;
   transform: translateX(0);
   transition-delay: 0s;
 }
 
-/* Nome */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DO NOME NO HEADER DO PORTFÓLIO
+   (.portfolio-enter .header-name)
+   ---------------------------------------------------------
+   Define o comportamento de entrada do elemento
+   que representa o nome/título no header do
+   portfólio quando a classe estrutural
+   .portfolio-enter é ativada.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o elemento visível
+   - transform: translateX(0) → posiciona
+     no estado final
+   - transition-delay: 0.12s → cria atraso
+     controlado para entrada escalonada
+
+   FUNÇÃO ARQUITETURAL:
+   - Conclui o ciclo iniciado em .portfolio-pre-enter
+   - Mantém coerência com o padrão horizontal
+     de 64px → 0 adotado no projeto
+   - Implementa efeito escalonado (stagger)
+     em relação à foto do portfólio
+   - Reforça hierarquia visual e ritmo
+     na transição de entrada
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-photo entra primeiro (delay 0s)
+   2️⃣ .header-name entra após 0.12s
+   3️⃣ Sequência visual organizada e fluida
+
+   IMPORTANTE:
+   - Transition deve estar declarada previamente
+     no estado base
+   - Delay escalonado garante consistência
+     com animação de saída
+   ========================================================= */
+
 .portfolio-enter .header-name {
   opacity: 1;
   transform: translateX(0);
   transition-delay: 0.12s;
 }
 
-/* Data */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DA INFORMAÇÃO "LAST UPDATE" NO PORTFÓLIO
+   (.portfolio-enter .last-update)
+   ---------------------------------------------------------
+   Define o comportamento de entrada do elemento
+   que exibe a última atualização no header do
+   portfólio quando a classe estrutural
+   .portfolio-enter é ativada.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o elemento visível
+   - transform: translateX(0) → posiciona
+     no estado final
+   - transition-delay: 0.24s → cria atraso
+     controlado para entrada escalonada
+
+   FUNÇÃO ARQUITETURAL:
+   - Conclui o ciclo iniciado em .portfolio-pre-enter
+   - Mantém coerência com o padrão horizontal
+     de 64px → 0 adotado no projeto
+   - Implementa efeito escalonado em relação
+     à foto e ao nome do header
+   - Contribui para fluidez e hierarquia visual
+     durante a transição de entrada
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-photo inicia entrada (delay 0s)
+   2️⃣ .header-name inicia entrada (delay 0.12s)
+   3️⃣ .last-update inicia entrada (delay 0.24s)
+   4️⃣ Elementos totalmente visíveis e estabilizados
+
+   IMPORTANTE:
+   - Transition deve estar declarada previamente
+     no estado base
+   - O delay escalonado reforça ritmo e legibilidade
+     da animação
+   - Mantém consistência com animações de saída
+   ========================================================= */
+
 .portfolio-enter .last-update {
   opacity: 1;
   transform: translateX(0);
   transition-delay: 0.24s;
 }
 
-/* Controle de visibilidade da foto (ANIMÁVEL) */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO BASE DA FOTO DO HEADER
+   (.header-photo)
+   ---------------------------------------------------------
+   Define o estado inicial do elemento que exibe
+   a foto no header antes de qualquer animação
+   de entrada ou saída.
+
+   Este bloco aplica:
+   - opacity: 0 → foto inicia invisível
+   - transform: translateX(64px) → desloca
+     64px para a direita, alinhado com o padrão
+     horizontal do projeto
+   - transition → suaviza alterações de:
+       • opacity 0.4s ease
+       • transform 0.4s ease
+
+   FUNÇÃO ARQUITETURAL:
+   - Serve como ponto de partida para animações
+     de entrada (.header-enter) e saída (.header-exit)
+   - Garante consistência visual e evita
+     “saltos” ao ativar classes dinamicamente
+   - Permite sincronização com outros elementos
+     do header em transições escalonadas
+
+   IMPORTANTE:
+   - O valor 64px no transform deve ser mantido
+     para consistência (adicionar 'px' se necessário)
+   - Transition está declarada aqui para aplicar
+     em todas as alterações futuras
+   ========================================================= */
+
 .header-photo {
   opacity: 0;
   transition: opacity 0.4s ease, transform 0.4s ease;
-  transform: translateX(64);
+  transform: translateX(64px);
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE FOTO CARREGADA NO HEADER
+   (.header-photo.loaded)
+   ---------------------------------------------------------
+   Define o comportamento do elemento de foto
+   do header quando a imagem é carregada e a
+   classe .loaded é aplicada.
+
+   Este bloco aplica:
+   - opacity: 1 → torna a foto visível
+   - transform: translateX(0) → posiciona
+     a foto no estado final, removendo
+     deslocamento horizontal
+
+   FUNÇÃO ARQUITETURAL:
+   - Finaliza a animação iniciada no estado base
+     (.header-photo)
+   - Garante transição suave de invisível
+     para visível
+   - Mantém coerência com o padrão horizontal
+     de animação do projeto
+   - Permite sincronização visual com outros
+     elementos do header que possuem animações
+     escalonadas
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .header-photo inicia no estado base
+       → invisível + deslocada
+   2️⃣ Aplicação de .loaded
+       → fade-in + movimento para posição 0
+   3️⃣ Foto totalmente visível e estabilizada
+
+   IMPORTANTE:
+   - Transition deve estar definida no estado base
+     para que a animação ocorra suavemente
+   - Mantém consistência com os outros elementos
+     animados do header
+   ========================================================= */
 
 .header-photo.loaded {
   opacity: 1;
   transform: translateX(0);
 }
 
-/* Foto */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DA FOTO NO HEADER DO PORTFÓLIO
+   (.portfolio-exit .header-photo)
+   ---------------------------------------------------------
+   Define o comportamento de saída do elemento
+   que exibe a foto no header do portfólio quando
+   a classe estrutural .portfolio-exit é aplicada.
+
+   Este bloco aplica:
+   - opacity: 0 → torna a foto invisível
+   - transform: translateX(64px) → desloca
+     64px para a direita, seguindo o padrão
+     horizontal de animação do projeto
+
+   FUNÇÃO ARQUITETURAL:
+   - Implementa o efeito de retração visual
+     da foto durante a saída do portfólio
+   - Mantém coerência com outros elementos
+     do header em animações escalonadas
+   - Prepara o elemento para possível
+     reentrada futura (.portfolio-enter)
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ Estado ativo → foto visível + posição original
+   2️⃣ Aplicação de .portfolio-exit
+       → fade-out + deslocamento horizontal
+   3️⃣ Elemento invisível e deslocado, pronto
+       para reentrada
+
+   IMPORTANTE:
+   - Depende de transition declarada no estado base
+   - O deslocamento 64px → 0 deve ser mantido
+     nos estados de entrada para consistência
+   ========================================================= */
+
 .portfolio-exit .header-photo {
   opacity: 0;
   transform: translateX(64px);
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO OCULTO DA FOTO DO HEADER
+   (.header-photo.photo-hidden)
+   ---------------------------------------------------------
+   Define o comportamento do elemento de foto
+   do header quando a classe .photo-hidden é aplicada,
+   removendo interatividade e tornando-o invisível.
+
+   Este bloco aplica:
+   - opacity: 0 → torna a foto invisível
+   - transform: translateX(64px) → desloca
+     64px para a direita, mantendo consistência
+     com animações horizontais do projeto
+   - pointer-events: none → impede qualquer
+     interação do usuário com a foto
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite esconder a foto de forma controlada
+     sem removê-la do DOM
+   - Mantém coerência visual com padrões de
+     animação já existentes
+   - Útil para alternar estados do header
+     sem afetar layout ou interatividade de
+     outros elementos
+
+   IMPORTANTE:
+   - Transition deve estar declarada no estado base
+     para animações suaves
+   - O deslocamento 64px → 0 deve ser mantido
+     nos estados de entrada/saída
+   ========================================================= */
 
 .header-photo.photo-hidden {
   opacity: 0;
@@ -7095,7 +8126,38 @@ body.static-header .last-update {
   pointer-events: none;
 }
 
-/* Foto invisível + fora do layout (HOME) */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO COMPACTO DA FOTO NO HEADER HOME
+   (.header-home .header-photo)
+   ---------------------------------------------------------
+   Define o estado inicial da foto no header da
+   página home quando o elemento precisa estar
+   oculto ou minimizado sem removê-lo do DOM.
+
+   Este bloco aplica:
+   - width: 0 → remove a largura visível
+   - margin: 0 → remove margens externas
+   - padding: 0 → remove preenchimento interno
+   - gap: 0 → elimina espaçamento entre elementos filhos
+   - overflow: hidden → evita exibição de conteúdo
+     excedente
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite esconder visualmente a foto
+     mantendo o elemento no fluxo do DOM
+   - Garante que não ocupe espaço no layout
+   - Facilita animações de expansão ou transição
+     para estados visíveis posteriormente
+
+   IMPORTANTE:
+   - Transition pode ser aplicada posteriormente
+     para animar largura, padding ou margem
+   - Mantém consistência de layout ao alternar
+     entre estados visível e oculto
+   ========================================================= */
+
 .header-home .header-photo {
   width: 0;
   margin: 0;
@@ -7104,58 +8166,453 @@ body.static-header .last-update {
   overflow: hidden;
 }
 
-/* Foto normal (PORTFÓLIO) */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO PADRÃO DA FOTO NO HEADER DO PORTFÓLIO
+   (.header-portfolio .header-photo)
+   ---------------------------------------------------------
+   Define o estado visual e espaçamento da foto
+   dentro do header do portfólio quando o elemento
+   está ativo e visível.
+
+   Este bloco aplica:
+   - width: auto → a foto assume sua largura natural
+   - margin-right: 12px → cria espaçamento à direita,
+     separando a foto de elementos adjacentes
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite alinhamento correto com o nome e
+     a última atualização do portfólio
+   - Mantém consistência visual com o padrão
+     horizontal do layout
+   - Facilita transições suaves quando alternado
+     entre diferentes estados do header
+
+   IMPORTANTE:
+   - Transições de largura ou margens podem ser
+     aplicadas caso necessário para animação
+   - Mantém coerência com padrões de espaçamento
+     do restante do projeto
+   ========================================================= */
+
 .header-portfolio .header-photo {
   width: auto;
-  margin-right: 12px; /* ajuste conforme seu layout */
+  margin-right: 12px;
 }
 
-/* Intro -> Side Menu */
-/* HOME */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EXIBIÇÃO DA FOTO DE INTRODUÇÃO NA HOME
+   (body[data-mode="home"] .intro-photo)
+   ---------------------------------------------------------
+   Define a visibilidade do elemento de foto de
+   introdução quando o modo da página é "home".
+
+   Este bloco aplica:
+   - display: flex → torna o elemento visível
+     e habilita comportamento de container flexível
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante que a foto de introdução só seja
+     exibida no contexto da página home
+   - Permite alinhamento e distribuição interna
+     de filhos usando flexbox
+   - Mantém consistência visual com outros
+     elementos do layout da home
+
+   IMPORTANTE:
+   - Depende do atributo data-mode="home"
+     no body para ativação
+   - Pode ser combinado com transições
+     ou animações adicionais, se necessário
+   ========================================================= */
+
 body[data-mode="home"] .intro-photo {
   display: flex;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   OCULTAÇÃO DO PAINEL LATERAL NA HOME
+   (body[data-mode="home"] .side-portfolio)
+   ---------------------------------------------------------
+   Define o estado de visibilidade do painel lateral
+   do portfólio quando o modo da página é "home".
+
+   Este bloco aplica:
+   - display: none → remove o painel do fluxo
+     do layout, tornando-o invisível e
+     não interativo
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante que o side-portfolio não apareça
+     na página home, evitando interferência
+     no layout principal
+   - Permite controle dinâmico de exibição
+     via JavaScript ou mudança de modo
+   - Mantém consistência visual entre páginas
+     com diferentes modos
+
+   IMPORTANTE:
+   - Elementos com display: none não permitem
+     animações diretas até que sejam reativados
+     com display diferente
+   - Use classes ou scripts para ativar o painel
+     em outros modos, se necessário
+   ========================================================= */
 
 body[data-mode="home"] .side-portfolio {
   display: none;
 }
 
-/* PORTFÓLIO */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   OCULTAÇÃO DA FOTO DE INTRODUÇÃO NO MODO PORTFÓLIO
+   (body[data-mode="portfolio"] .intro-photo)
+   ---------------------------------------------------------
+   Define o estado de visibilidade do elemento de
+   foto de introdução quando o modo da página é
+   "portfolio".
+
+   Este bloco aplica:
+   - display: none → remove a foto do fluxo do layout,
+     tornando-a invisível e não interativa
+
+   FUNÇÃO ARQUITETURAL:
+   - Garante que a intro-photo não seja exibida
+     no contexto do portfólio, mantendo foco
+     nos elementos relevantes do layout
+   - Permite alternância dinâmica entre modos
+     de página via atributo data-mode no body
+   - Mantém consistência visual e hierarquia
+     entre diferentes modos de exibição
+
+   IMPORTANTE:
+   - Elementos com display: none não permitem
+     transições diretas até serem ativados
+     novamente
+   - Use classes ou scripts para exibir o elemento
+     quando retornar ao modo home
+   ========================================================= */
+
 body[data-mode="portfolio"] .intro-photo {
   display: none;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EXIBIÇÃO DO PAINEL LATERAL NO MODO PORTFÓLIO
+   (body[data-mode="portfolio"] .side-portfolio)
+   ---------------------------------------------------------
+   Define o estado de visibilidade do painel lateral
+   do portfólio quando o modo da página é "portfolio".
+
+   Este bloco aplica:
+   - display: flex → torna o painel visível e
+     habilita comportamento de container flexível
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite que o side-portfolio seja exibido
+     apenas no contexto do portfólio
+   - Mantém coerência visual com outros
+     elementos do layout
+   - Facilita alinhamento e distribuição interna
+     de elementos filhos via flexbox
+
+   IMPORTANTE:
+   - Depende do atributo data-mode="portfolio"
+     no body para ativação
+   - Pode ser combinado com transições ou
+     animações adicionais, se necessário
+   ========================================================= */
 
 body[data-mode="portfolio"] .side-portfolio {
   display: flex;
 }
 
-/* Animação Intro -> Side Menu -> Intro */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   OTIMIZAÇÃO DE RENDERIZAÇÃO PARA ELEMENTOS ANIMADOS
+   (.intro-photo, .side-portfolio)
+   ---------------------------------------------------------
+   Indica ao navegador que determinados elementos
+   terão alterações frequentes em transform e opacity,
+   permitindo otimizações de performance.
+
+   Este bloco aplica:
+   - will-change: transform, opacity → sinaliza
+     mudanças esperadas para renderização antecipada
+
+   ELEMENTOS AFETADOS:
+   - .intro-photo → foto de introdução na home
+   - .side-portfolio → painel lateral do portfólio
+
+   FUNÇÃO ARQUITETURAL:
+   - Melhora desempenho de animações e transições
+     aplicadas a esses elementos
+   - Reduz “jank” ou atrasos durante alterações
+     de estado (entrada, saída, hover, etc.)
+   - Indica ao navegador para criar camadas
+     compostas separadas, otimizando repintura
+
+   IMPORTANTE:
+   - Use com parcimônia, pois excesso de will-change
+     pode aumentar consumo de memória
+   - Ideal para elementos que sofrerão transform,
+     translate, scale ou alteração de opacity
+   ========================================================= */
+
 .intro-photo,
 .side-portfolio {
   will-change: transform, opacity;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE SAÍDA DA FRASE DE ASSINATURA
+   (.intro-photo.is-leaving .signature-phrase)
+   ---------------------------------------------------------
+   Define a animação aplicada à frase de assinatura
+   dentro da foto de introdução quando o container
+   recebe a classe .is-leaving.
+
+   Este bloco aplica:
+   - animation: introOut 0.4s ease forwards → executa
+     a animação nomeada introOut durante 0.4s
+     com easing suave e mantém o estado final
+     após o término
+
+   FUNÇÃO ARQUITETURAL:
+   - Cria efeito visual de saída da frase de assinatura
+     durante transições da intro-photo
+   - Mantém consistência com o padrão de animações
+     do projeto
+   - Permite sincronização com outras animações do
+     container .intro-photo
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-leaving
+   2️⃣ .signature-phrase executa introOut
+   3️⃣ Estado final da animação mantido via forwards
+
+   IMPORTANTE:
+   - A duração e easing podem ser ajustados
+     conforme necessário
+   - A animação introOut deve estar previamente
+     definida em keyframes
+   ========================================================= */
+
 .intro-photo.is-leaving .signature-phrase {
   animation: introOut 0.4s ease forwards;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE SAÍDA DO TERCEIRO BOTÃO DE PROJETOS
+   (.intro-photo.is-leaving .btn-projetos:nth-of-type(3))
+   ---------------------------------------------------------
+   Define a animação aplicada ao terceiro botão
+   de projetos dentro da intro-photo quando o
+   container recebe a classe .is-leaving.
+
+   Este bloco aplica:
+   - animation: introOut 0.4s ease forwards 0.16s → executa
+     a animação introOut durante 0.4s, com easing suave,
+     mantendo o estado final após o término e iniciando
+     com atraso de 0.16s
+
+   FUNÇÃO ARQUITETURAL:
+   - Cria efeito escalonado na saída dos botões
+     de projetos
+   - Mantém coerência com o padrão de animações
+     de entrada/saída do projeto
+   - Permite que elementos internos saiam de forma
+     organizada e visualmente agradável
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-leaving
+   2️⃣ Primeiro e segundo botões podem iniciar animações
+       antes deste terceiro botão (delay 0s ou 0.08s)
+   3️⃣ Terceiro botão inicia introOut após 0.16s
+   4️⃣ Estado final mantido via forwards
+
+   IMPORTANTE:
+   - Delay escalonado reforça ritmo visual
+   - A animação introOut deve estar previamente
+     definida em keyframes
+   ========================================================= */
 
 .intro-photo.is-leaving .btn-projetos:nth-of-type(3) {
   animation: introOut 0.4s ease forwards 0.16s;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE SAÍDA DO SEGUNDO BOTÃO DE PROJETOS
+   (.intro-photo.is-leaving .btn-projetos:nth-of-type(2))
+   ---------------------------------------------------------
+   Define a animação aplicada ao segundo botão
+   de projetos dentro da intro-photo quando o
+   container recebe a classe .is-leaving.
+
+   Este bloco aplica:
+   - animation: introOut 0.4s ease forwards 0.32s → executa
+     a animação introOut durante 0.4s, com easing suave,
+     mantendo o estado final após o término e iniciando
+     com atraso de 0.32s
+
+   FUNÇÃO ARQUITETURAL:
+   - Cria efeito escalonado na saída dos botões
+     de projetos, permitindo sequência visual organizada
+   - Mantém coerência com o padrão de animações
+     do projeto
+   - Permite sincronização harmoniosa com outros
+     elementos da intro-photo
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-leaving
+   2️⃣ Primeiro botão inicia animação (possível delay menor)
+   3️⃣ Segundo botão inicia introOut após 0.32s
+   4️⃣ Terceiro botão inicia após 0.16s (se aplicável)
+   5️⃣ Estado final mantido via forwards
+
+   IMPORTANTE:
+   - O delay escalonado reforça o ritmo visual
+   - A animação introOut deve estar previamente
+     definida em keyframes
+   ========================================================= */
+
 .intro-photo.is-leaving .btn-projetos:nth-of-type(2) {
   animation: introOut 0.4s ease forwards 0.32s;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE SAÍDA DO PRIMEIRO BOTÃO DE PROJETOS
+   (.intro-photo.is-leaving .btn-projetos:nth-of-type(1))
+   ---------------------------------------------------------
+   Define a animação aplicada ao primeiro botão
+   de projetos dentro da intro-photo quando o
+   container recebe a classe .is-leaving.
+
+   Este bloco aplica:
+   - animation: introOut 0.4s ease forwards 0.48s → executa
+     a animação introOut durante 0.4s, com easing suave,
+     mantendo o estado final após o término e iniciando
+     com atraso de 0.48s
+
+   FUNÇÃO ARQUITETURAL:
+   - Finaliza a sequência escalonada de saída
+     dos botões de projetos
+   - Mantém coerência com o padrão de animações
+     do projeto
+   - Garante que os elementos saiam de forma
+     organizada e visualmente agradável
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-leaving
+   2️⃣ Terceiro botão inicia animação (delay 0.16s)
+   3️⃣ Segundo botão inicia animação (delay 0.32s)
+   4️⃣ Primeiro botão inicia introOut após 0.48s
+   5️⃣ Estado final mantido via forwards
+
+   IMPORTANTE:
+   - O delay escalonado reforça ritmo e legibilidade
+     da animação
+   - A animação introOut deve estar previamente
+     definida em keyframes
+   ========================================================= */
 
 .intro-photo.is-leaving .btn-projetos:nth-of-type(1) {
   animation: introOut 0.4s ease forwards 0.48s;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE SAÍDA DA IMAGEM DE INTRODUÇÃO
+   (.intro-photo.is-leaving img)
+   ---------------------------------------------------------
+   Define a animação aplicada à imagem dentro do
+   container intro-photo quando este recebe a
+   classe .is-leaving.
+
+   Este bloco aplica:
+   - animation: introOut 0.4s ease forwards 0.64s → executa
+     a animação introOut durante 0.4s, com easing suave,
+     mantendo o estado final após o término e iniciando
+     com atraso de 0.64s
+
+   FUNÇÃO ARQUITETURAL:
+   - Finaliza a sequência escalonada de saída dos elementos
+     da intro-photo
+   - Mantém coerência com o padrão de animações
+     do projeto
+   - Permite que a imagem saia de forma organizada
+     após os botões e frase de assinatura
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-leaving
+   2️⃣ Botões e frase de assinatura iniciam animação
+       escalonada (delays 0.16s, 0.32s, 0.48s)
+   3️⃣ Imagem inicia introOut após 0.64s
+   4️⃣ Elemento totalmente oculto e estado final mantido
+
+   IMPORTANTE:
+   - O delay escalonado reforça ritmo e hierarquia visual
+   - A animação introOut deve estar previamente definida
+     em keyframes
+   ========================================================= */
+
 .intro-photo.is-leaving img {
   animation: introOut 0.4s ease forwards 0.64s;
 }
 
-/* ESTADO INICIAL DA ENTRADA DO INTRO */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO PRÉ-ENTRADA DOS ELEMENTOS DA INTRO PHOTO
+   (.intro-photo.is-entering img, .btn-projetos, .signature-phrase)
+   ---------------------------------------------------------
+   Define o estado inicial preparatório dos elementos
+   internos da intro-photo antes da aplicação da
+   animação de entrada quando a classe .is-entering
+   é aplicada.
+
+   Este bloco aplica:
+   - opacity: 0 → elementos iniciam invisíveis
+   - transform: translateY(64px) → desloca os elementos
+     64px para baixo em relação ao estado final
+
+   ELEMENTOS AFETADOS:
+   - img → imagem de introdução
+   - .btn-projetos:nth-of-type(1,2,3) → botões de projetos
+   - .signature-phrase → frase de assinatura
+
+   FUNÇÃO ARQUITETURAL:
+   - Prepara os elementos para animação de entrada
+     suave (fade-in + movimento vertical)
+   - Mantém coerência com o padrão de animação
+     adotado no projeto
+   - Evita “saltos visuais” ao ativar a animação dinamicamente
+
+   IMPORTANTE:
+   - Não define transition ou animation aqui,
+     permitindo controle completo na classe de entrada
+   - O deslocamento vertical de 64px garante consistência
+     visual entre elementos
+   ========================================================= */
+
 .intro-photo.is-entering img,
 .intro-photo.is-entering .btn-projetos:nth-of-type(1),
 .intro-photo.is-entering .btn-projetos:nth-of-type(2),
@@ -7165,25 +8622,248 @@ body[data-mode="portfolio"] .side-portfolio {
   transform: translateY(64px);
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE ENTRADA DA IMAGEM DE INTRODUÇÃO
+   (.intro-photo.is-entering img)
+   ---------------------------------------------------------
+   Define a animação aplicada à imagem dentro do
+   container intro-photo quando este recebe a
+   classe .is-entering.
+
+   Este bloco aplica:
+   - animation: introIn 0.4s ease forwards → executa
+     a animação introIn durante 0.4s, com easing suave,
+     mantendo o estado final após o término
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite que a imagem entre de forma suave
+     após o estado pré-entrada (opacity 0, translateY 64px)
+   - Mantém coerência com o padrão de animações
+     verticais adotado no projeto
+   - Sincroniza a entrada da imagem com outros
+     elementos da intro-photo (botões e frase)
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-entering
+   2️⃣ Imagem inicia a animação introIn
+   3️⃣ Elemento transita de invisível + deslocado
+       para visível + posição final
+
+   IMPORTANTE:
+   - A animação introIn deve estar previamente
+     definida em keyframes
+   - Duração e easing podem ser ajustados conforme
+     necessidade do design
+   ========================================================= */
+
 .intro-photo.is-entering img {
   animation: introIn 0.4s ease forwards;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE ENTRADA DO PRIMEIRO BOTÃO DE PROJETOS
+   (.intro-photo.is-entering .btn-projetos:nth-of-type(1))
+   ---------------------------------------------------------
+   Define a animação aplicada ao primeiro botão
+   de projetos dentro da intro-photo quando o
+   container recebe a classe .is-entering.
+
+   Este bloco aplica:
+   - animation: introIn 0.4s ease forwards 0.16s → executa
+     a animação introIn durante 0.4s, com easing suave,
+     mantendo o estado final após o término e iniciando
+     com atraso de 0.16s
+
+   FUNÇÃO ARQUITETURAL:
+   - Cria efeito escalonado na entrada dos botões
+     de projetos
+   - Mantém coerência com o padrão de animações
+     verticais do projeto
+   - Permite sequência visual organizada e sincronizada
+     com outros elementos da intro-photo
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-entering
+   2️⃣ Imagem inicia introIn (delay 0s)
+   3️⃣ Primeiro botão inicia introIn após 0.16s
+   4️⃣ Elemento transita de invisível + deslocado
+       para visível + posição final
+
+   IMPORTANTE:
+   - O delay escalonado reforça ritmo e legibilidade
+     da animação
+   - A animação introIn deve estar previamente definida
+     em keyframes
+   ========================================================= */
 
 .intro-photo.is-entering .btn-projetos:nth-of-type(1) {
   animation: introIn 0.4s ease forwards 0.16s;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE ENTRADA DO SEGUNDO BOTÃO DE PROJETOS
+   (.intro-photo.is-entering .btn-projetos:nth-of-type(2))
+   ---------------------------------------------------------
+   Define a animação aplicada ao segundo botão
+   de projetos dentro da intro-photo quando o
+   container recebe a classe .is-entering.
+
+   Este bloco aplica:
+   - animation: introIn 0.4s ease forwards 0.32s → executa
+     a animação introIn durante 0.4s, com easing suave,
+     mantendo o estado final após o término e iniciando
+     com atraso de 0.32s
+
+   FUNÇÃO ARQUITETURAL:
+   - Mantém efeito escalonado na entrada dos botões
+     de projetos
+   - Garante sequência visual organizada
+     e coerente com o padrão vertical do projeto
+   - Permite sincronização harmoniosa com outros
+     elementos da intro-photo
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-entering
+   2️⃣ Imagem inicia introIn (delay 0s)
+   3️⃣ Primeiro botão inicia introIn (delay 0.16s)
+   4️⃣ Segundo botão inicia introIn após 0.32s
+   5️⃣ Elemento transita de invisível + deslocado
+       para visível + posição final
+
+   IMPORTANTE:
+   - O delay escalonado reforça ritmo e hierarquia visual
+   - A animação introIn deve estar previamente definida
+     em keyframes
+   ========================================================= */
+
 .intro-photo.is-entering .btn-projetos:nth-of-type(2) {
   animation: introIn 0.4s ease forwards 0.32s;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE ENTRADA DO TERCEIRO BOTÃO DE PROJETOS
+   (.intro-photo.is-entering .btn-projetos:nth-of-type(3))
+   ---------------------------------------------------------
+   Define a animação aplicada ao terceiro botão
+   de projetos dentro da intro-photo quando o
+   container recebe a classe .is-entering.
+
+   Este bloco aplica:
+   - animation: introIn 0.4s ease forwards 0.48s → executa
+     a animação introIn durante 0.4s, com easing suave,
+     mantendo o estado final após o término e iniciando
+     com atraso de 0.48s
+
+   FUNÇÃO ARQUITETURAL:
+   - Finaliza a sequência escalonada de entrada
+     dos botões de projetos
+   - Mantém coerência com o padrão de animações
+     verticais do projeto
+   - Permite que os elementos internos apareçam
+     de forma organizada e visualmente agradável
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-entering
+   2️⃣ Imagem inicia introIn (delay 0s)
+   3️⃣ Primeiro botão inicia (delay 0.16s)
+   4️⃣ Segundo botão inicia (delay 0.32s)
+   5️⃣ Terceiro botão inicia introIn após 0.48s
+   6️⃣ Elementos totalmente visíveis e posição final
+
+   IMPORTANTE:
+   - O delay escalonado reforça ritmo e hierarquia visual
+   - A animação introIn deve estar previamente definida
+     em keyframes
+   ========================================================= */
 
 .intro-photo.is-entering .btn-projetos:nth-of-type(3) {
   animation: introIn 0.4s ease forwards 0.48s;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ANIMAÇÃO DE ENTRADA DA FRASE DE ASSINATURA
+   (.intro-photo.is-entering .signature-phrase)
+   ---------------------------------------------------------
+   Define a animação aplicada à frase de assinatura
+   dentro do container intro-photo quando este
+   recebe a classe .is-entering.
+
+   Este bloco aplica:
+   - animation: introIn 0.4s ease forwards 0.64s → executa
+     a animação introIn durante 0.4s, com easing suave,
+     mantendo o estado final após o término e iniciando
+     com atraso de 0.64s
+
+   FUNÇÃO ARQUITETURAL:
+   - Conclui a sequência escalonada de entrada
+     dos elementos da intro-photo
+   - Mantém coerência com o padrão de animações
+     verticais do projeto
+   - Permite que a frase de assinatura apareça
+     de forma harmoniosa após botões e imagem
+
+   FLUXO DE ANIMAÇÃO:
+   1️⃣ .intro-photo recebe .is-entering
+   2️⃣ Imagem inicia introIn (delay 0s)
+   3️⃣ Botões de projetos iniciam escalonados
+       (0.16s, 0.32s, 0.48s)
+   4️⃣ Frase de assinatura inicia introIn após 0.64s
+   5️⃣ Elementos totalmente visíveis e posição final
+
+   IMPORTANTE:
+   - O delay escalonado reforça ritmo e hierarquia visual
+   - A animação introIn deve estar previamente definida
+     em keyframes
+   ========================================================= */
+
 .intro-photo.is-entering .signature-phrase {
   animation: introIn 0.4s ease forwards 0.64s;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   KEYFRAMES DE ANIMAÇÃO DE ENTRADA
+   (@keyframes introIn)
+   ---------------------------------------------------------
+   Define os keyframes da animação introIn, usada
+   para elementos dentro de .intro-photo ao entrar
+   no viewport ou quando a classe .is-entering é aplicada.
+
+   Este bloco aplica:
+   - from → estado inicial:
+       • opacity: 0 → invisível
+       • transform: translateY(64px) → deslocado 64px para baixo
+   - to → estado final:
+       • opacity: 1 → totalmente visível
+       • transform: translateY(0) → posição final
+
+   FUNÇÃO ARQUITETURAL:
+   - Proporciona efeito de fade-in combinado com
+     deslocamento vertical suave
+   - Mantém coerência com o padrão de animação
+     escalonada e vertical do projeto
+   - Usada em elementos como:
+       • img
+       • .btn-projetos
+       • .signature-phrase
+
+   IMPORTANTE:
+   - Deve ser chamada via propriedade animation
+     nos elementos desejados
+   - Duração, easing e delay são definidos
+     na regra de animation do elemento
+   ========================================================= */
 
 @keyframes introIn {
   from {
@@ -7196,6 +8876,41 @@ body[data-mode="portfolio"] .side-portfolio {
   }
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   KEYFRAMES DE ANIMAÇÃO DE SAÍDA
+   (@keyframes introOut)
+   ---------------------------------------------------------
+   Define os keyframes da animação introOut, usada
+   para elementos dentro de .intro-photo ao sair
+   do viewport ou quando a classe .is-leaving é aplicada.
+
+   Este bloco aplica:
+   - from → estado inicial:
+       • opacity: 1 → totalmente visível
+       • transform: translateY(0) → posição original
+   - to → estado final:
+       • opacity: 0 → invisível
+       • transform: translateY(64px) → deslocado 64px para baixo
+
+   FUNÇÃO ARQUITETURAL:
+   - Cria efeito de fade-out combinado com
+     deslocamento vertical suave
+   - Mantém coerência com o padrão de animação
+     escalonada e vertical do projeto
+   - Usada em elementos como:
+       • img
+       • .btn-projetos
+       • .signature-phrase
+
+   IMPORTANTE:
+   - Deve ser chamada via propriedade animation
+     nos elementos desejados
+   - Duração, easing e delay são definidos
+     na regra de animation do elemento
+   ========================================================= */
+
 @keyframes introOut {
   from {
     opacity: 1;
@@ -7207,19 +8922,112 @@ body[data-mode="portfolio"] .side-portfolio {
   }
 }
 
-/* Entrada Side Menu: bottom → top */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE ENTRADA DO PAINEL LATERAL DO PORTFÓLIO
+   (.side-portfolio.is-entering)
+   ---------------------------------------------------------
+   Define o estado inicial e animação de entrada do
+   side-portfolio quando a classe .is-entering é aplicada.
+
+   Este bloco aplica:
+   - opacity: 0 → começa invisível
+   - transform: translateY(64px) → deslocado 64px para baixo
+   - animation: sideMenuIn 0.4s ease forwards → executa
+     a animação sideMenuIn durante 0.4s, com easing suave,
+     mantendo o estado final após o término
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite que o painel lateral apareça de forma
+     suave ao entrar no modo portfólio
+   - Mantém coerência com o padrão de animações
+     verticais do projeto
+   - Evita saltos visuais e garante sincronização
+     com outros elementos da página
+
+   IMPORTANTE:
+   - A animação sideMenuIn deve estar previamente definida
+     em keyframes
+   - Duração e easing podem ser ajustados conforme
+     necessidade do design
+   ========================================================= */
+
 .side-portfolio.is-entering {
   opacity: 0;
   transform: translateY(64px);
   animation: sideMenuIn 0.4s ease forwards;
 }
 
-/* Saída Side Menu: top → bottom */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO DE SAÍDA DO PAINEL LATERAL DO PORTFÓLIO
+   (.side-portfolio.is-leaving)
+   ---------------------------------------------------------
+   Define o estado inicial e animação de saída do
+   side-portfolio quando a classe .is-leaving é aplicada.
+
+   Este bloco aplica:
+   - opacity: 1 → começa totalmente visível
+   - transform: translateY(0) → posição original
+   - animation: sideMenuOut 0.4s ease forwards → executa
+     a animação sideMenuOut durante 0.4s, com easing suave,
+     mantendo o estado final após o término
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite que o painel lateral desapareça de forma
+     suave ao sair do modo portfólio
+   - Mantém coerência com o padrão de animações
+     verticais do projeto
+   - Evita saltos visuais e garante sincronização
+     com outros elementos da página
+
+   IMPORTANTE:
+   - A animação sideMenuOut deve estar previamente definida
+     em keyframes
+   - Duração e easing podem ser ajustados conforme
+     necessidade do design
+   ========================================================= */
+
 .side-portfolio.is-leaving {
   opacity: 1;
   transform: translateY(0);
   animation: sideMenuOut 0.4s ease forwards;
 }
+
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   KEYFRAMES DE ANIMAÇÃO DE ENTRADA DO PAINEL LATERAL
+   (@keyframes sideMenuIn)
+   ---------------------------------------------------------
+   Define os keyframes da animação sideMenuIn, usada
+   para o side-portfolio ao entrar no viewport ou
+   quando a classe .is-entering é aplicada.
+
+   Este bloco aplica:
+   - from → estado inicial:
+       • opacity: 0 → invisível
+       • transform: translateY(64px) → deslocado 64px para baixo
+   - to → estado final:
+       • opacity: 1 → totalmente visível
+       • transform: translateY(0) → posição original
+
+   FUNÇÃO ARQUITETURAL:
+   - Proporciona efeito de fade-in combinado com
+     movimento vertical suave
+   - Mantém coerência com o padrão de animação
+     do projeto
+   - Usada em elementos do side-portfolio
+     ao entrar na página
+
+   IMPORTANTE:
+   - Deve ser chamada via propriedade animation
+     nos elementos desejados
+   - Duração, easing e delay são definidos
+     na regra de animation do elemento
+   ========================================================= */
 
 @keyframes sideMenuIn {
   from {
@@ -7232,6 +9040,39 @@ body[data-mode="portfolio"] .side-portfolio {
   }
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   KEYFRAMES DE ANIMAÇÃO DE SAÍDA DO PAINEL LATERAL
+   (@keyframes sideMenuOut)
+   ---------------------------------------------------------
+   Define os keyframes da animação sideMenuOut, usada
+   para o side-portfolio ao sair do viewport ou
+   quando a classe .is-leaving é aplicada.
+
+   Este bloco aplica:
+   - from → estado inicial:
+       • opacity: 1 → totalmente visível
+       • transform: translateY(0) → posição original
+   - to → estado final:
+       • opacity: 0 → invisível
+       • transform: translateY(64px) → deslocado 64px para baixo
+
+   FUNÇÃO ARQUITETURAL:
+   - Proporciona efeito de fade-out combinado com
+     movimento vertical suave
+   - Mantém coerência com o padrão de animação
+     do projeto
+   - Usada em elementos do side-portfolio
+     ao sair da página
+
+   IMPORTANTE:
+   - Deve ser chamada via propriedade animation
+     nos elementos desejados
+   - Duração, easing e delay são definidos
+     na regra de animation do elemento
+   ========================================================= */
+
 @keyframes sideMenuOut {
   from {
     opacity: 1;
@@ -7243,7 +9084,45 @@ body[data-mode="portfolio"] .side-portfolio {
   }
 }
 
-/* Ícone Home */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTILO BASE DO ÍCONE DE HOME NO HEADER
+   (#header-home-icon)
+   ---------------------------------------------------------
+   Define o estado inicial e propriedades visuais do
+   ícone de home localizado no header.
+
+   Este bloco aplica:
+   - background: transparent → sem cor de fundo
+   - border: none → sem borda
+   - cursor: pointer → indica interatividade
+   - font-size: 28px → tamanho do ícone
+   - color: var(--header-name) → cor definida pela
+     variável de tema do header
+   - transform: scale(1) → tamanho padrão, sem escala
+   - opacity: 0 → inicia invisível
+   - pointer-events: none → não interativo inicialmente
+   - display: inline-flex → permite alinhamento flexível
+   - transition:
+       • opacity 0.4s ease
+       • transform 0.4s ease
+       • color 0.4s ease → suaviza alterações visuais
+
+   FUNÇÃO ARQUITETURAL:
+   - Define aparência e comportamento base antes da
+     ativação dinâmica via JavaScript ou interação do usuário
+   - Suporta efeitos de fade, escala e alteração de cor
+     de forma suave
+   - Evita interação do usuário até que o elemento esteja
+     visível e ativo
+
+   IMPORTANTE:
+   - Alterações de estado (entrada, hover, click) devem
+     ser controladas via classes ou scripts
+   - Transitions garantem animações suaves sem saltos
+   ========================================================= */
+
 #header-home-icon {
   background: transparent;
   border: none;
@@ -7260,22 +9139,131 @@ body[data-mode="portfolio"] .side-portfolio {
     color 0.4s ease;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   ESTADO VISÍVEL DO ÍCONE DE HOME NO HEADER
+   (#header-home-icon.is-visible)
+   ---------------------------------------------------------
+   Define as propriedades do ícone de home quando
+   ele deve estar visível e interativo.
+
+   Este bloco aplica:
+   - opacity: 1 → torna o ícone totalmente visível
+   - pointer-events: auto → habilita interação do usuário
+
+   FUNÇÃO ARQUITETURAL:
+   - Permite que o ícone seja clicável apenas após
+     estar visível
+   - Suporta transições suaves definidas no estilo base
+     (#header-home-icon)
+   - Mantém consistência visual e funcional com
+     animações de entrada/saída do header
+
+   IMPORTANTE:
+   - A visibilidade é controlada via classe dinâmica
+     .is-visible adicionada por JavaScript
+   - Outras propriedades (como transform ou color)
+     permanecem definidas pelo estado base
+   ========================================================= */
+
 #header-home-icon.is-visible {
   opacity: 1;
   pointer-events: auto;
 }
 
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
+
+/* =========================================================
+   EFEITO DE HOVER DO ÍCONE DE HOME NO HEADER
+   (#header-home-icon:hover)
+   ---------------------------------------------------------
+   Define a alteração de cor do ícone de home quando
+   o usuário passa o cursor sobre ele.
+
+   Este bloco aplica:
+   - color: var(--accent-color) → muda a cor do ícone
+     para a cor de destaque definida pela variável
+     de tema do projeto
+
+   FUNÇÃO ARQUITETURAL:
+   - Fornece feedback visual de interatividade
+   - Mantém coerência com a paleta de cores do projeto
+   - Complementa as transições definidas no estado
+     base (#header-home-icon), garantindo animação suave
+
+   IMPORTANTE:
+   - O efeito de hover só é perceptível se o ícone
+     estiver visível (opacity: 1) e interativo
+     (pointer-events: auto)
+   ========================================================= */
+
 #header-home-icon:hover {
   color: var(--accent-color);
 }
 
-/* ============================
-   CONFIGURAÇÃO DE TEMAS
-============================ */
+/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
-/* Tema Light */
+/* =========================================================
+   VARIÁVEIS DE TEMA GLOBAL (:root)
+   ---------------------------------------------------------
+   Define as variáveis CSS utilizadas em todo o projeto
+   para cores, sombras, tipografia e destaques visuais.
+
+   VARIÁVEIS DE COR E FUNDO:
+   - --bg-color-header → fundo do header
+   - --bg-color-page → fundo da página
+   - --bg-color-footer → fundo do footer
+   - --bg-color-button → fundo dos botões
+   - --bg-color-button-hover → fundo dos botões ao passar o mouse
+   - --fixed-header-section → cor de seções fixas do header
+   - --intro-text → cor do texto de introdução
+   - --curriculo-text → cor do texto de currículo
+   - --curriculo-list → cor das listas do currículo
+   - --curriculo-text-strong → cor de textos fortes do currículo
+   - --exp-period → cor do período de experiência
+   - --exp-role → cor da função/posição na experiência
+   - --exp-toggle → cor dos toggles de experiência
+   - --exp-details → cor dos detalhes da experiência
+   - --exp-details-h4 → cor dos títulos h4 dos detalhes
+   - --tech-title → cor do título de tecnologia
+   - --tech-desc → cor da descrição de tecnologia
+   - --courses-flow → cor do fluxo de cursos
+   - --signature-phrase → cor da frase de assinatura
+   - --category-pipe → cor da linha do título de categoria
+   - --category-name → cor do nome da categoria
+   - --experience-border → cor das bordas de experiência
+   - --linha-proj → cor das linhas de projeto
+   - --link-cert → cor dos links de certificados
+   - --text-color → cor principal do texto
+   - --card-bg → fundo dos cards
+   - --accent-color → cor de destaque do projeto
+
+   VARIÁVEIS DE SOMBRA:
+   - --box-shadow-header → sombra do header
+   - --box-shadow-side-menu → sombra do menu lateral
+   - --box-shadow-footer → sombra do footer
+   - --box-shadow-button → sombra dos botões
+   - --box-shadow-link-cert → sombra dos links de certificado
+
+   TEMA DARK ([data-theme="dark"]):
+   - Substitui as variáveis de cor e sombra para modo escuro
+   - Mantém coerência visual e contraste adequado
+   - Ex.: --bg-color-header: #101010; --accent-color: #8bb9ff;
+
+   FUNÇÃO ARQUITETURAL:
+   - Centraliza todas as cores e sombras em variáveis
+   - Facilita manutenção e alternância de temas
+   - Permite consistência visual em todo o projeto
+
+   IMPORTANTE:
+   - Alterações no tema devem ser feitas alterando as
+     variáveis correspondentes
+   - Uso de var(--nome-da-variavel) garante flexibilidade
+     e adaptação automática ao tema ativo
+   ========================================================= */
+
 :root {
-   /* Cores de Fundo */
    --bg-color-header: #0A3C5C;
    --bg-color-page: #F8F8F8;
    --bg-color-footer: #0A3C5C;
@@ -7283,7 +9271,6 @@ body[data-mode="portfolio"] .side-portfolio {
    --bg-color-button: #0A3C5C;
    --bg-color-button-hover: #224F6C;
 
-   /* Cor do Título da Seção Principal */
    --fixed-header-section: #080808;
 
    --intro-text: #4C4C4C;
@@ -7323,16 +9310,23 @@ body[data-mode="portfolio"] .side-portfolio {
    --accent-color: #4e73df;
 }
 
-/* Tema Dark */
+/* =========================================================
+   VARIÁVEIS DE TEMA DARK
+   ([data-theme="dark"])
+   ---------------------------------------------------------
+   Sobrescreve as variáveis globais para o tema escuro,
+   mantendo coerência visual e contraste adequado.
+   ========================================================= */
+
 [data-theme="dark"] {
-   --bg-color-header: #101010;                                       /* Cor de Fundo do Cabeçalho */
-   --bg-color-page: #1C1C1C;                                         /* Cor de Fundo da Seção Principal */
-   --bg-color-footer: #101010;                                       /* Cor de Fundo do Rodapé */
+   --bg-color-header: #101010;
+   --bg-color-page: #1C1C1C;
+   --bg-color-footer: #101010;
    
    --bg-color-button: #101010;
    --bg-color-button-hover: #181818;
    
-   --fixed-header-section: #808080;                                  /* Cor do Título da Seção Principal */
+   --fixed-header-section: #808080;
    
    --intro-text: #EAEAEA;
 
