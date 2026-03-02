@@ -1,20 +1,26 @@
+// Objeto que guarda o estado do subnível atual em menus ou seções expansíveis
 let estadoSubnivel = {
-  ativa: false,
-  secao: null
+    ativa: false, // indica se algum subnível está ativo/aberto
+    secao: null   // referência à seção atualmente ativa (ou null se nenhuma)
 };
 
-let secaoAtiva = null;
+// Variável que guarda a seção atualmente ativa no portfólio ou no menu
+let secaoAtiva = null; // null indica que nenhuma seção está ativa inicialmente
 
+// Inicializa variáveis e referências do menu e da seção ao carregar o DOM
 document.addEventListener("DOMContentLoaded", () => {
-  const menuLinks = document.querySelectorAll("[data-section]");
-  const titleEl = document.getElementById("section-title");
-  const iconEl = document.getElementById("section-icon");
-  const contentEl = document.getElementById("section-content");
-  const faviconEl = document.getElementById("page-favicon");
+    // Todos os links que possuem data-section (menu lateral ou navegação)
+    const menuLinks = document.querySelectorAll("[data-section]");
 
-  const header = document.getElementById("portfolio-header");
+    // Elementos da seção que serão atualizados dinamicamente
+    const titleEl = document.getElementById("section-title");      // Título da seção
+    const iconEl = document.getElementById("section-icon");        // Ícone da seção
+    const contentEl = document.getElementById("section-content");  // Conteúdo da seção
+    const faviconEl = document.getElementById("page-favicon");     // Favicon da página
+    const header = document.getElementById("portfolio-header");    // Header principal do portfólio
 
-  const animatedElements = [iconEl, titleEl, contentEl];
+    // Lista de elementos que terão animação ao trocar a seção
+    const animatedElements = [iconEl, titleEl, contentEl];
   
 function animateTransition(updateCallback) {
   const titleGroup = document.getElementById("portfolio-title-group");
@@ -22,41 +28,25 @@ function animateTransition(updateCallback) {
 
   if (!titleGroup || !contentEl) return;
 
-  /* =========================
-     SAÍDA
-  ========================= */
-
-  // título: saída direcional
   titleGroup.classList.remove("portfolio-enter");
   titleGroup.classList.add("portfolio-exit");
 
-  // conteúdo: fade-out
   contentEl.classList.remove("is-active");
 
   setTimeout(() => {
-    /* =========================
-       TROCA DE CONTEÚDO
-    ========================= */
     updateCallback();
 
-    /* =========================
-       PREPARA ENTRADA
-    ========================= */
     titleGroup.classList.remove("portfolio-exit");
     titleGroup.classList.add("portfolio-pre-enter");
 
-    // força reflow
     titleGroup.offsetHeight;
     contentEl.offsetHeight;
 
     requestAnimationFrame(() => {
-      /* =========================
-         ENTRADA
-      ========================= */
+
       titleGroup.classList.remove("portfolio-pre-enter");
       titleGroup.classList.add("portfolio-enter");
 
-      // conteúdo: fade-in
       contentEl.classList.add("is-active");
     });
 
