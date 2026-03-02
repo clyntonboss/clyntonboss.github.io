@@ -222,7 +222,7 @@ function renderBlocoCurso(index) {
                 <img 
                     src="${curso.thumb}" 
                     alt="${curso.curso}"
-                    class="cert-thumb cert-thumb-block"
+                    class="cert-thumb"
                     onclick="abrirCertificado('${curso.thumb}')"
                 >
                 <div>
