@@ -1,3 +1,56 @@
+<!--
+  📄 Documentação do index.html | Portfólio de Rogério Clynton Ribeiro
+
+  Descrição Geral:
+  ----------------
+  Este arquivo HTML representa a página única do portfólio, consolidando currículo, seções de formação, certificações, projetos e produções intelectuais.
+  Todo o conteúdo dinâmico é controlado via JavaScript, utilizando arquivos de dataset e rotas internas (portfolio-router.js, portfolio-sections.js, formacoes-complementares-categorias.js, cursos-render.js, etc.).
+
+  Estrutura do HTML:
+  ------------------
+  <head>
+    - Controle de tema via data-theme (modo claro/escuro) e localStorage
+    - Metadados essenciais (charset, viewport, título e favicon)
+    - Links para estilos globais, view-modes e fontes externas
+    - Scripts deferidos para lógica de portfólio, datasets e animações
+  </head>
+
+  <body>
+    - <header>:
+      Cabeçalho fixo do portfólio contendo foto, nome, última atualização, ícones de controle (home, toggle de tema)
+
+    - <main>:
+      Container principal do currículo e portfólio
+      - Seção de currículo:
+        * Título e subtítulo dinâmicos (<h1> com ícone, título-base e título de categoria)
+        * Controles de modos de visualização (block, flow, list, grid)
+        * Lateral esquerda com foto, navegação rápida para Projetos, Portfólio e Currículo
+        * Side menu para navegar entre seções do portfólio
+        * Container central para conteúdo dinâmico (section-content)
+      - Todas as seções do conteúdo são carregadas dinamicamente via JS e datasets
+
+    - <footer>:
+      Rodapé fixo com informações de copyright, nota de privacidade e links externos (LinkedIn, GitHub, e-mail, WhatsApp)
+
+  Integração com Scripts:
+  -----------------------
+  - portfolio-router.js        → Gerencia navegação entre seções e categorias
+  - portfolio-sections.js      → Define conteúdos estáticos de cada seção
+  - formacoes-complementares-categorias.js → Datasets e conteúdo das formações
+  - cursos-render.js           → Renderização dinâmica de cursos e projetos
+  - header-dataset.js          → Atualizações e controle do cabeçalho
+  - layout-transitions.js      → Animações de transição de conteúdo e view-modes
+  - core.js                    → Funções utilitárias globais, como trocarModo(), themeToggle, etc.
+
+  Observações importantes:
+  ------------------------
+  - Todo o conteúdo visível é controlado dinamicamente via DOM e view modes
+  - O HTML serve como estrutura base; os datasets carregam cursos, projetos e certificados
+  - O site é responsivo, acessível (aria-labels) e mantém consistência visual
+  - Não há coleta de cookies ou dados pessoais
+  - Manter a integridade dos IDs e classes é essencial para que JS funcione corretamente
+-->
+
 <!DOCTYPE html>
 <html lang="pt-BR" data-theme="light">
 <head>
@@ -31,7 +84,7 @@
     <script src="../assets/js/layout-transitions.js" defer></script>
 </head>
 <body>
-    <!-- Cabeçalho Portfólio | Referência -->
+
     <header class="header header-portfolio">
 
         <div class="header-left">
@@ -59,10 +112,9 @@
         
     </header>
 
-    <!-- Conteúdo principal -->
     <main>
       <div class="container">
-        <!-- Seção Currículo -->
+
         <section id="curriculo" class="main-section">
             <div class="fixed-header-section fade-item">
                 <div class="fixed-header-container">
@@ -93,9 +145,8 @@
                 </div>
             </div>
     
-            <!-- Container ajustado para o currículo -->
             <div class="curriculo-container fade-item">
-                <!-- Lateral Rogério Clynton Ribeiro | Analista de Dados -->
+
                 <div class="intro-photo">
                     <img src="assets/images/foto-rogerio.jpg" alt="Foto de Rogério Clynton Ribeiro">
                     <a href="#" class="btn-projetos fade-item" data-section="projetos50">Projetos</a>
@@ -108,7 +159,6 @@
                     </p>
                 </div>
 
-                <!-- Lateral Portfólio | Rogério Clynton Ribeiro -->
                 <div class="side-menu side-portfolio">
                   <ul>
                     <li><a href="#" data-section="perfil">Perfil</a></li>
@@ -134,7 +184,6 @@
                   </ul>
                 </div>
             
-                <!-- Texto introdutório -->
                 <div id="section-content" class="curriculo-text view-transition">
                     <p>
                         Analista de Dados movido pela curiosidade, pela precisão técnica e pelo compromisso de transformar informações complexas em decisões inteligentes e estratégicas.
@@ -167,7 +216,7 @@
         </section>
       </div>
     </main>
-    <!-- Rodapé fixo -->
+
     <footer class="footer">
         <div class="footer-left">
           <p class="footer-main-text">® 2026 Phoenix Information Technology Solutions | Rogério Clynton Ribeiro</p>
