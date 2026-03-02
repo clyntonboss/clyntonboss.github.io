@@ -1510,8 +1510,8 @@ arquitetura: {
     dataset: "/portfolio/projetos/microsoft-power-bi/financeiro/financeiro-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle-sup"><p>Esta seção reúne formações complementares na área de Análise de Dados, organizadas por conclusão cronológica decrescente.<br>
-                                        Os cursos apresentados abrangem fundamentos analíticos, estatística, visualização de dados, ferramentas de BI e práticas aplicadas à tomada de decisão orientada por dados.</p></div>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne Projetos 5.0 voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
+                                        Os projetos apresentados abrangem análise de investimentos, modelagem financeira, gestão de riscos, otimização de recursos e práticas aplicadas à tomada de decisão estratégica.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1552,8 +1552,8 @@ arquitetura: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>As formações em Análise de Dados consolidaram uma base técnica voltada à coleta, tratamento, exploração e interpretação de dados.<br>
-                                        O domínio desses conceitos sustenta atividades de análises consistentes, indicadores confiáveis e soluções analíticas aplicadas a processos, negócios e tomada de decisão em diferentes contextos.</p></div>
+      <div class="tech-subtitle-inf"><p>Os Projetos 5.0 Financeiros consolidam uma base prática voltada à análise de resultados, avaliação de métricas financeiras, controle de performance e suporte a decisões estratégicas.<br>
+                                        O domínio desses conceitos permite gerar soluções financeiras consistentes, relatórios confiáveis e orientar decisões de negócios com base em dados reais de projetos corporativos.</p></div>
     `
   },
 };
