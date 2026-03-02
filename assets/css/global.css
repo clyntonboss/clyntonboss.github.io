@@ -5521,7 +5521,7 @@ body.static-header .last-update {
   position: relative;
   /* Permite posicionamento interno de elementos filhos */
 
-  display: flex;
+  display: block;
   /* Layout flexível para organizar conteúdo */
 
   flex-direction: column;
