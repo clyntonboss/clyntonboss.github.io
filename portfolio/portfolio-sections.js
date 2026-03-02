@@ -1,3 +1,24 @@
+/**
+ * 📄 portfolio-sections.js
+ *
+ * Este arquivo centraliza todo o conteúdo das seções do portfólio.
+ * Cada chave do objeto principal representa uma seção do site (ex: 'home', 'projetos50', etc.).
+ *
+ * Estrutura de cada seção:
+ *  - pageTitle       → Título da aba do navegador
+ *  - favicon         → Ícone da aba do navegador
+ *  - title           → Texto principal exibido como título da seção
+ *  - icon            → Caminho do ícone da seção (exibido ao lado do título)
+ *  - showViewModes   → Booleano que indica se os modos de visualização (block, grid, list, flow) devem aparecer
+ *  - hasCategory     → Booleano que indica se a seção possui categorias internas
+ *  - content         → HTML da seção, que será injetado dinamicamente no container principal (#section-content)
+ *
+ * Observações importantes:
+ *  - Todo o HTML da propriedade 'content' é tratado como innerHTML, portanto pode conter tags <p>, <strong>, listas, etc.
+ *  - A chave da seção (ex: 'home') é utilizada no JS para navegar, atualizar header, título, favicon e aplicar animações.
+ *  - Este arquivo não realiza nenhuma lógica de navegação ou animação; ele apenas define o conteúdo e metadados das seções.
+ */
+
 const sections = {
 
 // 🔹 ================================================== Home ================================================ 🔹
