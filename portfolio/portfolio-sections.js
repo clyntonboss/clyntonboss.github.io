@@ -82,7 +82,7 @@ const sections = {
           de pipelines analíticos e processos de ETL até o desenvolvimento de dashboards interativos e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
       </p>
       <p>
-          Acredito que cada <i>dataset</i> carrega uma narrativa própria — uma história que precisa ser revelada com precisão técnica, sensibilidade analítica e visão crítica. Para mim, analisar
+          Acredito que cada dataset carrega uma narrativa própria — uma história que precisa ser revelada com precisão técnica, sensibilidade analítica e visão crítica. Para mim, analisar
           dados é muito mais que executar consultas, gerar gráficos ou aplicar modelos. É compreender o contexto, questionar o óbvio, enxergar conexões, antecipar cenários e transformar
           complexidade em clareza. Meu trabalho é encontrar significado onde muitos enxergam apenas números.
       </p>
