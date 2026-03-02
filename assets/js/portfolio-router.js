@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
           contentEl.classList.add("is-active");
         });
     
-      }, 400); // tempo do fade-out antes de atualizar o conteúdo
+      }, 800); // tempo do fade-out antes de atualizar o conteúdo
     }
 
     // Para cada link do menu principal (com atributo data-section)
