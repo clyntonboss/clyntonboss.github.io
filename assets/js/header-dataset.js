@@ -1,84 +1,70 @@
-/**
- * Dataset de estados do Header
- * Responsável apenas por DESCREVER como o header deve se apresentar
- * em cada contexto da aplicação.
- *
- * Este arquivo NÃO é módulo ES.
- * Ele expõe o dataset no escopo global.
- */
-
+// Dataset global para configuração dos cabeçalhos das páginas
 window.headerDataset = {
-  home: {
-    showHomeIcon: false,
-    key: "home",
+    // Configurações para a página "home"
+    home: {
+        showHomeIcon: false,             // Exibe ícone de home no header
+        key: "home",                     // Chave de identificação
 
-    // Conteúdo
-    name: "Rogério Clynton Ribeiro",
-    nameIsLink: false,
-    nameHref: null,
+        name: "Rogério Clynton Ribeiro", // Nome exibido no header
+        nameIsLink: false,               // Se o nome é link clicável
+        nameHref: null,                  // URL do link, se aplicável
 
-    showPhoto: false,
-    photoSrc: null,
-    photoAlt: null,
+        showPhoto: false,                // Se exibe foto no header
+        photoSrc: null,                  // URL da foto
+        photoAlt: null,                  // Texto alternativo da foto
 
-    showLastUpdate: true,
+        showLastUpdate: true,            // Exibe data da última atualização
 
-    // Comportamento
-    onNameClick: null,          // clicar no nome não troca estado
-    targetHeader: "portfolio", // ação externa pode levar ao portfólio
+        onNameClick: null,               // Função ou seção alvo ao clicar no nome
+        targetHeader: "portfolio",       // Header alvo da ação
 
-    // Estado visual
-    showHomeIcon: false, // Home não mostra o ícone
-    headerClass: "header-home"
-  },
+        showHomeIcon: false,             // Repetição intencional para garantir estado
+        headerClass: "header-home"       // Classe CSS do header
+    },
 
-  portfolio: {
-    showHomeIcon: true,
-    key: "portfolio",
+    // Configurações para a página "portfolio"
+    portfolio: {
+        showHomeIcon: true,
+        key: "portfolio",
 
-    // Conteúdo
-    name: "Rogério Clynton Ribeiro",
-    nameIsLink: true,
-    nameHref: "#",
-    nameSection: "home", // 👈 link “Portfólio” aponta para Home
+        name: "Rogério Clynton Ribeiro",
+        nameIsLink: true,
+        nameHref: "#",
+        nameSection: "home",
 
-    showPhoto: true,
-    photoSrc: "../assets/images/foto-rogerio.jpg",
-    photoAlt: "Foto de Rogério Clynton Ribeiro",
+        showPhoto: true,
+        photoSrc: "../assets/images/foto-rogerio.jpg",
+        photoAlt: "Foto de Rogério Clynton Ribeiro",
 
-    showLastUpdate: true,
+        showLastUpdate: true,
 
-    // Comportamento
-    onNameClick: "home", // clicar no nome volta para Home
-    targetHeader: null,
+        onNameClick: "home",
+        targetHeader: null,
 
-    // Estado visual
-    showHomeIcon: true, // Portfólio mostra o ícone
-    headerClass: "header-portfolio"
-  },
+        showHomeIcon: true,
+        headerClass: "header-portfolio"
+    },
 
-  projetos50: {
-    showHomeIcon: true,
-    key: "projetos50",
+    // Configurações para a página "projetos50"
+    projetos50: {
+        showHomeIcon: true,
+        key: "projetos50",
 
-    // Conteúdo
-    name: "Rogério Clynton Ribeiro",
-    nameIsLink: true,
-    nameHref: "#",
-    nameSection: "projetos50", // 👈 link “Portfólio” aponta para Home
+        name: "Rogério Clynton Ribeiro",
+        nameIsLink: true,
+        nameHref: "#",
+        nameSection: "projetos50",
 
-    showPhoto: true,
-    photoSrc: "../assets/images/foto-rogerio.jpg",
-    photoAlt: "Foto de Rogério Clynton Ribeiro",
+        showPhoto: true,
+        photoSrc: "../assets/images/foto-rogerio.jpg",
+        photoAlt: "Foto de Rogério Clynton Ribeiro",
 
-    showLastUpdate: true,
+        showLastUpdate: true,
 
-    // Comportamento
-    onNameClick: "home", // clicar no nome volta para Home
-    targetHeader: null,
+        onNameClick: "home",
+        targetHeader: null,
 
-    // Estado visual
-    showHomeIcon: true, // Portfólio mostra o ícone
-    headerClass: "header-portfolio"
-  }
+        showHomeIcon: true,
+        headerClass: "header-portfolio"
+    }
 };
