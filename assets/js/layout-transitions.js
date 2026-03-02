@@ -1,239 +1,261 @@
+// Função para definir o modo de layout da página
 function setLayoutMode(mode) {
-  document.body.dataset.mode = mode;
+    // Define o modo no atributo data-mode do body, usado para estilização CSS
+    document.body.dataset.mode = mode;
 }
 
+// Função para aplicar o estado de header baseado no dataset global
 function aplicarEstadoHeader(estado) {
-  const data = window.headerDataset?.[estado];
-  if (!data) return;
+    // Obtém os dados do header para o estado solicitado
+    const data = window.headerDataset?.[estado];
+    if (!data) return; // Encerra se o estado não existir
 
-  const header = document.querySelector("header.header");
-  if (!header) return;
+    // Seleciona o elemento header
+    const header = document.querySelector("header.header");
+    if (!header) return;
 
-  const photo = header.querySelector(".header-photo");
-  const nameEl = header.querySelector(".header-name");
-  const nameLink = nameEl?.querySelector("a") || null;
-  const lastUpdate = header.querySelector(".last-update");
+    // Seleciona elementos internos do header
+    const photo = header.querySelector(".header-photo");
+    const nameEl = header.querySelector(".header-name");
+    const nameLink = nameEl?.querySelector("a") || null;
+    const lastUpdate = header.querySelector(".last-update");
 
-  /* =========================
-     CLASSES DE ESTADO
-  ========================= */
-  header.classList.remove("header-home", "header-portfolio");
-  header.classList.add(data.headerClass);
+    // Remove todas as classes de header existentes e aplica a classe do estado
+    header.classList.remove("header-home", "header-portfolio");
+    header.classList.add(data.headerClass);
 
-  /* =========================
-     FOTO
-  ========================= */
-  if (photo) {
-    photo.src = data.photoSrc || "";
-    photo.alt = data.photoAlt || "";
-  
-    // ✅ CONTROLE CORRETO (animável)
-    photo.classList.toggle("photo-hidden", !data.showPhoto);
-  }
-
-  /* =========================
-     NOME
-  ========================= */
-  if (nameEl) {
-    nameEl.textContent = data.name; // apenas mostra o nome, sem link
-  }
-
-  /* =========================
-     DATA DE ATUALIZAÇÃO
-  ========================= */
-  if (lastUpdate) {
-    lastUpdate.style.display = data.showLastUpdate ? "" : "none";
-  }
-
-  // =========================
-  // ÍCONE HOME
-  // =========================
-  const homeIconButton = document.getElementById("header-home-icon");
-  
-  if (homeIconButton) {
-    if (data.showHomeIcon) {
-      homeIconButton.classList.add("is-visible");
-    } else {
-      homeIconButton.classList.remove("is-visible");
+    // Atualiza foto se existir
+    if (photo) {
+        photo.src = data.photoSrc || "";
+        photo.alt = data.photoAlt || "";
+        photo.classList.toggle("photo-hidden", !data.showPhoto);
     }
-  }
 
-  /* =========================
-     ESTADO ATUAL (opcional)
-  ========================= */
-  header.dataset.state = estado;
+    // Atualiza o nome exibido
+    if (nameEl) {
+        nameEl.textContent = data.name;
+    }
 
-  // 🔥 ESSENCIAL PARA INTRO / SIDE MENU
-  document.body.dataset.mode = estado;
+    // Mostra ou oculta a data de última atualização
+    if (lastUpdate) {
+        lastUpdate.style.display = data.showLastUpdate ? "" : "none";
+    }
+
+    // Atualiza ícone de home no header
+    const homeIconButton = document.getElementById("header-home-icon");
+    if (homeIconButton) {
+        if (data.showHomeIcon) {
+            homeIconButton.classList.add("is-visible");
+        } else {
+            homeIconButton.classList.remove("is-visible");
+        }
+    }
+
+    // Define o estado atual no dataset do header e do body
+    header.dataset.state = estado;
+    document.body.dataset.mode = estado;
 }
 
+// Função para resetar animações do header, preparando para uma nova transição
 function resetHeaderAnimation(header) {
-  header.classList.remove(
-    "header-exit",
-    "header-pre-enter",
-    "header-enter",
-    "portfolio-exit",
-    "portfolio-pre-enter",
-    "portfolio-enter"
-  );
+    // Remove todas as classes de animação do header
+    header.classList.remove(
+        "header-exit",
+        "header-pre-enter",
+        "header-enter",
+        "portfolio-exit",
+        "portfolio-pre-enter",
+        "portfolio-enter"
+    );
 
-  // força reflow para garantir que o browser "veja" o reset
-  void header.offsetWidth;
+    // Força reflow para reiniciar animações CSS corretamente
+    void header.offsetWidth;
 }
 
+// Ao carregar o DOM, aplica o estado inicial do header e do layout
 document.addEventListener("DOMContentLoaded", () => {
-  aplicarEstadoHeader("home");
-  setLayoutMode("home"); // 👈 ADD
+    // Aplica o estado do header para "home"
+    aplicarEstadoHeader("home");
+
+    // Define o modo de layout como "home" no body
+    setLayoutMode("home");
 });
 
+// Gerencia a transição animada ao clicar no link que leva para a seção "portfolio"
 document.addEventListener("click", e => {
-  const link = e.target.closest('a[data-section="portfolio"]');
-  if (!link) return;
+    // Verifica se o clique foi em um link com data-section="portfolio"
+    const link = e.target.closest('a[data-section="portfolio"]');
+    if (!link) return;
 
-  e.preventDefault();
+    e.preventDefault(); // Previne o comportamento padrão do link
 
-  const header = document.querySelector("header.header");
-  const intro = document.querySelector(".intro-photo");
-  const side = document.querySelector(".side-portfolio");
+    // Seleciona elementos do header, introdução e painel lateral
+    const header = document.querySelector("header.header");
+    const intro = document.querySelector(".intro-photo");
+    const side = document.querySelector(".side-portfolio");
 
-  if (!header || !intro || !side) return;
+    if (!header || !intro || !side) return;
 
-  resetHeaderAnimation(header);
-  
-  // 🔹 SAÍDA HEADER
-  header.classList.add("portfolio-exit");
-
-  // 🔹 SAÍDA INTRO (top → bottom)
-  intro.classList.add("is-leaving");
-
-  setTimeout(() => {
-    // 🔹 Oculta Intro e remove classe de saída
-    intro.style.display = "none";
-    intro.classList.remove("is-leaving");
-
-    // 🔹 Exibe Side Menu e aplica animação de entrada (bottom → top)
-    side.style.display = "flex";
-    side.classList.add("is-entering");
-
-    // 🔹 Atualiza header e layout
-    aplicarEstadoHeader("portfolio");
-    setLayoutMode("portfolio");
-
+    // Reseta animações existentes no header antes da transição
     resetHeaderAnimation(header);
-    header.classList.add("portfolio-pre-enter");
 
-    void header.offsetWidth;
+    // Adiciona classe de saída para header e intro
+    header.classList.add("portfolio-exit");
+    intro.classList.add("is-leaving");
 
-    header.classList.remove("portfolio-pre-enter");
-    header.classList.add("portfolio-enter");
-
-    // 🔹 Remove classe de entrada do Side Menu após animação
+    // Após 1.2s, finaliza a saída e inicia entrada da seção portfolio
     setTimeout(() => {
-      side.classList.remove("is-entering");
-    }, 400); // tempo deve bater com duração da animação CSS
-  }, 1200); // tempo deve bater com duração da animação CSS
+        // Oculta a introdução e remove classe de saída
+        intro.style.display = "none";
+        intro.classList.remove("is-leaving");
+
+        // Mostra o painel lateral e aplica classe de entrada
+        side.style.display = "flex";
+        side.classList.add("is-entering");
+
+        // Atualiza header e layout para o estado "portfolio"
+        aplicarEstadoHeader("portfolio");
+        setLayoutMode("portfolio");
+
+        // Reinicia animações do header e aplica classes de pré-entrada e entrada
+        resetHeaderAnimation(header);
+        header.classList.add("portfolio-pre-enter");
+
+        void header.offsetWidth; // Força reflow
+
+        header.classList.remove("portfolio-pre-enter");
+        header.classList.add("portfolio-enter");
+
+        // Após 0.4s, remove a classe de entrada do painel lateral
+        setTimeout(() => {
+            side.classList.remove("is-entering");
+        }, 400);
+    }, 1200);
 });
 
+// Gerencia transições animadas entre seções usando links com atributo data-section
 document.addEventListener("click", e => {
-  const link = e.target.closest("[data-section]");
-  if (!link) return;
+    // Verifica se o clique foi em um link com data-section
+    const link = e.target.closest("[data-section]");
+    if (!link) return;
 
-  // 🔹 Filtra apenas links da navegação principal
-  if (link.closest(".side-portfolio")) return; // clicou dentro do Side Menu → ignora aqui
+    // Ignora cliques dentro do painel lateral do portfolio
+    if (link.closest(".side-portfolio")) return;
 
-  e.preventDefault();
+    e.preventDefault(); // Previne o comportamento padrão do link
 
-  const pageKey = link.dataset.section; // "home", "portfolio" ou "projetos50"
-  const header = document.querySelector("header.header");
-  const intro = document.querySelector(".intro-photo");
-  const side = document.querySelector(".side-portfolio");
+    // Obtém a chave da página a ser exibida
+    const pageKey = link.dataset.section;
 
-  if (!header || !intro || !side) return;
+    // Seleciona elementos principais da página
+    const header = document.querySelector("header.header");
+    const intro = document.querySelector(".intro-photo");
+    const side = document.querySelector(".side-portfolio");
 
-  resetHeaderAnimation(header);
+    if (!header || !intro || !side) return;
 
-  // 🔹 SAÍDA HEADER
-  header.classList.add("portfolio-exit");
-
-  // 🔹 SAÍDA DA AREA ATUAL
-  const leavingEl = pageKey === "home" ? side : intro;
-  leavingEl.classList.add("is-leaving");
-
-  setTimeout(() => {
-    leavingEl.style.display = "none";
-    leavingEl.classList.remove("is-leaving");
-
-    const enteringEl = pageKey === "home" ? intro : side;
-    enteringEl.style.display = "flex";
-    enteringEl.classList.add("is-entering");
-
-    // 🔹 Atualiza header e layout
-    aplicarEstadoHeader(pageKey);
-    setLayoutMode(pageKey);
-
-    // 🔹 Header animado
+    // Reseta animações do header
     resetHeaderAnimation(header);
-    header.classList.add("portfolio-pre-enter");
 
-    void header.offsetWidth;
+    // Aplica classe de saída no header
+    header.classList.add("portfolio-exit");
 
-    header.classList.remove("portfolio-pre-enter");
-    header.classList.add("portfolio-enter");
+    // Define qual elemento está saindo (home ou portfolio)
+    const leavingEl = pageKey === "home" ? side : intro;
+    leavingEl.classList.add("is-leaving");
 
+    // Após o tempo de saída, inicia a transição de entrada
     setTimeout(() => {
-      enteringEl.classList.remove("is-entering");
-    }, pageKey === "home" ? 1200 : 400);
-  }, pageKey === "home" ? 400 : 1200);
+        // Oculta o elemento que estava saindo e remove classe
+        leavingEl.style.display = "none";
+        leavingEl.classList.remove("is-leaving");
+
+        // Define o elemento que entrará
+        const enteringEl = pageKey === "home" ? intro : side;
+        enteringEl.style.display = "flex";
+        enteringEl.classList.add("is-entering");
+
+        // Atualiza header e layout para a nova seção
+        aplicarEstadoHeader(pageKey);
+        setLayoutMode(pageKey);
+
+        // Reinicia animações do header
+        resetHeaderAnimation(header);
+        header.classList.add("portfolio-pre-enter");
+
+        void header.offsetWidth; // Força reflow
+
+        // Remove pré-entrada e aplica classe de entrada
+        header.classList.remove("portfolio-pre-enter");
+        header.classList.add("portfolio-enter");
+
+        // Remove classe de entrada do elemento após transição
+        setTimeout(() => {
+            enteringEl.classList.remove("is-entering");
+        }, pageKey === "home" ? 1200 : 400);
+    }, pageKey === "home" ? 400 : 1200);
 });
 
+// Gerencia a transição ao clicar em uma categoria dentro do painel lateral do portfolio
 document.addEventListener("click", e => {
-  const link = e.target.closest(".side-portfolio a[data-category]");
-  if (!link) return;
+    // Verifica se o clique foi em um link com data-category dentro da side-portfolio
+    const link = e.target.closest(".side-portfolio a[data-category]");
+    if (!link) return;
 
-  e.preventDefault();
+    e.preventDefault(); // Previne o comportamento padrão do link
 
-  const content = document.querySelector(".main-content");
-  const subtitle = document.querySelector(".tech-subtitle-sup");
-  const icon = document.querySelector("#header-home-icon");
+    // Seleciona elementos principais que sofrerão transição
+    const content = document.querySelector(".main-content");
+    const subtitle = document.querySelector(".tech-subtitle-sup");
+    const icon = document.querySelector("#header-home-icon");
 
-  if (!content || !subtitle || !icon) return;
+    if (!content || !subtitle || !icon) return;
 
-  // 🔹 Apenas animação de conteúdo e subtítulo, sem tocar Header ou Side Menu
-  content.classList.add("is-leaving");
-  subtitle.classList.add("is-leaving");
-  icon.classList.add("is-leaving");
+    // Adiciona classes de saída para animação
+    content.classList.add("is-leaving");
+    subtitle.classList.add("is-leaving");
+    icon.classList.add("is-leaving");
 
-  setTimeout(() => {
-    // 🔹 Atualiza conteúdo e subtítulo
-    const categoria = link.dataset.category;
-    carregarConteudoCategoria(categoria); // função que troca conteúdo no main-content
-    subtitle.textContent = link.textContent;
-
-    content.classList.remove("is-leaving");
-    subtitle.classList.remove("is-leaving");
-    icon.classList.remove("is-leaving");
-
-    content.classList.add("is-entering");
-    subtitle.classList.add("is-entering");
-    icon.classList.add("is-entering");
-
+    // Após 200ms, troca o conteúdo da categoria e aplica classes de entrada
     setTimeout(() => {
-      content.classList.remove("is-entering");
-      subtitle.classList.remove("is-entering");
-      icon.classList.remove("is-entering");
-    }, 400); // tempo da animação do conteúdo
-  }, 200); // delay curto para dar sensação de saída
+        // Obtém a categoria clicada
+        const categoria = link.dataset.category;
+        carregarConteudoCategoria(categoria);
+
+        // Atualiza o texto do subtítulo
+        subtitle.textContent = link.textContent;
+
+        // Remove classes de saída
+        content.classList.remove("is-leaving");
+        subtitle.classList.remove("is-leaving");
+        icon.classList.remove("is-leaving");
+
+        // Adiciona classes de entrada para animação
+        content.classList.add("is-entering");
+        subtitle.classList.add("is-entering");
+        icon.classList.add("is-entering");
+
+        // Após 400ms, remove as classes de entrada para finalizar animação
+        setTimeout(() => {
+            content.classList.remove("is-entering");
+            subtitle.classList.remove("is-entering");
+            icon.classList.remove("is-entering");
+        }, 400);
+    }, 200);
 });
 
+// Adiciona classe "loaded" à foto do header quando a imagem estiver carregada
 document.addEventListener("DOMContentLoaded", () => {
-  const img = document.querySelector(".header-photo");
-  if (!img) return;
+    const img = document.querySelector(".header-photo");
+    if (!img) return;
 
-  if (img.complete) {
-    img.classList.add("loaded");
-  } else {
-    img.addEventListener("load", () => {
-      img.classList.add("loaded");
-    });
-  }
+    // Se a imagem já estiver carregada, aplica a classe imediatamente
+    if (img.complete) {
+        img.classList.add("loaded");
+    } else {
+        // Caso contrário, espera o evento load da imagem
+        img.addEventListener("load", () => {
+            img.classList.add("loaded");
+        });
+    }
 });
