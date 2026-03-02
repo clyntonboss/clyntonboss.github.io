@@ -380,7 +380,7 @@ function animateViewTransition(callback) {
       });
     });
 
-  }, 400); // tempo de espera para a animação de saída
+  }, 800); // tempo de espera para a animação de saída
 }
 
 // 🔹 Função que limpa o estado ativo do menu lateral (side menu)
