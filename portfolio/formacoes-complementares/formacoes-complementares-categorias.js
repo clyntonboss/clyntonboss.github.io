@@ -1553,7 +1553,7 @@ arquitetura: {
       <hr class="decorative-line-cert">
       
       <div class="tech-subtitle-inf"><p>Os projetos Financeiros consolidam uma base prática voltada à análise de resultados, avaliação de métricas financeiras e controle de performance.<br>
-                                        O domínio desses conceitos permite gerar soluções financeiras consistentes, relatórios confiáveis e orientar decisões de negócios com base em dados reais de projetos corporativos.</p></div>
+                                        O domínio desses conceitos permite gerar soluções financeiras consistentes, relatórios confiáveis e orientar decisões estratégicas de negócios com base em dados reais de projetos corporativos.</p></div>
     `
   },
 };
