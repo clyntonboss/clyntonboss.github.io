@@ -76,7 +76,7 @@ window.datasetCategoria = [
   {
     id: 39,
 
-    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.16 · FIAP - Centro Universitário · Design Thinking - Process.png",
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.16 · FIAP - Centro Universitário · Design Thinking Process.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1257,7 +1257,7 @@ window.datasetCategoria = [
   {
     id: 7,
 
-    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.04.07 · FIAP - Centro Universitário · Design Thinking - Process.png",
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2025.04.07 · FIAP - Centro Universitário · Design Thinking Process.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
