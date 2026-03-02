@@ -2366,7 +2366,7 @@ const sections = {
     showViewModes: false,
     hasCategory: false,
     content: `
-      <div class="tech-subtitle-sup"><p>Produções acadêmicas apresentadas em eventos científicos, com foco em educação, tecnologia e inclusão digital.</p></div>
+      <div class="tech-subtitle-sup"><p>Artigos científicos apresentados em seminários acadêmicos para as áreas de inclusão social, inclusão digital, tecnologia da informação, dados, produção e sustentabilidade, incluindo economia circular e Environmental, Social and Governance (ESG).</p></div>
 
       <div class="experience">
           <div class="exp-header">
