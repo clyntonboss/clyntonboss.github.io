@@ -686,6 +686,28 @@ const sections = {
           
           </div>
       </div>
+
+      <div class="experience">
+          <div class="exp-header">
+              <span class="exp-role">Matemática para Machine Learning</span>
+              <button class="exp-toggle">▸</button>
+          </div>
+          <div class="exp-details">
+      
+              <div class="tech-subtitle">Fundamentos matemáticos essenciais aplicados à construção de modelos de Machine Learning, compreensão de dados e otimização de algoritmos.</div>
+      
+              <div class="tech-title">Álgebra e Funções</div>
+              <div class="tech-desc">
+                  Limites e Funções, Vetores, R² Ajustado, Derivadas e Derivadas Parciais, Normalização e Função Sigmóide.
+              </div>
+      
+              <div class="tech-title">Estatística e Probabilidade</div>
+              <div class="tech-desc">
+                  Pontos Máximos e Mínimos, MAE x MSE, Teorema de Bayes, Distribuição Normal, Coeficiente R² e Gradiente Descendente.
+              </div>
+      
+          </div>
+      </div>
       
       <div class="experience">
           <div class="exp-header">
