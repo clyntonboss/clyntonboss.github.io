@@ -159,32 +159,32 @@ window.datasetCategoria = [
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.10 · FIAP - Centro Universitário · Business Intelligence.png",
 
-    nomeInstituicao: "",
-    nomeCurso: "",
-    nomeCargaHoraria: "",
-    nomeDataConclusao: "",
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
     nomeCodigo: "",
     nomeVerificacao: "",
     
-    instituicao: "",
-    curso: "",
-    cargaHoraria: "",
+    instituicao: "Tetra Educação",
+    curso: "Imersão Excel Automate",
+    cargaHoraria: "8 h",
     conclusaoISO: "",
-    dataConclusao: "",
+    dataConclusao: "05 de março de 2026",
     codigo: "",
     mostrarCopiar: false,
     verificacao: "",
 
 
-    nomeTitulo: "Título: ",
-    nomePeriodo: "Período: ",
-    nomeDuracao: "Duração: ",
-    nomeStackTecnica: "Stack Técnica: ",
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
 
-    titulo: "Análise de Faturamento",
-    periodo: "Fev/2024",
-    duracao: "8 dias",
-    stackTecnica: "Python™ | SQL | Power BI",
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
     projetoInterativo: `<a href="https://ufpraberta.ufpr.br/mod/simplecertificate/verify.php" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
