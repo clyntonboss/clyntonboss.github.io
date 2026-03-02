@@ -1,3 +1,23 @@
+/**
+ * 📄 formacoes-complementares.js
+ *
+ * Este arquivo centraliza todo o conteúdo das formações complementares do portfólio.
+ * Cada chave do objeto principal representa uma formação ou área de estudo (ex: 'analiseDados').
+ *
+ * Estrutura de cada formação:
+ *  - title          → Título da formação exibido como subtítulo
+ *  - dataset        → Caminho do arquivo JS que contém o dataset dos cursos da formação
+ *  - showViewModes  → Booleano que indica se os modos de visualização (block, grid, list, flow) devem aparecer
+ *  - content        → HTML da formação, que será injetado dinamicamente no container principal (#section-content)
+ *
+ * Observações importantes:
+ *  - Todo o HTML da propriedade 'content' é tratado como innerHTML, podendo conter subtítulos, blocos de cursos,
+ *    navegação (primeiro, anterior, próximo, último), listas, grids ou fluxos de cursos, linhas decorativas e textos informativos.
+ *  - A chave da formação (ex: 'analiseDados') é utilizada no JS para carregar datasets, atualizar subtítulo, aplicar modos de visualização
+ *    e controlar navegação entre cursos.
+ *  - Este arquivo não realiza lógica de animação ou navegação; ele apenas define o conteúdo e metadados das formações.
+ */
+
 const categoriasFormacoesComplementares = {
 
 // 🔹 ============================================ Análise de Dados ========================================== 🔹
