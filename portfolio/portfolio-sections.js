@@ -2209,8 +2209,8 @@ const sections = {
     showViewModes: false,
     hasCategory: true,
     content: `
-      <div class="tech-subtitle-sup"><p>As formações complementares estão organizadas por área de conhecimento.<br>
-                                        Ao selecionar uma categoria, são apresentados os cursos concluídos, com informações pertinentes a cada curso.</p></div>
+      <div class="tech-subtitle-sup"><p>Os Projetos estão organizados por segmento estratégico.<br>
+                                        Ao selecionar uma categoria, são apresentados os projetos desenvolvidos, com informações relevantes sobre contexto, soluções implementadas, tecnologias aplicadas e resultados alcançados.</p></div>
       
       <div class="cert-links">
           <!--  Financeiro & Controladoria -->
