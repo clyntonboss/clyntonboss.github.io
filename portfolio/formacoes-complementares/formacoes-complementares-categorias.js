@@ -1510,7 +1510,7 @@ arquitetura: {
     dataset: "/portfolio/projetos/microsoft-power-bi/financeiro/financeiro-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle-sup"><p>Esta seção reúne Projetos 5.0 voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
                                         Os projetos apresentados abrangem análise de investimentos, modelagem financeira, gestão de riscos, otimização de recursos e práticas aplicadas à tomada de decisão estratégica.</p></div>
       
       <hr class="decorative-line-cert">
@@ -1552,7 +1552,7 @@ arquitetura: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>Os Projetos 5.0 Financeiros consolidam uma base prática voltada à análise de resultados, avaliação de métricas financeiras, controle de performance e suporte a decisões estratégicas.<br>
+      <div class="tech-subtitle-inf"><p>Os projetos Financeiros consolidam uma base prática voltada à análise de resultados, avaliação de métricas financeiras e controle de performance.<br>
                                         O domínio desses conceitos permite gerar soluções financeiras consistentes, relatórios confiáveis e orientar decisões de negócios com base em dados reais de projetos corporativos.</p></div>
     `
   },
