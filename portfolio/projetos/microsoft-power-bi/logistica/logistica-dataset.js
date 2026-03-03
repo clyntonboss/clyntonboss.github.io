@@ -137,21 +137,7 @@ window.datasetCategoria = [
         
           </div>
       </div>
-  
-      <div class="experience experience--compact experience--inf">
-          <div class="exp-header exp-header--compact">
-              <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Análises Implementadas</span>
-          </div>
-          <div class="exp-details">
-      
-            <div class="tech-desc">
-                O painel apresenta gráfico de rosca com pedidos por status (Atrasado e No Prazo), barras horizontais com pedidos por cliente e entregas atrasadas por motorista, barras verticais com percentual de devoluções por categoria (Arrependimento, Danificado, Produto Errado e Sem Devolução) e um Treemap relacionando a quantidade de produtos ao percentual de devoluções.
-            </div>
-        
-          </div>
-      </div>
-  
+    
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
