@@ -1563,8 +1563,8 @@ arquitetura: {
     dataset: "/portfolio/projetos/microsoft-power-bi/logistica/logistica-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
-                                        Os projetos apresentados abrangem análise de investimentos, modelagem financeira, gestão de riscos, otimização de recursos e práticas aplicadas à tomada de decisão estratégica.</p></div>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento de Logística, organizados por conclusão cronológica decrescente.<br>
+                                        Os projetos apresentados abrangem gestão de operações, monitoramento de entregas, análise de performance de motoristas, controle de devoluções e otimização de fluxos logísticos orientados por dados.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1605,8 +1605,8 @@ arquitetura: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>Os projetos Financeiros consolidam uma base prática voltada à análise de resultados, avaliação de métricas financeiras e controle de performance.<br>
-                                        O domínio desses conceitos permite gerar soluções financeiras consistentes, relatórios confiáveis e orientar decisões estratégicas de negócios com base em dados reais de projetos corporativos.</p></div>
+      <div class="tech-subtitle-inf"><p>Os projetos de Logística consolidam uma base prática voltada à eficiência operacional, controle de indicadores e melhoria contínua de processos.<br>
+                                        O domínio desses conceitos permite estruturar soluções analíticas robustas, reduzir gargalos operacionais, aumentar a confiabilidade das entregas e apoiar decisões estratégicas com base em métricas reais da cadeia logística.</p></div>
     `
   },
 };
