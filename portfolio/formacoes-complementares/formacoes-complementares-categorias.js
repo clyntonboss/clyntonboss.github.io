@@ -1558,7 +1558,7 @@ arquitetura: {
   },
 
 // 🔹 ================================== Microsoft Power BI · Gestão Logística =============================== 🔹
-  powerBiGestaoLogistica: {
+  powerBiLogistica: {
     title: "Logística",
     dataset: "/portfolio/projetos/microsoft-power-bi/logistica/logistica-dataset.js",
     showViewModes: true,
