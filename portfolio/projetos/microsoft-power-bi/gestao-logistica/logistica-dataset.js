@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 2,
   
-    thumb: "/portfolio/projetos/microsoft-power-bi/gestao-logistica/projetos/Gestão Logística - TransFlow Logistics.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/logistica/projetos/Gestão Logística - TransFlow Logistics.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
