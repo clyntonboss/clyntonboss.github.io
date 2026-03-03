@@ -1556,4 +1556,57 @@ arquitetura: {
                                         O domínio desses conceitos permite gerar soluções financeiras consistentes, relatórios confiáveis e orientar decisões estratégicas de negócios com base em dados reais de projetos corporativos.</p></div>
     `
   },
+
+// 🔹 ================================== Microsoft Power BI · Gestão Logística =============================== 🔹
+  powerBiGestaoLogistica: {
+    title: "Gestão Logística",
+    dataset: "/portfolio/projetos/microsoft-power-bi/gestao-logistica/gestao-logistica-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
+                                        Os projetos apresentados abrangem análise de investimentos, modelagem financeira, gestão de riscos, otimização de recursos e práticas aplicadas à tomada de decisão estratégica.</p></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle-inf"><p>Os projetos Financeiros consolidam uma base prática voltada à análise de resultados, avaliação de métricas financeiras e controle de performance.<br>
+                                        O domínio desses conceitos permite gerar soluções financeiras consistentes, relatórios confiáveis e orientar decisões estratégicas de negócios com base em dados reais de projetos corporativos.</p></div>
+    `
+  },
 };
