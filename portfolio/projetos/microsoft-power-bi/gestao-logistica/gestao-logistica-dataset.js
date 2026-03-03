@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 2,
   
-    thumb: "/portfolio/projetos/logistica/transflow-logistics-dashboard.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/gestao-logistica/projetos/Gestão Logística - TransFlow Logistics.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
@@ -78,7 +78,7 @@ window.datasetCategoria = [
     periodo: "Mar/2026",
     duracao: "10 dias",
     stackTecnica: "Power BI | DAX | Modelagem Dimensional",
-    projetoInterativo: `<a href="#" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiNmViZDIwMDgtZWJkNC00M2RiLTk2Y2EtNTI2OWJiZGQ5NjQ4IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
       
