@@ -2210,7 +2210,7 @@ const sections = {
                           
           <!-- Operações & Cadeia de Suprimentos -->
           <a href="#" data-category="gestaoProjetos">Produção</a>
-          <a href="#" data-category="metodologiaAgil">Logística</a>
+          <a href="#" data-category="powerBiLogistica">Logística</a>
           <a href="#" data-category="gestaoTecnologia">Estoque</a>
           <a href="#" data-category="gestaoOperacoes">Ativos</a>
           <a href="#" data-category="gestaoQualidade">Quebra de Equipamentos</a>
