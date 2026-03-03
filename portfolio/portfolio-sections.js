@@ -31,31 +31,29 @@ const sections = {
     showViewModes: false,
     hasCategory: false,
     content: `
-      <p>
-          Analista de Dados movido pela curiosidade, pela precisão técnica e pelo compromisso de transformar informações complexas em decisões inteligentes e estratégicas.
-          Com sólida experiência em <strong>Python, R, SQL e Power BI</strong>, atuo na criação de soluções analíticas que conectam indicadores à visão de negócio,
-          permitindo identificar padrões, antecipar cenários e orientar ações com clareza e segurança.
+      <p>Analista de Dados movido pela curiosidade, precisão técnica e compromisso em transformar informações complexas em decisões estratégicas. 
+         Com sólida experiência em <strong>Python, R, SQL e Power BI</strong>, crio soluções analíticas que conectam indicadores à visão de negócio, 
+         permitindo identificar padrões, antecipar cenários e orientar ações com clareza e segurança.
       </p>
       
-      <p>
-          Minha abordagem integra <strong>processos de Extract, Transform and Load (ETL), modelagem estruturada, visualização interativa e análises descritiva, diagnóstica, preditiva,
-          prescritiva, exploratória e qualitativa</strong>, garantindo que cada insight seja não apenas preciso, mas aplicável e relevante para o contexto da organização. Acredito que
-          todo conjunto de dados carrega uma narrativa valiosa — e meu papel é revelá-la com rigor analítico e comunicação clara, traduzindo complexidade em entendimento estratégico.
+      <p>Minha abordagem integra <strong>processos de Extract, Transform and Load (ETL), modelagem estruturada, visualização interativa e análises 
+         descritiva, diagnóstica, preditiva, prescritiva, exploratória e qualitativa</strong>. Isso garante que cada insight seja não apenas preciso, 
+         mas aplicável e relevante para o contexto da organização. Acredito que todo conjunto de dados carrega uma narrativa valiosa — e meu papel é 
+         revelá-la com rigor analítico e comunicação clara.
       </p>
       
-      <p>
-          Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos e construção de dashboards
-          executivos</strong>. Em cada entrega, priorizo métricas confiáveis, rastreabilidade dos resultados e impacto tangível, sempre alinhando tecnologia, método e propósito.
+      <p>Ao longo da minha trajetória, conduzi projetos que envolveram <strong>análises de desempenho, estudos estratégicos, automação de processos 
+         e construção de dashboards executivos</strong>. Em cada entrega, priorizo métricas confiáveis, rastreabilidade e impacto tangível, alinhando 
+         tecnologia, método e propósito.
       </p>
       
-      <p>
-          Estou em constante evolução, explorando novas ferramentas e metodologias para unir <strong>inovação, governança de dados e excelência operacional</strong>. Acredito no
-          poder da melhoria contínua e na importância de decisões orientadas por evidências para construir organizações mais eficientes, sustentáveis e inteligentes.
+      <p>Estou em constante evolução, explorando novas ferramentas e metodologias para unir <strong>inovação, governança de dados e excelência 
+         operacional</strong>. Acredito no poder da melhoria contínua e na importância de decisões orientadas por evidências para construir organizações 
+         mais eficientes, sustentáveis e inteligentes.
       </p>
       
-      <p>
-          Meu compromisso é claro: transformar dados em valor estratégico, alinhando conhecimento técnico, visão analítica e sensibilidade de negócio para apoiar decisões robustas
-          e impulsionar resultados consistentes.
+      <p>Meu compromisso é claro: transformar dados em valor estratégico, alinhando conhecimento técnico, visão analítica e sensibilidade de negócio para 
+         apoiar decisões robustas e impulsionar resultados consistentes.
       </p>
     `
   },
@@ -70,30 +68,34 @@ const sections = {
     showViewModes: false,
     hasCategory: false,
     content: `
-      <p>
-          Minha trajetória é guiada por uma curiosidade que nunca adormeceu e por um desejo constante de compreender o mundo através dos dados. Ao longo dos últimos anos, mergulhei
-          em um processo de <strong>expansão intelectual</strong> e <strong>especialização intensa</strong>, estudando diariamente, explorando novas linguagens, tecnologias, metodologias
-          e abordagens analíticas. Esse caminho — construído com disciplina autodidata e uma busca incansável por profundidade técnica — moldou não apenas minhas habilidades, mas também
-          minha visão sobre como a informação se transforma em valor.
+      <p>Minha trajetória é guiada por uma curiosidade que nunca adormeceu e por um desejo constante de compreender o mundo por meio dos 
+         dados. Ao longo dos últimos anos, mergulhei em um processo de <strong>expansão intelectual</strong> e <strong>especialização 
+         intensa</strong>, estudando diariamente, explorando novas linguagens, tecnologias, metodologias e abordagens analíticas. Esse 
+         caminho — construído com disciplina autodidata e busca incansável por profundidade técnica — moldou não apenas minhas habilidades, 
+         mas também minha visão sobre como a informação se transforma em valor.
       </p>
-      <p>
-          Atuo com uma perspectiva ampla e integrada, combinando <strong>Python, R, SQL, Power BI, modelagem de dados, análises descritiva, diagnóstica, preditiva, 
-          prescritiva, exploratória e qualitativa, metodologias Lean Six Sigma, automação, governança e qualidade de dados</strong>. Minha experiência se estende desde a construção 
-          de pipelines analíticos e processos de ETL até o desenvolvimento de dashboards interativos e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
+      
+      <p>Atuo com uma perspectiva ampla e integrada, combinando <strong>Python, R, SQL, Power BI, modelagem de dados, análises descritiva, 
+         diagnóstica, preditiva, prescritiva, exploratória e qualitativa, metodologias Lean Six Sigma, automação, governança e qualidade de 
+         dados</strong>. Minha experiência se estende desde a construção de pipelines analíticos e processos de ETL até o desenvolvimento 
+         de dashboards interativos e análises que iluminam padrões, comportamentos e oportunidades estratégicas.
       </p>
-      <p>
-          Acredito que cada dataset carrega uma narrativa própria — uma história que precisa ser revelada com precisão técnica, sensibilidade analítica e visão crítica. Para mim, analisar
-          dados é muito mais que executar consultas, gerar gráficos ou aplicar modelos. É compreender o contexto, questionar o óbvio, enxergar conexões, antecipar cenários e transformar
-          complexidade em clareza. Meu trabalho é encontrar significado onde muitos enxergam apenas números.
+      
+      <p>Acredito que cada dataset carrega uma narrativa própria — uma história que precisa ser revelada com precisão técnica, sensibilidade 
+         analítica e visão crítica. Para mim, analisar dados vai muito além de executar consultas, gerar gráficos ou aplicar modelos. É 
+         compreender o contexto, questionar o óbvio, enxergar conexões, antecipar cenários e transformar complexidade em clareza. Meu trabalho 
+         é encontrar significado onde muitos veem apenas números.
       </p>
-      <p> 
-          Nos últimos dois anos, percorri um ciclo de aprimoramento contínuo, aprofundando-me em <strong>Power BI, Python, SQL, MySQL, MongoDB, Estatística, 
-          Visualização de Dados, Data Storytelling, Data Quality, Modelagem, Processos, Lei Geral de Proteção de Dados (LGPD), Cibersegurança</strong>, entre outros. Essa evolução 
-          constante me permitiu unir técnica, estratégia e maturidade intelectual em um estilo de trabalho analítico que equilibra rigor, criatividade, lógica e intuição.
+      
+      <p>De 2020 em diante, venho percorrendo um ciclo de aprimoramento contínuo, aprofundando-me em <strong>Power BI, Python, SQL, MySQL, 
+         MongoDB, Estatística, Visualização de Dados, Data Storytelling, Data Quality, Modelagem, Processos, LGPD e Cibersegurança</strong>, 
+         entre outros. Essa evolução constante me permite unir técnica, estratégia e maturidade intelectual em um estilo de trabalho analítico 
+         que equilibra rigor, criatividade, lógica e intuição.
       </p>
-      <p>
-          Este portfólio reúne minha caminhada, meus aprendizados e minha visão: a de que dados são mais do que insumos. São instrumentos de decisão, transformação e impacto. Aqui se
-          encontram não apenas projetos, mas uma construção consciente de experiência — fruto de disciplina, foco, curiosidade e um compromisso permanente com a excelência. 
+      
+      <p>Este portfólio reúne minha trajetória, meus aprendizados e minha visão: dados são mais do que insumos — são instrumentos de decisão, 
+         transformação e impacto. Aqui se encontram não apenas projetos, mas uma construção consciente de experiência, fruto de disciplina, 
+         foco, curiosidade e compromisso permanente com a excelência.
       </p>
     `
   },
@@ -108,37 +110,30 @@ const sections = {
     showViewModes: false,
     hasCategory: false,
     content: `
-      <p>
-          Minha trajetória profissional, iniciada em 1998, sempre foi movida por uma convicção simples e poderosa: 
-          <strong>a evolução é consequência direta da curiosidade, da disciplina e da busca constante por entendimento profundo</strong>. 
-          Ao longo dos anos, transitei por diferentes áreas da tecnologia, ampliando repertórios, conectando experiências e desenvolvendo 
-          uma visão cada vez mais sistêmica sobre processos, dados e soluções inteligentes.
+      <p>Minha trajetória profissional, iniciada em 1998, sempre foi movida por uma convicção simples e poderosa: <strong>a evolução é consequência 
+         direta da curiosidade, da disciplina e da busca constante por entendimento profundo</strong>. Ao longo dos anos, transitei por diferentes 
+         áreas da tecnologia, ampliando repertórios, conectando experiências e desenvolvendo uma visão cada vez mais sistêmica sobre processos, dados 
+         e soluções inteligentes.
       </p>
       
-      <p>
-          Essa jornada, porém, ganhou um novo contorno nos últimos anos. O que antes era uma atuação ampla dentro de Tecnologia da Informação (TI) 
-          evoluiu para uma fase de <strong>especialização intensa</strong>, impulsionada por uma <strong>curiosidade insaciável</strong> e por um 
-          comprometimento diário com o <strong>desenvolvimento autodidata</strong>. A cada estudo, desafio ou projeto, busco mais do que 
-          conhecimento técnico: busco compreender o sentido, a lógica e o impacto de cada conceito, de cada ferramenta e de cada decisão.
+      <p>Essa jornada, porém, ganhou um novo contorno nos últimos anos. O que antes era uma atuação ampla dentro de Tecnologia da Informação (TI) 
+         evoluiu para uma fase de <strong>especialização intensa</strong>, impulsionada por <strong>curiosidade insaciável</strong> e por um comprometimento 
+         diário com o <strong>desenvolvimento autodidata</strong>. A cada estudo, desafio ou projeto, busco mais do que conhecimento técnico: busco 
+         compreender o sentido, a lógica e o impacto de cada conceito, ferramenta e decisão.
       </p>
       
-      <p>
-          Não se trata apenas de dominar tecnologias, metodologias ou linguagens; trata-se de construir uma base sólida, 
-          consistente e capaz de gerar soluções que unem precisão, inteligência e clareza. 
-          Por isso, estudo todos os dias — movido pelo desejo de aprofundar, conectar ideias e transformar complexidade em valor.
+      <p>Não se trata apenas de dominar tecnologias, metodologias ou linguagens; trata-se de construir uma base sólida, consistente e capaz de gerar 
+         soluções que unem precisão, inteligência e clareza. Por isso, estudo todos os dias — movido pelo desejo de aprofundar, conectar ideias e 
+         transformar complexidade em valor.
       </p>
       
-      <p>
-          O que se encontra neste portfólio não é apenas um conjunto de projetos ou certificações, mas o reflexo dessa caminhada: 
-          uma trajetória marcada por <strong>expansão intelectual</strong>, <strong>busca de profundidade técnica</strong>, 
-          <strong>exploração contínua</strong> e uma dedicação real à excelência. 
-          Cada entrega aqui representa não apenas o que faço, mas sobretudo <strong>como penso e como evoluo</strong>.
+      <p>O que se encontra neste portfólio não é apenas um conjunto de projetos ou certificações, mas o reflexo dessa caminhada: uma trajetória marcada 
+         por <strong>expansão intelectual</strong>, <strong>busca de profundidade técnica</strong>, <strong>exploração contínua</strong> e dedicação real 
+         à excelência. Cada entrega representa não apenas o que faço, mas sobretudo <strong>como penso e como evoluo</strong>.
       </p>
       
-      <p>
-          Este espaço é, portanto, a síntese de anos de prática, estudo e refinamento. 
-          Um recorte vivo de uma jornada que continua — com propósito, coerência e um compromisso permanente de aprender, transformar 
-          e contribuir para um futuro mais inteligente, mais integrado, mais sustentável e mais humano.
+      <p>Este espaço é, portanto, a síntese de anos de prática, estudo e refinamento — um recorte vivo de uma jornada que continua, com propósito, coerência 
+         e compromisso permanente de aprender, transformar e contribuir para um futuro mais inteligente, integrado, sustentável e humano.
       </p>
     `
   },
@@ -153,46 +148,31 @@ const sections = {
     showViewModes: false,
     hasCategory: false,
     content: `
-      <p>
-          Meu propósito é construir pontes entre dados, entendimento e impacto real. 
-          Acredito que informação só ganha valor quando se transforma em clareza, decisão e resultado — 
-          e é isso que orienta cada projeto, cada estudo e cada solução que desenvolvo.
+      <p>Meu propósito é construir pontes entre dados, entendimento e impacto real. Acredito que informação só ganha valor quando se transforma em clareza, 
+         decisão e resultado — e é isso que orienta cada projeto, estudo e solução que desenvolvo.
       </p>
       
-      <p>
-          Em um cenário em que o volume de dados cresce mais rápido do que a capacidade de interpretá-los, 
-          meu compromisso é criar análises que não apenas expliquem o que aconteceu, 
-          mas que revelem o <strong>porquê</strong>, o <strong>e se</strong> e o <strong>o que fazer a seguir</strong>.  
-          Meu trabalho não se limita a gráficos ou métricas; ele tem como essência provocar entendimento, 
-          gerar <i>insights</i> relevantes e sustentar decisões mais estratégicas.
+      <p>Em um cenário em que o volume de dados cresce mais rápido do que a capacidade de interpretá-los, meu compromisso é criar análises que não apenas 
+         expliquem o que aconteceu, mas que revelem o <strong>porquê</strong>, o <strong>e se</strong> e o <strong>o que fazer a seguir</strong>. Meu trabalho 
+         vai além de gráficos ou métricas: sua essência é provocar entendimento, gerar insights relevantes e sustentar decisões mais estratégicas.
       </p>
       
-      <p>
-          Vejo a análise de dados como um processo vivo — uma convergência entre lógica, curiosidade e visão de negócio.  
-          Por isso, busco unir profundidade técnica a pensamento crítico, conectando técnicas avançadas, 
-          modelagem cuidadosa e narrativas claras que permitam às organizações enxergar seus desafios e oportunidades 
-          com precisão e inteligência.
+      <p>Vejo a análise de dados como um processo vivo — uma convergência entre lógica, curiosidade e visão de negócio. Por isso, busco unir profundidade técnica 
+         e pensamento crítico, conectando técnicas avançadas, modelagem cuidadosa e narrativas claras, permitindo que as organizações enxerguem desafios e 
+         oportunidades com precisão e inteligência.
       </p>
       
-      <p>
-          Evoluir continuamente também faz parte desse compromisso: estudar, testar, questionar, reconstruir.  
-          Não apenas para acompanhar a velocidade da tecnologia, mas para <strong>antecipar caminhos</strong> 
-          e entregar soluções que façam sentido hoje e sustentem decisões de amanhã.
+      <p>Evoluir continuamente também faz parte desse compromisso: estudar, testar, questionar, reconstruir. Não apenas para acompanhar a velocidade da tecnologia, 
+         mas para <strong>antecipar caminhos</strong> e entregar soluções que façam sentido hoje e sustentem decisões de amanhã.
       </p>
       
-      <p>
-          Também acredito que dados são, antes de tudo, uma expressão da realidade — e, por isso, 
-          meu propósito inclui a responsabilidade de tratá-los com integridade, respeito e precisão.  
-          Cada análise que construo carrega o compromisso de refletir o cenário com fidelidade, 
-          evitando simplificações que distorçam a verdade e buscando sempre a síntese que revela 
-          o que realmente importa.  
-          É assim que transformo números em entendimento confiável e decisões sustentáveis.
+      <p>Acredito ainda que dados são, antes de tudo, uma expressão da realidade. Por isso, meu propósito inclui a responsabilidade de tratá-los com integridade, 
+         respeito e precisão. Cada análise que construo reflete fielmente o cenário, evita simplificações que distorçam a verdade e busca a síntese que revela o 
+         que realmente importa. É assim que transformo números em entendimento confiável e decisões sustentáveis.
       </p>
       
-      <p>
-          Em tudo o que faço, meu objetivo é o mesmo: transformar complexidade em direção, dados em estratégia, 
-          e informação em vantagem competitiva.  
-          <strong>Trabalhar com dados, para mim, é uma forma de construir clareza — e clareza é a base de qualquer futuro sólido.</strong>
+      <p>Em tudo o que faço, meu objetivo permanece o mesmo: transformar complexidade em direção, dados em estratégia e informação em vantagem competitiva. 
+         <strong>Trabalhar com dados, para mim, é uma forma de construir clareza — e clareza é a base de qualquer futuro sólido.</strong>
       </p>
     `
   },
