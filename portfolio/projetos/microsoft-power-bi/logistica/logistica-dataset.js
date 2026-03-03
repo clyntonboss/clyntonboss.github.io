@@ -74,11 +74,11 @@ window.datasetCategoria = [
     nomeDuracao: "Duração: ",
     nomeStackTecnica: "Stack Técnica: ",
   
-    titulo: "Dashboard de Gestão Logística – TransFlow Logistics",
-    periodo: "Mar/2026",
-    duracao: "10 dias",
+    titulo: "Dashboard de Gestão Logística",
+    periodo: "Jan 20226",
+    duracao: "12 dias",
     stackTecnica: "Power BI | DAX | Modelagem Dimensional",
-    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiNmViZDIwMDgtZWJkNC00M2RiLTk2Y2EtNTI2OWJiZGQ5NjQ4IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiNzFkOGQ3NTQtODgyOS00ZmJkLTg0NDUtZjBkMjQxYTJkMDQxIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
       
@@ -90,7 +90,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A operação logística demandava maior controle sobre pedidos, motoristas e produtos, especialmente em relação a atrasos e devoluções, impactando diretamente a eficiência operacional e a satisfação dos clientes.
+                A operação logística da TransFlow Logistics enfrentava desafios no monitoramento de pedidos, performance de motoristas e gestão de devoluções, impactando diretamente a eficiência operacional e a experiência do cliente.
             </div>
         
           </div>
