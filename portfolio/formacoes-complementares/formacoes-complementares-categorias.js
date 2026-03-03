@@ -1559,8 +1559,8 @@ arquitetura: {
 
 // 🔹 ================================== Microsoft Power BI · Gestão Logística =============================== 🔹
   powerBiGestaoLogistica: {
-    title: "Gestão Logística",
-    dataset: "/portfolio/projetos/microsoft-power-bi/gestao-logistica/gestao-logistica-dataset.js",
+    title: "Logística",
+    dataset: "/portfolio/projetos/microsoft-power-bi/logistica/logistica-dataset.js",
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
