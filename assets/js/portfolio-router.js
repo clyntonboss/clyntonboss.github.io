@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
               categoryBox.classList.remove("category-exit"); // Limpa classe de saída
               categoryName.textContent = "";         // Limpa nome da categoria
             }
-          }, 400);
+          }, 800);
           
           // Atualiza título da aba e favicon
           document.title = section.pageTitle;
