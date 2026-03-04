@@ -2216,7 +2216,7 @@ const sections = {
           <a href="#" data-category="gestaoQualidade">Quebra de Equipamentos</a>
       
           <!-- Pessoas & Conformidade -->
-          <a href="#" data-category="design">Recursos Humanos</a>
+          <a href="#" data-category="powerBiRecursosHumanos">Recursos Humanos</a>
           <a href="#" data-category="design">Segurança do Trabalho</a>
           <a href="#" data-category="design">Jurídico</a>
       
