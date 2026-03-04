@@ -1609,4 +1609,57 @@ arquitetura: {
                                         O domínio desses conceitos permite estruturar soluções analíticas robustas, reduzir gargalos operacionais, aumentar a confiabilidade das entregas e apoiar decisões estratégicas com base em métricas reais da cadeia logística.</p></div>
     `
   },
+
+// 🔹 ================================== Microsoft Power BI · Recursos Humanos =============================== 🔹
+  powerBiRecursosHumanos: {
+    title: "Recursos Humanos",
+    dataset: "/portfolio/projetos/microsoft-power-bi/recursos-humanos/recursos-humanos-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento de Recursos Humanos, organizados por conclusão cronológica decrescente.<br>
+                                        Os projetos apresentados abrangem análise de indicadores de desempenho, turnover, absenteísmo, clima organizacional, estrutura de cargos e monitoramento estratégico de métricas de People Analytics.</p></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle-inf"><p>Os projetos de Recursos Humanos consolidam uma base analítica voltada à gestão estratégica de pessoas, monitoramento de performance e suporte à tomada de decisão orientada por dados.<br>
+                                        O domínio desses conceitos permite estruturar soluções que fortalecem a cultura organizacional, reduzem riscos de rotatividade, ampliam o engajamento e alinham o capital humano aos objetivos estratégicos da organização.</p></div>
+    `
+  },
 };
