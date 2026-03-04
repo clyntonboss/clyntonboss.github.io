@@ -756,7 +756,7 @@ main {
   flex: 1;
   /* Faz o main expandir para ocupar o espaço restante do contêiner flexível */
 
-  padding: 90px 20px 100px;
+  padding: 90px 20px 84px;
   /* Espaçamento interno: 
      - 90px do topo (evita sobreposição com o header)
      - 20px laterais (margem mínima em telas menores)
@@ -2326,7 +2326,7 @@ main {
   /* Centraliza o contêiner horizontalmente */
 
   height: calc(100vh - 266px);
-  /* Altura calculada para preencher a tela menos 266px (provavelmente header + footer) */
+  /* Altura calculada para preencher a tela menos 266px (header + footer) */
 
   overflow: hidden;
   /* Oculta qualquer conteúdo que ultrapasse os limites do contêiner */
