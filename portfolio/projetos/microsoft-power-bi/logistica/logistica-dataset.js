@@ -75,8 +75,8 @@ window.datasetCategoria = [
     nomeStackTecnica: "Stack Técnica: ",
   
     titulo: "Dashboard de Gestão Logística",
-    periodo: "Jan 2026",
-    duracao: "12 dias",
+    periodo: "Jan 2022",
+    duracao: "16 dias",
     stackTecnica: "Power BI | DAX | Modelagem Dimensional",
     projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
     descricaoProjeto: `
