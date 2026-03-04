@@ -74,11 +74,12 @@ window.datasetCategoria = [
     nomeDuracao: "Duração: ",
     nomeStackTecnica: "Stack Técnica: ",
   
-    titulo: "Dashboard de Gestão Logística",
-    periodo: "Jan 2026",
+    titulo: "Pesquisa de Satisfação dos Colaboradores",
+    periodo: "Fev 2022",
     duracao: "12 dias",
-    stackTecnica: "Power BI | DAX | Modelagem Dimensional",
+    stackTecnica: "Power BI | DAX | Modelagem Dimensional | People Analytics",
     projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiZjc4ODI0ZDUtMDU3YS00NTYxLWFiZGQtNWRkNDY1MjZkNTVhIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+  
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
       
@@ -90,7 +91,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A operação logística da TransFlow Logistics enfrentava desafios no monitoramento de pedidos, performance de motoristas e gestão de devoluções, impactando diretamente a eficiência operacional e a experiência do cliente.
+                A Nexora Group buscava compreender o nível de satisfação dos colaboradores e identificar fatores que impactavam engajamento, retenção e clima organizacional. A ausência de uma visão consolidada dificultava a comparação entre ciclos de entrevistas e a identificação de tendências comportamentais.
             </div>
         
           </div>
@@ -104,7 +105,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Foi desenvolvida uma solução em Power BI com modelagem dimensional estruturada e KPIs estratégicos: Quantidade de Produtos, Quantidade de Pedidos e Quantidade de Motoristas. A visualização foi organizada para facilitar a leitura executiva e a análise operacional.
+                Foi desenvolvido um dashboard em Power BI com modelagem dimensional estruturada, permitindo a consolidação de indicadores como Quantidade de Colaboradores, Cargos e Respostas Coletadas. A solução possibilitou análises comparativas entre Entrevista 01 e Entrevista 02, incluindo métricas de Satisfeitos, Neutros e Insatisfeitos em volume absoluto e percentual.
             </div>
         
           </div>
@@ -118,7 +119,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                O dashboard permitiu identificar rapidamente gargalos logísticos, motoristas com maior índice de atraso, padrões de devolução e clientes com maior volume de pedidos, promovendo decisões mais rápidas e assertivas.
+                O dashboard permitiu identificar variações no nível de satisfação entre ciclos de avaliação, mapear faixas etárias predominantes, analisar fontes de recrutamento e acompanhar o histórico de contratações por ano. A visualização estruturada fortaleceu decisões relacionadas a políticas de retenção, desenvolvimento e gestão de clima organizacional.
             </div>
         
           </div>
@@ -132,7 +133,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Power BI foi utilizado para visualização e storytelling dos dados. DAX para construção de medidas como percentuais de devolução e análise de atrasos. Modelagem dimensional para organização eficiente das tabelas de pedidos, motoristas, clientes e produtos.
+                Power BI foi utilizado para construção do storytelling analítico e visualização executiva. DAX foi aplicado na criação de medidas percentuais comparativas entre entrevistas e consolidação de KPIs estratégicos. A modelagem dimensional organizou dados de colaboradores, cargos, recrutamento e avaliações de satisfação, garantindo escalabilidade e consistência analítica.
             </div>
         
           </div>
@@ -141,12 +142,12 @@ window.datasetCategoria = [
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Conexão com Dados | Operação | Decisão</span>
+              <span class="exp-role">Conexão com Pessoas | Cultura | Estratégia</span>
           </div>
           <div class="exp-details">
       
             <div class="tech-desc">
-                A solução integra indicadores operacionais à visão estratégica, fortalecendo a governança logística, aumentando a transparência da operação e promovendo melhoria contínua baseada em dados.
+                A solução integra indicadores de clima e satisfação à visão estratégica da organização, fortalecendo a gestão de pessoas orientada por dados e promovendo alinhamento entre capital humano e objetivos corporativos.
             </div>
         
           </div>
