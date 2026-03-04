@@ -2325,7 +2325,7 @@ main {
   margin: 0 auto;
   /* Centraliza o contêiner horizontalmente */
 
-  height: calc(100vh - 266px);
+  height: calc(100vh - 248px);
   /* Altura calculada para preencher a tela menos 266px (header + footer) */
 
   overflow: hidden;
