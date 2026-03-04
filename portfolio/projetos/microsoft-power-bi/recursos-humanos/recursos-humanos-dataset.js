@@ -78,7 +78,7 @@ window.datasetCategoria = [
     periodo: "Fev 2022",
     duracao: "12 dias",
     stackTecnica: "Power BI | DAX | Modelagem Dimensional | People Analytics",
-    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiZjc4ODI0ZDUtMDU3YS00NTYxLWFiZGQtNWRkNDY1MjZkNTVhIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiNzZhNzE2YWEtZWNhMy00OGEzLTg0OTUtMzcyYmM3MGI2NGU2IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
   
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
