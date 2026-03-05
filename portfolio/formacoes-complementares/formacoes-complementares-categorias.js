@@ -1504,10 +1504,10 @@ arquitetura: {
     `
   },
 
-// 🔹 ===================================== Microsoft Power BI · Financeiro ================================== 🔹
+// 🔹 ===================================== Microsoft Power BI · Faturamento ================================= 🔹
   powerBiFaturamento: {
-    title: "Recursos Humanos",
-    dataset: "/portfolio/projetos/microsoft-power-bi/recursos-humanos/recursos-humanos-dataset.js",
+    title: "Faturamento",
+    dataset: "/portfolio/projetos/microsoft-power-bi/faturamento/faturamento-dataset.js",
     showViewModes: true,
     content: `
       <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
