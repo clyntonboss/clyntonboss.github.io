@@ -2385,13 +2385,13 @@ main {
   overflow-y: auto;
   /* Permite rolagem vertical caso o conteúdo ultrapasse a altura do contêiner */
 
-  min-height: 100%;
+  height: 100%;
   /* Faz o bloco de texto ocupar toda a altura do contêiner pai */
 
   box-sizing: border-box;
   /* Inclui padding e border no cálculo de altura e largura */
 
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
   /* Suaviza a rolagem programática ou via âncoras */
 
   scrollbar-width: none;
