@@ -167,13 +167,13 @@ function trocarModoInterno(mode) {
     if (mode === "grid") renderGradeCursos(datasetCategoria);
 
     // Para modos diferentes de 'block', rola a seção do currículo para o topo
-//    if (mode !== "block") {
-//        const secao = document.querySelector(".curriculo-text");
-//        if (secao) {
-//            secao.scrollIntoView({ behavior: "instant", block: "start" });
-//        }
-//    }
-  
+    if (mode !== "block") {
+        const secao = document.querySelector(".curriculo-text");
+        if (secao) {
+            secao.scrollIntoView({ behavior: "instant", block: "start" });
+        }
+    }
+
     // Adiciona a classe de ativo na próxima frame para disparar animação
     requestAnimationFrame(() => {
         alvo.classList.add("is-active");
