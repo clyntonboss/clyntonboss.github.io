@@ -209,10 +209,6 @@ function renderBlocoCurso(index) {
 
     // Usa requestAnimationFrame para garantir atualização visual
     requestAnimationFrame(() => {
-        const alturaAtual = content.getBoundingClientRect().height;
-        content.style.height = alturaAtual + "px";
-        content.style.overflow = "hidden";
-
         content.classList.remove("is-visible");
 
         // Pequeno delay antes de atualizar o conteúdo
@@ -284,26 +280,8 @@ function renderBlocoCurso(index) {
                 lastBtn?.classList.remove("disabled");
             }
 
-            // Atualiza a altura do container e ativa animação
             requestAnimationFrame(() => {
-                const novaAltura = content.scrollHeight;
-
-                if (Math.abs(novaAltura - alturaAtual) > 1) {
-                    content.style.height = novaAltura + "px";
-                    content.classList.add("is-visible");
-                } else {
-                    content.style.height = "auto";
-                    content.classList.add("is-visible");
-                }
-            });
-
-            // Ajusta altura e overflow após a transição
-            content.addEventListener("transitionend", function handler(e) {
-                if (e.propertyName === "height" || e.propertyName === "opacity") {
-                    content.style.height = "auto";
-                    content.style.overflow = "";
-                    content.removeEventListener("transitionend", handler);
-                }
+                content.classList.add("is-visible");
             });
 
         }, 400); // Delay antes de atualizar conteúdo
