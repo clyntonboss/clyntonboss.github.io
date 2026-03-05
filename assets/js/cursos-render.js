@@ -91,33 +91,17 @@ function renderBlocoCurso(index) {
 
   if (!container || !content) return;
 
-  container.classList.remove("hidden");
-
   const curso = datasetCategoria[index];
   if (!curso) return;
 
+  // Atualiza índice global
   cursoAtualIndex = index;
 
   // 🔹 Inicia transição de saída
-  content.classList.remove("is-visible");
-
-  // 🔥 Aguarda o navegador aplicar o estado invisível
-  requestAnimationFrame(() => {
-
-// 🔹 1️⃣ mede e trava altura ANTES de mexer em classes
-const alturaAtual = content.getBoundingClientRect().height;
-content.style.height = alturaAtual + "px";
-content.style.overflow = "hidden";
-
-// 🔹 2️⃣ agora inicia transição de saída
-content.classList.remove("is-visible");
-
-// 🔹 3️⃣ força aplicação
-content.offsetHeight;
+  content.classList.add("is-transitioning");
 
   setTimeout(() => {
-    
-    // 🔹 2. Renderiza novo conteúdo
+    // 🔹 Renderiza novo conteúdo
     content.innerHTML = `
       <img 
         src="${curso.thumb}" 
@@ -125,34 +109,25 @@ content.offsetHeight;
         class="cert-thumb cert-thumb-block"
         onclick="abrirCertificado('${curso.thumb}')"
       >
-  
+
       <div>
-        <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
-        <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
-        <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
-        <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
-        <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
+        <p><strong>Instituição:</strong> ${curso.instituicao}</p>
+        <p><strong>Curso:</strong> ${curso.curso}</p>
+        <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
+        <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
+        <p><strong>Código:</strong> ${curso.codigo}
           ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
         </p>
         <p>
-          <strong>${curso.nomeVerificacao}</strong>
+          <strong>Verificação:</strong>
           ${
-            curso.verificacao === null
-              ? `<span class="cert-no-verify">Indisponível</span>`
-              : curso.verificacao?.url
-                ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-                : ""
+            curso.verificacao?.url
+              ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+              : `<span class="cert-no-verify">Indisponível</span>`
           }
         </p>
-        <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
-        <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
-        <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
-        <p>${curso.projetoInterativo}</p>
-        ${curso.descricaoProjeto}
       </div>
     `;
-    
-    inicializarAccordionsCurso();
 
     // 🔹 Atualiza indicador (ex: 3 / 21)
     const indicator = document.getElementById("course-indicator");
@@ -181,79 +156,13 @@ content.offsetHeight;
       nextBtn?.classList.remove("disabled");
       lastBtn?.classList.remove("disabled");
     }
-  
-    // 🔹 4️⃣ espera 1 frame e mede nova altura
-    requestAnimationFrame(() => {
-  
-      const novaAltura = content.scrollHeight;
-  
-      content.style.height = novaAltura + "px";
-      content.classList.add("is-visible");
-  
-    });
-  
-    content.addEventListener("transitionend", function handler(e) {
-      if (e.propertyName === "height") {
-        content.style.height = "auto";
-        content.style.overflow = "";
-        content.removeEventListener("transitionend", handler);
-      }
-    });
-  
-  }, 400);
 
-  });
+    // 🔹 Finaliza transição (entrada)
+    content.classList.remove("is-transitioning");
+  }, 200);
 }
 
 // ⛔ =============== The End =============== ⛔
-
-// Inicializa toggles dentro do course-block (dataset)
-function inicializarAccordionsCurso() {
-    const toggles = document.querySelectorAll('#course-block .exp-toggle');
-
-    toggles.forEach(btn => {
-
-        // Evita adicionar múltiplos listeners se já estiver registrado
-        if (btn.dataset.listenerAttached) return;
-        btn.dataset.listenerAttached = "true";
-
-        const header = btn.parentElement;
-
-        // Torna o header clicável
-        header.addEventListener('click', () => btn.click());
-
-        btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-
-            const details = header.nextElementSibling; // assume a estrutura correta
-            const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
-
-            // Fecha outros toggles do mesmo container
-            const allToggles = header.closest('#course-block').querySelectorAll('.exp-toggle');
-            allToggles.forEach(otherBtn => {
-                const otherDetails = otherBtn.parentElement.nextElementSibling;
-                const otherHeader = otherBtn.parentElement;
-
-                if (otherDetails !== details) {
-                    otherDetails.style.maxHeight = '0';
-                    otherDetails.classList.remove('open');
-                    otherHeader.classList.remove('open');
-                }
-            });
-
-            // Abre/fecha o toggle clicado
-            if (isOpen) {
-                details.style.maxHeight = '0';
-                details.classList.remove('open');
-                header.classList.remove('open');
-            } else {
-                details.style.maxHeight = details.scrollHeight + 'px';
-                details.classList.add('open');
-                header.classList.add('open');
-            }
-        });
-    });
-}
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
@@ -273,31 +182,26 @@ function renderFluxoCursos(cursos) {
       <img 
         src="${curso.thumb}" 
         alt="${curso.curso}"
-        class="cert-thumb cert-thumb-block"
+        class="cert-thumb cert-thumb--compact"
         onclick="abrirCertificado('${curso.thumb}')"
       >
 
       <div>
-        <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
-        <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
-        <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
-        <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
-        <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
+        <p><strong>Instituição:</strong> ${curso.instituicao}</p>
+        <p><strong>Curso:</strong> ${curso.curso}</p>
+        <p><strong>Carga Horária:</strong> ${curso.cargaHoraria}</p>
+        <p><strong>Data de Conclusão:</strong> ${curso.dataConclusao}</p>
+        <p><strong>Código:</strong> ${curso.codigo}
           ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
         </p>
         <p>
-          <strong>${curso.nomeVerificacao}</strong>
+          <strong>Verificação:</strong>
           ${
             curso.verificacao?.url
               ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
               : `<span class="cert-no-verify">Indisponível</span>`
           }
         </p>
-        <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
-        <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
-        <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
-        <p>${curso.projetoInterativo}</p>
-        ${curso.descricaoProjeto}
       </div>
     `;
 
