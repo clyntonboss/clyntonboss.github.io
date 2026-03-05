@@ -1,54 +1,7 @@
 let cursoAtualIndex = 0;
 
-// Inicializa toggles dentro do course-block (dataset)
-function inicializarAccordionsCurso() {
-    const toggles = document.querySelectorAll('#course-block .exp-toggle');
-
-    toggles.forEach(btn => {
-
-        // Evita adicionar múltiplos listeners se já estiver registrado
-        if (btn.dataset.listenerAttached) return;
-        btn.dataset.listenerAttached = "true";
-
-        const header = btn.parentElement;
-
-        // Torna o header clicável
-        header.addEventListener('click', () => btn.click());
-
-        btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-
-            const details = header.nextElementSibling; // assume a estrutura correta
-            const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
-
-            // Fecha outros toggles do mesmo container
-            const allToggles = header.closest('#course-block').querySelectorAll('.exp-toggle');
-            allToggles.forEach(otherBtn => {
-                const otherDetails = otherBtn.parentElement.nextElementSibling;
-                const otherHeader = otherBtn.parentElement;
-
-                if (otherDetails !== details) {
-                    otherDetails.style.maxHeight = '0';
-                    otherDetails.classList.remove('open');
-                    otherHeader.classList.remove('open');
-                }
-            });
-
-            // Abre/fecha o toggle clicado
-            if (isOpen) {
-                details.style.maxHeight = '0';
-                details.classList.remove('open');
-                header.classList.remove('open');
-            } else {
-                details.style.maxHeight = details.scrollHeight + 'px';
-                details.classList.add('open');
-                header.classList.add('open');
-            }
-        });
-    });
-}
-
 // Função Utilitária
+
 function ativarTransicao(container) {
   // reset total
   container.classList.remove("view-transition", "is-active");
@@ -62,6 +15,7 @@ function ativarTransicao(container) {
 }
 
 // Modos de Visualização dos Cursos
+
 function setViewMode(mode) {
   localStorage.setItem("coursesViewMode", mode);
 
@@ -232,21 +186,14 @@ content.offsetHeight;
     requestAnimationFrame(() => {
   
       const novaAltura = content.scrollHeight;
-      
-      // 🔎 Só anima se houver diferença real
-      if (Math.abs(novaAltura - alturaAtual) > 1) {
-        content.style.height = novaAltura + "px";
-        content.classList.add("is-visible");
-      } else {
-        // altura igual → troca instantânea sem animação de height
-        content.style.height = "auto";
-        content.classList.add("is-visible");
-      }
+  
+      content.style.height = novaAltura + "px";
+      content.classList.add("is-visible");
   
     });
   
     content.addEventListener("transitionend", function handler(e) {
-      if (e.propertyName === "height" || e.propertyName === "opacity") {
+      if (e.propertyName === "height") {
         content.style.height = "auto";
         content.style.overflow = "";
         content.removeEventListener("transitionend", handler);
@@ -259,6 +206,54 @@ content.offsetHeight;
 }
 
 // ⛔ =============== The End =============== ⛔
+
+// Inicializa toggles dentro do course-block (dataset)
+function inicializarAccordionsCurso() {
+    const toggles = document.querySelectorAll('#course-block .exp-toggle');
+
+    toggles.forEach(btn => {
+
+        // Evita adicionar múltiplos listeners se já estiver registrado
+        if (btn.dataset.listenerAttached) return;
+        btn.dataset.listenerAttached = "true";
+
+        const header = btn.parentElement;
+
+        // Torna o header clicável
+        header.addEventListener('click', () => btn.click());
+
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+
+            const details = header.nextElementSibling; // assume a estrutura correta
+            const isOpen = details.style.maxHeight && details.style.maxHeight !== '0px';
+
+            // Fecha outros toggles do mesmo container
+            const allToggles = header.closest('#course-block').querySelectorAll('.exp-toggle');
+            allToggles.forEach(otherBtn => {
+                const otherDetails = otherBtn.parentElement.nextElementSibling;
+                const otherHeader = otherBtn.parentElement;
+
+                if (otherDetails !== details) {
+                    otherDetails.style.maxHeight = '0';
+                    otherDetails.classList.remove('open');
+                    otherHeader.classList.remove('open');
+                }
+            });
+
+            // Abre/fecha o toggle clicado
+            if (isOpen) {
+                details.style.maxHeight = '0';
+                details.classList.remove('open');
+                header.classList.remove('open');
+            } else {
+                details.style.maxHeight = details.scrollHeight + 'px';
+                details.classList.add('open');
+                header.classList.add('open');
+            }
+        });
+    });
+}
 
 //🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 
@@ -293,11 +288,9 @@ function renderFluxoCursos(cursos) {
         <p>
           <strong>${curso.nomeVerificacao}</strong>
           ${
-            curso.verificacao === null
-              ? `<span class="cert-no-verify">Indisponível</span>`
-              : curso.verificacao?.url
-                ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-                : ""
+            curso.verificacao?.url
+              ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+              : `<span class="cert-no-verify">Indisponível</span>`
           }
         </p>
         <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
@@ -307,8 +300,6 @@ function renderFluxoCursos(cursos) {
         ${curso.descricaoProjeto}
       </div>
     `;
-
-    inicializarAccordionsCurso();
 
     container.appendChild(item);
 
@@ -509,20 +500,20 @@ function trocarModo(mode) {
 
 // ❎ ====== Abrir Curso no Block Mode ====== ❎
 
-document.addEventListener("click", (event) => {
+  document.addEventListener("click", (event) => {
     const item = event.target.closest(
       ".course-list-item, .course-grid-item"
     );
     if (!item) return;
-    
+
     const index = parseInt(item.dataset.index, 10);
     if (!Number.isInteger(index)) return;
-    
+
     localStorage.setItem("blockCourseIndex", index);
-    
+
     setViewMode("block");
     renderBlocoCurso(index);
-});
+  });
 
 // ⛔ =============== The End =============== ⛔
 
