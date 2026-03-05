@@ -1510,7 +1510,7 @@ arquitetura: {
     dataset: "/portfolio/projetos/microsoft-power-bi/faturamento/faturamento-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento de Faturamento, organizados por conclusão cronológica decrescente.<br>
                                         Os projetos apresentados abrangem análise de faturamento, volume de vendas, ticket médio, performance comercial, distribuição regional de receita e monitoramento estratégico de indicadores financeiros.</p></div>
       
       <hr class="decorative-line-cert">
@@ -1552,8 +1552,8 @@ arquitetura: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>Os projetos financeiros consolidam uma base analítica voltada à gestão de receitas, acompanhamento de desempenho comercial e suporte à tomada de decisão orientada por dados.<br>
-                                        O domínio desses conceitos permite estruturar soluções que ampliam a visibilidade sobre resultados, identificam oportunidades de crescimento, otimizam estratégias de vendas e fortalecem a governança financeira das organizações.</p></div>
+      <div class="tech-subtitle-inf"><p>Os projetos de Faturamento consolidam uma base analítica voltada à gestão de receitas e acompanhamento de desempenho comercial.<br>
+                                        O domínio desses conceitos permite estruturar soluções que ampliam a visibilidade sobre resultados, identificam oportunidades de crescimento, otimizam estratégias de vendas e fortalecem a governança financeira das organizações com suporte à tomada de decisão orientada por dados.</p></div>
     `
   },
 
@@ -1711,8 +1711,8 @@ arquitetura: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>Os projetos de Recursos Humanos consolidam uma base analítica voltada à gestão estratégica de pessoas, monitoramento de performance e suporte à tomada de decisão orientada por dados.<br>
-                                        O domínio desses conceitos permite estruturar soluções que fortalecem a cultura organizacional, reduzem riscos de rotatividade, ampliam o engajamento e alinham o capital humano aos objetivos estratégicos da organização.</p></div>
+      <div class="tech-subtitle-inf"><p>Os projetos de Recursos Humanos consolidam uma base analítica voltada à gestão estratégica de pessoas e monitoramento de performance.<br>
+                                        O domínio desses conceitos permite estruturar soluções que fortalecem a cultura organizacional, reduzem riscos de rotatividade, ampliam o engajamento e alinham o capital humano aos objetivos estratégicos da organização com suporte à tomada de decisão orientada por dados.</p></div>
     `
   },
 };
