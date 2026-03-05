@@ -2198,7 +2198,7 @@ const sections = {
           <a href="#" data-category="bancoDados">Contabilidade</a>
           <a href="#" data-category="bigData">Custos</a>
           <a href="#" data-category="inteligenciaArtificial">Orçamento</a>
-          <a href="#" data-category="matematica">Faturamento</a>
+          <a href="#" data-category="powerBiFaturamento">Faturamento</a>
           <a href="#" data-category="dataStorytelling">Investimentos</a>
           
           <!-- Comercial & Marketing -->
