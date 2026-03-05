@@ -1505,6 +1505,59 @@ arquitetura: {
   },
 
 // 🔹 ===================================== Microsoft Power BI · Financeiro ================================== 🔹
+  powerBiFaturamento: {
+    title: "Recursos Humanos",
+    dataset: "/portfolio/projetos/microsoft-power-bi/recursos-humanos/recursos-humanos-dataset.js",
+    showViewModes: true,
+    content: `
+      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento Financeiro, organizados por conclusão cronológica decrescente.<br>
+                                        Os projetos apresentados abrangem análise de faturamento, volume de vendas, ticket médio, performance comercial, distribuição regional de receita e monitoramento estratégico de indicadores financeiros.</p></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div id="course-block" class="course-block hidden">
+          <div class="course-block-content"></div>
+
+          <div class="course-block-nav">
+          
+            <span id="first-course" class="course-nav-action" role="button">
+              ⏮ Primeiro
+            </span>
+          
+            <span id="prev-course" class="course-nav-action" role="button">
+              ◀ Anterior
+            </span>
+          
+            <span id="course-indicator" class="course-nav-indicator">
+              1 / 21
+            </span>
+          
+            <span id="next-course" class="course-nav-action" role="button">
+              Próximo ▶
+            </span>
+          
+            <span id="last-course" class="course-nav-action" role="button">
+              Último ⏭
+            </span>
+          
+          </div>
+      
+      </div>
+      
+      <div id="courses-flow" class="courses-flow hidden"></div>
+      
+      <div id="courses-container" class="courses-list hidden"></div>
+      
+      <div id="courses-grid" class="courses-grid hidden"></div>
+      
+      <hr class="decorative-line-cert">
+      
+      <div class="tech-subtitle-inf"><p>Os projetos financeiros consolidam uma base analítica voltada à gestão de receitas, acompanhamento de desempenho comercial e suporte à tomada de decisão orientada por dados.<br>
+                                        O domínio desses conceitos permite estruturar soluções que ampliam a visibilidade sobre resultados, identificam oportunidades de crescimento, otimizam estratégias de vendas e fortalecem a governança financeira das organizações.</p></div>
+    `
+  },
+
+// 🔹 ===================================== Microsoft Power BI · Financeiro ================================== 🔹
   powerBiFinanceiro: {
     title: "Financeiro",
     dataset: "/portfolio/projetos/microsoft-power-bi/financeiro/financeiro-dataset.js",
