@@ -2195,37 +2195,35 @@ const sections = {
       <div class="cert-links">
           <!--  Financeiro & Controladoria -->
           <a href="#" data-category="powerBiFinanceiro">Financeiro</a>
-          <a href="#" data-category="bancoDados">Contabilidade</a>
-          <a href="#" data-category="bigData">Custos</a>
-          <a href="#" data-category="inteligenciaArtificial">Orçamento</a>
+          <a href="#" data-category="#">Contabilidade</a>
+          <a href="#" data-category="#">Custos</a>
+          <a href="#" data-category="#">Orçamento</a>
           <a href="#" data-category="powerBiFaturamento">Faturamento</a>
-          <a href="#" data-category="dataStorytelling">Investimentos</a>
+          <a href="#" data-category="#">Investimentos</a>
           
           <!-- Comercial & Marketing -->
-          <a href="#" data-category="cloud">Comercial</a>
-          <a href="#" data-category="sistemasOperacionais">Marketing</a>
-          <a href="#" data-category="segurancaInformacao">Produto</a>
-          <a href="#" data-category="programacao">Satisfação de Colaboradores</a>
-          <a href="#" data-category="roboticProcessAutomation">Serviço de Atendimento ao Consumidor</a>
+          <a href="#" data-category="#">Marketing</a>
+          <a href="#" data-category="#">Produto</a>
+          <a href="#" data-category="#">Serviço de Atendimento ao Consumidor</a>
                           
           <!-- Operações & Cadeia de Suprimentos -->
-          <a href="#" data-category="gestaoProjetos">Produção</a>
+          <a href="#" data-category="#">Produção</a>
           <a href="#" data-category="powerBiLogistica">Logística</a>
-          <a href="#" data-category="gestaoTecnologia">Estoque</a>
-          <a href="#" data-category="gestaoOperacoes">Ativos</a>
-          <a href="#" data-category="gestaoQualidade">Quebra de Equipamentos</a>
+          <a href="#" data-category="#">Estoque</a>
+          <a href="#" data-category="#">Ativos</a>
+          <a href="#" data-category="#">Quebra de Equipamentos</a>
       
           <!-- Pessoas & Conformidade -->
           <a href="#" data-category="powerBiRecursosHumanos">Recursos Humanos</a>
-          <a href="#" data-category="design">Segurança do Trabalho</a>
-          <a href="#" data-category="design">Jurídico</a>
+          <a href="#" data-category="#">Segurança do Trabalho</a>
+          <a href="#" data-category="#">Jurídico</a>
       
           <!-- Qualidade & Governança de Dadps -->
-          <a href="#" data-category="autoconhecimento">Qualidade do Produto</a>
-          <a href="#" data-category="skills">Qualidade de Dados</a>
+          <a href="#" data-category="#">Qualidade do Produto</a>
+          <a href="#" data-category="#">Qualidade de Dados</a>
       
           <!-- Setoriais -->
-          <a href="#" data-category="idiomas">Acidentes em Rodovias</a>
+          <a href="#" data-category="#">Acidentes em Rodovias</a>
       </div>
     `
   },
