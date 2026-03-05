@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 1,
   
-    thumb: "/portfolio/projetos/microsoft-power-bi/financeiro/projetos/Performance de Vendas - Zentronix Electronics.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/Performance de Vendas - Zentronix Electronics.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
@@ -74,7 +74,7 @@ window.datasetCategoria = [
     nomeDuracao: "Duração: ",
     nomeStackTecnica: "Stack Técnica: ",
   
-    titulo: "Performance de Vendas — Zentronix Electronics",
+    titulo: "Performance de Vendas",
     periodo: "Mar 2022",
     duracao: "8 dias",
     stackTecnica: "Power BI | DAX | Modelagem Dimensional | Data Storytelling | Business Intelligence",
