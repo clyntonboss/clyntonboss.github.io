@@ -5402,10 +5402,8 @@ body.static-header .last-update {
    ========================================================= */
 
 .hidden {
-  visibility: hidden;
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
+  display: none;
+  /* Oculta completamente o elemento e libera espaço na página */
 }
 
 /* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
