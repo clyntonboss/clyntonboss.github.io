@@ -200,9 +200,6 @@ function renderBlocoCurso(index) {
     // Encerra se não existir container ou conteúdo
     if (!container || !content) return;
 
-    // Garante que o container esteja visível
-    container.classList.remove("hidden");
-
     // Seleciona o curso pelo índice
     const curso = datasetCategoria[index];
     if (!curso) return;
