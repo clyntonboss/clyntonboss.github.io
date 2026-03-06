@@ -51,6 +51,114 @@ window.datasetCategoria = [
   {
     id: 1,
   
+    thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/Performance de Vendas - Veloura Beauty.png",
+  
+    nomeInstituicao: "",
+    nomeCurso: "",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "",
+    nomeCodigo: "",
+    nomeVerificacao: "",
+    
+    instituicao: "",
+    curso: "",
+    cargaHoraria: "",
+    conclusaoISO: "",
+    dataConclusao: "",
+    codigo: "",
+    mostrarCopiar: false,
+    verificacao: "",
+  
+    nomeTitulo: "Título: ",
+    nomePeriodo: "Período: ",
+    nomeDuracao: "Duração: ",
+    nomeStackTecnica: "Stack Técnica: ",
+  
+    titulo: "Performance de Vendas",
+    periodo: "Abr 2022",
+    duracao: "20 dias",
+    stackTecnica: "Power BI | DAX | Modelagem Dimensional | Data Storytelling | Business Intelligence",
+
+    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiZGY5NTE1MTUtNWI2MS00YTFkLWEzOWItN2JmMWRmN2U2ODc4IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    
+    descricaoProjeto: `
+      <div class="decorative-line-projetos"></div>
+      
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Contexto do Problema</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                A Veloura Beauty buscava compreender melhor o desempenho de suas vendas em diferentes canais e regiões. Apesar da existência de dados transacionais, faltava uma visão analítica consolidada que permitisse acompanhar faturamento, volume de pedidos e comportamento de consumo dos produtos, dificultando a identificação de tendências de mercado e oportunidades de crescimento.
+            </div>
+        
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Abordagem Estratégica</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                Foi desenvolvido um dashboard analítico no Power BI com modelagem dimensional estruturada para consolidar indicadores estratégicos de vendas. A solução apresenta KPIs como Faturamento Total, Transações, Produtos Vendidos e Ticket Médio, permitindo analisar a evolução das vendas ao longo do tempo e identificar padrões de consumo entre os diferentes canais de comercialização.
+            </div>
+        
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Impactos e Resultados</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                O dashboard permite avaliar o desempenho comercial da Veloura Beauty de forma clara e dinâmica, destacando períodos de maior e menor faturamento, produtos com maior volume de vendas e comportamento das transações ao longo do tempo. Essas análises ajudam a identificar tendências de consumo e apoiar estratégias de marketing, reposição de estoque e expansão comercial.
+            </div>
+        
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Tecnologias Envolvidas</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                Power BI foi utilizado para construção das visualizações e organização da narrativa analítica do projeto. DAX foi aplicado no desenvolvimento de métricas como Faturamento, Transações, Ticket Médio e indicadores de participação percentual. A modelagem dimensional estruturou os dados de vendas, produtos e canais de venda, garantindo consistência e desempenho nas análises.
+            </div>
+        
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Conexão com Estratégia Comercial</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                A solução fortalece a tomada de decisão orientada por dados ao fornecer uma visão clara do desempenho comercial da Veloura Beauty. Com isso, torna-se possível identificar produtos de maior relevância, compreender variações de faturamento ao longo do tempo e apoiar decisões estratégicas relacionadas a campanhas, portfólio de produtos e crescimento do negócio.
+            </div>
+        
+          </div>
+      </div>
+    `
+  },
+
+  {
+    id: 1,
+  
     thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/Performance de Vendas - Zentronix Electronics.png",
   
     nomeInstituicao: "",
