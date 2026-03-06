@@ -138,6 +138,12 @@ function setViewMode(mode) {
 
 // Função para trocar o modo interno de visualização dos cursos
 function trocarModoInterno(mode) {
+    const blockContent = document.querySelector("#course-block .course-block-content");
+    if (blockContent) {
+        blockContent.style.height = "";
+        blockContent.style.overflow = "";
+    }
+    
     // Limpa todos os modos de visualização ativos
     limparTodosOsModos();
 
@@ -180,42 +186,6 @@ function trocarModoInterno(mode) {
     });
 }
 
-function gerarHTMLCurso(curso) {
-    return `
-        <img 
-            src="${curso.thumb}" 
-            alt="${curso.curso}"
-            class="cert-thumb cert-thumb-block"
-            onclick="abrirCertificado('${curso.thumb}')"
-        >
-        <div>
-            <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
-            <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
-            <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
-            <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
-            <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
-                ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
-            </p>
-            <p>
-                <strong>${curso.nomeVerificacao}</strong>
-                ${
-                    curso.verificacao === null
-                        ? `<span class="cert-no-verify">Indisponível</span>`
-                        : curso.verificacao?.url
-                            ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
-                            : ""
-                }
-            </p>
-            <p><strong>${curso.nomeTitulo}</strong>${curso.titulo}</p>
-            <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
-            <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
-            <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
-            <p>${curso.projetoInterativo}</p>
-            ${curso.descricaoProjeto}
-        </div>
-    `;
-}
-
 // ❎ ======= Renderização Block Mode ======= ❎
 
 // Função para renderizar um curso no modo 'bloco' (view block) pelo índice
@@ -245,27 +215,48 @@ function renderBlocoCurso(index) {
 
     // Usa requestAnimationFrame para garantir atualização visual
     requestAnimationFrame(() => {
-    
-        const jaTemConteudo = content.innerHTML.trim() !== "";
-    
-        // Se vier de lista ou grid (primeira renderização)
-        if (!jaTemConteudo) {
-            content.innerHTML = gerarHTMLCurso(curso);
-            inicializarAccordionsCurso('#course-block');
-            content.classList.add("is-visible");
-            return;
-        }
-    
-        const alturaAtual = content.offsetHeight;
+        const alturaAtual = content.getBoundingClientRect().height;
         content.style.height = alturaAtual + "px";
         content.style.overflow = "hidden";
-    
+
         content.classList.remove("is-visible");
 
         // Pequeno delay antes de atualizar o conteúdo
         setTimeout(() => {
             // Atualiza o HTML do bloco com os dados do curso
-            content.innerHTML = gerarHTMLCurso(curso);
+            content.innerHTML = `
+                <img 
+                    src="${curso.thumb}" 
+                    alt="${curso.curso}"
+                    class="cert-thumb cert-thumb-block"
+                    onclick="abrirCertificado('${curso.thumb}')"
+                >
+                <div>
+                    <p><strong>${curso.nomeInstituicao}</strong>${curso.instituicao}</p>
+                    <p><strong>${curso.nomeCurso}</strong>${curso.curso}</p>
+                    <p><strong>${curso.nomeCargaHoraria}</strong>${curso.cargaHoraria}</p>
+                    <p><strong>${curso.nomeDataConclusao}</strong>${curso.dataConclusao}</p>
+                    <p><strong>${curso.nomeCodigo}</strong>${curso.codigo}
+                        ${curso.mostrarCopiar ? `<button class="copiar-btn" aria-label="Copiar Código" onclick="copiarCodigo('${curso.codigo}', this)">📋</button>` : ""}
+                    </p>
+                    <p>
+                        <strong>${curso.nomeVerificacao}</strong>
+                        ${
+                            curso.verificacao === null
+                                ? `<span class="cert-no-verify">Indisponível</span>`
+                                : curso.verificacao?.url
+                                    ? `<a href="${curso.verificacao.url}" target="_blank" class="cert-link-verify">${curso.verificacao.texto}</a>`
+                                    : ""
+                        }
+                    </p>
+                    <p><strong>${curso.nomeTitulo}</strong>${curso.titulo}</p>
+                    <p><strong>${curso.nomePeriodo}</strong>${curso.periodo}</p>
+                    <p><strong>${curso.nomeDuracao}</strong>${curso.duracao}</p>
+                    <p><strong>${curso.nomeStackTecnica}</strong>${curso.stackTecnica}</p>
+                    <p>${curso.projetoInterativo}</p>
+                    ${curso.descricaoProjeto}
+                </div>
+            `;
 
             // Inicializa accordions dentro do bloco
             inicializarAccordionsCurso('#course-block');
