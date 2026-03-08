@@ -75,9 +75,9 @@ window.datasetCategoria = [
     nomeStackTecnica: "Stack Técnica: ",
   
     titulo: "Performance Logística",
-    periodo: "Jan 2022",
-    duracao: "16 dias",
-    stackTecnica: "Power BI | DAX | Modelagem Dimensional | Microsoft Excel | Figma",
+    periodo: "Mai 2022",
+    duracao: "20 dias",
+    stackTecnica: "Microsoft Power BI | DAX | Modelagem Dimensional | Microsoft Excel | Figma",
   
     projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMTdiMTFmMGQtZGZjNC00Mzk4LWI1MmQtMDQ1NzBlNTM3ZjlkIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
   
@@ -187,7 +187,7 @@ window.datasetCategoria = [
     titulo: "Dashboard de Gestão Logística",
     periodo: "Jan 2022",
     duracao: "16 dias",
-    stackTecnica: "Power BI | DAX | Modelagem Dimensional",
+    stackTecnica: "Microsoft Power BI | DAX | Modelagem Dimensional",
     projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
