@@ -49,6 +49,116 @@
 
 window.datasetCategoria = [
   {
+    id: 2,
+  
+    thumb: "/portfolio/projetos/microsoft-power-bi/logistica/projetos/Altaris Logistics - Performance Logística.png",
+  
+    nomeInstituicao: "",
+    nomeCurso: "",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "",
+    nomeCodigo: "",
+    nomeVerificacao: "",
+    
+    instituicao: "",
+    curso: "",
+    cargaHoraria: "",
+    conclusaoISO: "",
+    dataConclusao: "",
+    codigo: "",
+    mostrarCopiar: false,
+    verificacao: "",
+  
+    nomeTitulo: "Título: ",
+    nomePeriodo: "Período: ",
+    nomeDuracao: "Duração: ",
+    nomeStackTecnica: "Stack Técnica: ",
+  
+    titulo: "Performance Logística",
+    periodo: "Jan 2022",
+    duracao: "16 dias",
+    stackTecnica: "Power BI | DAX | Modelagem Dimensional | Microsoft Excel | Figma",
+  
+    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+  
+    descricaoProjeto: `
+      <div class="decorative-line-projetos"></div>
+      
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Contexto do Problema</span>
+          </div>
+          <div class="exp-details">
+  
+            <div class="tech-desc">
+                A Altaris Logistics buscava maior visibilidade sobre sua operação de entregas, especialmente em relação ao desempenho logístico, atrasos nas entregas, custos operacionais e índices de devolução. A ausência de uma visão integrada dificultava a identificação de gargalos e a tomada de decisões estratégicas baseadas em dados.
+            </div>
+  
+          </div>
+      </div>
+  
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Abordagem Estratégica</span>
+          </div>
+          <div class="exp-details">
+  
+            <div class="tech-desc">
+                Foi desenvolvido um dashboard executivo em Power BI estruturado em múltiplas camadas de análise. A capa apresenta indicadores de performance logística com o percentual de entregas realizadas no prazo e entregas em atraso. A visão geral consolida métricas estratégicas como faturamento total, gasto com entregas e percentual de lucro operacional.
+            </div>
+  
+          </div>
+      </div>
+  
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Estrutura Analítica do Dashboard</span>
+          </div>
+          <div class="exp-details">
+  
+            <div class="tech-desc">
+                A análise temporal foi construída com um gráfico de área que apresenta a evolução mensal do total de entregas, entregas no prazo e entregas atrasadas. Para análise geográfica, foi implementado um mapa interativo exibindo a distribuição das entregas por estado. As devoluções foram analisadas através de um gráfico de rosca com os principais motivos: desistência do cliente, mercadoria incorreta e erro na nota fiscal.
+                <br><br>
+                No painel lateral direito, indicadores percentuais destacam o desempenho das entregas no prazo e com atraso. Complementando essa análise, gráficos de barras verticais detalham os tipos de transporte utilizados — refrigerado, resfriado e seco — permitindo avaliar o impacto logístico em cada categoria.
+            </div>
+  
+          </div>
+      </div>
+  
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Tecnologias Envolvidas</span>
+          </div>
+          <div class="exp-details">
+  
+            <div class="tech-desc">
+                Power BI foi utilizado para construção do dashboard e storytelling de dados. DAX foi aplicado para cálculo de métricas como percentual de lucro, percentual de entregas no prazo e análise de atrasos. A modelagem dimensional organizou tabelas de entregas, regiões, transportes e devoluções. Microsoft Excel foi utilizado para preparação e estruturação inicial dos dados, enquanto Figma foi utilizado para planejamento visual e prototipação da interface do dashboard.
+            </div>
+  
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Conexão com Dados | Operação | Decisão</span>
+          </div>
+          <div class="exp-details">
+  
+            <div class="tech-desc">
+                A solução fornece uma visão estratégica e operacional da cadeia logística da Altaris Logistics, permitindo monitorar desempenho de entregas, custos operacionais e padrões de devolução. O dashboard fortalece a governança de dados da operação e possibilita decisões mais rápidas e assertivas para otimização da performance logística.
+            </div>
+  
+          </div>
+      </div>
+    `
+  },
+  
+  {
     id: 1,
   
     thumb: "/portfolio/projetos/microsoft-power-bi/logistica/projetos/Gestão Logística - TransFlow Logistics.png",
