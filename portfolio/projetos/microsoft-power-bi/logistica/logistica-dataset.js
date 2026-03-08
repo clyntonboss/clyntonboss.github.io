@@ -79,7 +79,7 @@ window.datasetCategoria = [
     duracao: "16 dias",
     stackTecnica: "Power BI | DAX | Modelagem Dimensional | Microsoft Excel | Figma",
   
-    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMTdiMTFmMGQtZGZjNC00Mzk4LWI1MmQtMDQ1NzBlNTM3ZjlkIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
   
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
