@@ -77,9 +77,15 @@ window.datasetCategoria = [
     titulo: "Performance Logística",
     periodo: "Mai 2022",
     duracao: "20 dias",
-    stackTecnica: "Microsoft Power BI | DAX | Modelagem Dimensional | Microsoft Excel | Figma",
+    stackTecnica: "| Microsoft Power BI | DAX | Modelagem Dimensional | Microsoft Excel | Figma |",
   
-    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMTdiMTFmMGQtZGZjNC00Mzk4LWI1MmQtMDQ1NzBlNTM3ZjlkIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    projetoInterativo: `<p>
+                        |
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMTdiMTFmMGQtZGZjNC00Mzk4LWI1MmQtMDQ1NzBlNTM3ZjlkIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        |
+                        <a href="https://github.com/clyntonboss/power-bi-logistica-altaris-logistics.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        |
+                        </p>`,
   
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
