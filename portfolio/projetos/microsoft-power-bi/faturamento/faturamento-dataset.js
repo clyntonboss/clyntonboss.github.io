@@ -185,9 +185,15 @@ window.datasetCategoria = [
     titulo: "Performance de Vendas",
     periodo: "Mar 2022",
     duracao: "8 dias",
-    stackTecnica: "Power BI | DAX | Modelagem Dimensional | Data Storytelling | Business Intelligence",
+    stackTecnica: "| Power BI | DAX | Modelagem Dimensional | Data Storytelling | Business Intelligence |",
   
-    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMWI3YTFhYzgtYTIwOS00ZDY5LWI0M2YtNGRiNzBhOGFlZGNjIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    projetoInterativo: `<p>
+                        |
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMWI3YTFhYzgtYTIwOS00ZDY5LWI0M2YtNGRiNzBhOGFlZGNjIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        |
+                        <a href="https://github.com/clyntonboss/power-bi-faturamento-zentronix-electronics.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        |
+                        </p>`,
   
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
