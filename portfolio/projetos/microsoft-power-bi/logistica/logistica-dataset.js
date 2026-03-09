@@ -187,8 +187,14 @@ window.datasetCategoria = [
     titulo: "Dashboard de Gestão Logística",
     periodo: "Jan 2022",
     duracao: "16 dias",
-    stackTecnica: "Microsoft Power BI | DAX | Modelagem Dimensional",
-    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    stackTecnica: "| Microsoft Power BI | DAX | Modelagem Dimensional |",
+    projetoInterativo: `<p>
+                        |
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        |
+                        <a href="https://github.com/clyntonboss/power-bi-logistica-transflow-logistics.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        |
+                        </p>`,
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
       
