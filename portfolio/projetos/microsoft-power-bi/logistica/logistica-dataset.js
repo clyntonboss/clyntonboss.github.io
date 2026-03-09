@@ -184,7 +184,7 @@ window.datasetCategoria = [
     nomeDuracao: "Duração: ",
     nomeStackTecnica: "Stack Técnica: ",
   
-    titulo: "Dashboard de Gestão Logística",
+    titulo: "Gestão Logística | Controle de Entregas e Devoluções",
     periodo: "Jan 2022",
     duracao: "16 dias",
     stackTecnica: "| Microsoft Power BI | DAX | Modelagem Dimensional |",
