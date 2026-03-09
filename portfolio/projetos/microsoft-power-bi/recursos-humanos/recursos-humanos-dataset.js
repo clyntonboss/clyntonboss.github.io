@@ -77,8 +77,14 @@ window.datasetCategoria = [
     titulo: "Pesquisa de Satisfação dos Colaboradores",
     periodo: "Fev 2022",
     duracao: "12 dias",
-    stackTecnica: "Power BI | DAX | Modelagem Dimensional | People Analytics",
-    projetoInterativo: `<a href="https://app.powerbi.com/view?r=eyJrIjoiNzZhNzE2YWEtZWNhMy00OGEzLTg0OTUtMzcyYmM3MGI2NGU2IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf">Projeto Interativo</a>`,
+    stackTecnica: "| Power BI | DAX | Modelagem Dimensional | People Analytics |",
+    projetoInterativo: `<p>
+                        |
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNzZhNzE2YWEtZWNhMy00OGEzLTg0OTUtMzcyYmM3MGI2NGU2IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        |
+                        <a href="https://github.com/clyntonboss/power-bi-recursos-humanos-nexora-group.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        |
+                        </p>`,
   
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
