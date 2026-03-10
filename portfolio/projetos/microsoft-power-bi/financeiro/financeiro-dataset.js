@@ -98,7 +98,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A gestão financeira pessoal frequentemente se torna complexa pela dispersão de informações entre diferentes fontes, dificultando a visualização clara de receitas, despesas, investimentos e compromissos financeiros. A ausência de um painel consolidado limita a capacidade de análise e planejamento estratégico das finanças.
+                A gestão financeira frequentemente se torna complexa pela dispersão de informações entre diferentes fontes, dificultando a visualização clara de receitas, despesas, investimentos e compromissos financeiros. A ausência de um painel consolidado limita a capacidade de análise e planejamento estratégico das finanças.
             </div>
         
           </div>
@@ -112,7 +112,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Foi desenvolvido o dashboard Aureon Finance, estruturado com uma capa interativa contendo menu lateral de navegação e suporte a modo Dark e Light para melhor experiência visual. A partir da capa, o usuário acessa o Centro de Controle Financeiro, que centraliza os principais indicadores financeiros e permite acompanhar o fluxo de receitas, despesas, empréstimos e investimentos em uma visão integrada.
+                Foi desenvolvido o dashboard Centro de Controle Financeiro, estruturado com uma capa interativa contendo menu lateral de navegação e suporte a modo Dark e Light para melhor experiência visual. A partir da capa, o usuário acessa o Centro de Controle Financeiro, que centraliza os principais indicadores financeiros e permite acompanhar o fluxo de receitas, despesas, empréstimos e investimentos em uma visão integrada.
             </div>
         
           </div>
@@ -154,7 +154,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                O Aureon Finance foi concebido como um hub de controle e planejamento financeiro orientado por dados. A solução permite acompanhar desempenho financeiro, identificar padrões de gastos e apoiar decisões mais conscientes sobre investimentos e metas financeiras, alinhando organização financeira com prosperidade sustentável.
+                O Centro de Controle Financeiro foi concebido como um hub de controle e planejamento financeiro orientado por dados. A solução permite acompanhar desempenho financeiro, identificar padrões de gastos e apoiar decisões mais conscientes sobre investimentos e metas financeiras, alinhando organização financeira com prosperidade sustentável.
             </div>
         
           </div>
