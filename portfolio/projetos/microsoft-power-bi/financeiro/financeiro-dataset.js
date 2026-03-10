@@ -79,7 +79,13 @@ window.datasetCategoria = [
     duracao: "15 dias",
     stackTecnica: "| Power BI | DAX | Linguagem M | Modelagem Dimensional | Financial Analytics |",
   
-    projetoInterativo: `<p>|<a href="https://app.powerbi.com/view?r=eyJrIjoiNDFjMzBkNzAtMmY3Zi00ZTdlLTkyMDktZmY3NzQ5Mzc5Y2NiIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>|</p>`,
+    projetoInterativo: `<p>
+                       |
+                       <a href="https://app.powerbi.com/view?r=eyJrIjoiNDFjMzBkNzAtMmY3Zi00ZTdlLTkyMDktZmY3NzQ5Mzc5Y2NiIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                       |
+                       <a href="https://github.com/clyntonboss/power-bi-financeiro-aureon-finance.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                       |
+                       </p>`,
   
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
