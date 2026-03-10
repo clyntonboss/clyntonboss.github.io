@@ -77,7 +77,7 @@ window.datasetCategoria = [
     titulo: "Performance Logística",
     periodo: "Mai 2022",
     duracao: "20 dias",
-    stackTecnica: "| Microsoft Power BI | DAX | Modelagem Dimensional | Microsoft Excel | Figma |",
+    stackTecnica: "| Power BI | DAX | Modelagem Dimensional | Excel | Figma |",
   
     projetoInterativo: `<p>
                         |
@@ -142,7 +142,7 @@ window.datasetCategoria = [
           <div class="exp-details">
   
             <div class="tech-desc">
-                Power BI foi utilizado para construção do dashboard e storytelling de dados. DAX foi aplicado para cálculo de métricas como percentual de lucro, percentual de entregas no prazo e análise de atrasos. A modelagem dimensional organizou tabelas de entregas, regiões, transportes e devoluções. Microsoft Excel foi utilizado para preparação e estruturação inicial dos dados, enquanto Figma foi utilizado para planejamento visual e prototipação da interface do dashboard.
+                Power BI foi utilizado para construção do dashboard e storytelling de dados. DAX foi aplicado para cálculo de métricas como percentual de lucro, percentual de entregas no prazo e análise de atrasos. A modelagem dimensional organizou tabelas de entregas, regiões, transportes e devoluções. Excel foi utilizado para preparação e estruturação inicial dos dados, enquanto Figma foi utilizado para planejamento visual e prototipação da interface do dashboard.
             </div>
   
           </div>
@@ -193,7 +193,7 @@ window.datasetCategoria = [
     titulo: "Gestão Logística | Controle de Entregas e Devoluções",
     periodo: "Jan 2022",
     duracao: "16 dias",
-    stackTecnica: "| Microsoft Power BI | DAX | Modelagem Dimensional |",
+    stackTecnica: "| Power BI | DAX | Modelagem Dimensional |",
     projetoInterativo: `<p>
                         |
                         <a href="https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
