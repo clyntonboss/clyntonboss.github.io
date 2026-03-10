@@ -79,7 +79,7 @@ window.datasetCategoria = [
     duracao: "15 dias",
     stackTecnica: "| Power BI | DAX | Linguagem M | Modelagem Dimensional | Financial Analytics |",
   
-    projetoInterativo: `<p>|<a href="https://app.powerbi.com/view?r=eyJrIjoiZjJjMDQ3YjEtZGQ0OC00MzE5LWE0ODktMzg5NDVkZTRhMGQwIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>|</p>`,
+    projetoInterativo: `<p>|<a href="https://app.powerbi.com/view?r=eyJrIjoiNDFjMzBkNzAtMmY3Zi00ZTdlLTkyMDktZmY3NzQ5Mzc5Y2NiIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>|</p>`,
   
     descricaoProjeto: `
       <div class="decorative-line-projetos"></div>
