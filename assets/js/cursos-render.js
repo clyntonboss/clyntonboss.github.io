@@ -186,8 +186,6 @@ function trocarModoInterno(mode) {
     });
 }
 
-// ❎ ======= Renderização Block Mode ======= ❎
-
 // Função para renderizar um curso no modo 'bloco' (view block) pelo índice
 function renderBlocoCurso(index) {
     // Salva o índice atual no localStorage para persistência
@@ -313,12 +311,6 @@ function renderBlocoCurso(index) {
     });
 }
 
-// ⛔ =============== The End =============== ⛔
-
-//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
-// ❎ ======= Renderização  Flow Mode ======= ❎
-
 // Função para renderizar os cursos no modo 'fluxo' (flow view)
 function renderFluxoCursos(cursos) {
     // Seleciona o container do modo fluxo
@@ -384,12 +376,6 @@ function renderFluxoCursos(cursos) {
     inicializarAccordionsCurso('#courses-flow');
 }
 
-// ⛔ =============== The End =============== ⛔
-
-//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
-// ❎ ======= Renderização  List Mode ======= ❎
-
 // Função para renderizar os cursos no modo 'lista' (list view)
 function renderListaCursos(cursos) {
     // Seleciona o container do modo lista
@@ -433,12 +419,6 @@ function renderListaCursos(cursos) {
     });
 }
 
-// ⛔ =============== The End =============== ⛔
-
-//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
-// ❎ ======= Renderização  Grid Mode ======= ❎
-
 // Função para renderizar os cursos no modo 'grid' (grade view)
 function renderGradeCursos(cursos) {
     // Logs para depuração (podem ser removidos em produção)
@@ -472,10 +452,6 @@ function renderGradeCursos(cursos) {
     });
 }
 
-// ⛔ =============== The End =============== ⛔
-
-// ❎ ========== Listener do Bloco ========== ❎
-
 // Listener global para navegação entre cursos no modo 'bloco'
 document.addEventListener("click", (event) => {
     // Detecta se o clique foi em algum botão de navegação
@@ -505,10 +481,6 @@ document.addEventListener("click", (event) => {
         renderBlocoCurso(datasetCategoria.length - 1);
     }
 });
-
-// ⛔ =============== The End =============== ⛔
-
-// ❎ ======== Limpeza Global do DOM ======== ❎
 
 // Função para limpar todos os modos de visualização de cursos
 function limparTodosOsModos() {
@@ -542,12 +514,6 @@ function limparTodosOsModos() {
     }
 }
 
-// ⛔ =============== The End =============== ⛔
-
-//🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
-// ❎ ===== Atualizar Estado dos Ícones ===== ❎
-
 // Função para atualizar o estado dos botões de visualização de cursos
 function atualizarBotoesDeVisualizacao(modoAtivo) {
     // Seleciona todos os botões de visualização
@@ -571,8 +537,6 @@ function atualizarBotoesDeVisualizacao(modoAtivo) {
         atualizarTooltipsViewMode(modoAtivo);
     }
 }
-
-// ⛔ =============== The End =============== ⛔
 
 // Listener para limpar dados de visualização de cursos antes de sair da página
 window.addEventListener("beforeunload", () => {
@@ -601,8 +565,6 @@ document.addEventListener("DOMContentLoaded", () => {
     iniciarCursosComSeguranca();
 });
 
-// ❎ ==== Alternar Modo de Visualização ==== ❎
-
 // Função para trocar o modo de visualização de cursos
 function trocarModo(mode) {
     // Se não for o modo 'bloco', rola a página para o topo instantaneamente
@@ -616,10 +578,6 @@ function trocarModo(mode) {
     // Chama a função que aplica o modo de visualização selecionado
     setViewMode(mode);
 }
-
-// ⛔ =============== The End =============== ⛔
-
-// ❎ ====== Abrir Curso no Block Mode ====== ❎
 
 // Listener global para abrir um curso em modo 'bloco' ao clicar em item de lista ou grid
 document.addEventListener("click", (event) => {
@@ -640,8 +598,6 @@ document.addEventListener("click", (event) => {
     setViewMode("block");
     renderBlocoCurso(index);
 });
-
-// ⛔ =============== The End =============== ⛔
 
 // Função para copiar o código do certificado para a área de transferência
 function copiarCodigo(codigo, btn) {
