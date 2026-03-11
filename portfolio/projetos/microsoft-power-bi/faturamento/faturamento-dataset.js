@@ -283,7 +283,7 @@ window.datasetCategoria = [
   {
     id: 1,
   
-    thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/Performance de Vendas - Zentronix Electronics.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/faturamento-zentronix-electronics.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
