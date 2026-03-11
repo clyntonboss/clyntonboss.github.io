@@ -32,8 +32,6 @@
     justify-content: space-between;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTILO BASE DOS CONTROLES DE MODO DE VISUALIZAÇÃO
    (.view-mode-controls)
@@ -68,8 +66,6 @@
   pointer-events: none;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO VISÍVEL DOS CONTROLES DE MODO DE VISUALIZAÇÃO
    (.view-mode-controls.is-visible)
@@ -101,8 +97,6 @@
   opacity: 1;
   pointer-events: auto;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTILO BASE DOS BOTÕES DE VISUALIZAÇÃO
@@ -143,8 +137,6 @@
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO DE HOVER DOS BOTÕES DE VISUALIZAÇÃO
    (.view-btn:hover)
@@ -175,8 +167,6 @@
     opacity: 1;
     transform: translateY(-1px);
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO ATIVO DOS BOTÕES DE VISUALIZAÇÃO
@@ -212,8 +202,6 @@
     transform: scale(1.2) translateX(0);
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO INTERATIVO DOS BOTÕES DE VISUALIZAÇÃO NÃO ATIVOS
    (.view-btn:not(.active))
@@ -241,8 +229,6 @@
 .view-btn:not(.active) {
   pointer-events: auto;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTILO BASE DO PSEUDO-ELEMENTO ::AFTER DOS BOTÕES DE VISUALIZAÇÃO
@@ -281,8 +267,6 @@
   transform: translateX(-50%) translateY(4px) scale(1);
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO BASE DO PSEUDO-ELEMENTO ::AFTER COM ARIA-LABEL
    (.view-btn[aria-label]::after)
@@ -318,8 +302,6 @@
   transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE HOVER DO TOOLTIP DO BOTÃO DE VISUALIZAÇÃO
    (.view-btn[aria-label]:hover::after)
@@ -350,8 +332,6 @@
 .view-btn[aria-label]:hover::after {
   animation: tooltip-life 4s ease forwards;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO DE VIDA DO TOOLTIP
