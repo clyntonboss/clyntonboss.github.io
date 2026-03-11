@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 1,
   
-    thumb: "/portfolio/projetos/microsoft-power-bi/financeiro/projetos/Aureon Finance - Centro de Controle Financeiro.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/financeiro/projetos/financeiro-aureon-finance.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
