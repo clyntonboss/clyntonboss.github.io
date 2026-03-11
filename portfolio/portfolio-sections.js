@@ -21,7 +21,7 @@
 
 const sections = {
 
-// 🔹 ================================================== Home ================================================ 🔹
+// ================================================== Home ================================================
 
   home: {
     pageTitle: "Rogério Clynton Ribeiro | Analista de Dados",
@@ -58,7 +58,7 @@ const sections = {
     `
   },
 
-// 🔹 =============================================== Portfólio ============================================== 🔹
+// =============================================== Portfólio ==============================================
 
   portfolio: {
     pageTitle: "Portfólio | Rogério Clynton Ribeiro",
@@ -100,7 +100,7 @@ const sections = {
     `
   },
 
-// 🔹 ================================================ Perfil ================================================ 🔹
+// ================================================ Perfil ================================================
 
   perfil: {
     pageTitle: "Perfil | Rogério Clynton Ribeiro",
@@ -138,7 +138,7 @@ const sections = {
     `
   },
 
-// 🔹 =============================================== Propósito ============================================== 🔹
+// =============================================== Propósito ==============================================
 
   proposito: {
     pageTitle: "Propósito | Rogério Clynton Ribeiro",
@@ -177,7 +177,7 @@ const sections = {
     `
   },
 
-// 🔹 ========================================== Formação Acadêmica ========================================== 🔹
+// ========================================== Formação Acadêmica ==========================================
 
   formacaoAcademica: {
     pageTitle: "Formação Acadêmica | Rogério Clynton Ribeiro",
@@ -283,7 +283,7 @@ const sections = {
     `
   },
 
-// 🔹 ========================================= Competências Técnicas ======================================== 🔹
+// ========================================= Competências Técnicas ========================================
 
   competenciasTecnicas: {
     pageTitle: "Competências Técnicas | Rogério Clynton Ribeiro",
@@ -1544,7 +1544,7 @@ const sections = {
     `
   },
 
-// 🔹 ===================================== Competências Comportamentais ===================================== 🔹
+// ===================================== Competências Comportamentais =====================================
 
   competenciasComportamentais: {
     pageTitle: "Competências Comportamentais | Rogério Clynton Ribeiro",
@@ -1660,7 +1660,7 @@ const sections = {
     `
   },
 
-// 🔹 ============================================== Trajetória ============================================== 🔹
+// ============================================== Trajetória ==============================================
 
   trajetoria: {
     pageTitle: "Trajetória | Rogério Clynton Ribeiro",
@@ -1710,7 +1710,7 @@ const sections = {
     `
   },
 
-// 🔹 ========================================= Formações Complementares ===================================== 🔹
+// ========================================= Formações Complementares =====================================
 
   formacoesComplementares: {
     pageTitle: "Formações Complementares | Rogério Clynton Ribeiro",
@@ -1767,7 +1767,7 @@ const sections = {
     `
   },
 
-// 🔹 ====================================== Certificações e Credenciais ===================================== 🔹
+// ====================================== Certificações e Credenciais =====================================
 
   certificacoesCredenciais: {
     pageTitle: "Certificações e Credenciais | Rogério Clynton Ribeiro",
@@ -2179,7 +2179,7 @@ const sections = {
     `
   },
 
-// 🔹 =============================================== Projetos 5.0 =========================================== 🔹
+// =============================================== Projetos 5.0 ===========================================
 
   projetos50: {
     pageTitle: "Projetos 5.0 | Rogério Clynton Ribeiro",
@@ -2228,7 +2228,7 @@ const sections = {
     `
   },
 
-// 🔹 ========================================= Impactos e Resultados ======================================== 🔹
+// ========================================= Impactos e Resultados ========================================
 
   impactosResultados: {
     pageTitle: "Impactos e Resultados | Rogério Clynton Ribeiro",
@@ -2334,7 +2334,7 @@ const sections = {
     `
   },
 
-// 🔹 ======================================== Produções Intelectuais ======================================== 🔹
+// ======================================== Produções Intelectuais ========================================
 
   producoesIntelectuais: {
     pageTitle: "Produções Intelectuais | Rogério Clynton Ribeiro",
