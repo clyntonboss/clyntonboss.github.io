@@ -20,7 +20,7 @@
 
 const categoriasFormacoesComplementares = {
 
-// 🔹 ============================================ Análise de Dados ========================================== 🔹
+// ============================================ Análise de Dados ==========================================
   analiseDados: {
     title: "Análise de Dados",
     dataset: "/portfolio/formacoes-complementares/analise-de-dados/analise-de-dados-dataset.js",
@@ -73,7 +73,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================= Banco de Dados =========================================== 🔹
+// ============================================= Banco de Dados ===========================================
   bancoDados: {
     title: "Banco de Dados",
     dataset: "/portfolio/formacoes-complementares/banco-de-dados/banco-de-dados-dataset.js",
@@ -126,7 +126,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ================================================ Big Data ============================================== 🔹
+// ================================================ Big Data ==============================================
   bigData: {
     title: "Big Data",
     dataset: "/portfolio/formacoes-complementares/big-data/big-data-dataset.js",
@@ -179,7 +179,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ========================================= Inteligência Artificial ====================================== 🔹
+// ========================================= Inteligência Artificial ======================================
   inteligenciaArtificial: {
     title: "Inteligência Artificial",
     dataset: "/portfolio/formacoes-complementares/inteligencia-artificial/inteligencia-artificial-dataset.js",
@@ -232,7 +232,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 =========================================== Matemática Aplicada ======================================== 🔹
+// =========================================== Matemática Aplicada ========================================
   matematica: {
     title: "Matemática Aplicada",
     dataset: "/portfolio/formacoes-complementares/matematica/matematica-dataset.js",
@@ -285,7 +285,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================ Data Storytelling ========================================= 🔹
+// ============================================ Data Storytelling =========================================
   dataStorytelling: {
     title: "Data Storytelling",
     dataset: "/portfolio/formacoes-complementares/data-storytelling/data-storytelling-dataset.js",
@@ -338,7 +338,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================ Cloud Computing =========================================== 🔹
+// ============================================ Cloud Computing ===========================================
   cloud: {
     title: "Cloud Computing",
     dataset: "/portfolio/formacoes-complementares/cloud-computing/cloud-computing-dataset.js",
@@ -391,7 +391,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ========================================== Sistemas Operacionais ======================================= 🔹
+// ========================================== Sistemas Operacionais =======================================
   sistemasOperacionais: {
     title: "Sistemas Operacionais",
     dataset: "/portfolio/formacoes-complementares/sistemas-operacionais/sistemas-operacionais-dataset.js",
@@ -444,7 +444,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ========================================= Segurança da Informação ====================================== 🔹
+// ========================================= Segurança da Informação ======================================
   segurancaInformacao: {
     title: "Segurança da Informação",
     dataset: "/portfolio/formacoes-complementares/seguranca-da-informacao/seguranca-da-informacao-dataset.js",
@@ -497,7 +497,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================== Programação ============================================= 🔹
+// ============================================== Programação =============================================
     programacao: {
     title: "Programação",
     dataset: "/portfolio/formacoes-complementares/programacao/programacao-dataset.js",
@@ -550,7 +550,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ======================================= Robotic Process Automation ===================================== 🔹
+// ======================================= Robotic Process Automation =====================================
   roboticProcessAutomation: {
     title: "Robotic Process Automation",
     dataset: "/portfolio/formacoes-complementares/robotic-process-automation/robotic-process-automation-dataset.js",
@@ -603,7 +603,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 =========================================== Gestão de Projetos ========================================= 🔹
+// =========================================== Gestão de Projetos =========================================
   gestaoProjetos: {
     title: "Gestão de Projetos",
     dataset: "/portfolio/formacoes-complementares/gestao-de-projetos/gestao-de-projetos-dataset.js",
@@ -656,7 +656,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================ Metodologia Ágil ========================================== 🔹
+// ============================================ Metodologia Ágil ==========================================
   metodologiaAgil: {
     title: "Metodologia Ágil",
     dataset: "/portfolio/formacoes-complementares/metodologia-agil/metodologia-agil-dataset.js",
@@ -709,7 +709,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ========================================== Gestão da Tecnologia ======================================== 🔹
+// ========================================== Gestão da Tecnologia ========================================
   gestaoTecnologia: {
     title: "Gestão da Tecnologia",
     dataset: "/portfolio/formacoes-complementares/gestao-da-tecnologia/gestao-da-tecnologia-dataset.js",
@@ -762,7 +762,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 =========================================== Gestão de Operações ======================================== 🔹
+// =========================================== Gestão de Operações ========================================
   gestaoOperacoes: {
     title: "Gestão de Operações",
     dataset: "/portfolio/formacoes-complementares/gestao-de-operacoes/gestao-de-operacoes-dataset.js",
@@ -815,7 +815,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 =========================================== Gestão da Qualidade ======================================== 🔹
+// =========================================== Gestão da Qualidade ========================================
   gestaoQualidade: {
     title: "Gestão da Qualidade",
     dataset: "/portfolio/formacoes-complementares/gestao-da-qualidade/gestao-da-qualidade-dataset.js",
@@ -868,7 +868,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================ Gestão de Pessoas ========================================= 🔹
+// ============================================ Gestão de Pessoas =========================================
   gestaoPessoas: {
     title: "Gestão de Pessoas",
     dataset: "/portfolio/formacoes-complementares/gestao-de-pessoas/gestao-de-pessoas-dataset.js",
@@ -921,7 +921,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================ Gestão de Negócios ======================================== 🔹
+// ============================================ Gestão de Negócios ========================================
   gestaoNegocios: {
     title: "Gestão de Negócios",
     dataset: "/portfolio/formacoes-complementares/gestao-de-negocios/gestao-de-negocios-dataset.js",
@@ -974,7 +974,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 =========================================== Gestão de Marketing ======================================== 🔹
+// =========================================== Gestão de Marketing ========================================
   gestaoMarketing: {
     title: "Gestão de Marketing",
     dataset: "/portfolio/formacoes-complementares/gestao-de-marketing/gestao-de-marketing-dataset.js",
@@ -1027,7 +1027,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================ Gestão Financeira ========================================= 🔹
+// ============================================ Gestão Financeira =========================================
   gestaoFinanceira: {
     title: "Gestão Financeira",
     dataset: "/portfolio/formacoes-complementares/gestao-financeira/gestao-financeira-dataset.js",
@@ -1080,7 +1080,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================ Gestão Logística ========================================== 🔹
+// ============================================ Gestão Logística ==========================================
   gestaoLogistica: {
     title: "Gestão Logística",
     dataset: "/portfolio/formacoes-complementares/gestao-logistica/gestao-logistica-dataset.js",
@@ -1133,7 +1133,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ================================================= Design =============================================== 🔹
+// ================================================= Design ===============================================
   design: {
     title: "Design",
     dataset: "/portfolio/formacoes-complementares/design/design-dataset.js",
@@ -1186,7 +1186,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ============================================ Autoconhecimento ========================================== 🔹
+// ============================================ Autoconhecimento ==========================================
   autoconhecimento: {
     title: "Autoconhecimento",
     dataset: "/portfolio/formacoes-complementares/autoconhecimento/autoconhecimento-dataset.js",
@@ -1239,7 +1239,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ========================================== Skills Profissionais ======================================== 🔹
+// ========================================== Skills Profissionais ========================================
   skills: {
     title: "Skills Profissionais",
     dataset: "/portfolio/formacoes-complementares/skills/skills-dataset.js",
@@ -1292,7 +1292,7 @@ const categoriasFormacoesComplementares = {
     `
   },
 
-// 🔹 ================================================ Idiomas =============================================== 🔹  
+// ================================================ Idiomas ===============================================  
 idiomas: {
     title: "Idiomas",
     dataset: "/portfolio/formacoes-complementares/idiomas/idiomas-dataset.js",
@@ -1345,7 +1345,7 @@ idiomas: {
     `
   },
 
-// 🔹 ============================================ Sustentabilidade ========================================== 🔹
+// ============================================ Sustentabilidade ==========================================
 sustentabilidade: {
     title: "Sustentabilidade",
     dataset: "/portfolio/formacoes-complementares/sustentabilidade/sustentabilidade-dataset.js",
@@ -1398,7 +1398,7 @@ sustentabilidade: {
     `
   },
 
-// 🔹 ============================================== Credenciais ============================================= 🔹
+// ============================================== Credenciais =============================================
 credly: {
     title: "Credly",
     dataset: "/portfolio/formacoes-complementares/credly/credly-dataset.js",
@@ -1451,7 +1451,7 @@ credly: {
     `
   },
 
-// 🔹 ============================================== Arquitetura ============================================= 🔹
+// ============================================== Arquitetura =============================================
 arquitetura: {
     title: "Arquitetura",
     dataset: "/portfolio/formacoes-complementares/arquitetura/arquitetura-dataset.js",
@@ -1504,7 +1504,7 @@ arquitetura: {
     `
   },
 
-// 🔹 ===================================== Microsoft Power BI · Faturamento ================================= 🔹
+// ===================================== Microsoft Power BI · Faturamento =================================
   powerBiFaturamento: {
     title: "Faturamento",
     dataset: "/portfolio/projetos/microsoft-power-bi/faturamento/faturamento-dataset.js",
@@ -1557,7 +1557,7 @@ arquitetura: {
     `
   },
 
-// 🔹 ===================================== Microsoft Power BI · Financeiro ================================== 🔹
+// ===================================== Microsoft Power BI · Financeiro ==================================
   powerBiFinanceiro: {
     title: "Financeiro",
     dataset: "/portfolio/projetos/microsoft-power-bi/financeiro/financeiro-dataset.js",
@@ -1610,7 +1610,7 @@ arquitetura: {
     `
   },
 
-// 🔹 ================================== Microsoft Power BI · Gestão Logística =============================== 🔹
+// ================================== Microsoft Power BI · Gestão Logística ===============================
   powerBiLogistica: {
     title: "Logística",
     dataset: "/portfolio/projetos/microsoft-power-bi/logistica/logistica-dataset.js",
@@ -1663,7 +1663,7 @@ arquitetura: {
     `
   },
 
-// 🔹 ================================== Microsoft Power BI · Recursos Humanos =============================== 🔹
+// ================================== Microsoft Power BI · Recursos Humanos ===============================
   powerBiRecursosHumanos: {
     title: "Recursos Humanos",
     dataset: "/portfolio/projetos/microsoft-power-bi/recursos-humanos/recursos-humanos-dataset.js",
