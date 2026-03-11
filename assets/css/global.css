@@ -15,8 +15,6 @@ html {
   font-size: 100%; /* Mantém a base tipográfica alinhada ao padrão do navegador */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    RESET GLOBAL DE ESPAÇAMENTOS E MODELO DE CAIXA
    ---------------------------------------------------------
@@ -42,8 +40,6 @@ html {
      Evita cálculos manuais e quebras inesperadas de layout.
   */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    CONFIGURAÇÃO GLOBAL DO CORPO DA PÁGINA (BODY)
@@ -127,8 +123,6 @@ body {
   */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    HEADER FIXO GLOBAL
    ---------------------------------------------------------
@@ -194,8 +188,6 @@ body {
   /* Sombra do header usando variável CSS, adiciona profundidade visual */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CONTÊINER DE CONTROLES DO HEADER
    ---------------------------------------------------------
@@ -219,8 +211,6 @@ body {
   gap: 32px;
   /* Define o espaço entre cada item do contêiner */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SEÇÃO ESQUERDA DO HEADER (.header-left)
@@ -258,8 +248,6 @@ body {
   /* Espaçamento entre os elementos internos. 0px significa que estão colados */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TEXTO DE ÚLTIMA ATUALIZAÇÃO NO HEADER ESQUERDO
    (.header-left .last-update)
@@ -290,8 +278,6 @@ body {
   line-height: 1.2;
   /* Altura da linha para leitura compacta e visual alinhado */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ELEMENTO DE ÚLTIMA ATUALIZAÇÃO VISUAL (.last-update)
@@ -334,8 +320,6 @@ body {
    */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE EXIBIÇÃO DO TEXTO DE ATUALIZAÇÃO
    (.last-update.visible)
@@ -357,8 +341,6 @@ body {
   transform: translateX(0);
   /* Move o elemento para a posição original, desfazendo o deslocamento inicial */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINKS DO HEADER DIREITO (.header-right a)
@@ -393,8 +375,6 @@ body {
   padding-bottom: 4px;
   /* Pequeno espaçamento interno inferior, útil para hover effects ou sublinhados animados */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PSEUDO-ELEMENTO DE DESTAQUE DO LINK (.header-right a::after)
@@ -435,8 +415,6 @@ body {
   /* Suaviza a expansão da barra quando a largura muda (ex: hover) */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER NOS LINKS DO HEADER DIREITO
    (.header-right a:hover)
@@ -461,8 +439,6 @@ body {
   /* Move o link levemente para cima, criando efeito de “elevação” */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EXPANSÃO DA BARRA DO LINK AO HOVER
    (.header-right a:hover::after)
@@ -484,8 +460,6 @@ body {
   width: 100%;
   /* Expande a barra de destaque para ocupar toda a largura do link */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    FOTO DO HEADER (.header-photo)
@@ -535,8 +509,6 @@ body {
   */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE EXIBIÇÃO DA FOTO DO HEADER
    (.header-photo.visible)
@@ -561,8 +533,6 @@ body {
   transform: translateX(0);
   /* Move a imagem para sua posição original, desfazendo o deslocamento inicial */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SEÇÃO DE NOME E DATA NO HEADER (.header-name-date)
@@ -591,8 +561,6 @@ body {
   /* Espaçamento vertical entre linhas, garantindo leitura compacta e alinhamento visual */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TEXTO DO HEADER (.header-text)
    ---------------------------------------------------------
@@ -615,8 +583,6 @@ body {
   flex-direction: column;
   /* Empilha os elementos verticalmente, criando hierarquia visual clara */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    NOME DO USUÁRIO NO HEADER (.header-name)
@@ -654,8 +620,6 @@ body {
   /* Suaviza a transição de visibilidade e posição quando a classe de ativação é adicionada */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE EXIBIÇÃO DO NOME DO HEADER
    (.header-name.visible)
@@ -679,8 +643,6 @@ body {
   transform: translateX(0);
   /* Move o nome para sua posição original, desfazendo o deslocamento inicial */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINK DENTRO DO NOME DO HEADER (.header-name a)
@@ -708,8 +670,6 @@ body {
   /* Herda a espessura da fonte do elemento pai */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER NOS LINKS DO NOME DO HEADER
    (.header-name a:hover)
@@ -733,8 +693,6 @@ body {
   color: inherit;
   /* Mantém a cor herdada do elemento pai, evitando mudanças visuais */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ÁREA PRINCIPAL DO SITE (MAIN)
@@ -766,8 +724,6 @@ main {
   /* Centraliza horizontalmente o conteúdo de texto ou inline dentro do main */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CONTÊINER CENTRALIZADO (.container)
    ---------------------------------------------------------
@@ -795,8 +751,6 @@ main {
   padding: 0 20px;
   /* Espaçamento interno lateral para evitar que o conteúdo encoste nas bordas da tela */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TÍTULO PRINCIPAL DAS SEÇÕES (.main-section h1)
@@ -849,8 +803,6 @@ main {
   /* Permite que elementos internos quebrem linha em telas menores */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ÍCONE DO TÍTULO (.title-icon)
    ---------------------------------------------------------
@@ -883,8 +835,6 @@ main {
   /* Suaviza alterações de posição e visibilidade ao interagir com o ícone */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER NO ÍCONE DO TÍTULO (.title-icon:hover)
    ---------------------------------------------------------
@@ -908,8 +858,6 @@ main {
   opacity: 1;
   /* Torna o ícone totalmente visível ao interagir */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    CONTÊINER DO TÍTULO (.main-section .title-wrapper)
@@ -938,8 +886,6 @@ main {
      filhos ou pseudo-elementos dentro do contêiner */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    PARÁGRAFOS DAS SEÇÕES PRINCIPAIS (.main-section p)
    ---------------------------------------------------------
@@ -962,8 +908,6 @@ main {
   color: var(--text-color);
   /* Define a cor do texto usando variável CSS para consistência com o tema */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    RODAPÉ FIXO DA PÁGINA (.footer)
@@ -1028,8 +972,6 @@ main {
   /* Sombra do footer para destaque visual */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINKS DO FOOTER (.footer a)
    ---------------------------------------------------------
@@ -1075,8 +1017,6 @@ main {
      ajudando na performance */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER NOS LINKS DO FOOTER (.footer a:hover)
    ---------------------------------------------------------
@@ -1097,8 +1037,6 @@ main {
   transform: scale(1.1);
   /* Aumenta o link em 10% ao passar o mouse, criando efeito de destaque */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ÍCONES DO FOOTER (.footer-icon)
@@ -1133,8 +1071,6 @@ main {
   transition: transform 0.5s ease, opacity 0.5s ease;
   /* Suaviza alterações de tamanho e visibilidade ao exibir o ícone */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SEÇÃO ESQUERDA DO FOOTER (.footer-left)
@@ -1181,8 +1117,6 @@ main {
   /* Cor do texto da seção esquerda, garantindo contraste com o fundo */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    PARÁGRAFOS NA SEÇÃO ESQUERDA DO FOOTER (.footer-left p)
    ---------------------------------------------------------
@@ -1217,8 +1151,6 @@ main {
   /* Suaviza a transição de posição e visibilidade ao animar */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    NOTA DE PRIVACIDADE (.privacy-note)
    ---------------------------------------------------------
@@ -1247,8 +1179,6 @@ main {
   /* Aplica itálico para diferenciar visualmente do conteúdo normal */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TEXTO PRINCIPAL DO FOOTER (.footer-main-text)
    ---------------------------------------------------------
@@ -1271,8 +1201,6 @@ main {
   color: #F8F8F8;
   /* Cor do texto garantindo contraste com o fundo */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO DE EXIBIÇÃO DOS PARÁGRAFOS DA SEÇÃO ESQUERDA
@@ -1299,8 +1227,6 @@ main {
   /* Torna o parágrafo totalmente visível */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE EXIBIÇÃO DOS ÍCONES DO FOOTER (.footer-icon.show)
    ---------------------------------------------------------
@@ -1323,8 +1249,6 @@ main {
   opacity: 1;
   /* Torna o ícone totalmente visível */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SEÇÃO DE INTRODUÇÃO (.intro-section)
@@ -1353,8 +1277,6 @@ main {
      - 60px no topo e inferior
      - 20px nas laterais */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    CONTÊINER INTERNO DA SEÇÃO DE INTRODUÇÃO (.intro-container)
@@ -1394,8 +1316,6 @@ main {
   margin: 0 auto;
   /* Centraliza horizontalmente o contêiner na tela */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    FOTO DE INTRODUÇÃO (.intro-photo)
@@ -1439,8 +1359,6 @@ main {
   /* Espaço entre elementos internos do contêiner */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    IMAGEM DA FOTO DE INTRODUÇÃO (.intro-photo img)
    ---------------------------------------------------------
@@ -1480,8 +1398,6 @@ main {
   box-shadow: var(--box-shadow-side-menu);
   /* Aplica sombra definida na variável CSS para destaque visual */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BOTÃO DE PROJETOS (.btn-projetos)
@@ -1537,8 +1453,6 @@ main {
   /* Atenção: escrito incorretamente, deve ser 'margin-bottom' */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER DO BOTÃO DE PROJETOS (.btn-projetos:hover)
    ---------------------------------------------------------
@@ -1562,8 +1476,6 @@ main {
   transform: scale(1.06);
   /* Aumenta o botão em 6% para criar efeito de destaque */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TEXTO DA SEÇÃO DE INTRODUÇÃO (.intro-text)
@@ -1603,8 +1515,6 @@ main {
   /* Tamanho da fonte do texto da introdução */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    PARÁGRAFOS DENTRO DO TEXTO DE INTRODUÇÃO (.intro-text p)
    ---------------------------------------------------------
@@ -1628,8 +1538,6 @@ main {
   /* Altura das linhas aumentada para melhorar a leitura e fluidez do texto */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TEXTO EM NEGRITO DENTRO DE INTRO-TEXT (.intro-text strong)
    ---------------------------------------------------------
@@ -1649,8 +1557,6 @@ main {
   color: var(--intro-text);
   /* Mantém a cor do texto em negrito consistente com o restante do texto */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LISTA DE INTRODUÇÃO (.intro-list)
@@ -1688,8 +1594,6 @@ main {
     /* Tamanho da fonte dos itens da lista */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ITENS DA LISTA DE INTRODUÇÃO (.intro-list li)
    ---------------------------------------------------------
@@ -1718,8 +1622,6 @@ main {
     /* Cor do texto do item da lista, consistente com a variável CSS */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    MARCADORES DOS ITENS DA LISTA DE INTRODUÇÃO (.intro-list li::marker)
    ---------------------------------------------------------
@@ -1738,8 +1640,6 @@ main {
     color: var(--curriculo-list);
     /* Define a cor do marcador da lista usando a variável CSS */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ITENS COM EFEITO FADE-IN (.fade-item)
@@ -1769,8 +1669,6 @@ main {
   /* Suaviza alterações de opacidade e posição ao aparecer */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE EXIBIÇÃO DOS ITENS COM FADE-IN (.fade-item.visible)
    ---------------------------------------------------------
@@ -1793,8 +1691,6 @@ main {
   transform: translateY(0);
   /* Move o elemento para sua posição original, desfazendo o deslocamento inicial */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SEÇÃO COM CABEÇALHO FIXO (.fixed-header-section)
@@ -1836,8 +1732,6 @@ main {
   /* Ativa layout flex interno para organizar elementos horizontalmente */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO ATIVO DA SEÇÃO FIXA DO CABEÇALHO
    (.fixed-header-section.is-active)
@@ -1865,8 +1759,6 @@ main {
   /* Permite interações do usuário com elementos dentro da seção */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CONTÊINER DA SEÇÃO FIXA DO CABEÇALHO (.fixed-header-container)
    ---------------------------------------------------------
@@ -1889,8 +1781,6 @@ main {
   width: 100%;
   /* Faz o contêiner ocupar toda a largura disponível do elemento pai */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TÍTULO H1 DA SEÇÃO FIXA DO CABEÇALHO
@@ -1936,8 +1826,6 @@ main {
   /* Remove margem padrão do h1 para alinhamento preciso */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINHA DECORATIVA NA SEÇÃO FIXA DO CABEÇALHO
    (.fixed-header-section .decorative-line)
@@ -1974,8 +1862,6 @@ main {
   margin: 8px 0 0 0;
   /* Margem superior de 8px; margens direita, inferior e esquerda zeradas */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    MENU LATERAL (.side-menu)
@@ -2044,8 +1930,6 @@ main {
   /* Espaçamento entre elementos internos do menu */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LISTA DO MENU LATERAL (.side-menu ul)
    ---------------------------------------------------------
@@ -2083,8 +1967,6 @@ main {
   /* Faz a lista ocupar toda a altura do contêiner pai */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ITENS DA LISTA DO MENU LATERAL (.side-menu li)
    ---------------------------------------------------------
@@ -2103,8 +1985,6 @@ main {
   margin: 0;
   /* Remove qualquer margem padrão do item da lista */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINKS DO MENU LATERAL (.side-menu a)
@@ -2168,8 +2048,6 @@ main {
   /* Espaço inferior entre links */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER NOS LINKS DO MENU LATERAL (.side-menu a:hover)
    ---------------------------------------------------------
@@ -2202,8 +2080,6 @@ main {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   /* Adiciona sombra para criar efeito de profundidade e destaque */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINK ATIVO DO MENU LATERAL (.side-menu a.active)
@@ -2241,8 +2117,6 @@ main {
   /* Remove qualquer deslocamento aplicado em hover ou animações */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINK ATIVO DO MENU LATERAL AO PASSAR O MOUSE
    (.side-menu a.active:hover)
@@ -2275,8 +2149,6 @@ main {
   transform: none;
   /* Remove qualquer deslocamento ou animação de hover */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    CONTÊINER DO CURRÍCULO (.curriculo-container)
@@ -2337,8 +2209,6 @@ main {
   padding-top: 0;
   /* Remove padding superior inicial */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BLOCO DE TEXTO DO CURRÍCULO (.curriculo-text)
@@ -2404,8 +2274,6 @@ main {
   /* Espaçamento interno superior para separar do topo */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TEXTO NEGRITO DENTRO DO BLOCO DE CURRÍCULO
    (.curriculo-text strong)
@@ -2427,8 +2295,6 @@ main {
   color: var(--curriculo-text-strong);
   /* Define cor especial para textos em negrito dentro do currículo */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    OCULTAÇÃO DA BARRA DE ROLAGEM NO WEBKIT
@@ -2452,8 +2318,6 @@ main {
   display: none;
   /* Oculta a barra de rolagem em navegadores WebKit */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PARÁGRAFOS DENTRO DO BLOCO DE CURRÍCULO
@@ -2484,8 +2348,6 @@ main {
   /* Margem superior e lateral zero, margem inferior de 16px para separar parágrafos */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    DIVS DIRETAS DENTRO DO BLOCO DE CURRÍCULO
    (.curriculo-text > div)
@@ -2515,8 +2377,6 @@ main {
   margin: 0;
   /* Remove qualquer margem padrão do navegador */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LISTAS DO CURRÍCULO (.curriculo-list)
@@ -2560,8 +2420,6 @@ main {
     /* Altura da linha para melhor leitura e espaçamento entre itens */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ITENS DA LISTA DO CURRÍCULO (.curriculo-list li)
    ---------------------------------------------------------
@@ -2581,8 +2439,6 @@ main {
     color: var(--curriculo-list);
     /* Define cor específica para itens da lista dentro do currículo */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINK ATIVO NO HEADER DIREITO (.header-right a.active)
@@ -2618,8 +2474,6 @@ main {
   /* Suaviza mudanças de cor ou sombra caso ocorram via JS ou hover */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    BLOCO DE EXPERIÊNCIA (.experience)
    ---------------------------------------------------------
@@ -2643,8 +2497,6 @@ main {
   /* Espaçamento interno vertical (topo e base) */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    BLOCO DE EXPERIÊNCIA COMPACTA (.experience--compact)
    ---------------------------------------------------------
@@ -2665,8 +2517,6 @@ main {
    /* Remove a borda inferior para uma aparência mais compacta */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    BLOCO DE INFORMAÇÕES DA EXPERIÊNCIA (.experience--inf)
    ---------------------------------------------------------
@@ -2686,8 +2536,6 @@ main {
    margin-left: 12px;
    /* Aplica recuo à esquerda para conteúdo interno da experiência */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    CABEÇALHO DO BLOCO DE EXPERIÊNCIA (.exp-header)
@@ -2721,8 +2569,6 @@ main {
   /* Indica que o header é clicável */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CABEÇALHO COMPACTO DO BLOCO DE EXPERIÊNCIA
    (.exp-header--compact)
@@ -2749,8 +2595,6 @@ main {
   width: fit-content;
   /* Ajusta a largura do header ao conteúdo interno */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    CABEÇALHO DO BLOCO DE EXPERIÊNCIA COMPACTA
@@ -2785,8 +2629,6 @@ main {
    gap: 8px;
    /* Espaçamento uniforme entre elementos internos do header */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PERÍODO DA EXPERIÊNCIA (.exp-period)
@@ -2826,8 +2668,6 @@ main {
   /* Suaviza qualquer mudança de cor do período */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CARGO OU FUNÇÃO DA EXPERIÊNCIA (.exp-role)
    ---------------------------------------------------------
@@ -2857,8 +2697,6 @@ main {
   color: var(--exp-role);
   /* Cor específica para o cargo ou função dentro do bloco de experiência */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BOTÃO DE EXPANSÃO/TOGGLE DA EXPERIÊNCIA (.exp-toggle)
@@ -2913,8 +2751,6 @@ main {
   /* Suaviza animações de transformação, como rotação */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    BOTÃO DE TOGGLE COMPACTO DA EXPERIÊNCIA (.exp-toggle--compact)
    ---------------------------------------------------------
@@ -2935,8 +2771,6 @@ main {
   margin-left: 0;
   /* Remove o espaçamento à esquerda para compactar o botão no layout */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    DETALHES DA EXPERIÊNCIA (.exp-details)
@@ -2983,8 +2817,6 @@ main {
   /* Altura da linha para manter o texto legível e compacto */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TÍTULOS H4 NOS DETALHES DE EXPERIÊNCIA (.exp-details h4)
    ---------------------------------------------------------
@@ -3016,8 +2848,6 @@ main {
    color: var(--exp-details-h4);
    /* Cor definida para títulos H4 dentro dos detalhes */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PARÁGRAFOS NOS DETALHES DE EXPERIÊNCIA (.exp-details p)
@@ -3051,8 +2881,6 @@ main {
    /* Cor do texto definida para os detalhes da experiência */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINKS NOS DETALHES DE EXPERIÊNCIA (.exp-details a)
    ---------------------------------------------------------
@@ -3073,8 +2901,6 @@ main {
    margin: 8px 0;
    /* Espaçamento vertical acima e abaixo de cada link nos detalhes */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINKS DE ARTIGOS NOS DETALHES DE EXPERIÊNCIA
@@ -3097,8 +2923,6 @@ main {
    margin: 0 8px;
    /* Espaçamento horizontal entre links de artigos nos detalhes */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINK DE ARTIGO DESTAQUE NOS DETALHES DE EXPERIÊNCIA
@@ -3123,8 +2947,6 @@ main {
    /* Recuo à esquerda para destacar visualmente o link */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    IMAGENS NOS DETALHES DE EXPERIÊNCIA (.exp-details img)
    ---------------------------------------------------------
@@ -3145,8 +2967,6 @@ main {
   display: block;
   /* Garante que a imagem seja exibida como bloco, eliminando gaps verticais */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    DETALHES DE EXPERIÊNCIA ABERTOS (.exp-details.open)
@@ -3174,8 +2994,6 @@ main {
   /* Torna o conteúdo visível ao usuário */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TOGGLE ROTACIONADO QUANDO DETALHES ABERTOS
    (.exp-header.open .exp-toggle)
@@ -3199,8 +3017,6 @@ main {
   /* Gira o botão de toggle 90° quando os detalhes da experiência estão abertos */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    DETALHES DE EXPERIÊNCIA ATIVA (.experience.active .exp-details)
    ---------------------------------------------------------
@@ -3223,8 +3039,6 @@ main {
   overflow: visible;
   /* Permite que o conteúdo interno do bloco de detalhes apareça fora do container, se necessário */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTILO GLOBAL PARA HTML E BODY
@@ -3261,8 +3075,6 @@ html, body {
   /* Bloqueia a rolagem padrão da página */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    WRAPPER DE SCROLL VERTICAL (.scroll-wrapper)
    ---------------------------------------------------------
@@ -3296,8 +3108,6 @@ html, body {
   /* Oculta a barra de rolagem no IE e Edge */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESCONDER BARRA DE ROLAGEM NO WEBKIT
    (.scroll-wrapper::-webkit-scrollbar)
@@ -3319,8 +3129,6 @@ html, body {
   display: none;
   /* Oculta a barra de rolagem nativa no Chrome, Safari e Edge Chromium */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BLOQUEIO DE SELEÇÃO DE TEXTO NO BODY
@@ -3354,8 +3162,6 @@ body {
   -ms-user-select: none;
   /* Bloqueia seleção em Internet Explorer e Edge Legacy */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    MINIATURAS DE CERTIFICADOS (.cert-thumb)
@@ -3403,8 +3209,6 @@ body {
     /* Suaviza transformações visuais ao interagir com a miniatura */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER PARA MINIATURAS DE CERTIFICADOS
    (.cert-thumb:hover)
@@ -3431,8 +3235,6 @@ body {
     /* Adiciona sombra para criar profundidade e destaque visual */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    MARGEM PARA TEXTO DE CERTIFICADOS (.cert-text-margin)
    ---------------------------------------------------------
@@ -3452,8 +3254,6 @@ body {
     margin-left: 16px;
     /* Espaçamento à esquerda para separar o texto da miniatura */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BLOCO DE MINIATURAS DE CERTIFICADOS (.cert-thumb-block)
@@ -3477,8 +3277,6 @@ body {
     /* Espaçamento vertical e horizontal entre miniaturas */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    MINIATURAS DE CERTIFICADOS COMPACTAS (.cert-thumb--compact)
    ---------------------------------------------------------
@@ -3501,8 +3299,6 @@ body {
     /* Pequeno espaçamento horizontal entre miniaturas compactas */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    MINIATURAS DE CERTIFICADOS EM ACORDION (.cert-thumb--accordion)
    ---------------------------------------------------------
@@ -3524,8 +3320,6 @@ body {
     margin: 20px 8px;
     /* Espaçamento vertical e horizontal para miniaturas no accordion */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SEÇÃO DE CATEGORIAS DE CERTIFICADOS (.cert-categories)
@@ -3554,8 +3348,6 @@ body {
     padding: 16px 0;
     /* Espaçamento interno vertical entre categorias */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINKS DE CERTIFICADOS EM GRID (.cert-links)
@@ -3591,8 +3383,6 @@ body {
     margin-top: 8px;
     /* Espaçamento acima da grade para separar de elementos anteriores */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTILO DOS LINKS DE CERTIFICADOS (.cert-links a)
@@ -3637,8 +3427,6 @@ body {
     /* Faz o link ocupar apenas o espaço necessário ao conteúdo */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER PARA LINKS DE CERTIFICADOS
    (.cert-links a:hover)
@@ -3668,8 +3456,6 @@ body {
     text-shadow: var(--box-shadow-link-cert);
     /* Sombra sutil no texto para maior profundidade visual */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINK DE VERIFICAÇÃO DE CERTIFICADO (.cert-link-verify)
@@ -3706,8 +3492,6 @@ body {
     /* Suaviza mudanças de opacidade em interações ou hover */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO HOVER PARA LINK DE VERIFICAÇÃO DE CERTIFICADO
    (.cert-link-verify:hover)
@@ -3730,8 +3514,6 @@ body {
     text-shadow: var(--box-shadow-link-cert);
     /* Aplica sombra ao texto para destaque visual no hover */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINK DE CERTIFICADO NÃO VERIFICADO (.cert-no-verify)
@@ -3762,8 +3544,6 @@ body {
     /* Mantém cor consistente com a paleta de links de certificados */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINKS DE CERTIFICADOS COMPACTOS (.cert-links--compact)
    ---------------------------------------------------------
@@ -3785,8 +3565,6 @@ body {
     margin-left: 0;
     /* Remove margem esquerda para alinhamento em layouts compactos */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    AJUSTE ESPECÍFICO DE CATEGORIAS DE CERTIFICADOS NO CURRÍCULO
@@ -3814,8 +3592,6 @@ body {
     padding-top: 0 !important;
     /* Remove espaçamento interno superior, mantendo layout compacto */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADOS FIXOS PARA HEADER EM BODY STATIC
@@ -3851,8 +3627,6 @@ body.static-header .last-update {
     transition: none !important;
     /* Remove qualquer transição ou animação */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    FRASE DE ASSINATURA (.signature-phrase)
@@ -3906,8 +3680,6 @@ body.static-header .last-update {
     /* Espaçamento entre linhas para legibilidade */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO DE ENTRADA PARA FRASE DE ASSINATURA
    (.signature-phrase.visible)
@@ -3934,8 +3706,6 @@ body.static-header .last-update {
     transform: translateY(0);
     /* Remove deslocamento vertical inicial, mostrando a posição final */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINHA DECORATIVA PARA CERTIFICADOS (.decorative-line-cert)
@@ -3981,8 +3751,6 @@ body.static-header .last-update {
     /* Gradiente que cria efeito suave nas extremidades da linha */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINHA DECORATIVA SUPERIOR (.decorative-line-sup)
    ---------------------------------------------------------
@@ -4005,8 +3773,6 @@ body.static-header .last-update {
     margin-top: 16px;
     /* Espaçamento vertical acima da linha decorativa */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    DIVISOR DE ITENS DO MENU (.menu-divider-item)
@@ -4034,8 +3800,6 @@ body.static-header .last-update {
     margin: 8px 0;
     /* Espaçamento vertical entre itens do menu */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LINHA DECORATIVA PARA MENU (.decorative-line-menu)
@@ -4080,8 +3844,6 @@ body.static-header .last-update {
     /* Gradiente sutil da esquerda para a direita */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINHA DECORATIVA PARA PROJETOS (.decorative-line-projetos)
    ---------------------------------------------------------
@@ -4123,8 +3885,6 @@ body.static-header .last-update {
     );
     /* Gradiente sutil da esquerda para a direita */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BOTÕES DE TROCA DE TEMA (#theme-toggle-home, #theme-toggle-portfolio)
@@ -4168,8 +3928,6 @@ body.static-header .last-update {
     /* Anima suavemente mudanças de cor e transformação */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    HOVER PARA BOTÕES DE TROCA DE TEMA
    (#theme-toggle-home:hover, #theme-toggle-portfolio:hover)
@@ -4193,8 +3951,6 @@ body.static-header .last-update {
     color: var(--accent-color);
     /* Destaca o botão com a cor principal ao passar o mouse */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ÍCONES DE TEMAS INICIAIS (#theme-icon-home, #theme-icon-portfolio)
@@ -4227,8 +3983,6 @@ body.static-header .last-update {
     /* Define transição suave de opacidade e escala */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ÍCONES DE TEMAS VISÍVEIS APÓS CARREGAMENTO
    (#theme-toggle-home.loaded #theme-icon-home,
@@ -4258,8 +4012,6 @@ body.static-header .last-update {
     transform: scale(1);
     /* Restaura tamanho original, removendo escala inicial */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SUBTÍTULO PARA TECNOLOGIAS (.tech-subtitle-sup)
@@ -4296,8 +4048,6 @@ body.static-header .last-update {
     line-height: 1.4;
     /* Legibilidade e espaçamento entre linhas */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PARÁGRAFOS DENTRO DE SUBTÍTULOS DE TECNOLOGIAS
@@ -4336,8 +4086,6 @@ body.static-header .last-update {
     /* Legibilidade e espaçamento entre linhas */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    SUBTÍTULO PARA TECNOLOGIAS (.tech-subtitle)
    ---------------------------------------------------------
@@ -4372,8 +4120,6 @@ body.static-header .last-update {
     line-height: 1.4;
     /* Legibilidade e espaçamento entre linhas */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PARÁGRAFOS DENTRO DE SUBTÍTULOS DE TECNOLOGIAS
@@ -4412,8 +4158,6 @@ body.static-header .last-update {
     /* Legibilidade e espaçamento entre linhas */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    SUBTÍTULO INFERIOR PARA TECNOLOGIAS (.tech-subtitle-inf)
    ---------------------------------------------------------
@@ -4449,8 +4193,6 @@ body.static-header .last-update {
     line-height: 1.4;
     /* Legibilidade e espaçamento entre linhas */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PARÁGRAFOS DENTRO DE SUBTÍTULOS INFERIORES DE TECNOLOGIAS
@@ -4489,8 +4231,6 @@ body.static-header .last-update {
     /* Legibilidade e espaçamento entre linhas */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TÍTULO DE TECNOLOGIAS (.tech-title)
    ---------------------------------------------------------
@@ -4526,8 +4266,6 @@ body.static-header .last-update {
     /* Cor consistente com tema de tecnologias */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    PARÁGRAFOS DENTRO DE TÍTULOS DE TECNOLOGIAS (.tech-title p)
    ---------------------------------------------------------
@@ -4560,8 +4298,6 @@ body.static-header .last-update {
     color: var(--tech-title);
     /* Cor consistente com o título da tecnologia */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    DESCRIÇÃO DE TECNOLOGIAS (.tech-desc)
@@ -4598,8 +4334,6 @@ body.static-header .last-update {
     color: var(--tech-desc);
     /* Cor consistente com tema de descrições de tecnologias */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    LISTA DE EXPERIÊNCIAS (.exp-list)
@@ -4644,8 +4378,6 @@ body.static-header .last-update {
     /* Suaviza ligeiramente a presença do texto */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ITENS DA LISTA DE EXPERIÊNCIAS (.exp-list li)
    ---------------------------------------------------------
@@ -4664,8 +4396,6 @@ body.static-header .last-update {
     margin-bottom: 8px;
     /* Espaçamento abaixo de cada item da lista */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SEÇÃO DE PROJETOS (.project-section)
@@ -4686,8 +4416,6 @@ body.static-header .last-update {
     margin-bottom: 12px;
     /* Espaçamento abaixo da seção de projeto */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SUMMARY DE PROJETOS (.project-section summary)
@@ -4737,8 +4465,6 @@ body.static-header .last-update {
     /* Espaçamento interno à esquerda */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    REMOÇÃO DO MARCADOR PADRÃO DO SUMMARY
    (.project-section summary::-webkit-details-marker)
@@ -4759,8 +4485,6 @@ body.static-header .last-update {
     display: none;
     /* Oculta o marcador padrão de <summary> */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ÍCONE PERSONALIZADO ANTES DO SUMMARY
@@ -4803,8 +4527,6 @@ body.static-header .last-update {
     /* Animação suave para girar a seta ao expandir/colapsar */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ROTAÇÃO DO ÍCONE QUANDO O SUMMARY ESTÁ ABERTO
    (.project-section[open] summary::before)
@@ -4827,8 +4549,6 @@ body.static-header .last-update {
     transform: rotate(90deg);
     /* Gira a seta 90° quando a seção está aberta */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PARÁGRAFOS DIRETOS DENTRO DE PROJECT SECTION
@@ -4869,8 +4589,6 @@ body.static-header .last-update {
     /* Animação suave de entrada do parágrafo */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CONTEÚDO DE DIVULGAÇÃO EM PROJECT SECTION
    (.project-section .disclosure-content)
@@ -4892,8 +4610,6 @@ body.static-header .last-update {
     opacity: 0;
     /* Mantém o conteúdo inicialmente invisível */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO DE CONTEÚDO EXPANSÍVEL EM PROJECT SECTION
@@ -4919,8 +4635,6 @@ body.static-header .last-update {
     animation: fadeInDisclosure 0.8s ease forwards;
     /* Animação de entrada do conteúdo quando a seção é aberta */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO FADE-IN PARA CONTEÚDO DE PROJECT SECTION
@@ -4960,8 +4674,6 @@ body.static-header .last-update {
     }
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TRANSIÇÃO DE CONTEÚDO EXPANSÍVEL (.disclosure-content)
    ---------------------------------------------------------
@@ -4990,8 +4702,6 @@ body.static-header .last-update {
                 opacity 0.4s ease;
     /* Transição suave de altura e opacidade */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TEXTO DENTRO DE SUMMARY (.summary-text)
@@ -5022,8 +4732,6 @@ body.static-header .last-update {
   /* Tamanho da fonte legível e uniforme */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ÍCONE DENTRO DE SUMMARY (.summary-icon)
    ---------------------------------------------------------
@@ -5052,8 +4760,6 @@ body.static-header .last-update {
   /* Tamanho uniforme e proporcional ao texto */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LISTA DE CURSOS (.courses-list)
    ---------------------------------------------------------
@@ -5076,8 +4782,6 @@ body.static-header .last-update {
   flex-direction: column;
   /* Organiza os itens verticalmente */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ITEM DA LISTA DE CURSOS (.course-list-item)
@@ -5127,8 +4831,6 @@ body.static-header .last-update {
   /* Transição suave ao alterar cores */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    HOVER NOS ITENS DE CURSOS (.course-list-item:hover)
    ---------------------------------------------------------
@@ -5155,8 +4857,6 @@ body.static-header .last-update {
   /* Texto claro para contraste com o fundo */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    NOME DO CURSO (.course-name)
    ---------------------------------------------------------
@@ -5181,8 +4881,6 @@ body.static-header .last-update {
   font-size: 16px;
   /* Tamanho de fonte legível e uniforme */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    DATA DO CURSO (.course-date)
@@ -5209,8 +4907,6 @@ body.static-header .last-update {
   /* Mantém tamanho consistente com o título do curso */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    PRIMEIRO ITEM DA LISTA DE CURSOS (.course-list-item.first)
    ---------------------------------------------------------
@@ -5232,8 +4928,6 @@ body.static-header .last-update {
   /* Espaçamento extra acima do primeiro item da lista */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ÚLTIMO ITEM DA LISTA DE CURSOS (.course-list-item.last)
    ---------------------------------------------------------
@@ -5254,8 +4948,6 @@ body.static-header .last-update {
   margin-bottom: 12px;
   /* Espaçamento extra abaixo do último item da lista */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    GRID DE CURSOS (.courses-grid)
@@ -5287,8 +4979,6 @@ body.static-header .last-update {
   gap: 16px;
   /* Espaçamento uniforme entre os itens da grid */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ITEM DA GRID DE CURSOS (.course-grid-item)
@@ -5329,8 +5019,6 @@ body.static-header .last-update {
   align-items: center;
   /* Centraliza conteúdo verticalmente */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    IMAGEM DENTRO DO ITEM DA GRID DE CURSOS (.course-grid-item img)
@@ -5383,8 +5071,6 @@ body.static-header .last-update {
     /* Animações suaves para hover ou efeitos de foco */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CLASSE DE OCULTAÇÃO (.hidden)
    ---------------------------------------------------------
@@ -5405,8 +5091,6 @@ body.static-header .last-update {
   display: none;
   /* Oculta completamente o elemento e libera espaço na página */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BLOCO DE CURSOS (.course-block)
@@ -5429,8 +5113,6 @@ body.static-header .last-update {
    margin-top: 0px;
    /* Remove espaçamento superior do bloco de cursos */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PARÁGRAFOS DENTRO DO BLOCO DE CURSOS (.course-block p)
@@ -5465,8 +5147,6 @@ body.static-header .last-update {
    /* Cor do texto consistente com o tema de cursos */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINKS DENTRO DO BLOCO DE CURSOS (.course-block a)
    ---------------------------------------------------------
@@ -5488,8 +5168,6 @@ body.static-header .last-update {
    margin: 8px 0;
    /* Espaçamento vertical para separar o link de outros elementos */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    CONTEÚDO DO BLOCO DE CURSOS (.course-block-content)
@@ -5543,8 +5221,6 @@ body.static-header .last-update {
   /* Transições suaves para animação de entrada e expansão */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    BLOCO DE CURSOS VISÍVEL (.course-block-content.is-visible)
    ---------------------------------------------------------
@@ -5572,8 +5248,6 @@ body.static-header .last-update {
   transform: translateY(0);
   /* Move o conteúdo para a posição original */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BLOCO DE CURSOS CARREGADO (.course-block-content.is-loaded)
@@ -5605,8 +5279,6 @@ body.static-header .last-update {
   /* Torna o conteúdo totalmente visível */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINKS DENTRO DO CONTEÚDO DO BLOCO DE CURSOS
    (.course-block-content a)
@@ -5631,8 +5303,6 @@ body.static-header .last-update {
   margin: 0px;
   /* Remove margens externas padrão dos links */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    IMAGENS DENTRO DO CONTEÚDO DO BLOCO DE CURSOS
@@ -5683,8 +5353,6 @@ body.static-header .last-update {
     /* Animação suave para efeitos de hover e destaque */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    NAVEGAÇÃO DO BLOCO DE CURSOS (.course-block-nav)
    ---------------------------------------------------------
@@ -5723,8 +5391,6 @@ body.static-header .last-update {
   /* Espaçamento uniforme entre os elementos de navegação */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    AÇÃO DE NAVEGAÇÃO DO BLOCO DE CURSOS (.course-nav-action)
    ---------------------------------------------------------
@@ -5758,8 +5424,6 @@ body.static-header .last-update {
   /* Transição suave ao alterar opacidade */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    HOVER NA AÇÃO DE NAVEGAÇÃO (.course-nav-action:hover)
    ---------------------------------------------------------
@@ -5780,8 +5444,6 @@ body.static-header .last-update {
   opacity: 0.8;
   /* Reduz levemente a opacidade ao passar o mouse */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    INDICADOR DE NAVEGAÇÃO DO BLOCO DE CURSOS
@@ -5808,8 +5470,6 @@ body.static-header .last-update {
   opacity: 0.8;
   /* Suaviza levemente a intensidade visual */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DESABILITADO DA AÇÃO DE NAVEGAÇÃO
@@ -5845,8 +5505,6 @@ body.static-header .last-update {
   /* Bloqueia qualquer interação do usuário */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CONTAINER PRINCIPAL DO BLOCO DE CURSOS (#course-block)
    ---------------------------------------------------------
@@ -5879,8 +5537,6 @@ body.static-header .last-update {
   /* Permite que conteúdo expandido ultrapasse os limites */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    CONTAINER DE CURSOS EM FLUXO (.courses-flow)
    ---------------------------------------------------------
@@ -5902,8 +5558,6 @@ body.static-header .last-update {
     margin: 0px;
     /* Remove margens externas do container */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    PARÁGRAFOS EM CURSOS NO FORMATO FLOW (.courses-flow p)
@@ -5939,8 +5593,6 @@ body.static-header .last-update {
    /* Cor temática aplicada ao texto */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINKS EM CURSOS NO FORMATO FLOW (.courses-flow a)
    ---------------------------------------------------------
@@ -5961,8 +5613,6 @@ body.static-header .last-update {
    margin: 8px;
    /* Espaçamento uniforme ao redor do link */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    MINIATURA DE CERTIFICADO EM CURSOS FLOW
@@ -6022,8 +5672,6 @@ body.static-header .last-update {
     /* Alinha a miniatura ao início dentro de container flex */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ITEM INDIVIDUAL EM CURSOS FLOW (.course-flow-item)
    ---------------------------------------------------------
@@ -6056,8 +5704,6 @@ body.static-header .last-update {
   /* Permite que conteúdo interno ultrapasse limites */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    LINKS DENTRO DO ITEM DE CURSO FLOW
    (.course-flow-item a)
@@ -6079,8 +5725,6 @@ body.static-header .last-update {
    margin: 8px 0;
    /* Espaçamento vertical uniforme para links */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TRANSIÇÃO DE VISUALIZAÇÃO (.view-transition)
@@ -6109,8 +5753,6 @@ body.static-header .last-update {
   /* Transição suave de opacidade */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO ATIVO DA TRANSIÇÃO DE VISUALIZAÇÃO
    (.view-transition.is-active)
@@ -6136,8 +5778,6 @@ body.static-header .last-update {
   opacity: 1;
   /* Torna o elemento visível com animação suave */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BOTÃO DE COPIAR (.copiar-btn)
@@ -6178,8 +5818,6 @@ body.static-header .last-update {
   /* Leve aumento de tamanho para destaque */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    VARIAÇÃO COMPACTA DO BOTÃO DE COPIAR
    (.copiar-btn--compact)
@@ -6202,8 +5840,6 @@ body.static-header .last-update {
   margin-left: 12px;
   /* Espaçamento maior à esquerda em relação ao padrão */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TRANSIÇÃO DE ÍCONE E SUBTÍTULO DO PORTFÓLIO
@@ -6233,8 +5869,6 @@ body.static-header .last-update {
     transform 0.4s ease;
   /* Transições suaves para opacidade e transformação */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE SAÍDA DO SUBTÍTULO DO PORTFÓLIO
@@ -6271,8 +5905,6 @@ body.static-header .last-update {
   /* Inicia a transição imediatamente */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE SAÍDA DO ÍCONE DO PORTFÓLIO
    (.portfolio-exit .portfolio-icon)
@@ -6308,8 +5940,6 @@ body.static-header .last-update {
   /* Pequeno atraso para efeito encadeado */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO PRÉ-ENTRADA DO ÍCONE E SUBTÍTULO
    (.portfolio-pre-enter .portfolio-icon,
@@ -6341,8 +5971,6 @@ body.static-header .last-update {
   transform: translateX(64px);
   /* Deslocamento inicial para animação de entrada */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE ENTRADA DO ÍCONE DO PORTFÓLIO
@@ -6376,8 +6004,6 @@ body.static-header .last-update {
   transition-delay: 0s;
   /* Inicia a animação imediatamente */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE ENTRADA DO SUBTÍTULO DO PORTFÓLIO
@@ -6415,8 +6041,6 @@ body.static-header .last-update {
   /* Pequeno atraso para efeito encadeado */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TRANSIÇÃO DE CATEGORIA (.category-fade)
    ---------------------------------------------------------
@@ -6439,8 +6063,6 @@ body.static-header .last-update {
   transition: opacity 0.2s ease;
   /* Transição rápida e suave de opacidade */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE DESAPARECIMENTO DA CATEGORIA
@@ -6466,8 +6088,6 @@ body.static-header .last-update {
   opacity: 0;
   /* Torna o elemento invisível com transição suave */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TÍTULO DA CATEGORIA (.title-category)
@@ -6501,8 +6121,6 @@ body.static-header .last-update {
   /* Espaçamento à esquerda */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE FADE DO TÍTULO DA CATEGORIA
    (.title-category.is-fading)
@@ -6525,8 +6143,6 @@ body.static-header .last-update {
   opacity: 0;
   /* Torna o título invisível com efeito de fade */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO OCULTO DO TÍTULO DA CATEGORIA
@@ -6552,8 +6168,6 @@ body.static-header .last-update {
   display: none;
   /* Remove completamente do layout */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SEPARADOR (PIPE) NO TÍTULO DA CATEGORIA
@@ -6582,8 +6196,6 @@ body.static-header .last-update {
   margin: 0px 12px 0px 0px;
   /* Espaçamento à direita para separação visual */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    NOME DA CATEGORIA NO TÍTULO
@@ -6615,8 +6227,6 @@ body.static-header .last-update {
   /* Leve destaque sem exagero */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO INICIAL (PRÉ-ENTRADA) DO PIPE E NOME DA CATEGORIA
    (.title-category .pipe,
@@ -6647,8 +6257,6 @@ body.static-header .last-update {
   transform: translateX(64px);
   /* Deslocamento inicial para animação de entrada */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ENTRADA DO PIPE DA CATEGORIA
@@ -6685,8 +6293,6 @@ body.static-header .last-update {
   transition-delay: 0s;
   /* Inicia imediatamente */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ENTRADA DO NOME DA CATEGORIA
@@ -6731,8 +6337,6 @@ body.static-header .last-update {
   /* Pequeno atraso para efeito encadeado */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    SAÍDA DO NOME DA CATEGORIA
    (.title-category.category-exit .category-name)
@@ -6771,8 +6375,6 @@ body.static-header .last-update {
   transition-delay: 0s;
   /* Inicia imediatamente */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    SAÍDA DO PIPE DA CATEGORIA
@@ -6815,7 +6417,6 @@ body.static-header .last-update {
   /* Pequeno atraso para efeito encadeado */
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO BASE (INICIAL) DOS ELEMENTOS DA CATEGORIA
@@ -6858,8 +6459,6 @@ body.static-header .last-update {
   transform: translateX(64px);
   /* Começam deslocados para a direita */
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO BASE DO BOTÃO DE VISUALIZAÇÃO
@@ -6908,8 +6507,6 @@ body.static-header .last-update {
   pointer-events: none;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE ENTRADA DO BOTÃO DE VISUALIZAÇÃO
    (.view-btn.vm-enter)
@@ -6952,8 +6549,6 @@ body.static-header .last-update {
   transform: translateX(0);
   pointer-events: auto;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE SAÍDA DO BOTÃO DE VISUALIZAÇÃO
@@ -6998,8 +6593,6 @@ body.static-header .last-update {
   pointer-events: none;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO OCULTO FORÇADO DO BOTÃO DE VISUALIZAÇÃO
    (.view-btn.vm-hidden)
@@ -7041,8 +6634,6 @@ body.static-header .last-update {
   transform: translateX(-32px);
   pointer-events: none;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    BASE PARA TOOLTIP VIA ATRIBUTO aria-label
@@ -7095,8 +6686,6 @@ body.static-header .last-update {
 .footer a[aria-label] {
   position: relative;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TOOLTIP VISUAL (PSEUDO-ELEMENTO ::after)
@@ -7175,8 +6764,6 @@ body.static-header .last-update {
   z-index: 1000;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    TOOLTIP SUPERIOR PARA LINKS DO FOOTER
    (.footer a[aria-label]::after)
@@ -7253,8 +6840,6 @@ body.static-header .last-update {
   z-index: 1000;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE EXIBIÇÃO DO TOOLTIP (HOVER)
    (Elementos com aria-label)
@@ -7304,8 +6889,6 @@ body.static-header .last-update {
   transform: translateX(-50%) translateY(0);
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO BASE DO PAINEL LATERAL DO PORTFÓLIO
    (.side-portfolio)
@@ -7349,8 +6932,6 @@ body.static-header .last-update {
 .side-portfolio {
   display: none;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE SAÍDA DO NOME NO HEADER
@@ -7397,8 +6978,6 @@ body.static-header .last-update {
   transition-delay: 0s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE SAÍDA DA INFORMAÇÃO "LAST UPDATE"
    (.header-exit .last-update)
@@ -7441,8 +7020,6 @@ body.static-header .last-update {
   transform: translateX(64px);
   transition-delay: 0.16s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO PRÉ-ENTRADA DO HEADER
@@ -7495,8 +7072,6 @@ body.static-header .last-update {
   transform: translateX(64px);
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE ENTRADA DO NOME NO HEADER
    (.header-enter .header-name)
@@ -7541,8 +7116,6 @@ body.static-header .last-update {
   transition-delay: 0s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE ENTRADA DA INFORMAÇÃO "LAST UPDATE"
    (.header-enter .last-update)
@@ -7585,8 +7158,6 @@ body.static-header .last-update {
   transform: translateX(0);
   transition-delay: 0.16s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    TRANSIÇÃO PADRÃO DOS ELEMENTOS DO HEADER DO PORTFÓLIO
@@ -7631,8 +7202,6 @@ body.static-header .last-update {
     opacity 0.4s ease,
     transform 0.4s ease;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE SAÍDA DO NOME NO PORTFÓLIO
@@ -7679,8 +7248,6 @@ body.static-header .last-update {
   transition-delay: 0s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE SAÍDA DA INFORMAÇÃO "LAST UPDATE" NO PORTFÓLIO
    (.portfolio-exit .last-update)
@@ -7724,8 +7291,6 @@ body.static-header .last-update {
   transform: translateX(64px);
   transition-delay: 0.12s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE SAÍDA DA FOTO NO HEADER DO PORTFÓLIO
@@ -7773,8 +7338,6 @@ body.static-header .last-update {
   transition-delay: 0.24s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO PRÉ-ENTRADA DO HEADER DO PORTFÓLIO
    (.portfolio-pre-enter)
@@ -7821,8 +7384,6 @@ body.static-header .last-update {
   transform: translateX(64px);
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE ENTRADA DA FOTO NO HEADER DO PORTFÓLIO
    (.portfolio-enter .header-photo)
@@ -7863,8 +7424,6 @@ body.static-header .last-update {
   transform: translateX(0);
   transition-delay: 0s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE ENTRADA DO NOME NO HEADER DO PORTFÓLIO
@@ -7908,8 +7467,6 @@ body.static-header .last-update {
   transform: translateX(0);
   transition-delay: 0.12s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE ENTRADA DA INFORMAÇÃO "LAST UPDATE" NO PORTFÓLIO
@@ -7956,8 +7513,6 @@ body.static-header .last-update {
   transition-delay: 0.24s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO BASE DA FOTO DO HEADER
    (.header-photo)
@@ -7995,8 +7550,6 @@ body.static-header .last-update {
   transition: opacity 0.4s ease, transform 0.4s ease;
   transform: translateX(64px);
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO DE FOTO CARREGADA NO HEADER
@@ -8042,8 +7595,6 @@ body.static-header .last-update {
   transform: translateX(0);
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE SAÍDA DA FOTO NO HEADER DO PORTFÓLIO
    (.portfolio-exit .header-photo)
@@ -8084,8 +7635,6 @@ body.static-header .last-update {
   transform: translateX(64px);
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO OCULTO DA FOTO DO HEADER
    (.header-photo.photo-hidden)
@@ -8123,8 +7672,6 @@ body.static-header .last-update {
   transform: translateX(64px);
   pointer-events: none;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO COMPACTO DA FOTO NO HEADER HOME
@@ -8164,8 +7711,6 @@ body.static-header .last-update {
   overflow: hidden;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO PADRÃO DA FOTO NO HEADER DO PORTFÓLIO
    (.header-portfolio .header-photo)
@@ -8199,8 +7744,6 @@ body.static-header .last-update {
   margin-right: 12px;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EXIBIÇÃO DA FOTO DE INTRODUÇÃO NA HOME
    (body[data-mode="home"] .intro-photo)
@@ -8230,8 +7773,6 @@ body.static-header .last-update {
 body[data-mode="home"] .intro-photo {
   display: flex;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    OCULTAÇÃO DO PAINEL LATERAL NA HOME
@@ -8266,8 +7807,6 @@ body[data-mode="home"] .side-portfolio {
   display: none;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    OCULTAÇÃO DA FOTO DE INTRODUÇÃO NO MODO PORTFÓLIO
    (body[data-mode="portfolio"] .intro-photo)
@@ -8301,8 +7840,6 @@ body[data-mode="portfolio"] .intro-photo {
   display: none;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EXIBIÇÃO DO PAINEL LATERAL NO MODO PORTFÓLIO
    (body[data-mode="portfolio"] .side-portfolio)
@@ -8332,8 +7869,6 @@ body[data-mode="portfolio"] .intro-photo {
 body[data-mode="portfolio"] .side-portfolio {
   display: flex;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    OTIMIZAÇÃO DE RENDERIZAÇÃO PARA ELEMENTOS ANIMADOS
@@ -8370,8 +7905,6 @@ body[data-mode="portfolio"] .side-portfolio {
 .side-portfolio {
   will-change: transform, opacity;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO DE SAÍDA DA FRASE DE ASSINATURA
@@ -8410,8 +7943,6 @@ body[data-mode="portfolio"] .side-portfolio {
 .intro-photo.is-leaving .signature-phrase {
   animation: introOut 0.4s ease forwards;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO DE SAÍDA DO TERCEIRO BOTÃO DE PROJETOS
@@ -8452,8 +7983,6 @@ body[data-mode="portfolio"] .side-portfolio {
   animation: introOut 0.4s ease forwards 0.16s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE SAÍDA DO SEGUNDO BOTÃO DE PROJETOS
    (.intro-photo.is-leaving .btn-projetos:nth-of-type(2))
@@ -8492,8 +8021,6 @@ body[data-mode="portfolio"] .side-portfolio {
 .intro-photo.is-leaving .btn-projetos:nth-of-type(2) {
   animation: introOut 0.4s ease forwards 0.32s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO DE SAÍDA DO PRIMEIRO BOTÃO DE PROJETOS
@@ -8535,8 +8062,6 @@ body[data-mode="portfolio"] .side-portfolio {
   animation: introOut 0.4s ease forwards 0.48s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE SAÍDA DA IMAGEM DE INTRODUÇÃO
    (.intro-photo.is-leaving img)
@@ -8575,8 +8100,6 @@ body[data-mode="portfolio"] .side-portfolio {
 .intro-photo.is-leaving img {
   animation: introOut 0.4s ease forwards 0.64s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTADO PRÉ-ENTRADA DOS ELEMENTOS DA INTRO PHOTO
@@ -8620,8 +8143,6 @@ body[data-mode="portfolio"] .side-portfolio {
   transform: translateY(64px);
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE ENTRADA DA IMAGEM DE INTRODUÇÃO
    (.intro-photo.is-entering img)
@@ -8659,8 +8180,6 @@ body[data-mode="portfolio"] .side-portfolio {
 .intro-photo.is-entering img {
   animation: introIn 0.4s ease forwards;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO DE ENTRADA DO PRIMEIRO BOTÃO DE PROJETOS
@@ -8702,8 +8221,6 @@ body[data-mode="portfolio"] .side-portfolio {
   animation: introIn 0.4s ease forwards 0.16s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE ENTRADA DO SEGUNDO BOTÃO DE PROJETOS
    (.intro-photo.is-entering .btn-projetos:nth-of-type(2))
@@ -8743,8 +8260,6 @@ body[data-mode="portfolio"] .side-portfolio {
 .intro-photo.is-entering .btn-projetos:nth-of-type(2) {
   animation: introIn 0.4s ease forwards 0.32s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ANIMAÇÃO DE ENTRADA DO TERCEIRO BOTÃO DE PROJETOS
@@ -8786,8 +8301,6 @@ body[data-mode="portfolio"] .side-portfolio {
   animation: introIn 0.4s ease forwards 0.48s;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ANIMAÇÃO DE ENTRADA DA FRASE DE ASSINATURA
    (.intro-photo.is-entering .signature-phrase)
@@ -8827,8 +8340,6 @@ body[data-mode="portfolio"] .side-portfolio {
 .intro-photo.is-entering .signature-phrase {
   animation: introIn 0.4s ease forwards 0.64s;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    KEYFRAMES DE ANIMAÇÃO DE ENTRADA
@@ -8874,8 +8385,6 @@ body[data-mode="portfolio"] .side-portfolio {
   }
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    KEYFRAMES DE ANIMAÇÃO DE SAÍDA
    (@keyframes introOut)
@@ -8920,8 +8429,6 @@ body[data-mode="portfolio"] .side-portfolio {
   }
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE ENTRADA DO PAINEL LATERAL DO PORTFÓLIO
    (.side-portfolio.is-entering)
@@ -8957,8 +8464,6 @@ body[data-mode="portfolio"] .side-portfolio {
   animation: sideMenuIn 0.4s ease forwards;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO DE SAÍDA DO PAINEL LATERAL DO PORTFÓLIO
    (.side-portfolio.is-leaving)
@@ -8993,8 +8498,6 @@ body[data-mode="portfolio"] .side-portfolio {
   transform: translateY(0);
   animation: sideMenuOut 0.4s ease forwards;
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    KEYFRAMES DE ANIMAÇÃO DE ENTRADA DO PAINEL LATERAL
@@ -9038,8 +8541,6 @@ body[data-mode="portfolio"] .side-portfolio {
   }
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    KEYFRAMES DE ANIMAÇÃO DE SAÍDA DO PAINEL LATERAL
    (@keyframes sideMenuOut)
@@ -9081,8 +8582,6 @@ body[data-mode="portfolio"] .side-portfolio {
     transform: translateY(64px);
   }
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    ESTILO BASE DO ÍCONE DE HOME NO HEADER
@@ -9137,8 +8636,6 @@ body[data-mode="portfolio"] .side-portfolio {
     color 0.4s ease;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    ESTADO VISÍVEL DO ÍCONE DE HOME NO HEADER
    (#header-home-icon.is-visible)
@@ -9170,8 +8667,6 @@ body[data-mode="portfolio"] .side-portfolio {
   pointer-events: auto;
 }
 
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
-
 /* =========================================================
    EFEITO DE HOVER DO ÍCONE DE HOME NO HEADER
    (#header-home-icon:hover)
@@ -9199,8 +8694,6 @@ body[data-mode="portfolio"] .side-portfolio {
 #header-home-icon:hover {
   color: var(--accent-color);
 }
-
-/* 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹 */
 
 /* =========================================================
    VARIÁVEIS DE TEMA GLOBAL (:root)
