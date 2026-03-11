@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 1,
   
-    thumb: "/portfolio/projetos/microsoft-power-bi/recursos-humanos/projetos/Pesquisa de Satisfação - Nexora Group.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/recursos-humanos/projetos/recursos-humanos-nexora-group.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
