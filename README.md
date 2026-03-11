@@ -66,3 +66,18 @@ Contém a estrutura base da interface e os containers que recebem os conteúdos 
 Os conteúdos do portfólio são organizados em **datasets JavaScript**, permitindo que novas categorias ou projetos sejam adicionados sem alterar a estrutura principal do site.
 
 Exemplos:
+
+dataset-formacoes.js
+dataset-projetos.js
+dataset-artigos.js
+
+
+Cada dataset contém os metadados necessários para renderização dos itens.
+
+---
+
+### Sistema de Navegação Dinâmica
+
+A navegação entre seções é controlada por um **roteador interno em JavaScript**, que interpreta atributos HTML e executa a troca dinâmica de conteúdo.
+
+Elementos como:
