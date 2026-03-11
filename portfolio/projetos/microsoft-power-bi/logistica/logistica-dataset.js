@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 2,
   
-    thumb: "/portfolio/projetos/microsoft-power-bi/logistica/projetos/Altaris Logistics - Performance Logística.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/logistica/projetos/logistica-altaris-logistics.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
@@ -167,7 +167,7 @@ window.datasetCategoria = [
   {
     id: 1,
   
-    thumb: "/portfolio/projetos/microsoft-power-bi/logistica/projetos/Gestão Logística - TransFlow Logistics.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/logistica/projetos/logistica-transflow-logistics.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
