@@ -49,7 +49,125 @@
 
 window.datasetCategoria = [
   {
-    id: 1,
+    id: 3,
+  
+    thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/faturamento-bytewave.png",
+  
+    nomeInstituicao: "",
+    nomeCurso: "",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "",
+    nomeCodigo: "",
+    nomeVerificacao: "",
+    
+    instituicao: "",
+    curso: "",
+    cargaHoraria: "",
+    conclusaoISO: "",
+    dataConclusao: "",
+    codigo: "",
+    mostrarCopiar: false,
+    verificacao: "",
+  
+    nomeTitulo: "Título: ",
+    nomePeriodo: "Período: ",
+    nomeDuracao: "Duração: ",
+    nomeStackTecnica: "Stack Técnica: ",
+  
+    titulo: "Análise de Vendas",
+    periodo: "Jul 2022",
+    duracao: "22 dias",
+    stackTecnica: "Power BI | DAX | Linguagem M | Modelagem Dimensional | Data Storytelling | Business Intelligence",
+  
+    projetoInterativo: `<p>
+                        |
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNWI2NzFiYWQtNGZlMy00ZDVkLTgwOTgtODM1NDA1NzJlZjFmIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        |
+                        <a href="https://github.com/clyntonboss/power-bi-faturamento-bytewave.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        |
+                        </p>`,
+  
+    descricaoProjeto: `
+      <div class="decorative-line-projetos"></div>
+      
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Contexto do Problema</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                A ByteWave buscava compreender com maior clareza o desempenho de suas vendas em diferentes canais de comercialização. Apesar da existência de dados transacionais, faltava uma visão analítica consolidada que permitisse acompanhar faturamento, volume de produtos vendidos e desempenho dos vendedores, dificultando a identificação de tendências de mercado e oportunidades de crescimento.
+            </div>
+        
+          </div>
+      </div>
+  
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Abordagem Estratégica</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                Foi desenvolvido um dashboard analítico em Power BI estruturado com modelagem dimensional para consolidar indicadores estratégicos de vendas. A solução permite acompanhar métricas como Faturamento Total, Quantidade de Produtos Vendidos, Quantidade de Transações e Ticket Médio, proporcionando uma visão integrada do desempenho comercial da empresa.
+            </div>
+        
+          </div>
+      </div>
+  
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Estrutura do Dashboard</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                O projeto segue padrão visual em Dark Mode e possui uma capa com menu lateral esquerdo para navegação entre as páginas do dashboard. A partir da Home é possível acessar as seções Análise do Faturamento e Análise dos Produtos Vendidos, além de alternar entre os modos Light e Dark. A capa apresenta cartões com indicadores estratégicos de Faturamento, Quantidade de Produtos Vendidos, Quantidade de Transações, Quantidade de Vendedores e Total de Produtos no Catálogo.
+  
+                A página de Análise do Faturamento apresenta cartões detalhados com Faturamento Total, Faturamento Loja e Faturamento e-Commerce, além de indicadores de produtos vendidos, transações e ticket médio. Um gráfico de área mostra a evolução temporal do faturamento de janeiro a dezembro, destacando o mês de maior e menor desempenho. Gráficos de rosca apresentam a participação dos canais de venda, enquanto um gráfico de barras horizontais destaca os quatro produtos mais faturados. A análise inclui ainda uma tabela com foto, nome e faturamento dos vendedores e um gráfico radar para comparação do desempenho comercial entre eles.
+  
+                A página de Análise dos Produtos Vendidos mantém a mesma estrutura analítica, porém focada no volume de produtos comercializados. O gráfico temporal apresenta a evolução da quantidade de produtos vendidos ao longo do ano, enquanto os gráficos de rosca demonstram a participação da Loja Física e do e-Commerce no volume total. Um gráfico de barras horizontais apresenta a quantidade de transações por vendedor e uma tabela detalhada exibe o nome do produto e as quantidades vendidas em cada canal.
+            </div>
+        
+          </div>
+      </div>
+  
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Tecnologias Envolvidas</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                Power BI foi utilizado para construção das visualizações e organização da narrativa analítica do projeto. DAX foi aplicado na criação de métricas como Faturamento Total, Ticket Médio e indicadores comparativos entre canais de venda. A Linguagem M foi utilizada na etapa de transformação e preparação dos dados no Power Query. A modelagem dimensional estruturou os dados de vendas, produtos, vendedores e canais de comercialização, garantindo consistência analítica e desempenho nas consultas.
+            </div>
+        
+          </div>
+      </div>
+  
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Conexão com Estratégia Comercial</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                A solução fortalece a análise de desempenho comercial da ByteWave ao oferecer uma visão clara do faturamento, comportamento de vendas e desempenho dos vendedores. As análises permitem identificar tendências de consumo, avaliar a contribuição de diferentes canais de venda e apoiar decisões estratégicas relacionadas a campanhas comerciais, gestão de portfólio e expansão das operações de vendas.
+            </div>
+        
+          </div>
+      </div>
+    `
+  },
+  
+  {
+    id: 2,
   
     thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/Performance de Vendas - Veloura Beauty.png",
   
