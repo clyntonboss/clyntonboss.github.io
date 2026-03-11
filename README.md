@@ -67,9 +67,9 @@ Os conteúdos do portfólio são organizados em **datasets JavaScript**, permiti
 
 Exemplos:
 
-dataset-formacoes.js
-dataset-projetos.js
-dataset-artigos.js
+- dataset-formacoes.js  
+- dataset-projetos.js  
+- dataset-artigos.js  
 
 
 Cada dataset contém os metadados necessários para renderização dos itens.
