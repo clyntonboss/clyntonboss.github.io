@@ -81,9 +81,9 @@ window.datasetCategoria = [
   
     projetoInterativo: `<p>
                         |
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNzZhNzE2YWEtZWNhMy00OGEzLTg0OTUtMzcyYmM3MGI2NGU2IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNGYwMWMyNjQtNzdmMi00MzcyLWFmNzUtMzhjMmY2MTRhM2MzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
                         |
-                        <a href="https://github.com/clyntonboss/power-bi-recursos-humanos-nexora-group.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        <a href="https://github.com/clyntonboss/power-bi-comercial-novacasa-retail.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
                         |
                         </p>`,
   
