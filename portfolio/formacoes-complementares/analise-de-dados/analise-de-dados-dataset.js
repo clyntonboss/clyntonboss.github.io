@@ -49,7 +49,7 @@
 
 window.datasetCategoria = [
   {
-    id: 261,
+    id: 272,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.12 · Jornada de Dados · Imersão Jornada de Dados.png",
 
@@ -83,7 +83,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 270,
+    id: 271,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.12 · Load Educação · Imersão em Power BI e Inteligência Artificial.png",
 
@@ -102,6 +102,43 @@ window.datasetCategoria = [
     codigo: "Inaplicável",
     mostrarCopiar: false,
     verificacao: null,
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 270,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.05 · Hashtag Treinamentos · Jornada Python™ da Hashtag.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Hashtag Treinamentos",
+    curso: "Jornada Python™ da Hashtag",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-03-05",
+    dataConclusao: "05 de março de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Jornada+Python™+da+Hashtag&dtcf=05%2F03%2F2026&hcf=8",
+      texto: "Verificar Autenticidade"
+    },
+
     nomeTitulo: "",
     nomePeriodo: "",
     nomeDuracao: "",
