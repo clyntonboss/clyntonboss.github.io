@@ -49,6 +49,40 @@
 
 window.datasetCategoria = [
   {
+    id: 261,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.12 · Jornada de Dados · Imersão Jornada de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Jornada de Dados",
+    curso: "Imersão Jornada de Dados",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-03-12",
+    dataConclusao: "12 de março de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 270,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.12 · Load Educação · Imersão em Power BI e Inteligência Artificial.png",
