@@ -49,6 +49,42 @@
 
 window.datasetCategoria = [
   {
+    id: 269,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.26 · Hashtag Treinamentos · Intensivão de Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Hashtag Treinamentos",
+    curso: "Intensivãod e Power BI",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-02-26",
+    dataConclusao: "26 de fevereiro de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://dlp.hashtagtreinamentos.com/certificado/download?ncf=Rogério+Clynton+Ribeiro&necf=Intensivão+de+Power+BI&dtcf=26%2F02%2F2026&hcf=8",
+      texto: "Verificar Autenticidade"
+    },
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 268,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.26 · Vico Digital [Vico Treinamentos e Tecnologia LTDA] · Power Platform.png",
@@ -5354,8 +5390,8 @@ window.datasetCategoria = [
     nomeCodigo: "Código: ",
     nomeVerificacao: "Verificação: ",
 
-    instituicao: "Gran Faculdade",
-    curso: "Hashtag Treinamentos",
+    instituicao: "Hashtag Treinamentos",
+    curso: "Intensivão de Power BI",
     cargaHoraria: "8 h",
     conclusaoISO: "2025-02-20",
     dataConclusao: "20 de fevereiro de 2025",
