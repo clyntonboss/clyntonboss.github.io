@@ -62,7 +62,7 @@ window.datasetCategoria = [
 
     instituicao: "Load Educação",
     curso: "Intensivo de Power BI e Inteligência Artificial",
-    cargaHoraria: "8 h",
+    cargaHoraria: "6 h",
     conclusaoISO: "2026-03-12",
     dataConclusao: "12 de março de 2026",
     codigo: "Inaplicável",
