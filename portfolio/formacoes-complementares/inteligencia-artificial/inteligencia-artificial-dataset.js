@@ -49,6 +49,40 @@
 
 window.datasetCategoria = [
   {
+    id: 159,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.26 · Tetra Educação · Imersão Gestor do Futuro.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Tetra Educação",
+    curso: "Imersão Gestor do Futuro",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-02-26",
+    dataConclusao: "26 de fevereiro de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 158,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.27 · FIAP - Centro Universitário · Soluções Tecnológicas Emergentes.png",
