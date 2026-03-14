@@ -49,6 +49,39 @@
 
 window.datasetCategoria = [
   {
+    id: 270,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.12 · Load Educação · Imersão em Power BI e Inteligência Artificial.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Load Educação",
+    curso: "Intensivo de Power BI e Inteligência Artificial",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-03-12",
+    dataConclusao: "12 de março de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 269,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.02.26 · Hashtag Treinamentos · Intensivão de Power BI.png",
@@ -61,7 +94,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Hashtag Treinamentos",
-    curso: "Intensivãod e Power BI",
+    curso: "Intensivão de Power BI",
     cargaHoraria: "8 h",
     conclusaoISO: "2026-02-26",
     dataConclusao: "26 de fevereiro de 2026",
