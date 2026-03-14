@@ -2199,6 +2199,7 @@ const sections = {
           <a href="#" data-category="#">Custos</a>
           <a href="#" data-category="#">Orçamento</a>
           <a href="#" data-category="powerBiFaturamento">Faturamento</a>
+          <a href="#" data-category="powerBiComercial">Comercial</a>
           <a href="#" data-category="#">Investimentos</a>
           
           <!-- Comercial & Marketing -->
