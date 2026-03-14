@@ -1504,14 +1504,14 @@ arquitetura: {
     `
   },
 
-// ================================== Microsoft Power BI · Recursos Humanos ===============================
+// ===================================== Microsoft Power BI · Comercial ===================================
   powerBiComercial: {
     title: "Comercial",
     dataset: "/portfolio/projetos/microsoft-power-bi/comercial/comercial-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento de Recursos Humanos, organizados por conclusão cronológica decrescente.<br>
-                                        Os projetos apresentados abrangem análise de indicadores de desempenho, turnover, absenteísmo, clima organizacional, estrutura de cargos e monitoramento estratégico de métricas de People Analytics.</p></div>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento Comercial, organizados por conclusão cronológica decrescente.<br>
+                                        Os projetos apresentados abrangem análise de vendas, faturamento, desempenho de produtos, comportamento de clientes, metas comerciais e monitoramento estratégico de indicadores de performance comercial.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1552,8 +1552,8 @@ arquitetura: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>Os projetos de Recursos Humanos consolidam uma base analítica voltada à gestão estratégica de pessoas e monitoramento de performance.<br>
-                                        O domínio desses conceitos permite estruturar soluções que fortalecem a cultura organizacional, reduzem riscos de rotatividade, ampliam o engajamento e alinham o capital humano aos objetivos estratégicos da organização com suporte à tomada de decisão orientada por dados.</p></div>
+      <div class="tech-subtitle-inf"><p>Os projetos da área Comercial consolidam uma base analítica voltada à gestão estratégica de vendas e acompanhamento de resultados.<br>
+                                        O domínio desses conceitos permite estruturar soluções que ampliam a visibilidade sobre o desempenho comercial, identificam oportunidades de crescimento, fortalecem a gestão de clientes e apoiam a tomada de decisão orientada por dados para maximização de receita e competitividade no mercado.</p></div>
     `
   },
 
