@@ -227,7 +227,7 @@ Este projeto faz parte do portfólio profissional do autor e é disponibilizado 
 
 <div align="center">
   
-<img src="assets/images/phoenix-information-technology-solutions.png" width="320">
+<img src="assets/images/assinatura.png" width="320">
 
 💼 Aberto a oportunidades em Business Intelligence & Data Analytics
 
