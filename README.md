@@ -229,6 +229,8 @@ Este projeto faz parte do portfólio profissional do autor e é disponibilizado 
   
 <img src="assets/images/assinatura.png" width="400">
 
+---
+
 💼 Aberto a oportunidades em Business Intelligence & Data Analytics
 
 | [LinkedIn](https://www.linkedin.com/in/rogério-clynton-ribeiro/) | [Portfólio](https://clyntonboss.github.io/) | [e-Mail](mailto:clyntonribeiror@gmail.com) | [WhatsApp](https://wa.me/5524999240768) |
