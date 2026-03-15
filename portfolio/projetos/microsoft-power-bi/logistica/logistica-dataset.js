@@ -226,7 +226,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Foi desenvolvida uma solução em Power BI com modelagem dimensional estruturada e KPIs estratégicos: Quantidade de Produtos, Quantidade de Pedidos e Quantidade de Motoristas. A visualização foi organizada para facilitar a leitura executiva e a análise operacional.
+                Foi desenvolvida uma solução em Power BI com modelagem dimensional estruturada e KPIs estratégicos: Pedidos Realizados, Produtos Transportados e Motoristas Ativos. A visualização foi organizada para facilitar a leitura executiva e a análise operacional.
             </div>
         
           </div>
