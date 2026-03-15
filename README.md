@@ -227,8 +227,10 @@ Este projeto faz parte do portfólio profissional do autor e é disponibilizado 
 
 <div align="center">
   
-<img src="assets/images/phoenix-information-technology-solutions.png" width="540">
+<img src="assets/images/phoenix-information-technology-solutions.png" width="320">
 
-| [LinkedIn](https://www.linkedin.com/in/rogério-clynton-ribeiro/) | [Portfólio](https://clyntonboss.github.io/) |
+💼 Aberto a oportunidades em Business Intelligence & Data Analytics
+
+| [LinkedIn](https://www.linkedin.com/in/rogério-clynton-ribeiro/) | [Portfólio](https://clyntonboss.github.io/) | [e-Mail](mailto:clyntonribeiror@gmail.com) | [WhatsApp](https://wa.me/5524999240768) |
 
 </div>
