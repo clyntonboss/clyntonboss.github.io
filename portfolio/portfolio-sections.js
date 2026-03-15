@@ -2193,38 +2193,54 @@ const sections = {
                                         Ao selecionar uma categoria, são apresentados os projetos desenvolvidos, com informações relevantes sobre contexto, soluções implementadas, tecnologias aplicadas e resultados alcançados.</p></div>
       
       <div class="cert-links">
-          <!--  Financeiro & Controladoria -->
-          <a href="#" data-category="powerBiFinanceiro">Financeiro</a>
-          <a href="#" data-category="#">Contabilidade</a>
-          <a href="#" data-category="#">Custos</a>
-          <a href="#" data-category="#">Orçamento</a>
-          <a href="#" data-category="powerBiFaturamento">Faturamento</a>
-          <a href="#" data-category="powerBiComercial">Comercial</a>
-          <a href="#" data-category="#">Investimentos</a>
-          
-          <!-- Comercial & Marketing -->
-          <a href="#" data-category="#">Marketing</a>
-          <a href="#" data-category="#">Produto</a>
-          <a href="#" data-category="#">Serviço de Atendimento ao Consumidor</a>
-                          
-          <!-- Operações & Cadeia de Suprimentos -->
-          <a href="#" data-category="#">Produção</a>
-          <a href="#" data-category="powerBiLogistica">Logística</a>
-          <a href="#" data-category="#">Estoque</a>
-          <a href="#" data-category="#">Ativos</a>
-          <a href="#" data-category="#">Quebra de Equipamentos</a>
       
-          <!-- Pessoas & Conformidade -->
-          <a href="#" data-category="powerBiRecursosHumanos">Recursos Humanos</a>
-          <a href="#" data-category="#">Segurança do Trabalho</a>
-          <a href="#" data-category="#">Jurídico</a>
+        <!-- Comercial & Receita -->
+        <!-- Primeiro, porque essas áreas são responsáveis por gerar receita e demanda. 
+             Começar com Comercial e Vendas mostra foco no resultado financeiro da empresa. -->
+        <a href="#" data-category="powerBiComercial">Comercial</a>
+        <a href="#" data-category="#">Vendas</a>
+        <!-- Marketing, Produto e SAC apoiam a geração de receita, criando valor e experiência para o cliente. -->
+        <a href="#" data-category="#">Marketing</a>
+        <a href="#" data-category="#">Produto</a>
+        <a href="#" data-category="#">Serviço de Atendimento ao Consumidor</a>
+        <!-- Faturamento vem por último neste grupo, pois é a execução financeira da receita gerada. -->
+        <a href="#" data-category="powerBiFaturamento">Faturamento</a>
       
-          <!-- Qualidade & Governança de Dadps -->
-          <a href="#" data-category="#">Qualidade do Produto</a>
-          <a href="#" data-category="#">Qualidade de Dados</a>
+        <!-- Financeiro & Controladoria -->
+        <!-- Depois da receita, vem o controle financeiro. Mostra quem gerencia o dinheiro da empresa. -->
+        <a href="#" data-category="powerBiFinanceiro">Financeiro</a>
+        <a href="#" data-category="#">Contabilidade</a>
+        <a href="#" data-category="#">Custos</a>
+        <a href="#" data-category="#">Orçamento</a>
+        <a href="#" data-category="#">Investimentos</a>
+        <a href="#" data-category="#">Receitas</a>
       
-          <!-- Setoriais -->
-          <a href="#" data-category="#">Acidentes em Rodovias</a>
+        <!-- Operações & Cadeia de Suprimentos -->
+        <!-- Depois do financeiro, entram as operações, que garantem que produtos e serviços 
+             sejam produzidos, armazenados e entregues corretamente. -->
+        <a href="#" data-category="#">Produção</a>
+        <a href="#" data-category="powerBiLogistica">Logística</a>
+        <a href="#" data-category="#">Estoque</a>
+        <a href="#" data-category="#">Ativos</a>
+        <a href="#" data-category="#">Quebra de Equipamentos</a>
+      
+        <!-- Pessoas & Compliance -->
+        <!-- Em seguida, RH e compliance entram para mostrar suporte institucional, 
+             gestão de pessoas e governança organizacional. -->
+        <a href="#" data-category="powerBiRecursosHumanos">Recursos Humanos</a>
+        <a href="#" data-category="#">Segurança do Trabalho</a>
+        <a href="#" data-category="#">Jurídico</a>
+      
+        <!-- Qualidade & Governança -->
+        <!-- Projetos de qualidade e governança de dados garantem confiabilidade e melhoria contínua. -->
+        <a href="#" data-category="#">Qualidade do Produto</a>
+        <a href="#" data-category="#">Qualidade de Dados</a>
+      
+        <!-- Setoriais -->
+        <!-- Por último, projetos setoriais ou específicos, que não pertencem diretamente 
+             a uma área empresarial, mas são relevantes para análise ou pesquisa. -->
+        <a href="#" data-category="#">Acidentes em Rodovias</a>
+      
       </div>
     `
   },
