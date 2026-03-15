@@ -196,7 +196,7 @@ window.datasetCategoria = [
     stackTecnica: "| Power BI | DAX | Modelagem Dimensional |",
     projetoInterativo: `<p>
                         |
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNzhhNmQ0NmQtZGYyZC00NzVkLThmN2QtZjQxMDAwOTJmNTc1IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
                         |
                         <a href="https://github.com/clyntonboss/power-bi-logistica-transflow-logistics.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
                         |
