@@ -80,7 +80,7 @@ window.datasetCategoria = [
     stackTecnica: "| Power BI | DAX | Modelagem Dimensional | People Analytics |",
     projetoInterativo: `<p>
                         |
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNzZhNzE2YWEtZWNhMy00OGEzLTg0OTUtMzcyYmM3MGI2NGU2IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNjhkNWViMjUtNTZhNi00MzM0LTkyNGMtYjYyNDA3ODZmMjA4IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
                         |
                         <a href="https://github.com/clyntonboss/power-bi-recursos-humanos-nexora-group.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
                         |
