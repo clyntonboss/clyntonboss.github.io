@@ -97,12 +97,12 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A Nexora Group buscava compreender o nível de satisfação dos colaboradores e identificar fatores que impactavam engajamento, retenção e clima organizacional. A ausência de uma visão consolidada dificultava a comparação entre ciclos de entrevistas e a identificação de tendências comportamentais.
+                A área de Recursos Humanos da Nexora Group enfrentava desafios na consolidação e análise de dados relacionados ao quadro de colaboradores e à satisfação interna, dificultando a identificação de padrões comportamentais, tendências de contratação e percepções críticas sobre saúde, carga horária e remuneração.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
@@ -111,12 +111,12 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Foi desenvolvido um dashboard em Power BI com modelagem dimensional estruturada, permitindo a consolidação de indicadores como Quantidade de Colaboradores, Cargos e Respostas Coletadas. A solução possibilitou análises comparativas entre Entrevista 01 e Entrevista 02, incluindo métricas de Satisfeitos, Neutros e Insatisfeitos em volume absoluto e percentual.
+                Foi desenvolvida uma solução em Power BI estruturada para integrar indicadores de capital humano e análises de satisfação, com navegação intuitiva entre visão geral e análises detalhadas. A modelagem permitiu explorar dados demográficos, canais de recrutamento e evolução das contratações, além de comparar percepções entre diferentes entrevistas e dimensões organizacionais.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
@@ -125,12 +125,12 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                O dashboard permitiu identificar variações no nível de satisfação entre ciclos de avaliação, mapear faixas etárias predominantes, analisar fontes de recrutamento e acompanhar o histórico de contratações por ano. A visualização estruturada fortaleceu decisões relacionadas a políticas de retenção, desenvolvimento e gestão de clima organizacional.
+                O dashboard possibilita identificar rapidamente padrões de satisfação e insatisfação, avaliar a efetividade dos canais de recrutamento e compreender a distribuição do quadro de colaboradores. A análise comparativa entre entrevistas e indicadores organizacionais promove decisões mais assertivas voltadas à retenção de talentos e melhoria do ambiente de trabalho.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
@@ -139,21 +139,21 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Power BI foi utilizado para construção do storytelling analítico e visualização executiva. DAX foi aplicado na criação de medidas percentuais comparativas entre entrevistas e consolidação de KPIs estratégicos. A modelagem dimensional organizou dados de colaboradores, cargos, recrutamento e avaliações de satisfação, garantindo escalabilidade e consistência analítica.
+                Power BI foi utilizado para construção das visualizações e navegação entre páginas analíticas. DAX aplicado na criação de medidas para análise de satisfação, percentuais e comparativos entre entrevistas. Modelagem dimensional estruturando dados de colaboradores, cargos, recrutamento e respostas, garantindo performance e escalabilidade analítica.
             </div>
         
           </div>
       </div>
-    
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Conexão com Pessoas | Cultura | Estratégia</span>
+              <span class="exp-role">Conexão com Dados | Operação | Decisão</span>
           </div>
           <div class="exp-details">
       
             <div class="tech-desc">
-                A solução integra indicadores de clima e satisfação à visão estratégica da organização, fortalecendo a gestão de pessoas orientada por dados e promovendo alinhamento entre capital humano e objetivos corporativos.
+                A solução conecta indicadores de pessoas à estratégia organizacional, transformando dados de satisfação e estrutura interna em insights acionáveis. Isso fortalece a gestão de capital humano, amplia a visibilidade sobre o clima organizacional e orienta decisões baseadas em dados para evolução contínua da organização.
             </div>
         
           </div>
