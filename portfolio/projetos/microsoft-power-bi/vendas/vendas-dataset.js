@@ -154,7 +154,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A solução conecta indicadores comerciais à análise estratégica, integrando métricas de faturamento, volume e eficiência em uma visão consolidada da operação de vendas. A estrutura permite acompanhar a performance de gestores, identificar tendências temporais, padrões regionais e variações no comportamento de consumo, ampliando a transparência operacional e fortalecendo a tomada de decisão orientada por dados de forma contínua e escalável.
+                A solução conecta indicadores comerciais à análise estratégica, proporcionando uma visão integrada da operação de vendas. Permite acompanhar a performance de gestores, identificar tendências ao longo do tempo e variações regionais, aumentando a transparência dos resultados e fortalecendo a tomada de decisão orientada por dados.
             </div>
         
           </div>
