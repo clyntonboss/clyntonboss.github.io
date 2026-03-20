@@ -83,7 +83,7 @@ window.datasetCategoria = [
                         |
                         <a href="https://app.powerbi.com/view?r=eyJrIjoiNGZjYThkMDQtNjY5ZS00ODY5LWE0NzktMmRiNTI2YzczODg1IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
                         |
-                        <a href="https://github.com/clyntonboss/power-bi-faturamento-zentronix-electronics.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        <a href="https://github.com/clyntonboss/power-bi-vendas-zentronix-electronics.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
                         |
                         </p>`,
   
