@@ -2198,7 +2198,7 @@ const sections = {
         <!-- Primeiro, porque essas áreas são responsáveis por gerar receita e demanda. 
              Começar com Comercial e Vendas mostra foco no resultado financeiro da empresa. -->
         <a href="#" data-category="powerBiComercial">Comercial</a>
-        <a href="#" data-category="#">Vendas</a>
+        <a href="#" data-category="powerBiVendas">Vendas</a>
         <!-- Marketing, Produto e SAC apoiam a geração de receita, criando valor e experiência para o cliente. -->
         <a href="#" data-category="#">Marketing</a>
         <a href="#" data-category="#">Produto</a>
