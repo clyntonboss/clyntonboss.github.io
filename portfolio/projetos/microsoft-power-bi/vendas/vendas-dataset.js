@@ -98,12 +98,12 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A Zentronix Electronics buscava compreender o desempenho comercial de suas lojas e gerentes regionais ao longo do tempo. Apesar da disponibilidade de dados de vendas, faltava uma visualização consolidada que permitisse acompanhar faturamento, volume de pedidos e comportamento de consumo por região, dificultando análises comparativas e a identificação de oportunidades de crescimento.
+                A operação comercial da Zentronix Electronics enfrentava dificuldades para consolidar indicadores de desempenho de vendas de forma clara e acessível, dificultando a análise comparativa entre gerentes, regiões e períodos, além de limitar a identificação de padrões de comportamento nas vendas.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
@@ -112,12 +112,12 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Foi desenvolvido um dashboard analítico no Power BI com modelagem dimensional estruturada para consolidar indicadores estratégicos de vendas. A solução permite selecionar gerentes responsáveis pelas operações e analisar KPIs como Faturamento Total, Quantidade de Pedidos e Ticket Médio. A análise temporal de 12 meses apresenta a evolução do faturamento e do volume de produtos vendidos, permitindo identificar sazonalidades e padrões de crescimento.
+                Foi desenvolvida uma solução em Power BI com foco em análise de performance comercial, estruturando KPIs como Faturamento, Transações e Ticket Médio. A navegação foi planejada para permitir análise por gerente, com filtros intuitivos, visualizações temporais e geográficas, além de uma experiência interativa com alternância de temas e acesso rápido à visão geral.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
@@ -126,12 +126,12 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                O painel possibilita avaliar o desempenho comercial por gerente e por loja, identificar regiões com maior e menor faturamento e acompanhar a evolução das vendas ao longo do ano. A visualização geográfica do Brasil destaca variações regionais de faturamento, enquanto a tabela analítica apresenta detalhamento por loja com participação percentual e indicadores visuais de desempenho.
+                O dashboard permite identificar rapidamente variações no desempenho de vendas, destacar períodos de maior e menor volume, analisar a distribuição geográfica das vendas e comparar a performance entre lojas e gestores, apoiando decisões comerciais mais rápidas e orientadas por dados.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
@@ -140,21 +140,21 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Power BI foi utilizado para construção do dashboard e criação da narrativa analítica executiva. DAX foi aplicado no desenvolvimento de medidas como Faturamento, Pedidos, Ticket Médio e métricas de participação percentual. A modelagem dimensional organizou dados de vendas, lojas, gerentes e produtos, garantindo escalabilidade e desempenho nas análises.
+                Power BI foi utilizado para construção das visualizações e navegação interativa. DAX aplicado na criação de métricas como Ticket Médio e análises temporais com destaque automático para extremos. Modelagem de dados estruturada para suportar análise por gerente, loja, período e localização geográfica.
             </div>
         
           </div>
       </div>
-    
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Conexão com Estratégia Comercial</span>
+              <span class="exp-role">Conexão com Dados | Operação | Decisão</span>
           </div>
           <div class="exp-details">
       
             <div class="tech-desc">
-                A solução fortalece a tomada de decisão orientada por dados ao fornecer uma visão clara do desempenho comercial por região, gerente e loja. Com isso, a Zentronix Electronics passa a ter maior capacidade de identificar oportunidades de expansão, otimizar estratégias de vendas e acompanhar indicadores críticos de performance de forma contínua.
+                A solução conecta indicadores comerciais à análise estratégica, proporcionando visão integrada da operação de vendas, maior transparência na performance dos gestores e suporte contínuo à tomada de decisão baseada em dados.
             </div>
         
           </div>
