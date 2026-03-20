@@ -1775,8 +1775,8 @@ arquitetura: {
     dataset: "/portfolio/projetos/microsoft-power-bi/vendas/vendas-dataset.js",
     showViewModes: true,
     content: `
-      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento de Recursos Humanos, organizados por conclusão cronológica decrescente.<br>
-                                        Os projetos apresentados abrangem análise de indicadores de desempenho, turnover, absenteísmo, clima organizacional, estrutura de cargos e monitoramento estratégico de métricas de People Analytics.</p></div>
+      <div class="tech-subtitle-sup"><p>Esta seção reúne projetos voltados ao segmento de Vendas, organizados por conclusão cronológica decrescente.<br>
+                                        Os projetos apresentados abrangem análise de performance comercial, faturamento, volume de vendas, ticket médio, comportamento de clientes, sazonalidade, canais de venda e monitoramento estratégico de indicadores de receita.</p></div>
       
       <hr class="decorative-line-cert">
       
@@ -1817,8 +1817,8 @@ arquitetura: {
       
       <hr class="decorative-line-cert">
       
-      <div class="tech-subtitle-inf"><p>Os projetos de Recursos Humanos consolidam uma base analítica voltada à gestão estratégica de pessoas e monitoramento de performance.<br>
-                                        O domínio desses conceitos permite estruturar soluções que fortalecem a cultura organizacional, reduzem riscos de rotatividade, ampliam o engajamento e alinham o capital humano aos objetivos estratégicos da organização com suporte à tomada de decisão orientada por dados.</p></div>
+      <div class="tech-subtitle-inf"><p>Os projetos de Vendas consolidam uma base analítica orientada à maximização de resultados comerciais e otimização de estratégias de mercado.<br>
+                                        O domínio desses conceitos permite estruturar soluções que ampliam a previsibilidade de receitas, identificam oportunidades de crescimento, aprimoram a segmentação de clientes e fortalecem a tomada de decisão estratégica com base em dados.</p></div>
     `
   },
 };
