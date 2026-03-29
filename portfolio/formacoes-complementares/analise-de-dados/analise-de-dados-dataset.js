@@ -49,6 +49,635 @@
 
 window.datasetCategoria = [
   {
+    id: 289,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Accenture - Python para Análise e Automação de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Accenture - Python para Análise e Automação de Dados",
+    cargaHoraria: "55 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "R3JWR6I6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/R3JWR6I6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 288,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Python Aplicado à Análise (Automação de Rotinas e Visualização).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Python Aplicado à Análise: Automação de Rotinas e Visualização",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "CQXG2YBH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CQXG2YBH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 287,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Detecção de Anomalias em Transações em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Detecção de Anomalias em Transações em Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "W49MWOHV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/W49MWOHV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 286,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Boas Práticas, Testes e Otimização de Código em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas Práticas, Testes e Otimização de Código em Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "5SS8MW0X",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/5SS8MW0X.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 285,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Visualização Avançada de Dados com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Visualização Avançada de Dados com Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "EBG75ELF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EBG75ELF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 284,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Automação de Processos e Análises com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Automação de Processos e Análises com Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "3A1IFEMC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3A1IFEMC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 283,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Preparação de Dados com Python (Bibliotecas Essenciais).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Preparação de Dados com Python: Bibliotecas Essenciais",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "5MP4PTNW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/5MP4PTNW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 282,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Processamento e Limpeza de Dados em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Processamento e Limpeza de Dados em Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "ZBGDWJIA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZBGDWJIA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 281,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Bibliotecas Essenciais de Python para Análise de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Bibliotecas Essenciais de Python para Análise de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "C8IM9CKB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/C8IM9CKB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 280,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Tratamento de Exceções e Depuração de Código em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Tratamento de Exceções e Depuração de Código em Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "UMHEQUIP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UMHEQUIP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 279,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Trabalhando com Arquivos e Dados Externos em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos Aplicada à Análise de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "DKBPLB5L",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DKBPLB5L.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 278,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Programação Orientada a Objetos Aplicada à Análise de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos Aplicada à Análise de Dados",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "P0ZD2DIB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/P0ZD2DIB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 277,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Manipulação de Dados com Estruturas Fundamentais em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Manipulação de Dados com Estruturas Fundamentais em Python",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "SYRLCDYA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SYRLCDYA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 276,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Fundamentos Essenciais de Python para Análise de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos Essenciais de Python para Análise de Dados",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "HD50IWMZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HD50IWMZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 275,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Onboarding + Inteligência Artificial para Acelerar o Desenvolvimento.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Onboarding + Inteligência Artificial para Acelerar o Desenvolvimento",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "LKRKFCKV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LKRKFCKV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 274,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Utilizando Copilotos de Desenvolvimento de Software.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Utilizando Copilotos de Desenvolvimento de Software",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "ZEHGBX9T",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZEHGBX9T.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 273,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Boas-Vindas ao Accenture - Python para Análise e Automação de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas-Vindas ao Accenture - Python para Análise e Automação de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "FPTAL3WM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FPTAL3WM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 272,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.12 · Jornada de Dados · Imersão Jornada de Dados.png",
