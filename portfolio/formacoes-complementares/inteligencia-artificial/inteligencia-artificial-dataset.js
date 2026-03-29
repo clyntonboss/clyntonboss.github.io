@@ -49,6 +49,40 @@
 
 window.datasetCategoria = [
   {
+    id: 160,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.03.12 · Simplifica Treinamentos · Simplifica Inteligência Artificial Express.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Simplifica Treinamentos",
+    curso: "Simplifica Inteligência Artificial Express",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-03-12",
+    dataConclusao: "12 de março de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 159,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.02.26 · Tetra Educação · Imersão Gestor do Futuro.png",
