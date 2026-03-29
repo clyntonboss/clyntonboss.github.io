@@ -49,7 +49,7 @@
 
 window.datasetCategoria = [
   {
-    id: 289,
+    id: 292,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Accenture - Python para Análise e Automação de Dados.png",
 
@@ -86,7 +86,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 288,
+    id: 291,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Python Aplicado à Análise (Automação de Rotinas e Visualização).png",
 
@@ -123,7 +123,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 287,
+    id: 290,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Detecção de Anomalias em Transações em Python.png",
 
@@ -160,7 +160,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 286,
+    id: 289,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Boas Práticas, Testes e Otimização de Código em Python.png",
 
@@ -197,7 +197,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 285,
+    id: 288,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Visualização Avançada de Dados com Python.png",
 
@@ -234,7 +234,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 284,
+    id: 287,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Automação de Processos e Análises com Python.png",
 
@@ -271,7 +271,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 283,
+    id: 286,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Preparação de Dados com Python (Bibliotecas Essenciais).png",
 
@@ -308,7 +308,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 282,
+    id: 285,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Processamento e Limpeza de Dados em Python.png",
 
@@ -345,7 +345,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 281,
+    id: 284,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Bibliotecas Essenciais de Python para Análise de Dados.png",
 
@@ -382,7 +382,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 280,
+    id: 283,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Tratamento de Exceções e Depuração de Código em Python.png",
 
@@ -419,7 +419,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 279,
+    id: 282,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Trabalhando com Arquivos e Dados Externos em Python.png",
 
@@ -456,7 +456,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 278,
+    id: 281,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Programação Orientada a Objetos Aplicada à Análise de Dados.png",
 
@@ -491,9 +491,43 @@ window.datasetCategoria = [
     projetoInterativo: "",
     descricaoProjeto: ""
   },
+
+  {
+    id: 280,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Aplicando Princípios de Reutilização com Herança e Polimorfismo.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aplicando Princípios de Reutilização com Herança e Polimorfismo",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
   
   {
-    id: 277,
+    id: 279,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Manipulação de Dados com Estruturas Fundamentais em Python.png",
 
@@ -528,9 +562,43 @@ window.datasetCategoria = [
     projetoInterativo: "",
     descricaoProjeto: ""
   },
+
+  {
+    id: 278,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Construindo Soluções com Funções em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Construindo Soluções com Funções em Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
   
   {
-    id: 276,
+    id: 277,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Fundamentos Essenciais de Python para Análise de Dados.png",
 
@@ -552,6 +620,40 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/HD50IWMZ.pdf",
       texto: "Verificar Autenticidade"
     },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 276,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Aplicando Decisões e Repetições na Prática.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aplicando Decisões e Repetições na Prática",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-03-28",
+    dataConclusao: "28 de março de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
 
     nomeTitulo: "",
     nomePeriodo: "",
