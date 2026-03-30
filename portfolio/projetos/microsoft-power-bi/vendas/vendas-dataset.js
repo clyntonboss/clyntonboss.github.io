@@ -126,7 +126,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                O dashboard possibilitou identificar produtos de alta performance, vendedores com maior eficiência comercial e regiões com potencial de crescimento, além de evidenciar diferenças entre canais de venda, promovendo decisões mais assertivas e orientadas por dados.
+                O dashboard possibilitou identificar produtos de alta performance, vendedores com maior eficiência comercial e regiões com potencial de crescimento, além de evidenciar diferenças entre canais de venda e padrões de comportamento, promovendo decisões mais assertivas, rápidas e orientadas por dados.
             </div>
         
           </div>
@@ -154,7 +154,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A solução conecta análise de desempenho comercial à tomada de decisão estratégica, proporcionando visão integrada do negócio, identificação de oportunidades e suporte à otimização contínua de produtos, canais e equipes de vendas.
+                A solução conecta análise de desempenho comercial à tomada de decisão estratégica, proporcionando visão integrada do negócio, identificação de oportunidades relevantes e suporte à otimização contínua de produtos, canais de venda e equipes comerciais.
             </div>
         
           </div>
