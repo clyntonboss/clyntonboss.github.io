@@ -75,15 +75,15 @@ window.datasetCategoria = [
     nomeStackTecnica: "Stack Técnica: ",
   
     titulo: "Performance de Vendas",
-    periodo: "Abr 2022",
-    duracao: "20 dias",
-    stackTecnica: "| Power BI | DAX | Modelagem Dimensional | Data Storytelling | Business Intelligence |",
+    periodo: "Jan 2026 - Fev 2026",
+    duracao: "36 dias",
+    stackTecnica: "| Power BI | Power Query | DAX | Modelagem Dimensional | Data Storytelling | Business Intelligence | PowerPoint |",
 
     projetoInterativo: `<p>
                         |
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiZGY5NTE1MTUtNWI2MS00YTFkLWEzOWItN2JmMWRmN2U2ODc4IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiYjI5ZjFkOTEtNmI5YS00OGRlLThjMDQtNzliNzczNWY1MGJiIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
                         |
-                        <a href="https://github.com/clyntonboss/power-bi-faturamento-veloura-beauty.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        <a href="https://github.com/clyntonboss/power-bi-vendas-veloura-beauty.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
                         |
                         </p>`,
     
