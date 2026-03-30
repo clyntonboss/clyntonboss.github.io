@@ -154,7 +154,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A solução conecta análise de desempenho comercial à tomada de decisão estratégica, proporcionando visão integrada do negócio, identificação de oportunidades relevantes e suporte à otimização contínua de produtos, canais de venda e equipes comerciais.
+                A solução conecta análise de desempenho comercial à tomada de decisão estratégica, proporcionando visão integrada do negócio, identificação de oportunidades relevantes, maior transparência operacional e suporte à otimização contínua de produtos, canais de venda e equipes comerciais.
             </div>
         
           </div>
