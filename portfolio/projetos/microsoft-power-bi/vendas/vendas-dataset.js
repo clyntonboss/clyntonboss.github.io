@@ -49,6 +49,120 @@
 
 window.datasetCategoria = [
   {
+    id: 2,
+  
+    thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/faturamento-veloura-beauty.png",
+  
+    nomeInstituicao: "",
+    nomeCurso: "",
+    nomeCargaHoraria: "",
+    nomeDataConclusao: "",
+    nomeCodigo: "",
+    nomeVerificacao: "",
+    
+    instituicao: "",
+    curso: "",
+    cargaHoraria: "",
+    conclusaoISO: "",
+    dataConclusao: "",
+    codigo: "",
+    mostrarCopiar: false,
+    verificacao: "",
+  
+    nomeTitulo: "Título: ",
+    nomePeriodo: "Período: ",
+    nomeDuracao: "Duração: ",
+    nomeStackTecnica: "Stack Técnica: ",
+  
+    titulo: "Performance de Vendas",
+    periodo: "Abr 2022",
+    duracao: "20 dias",
+    stackTecnica: "| Power BI | DAX | Modelagem Dimensional | Data Storytelling | Business Intelligence |",
+
+    projetoInterativo: `<p>
+                        |
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiZGY5NTE1MTUtNWI2MS00YTFkLWEzOWItN2JmMWRmN2U2ODc4IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        |
+                        <a href="https://github.com/clyntonboss/power-bi-faturamento-veloura-beauty.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
+                        |
+                        </p>`,
+    
+    descricaoProjeto: `
+      <div class="decorative-line-projetos"></div>
+      
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Contexto do Problema</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                A operação comercial da Veloura Beauty enfrentava desafios na análise integrada de desempenho de vendas, dificultando a compreensão da eficiência de produtos, performance de vendedores e variações regionais, impactando decisões estratégicas e alocação de esforços comerciais.
+            </div>
+        
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Abordagem Estratégica</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                Foi desenvolvida uma solução em Power BI com modelagem dimensional estruturada e KPIs estratégicos: Faturamento, Transações, Produtos Vendidos e Ticket Médio. A análise foi organizada em múltiplas perspectivas — visão geral, produto, vendedor e localidade — permitindo leitura executiva e aprofundamento analítico.
+            </div>
+        
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Impactos e Resultados</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                O dashboard possibilitou identificar produtos de alta performance, vendedores com maior eficiência comercial e regiões com potencial de crescimento, além de evidenciar diferenças entre canais de venda, promovendo decisões mais assertivas e orientadas por dados.
+            </div>
+        
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Tecnologias Envolvidas</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                Power BI foi utilizado para visualização e storytelling dos dados. DAX para construção de métricas como variações entre canais, classificação de desempenho (matriz BCG) e indicadores de eficiência. Modelagem dimensional para organização das tabelas de vendas, produtos, vendedores e localidades.
+            </div>
+        
+          </div>
+      </div>
+    
+      <div class="experience experience--compact experience--inf">
+          <div class="exp-header exp-header--compact">
+              <button class="exp-toggle exp-toggle--compact">▸</button>
+              <span class="exp-role">Conexão com Dados | Operação | Decisão</span>
+          </div>
+          <div class="exp-details">
+      
+            <div class="tech-desc">
+                A solução conecta análise de desempenho comercial à tomada de decisão estratégica, proporcionando visão integrada do negócio, identificação de oportunidades e suporte à otimização contínua de produtos, canais e equipes de vendas.
+            </div>
+        
+          </div>
+      </div>
+    `
+  },
+  
+  {
     id: 1,
   
     thumb: "/portfolio/projetos/microsoft-power-bi/vendas/projetos/vendas-zentronix-electronics.png",
