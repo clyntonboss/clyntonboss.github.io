@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 2,
   
-    thumb: "/portfolio/projetos/microsoft-power-bi/faturamento/projetos/faturamento-veloura-beauty.png",
+    thumb: "/portfolio/projetos/microsoft-power-bi/vendas/projetos/vendas-veloura-beauty.png",
   
     nomeInstituicao: "",
     nomeCurso: "",
