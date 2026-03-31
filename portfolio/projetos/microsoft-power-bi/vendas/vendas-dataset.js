@@ -77,7 +77,7 @@ window.datasetCategoria = [
     titulo: "Performance de Vendas",
     periodo: "Abr 2022",
     duracao: "24 dias",
-    stackTecnica: "| Power BI | Power Query | DAX | Modelagem Dimensional | Data Storytelling | Business Intelligence | PowerPoint |",
+    stackTecnica: "| Power BI | Power Query | DAX | Modelagem Dimensional | Data Storytelling | PowerPoint |",
 
     projetoInterativo: `<p>
                         |
