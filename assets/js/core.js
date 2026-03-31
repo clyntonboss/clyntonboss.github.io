@@ -225,7 +225,7 @@ function initUpdateDate() {
     const lastUpdateElements = document.querySelectorAll('.last-update');
 
     // Define a data de atualização que será exibida
-    const dataAtualizacao = "10 de março de 2026"; // Definir data aqui
+    const dataAtualizacao = "31 de março de 2026"; // Definir data aqui
 
     // Atualiza o texto de cada elemento selecionado
     lastUpdateElements.forEach(el => 
