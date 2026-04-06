@@ -96,69 +96,67 @@ window.datasetCategoria = [
               <span class="exp-role">Contexto do Problema</span>
           </div>
           <div class="exp-details">
-  
+      
             <div class="tech-desc">
-                A Altaris Logistics buscava maior visibilidade sobre sua operação de entregas, especialmente em relação ao desempenho logístico, atrasos nas entregas, custos operacionais e índices de devolução. A ausência de uma visão integrada dificultava a identificação de gargalos e a tomada de decisões estratégicas baseadas em dados.
+                A operação logística da Altaris Logistics enfrentava desafios na consolidação e análise de dados relacionados às entregas, faturamento e desempenho operacional, dificultando a identificação de padrões de atraso, eficiência nas entregas e causas de devoluções, impactando diretamente a qualidade do serviço e a tomada de decisão estratégica.
             </div>
-  
+        
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
               <span class="exp-role">Abordagem Estratégica</span>
           </div>
           <div class="exp-details">
-  
+      
             <div class="tech-desc">
-                Foi desenvolvido um dashboard executivo em Power BI estruturado em múltiplas camadas de análise. A capa apresenta indicadores de performance logística com o percentual de entregas realizadas no prazo e entregas em atraso. A visão geral consolida métricas estratégicas como faturamento total, gasto com entregas e percentual de lucro operacional.
+                Foi desenvolvida uma solução em Power BI estruturada para integrar indicadores logísticos e operacionais, com navegação intuitiva entre visão executiva e análises detalhadas. A modelagem permitiu explorar a performance das entregas ao longo do tempo, distribuição geográfica, controle de devoluções e análise de SLA, possibilitando uma visão consolidada e analítica da operação.
             </div>
-  
+        
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Estrutura Analítica do Dashboard</span>
+              <span class="exp-role">Impactos e Resultados</span>
           </div>
           <div class="exp-details">
-  
+      
             <div class="tech-desc">
-                A análise temporal foi construída com um gráfico de área que apresenta a evolução mensal do total de entregas, entregas no prazo e entregas atrasadas. Para análise geográfica, foi implementado um mapa interativo exibindo a distribuição das entregas por estado. As devoluções foram analisadas através de um gráfico de rosca com os principais motivos: desistência do cliente, mercadoria incorreta e erro na nota fiscal.
-                <br><br>
-                No painel lateral direito, indicadores percentuais destacam o desempenho das entregas no prazo e com atraso. Complementando essa análise, gráficos de barras verticais detalham os tipos de transporte utilizados — refrigerado, resfriado e seco — permitindo avaliar o impacto logístico em cada categoria.
+                O dashboard possibilita identificar rapidamente o desempenho das entregas, avaliar o nível de cumprimento de prazos e compreender as principais causas de devoluções. A análise integrada entre indicadores operacionais e financeiros promove decisões mais assertivas voltadas à eficiência logística, redução de atrasos e melhoria contínua do serviço.
             </div>
-  
+        
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
               <span class="exp-role">Tecnologias Envolvidas</span>
           </div>
           <div class="exp-details">
-  
+      
             <div class="tech-desc">
-                Power BI foi utilizado para construção do dashboard e storytelling de dados. DAX foi aplicado para cálculo de métricas como percentual de lucro, percentual de entregas no prazo e análise de atrasos. A modelagem dimensional organizou tabelas de entregas, regiões, transportes e devoluções. Excel foi utilizado para preparação e estruturação inicial dos dados, enquanto Figma foi utilizado para planejamento visual e prototipação da interface do dashboard.
+                Power BI foi utilizado para construção das visualizações e navegação entre páginas analíticas. DAX aplicado na criação de medidas para análise de entregas, indicadores de SLA e cálculos de faturamento e devoluções. Modelagem dimensional estruturando dados de pedidos, clientes, estados e operações logísticas, garantindo performance e escalabilidade analítica.
             </div>
-  
+        
           </div>
       </div>
-    
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
               <span class="exp-role">Conexão com Dados | Operação | Decisão</span>
           </div>
           <div class="exp-details">
-  
+      
             <div class="tech-desc">
-                A solução fornece uma visão estratégica e operacional da cadeia logística da Altaris Logistics, permitindo monitorar desempenho de entregas, custos operacionais e padrões de devolução. O dashboard fortalece a governança de dados da operação e possibilita decisões mais rápidas e assertivas para otimização da performance logística.
+                A solução conecta indicadores operacionais à estratégia logística, transformando dados de entregas, prazos e devoluções em insights acionáveis. Isso fortalece a gestão da operação, amplia a visibilidade sobre a performance logística e orienta decisões baseadas em dados para aumento da eficiência e qualidade do serviço.
             </div>
-  
+        
           </div>
       </div>
     `
