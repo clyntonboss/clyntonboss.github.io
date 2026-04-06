@@ -81,7 +81,7 @@ window.datasetCategoria = [
   
     projetoInterativo: `<p>
                         |
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMTdiMTFmMGQtZGZjNC00Mzk4LWI1MmQtMDQ1NzBlNTM3ZjlkIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiM2JmZDM2NzktYTJiMy00NWI3LWE4YjQtODAyNjhlNmFkZDVlIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9" target="_blank" class="cert-link-verify cert-link-inf"> Projeto Interativo </a>
                         |
                         <a href="https://github.com/clyntonboss/power-bi-logistica-altaris-logistics.git" target="_blank" class="cert-link-verify cert-link-inf"> Repositório do Projeto </a>
                         |
