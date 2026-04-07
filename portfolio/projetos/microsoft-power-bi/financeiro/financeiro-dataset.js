@@ -98,12 +98,12 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A gestão financeira frequentemente se torna complexa pela dispersão de informações entre diferentes fontes, dificultando a visualização clara de receitas, despesas, investimentos e compromissos financeiros. A ausência de um painel consolidado limita a capacidade de análise e planejamento estratégico das finanças.
+                A gestão financeira da Aureon Finance enfrentava desafios na consolidação e análise integrada de receitas, despesas, investimentos e empréstimos, dificultando a obtenção de uma visão clara sobre a saúde financeira. A ausência de indicadores estruturados e análises temporais limitava a identificação de tendências, o controle orçamentário e o acompanhamento do desempenho em relação às metas estabelecidas.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
@@ -112,26 +112,26 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Foi desenvolvido o dashboard Centro de Controle Financeiro, estruturado com uma capa interativa contendo menu lateral de navegação e suporte a modo Dark e Light para melhor experiência visual. A partir da capa, o usuário acessa o Centro de Controle Financeiro, que centraliza os principais indicadores financeiros e permite acompanhar o fluxo de receitas, despesas, empréstimos e investimentos em uma visão integrada.
+                Foi desenvolvida uma solução em Power BI estruturada para integrar indicadores financeiros e análises comparativas, com navegação intuitiva entre visão geral e detalhamentos operacionais. A modelagem permitiu acompanhar a evolução de receitas e despesas ao longo do tempo, analisar a representatividade dos custos e identificar os principais grupos de despesas, além de monitorar o desempenho frente às metas financeiras.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Estrutura Analítica do Dashboard</span>
+              <span class="exp-role">Impactos e Resultados</span>
           </div>
           <div class="exp-details">
       
             <div class="tech-desc">
-                O Centro de Controle Financeiro apresenta cartões estratégicos com indicadores de Receita, Despesas, Empréstimos, Investimentos e Meta de Receita. A análise temporal Receita vs Despesas permite compreender a evolução do fluxo financeiro ao longo do tempo. Um Treemap de Transações organiza visualmente receitas, despesas, investimentos e empréstimos, enquanto indicadores percentuais mostram o impacto das despesas em relação à receita. O painel inclui ainda um gráfico de barras horizontais com o TOP 3 maiores receitas e tabelas detalhadas para acompanhamento completo das transações financeiras.
+                O dashboard possibilita identificar rapidamente desequilíbrios entre receitas e despesas, avaliar a concentração de custos e acompanhar o desempenho financeiro ao longo do tempo. A análise detalhada das transações e categorias de despesas promove maior controle orçamentário e decisões mais assertivas voltadas à otimização de recursos e aumento da eficiência financeira.
             </div>
         
           </div>
       </div>
-  
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
@@ -140,21 +140,21 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Power BI foi utilizado para construção do ambiente analítico e das visualizações interativas. DAX foi aplicado na criação de medidas para cálculo de indicadores financeiros, variações temporais e métricas percentuais. A Linguagem M foi empregada no processo de transformação e preparação dos dados no Power Query. A modelagem dimensional estruturou as entidades financeiras e transacionais, garantindo consistência analítica e escalabilidade do modelo.
+                Power BI foi utilizado para construção das visualizações e navegação entre análises financeiras. DAX aplicado na criação de medidas para indicadores de desempenho, comparativos temporais e cálculo de metas. Modelagem dimensional estruturando dados de receitas, despesas, investimentos e transações, garantindo consistência, performance e escalabilidade analítica.
             </div>
         
           </div>
       </div>
-    
+      
       <div class="experience experience--compact experience--inf">
           <div class="exp-header exp-header--compact">
               <button class="exp-toggle exp-toggle--compact">▸</button>
-              <span class="exp-role">Conexão com Planejamento Financeiro</span>
+              <span class="exp-role">Conexão com Dados | Operação | Decisão</span>
           </div>
           <div class="exp-details">
       
             <div class="tech-desc">
-                O Centro de Controle Financeiro foi concebido como um hub de controle e planejamento financeiro orientado por dados. A solução permite acompanhar desempenho financeiro, identificar padrões de gastos e apoiar decisões mais conscientes sobre investimentos e metas financeiras, alinhando organização financeira com prosperidade sustentável.
+                A solução conecta dados financeiros à estratégia organizacional, transformando informações operacionais em insights acionáveis. Isso fortalece o controle financeiro, amplia a visibilidade sobre o desempenho econômico e orienta decisões baseadas em dados para planejamento, crescimento sustentável e melhoria contínua dos resultados.
             </div>
         
           </div>
