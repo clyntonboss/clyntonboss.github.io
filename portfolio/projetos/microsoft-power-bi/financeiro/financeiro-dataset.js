@@ -98,7 +98,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                A gestão financeira da Aureon Finance enfrentava desafios na consolidação e análise integrada de receitas, despesas, investimentos e empréstimos, dificultando a obtenção de uma visão clara sobre a saúde financeira. A ausência de indicadores estruturados e análises temporais limitava a identificação de tendências, o controle orçamentário e o acompanhamento do desempenho em relação às metas estabelecidas.
+                A gestão financeira da Aureon Finance enfrentava desafios na consolidação e análise integrada de receitas, despesas, investimentos e empréstimos, dificultando a obtenção de uma visão clara sobre a saúde financeira. A ausência de indicadores estruturados e análises temporais limitava a identificação de tendências, o controle orçamentário e o acompanhamento do desempenho.
             </div>
         
           </div>
@@ -112,7 +112,7 @@ window.datasetCategoria = [
           <div class="exp-details">
       
             <div class="tech-desc">
-                Foi desenvolvida uma solução em Power BI estruturada para integrar indicadores financeiros e análises comparativas, com navegação intuitiva entre visão geral e detalhamentos operacionais. A modelagem permitiu acompanhar a evolução de receitas e despesas ao longo do tempo, analisar a representatividade dos custos e identificar os principais grupos de despesas, além de monitorar o desempenho frente às metas financeiras.
+                Foi desenvolvida uma solução em Power BI estruturada para integrar indicadores financeiros e análises comparativas, com navegação intuitiva entre visão geral e detalhamentos operacionais. A modelagem permitiu acompanhar a evolução de receitas e despesas ao longo do tempo, analisar a representatividade dos custos e identificar os principais grupos de despesas.
             </div>
         
           </div>
