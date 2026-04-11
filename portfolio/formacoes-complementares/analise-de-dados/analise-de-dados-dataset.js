@@ -49,6 +49,43 @@
 
 window.datasetCategoria = [
   {
+    id: 293,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.03 · Instituto Federal Minas Gerais · Análise e Visualização de Dados com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Instituto Federal Minas Gerais",
+    curso: "Análise e Visualização de Dados com Power BI",
+    cargaHoraria: "40 h",
+    conclusaoISO: "2026-04-03",
+    dataConclusao: "03 de abril de 2026",
+    codigo: "69cfd288-d4b4-41aa-832d-741fc883362e",
+    mostrarCopiar: true,
+    verificacao: {
+      url: "https://mais.ifmg.edu.br/maisifmg/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 292,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.03.28 · Digital Innovation One · Accenture - Python para Análise e Automação de Dados.png",
