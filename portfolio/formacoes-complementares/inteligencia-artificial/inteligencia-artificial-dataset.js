@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 162,
 
-    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.01 · AWS Treina Brasil on TIDWIT · Nuvem e IA para Empresas.png",
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.02 · AWS Treina Brasil on TIDWIT · Nuvem e IA para Empresas.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
