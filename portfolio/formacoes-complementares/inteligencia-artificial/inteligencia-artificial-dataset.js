@@ -49,7 +49,7 @@
 
 window.datasetCategoria = [
   {
-    id: 190,
+    id: 191,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · TOTVS - Fundamentos de Engenharia de Dados e Machine Learning.png",
 
@@ -86,7 +86,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 189,
+    id: 190,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Fundamentos e Técnicas de Machine Learning.png",
 
@@ -123,7 +123,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 188,
+    id: 189,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Python para Machine Learning na Prática.png",
 
@@ -160,7 +160,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 187,
+    id: 188,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Linguagens de Programação para Machine Learning.png",
 
@@ -197,7 +197,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 186,
+    id: 187,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Classificação de Problemas (Explorando Datasets).png",
 
@@ -234,7 +234,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 185,
+    id: 186,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Algoritmos de SVM (Support Vector Machine).png",
 
@@ -271,7 +271,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 184,
+    id: 185,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Algoritmos Genéricos.png",
 
@@ -308,7 +308,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 183,
+    id: 184,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Redes Neurais Artificiais.png",
 
@@ -345,7 +345,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 182,
+    id: 183,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Métodos de Machine Learning Bioinspirados.png",
 
@@ -382,7 +382,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 181,
+    id: 182,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Introdução ao Machine Learning.png",
 
@@ -419,7 +419,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 180,
+    id: 181,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Noções de Computação em Nuvem.png",
 
