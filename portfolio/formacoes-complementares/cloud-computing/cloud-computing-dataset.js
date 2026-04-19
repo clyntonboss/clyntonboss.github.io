@@ -49,6 +49,43 @@
 
 window.datasetCategoria = [
   {
+    id: 122,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.12 · 4·Linux · Cloud Fundamentals.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",    
+
+    instituicao: "4·Linux",
+    curso: "Cloud Fundamentals",
+    cargaHoraria: "20 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "2618509009RR",
+    mostrarCopiar: true,
+    verificacao: {
+      url: "http://aia.4linux.com.br/admin/tool/certificate/",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 121,
 
     thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.02 · AWS Treina Brasil on TIDWIT · AWS Cloud Practitioner.png",
