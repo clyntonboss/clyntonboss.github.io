@@ -49,6 +49,376 @@
 
 window.datasetCategoria = [
   {
+    id: 190,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · TOTVS - Fundamentos de Engenharia de Dados e Machine Learning.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "TOTVS - Fundamentos de Engenharia de Dados e Machine Learning",
+    cargaHoraria: "61 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "2LQFH7XT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2LQFH7XT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 189,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Fundamentos e Técnicas de Machine Learning.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos e Técnicas de Machine Learning",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "D0UZNLTU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/D0UZNLTU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 188,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Python para Machine Learning na Prática.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Python para Machine Learning na Prática",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "YKLEWGZ9",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YKLEWGZ9.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 187,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Linguagens de Programação para Machine Learning.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Linguagens de Programação para Machine Learning",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "LYUZDQWO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LYUZDQWO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 186,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Classificação de Problemas (Explorando Datasets).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Classificação de Problemas: Explorando Datasets",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "8ADOHQNM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8ADOHQNM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 185,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Algoritmos de SVM (Support Vector Machine).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Algoritmos de SVM (Support Vector Machine)",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "9WZKWGPK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9WZKWGPK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 184,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Algoritmos Genéricos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Algoritmos Genéricos",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "TOV8NULP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TOV8NULP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 183,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Redes Neurais Artificiais.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Redes Neurais Artificiais",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "PUSKA4RK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PUSKA4RK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 182,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Métodos de Machine Learning Bioinspirados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Métodos de Machine Learning Bioinspirados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "F1KPMIOS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/F1KPMIOS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 181,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Introdução ao Machine Learning.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Machine Learning",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "09AK9QA5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/09AK9QA5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 180,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Noções de Computação em Nuvem.png",
