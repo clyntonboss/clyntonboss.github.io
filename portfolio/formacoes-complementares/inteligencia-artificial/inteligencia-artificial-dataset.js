@@ -49,6 +49,74 @@
 
 window.datasetCategoria = [
   {
+    id: 162,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.01 · AWS Treina Brasil on TIDWIT · Nuvem e IA para Empresas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "AWS Treina Brasil on TIDWIT",
+    curso: "Nuvem e IA para Empresas",
+    cargaHoraria: "1 h 36 min",
+    conclusaoISO: "2026-04-02",
+    dataConclusao: "02 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 161,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.01 · AWS Treina Brasil on TIDWIT · Fundamentos da IA.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "AWS Treina Brasil on TIDWIT",
+    curso: "Fundamentos da IA",
+    cargaHoraria: "2 h 38 min",
+    conclusaoISO: "2026-04-01",
+    dataConclusao: "01 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 160,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.03.12 · Simplifica Treinamentos · Simplifica Inteligência Artificial Express.png",
