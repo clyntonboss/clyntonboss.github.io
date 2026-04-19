@@ -49,6 +49,74 @@
 
 window.datasetCategoria = [
   {
+    id: 121,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.02 · AWS Treina Brasil on TIDWIT · AWS Cloud Practitioner.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "AWS Treina Brasil on TIDWIT",
+    curso: "AWS Cloud Practitioner",
+    cargaHoraria: "12 h 17 min",
+    conclusaoISO: "2026-04-02",
+    dataConclusao: "02 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 120,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.01 · AWS Treina Brasil on TIDWIT · Fundamentos de Nuvem.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "AWS Treina Brasil on TIDWIT",
+    curso: "Fundamentos de Nuvem",
+    cargaHoraria: "3 h 11 min",
+    conclusaoISO: "2026-04-01",
+    dataConclusao: "01 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 119,
 
     thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.02.11 · FIAP - Centro Universitário · Cloud Fundamentals, Administration and Solution Architect.png",
