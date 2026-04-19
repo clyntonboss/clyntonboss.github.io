@@ -49,6 +49,40 @@
 
 window.datasetCategoria = [
   {
+    id: 294,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Xperiun · Data Analytics · Imersão Power BI para Negócios.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Xperiun | Data Analytics",
+    curso: "Imersão Power BI para Negócios",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 293,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.03 · Instituto Federal Minas Gerais · Análise e Visualização de Dados com Power BI.png",
