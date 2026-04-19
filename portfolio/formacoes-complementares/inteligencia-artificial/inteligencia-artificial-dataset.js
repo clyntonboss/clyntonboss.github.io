@@ -49,6 +49,259 @@
 
 window.datasetCategoria = [
   {
+    id: 172,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Introdução a Banco de Dados Relacionais e ETL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Banco de Dados Relacionais e ETL",
+    cargaHoraria: "13 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "16ZBJ20N",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/16ZBJ20N.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 171,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Praticando Fundamentos de ETL com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Praticando Fundamentos de ETL com Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 170,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Explorando IA Generativa em um Pipeline de ETL com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando IA Generativa em um Pipeline de ETL com Python",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "OGZJI8JF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OGZJI8JF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 169,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Fundamentos de ETL (Extract, Transform, Load) com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de ETL (Extract, Transform, Load) com Python",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "YMYVZKYN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YMYVZKYN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 168,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Introdução a Banco de Dados NoSQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Banco de Dados NoSQL",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "XBG8LXOZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XBG8LXOZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 167,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Introdução à Ciência de Dados e Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução à Ciência de Dados e Python",
+    cargaHoraria: "13 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "XIAHL4KR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XIAHL4KR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+    {
+    id: 166,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Praticando Operadores e Estruturas Condicionais em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Praticando Operadores e Estruturas Condicionais em Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-04",
+    dataConclusao: "04 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 165,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.04 · Digital Innovation One · Princípios de Python e Versionamento de Código com Git e GitHub.png",
