@@ -49,6 +49,43 @@
 
 window.datasetCategoria = [
   {
+    id: 137,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.12 · Instituto Federal Espírito Santo · Lovelace (Programação Python e C).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Instituto Federal Espírito Santo",
+    curso: "Lovelace: Programação Python e C",
+    cargaHoraria: "60 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "824cabdf-6ee1-4ac0-b510-b88403958955",
+    mostrarCopiar: true,
+    verificacao: {
+      url: "https://mooc.cefor.ifes.edu.br/moodle/mod/simplecertificate/verify.php",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 136,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.02.26 · FIAP - Centro Universitário · Python™ Development.png",
