@@ -49,6 +49,40 @@
 
 window.datasetCategoria = [
   {
+    id: 323,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Xperiun · Data Analytics · Imersão Power BI para Negócios.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Xperiun | Data Analytics",
+    curso: "Imersão Power BI para Negócios",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 322,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Suzano - Análise de Dados com Power BI.png",
@@ -413,7 +447,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 313,
+    id: 312,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Como Escrever Consultas Otimizadas no SQL.png",
 
@@ -450,7 +484,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 312,
+    id: 311,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Explorando SQL com Python.png",
 
@@ -484,7 +518,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 311,
+    id: 310,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Sistemas Relacionais em Banco de Dados.png",
 
@@ -521,7 +555,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 310,
+    id: 309,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Modelo Relacional e Mapeamento Relacional com Banco de Dados.png",
 
@@ -558,7 +592,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 309,
+    id: 308,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Construindo um Esquema Conceitual para Banco de Dados.png",
 
@@ -595,7 +629,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 308,
+    id: 307,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Refinando um Projeto Conceitual de Banco de Dados - e-Commerce.png",
 
@@ -632,7 +666,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 307,
+    id: 306,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Modelo Relacionamento de Entidade Aprimorado com Banco de Dados.png",
 
@@ -669,7 +703,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 306,
+    id: 305,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Modelo de Entidade Relacionamento com Banco de Dados.png",
 
@@ -706,7 +740,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 305,
+    id: 304,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Fundamentos de Modelagem e Projeto de Banco de Dados.png",
 
@@ -743,7 +777,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 304,
+    id: 303,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Introdução a Banco de Dados Relacionais.png",
 
@@ -780,7 +814,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 303,
+    id: 302,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Live de Lançamento - Coding the Future Suzano - Análise de Dados com Power BI.png",
 
@@ -817,7 +851,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 302,
+    id: 301,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Arquitetura de Banco de Dados.png",
 
@@ -854,7 +888,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 301,
+    id: 300,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Modelagem de Dados para Banco de Dados.png",
 
@@ -891,7 +925,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 300,
+    id: 299,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Sistemas de Gerenciamento de Banco de Dados.png",
 
@@ -928,7 +962,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 299,
+    id: 298,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Introdução a Banco de Dados.png",
 
@@ -965,7 +999,7 @@ window.datasetCategoria = [
   },
   
   {
-    id: 298,
+    id: 297,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Introdução à Análise de Dados com Power BI com a Suzano.png",
 
@@ -987,40 +1021,6 @@ window.datasetCategoria = [
       url: "https://hermes.dio.me/certificates/AULY04JT.pdf",
       texto: "Verificar Autenticidade"
     },
-
-    nomeTitulo: "",
-    nomePeriodo: "",
-    nomeDuracao: "",
-    nomeStackTecnica: "",
-
-    titulo: "",
-    periodo: "",
-    duracao: "",
-    stackTecnica: "",
-    projetoInterativo: "",
-    descricaoProjeto: ""
-  },
-  
-  {
-    id: 297,
-
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Xperiun · Data Analytics · Imersão Power BI para Negócios.png",
-
-    nomeInstituicao: "Instituição: ",
-    nomeCurso: "Curso: ",
-    nomeCargaHoraria: "Carga Horária: ",
-    nomeDataConclusao: "Data de Conclusão: ",
-    nomeCodigo: "Código: ",
-    nomeVerificacao: "Verificação: ",
-
-    instituicao: "Xperiun | Data Analytics",
-    curso: "Imersão Power BI para Negócios",
-    cargaHoraria: "8 h",
-    conclusaoISO: "2026-04-12",
-    dataConclusao: "12 de abril de 2026",
-    codigo: "Inaplicável",
-    mostrarCopiar: false,
-    verificacao: null,
 
     nomeTitulo: "",
     nomePeriodo: "",
