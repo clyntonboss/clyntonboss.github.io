@@ -49,6 +49,43 @@
 
 window.datasetCategoria = [
   {
+    id: 299,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Introdução a Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Banco de Dados",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-11",
+    dataConclusao: "11 de abril de 2026",
+    codigo: "QA41RTUL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QA41RTUL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 298,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Introdução à Análise de Dados com Power BI com a Suzano.png",
