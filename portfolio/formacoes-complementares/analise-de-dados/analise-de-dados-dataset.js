@@ -49,6 +49,40 @@
 
 window.datasetCategoria = [
   {
+    id: 316,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Relatório e Data Analytics com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Relatório e Data Analytics com Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-11",
+    dataConclusao: "11 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 315,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Modelagem de Dados com Power BI.png",
