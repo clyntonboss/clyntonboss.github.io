@@ -125,7 +125,7 @@ window.datasetCategoria = [
   {
     id: 304,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Live de Lançamento - Coding the Future Suzano - Introdução a Banco de Dados Relacionais.png",
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Introdução a Banco de Dados Relacionais.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
