@@ -49,6 +49,43 @@
 
 window.datasetCategoria = [
   {
+    id: 319,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Desenhando uma Sprint na Prática, do Épico ao Entregável.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desenhando uma Sprint na Prática, do Épico ao Entregável",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-11",
+    dataConclusao: "11 de abril de 2026",
+    codigo: "3GSGAZKJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3GSGAZKJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 318,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Trabalhando em Equipes Ágeis.png",
