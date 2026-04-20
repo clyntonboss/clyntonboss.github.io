@@ -49,6 +49,43 @@
 
 window.datasetCategoria = [
   {
+    id: 311,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Sistemas Relacionais em Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Sistemas Relacionais em Banco de Dados",
+    cargaHoraria: "15 h",
+    conclusaoISO: "2026-04-11",
+    dataConclusao: "11 de abril de 2026",
+    codigo: "NFW0XYTA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NFW0XYTA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 310,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Modelo Relacional e Mapeamento Relacional com Banco de Dados.png",
