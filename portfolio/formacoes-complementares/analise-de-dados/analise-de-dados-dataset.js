@@ -49,7 +49,7 @@
 
 window.datasetCategoria = [
   {
-    id: 296,
+    id: 298,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.11 · Digital Innovation One · Introdução à Análise de Dados com Power BI com a Suzano.png",
 
