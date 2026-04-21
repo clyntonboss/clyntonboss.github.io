@@ -209,7 +209,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Certificação de Professional Scrum Master I (PSMI) da scrum.org",
+    curso: "Certificação de Professional Scrum Master I (PSM I) da scrum.org",
     cargaHoraria: "4 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
@@ -246,7 +246,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais Complementares - Certificação de Professional Scrum Master I (PSMI) da scrum.org",
+    curso: "Materiais Complementares - Certificação de Professional Scrum Master I (PSM I) da scrum.org",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
