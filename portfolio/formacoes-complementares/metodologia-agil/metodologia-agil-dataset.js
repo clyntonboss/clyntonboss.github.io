@@ -98,7 +98,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Simulados Preparatórios Para o Exame PSM I da Scrum.org",
+    curso: "Simulados Preparatórios para o Exame PSM I da Scrum.org",
     cargaHoraria: "7 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
@@ -172,7 +172,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Simulados Preparatórios Para o Exame PSM I da Scrum.org",
+    curso: "Simulados Preparatórios para o Exame PSM I da Scrum.org",
     cargaHoraria: "6 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
@@ -199,7 +199,7 @@ window.datasetCategoria = [
   {
     id: 25,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Como se Preparar para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Como se Preparar para a Certificação de Professional Scrum Master I (PSM I) da scrum.org.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -209,7 +209,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Como se Preparar Para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org",
+    curso: "Como se Preparar para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org",
     cargaHoraria: "4 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
@@ -236,7 +236,7 @@ window.datasetCategoria = [
   {
     id: 24,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Materiais Complementares - Como se Preparar para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Materiais Complementares - Como se Preparar para a Certificação de Professional Scrum Master I (PSM I) da scrum.org.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -246,7 +246,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais Complementares - Como se Preparar Para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org",
+    curso: "Materiais Complementares - Como se Preparar para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
@@ -283,7 +283,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Conteúdos Complementares Para o Exame PSM I",
+    curso: "Conteúdos Complementares para o Exame PSM I",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
@@ -320,7 +320,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Dicas de Ouro Para o Exame PSM I",
+    curso: "Dicas de Ouro para o Exame PSM I",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
@@ -616,7 +616,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais Complementares - Os Próximos Passos Para se Tornar um(a) Scrum Master",
+    curso: "Materiais Complementares - Os Próximos Passos para se Tornar um(a) Scrum Master",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-11",
     dataConclusao: "11 de abril de 2026",
