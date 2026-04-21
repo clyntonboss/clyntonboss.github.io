@@ -88,7 +88,7 @@ window.datasetCategoria = [
   {
     id: 28,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · ·Digital Innovation One · Simulados Preparatórios Para o Exame PSM I da Scrum.org.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · ·Digital Innovation One · Simulados Preparatórios para o Exame PSM I da Scrum.org.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -162,7 +162,7 @@ window.datasetCategoria = [
   {
     id: 26,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Simulados Preparatórios Para o Exame PSM I da Scrum.org.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Simulados Preparatórios para o Exame PSM I da Scrum.org.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -199,7 +199,7 @@ window.datasetCategoria = [
   {
     id: 25,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Como se Preparar Para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Como se Preparar para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -236,7 +236,7 @@ window.datasetCategoria = [
   {
     id: 24,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Materiais Complementares - Como se Preparar Para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Materiais Complementares - Como se Preparar para a Certificação de Professional Scrum Master I (PSMI) da Scrum.org.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -273,7 +273,7 @@ window.datasetCategoria = [
   {
     id: 23,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Conteúdos Complementares Para o Exame PSM I.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Conteúdos Complementares para o Exame PSM I.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -310,7 +310,7 @@ window.datasetCategoria = [
   {
     id: 22,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Dicas de Ouro Para o Exame PSM I.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Dicas de Ouro para o Exame PSM I.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -606,7 +606,7 @@ window.datasetCategoria = [
   {
     id: 14,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Materiais Complementares - Os Próximos Passos Para se Tornar um(a) Scrum Master.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Materiais Complementares - Os Próximos Passos para se Tornar um(a) Scrum Master.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -643,7 +643,7 @@ window.datasetCategoria = [
   {
     id: 13,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Sobre os Artefatos e Seus Compromissos.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Sobre os Artefatos e seus Compromissos.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -754,7 +754,7 @@ window.datasetCategoria = [
   {
     id: 10,
 
-    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Materiais Complementares - SCRUM Fundamentals.png",
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Materiais Complementares - Scrum Fundamentals.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
