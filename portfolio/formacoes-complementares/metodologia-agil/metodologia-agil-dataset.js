@@ -49,6 +49,43 @@
 
 window.datasetCategoria = [
   {
+    id: 8,
+
+    thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2026.04.11 · Digital Innovation One · Introdução ao Scrum.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Scrum",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-11",
+    dataConclusao: "11 de abril de 2026",
+    codigo: "J6MEHJLC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/J6MEHJLC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 7,
 
     thumb: "/portfolio/formacoes-complementares/metodologia-agil/certificados/2025.11.14 · VMEdu, Inc · Scrum Fundamentals Certified.png",
