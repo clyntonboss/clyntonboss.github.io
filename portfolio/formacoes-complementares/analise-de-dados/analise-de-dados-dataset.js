@@ -49,7 +49,7 @@
 
 window.datasetCategoria = [
   {
-    id: 330,
+    id: 347,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Xperiun · Data Analytics · Imersão Power BI para Negócios.png",
 
@@ -82,6 +82,623 @@ window.datasetCategoria = [
     descricaoProjeto: ""
   },
   
+  {
+    id: 346,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Sysvision - Data Analytics com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Sysvision - Data Analytics com Power BI",
+    cargaHoraria: "82 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "CONO676A",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CONO676A.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 345,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Gerenciamento de Workspaces e Datasets com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciamento de Workspaces e Datasets com Power BI",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "BSWHV49X",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BSWHV49X.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 344,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Desafios de Código Python Intermediários II - Data Analytics.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Python Intermediários II - Data Analytics",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 343,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Materiais Complementares - Gerenciamento de Workspaces e Datasets com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Gerenciamento de Workspaces e Datasets com Power BI",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "ANQF0VII",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ANQF0VII.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 342,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Data Analytics & Storytelling com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Data Analytics & Storytelling com Power BI",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "CGG0HK1D",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CGG0HK1D.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 341,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Desafios de Código Python Intermediários I - Data Analytics.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Python Intermediários I - Data Analytics",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 340,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Materiais Complementares - Data Analytics & Storytelling com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Data Analytics & Storytelling com Power BI",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "VDP7ORU1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VDP7ORU1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 339,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Processamento de Dados com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Processamento de Dados com Power BI",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "MD4MOPOA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MD4MOPOA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 338,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Materiais Complementares - Processamento de Dados com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Processamento de Dados com Power BI",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "JR2WCF4V",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JR2WCF4V.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 337,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Visualização de Dados e Relatórios com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Visualização de Dados e Relatórios com Power BI",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "AUVIREAL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AUVIREAL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 336,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Desafios de Código Python Básicos II - Data Analytics.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Python Básicos II - Data Analytics",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 335,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Materiais Complementares - Visualização de Dados e Relatórios com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Visualização de Dados e Relatórios com Power BI",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "Z1PIGI0O",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/Z1PIGI0O.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 334,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Fundamentos de Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Power BI",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "FDZ6WZA3",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FDZ6WZA3.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 333,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Desafios de Código Python Básicos I - Data Analytics.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Python Básicos I - Data Analytics",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 332,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Materiais Complementares - Fundamentos de Análise de Dados e BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Fundamentos de Análise de Dados e BI",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "8XYKC5IW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8XYKC5IW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 331,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Introdução a Análise de Dados e BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Análise de Dados e BI",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "VXMILVML",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VXMILVML.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
+    id: 330,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Digital Innovation One · Aula Inaugural (Coding The Future Sysvision - Data Analytics com Power BI).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aula Inaugural: Coding The Future Sysvision - Data Analytics com Power BI",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-12",
+    dataConclusao: "12 de abril de 2026",
+    codigo: "MALHA1T4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MALHA1T4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
   {
     id: 329,
 
