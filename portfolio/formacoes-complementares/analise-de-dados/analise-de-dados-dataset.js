@@ -49,6 +49,330 @@
 
 window.datasetCategoria = [
   {
+    id: 356,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Squadio - Python Data Analytics.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Squadio - Python Data Analytics",
+    cargaHoraria: "68 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "EZW2BBFU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EZW2BBFU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 355,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Fundamentos e Técnicas de Machine Learning.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos e Técnicas de Machine Learning",
+    cargaHoraria: "13 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "D37ZRIA9",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/D37ZRIA9.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 354,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Desafios de Código Squadio - Intermediário II.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Squadio - Intermediário II",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 353,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Visualização e Análise de Dados com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Visualização e Análise de Dados com Power BI",
+    cargaHoraria: "25 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "6Z3C3EOF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6Z3C3EOF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 352,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Desafios de Código Squadio - Intermediário.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Squadio - Intermediário",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 351,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Introdução à Ciência de Dados com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução à Ciência de Dados com Python",
+    cargaHoraria: "16 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "AUS2NCNA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AUS2NCNA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 350,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Desafios de Código Squadio - Iniciante.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Squadio - Iniciante",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 349,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Princípios de Desenvolvimento de Software Colaborativo.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Princípios de Desenvolvimento de Software Colaborativo",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "ATRXIMX9",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ATRXIMX9.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 348,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Aula Inaugural (Coding the Future Squadio - Python Data Analytics).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aula Inaugural: Coding the Future Squadio - Python Data Analytics",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "H8TRVCRI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H8TRVCRI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 347,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.12 · Xperiun · Data Analytics · Imersão Power BI para Negócios.png",
