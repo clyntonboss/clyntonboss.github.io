@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 128,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Formação AZ-204 Certification.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Formação AZ-204 Certification.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -88,7 +88,7 @@ window.datasetCategoria = [
   {
     id: 127,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Simulado Preparatório o Exame AZ-204.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Simulado Preparatório o Exame AZ-204.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -125,7 +125,7 @@ window.datasetCategoria = [
   {
     id: 126,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Avalie a Formação AZ-204 Certification.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Avalie a Formação AZ-204 Certification.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -162,7 +162,7 @@ window.datasetCategoria = [
   {
     id: 125,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Simulado Preparatório (Exame AZ-204).png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Simulado Preparatório (Exame AZ-204).png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -198,7 +198,7 @@ window.datasetCategoria = [
   {
     id: 124,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Armazenamento e Banco de Dados no Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Armazenamento e Banco de Dados no Azure.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -235,7 +235,7 @@ window.datasetCategoria = [
   {
     id: 123,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Associando Conceitos de Armazenamento e Banco de Dados no Azure.png",
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Associando Conceitos de Armazenamento e Banco de Dados no Azure.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
