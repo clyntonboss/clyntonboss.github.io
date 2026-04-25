@@ -49,6 +49,589 @@
 
 window.datasetCategoria = [
   {
+    id: 388,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Randstad - Análise de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Randstad - Análise de Dados",
+    cargaHoraria: "104 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "YMFGQXBM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YMFGQXBM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 387,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Processamento de Dados com Power BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Processamento de Dados com Power BI",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "GFEI6XPH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GFEI6XPH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 386,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Consultas e Relacionamentos em SQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Consultas e Relacionamentos em SQL",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 385,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Trabalhando com Consultas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Consultas",
+    cargaHoraria: "18 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "WWJNYAX8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WWJNYAX8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 384,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Transformação e Qualidade de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Transformação e Qualidade de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 383,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Sistemas Relacionais em Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Sistemas Relacionais em Banco de Dados",
+    cargaHoraria: "16 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "U555FCIN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U555FCIN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 382,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Fundamentos de Armazenamento de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Armazenamento de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 381,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Seus Primeiros Passos com IA.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Seus Primeiros Passos com IA",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "LKJHIGN0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LKJHIGN0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 380,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Trabalhando com Serviços Azure OpenAI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Serviços Azure OpenAI",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "YB84JEPR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YB84JEPR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 379,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Análise de Sentimentos com Language Studio no Azure AI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Análise de Sentimentos com Language Studio no Azure AI",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "ATCF7CKE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ATCF7CKE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 378,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Conceitos de Processamento de Linguagem Natural.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conceitos de Processamento de Linguagem Natural",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "Y7UFTVF1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/Y7UFTVF1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 377,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Fundamentos do Aprendizado de Máquina.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos do Aprendizado de Máquina",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "LCQMM4PU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LCQMM4PU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 376,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Conceitos Fundamentais de IA.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conceitos Fundamentais de IA",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "ZJNNCOBC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZJNNCOBC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 375,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Fundamentos da IA Generativa.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos da IA Generativa",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "AQ9V21JD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AQ9V21JD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 374,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Introdução a Versionamento com Git & GitHub.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Versionamento com Git & GitHub",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "B6WVQV3Q",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/B6WVQV3Q.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 373,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Introdução à Análise de Dados com a Randstad.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução à Análise de Dados com a Randstad",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "SICQJTLR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SICQJTLR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 372,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · NTT DATA - Engenharia de Dados com Python.png",
