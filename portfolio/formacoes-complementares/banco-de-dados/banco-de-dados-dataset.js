@@ -421,7 +421,7 @@ window.datasetCategoria = [
   {
     id: 37,
 
-    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares -Técnicas Avançadas de Banco de Dados.png",
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares - Técnicas Avançadas de Banco de Dados.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
