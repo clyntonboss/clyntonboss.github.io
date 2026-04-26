@@ -431,7 +431,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais Complementares -Técnicas Avançadas de Banco de Dados",
+    curso: "Materiais Complementares - Técnicas Avançadas de Banco de Dados",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-13",
     dataConclusao: "13 de abril de 2026",
