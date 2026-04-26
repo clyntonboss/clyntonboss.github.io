@@ -49,6 +49,931 @@
 
 window.datasetCategoria = [
   {
+    id: 47,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Formação SQL Database Specialist.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação SQL Database Specialist",
+    cargaHoraria: "72 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "Y3WHVKUD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/Y3WHVKUD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 46,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Transações & Gerenciamento de Banco de Dados com no MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Transações & Gerenciamento de Banco de Dados com no MySQL",
+    cargaHoraria: "14 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "4V66CP7W",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4V66CP7W.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 45,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Avalie a Formação SQL Database Specialist.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação SQL Database Specialist",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "GH1F88AG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GH1F88AG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 44,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares - Trabalhando com Transações, Controle de Concorrência e Técnicas de Recuperação de Banco de dados no MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Trabalhando com Transações, Controle de Concorrência e Técnicas de Recuperação de Banco de dados no MySQL",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "453S5FEQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/453S5FEQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 43,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Criando Transações Executando Backup e Recovery de Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Transações Executando Backup e Recovery de Banco de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "S7XDF2RM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/S7XDF2RM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 42,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Técnicas de Recuperação em Dados de Banco de Dados com MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Técnicas de Recuperação em Dados de Banco de Dados com MySQL",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "NUULYVNC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NUULYVNC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 41,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Controle de Concorrência em Banco de Dados com MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Controle de Concorrência em Banco de Dados com MySQL",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "QBDZGENI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QBDZGENI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 40,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Transações de Banco de Dados com MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Transações de Banco de Dados com MySQL",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "JOTY9EO2",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JOTY9EO2.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 39,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Técnicas Avançadas em Banco de Dados com MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Técnicas Avançadas em Banco de Dados com MySQL",
+    cargaHoraria: "17 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "CSGRWBCC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CSGRWBCC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 38,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · O Mapa de Sucesso para a Carreira de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "O Mapa de Sucesso para a Carreira de Dados",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "SG12UBHF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SG12UBHF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 37,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares -Técnicas Avançadas de Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares -Técnicas Avançadas de Banco de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "J8VUDD98",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/J8VUDD98.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 36,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Personalizando Acessos e Automatizando Ações no MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Personalizando Acessos e Automatizando Ações no MySQL",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "WJHHCQSG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WJHHCQSG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 35,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Personalizando o Banco de Dados com Índices e Procedures.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Personalizando o Banco de Dados com Índices e Procedures",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "RRUGS8CF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RRUGS8CF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 34,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Normalização em Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Normalização em Banco de Dados",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "JHGX65BV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JHGX65BV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 33,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Fundamentos de Indexação em SGBDs com MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Indexação em SGBDs com MySQL",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "XTKZGTVH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XTKZGTVH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 32,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Overview sobre Automatização de Ações com Triggers no MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Overview sobre Automatização de Ações com Triggers no MySQL",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "78CGVK2G",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/78CGVK2G.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 31,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Explorando Lógica de Programação com SQL Dinâmico.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Lógica de Programação com SQL Dinâmico",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "KDV3S1UT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KDV3S1UT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 30,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Explorando Cláusulas de DDL e Esquemas de Banco de Dados no MySQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Cláusulas de DDL e Esquemas de Banco de Dados no MySQL",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "LZ6CPD3M",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LZ6CPD3M.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 29,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Personalizando Acessos com Views.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Personalizando Acessos com Views",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "VJGLFWPA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VJGLFWPA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 28,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Explorando a Linguagem de Consulta a Banco de Dados SQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando a Linguagem de Consulta a Banco de Dados SQL",
+    cargaHoraria: "21 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "N7ZSUKAD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/N7ZSUKAD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 27,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares - Explorando a Linguagem de Consulta à Banco de Dados SQL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Explorando a Linguagem de Consulta à Banco de Dados SQL",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "HFVHB7TM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HFVHB7TM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 26,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Modelo de Entidade Relacional com Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Modelo de Entidade Relacional com Banco de Dados",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "ND4CMW0M",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ND4CMW0M.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 25,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares - Modelagem de BD com Modelo Entidade e Relacionamento.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Modelagem de BD com Modelo Entidade e Relacionamento",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "TOCLNN3Q",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TOCLNN3Q.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 24,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Fundamentos de Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Banco de Dados",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "HFMULERY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HFMULERY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 23,
+
+    thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares - Fundamentos de Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Fundamentos de Banco de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "H7VEYCQS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H7VEYCQS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 22,
 
     thumb: "/portfolio/formacoes-complementares/banco-de-dados/certificados/2026.02.26 · Vico Digital [Vico Treinamentos e Tecnologia LTDA] · SQL para Analistas.png",
