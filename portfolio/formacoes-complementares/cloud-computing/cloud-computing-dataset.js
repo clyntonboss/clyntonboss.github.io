@@ -172,7 +172,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais Complementares (Arquitetura e Deploy de Microsserviços)",
+    curso: "Materiais Complementares: Arquitetura e Deploy de Microsserviços",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-13",
     dataConclusao: "13 de abril de 2026",
