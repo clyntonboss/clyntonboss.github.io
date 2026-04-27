@@ -49,6 +49,672 @@
 
 window.datasetCategoria = [
   {
+    id: 146,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Formação Docker Fundamentals.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação Docker Fundamentals",
+    cargaHoraria: "15 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "LMUQAC6H",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LMUQAC6H.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 145,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Trabalhando com Cluster e Docker Swarm.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Cluster e Docker Swarm",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "SOMMPX9Y",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SOMMPX9Y.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 144,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Avalie a Formação de Docker Fundamentals.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação de Docker Fundamentals",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "3LXIKNAH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3LXIKNAH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 143,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares (Cluster e Docker Swarm).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Cluster e Docker Swarm",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "HKHXDZES",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HKHXDZES.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 142,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Definição de um Cluster Swarm Local com o Vagrant.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Definição de um Cluster Swarm Local com o Vagrant",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "6G581EWZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6G581EWZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 141,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Load Balancer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Load Balancer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "4HL7OXBE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4HL7OXBE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 140,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Criando um Cluster com o Docker Swarm.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Cluster com o Docker Swarm",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "LOBMCVO4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LOBMCVO4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 139,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Docker File e Docker Compose.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Docker File e Docker Compose",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "NUNESZBS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NUNESZBS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 138,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares (Docker File e Docker Compose).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Docker File e Docker Compose",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "XKDF6KVP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XKDF6KVP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 137,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Criando um Container de uma Aplicação WEB.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Container de uma Aplicação WEB",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "POAGVOG8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/POAGVOG8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 136,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Trabalhando com Docker Compose.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Docker Compose",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "HSIYVLKH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HSIYVLKH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 135,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Definição e Criação de um Docker File.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Definição e Criação de um Docker File",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "6RDNBPEJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6RDNBPEJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 134,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Introdução ao Docker.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Docker",
+    cargaHoraria: "23 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "J6LQ9RRK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/J6LQ9RRK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 133,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares (Introdução ao Docker).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Introdução ao Docker",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "8XOKVWUM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8XOKVWUM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 132,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Processamento Logs e Rede com Docker.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Processamento Logs e Rede com Docker",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "PG2U2KKJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PG2U2KKJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 131,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Armazenamento de Dados com Docker.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Armazenamento de Dados com Docker",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "RWSJFAJZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RWSJFAJZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 130,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Primeiros Passos com o Docker.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Primeiros Passos com o Docker",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "H3HEVZPB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H3HEVZPB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 129,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Conhecendo e Instalando o Docker.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo e Instalando o Docker",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "GABLHX19",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GABLHX19.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 128,
 
     thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Formação AZ-204 Certification.png",
