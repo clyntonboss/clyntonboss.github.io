@@ -49,6 +49,783 @@
 
 window.datasetCategoria = [
   {
+    id: 167,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Formação Kubernetes Fundamentals.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação Kubernetes Fundamentals",
+    cargaHoraria: "19 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "AR4Z6B1Z",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AR4Z6B1Z.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 166,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Automatizando Deployments com Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Automatizando Deployments com Kubernetes",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "QGPLTKRM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QGPLTKRM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 165,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Avalie a Formação de Kubernetes Fundamentals.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação de Kubernetes Fundamentals",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "UEWJHFF7",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UEWJHFF7.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 164,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares (Arquitetura e Deploy de Microsserviços).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares (Arquitetura e Deploy de Microsserviços)",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "E1WRTLC8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/E1WRTLC8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 163,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Criando um Pipeline de Deploy com GitLab e Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Pipeline de Deploy com GitLab e Kubernetes",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "H9ZBMJT6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H9ZBMJT6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 162,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · CI-CD Utilizando Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "CI-CD Utilizando Kubernetes",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "ZVKWYLUS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZVKWYLUS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 161,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Deployment e Roolback em Clusters Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Deployment e Roolback em Clusters Kubernetes",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "CRCQUEW4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CRCQUEW4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 160,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Expondo e Conectando Aplicações Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Expondo e Conectando Aplicações Kubernetes",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "LSNXCADV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LSNXCADV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 159,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares (Conceitos Avançados (Expondo e Conectando Aplicações)).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Conceitos Avançados (Expondo e Conectando Aplicações)",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "4OWAGFAH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4OWAGFAH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 158,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Criando um Deploy de uma Aplicação.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Deploy de uma Aplicação",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "P2MDOEIG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/P2MDOEIG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 157,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Persistência de Dados em Clusters Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Persistência de Dados em Clusters Kubernetes",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "ZIFMDOU0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZIFMDOU0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 156,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Serviços de Acesso para Kubernetes Pods.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Serviços de Acesso para Kubernetes Pods",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "GA373KU8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GA373KU8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 155,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Primeiros Passos com o Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Primeiros Passos com o Kubernetes",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "CX2U7ISY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CX2U7ISY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 154,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares (Primeiros Passos Com o Kubernetes).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Primeiros Passos Com o Kubernetes",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "6F3OAZ3U",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6F3OAZ3U.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 153,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Criando Imagens Personalizadas com o Docker.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Imagens Personalizadas com o Docker",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "E2DQHGOV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/E2DQHGOV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 152,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Conceitos Básicos Sobre Pods em Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conceitos Básicos Sobre Pods em Kubernetes",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "K7VRVJEA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/K7VRVJEA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 151,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Introdução ao Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Kubernetes",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "VKI5UFED",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VKI5UFED.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 150,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Materiais Complementares (Introdução ao Kubernetes).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Introdução ao Kubernetes",
+    cargaHoraria: "15 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "XY1GJ1P8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XY1GJ1P8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 149,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Cluster Kubernetes em Nuvem.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Cluster Kubernetes em Nuvem",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "WKHOLPKO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WKHOLPKO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 148,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Ambiente de Desenvolvimento Kubernetes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Ambiente de Desenvolvimento Kubernetes",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "YN0R1ARD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YN0R1ARD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 147,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Introdução a Kubernetes e Orquestração de Contêineres.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Kubernetes e Orquestração de Contêineres",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-13",
+    dataConclusao: "13 de abril de 2026",
+    codigo: "KQIZL1YM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KQIZL1YM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 146,
 
     thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Formação Docker Fundamentals.png",
