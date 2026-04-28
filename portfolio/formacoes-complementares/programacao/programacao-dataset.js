@@ -49,6 +49,709 @@
 
 window.datasetCategoria = [
   {
+    id: 156,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Formação HTML Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação HTML Web Developer",
+    cargaHoraria: "21 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "IDZK8XPZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IDZK8XPZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 155,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · HTML II (Ampliando o Conhecimento).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "HTML II: Ampliando o Conhecimento",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "LDH2DGP8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LDH2DGP8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 154,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Avalie a Formação de HTML Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação de HTML Web Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "5O3CHETA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/5O3CHETA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 153,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Ampliando Conhecimento.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Ampliando Conhecimento",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "WXLGW66N",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WXLGW66N.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 152,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Recriando o Wikipedia com Layout Moderno.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Recriando o Wikipedia com Layout Moderno",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "CNAELT1E",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CNAELT1E.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 151,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · HTML (Recursos Especiais).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "HTML: Recursos Especiais",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "MRNGSCU4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MRNGSCU4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 150,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Entendendo HTML Semântico.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo HTML Semântico",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "3LAYLWJD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3LAYLWJD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 149,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · HTML I (Conceitos Básicos).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "HTML I: Conceitos Básicos",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "NLCNGRBY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NLCNGRBY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 148,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Conceitos Básicos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Conceitos Básicos",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "CCJ4HDQN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CCJ4HDQN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 147,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Criando seu Primeiro Site Completo com HTML.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando seu Primeiro Site Completo com HTML",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "D5F8UNSA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/D5F8UNSA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 146,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Criando Tabelas com HTML.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Tabelas com HTML",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "CW9JBSG2",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CW9JBSG2.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 145,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Trabalhando com Mídias utilizando HTML.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Mídias utilizando HTML",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "EVCUCVMZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EVCUCVMZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 144,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Estruturando seu HTML Formatações.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estruturando seu HTML Formatações",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "JYTSDUHR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JYTSDUHR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 143,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Trabalhando com Formulários em HTML.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Formulários em HTML",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "WOGQVZ8T",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WOGQVZ8T.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 142,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Primeiros Passos com HTML.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Primeiros Passos com HTML",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "P1YALTDP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/P1YALTDP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 141,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Primeiros Passos com HTML.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Primeiros Passos com HTML",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "XRPQHTNW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XRPQHTNW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 140,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Criar Uma Página Web Utilizando as Tags Aprendidas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criar Uma Página Web Utilizando as Tags Aprendidas",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "5WVUWOAA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/5WVUWOAA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 139,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Introdução ao HTML na Prática.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao HTML na Prática",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "M5DDDWQM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/M5DDDWQM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 138,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Entendendo Comunicação Client x Server.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo Comunicação Client x Server",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "KRGMFBC0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KRGMFBC0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 137,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.12 · Instituto Federal Espírito Santo · Lovelace (Programação Python e C).png",
