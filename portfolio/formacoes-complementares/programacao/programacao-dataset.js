@@ -49,6 +49,894 @@
 
 window.datasetCategoria = [
   {
+    id: 180,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Formação CSS Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação CSS Web Developer",
+    cargaHoraria: "43 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "2NFLK0AA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2NFLK0AA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 179,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Refinando os Estilos CSS das Nossas Páginas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Refinando os Estilos CSS das Nossas Páginas",
+    cargaHoraria: "15 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "AY3OI4ZI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AY3OI4ZI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 178,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Avalie a Formação CSS Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação CSS Web Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "ZTLK4BH8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZTLK4BH8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 177,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Refinando os Estilos CSS das Nossas Páginas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Refinando os Estilos CSS das Nossas Páginas",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "70EFKSFH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/70EFKSFH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 176,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Clonando o Site da HBO Max com Animações em HTML e CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Clonando o Site da HBO Max com Animações em HTML e CSS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "ANROXNFP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ANROXNFP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 175,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Iniciando com seu primeiro Framework em CSS (Bootstrap).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Iniciando com seu primeiro Framework em CSS (Bootstrap)",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "XKICBUWO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XKICBUWO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 174,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Boas Práticas e Convenções no CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas Práticas e Convenções no CSS",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "DBVYMYRE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DBVYMYRE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 173,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Transições e Animações.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Transições e Animações",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "3WEYDH0O",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3WEYDH0O.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 172,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Pseudo Elementos e Pseudo Classes.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Pseudo Elementos e Pseudo Classes",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "MMW9SIBS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MMW9SIBS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 171,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Trabalhando com Layouts no CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Layouts no CSS",
+    cargaHoraria: "17 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "QPAZPNVK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QPAZPNVK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 170,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Trabalhando Com Layouts no CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Trabalhando Com Layouts no CSS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "COIQEYHY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/COIQEYHY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 169,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Construindo um Layout Responsivo Para o Site do Discord Com CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Construindo um Layout Responsivo Para o Site do Discord Com CSS",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "UB7Z3PGP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UB7Z3PGP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 168,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Responsividade no CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Responsividade no CSS",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "9WQJNVLS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9WQJNVLS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 167,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Reproduzindo a Listagem do YouTube com Grid Layout no CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Reproduzindo a Listagem do YouTube com Grid Layout no CSS",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "BW4YVJ3P",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BW4YVJ3P.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 166,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Dominando Grid Layouts no CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Dominando Grid Layouts no CSS",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "YAOIJR7K",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YAOIJR7K.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 165,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Clonando a Página do Youtube com CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Clonando a Página do Youtube com CSS",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "JG8NUAZ5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JG8NUAZ5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 164,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Trabalhando com Flexbox no CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Flexbox no CSS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "NVE75SE8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NVE75SE8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 163,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Posicionamentos e Exibição de Elementos com CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Posicionamentos e Exibição de Elementos com CSS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "IDZK8XPZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IDZK8XPZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 162,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Primeiros Passos com CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Primeiros Passos com CSS",
+    cargaHoraria: "14 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "MFIHEQ0I",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MFIHEQ0I.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 161,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Primeiros Passos com CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Primeiros Passos com CSS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "3XLGHNAS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3XLGHNAS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 160,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Criando sua Primeira Landing Page com HTML e CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando sua Primeira Landing Page com HTML e CSS",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "LAO8PJUR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LAO8PJUR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 159,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Unidades de Medida em CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Unidades de Medida em CSS",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "Q4MXWCVV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/Q4MXWCVV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 158,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Estilizações Básicas com CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estilizações Básicas com CSS",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "DPTLFQG9",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DPTLFQG9.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 157,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Fundamentos do CSS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "FFundamentos do CSS",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "RAVH76T6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RAVH76T6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 156,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Formação HTML Web Developer.png",
