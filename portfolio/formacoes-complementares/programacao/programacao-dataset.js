@@ -1393,7 +1393,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Estruturando seu HTML Formatações",
+    curso: "Estruturando seu HTML + Formatações",
     cargaHoraria: "2 h",
     conclusaoISO: "2026-04-14",
     dataConclusao: "14 de abril de 2026",
