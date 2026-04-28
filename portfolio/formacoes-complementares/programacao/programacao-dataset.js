@@ -912,7 +912,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "FFundamentos do CSS",
+    curso: "Fundamentos do CSS",
     cargaHoraria: "3 h",
     conclusaoISO: "2026-04-14",
     dataConclusao: "14 de abril de 2026",
