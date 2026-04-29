@@ -49,6 +49,1039 @@
 
 window.datasetCategoria = [
   {
+    id: 208,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Formação JavaScript Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação JavaScript Developer",
+    cargaHoraria: "39 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "DXYA9OC9",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DXYA9OC9.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 207,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Currículo Online com HTML CSS e JavaScript (Da Prototipação ao Deploy).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Currículo Online com HTML CSS e JavaScript: da Prototipação ao Deploy",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "4KWY1YW6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4KWY1YW6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 206,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Avalie a Formação de JavaScript Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação de JavaScript Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "ID1VGE9E",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ID1VGE9E.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 205,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares (Currículo Online com HTML CSS e JavaScript (Da Prototipação ao Deploy)).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Currículo Online com HTML CSS e JavaScript: Da Prototipação ao Deploy",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "WK7MNSLA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WK7MNSLA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 204,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Publicando Seu Portfólio Profissional no GitHub Pages.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Publicando Seu Portfólio Profissional no GitHub Pages",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "FZN7ABAG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FZN7ABAG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 203,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Criando e Estilizando uma Página de Portfólio Profissional com CSS e JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando e Estilizando uma Página de Portfólio Profissional com CSS e JavaScript",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "TNSW269I",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TNSW269I.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 202,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Dominando Conceitos Avançados em JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Dominando Conceitos Avançados em JavaScript",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "TCLS389V",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TCLS389V.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 201,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Dominando Conceitos Avançados em JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Dominando Conceitos Avançados em JavaScript",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "YVNPLHWV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YVNPLHWV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 200,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Promises e Assincronismo com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Promises e Assincronismo com JavaScript",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "XGIK4ZAZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XGIK4ZAZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 199,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Funções e Manipulação de Listas com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Funções e Manipulação de Listas com JavaScript",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "VHJ7MT7D",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VHJ7MT7D.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 198,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Orientação a Protótipo com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Orientação a Protótipo com JavaScript",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "MDQCZIT1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MDQCZIT1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 197,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Aprendendo Variáveis Escopo e Tipos de dados no JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aprendendo Variáveis Escopo e Tipos de dados no JavaScript",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "PEEIJRVO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PEEIJRVO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 196,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · JavaScript para Web (Fundamentos de HTML CSS e APIs na Prática).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "JavaScript para Web: Fundamentos de HTML CSS e APIs na Prática",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "QX5OFF0R",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QX5OFF0R.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 195,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - JavaScript para Web (Fundamentos de HTML CSS e APIs na Prática).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - JavaScript para Web: Fundamentos de HTML CSS e APIs na Prática",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "MFRAZPDY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MFRAZPDY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 194,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Construindo uma Pokédex com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Construindo uma Pokédex com JavaScript",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "RD8KSLY0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RD8KSLY0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 193,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Dominando o Protocolo HTTP e Integrando com a PokeAPI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Dominando o Protocolo HTTP e Integrando com a PokeAPI",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "SLRPKQLQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SLRPKQLQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 192,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Criando um Projeto com HTML·CSS para Listagem de Pokémon.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Projeto com HTML·CSS para Listagem de Pokémon",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "1EYDNPTP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/1EYDNPTP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 191,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Introdução ao Desenvolvimento Web com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Desenvolvimento Web com JavaScript",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "VCEZIAUP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VCEZIAUP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 190,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Aprenda a Programar do Zero com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aprenda a Programar do Zero com JavaScript",
+    cargaHoraria: "15 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "2AUKY6ND",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2AUKY6ND.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 189,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Aprenda a Programar do Zero com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Aprenda a Programar do Zero com JavaScript",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "HG0OAZOO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HG0OAZOO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 188,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Desafios de Código - Formação JavaScript Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código - Formação JavaScript Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 187,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Consolide Seu Conhecimento com Desafios de Código JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Consolide Seu Conhecimento com Desafios de Código JavaScript",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "3QHRQDQC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3QHRQDQC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 186,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Importação e Exportação com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Importação e Exportação com JavaScript",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "XILCWUBP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XILCWUBP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 185,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Arrays e Estruturas de Repetição em JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Arrays e Estruturas de Repetição em JavaScript",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "EVLOOMWC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EVLOOMWC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 184,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Criando Objetos e Classes em JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Objetos e Classes em JavaScript",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "G4SL4CTL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/G4SL4CTL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 183,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Conhecendo Funções JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo Funções JavaScript",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "2JJHSGRQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2JJHSGRQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 182,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Primeiros Passos Com JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "FPrimeiros Passos Com JavaScript",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "IKDI62OX",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IKDI62OX.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 181,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Apresentação da Formação JavaScript Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Apresentação da Formação JavaScript Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "WJOPRVTG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WJOPRVTG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 180,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Formação CSS Web Developer.png",
