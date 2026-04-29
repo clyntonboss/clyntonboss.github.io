@@ -49,6 +49,783 @@
 
 window.datasetCategoria = [
   {
+    id: 62,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Formação UX Designer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação UX Designer",
+    cargaHoraria: "30 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "6Y6V0T3R",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6Y6V0T3R.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 61,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Se Tornando um(a) UX·UI Designer Completo(a).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Se Tornando um(a) UX·UI Designer Completo(a)",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "MHE7IH1L",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MHE7IH1L.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 60,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Avalie a Formação UX Designer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação UX Designer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "UQ2ZCQNJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UQ2ZCQNJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 59,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Materiais complementares - Se Tornando um(a) UX·UI Designer Completo(a).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais complementares - Se Tornando um(a) UX·UI Designer Completo(a)",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "7UDPCLIV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7UDPCLIV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 58,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Implementando Todas as Etapas para a Criação de um Protótipo Profissional.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Implementando Todas as Etapas para a Criação de um Protótipo Profissional",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "Q1KJ7NLC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/Q1KJ7NLC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 57,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Estratégias e Mercado UX·UI Designer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estratégias e Mercado UX·UI Designer",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "HB7OQKGQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HB7OQKGQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 56,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Avançando com Figma e Criação de Protótipos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avançando com Figma e Criação de Protótipos",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "HSYVK08O",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HSYVK08O.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 55,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Avançando com Figma e na Criação de Protótipos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Avançando com Figma e na Criação de Protótipos",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "WNET5SPI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WNET5SPI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 54,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Criando um Protótipo Navegável.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Protótipo Navegável",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "XYRUOTFW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XYRUOTFW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 53,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Design Mobile e Prototipagem.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Design Mobile e Prototipagem",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "YZ9VRWFL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YZ9VRWFL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 52,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Introdução ao Figma.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Figma",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "BYA4GBRY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BYA4GBRY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 51,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Ampliando o seu Conhecimento em UX·UI Design.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Ampliando o seu Conhecimento em UX·UI Design",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "NGQHLU6C",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NGQHLU6C.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 50,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Materiais Complementares - Ampliando os seus Conhecimento em UX·UI Design.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Ampliando os seus Conhecimento em UX·UI Design",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "L27SV0CP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/L27SV0CP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 49,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Entendendo na Prática os Conceitos de Fonte e Tipografia.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo na Prática os Conceitos de Fonte e Tipografia",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "LBAPKEQP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LBAPKEQP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 48,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Criando o seu Primeiro Design System.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando o seu Primeiro Design System",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "6ZCPQ3RI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6ZCPQ3RI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 47,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Introdução ao UI Design.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao UI Design",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "YIOO1GWA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YIOO1GWA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 46,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Introdução ao UX Design.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao UX Design",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "PZPZZQ6O",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PZPZZQ6O.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 45,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Fundamentos de Arquitetura de User Experience (UX).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Arquitetura de User Experience (UX)",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "7N3ZQL2B",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7N3ZQL2B.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 44,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Fundamentos de Arquitetura de User Experience (UX).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Arquitetura de User Experience (UX)",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "V5TNCY5B",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/V5TNCY5B.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 43,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Fundamentos de Arquitetura da Informação.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Arquitetura da Informação",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "HSIM4CJS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HSIM4CJS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 42,
+
+    thumb: "/portfolio/formacoes-complementares/design/certificados/2026.04.14 · Digital Innovation One · Entendendo a Arquitetura.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo a Arquitetura",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-14",
+    dataConclusao: "14 de abril de 2026",
+    codigo: "AM707EXW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AM707EXW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 41,
 
     thumb: "/portfolio/formacoes-complementares/design/certificados/2026.02.27 · FIAP - Centro Universitário · User Experience.png",
