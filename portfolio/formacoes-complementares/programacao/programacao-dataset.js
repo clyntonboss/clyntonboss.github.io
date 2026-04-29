@@ -835,7 +835,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Consolide Seu Conhecimento com Desafios de Código JavaScript",
+    curso: "Consolide seu Conhecimento com Desafios de Código JavaScript",
     cargaHoraria: "2 h",
     conclusaoISO: "2026-04-14",
     dataConclusao: "14 de abril de 2026",
