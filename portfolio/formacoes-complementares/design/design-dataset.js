@@ -98,7 +98,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Se Tornando um(a) UX·UI Designer Completo(a)",
+    curso: "Se Tornando um(a) UX/UI Designer Completo(a)",
     cargaHoraria: "5 h",
     conclusaoISO: "2026-04-14",
     dataConclusao: "14 de abril de 2026",
@@ -172,7 +172,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais complementares - Se Tornando um(a) UX·UI Designer Completo(a)",
+    curso: "Materiais complementares - Se Tornando um(a) UX/UI Designer Completo(a)",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-14",
     dataConclusao: "14 de abril de 2026",
@@ -246,7 +246,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Estratégias e Mercado UX·UI Designer",
+    curso: "Estratégias e Mercado UX/UI Designer",
     cargaHoraria: "2 h",
     conclusaoISO: "2026-04-14",
     dataConclusao: "14 de abril de 2026",
@@ -468,7 +468,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Ampliando o seu Conhecimento em UX·UI Design",
+    curso: "Ampliando o seu Conhecimento em UX/UI Design",
     cargaHoraria: "12 h",
     conclusaoISO: "2026-04-14",
     dataConclusao: "14 de abril de 2026",
@@ -505,7 +505,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais Complementares - Ampliando os seus Conhecimento em UX·UI Design",
+    curso: "Materiais Complementares - Ampliando os seus Conhecimento em UX/UI Design",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-14",
     dataConclusao: "14 de abril de 2026",
