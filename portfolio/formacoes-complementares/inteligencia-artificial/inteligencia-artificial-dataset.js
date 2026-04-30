@@ -764,7 +764,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais Complementares (Frameworks de Deep Learning)",
+    curso: "Materiais Complementares: Frameworks de Deep Learning",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-15",
     dataConclusao: "15 de abril de 2026",
