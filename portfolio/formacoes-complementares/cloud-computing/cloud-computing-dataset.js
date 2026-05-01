@@ -49,6 +49,1708 @@
 
 window.datasetCategoria = [
   {
+    id: 213,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Formação Google Cloud Platform (GCP) Specialist.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação Google Cloud Platform (GCP) Specialist",
+    cargaHoraria: "58 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "KIYVDXON",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KIYVDXON.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 212,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Google Kubernetes Engine.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Google Kubernetes Engine",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "HNIXDANT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HNIXDANT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 211,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Avalie a Formação Google Cloud Platform (GCP) Specialist.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação Google Cloud Platform (GCP) Specialist",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "IQZLEGEW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IQZLEGEW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 210,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Materiais Complementares - Google Kubernetes Engine.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Google Kubernetes Engine",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "HNIXDANT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HNIXDANT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 209,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Criação do Cluster Kubernetes e Implantação do Microservice-Demo de Exemplo.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criação do Cluster Kubernetes e Implantação do Microservice-Demo de Exemplo",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "J1DMFJR7",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/J1DMFJR7.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 208,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Trabalhando com o Anthos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com o Anthos",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "ECCTEYZQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ECCTEYZQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 207,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · GKE (Backups Inteligente na Google Cloud Platform).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "GKE: Backups Inteligente na Google Cloud Platform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "XT5PAYVZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XT5PAYVZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 206,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Load Balancer e SSL na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Load Balancer e SSL na Google Cloud Platform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "VPQCTOPQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VPQCTOPQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 205,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Introdução GKE e uso de Containers.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução GKE e uso de Containers",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "S1RHNRHA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/S1RHNRHA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 204,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Trabalhando com Compute Engine e Containers com Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Compute Engine e Containers com Google Cloud Platform",
+    cargaHoraria: "14 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "TFVHF3NG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TFVHF3NG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 203,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Materiais Complementares - Conhecendo Soluções Google Compute e Containers.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Conhecendo Soluções Google Compute e Containers",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "U4PVCIFN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U4PVCIFN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 202,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Deploy de Aplicação Utilizando Container no Cloud Run.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Deploy de Aplicação Utilizando Container no Cloud Run",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "OPFJOAJI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OPFJOAJI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 201,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Trabalhando com Cloud Run na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Cloud Run na Google Cloud Platform",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "4FICAQAE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4FICAQAE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 200,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Deploy de Aplicação AppEngine com Instance Class Personalizado e Auto Scaling.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Deploy de Aplicação AppEngine com Instance Class Personalizado e Auto Scaling",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "6T5QNP6T",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6T5QNP6T.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 199,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Introdução ao App Engine.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao App Engine",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "G65SPDAP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/G65SPDAP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 198,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Criando um Instance Template e Instance Group Load Balancer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Instance Template e Instance Group Load Balancer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "9DPVPJVJL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9DPVPJVJL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 197,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Infraestrutura Native Cloud.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Infraestrutura Native Cloud",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "9EY2XLQY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9EY2XLQY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 196,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Criando a Primeira VPC e Máquina Virtual pelo Console GCP.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando a Primeira VPC e Máquina Virtual pelo Console GCP",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "TTGCAOR5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TTGCAOR5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 195,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Gerenciando Máquinas Virtuais no Google Cloud Platform com Compute Engine.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciando Máquinas Virtuais no Google Cloud Platform com Compute Engine",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "VVQLMVTU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VVQLMVTU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 194,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · DevOps na Nuvem com Google Cloud Platform (GCP).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "DevOps na Nuvem com Google Cloud Platform (GCP)",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "NLC3NNYI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NLC3NNYI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 193,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Materiais Complementares - DevOps na Nuvem com Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - DevOps na Nuvem com Google Cloud Platform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "NYZJWFSP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NYZJWFSP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 192,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Criando Pipeline de CI·CD com Cloud Build e Terraform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Pipeline de CI/CD com Cloud Build e Terraform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "DBDWL7DQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DBDWL7DQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 191,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Trabalhando com Spinnaker.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Spinnaker",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "6VQPX3KX",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6VQPX3KX.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 190,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Trabalhando com Jenkins.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Jenkins",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "SCY69PRP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SCY69PRP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 189,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Cloud Deploy GCP.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Cloud Deploy GCP",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "NQJSTGNR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NQJSTGNR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 188,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Trabalhando com Terraform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Terraform",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "LIOQYBX3",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LIOQYBX3.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 187,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Trabalhando com Cloud Build.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Cloud Build",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "ZRERYMPO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZRERYMPO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 186,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Introdução ao Conceito de DevOps e Preparação do Ambiente GCloud SDK.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Conceito de DevOps e Preparação do Ambiente GCloud SDK",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "OCWYF2WH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OCWYF2WH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 185,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Google Cloud Foundations.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Google Cloud Foundations",
+    cargaHoraria: "26 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "BTWPZIS0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BTWPZIS0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 184,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Materiais Complementares - Google Cloud Foundations.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Google Cloud Foundations",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "ZCNVFSO7",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZCNVFSO7.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 183,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Utilizando o Cloud Shell.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Utilizando o Cloud Shell",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "4RNYECMU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4RNYECMU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 182,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Personalizando Dashboard e Trocando as Preferências de Idioma.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Personalizando Dashboard e Trocando as Preferências de Idioma",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "TPAQTRTP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TPAQTRTP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 181,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Conhecendo o Painel da Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo o Painel da Google Cloud Platform",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "R4FGMGGJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/R4FGMGGJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 180,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Exportação do Billing na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Exportação do Billing na Google Cloud Platform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "SYSAFLRL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SYSAFLRL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 179,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Definição de Orçamento de Billing na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Definição de Orçamento de Billing na Google Cloud Platform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "TMR9LVGC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TMR9LVGC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 178,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Desenhando sua Organização de Pastas e Projetos e Grupos de Acessos na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desenhando sua Organização de Pastas e Projetos e Grupos de Acessos na Google Cloud Platform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "BWE9DELO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BWE9DELO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 177,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Arquiteturas Resilientes na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Arquiteturas Resilientes na Google Cloud Platform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "BJUOPEQO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BJUOPEQO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 176,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Conceituando IAC e CI·CD.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conceituando IAC e CI/CD",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "T8CFBT51",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/T8CFBT51.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 175,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Gestão de Dados e Controle de Custos na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gestão de Dados e Controle de Custos na Google Cloud Platform",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "P2CQNVAW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/P2CQNVAW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 174,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Redes e Monitoramento na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Redes e Monitoramento na Google Cloud Platform",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "U1IKD8FO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U1IKD8FO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 173,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Gestão de Acessos e Segurança na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gestão de Acessos e Segurança na Google Cloud Platform",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "K65H6HYI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/K65H6HYI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 172,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Organizando Projetos na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Organizando Projetos na Google Cloud Platform",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "XK2WPQMQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XK2WPQMQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 171,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Gestão de Recursos na Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gestão de Recursos na Google Cloud Platform",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "CFCSN7AL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CFCSN7AL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 170,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Hands-On (Provisionando Usuários Cloud Identity).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Hands-On: Provisionando Usuários Cloud Identity",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "SFRRZPDH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SFRRZPDH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 169,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Gestão de Identidades com Boas Práticas de Segurança.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gestão de Identidades com Boas Práticas de Segurança",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "UQN4D0X4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UQN4D0X4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 168,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.16 · Digital Innovation One · Introdução ao Google Cloud Platform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Google Cloud Platform",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "ES8IMF4J",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ES8IMF4J.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 167,
 
     thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.13 · Digital Innovation One · Formação Kubernetes Fundamentals.png",
