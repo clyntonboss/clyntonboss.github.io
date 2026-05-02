@@ -49,6 +49,228 @@
 
 window.datasetCategoria = [
   {
+    id: 214,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · ·Digital Innovation One · FIntrodução ao Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Flutter",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "ZURY2PGP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZURY2PGP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 213,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Materiais Complementares - Primeiros Passos com Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Primeiros Passos com Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "F3JG9TCK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/F3JG9TCK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 212,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Subindo o Seu Projeto Flutter no GitHub.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Subindo o Seu Projeto Flutter no GitHub",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "BVXXOJB1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BVXXOJB1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 211,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Criando Meu Primeiro Projeto em Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Meu Primeiro Projeto em Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "PLWFRKBU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PLWFRKBU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 210,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Ambiente de Desenvolvimento Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Ambiente de Desenvolvimento Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "N7MRVB2Y",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/N7MRVB2Y.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 209,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Introdução ao Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "NRRS3UFL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NRRS3UFL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 208,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.14 · Digital Innovation One · Formação JavaScript Developer.png",
