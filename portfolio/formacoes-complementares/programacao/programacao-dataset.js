@@ -49,6 +49,265 @@
 
 window.datasetCategoria = [
   {
+    id: 258,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Gerenciamento de Estado e Padrões em Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciamento de Estado e Padrões em Flutter",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "DIGPLDS1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DIGPLDS1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 257,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Materiais Complementares - Gerenciamento de Estado e Padrões em Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Gerenciamento de Estado e Padrões em Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "YRWYZ95I",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YRWYZ95I.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 256,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Criando um App Flutter com Gerenciamento de Estado e Reatividade.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um App Flutter com Gerenciamento de Estado e Reatividade",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "DGZ060NS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DGZ060NS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 255,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Boas Práticas e Padrões em Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas Práticas e Padrões em Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "10KNX19L",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/10KNX19L.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 254,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Gerenciamento de Estado com Get no Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciamento de Estado com Get no Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "BBYOOFP1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BBYOOFP1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 253,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Gerenciamento de Estado com MobX no Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciamento de Estado com MobX no Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "IXNYFSIT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IXNYFSIT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 252,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Gerenciamento de Estado com Provider no Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciamento de Estado com Provider no Flutter",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "ZJNOKD3J",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZJNOKD3J.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 251,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Trabalhando com Pacotes Externos em Flutter.png",
