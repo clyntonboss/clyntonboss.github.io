@@ -49,6 +49,228 @@
 
 window.datasetCategoria = [
   {
+    id: 264,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Introdução ao Firebase.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Firebase",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "VACVQIOF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VACVQIOF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 263,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Materiais Complementares – Firebase.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares – Firebase",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "3ZLIQHAA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3ZLIQHAA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 262,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Potencializando o seu App Flutter com Cloud Firestore.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Potencializando o seu App Flutter com Cloud Firestore",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "70M4HCEQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/70M4HCEQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 261,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Recursos de Ambiente de Produção para Aplicativos Flutter.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Recursos de Ambiente de Produção para Aplicativos Flutter",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "GRXKHCJB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GRXKHCJB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 260,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Conhecendo o Cloud Firestore.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo o Cloud Firestore",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "NIMZ7FXI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NIMZ7FXI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 259,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Conhecendo o Firebase.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo o Firebase",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "1GAP22ES",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/1GAP22ES.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 258,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Gerenciamento de Estado e Padrões em Flutter.png",
