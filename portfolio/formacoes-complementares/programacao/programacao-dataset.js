@@ -51,7 +51,7 @@ window.datasetCategoria = [
   {
     id: 214,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · ·Digital Innovation One · FIntrodução ao Flutter.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · ·Digital Innovation One · Introdução ao Flutter.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
