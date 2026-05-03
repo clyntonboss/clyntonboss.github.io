@@ -1202,7 +1202,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Redes TCP·IP e a Internet",
+    curso: "Redes TCP/IP e a Internet",
     cargaHoraria: "2 h",
     conclusaoISO: "2026-04-17",
     dataConclusao: "17 de abril de 2026",
