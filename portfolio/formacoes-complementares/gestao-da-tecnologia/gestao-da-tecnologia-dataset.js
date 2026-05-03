@@ -724,7 +724,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Redes de Sensores Sem Fio para IoT",
+    curso: "Redes de Sensores sem Fio para IoT",
     cargaHoraria: "5 h",
     conclusaoISO: "2026-04-17",
     dataConclusao: "17 de abril de 2026",
