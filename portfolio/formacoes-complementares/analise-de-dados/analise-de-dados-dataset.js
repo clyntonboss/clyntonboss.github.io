@@ -88,7 +88,7 @@ window.datasetCategoria = [
   {
     id: 392,
 
-    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.13 · Digital Innovation One · Introdução a Banco de Dados Relacionais e ETL.png",
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.17 · Digital Innovation One · Introdução a Banco de Dados Relacionais e ETL.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
