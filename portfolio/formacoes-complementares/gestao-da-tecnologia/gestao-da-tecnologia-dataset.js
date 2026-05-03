@@ -49,6 +49,43 @@
 
 window.datasetCategoria = [
   {
+    id: 16,
+
+    thumb: "/portfolio/formacoes-complementares/gestao-da-tecnologia/certificados/2026.04.17 · Digital Innovation One · Introdução para IoT em um Mundo Conectado.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução para IoT em um Mundo Conectado",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "3DGWNAKI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3DGWNAKI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 15,
 
     thumb: "/portfolio/formacoes-complementares/gestao-da-tecnologia/certificados/2026.02.18 · FIAP - Centro Universitário · Gestão de Infraestrutura de TI.png",
