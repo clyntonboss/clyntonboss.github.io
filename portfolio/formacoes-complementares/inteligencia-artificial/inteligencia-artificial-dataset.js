@@ -49,6 +49,296 @@
 
 window.datasetCategoria = [
   {
+    id: 265,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · BairesDev - Machine Learning Practitioner.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "BairesDev - Machine Learning Practitioner",
+    cargaHoraria: "96 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "SI1DDTXV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SI1DDTXV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 264,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Fundamentos e Práticas de Deep Learning.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos e Práticas de Deep Learning",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "M0RUXYU5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/M0RUXYU5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 263,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Associando Redes e Aplicações Práticas de Deep Learning com Lógica de Programação.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Associando Redes e Aplicações Práticas de Deep Learning com Lógica de Programação",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 262,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Programação para Machine Learning.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação para Machine Learning",
+    cargaHoraria: "16 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "3QOL0UBT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3QOL0UBT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 261,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Explorando Python com Lógica de Programação.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Python com Lógica de Programação",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 260,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Introdução ao Machine Learning.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Machine Learning",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "FVJQNVY7",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FVJQNVY7.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 259,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Live de Lançamento - Coding the Future - BairesDev.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Live de Lançamento - Coding the Future - BairesDev",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "BQKYJCAL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BQKYJCAL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 258,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Machine Learning com a BairesDev.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Machine Learning com a BairesDev",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "5X8MHVX5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/5X8MHVX5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 257,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Nexa - Machine Learning para Iniciantes na AWS.png",
