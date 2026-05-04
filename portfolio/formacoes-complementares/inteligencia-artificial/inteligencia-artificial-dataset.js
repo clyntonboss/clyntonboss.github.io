@@ -49,6 +49,188 @@
 
 window.datasetCategoria = [
   {
+    id: 251,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Nexa - Machine Learning para Iniciantes na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Nexa - Machine Learning para Iniciantes na AWS",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "DLARMKNE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DLARMKNE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 256,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Machine Learning sem Código com Amazon SageMaker Canvas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Machine Learning sem Código com Amazon SageMaker Canvas",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "SS1Q2SDY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SS1Q2SDY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 255,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Explorando o SageMaker Canvas com Lógica de Programação.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando o SageMaker Canvas com Lógica de Programação",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 254,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Fundamentos de Machine Learning e IAs Generativas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Machine Learning e IAs Generativas",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "5NWHNJKW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/5NWHNJKW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 253,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Aula Inaugural (Bootcamp Nexa - Machine Learning para Iniciantes na AWS).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aula Inaugural: Bootcamp Nexa - Machine Learning para Iniciantes na AWS",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "MJE6RX1I",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MJE6RX1I.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 252,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.16 · Simplifica Treinamentos · Simplifica Inteligência Artificial Express.png",
