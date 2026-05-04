@@ -49,6 +49,40 @@
 
 window.datasetCategoria = [
   {
+    id: 252,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.16 · Simplifica Treinamentos · Simplifica Inteligência Artificial Express.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Simplifica Treinamentos",
+    curso: "Simplifica Inteligência Artificial Express",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-04-16",
+    dataConclusao: "16 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+  
+  {
     id: 251,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.15 · Digital Innovation One · Formação Machine Learning Specialist.png",
