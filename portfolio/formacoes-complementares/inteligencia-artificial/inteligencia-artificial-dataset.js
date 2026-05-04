@@ -49,7 +49,7 @@
 
 window.datasetCategoria = [
   {
-    id: 251,
+    id: 257,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Nexa - Machine Learning para Iniciantes na AWS.png",
 
