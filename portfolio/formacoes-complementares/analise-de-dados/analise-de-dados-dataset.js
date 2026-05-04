@@ -49,6 +49,117 @@
 
 window.datasetCategoria = [
   {
+    id: 396,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.17 · Digital Innovation One · Klabin - Excel e Power BI Dashboards 2026.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Klabin - Excel e Power BI Dashboards 2026",
+    cargaHoraria: "90 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "VXDPRTBW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VXDPRTBW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 395,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.17 · Digital Innovation One · Introdução a Análise de Dados e BI.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Análise de Dados e BI",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "JVLYR5SX",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JVLYR5SX.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 394,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.17 · Digital Innovation One · Introdução ao Excel e Power BI Dashboards com a Klabin 2026.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Excel e Power BI Dashboards com a Klabin 2026",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-17",
+    dataConclusao: "17 de abril de 2026",
+    codigo: "ANTB0NVQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ANTB0NVQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 393,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.17 · Digital Innovation One · Santander 2025 - Ciência de Dados com Python.png",
