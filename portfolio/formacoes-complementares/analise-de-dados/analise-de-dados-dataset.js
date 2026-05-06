@@ -49,6 +49,521 @@
 
 window.datasetCategoria = [
   {
+    id: 410,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Santander - Excel com Inteligência Artificial.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Santander - Excel com Inteligência Artificial",
+    cargaHoraria: "26 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "ZKJVZL5J",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZKJVZL5J.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 409,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Trabalhando com Fórmulas no Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Fórmulas no Excel",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "DSASGB92",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DSASGB92.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 408,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Manipulação de Dados no Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Manipulação de Dados no Excel",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 407,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Criando Um Organizador de Declaração de Imposto de Renda.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Um Organizador de Declaração de Imposto de Renda",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "KNA8YMUP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KNA8YMUP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 406,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Fórmulas de Data e Hora no Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fórmulas de Data e Hora no Excel",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "EQZMWXPS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EQZMWXPS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 405,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Fórmulas de Busca e Texto no Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fórmulas de Busca e Texto no Excel",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "JNYNSRRA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JNYNSRRA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 404,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Fórmulas Matemáticas no Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fórmulas Matemáticas no Excel",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "MHGKJUYC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MHGKJUYC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 403,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Dominando Tabelas Com Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Dominando Tabelas Com Excel",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "ZUNIDRFA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZUNIDRFA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 402,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Evento de Abertura - Santander Excel com Inteligência Artificial.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Evento de Abertura - Santander Excel com Inteligência Artificial",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "SNTO7TN2",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SNTO7TN2.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 401,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Criando uma Ferramenta de Controle de Investimentos com Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando uma Ferramenta de Controle de Investimentos com Excel",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "ORPB6CBS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ORPB6CBS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 400,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Formatações Condicionais e Validações de Dados no Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formatações Condicionais e Validações de Dados no Excel",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "0ZBJSYRM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0ZBJSYRM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 399,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Como Trabalhar com Tabelas Dinâmicas no Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Como Trabalhar com Tabelas Dinâmicas no Excel",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "RAJEL5GA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RAJEL5GA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 398,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Como Criar e Trabalhar com Tabelas no Excel.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Como Criar e Trabalhar com Tabelas no Excel",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "QNLHK8NJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QNLHK8NJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 397,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Introdução ao Excel com Inteligência Artificial.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Excel com Inteligência Artificial",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "BOC4FENQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BOC4FENQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 396,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.17 · Digital Innovation One · Klabin - Excel e Power BI Dashboards 2026.png",
