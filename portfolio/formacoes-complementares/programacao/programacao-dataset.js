@@ -49,6 +49,740 @@
 
 window.datasetCategoria = [
   {
+    id: 291,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Suzano - Python Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Suzano - Python Developer",
+    cargaHoraria: "57 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "TRAYVQLQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TRAYVQLQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 290,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Produtividade com Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Produtividade com Microsoft Copilot Studio",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "OOT32TR1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OOT32TR1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 289,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Criando um Copiloto com Fluxo de Conversa Personalizado no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Copiloto com Fluxo de Conversa Personalizado no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "NOFYKHPK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NOFYKHPK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 288,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Criando Respostas Generativas com IA no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Respostas Generativas com IA no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "OUVDVAV5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OUVDVAV5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 287,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Criando Variáveis no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Variáveis no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "4YETH346",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4YETH346.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 286,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Criando Entidades Personalizadas no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Entidades Personalizadas no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "AGG7XZTQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AGG7XZTQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 285,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Introdução a Entidades e Variáveis no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Entidades e Variáveis no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "WDOKKUFZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WDOKKUFZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 284,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Trabalhando com Tópicos de Fallback do Sistema no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Tópicos de Fallback do Sistema no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "PQWRGRJ1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PQWRGRJ1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 283,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Ramificando um Tópico no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Ramificando um Tópico no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "YFSHPVAW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YFSHPVAW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 282,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Introdução aos Tópicos no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução aos Tópicos no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "C5BVWKZL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/C5BVWKZL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 281,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Criando seu Primeiro Copiloto no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando seu Primeiro Copiloto no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "OOGR6CVB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OOGR6CVB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 280,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Trabalhando com Ambientes no Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Ambientes no Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "7T4MHNA2",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7T4MHNA2.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 279,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Conhecendo o Microsoft Copilot Studio.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo o Microsoft Copilot Studio",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "IH2BOCZV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IH2BOCZV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 278,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Programação Orientada a Objetos com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos com Python",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "ESVP9KHD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ESVP9KHD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 277,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Fundamentos de POO em Sistemas Bancários.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de POO em Sistemas Bancários",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 276,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Trabalhando com Coleções em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Coleções em Python",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "NDDCFO36",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NDDCFO36.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 275,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Gestão e Controle de Trnsações Bancárias.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gestão e Controle de Trnsações Bancárias",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 274,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Introdução ao Ambiente Python e Projetos Colaborativos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Ambiente Python e Projetos Colaborativos",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "H4CHXNKM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H4CHXNKM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 273,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Live de Lançamento (Suzano - Python Developer).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Live de Lançamento: Suzano - Python Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "ZDU0LDKV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZDU0LDKV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 272,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Introdução ao Python com a Suzano.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Python com a Suzano",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "WYIVWCVE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WYIVWCVE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 271,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.17 · Digital Innovation One · Formação Flutter Specialist.png",
