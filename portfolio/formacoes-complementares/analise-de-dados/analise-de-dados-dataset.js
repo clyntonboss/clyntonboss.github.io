@@ -317,7 +317,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Dominando Tabelas Com Excel",
+    curso: "Dominando Tabelas com Excel",
     cargaHoraria: "10 h",
     conclusaoISO: "2026-04-22",
     dataConclusao: "22 de abril de 2026",
