@@ -792,7 +792,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Live de Lançamento (XP Inc. - Cloud com Inteligência Artificial)",
+    curso: "Live de Lançamento: XP Inc. - Cloud com Inteligência Artificial",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-04-22",
     dataConclusao: "22 de abril de 2026",
