@@ -49,6 +49,296 @@
 
 window.datasetCategoria = [
   {
+    id: 299,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Vivo - Python AI Backend Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Vivo - Python AI Backend Developer",
+    cargaHoraria: "67 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "PEGOPEWE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PEGOPEWE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 298,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Explorando o FastAPI na Prática com TDD.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando o FastAPI na Prática com TDD",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "F5ECEAIT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/F5ECEAIT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 297,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Criando Uma API com FastAPI Utilizando TDD.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Uma API com FastAPI Utilizando TDD",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "U7TKHUMA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U7TKHUMA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 296,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Orientação a Objetos e Boas Práticas em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Orientação a Objetos e Boas Práticas em Python",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "LJ0RKOYF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LJ0RKOYF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 295,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Explorando POO com Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando POO com Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 294,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Dominando Python e suas Estruturas de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Dominando Python e suas Estruturas de Dados",
+    cargaHoraria: "14 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "XRBD2TAC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XRBD2TAC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 293,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Dominando os Fundamentos Básicos do Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Dominando os Fundamentos Básicos do Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 292,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Aula Inaugural (Python AI Backend Developer).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aula Inaugural (Python AI Backend Developer)",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-22",
+    dataConclusao: "22 de abril de 2026",
+    codigo: "NU0ZIW3L",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NU0ZIW3L.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 291,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.22 · Digital Innovation One · Suzano - Python Developer.png",
