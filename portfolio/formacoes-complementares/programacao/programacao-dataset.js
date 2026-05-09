@@ -61,7 +61,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Vivo - Python AI Backend Developer",
+    curso: "Vivo - Python AI Back-End Developer",
     cargaHoraria: "67 h",
     conclusaoISO: "2026-04-22",
     dataConclusao: "22 de abril de 2026",
