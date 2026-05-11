@@ -2710,7 +2710,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Live de Lançamento (Coding The Future XP Inc. - Full Stack Developer)",
+    curso: "Live de Lançamento: Coding the Future XP Inc. - Full Stack Developer",
     cargaHoraria: "2 h",
     conclusaoISO: "2026-04-25",
     dataConclusao: "25 de abril de 2026",
