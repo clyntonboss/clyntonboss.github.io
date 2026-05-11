@@ -1411,7 +1411,7 @@ window.datasetCategoria = [
   {
     id: 362,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Implementando Validações de Testes Unitários com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Implementando Validações de Testes Unitários com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1448,7 +1448,7 @@ window.datasetCategoria = [
   {
     id: 361,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Testes Unitários com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Testes Unitários com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1485,7 +1485,7 @@ window.datasetCategoria = [
   {
     id: 360,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Construindo APIs com .NET C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Construindo APIs com .NET C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1522,7 +1522,7 @@ window.datasetCategoria = [
   {
     id: 359,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Calculando Ativos com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Calculando Ativos com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1630,7 +1630,7 @@ window.datasetCategoria = [
   {
     id: 356,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Trabalhando com Entity Framework com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Trabalhando com Entity Framework com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1667,7 +1667,7 @@ window.datasetCategoria = [
   {
     id: 355,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Introdução as APIs com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Introdução as APIs com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1889,7 +1889,7 @@ window.datasetCategoria = [
   {
     id: 349,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Programação Orientada a Objetos com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Programação Orientada a Objetos com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1926,7 +1926,7 @@ window.datasetCategoria = [
   {
     id: 348,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Criando um Sistema e Abstraindo um Celular com POO em C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Criando um Sistema e Abstraindo um Celular com POO em C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -1963,7 +1963,7 @@ window.datasetCategoria = [
   {
     id: 347,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Classes Abstratas e Interfaces com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Classes Abstratas e Interfaces com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2000,7 +2000,7 @@ window.datasetCategoria = [
   {
     id: 346,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Herança e Polimorfismo com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Herança e Polimorfismo com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2037,7 +2037,7 @@ window.datasetCategoria = [
   {
     id: 345,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Introdução Abstração e Encapsulamento com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Introdução Abstração e Encapsulamento com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2074,7 +2074,7 @@ window.datasetCategoria = [
   {
     id: 344,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Dados e Listas com .NET C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Dados e Listas com .NET C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2111,7 +2111,7 @@ window.datasetCategoria = [
   {
     id: 343,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Calculando Juros com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Calculando Juros com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2145,7 +2145,7 @@ window.datasetCategoria = [
   {
     id: 342,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Construindo um Sistema de Hospedagem de um Hotel no C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Construindo um Sistema de Hospedagem de um Hotel no C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2182,7 +2182,7 @@ window.datasetCategoria = [
   {
     id: 341,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Nuget Serializar e Atributos no C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Nuget Serializar e Atributos no C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2219,7 +2219,7 @@ window.datasetCategoria = [
   {
     id: 340,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Tuplas Operador Ternário e Desconstrução de um Objeto com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Tuplas Operador Ternário e Desconstrução de um Objeto com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2256,7 +2256,7 @@ window.datasetCategoria = [
   {
     id: 339,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Exceções e Coleções com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Exceções e Coleções com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2293,7 +2293,7 @@ window.datasetCategoria = [
   {
     id: 338,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Manipulando Valores com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Manipulando Valores com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2330,7 +2330,7 @@ window.datasetCategoria = [
   {
     id: 337,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Propriedades Métodos e Construtores com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Propriedades Métodos e Construtores com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2367,7 +2367,7 @@ window.datasetCategoria = [
   {
     id: 336,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Sintaxe Básica com .NET C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Sintaxe Básica com .NET C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2404,7 +2404,7 @@ window.datasetCategoria = [
   {
     id: 335,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Construindo um Sistema para um Estacionamento com C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Construindo um Sistema para um Estacionamento com C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2441,7 +2441,7 @@ window.datasetCategoria = [
   {
     id: 334,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Array e Listas em C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Array e Listas em C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2478,7 +2478,7 @@ window.datasetCategoria = [
   {
     id: 333,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Conhecendo a Organização de um Programa C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Conhecendo a Organização de um Programa C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2515,7 +2515,7 @@ window.datasetCategoria = [
   {
     id: 332,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Conhecendo as Estruturas de Repetição em C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Conhecendo as Estruturas de Repetição em C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2552,7 +2552,7 @@ window.datasetCategoria = [
   {
     id: 331,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Operadores Aritméticos em C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Operadores Aritméticos em C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2589,7 +2589,7 @@ window.datasetCategoria = [
   {
     id: 330,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Tipos de Operadores em C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Tipos de Operadores em C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -2626,7 +2626,7 @@ window.datasetCategoria = [
   {
     id: 329,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Sintaxe e Tipos de Dados em C#.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.25 · Digital Innovation One · Sintaxe e Tipos de Dados em C.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
