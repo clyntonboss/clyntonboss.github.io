@@ -1570,10 +1570,10 @@ window.datasetCategoria = [
     cargaHoraria: "2 h",
     conclusaoISO: "2026-04-26",
     dataConclusao: "26 de abril de 2026",
-    codigo: "ÇQKSLWDU",
+    codigo: "LQKSLWDU",
     mostrarCopiar: false,
     verificacao: {
-      url: "https://hermes.dio.me/certificates/ÇQKSLWDU.pdf",
+      url: "https://hermes.dio.me/certificates/LQKSLWDU.pdf",
       texto: "Verificar Autenticidade"
     },
 
