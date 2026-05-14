@@ -49,6 +49,586 @@
 
 window.datasetCategoria = [
   {
+    id: 567,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Philips Full Stack Developer · You are You.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Philips Full Stack Developer | You are You",
+    cargaHoraria: "132 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "KRS0S5LK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KRS0S5LK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 566,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Conteúdo.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conteúdo",
+    cargaHoraria: "114 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "YIKO54MA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YIKO54MA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 565,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Simplificando Projetos Java com o Spring Boot.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Simplificando Projetos Java com o Spring Boot",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "QOXPQTWX",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QOXPQTWX.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 564,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Introdução ao Spring Framework.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Spring Framework",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "ZJE86XM4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZJE86XM4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 563,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Desafios de Código Intermediários Java - Philips Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Intermediários Java - Philips Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 562,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Praticando Orientação a Objetos com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Praticando Orientação a Objetos com Java",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "ZETGXVUY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZETGXVUY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 561,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Desafios de Código Iniciais Java - Philips Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Iniciais Java - Philips Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 560,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Resolvendo Desafios de Código em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Resolvendo Desafios de Código em Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "A7FJFVIC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/A7FJFVIC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 559,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Configurando Ambiente de Desenvolvimento Java no Linux.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Configurando Ambiente de Desenvolvimento Java no Linux",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "IIKFQGZI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IIKFQGZI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 558,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Introdução ao Ecossistema e Documentação Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Ecossistema e Documentação Java",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "HA69MXMN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HA69MXMN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 557,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Desafios de Código Intermediários JS - Philips Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Intermediários JS - Philips Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 556,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Recriando o Famoso Jogo do Dinossauro sem Internet.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Recriando o Famoso Jogo do Dinossauro sem Internet",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "FGJCPAN6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FGJCPAN6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 555,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Desafios de Código Iniciais JS - Philips Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Iniciais JS - Philips Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 554,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Sintaxe Básica em JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Sintaxe Básica em JavaScript",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "QQTTRMPS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QQTTRMPS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 553,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Mentoria 1 (Aula Inaugural - Philips Full Stack Developer · You are You).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Mentoria #1: Aula Inaugural - Philips Full Stack Developer | You are You",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "I3PAVTPH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/I3PAVTPH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 552,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Boas-Vindas ao Bootcamp Philips Full Stack Developer · You are You.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas-Vindas ao Bootcamp Philips Full Stack Developer | You are You",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "XYCEUWIP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XYCEUWIP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 551,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Avanade - .NET Developer.png",
