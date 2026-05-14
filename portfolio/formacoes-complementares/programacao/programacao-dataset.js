@@ -49,6 +49,555 @@
 
 window.datasetCategoria = [
   {
+    id: 542,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Pottencial .NET Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Pottencial .NET Developer",
+    cargaHoraria: "96 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "M5VYPY1D",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/M5VYPY1D.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 541,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Dominando o Ecossistema .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Dominando o Ecossistema .NET",
+    cargaHoraria: "16 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "AUVGMSQH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AUVGMSQH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 540,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Desafio Tech Pottencial (Payment API).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafio Tech Pottencial: Payment API",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "TO4WX0IN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TO4WX0IN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 539,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Front-End com ASP.NET MVC.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Front-End com ASP.NET MVC",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "NNVPVNNZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NNVPVNNZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 538,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Bancos de Dados Relacionais - SQL Server.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Bancos de Dados Relacionais - SQL Server",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "1X82OQJU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/1X82OQJU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 537,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · SQL Server - Constraints Funções e Procedures.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "SQL Server - Constraints Funções e Procedures",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "2GPCYINB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2GPCYINB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 536,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Conhecendo a Plataforma .NET com C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo a Plataforma .NET com C#",
+    cargaHoraria: "40 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "KRHEBNN3",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KRHEBNN3.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 535,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Desafios de Código Intermediário C - Pottencial.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Intermediário C# - Pottencial",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 534,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Stack Heap e Garbage Collector no C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Stack Heap e Garbage Collector no C#",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "ZOVO5CBR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZOVO5CBR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 533,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Tipos Especiais no C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Tipos Especiais no C#",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "XU7AFQ5I",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XU7AFQ5I.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 532,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Desafios de Código Básico C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Básico C#",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 531,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Comentários e Boas Práticas em C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Comentários e Boas Práticas em C#",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "FFJXDIBI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FFJXDIBI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 530,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Prepare-se para a Jornada.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Prepare-se para a Jornada",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "KIOCE39I",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KIOCE39I.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 529,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Pottencial .NET Developer · Aula Inaugural.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Pottencial .NET Developer | Aula Inaugural",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "VE9ZXUHM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VE9ZXUHM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 528,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Boas-Vindas ao Bootcamp (Pottencial .NET Developer).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas-Vindas ao Bootcamp: Pottencial .NET Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-29",
+    dataConclusao: "29 de abril de 2026",
+    codigo: "QTUBWJ3N",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QTUBWJ3N.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 527,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.28 · Digital Innovation One · Banco PAN Java Developer.png",
