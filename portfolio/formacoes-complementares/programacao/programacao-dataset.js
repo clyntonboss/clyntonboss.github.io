@@ -49,6 +49,330 @@
 
 window.datasetCategoria = [
   {
+    id: 551,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Avanade - .NET Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avanade - .NET Developer",
+    cargaHoraria: "83 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "UVQOWIGE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UVQOWIGE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 550,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Programação Orientada a Objetos com C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos com C#",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "2UZWKLXV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2UZWKLXV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 549,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Desafios de Código Coding the Future Avanade III.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Coding the Future Avanade III",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 548,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Manipulando Dados e Objetos com .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Manipulando Dados e Objetos com .NET",
+    cargaHoraria: "14 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "HJKQDWSG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HJKQDWSG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 547,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Desafios de Código Coding the Future Avanade II.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Coding the Future Avanade II",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 546,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Fundamentos do .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos do .NET",
+    cargaHoraria: "22 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "DW18PAAN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DW18PAAN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 545,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Desafios de Código Coding the Future Avanade I.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios de Código Coding the Future Avanade I",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 544,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Princípios de Desenvolvimento de Aplicações.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Princípios de Desenvolvimento de Aplicações",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "5TMEQHJL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/5TMEQHJL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 543,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Aula Inaugural - Coding the Future Avanade.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aula Inaugural - Coding the Future Avanade",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-04-30",
+    dataConclusao: "30 de abril de 2026",
+    codigo: "RU4HSQHH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RU4HSQHH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 542,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.29 · Digital Innovation One · Pottencial .NET Developer.png",
