@@ -49,6 +49,438 @@
 
 window.datasetCategoria = [
   {
+    id: 604,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Carrefour Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Carrefour Web Developer",
+    cargaHoraria: "104 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "WZBXJHPG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WZBXJHPG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 603,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Módulo V - Java·SpringBoot.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo V - Java·SpringBoot",
+    cargaHoraria: "34 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "7ORDGATI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7ORDGATI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 602,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desafios Intermediários Java - Carrefour Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Intermediários Java - Carrefour Web Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 601,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desafios Iniciais Java - Carrefour Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Iniciais Java - Carrefour Web Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 600,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Módulo IV - ReactJS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo IV - ReactJS",
+    cargaHoraria: "18 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "X2JY1XDV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/X2JY1XDV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 599,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desenvolvendo uma Progressive Web Application com React para Mapear os Dados do COVID19 pelo Mundo.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desenvolvendo uma Progressive Web Application com React para Mapear os Dados do COVID19 pelo Mundo",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "4VPFWC4U",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4VPFWC4U.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 598,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desafios Intermediários JS - Carrefour Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Intermediários JS - Carrefour Web Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 597,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Módulo III - JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo III - JavaScript",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "3QBH6PMT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3QBH6PMT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 596,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desafios Iniciais JS - Carrefour Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Iniciais JS - Carrefour Web Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 595,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Módulo I - Conteúdo de Abertura.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo I - Conteúdo de Abertura",
+    cargaHoraria: "16 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "KODBZYEL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KODBZYEL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 594,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Aula Inaugural - Carrefour Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aula Inaugural - Carrefour Web Developer",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "B1VSOAYV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/B1VSOAYV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 593,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Boas-Vindas ao Bootcamp Carrefour Web Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas-Vindas ao Bootcamp Carrefour Web Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "D4BOYPBT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/D4BOYPBT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 592,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Formação .NET Developer.png",
