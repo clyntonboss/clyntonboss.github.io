@@ -240,7 +240,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Desenvolvendo uma Progressive Web Application com React para Mapear os Dados do COVID19 pelo Mundo",
+    curso: "Progressive Web Application com React para Mapear os Dados do COVID19 pelo Mundo",
     cargaHoraria: "4 h",
     conclusaoISO: "2026-05-01",
     dataConclusao: "01 de maio de 2026",
