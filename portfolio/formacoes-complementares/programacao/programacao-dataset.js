@@ -49,6 +49,919 @@
 
 window.datasetCategoria = [
   {
+    id: 592,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Formação .NET Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação .NET Developer",
+    cargaHoraria: "93 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "IERAOFVK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IERAOFVK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 591,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Testes Unitários com C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Testes Unitários com C#",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "2MY4D78N",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2MY4D78N.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 590,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Avalie a Formação de .NET Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação de .NET Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "PPDCIHRZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PPDCIHRZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 589,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Materiais Complementares (Testes Unitários com C).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Testes Unitários com C#",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "9TT3PTBU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9TT3PTBU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 588,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desafios Avançados C - Formação .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Avançados C# - Formação .NET",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 587,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Nuvem com Microsoft Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Nuvem com Microsoft Azure",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "1IDDL2HE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/1IDDL2HE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 586,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Materiais Complementares (Nuvem com Microsoft Azure).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares (Nuvem com Microsoft Azure)",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "XACWXFQT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XACWXFQT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 585,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Criando um Sistema de Cadastro de Funcionários e Publicando no Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Sistema de Cadastro de Funcionários e Publicando no Azure",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "NZFGU5MT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NZFGU5MT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 584,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Armazenamento de Dados na Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Armazenamento de Dados na Azure",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "UNSREFI5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UNSREFI5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 583,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Introdução a Deploy de Aplicações e Recursos na Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Deploy de Aplicações e Recursos na Azure",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "VWAZADRM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VWAZADRM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 582,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Introdução a Nuvem com Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Nuvem com Azure",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "63QBENDW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/63QBENDW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 581,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Integrando APIs NET C com Entity Framework.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Integrando APIs NET C# com Entity Framework",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "FXAVTKUL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FXAVTKUL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 580,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Materiais Complementares (API e Entity Framework).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: API e Entity Framework",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "ZFS61I2L",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZFS61I2L.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 579,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Bancos de Dados Relacionais e Não Relacionais com SQL Server e MongoDB.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Bancos de Dados Relacionais e Não Relacionais com SQL Server e MongoDB",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "SQJRKWYM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SQJRKWYM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 578,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Materiais Complementares (Banco de Dados .NET).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Banco de Dados .NET",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "AETFKLKK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AETFKLKK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 577,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · MongoDB - Trabalhando com Bancos não Relacionais.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "MongoDB - Trabalhando com Bancos não Relacionais",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "VGTLFQK5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VGTLFQK5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 576,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Programação Orientada a Objetos com C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos com C#",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "8RI8EQL0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8RI8EQL0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 575,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Materiais Complementares (Programação Orientada a Objetos .NET).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Programação Orientada a Objetos .NET",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "MCYIR6WL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MCYIR6WL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 574,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desafios Intermediários C II - Formação .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Intermediários C# II - Formação .NET",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 573,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Explorando a Linguagem C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando a Linguagem C#",
+    cargaHoraria: "19 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "QQZ8AK81",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QQZ8AK81.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 572,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Materiais Complementares (Explorando a Linguagem C).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Explorando a Linguagem C#",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "ZP4Z4OA6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZP4Z4OA6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 571,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desafios Intermediários C I - Formação .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Intermediários C# I - Formação .NET",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 570,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Fundamentos .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos .NET",
+    cargaHoraria: "23 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "QQJQPKD6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QQJQPKD6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 569,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Materiais Complementares (Fundamentos de .NET).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares: Fundamentos de .NET",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "UNNKLKPG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UNNKLKPG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 568,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Desafios Básicos de C - Formação .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Básicos de C# - Formação .NET",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-01",
+    dataConclusao: "01 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 567,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.04.30 · Digital Innovation One · Philips Full Stack Developer · You are You.png",
