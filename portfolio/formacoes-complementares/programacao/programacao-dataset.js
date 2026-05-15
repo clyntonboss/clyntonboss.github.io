@@ -280,7 +280,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Materiais Complementares (Nuvem com Microsoft Azure)",
+    curso: "Materiais Complementares: Nuvem com Microsoft Azure",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-05-01",
     dataConclusao: "01 de maio de 2026",
