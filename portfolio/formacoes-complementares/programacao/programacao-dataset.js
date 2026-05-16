@@ -162,7 +162,7 @@ window.datasetCategoria = [
   {
     id: 622,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Node.js com Bancos de Dados Relacionais (SQL).png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · NodeJS com Bancos de Dados Relacionais (SQL).png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -199,7 +199,7 @@ window.datasetCategoria = [
   {
     id: 621,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Aplicando o Estilo Arquitetural REST com Node.js.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Aplicando o Estilo Arquitetural REST com NodeJS.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -270,7 +270,7 @@ window.datasetCategoria = [
   {
     id: 619,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Introdução ao Node.js com Express.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Introdução ao NodeJS com Express.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
@@ -307,7 +307,7 @@ window.datasetCategoria = [
   {
     id: 618,
 
-    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Desenvolvimento Back-End com Node.js.png",
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Desenvolvimento Back-End com NodeJS.png",
 
     nomeInstituicao: "Instituição: ",
     nomeCurso: "Curso: ",
