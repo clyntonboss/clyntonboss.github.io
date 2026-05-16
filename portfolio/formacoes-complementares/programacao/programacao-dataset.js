@@ -49,6 +49,774 @@
 
 window.datasetCategoria = [
   {
+    id: 625,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Spread Full Stack Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Spread Full Stack Developer",
+    cargaHoraria: "98 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "ESCXBP4X",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ESCXBP4X.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 624,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Módulo VI - NodeJS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo VI - NodeJS",
+    cargaHoraria: "16 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "9MS526PY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9MS526PY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 623,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Construindo Encurtador de URL.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Construindo Encurtador de URL",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "7PT6A4JA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7PT6A4JA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 622,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Node.js com Bancos de Dados Relacionais (SQL).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Node.js com Bancos de Dados Relacionais (SQL)",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "IWOMMXIH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IWOMMXIH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 621,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Aplicando o Estilo Arquitetural REST com Node.js.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aplicando o Estilo Arquitetural REST com Node.js",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "FINMBNA7",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FINMBNA7.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 620,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Desafios Finais JS - Spread Full Stack.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Finais JS - Spread Full Stack",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 619,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Introdução ao Node.js com Express.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Node.js com Express",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "GPF1IACI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GPF1IACI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 618,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Desenvolvimento Back-End com Node.js.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desenvolvimento Back-End com Node.js",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "GQ4DGYVD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GQ4DGYVD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 617,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Introdução a APIs e Métodos HTTP.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a APIs e Métodos HTTP",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "DNRGLOD4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DNRGLOD4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 616,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Módulo V - Banco de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo V - Banco de Dados",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "GP4WMMGZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GP4WMMGZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 615,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · MySQL - Consultas com Join.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "MySQL - Consultas com Join",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "ZDUKZYRW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZDUKZYRW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 614,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · MySQL - Trabalhando com suas Primeiras Tabelas.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "MySQL - Trabalhando com suas Primeiras Tabelas",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "S9IFMENE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/S9IFMENE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 613,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Módulo IV - ReactJS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo IV - ReactJS",
+    cargaHoraria: "24 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "YNUFEYK8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YNUFEYK8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 612,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Criando um Front-End Totalmente Componentizado na Prática com ReactJS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Front-End Totalmente Componentizado na Prática com ReactJS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "MZB9C3IY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MZB9C3IY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 611,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Desafios Intermediários JS - Spread Full Stack.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Intermediários JS - Spread Full Stack",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: mull,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 610,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Módulo III - JavaScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo III - JavaScript",
+    cargaHoraria: "19 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "QWE9ZWLK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QWE9ZWLK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 609,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Aprenda a Criar um Sistema de Estacionamento Usando TypeScript.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aprenda a Criar um Sistema de Estacionamento Usando TypeScript",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "VJXZ69VS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VJXZ69VS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 608,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Desafios Iniciais JS - Spread Full Stack.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desafios Iniciais JS - Spread Full Stack",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 607,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Módulo I - Conteúdo de Abertura.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Módulo I - Conteúdo de Abertura",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "PQOZOQXA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PQOZOQXA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 606,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Mentoria 1 (Aula Inaugural - Spread).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Mentoria #1: Aula Inaugural - Spread",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "CNSOR8JX",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CNSOR8JX.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 605,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.02 · Digital Innovation One · Boas-Vindas ao Bootcamp (Spread Full Stack Developer).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas-Vindas ao Bootcamp: Spread Full Stack Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-02",
+    dataConclusao: "02 de maio de 2026",
+    codigo: "O0CCDHXZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/O0CCDHXZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 604,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.01 · Digital Innovation One · Carrefour Web Developer.png",
