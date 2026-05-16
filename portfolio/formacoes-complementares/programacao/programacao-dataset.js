@@ -582,7 +582,7 @@ window.datasetCategoria = [
     dataConclusao: "02 de maio de 2026",
     codigo: "Inaplicável",
     mostrarCopiar: false,
-    verificacao: mull,
+    verificacao: null,
 
     nomeTitulo: "",
     nomePeriodo: "",
