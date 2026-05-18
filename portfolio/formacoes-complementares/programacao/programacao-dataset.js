@@ -49,6 +49,1369 @@
 
 window.datasetCategoria = [
   {
+    id: 709,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Formação Java Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Formação Java Developer",
+    cargaHoraria: "76 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "UA7P2GUC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UA7P2GUC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 708,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Avalie a Formação Java Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Avalie a Formação Java Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "YF2HTCOA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YF2HTCOA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 707,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Materiais Complementares - Conhecendo o Spring Framework.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Conhecendo o Spring Framework",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "AENP1KFE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AENP1KFE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 706,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Qualidade de Código e Boas Práticas com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Qualidade de Código e Boas Práticas com Java",
+    cargaHoraria: "14 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "NYVHFJOB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NYVHFJOB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 705,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Materiais Complementares - Qualidade de Código e Boas Práticas com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Qualidade de Código e Boas Práticas com Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "TEHL8RDT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TEHL8RDT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 704,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Desenvolvendo Testes Utilizando Mockito.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desenvolvendo Testes Utilizando Mockito",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "TSXWPXCH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TSXWPXCH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 703,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução a Testes de Software.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução a Testes de Software",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "AZTPHHMY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AZTPHHMY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 702,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Aprenda sobre S.O.L.I.D. com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aprenda sobre S.O.L.I.D. com Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "AITAW06B",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AITAW06B.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 701,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Entrada e Saída de Arquivos (I·O) em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entrada e Saída de Arquivos (I/O) em Java",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "X7VURWIH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/X7VURWIH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 700,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Gerenciamento de Dependências e Build em Projetos Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciamento de Dependências e Build em Projetos Java",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "YVIB9VR9",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YVIB9VR9.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 699,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Materiais Complementares - Gerenciamento de Dependências e Build.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Gerenciamento de Dependências e Build",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "OHOB4CSQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OHOB4CSQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 698,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Projetos Java com Gradle.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Projetos Java com Gradle",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "AZSSVBMF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AZSSVBMF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 697,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estruturas de Dados e API de Streams em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estruturas de Dados e API de Streams em Java",
+    cargaHoraria: "17 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "RJMPRO8R",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RJMPRO8R.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 696,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Materiais Complementares - Estruturas de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Estruturas de Dados",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "PHRNNF4T",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PHRNNF4T.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 695,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estruturas de Dados em Java (Principais Implementações).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estruturas de Dados em Java: Principais Implementações",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "UITMBYLF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UITMBYLF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 694,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estruturas de Dados em Java (Árvores).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estruturas de Dados em Java: Árvores",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "48W5G3W1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/48W5G3W1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 693,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estruturas de Dados em Java (Listas).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estruturas de Dados em Java?: Listas",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "K49ABVQL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/K49ABVQL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 692,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estruturas de Dados em Java (Pilhas e Filas).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estruturas de Dados em Java: Pilhas e Filas",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "EAX50ADW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EAX50ADW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 691,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estruturas de Dados em Java (Introdução).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estruturas de Dados em Java: Introdução",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "PSXMMPK6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PSXMMPK6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 690,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Programação Orientada a Objetos em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos em Java",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "0B1GJJZ4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0B1GJJZ4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 689,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Materiais Complementares - Programação Orientada a Objetos em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Programação Orientada a Objetos em Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "0M1RWZ5A",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0M1RWZ5A.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 688,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Modelando o iPhone com UML (Funções de Músicas Chamadas e Internet).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Modelando o iPhone com UML: Funções de Músicas Chamadas e Internet",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "IKR6O0QT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IKR6O0QT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 687,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Pilares da Programação Orientada a Objetos em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Pilares da Programação Orientada a Objetos em Java",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "L0QAQOEC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/L0QAQOEC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 686,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Fundamentos da Programação Orientada a Objetos com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos da Programação Orientada a Objetos com Java",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "K6UD4WB9",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/K6UD4WB9.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 685,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Escopo e Estruturas de Controle em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Escopo e Estruturas de Controle em Java",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "RWJZPGLK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RWJZPGLK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 684,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Materiais Complementares - Controle de Fluxo.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Controle de Fluxo",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "76ERK4I1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/76ERK4I1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 683,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Criando um Pequeno Sistema para Validação de Processo Seletivo.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando um Pequeno Sistema para Validação de Processo Seletivo",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "14MSD35B",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/14MSD35B.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 682,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Resolvendo Desafios - Escopo e Estruturas de Controle em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Resolvendo Desafios - Escopo e Estruturas de Controle em Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 681,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Java e Tratamento de Exceções.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Java e Tratamento de Exceções",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "F93MESUT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/F93MESUT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 680,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estruturas de Repetição em Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estruturas de Repetição em Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "BMNRVBD4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BMNRVBD4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 679,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução e Estruturas Condicionais com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução e Estruturas Condicionais com Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "RMGGNXE8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RMGGNXE8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 678,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Fundamentos da Plataforma Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos da Plataforma Java",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "YBMT6IXG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YBMT6IXG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 677,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Materiais Complementares - Fundamentos de Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Materiais Complementares - Fundamentos de Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "11PI5AFG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/11PI5AFG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 676,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Simulando uma Conta Bancária Através do Terminal·Console.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Simulando uma Conta Bancária Através do Terminal·Console",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "8DBRR2FA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8DBRR2FA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 675,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Resolvendo Desafios - Fundamentos da Linguagem de Programação Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Resolvendo Desafios - Fundamentos da Linguagem de Programação Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 674,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Ambiente de Desenvolvimento Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Ambiente de Desenvolvimento Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "KFCEGEPB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KFCEGEPB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 673,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução à Plataforma Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução à Plataforma Java",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "FSNEPZHL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FSNEPZHL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 672,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Formação React Native Developer.png",
