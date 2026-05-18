@@ -49,6 +49,481 @@
 
 window.datasetCategoria = [
   {
+    id: 722,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Akad - Full Stack Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Akad - Full Stack Developer",
+    cargaHoraria: "79 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "GMESDHCB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GMESDHCB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 721,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estrutura de Dados com C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Estrutura de Dados com C",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "CSS65DTT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CSS65DTT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 720,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Explorando Estrutura de Dados em C com Desafios de Código.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Estrutura de Dados em C com Desafios de Código",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 719,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução ao .NET e Controle de Versão com Git.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao .NET e Controle de Versão com Git",
+    cargaHoraria: "16 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "EGWQ1NXV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EGWQ1NXV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 718,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Explorando a Sintaxe em C com Desafios de Código.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando a Sintaxe em C com Desafios de Código",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 717,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução ao React.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao React",
+    cargaHoraria: "13 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "FG7SW1VB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FG7SW1VB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 716,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Live de Lançamento Akad - Full Stack Developer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Live de Lançamento Akad - Full Stack Developer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "ZRGWTROV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZRGWTROV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 715,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Componentes Funcionais no React.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Componentes Funcionais no React",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "7D8WA2UO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7D8WA2UO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 714,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Criando Aplicações React com Vite.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Aplicações React com Vite",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "8UEBAYXQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8UEBAYXQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 713,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Empacotadores e Compiladores no React.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Empacotadores e Compiladores no React",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "RLKQD2VT",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RLKQD2VT.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 712,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Preparando o Ambiente de Desenvolvimento React.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Preparando o Ambiente de Desenvolvimento React",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "XWNRDS9D",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XWNRDS9D.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 711,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Conhecendo o React.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo o React",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "VAEXIKN3",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VAEXIKN3.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 710,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução ao Desenvolvimento Full Stack com a Akad.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Desenvolvimento Full Stack com a Akad",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "X5FLATO4",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/X5FLATO4.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 709,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Formação Java Developer.png",
