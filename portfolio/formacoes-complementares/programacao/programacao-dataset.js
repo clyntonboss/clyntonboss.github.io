@@ -98,7 +98,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Estrutura de Dados com C",
+    curso: "Estrutura de Dados com C#",
     cargaHoraria: "10 h",
     conclusaoISO: "2026-05-03",
     dataConclusao: "03 de maio de 2026",
@@ -135,7 +135,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Explorando Estrutura de Dados em C com Desafios de Código",
+    curso: "Explorando Estrutura de Dados em C# com Desafios de Código",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-05-03",
     dataConclusao: "03 de maio de 2026",
@@ -206,7 +206,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Explorando a Sintaxe em C com Desafios de Código",
+    curso: "Explorando a Sintaxe em C# com Desafios de Código",
     cargaHoraria: "1 h",
     conclusaoISO: "2026-05-03",
     dataConclusao: "03 de maio de 2026",
