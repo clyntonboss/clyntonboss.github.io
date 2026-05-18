@@ -49,7 +49,7 @@
 
 window.datasetCategoria = [
   {
-    id: 722,
+    id: 723,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Akad - Full Stack Developer.png",
 
@@ -86,7 +86,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 721,
+    id: 722,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Estrutura de Dados com C.png",
 
@@ -123,7 +123,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 720,
+    id: 721,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Explorando Estrutura de Dados em C com Desafios de Código.png",
 
@@ -157,7 +157,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 719,
+    id: 720,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução ao .NET e Controle de Versão com Git.png",
 
@@ -194,7 +194,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 718,
+    id: 719,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Explorando a Sintaxe em C com Desafios de Código.png",
 
@@ -228,7 +228,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 717,
+    id: 718,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução ao React.png",
 
@@ -265,7 +265,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 716,
+    id: 717,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Live de Lançamento Akad - Full Stack Developer.png",
 
@@ -302,7 +302,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 715,
+    id: 716,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Componentes Funcionais no React.png",
 
@@ -339,7 +339,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 714,
+    id: 715,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Criando Aplicações React com Vite.png",
 
@@ -376,7 +376,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 713,
+    id: 714,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Empacotadores e Compiladores no React.png",
 
@@ -413,7 +413,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 712,
+    id: 713,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Preparando o Ambiente de Desenvolvimento React.png",
 
@@ -450,7 +450,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 711,
+    id: 712,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Conhecendo o React.png",
 
@@ -487,7 +487,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 710,
+    id: 711,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Introdução ao Desenvolvimento Full Stack com a Akad.png",
 
@@ -524,7 +524,7 @@ window.datasetCategoria = [
   },
 
   {
-    id: 709,
+    id: 710,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Formação Java Developer.png",
 
@@ -544,6 +544,43 @@ window.datasetCategoria = [
     mostrarCopiar: false,
     verificacao: {
       url: "https://hermes.dio.me/certificates/UA7P2GUC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 709,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Conhecendo o Spring Framework.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo o Spring Framework",
+    cargaHoraria: "16 h",
+    conclusaoISO: "2026-05-03",
+    dataConclusao: "03 de maio de 2026",
+    codigo: "FXU6PG2M",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FXU6PG2M.pdf",
       texto: "Verificar Autenticidade"
     },
 
