@@ -1128,7 +1128,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Estruturas de Dados em Java?: Listas",
+    curso: "Estruturas de Dados em Java: Listas",
     cargaHoraria: "3 h",
     conclusaoISO: "2026-05-03",
     dataConclusao: "03 de maio de 2026",
