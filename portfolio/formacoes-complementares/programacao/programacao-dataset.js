@@ -49,6 +49,549 @@
 
 window.datasetCategoria = [
   {
+    id: 748,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Claro - Java com Spring Boot.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Claro - Java com Spring Boot",
+    cargaHoraria: "75 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "6CUIFJJF",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/6CUIFJJF.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 747,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Ganhando Produtividade no Java com Spring Framework.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Ganhando Produtividade no Java com Spring Framework",
+    cargaHoraria: "14 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "TIPTDO9J",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TIPTDO9J.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 746,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Calculando Consumo e Desconto de Telefonia.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Calculando Consumo e Desconto de Telefonia",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 745,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Publicando sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Publicando sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "GP3FDCQR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GP3FDCQR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 744,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Testes e Gerenciamento de Dependências em Projetos Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Testes e Gerenciamento de Dependências em Projetos Java",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "V0CAKZLS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/V0CAKZLS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 743,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Calculando Consumo e Limite de Dados Móveis.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Calculando Consumo e Limite de Dados Móveis",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 742,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Programação Orientada a Objetos com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos com Java",
+    cargaHoraria: "18 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "R3UYJFB5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/R3UYJFB5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 741,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Verificando Velocidade Média e Queda de Conexão.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Verificando Velocidade Média e Queda de Conexão",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 740,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Ganhando Produtividade com Stream API.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Ganhando Produtividade com Stream API",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "ZBWBHANK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZBWBHANK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 739,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Conhecendo Collections Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo Collections Java",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "JR40PZHO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JR40PZHO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 738,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Sintaxe Básica com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Sintaxe Básica com Java",
+    cargaHoraria: "13 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "ATYRSCLN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ATYRSCLN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 737,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Explorando Serviços de Telefonia.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Serviços de Telefonia",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 736,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Introdução ao Ambiente Java e Projetos Colaborativos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Ambiente Java e Projetos Colaborativos",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "D2OEYBZQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/D2OEYBZQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 735,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Live de Lançamento (Coding the Future Claro - Java com Spring Boot).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Live de Lançamento: Coding the Future Claro - Java com Spring Boot",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "F9H5NUOK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/F9H5NUOK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 734,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Bem-Vindo ao seu Bootcamp de Java com a Claro.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Bem-Vindo ao seu Bootcamp de Java com a Claro",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "QIH7VPHG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QIH7VPHG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 733,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · TIVIT - .Net com GitHub Copilot.png",
