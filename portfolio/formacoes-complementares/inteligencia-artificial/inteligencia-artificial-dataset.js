@@ -49,6 +49,339 @@
 
 window.datasetCategoria = [
   {
+    id: 291,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Lupo - Primeiros Passos com Inteligência Artificial.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Lupo - Primeiros Passos com Inteligência Artificial",
+    cargaHoraria: "30 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "SVYST49S",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SVYST49S.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 290,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Projeto Final (Mentor de Vendas com IA).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Projeto Final: Mentor de Vendas com IA",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "DUZWCOCA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DUZWCOCA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 289,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Copiloto de Vendas com IA para Atendimento ao Cliente.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Copiloto de Vendas com IA para Atendimento ao Cliente",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "CQPYDP3N",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CQPYDP3N.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 288,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · IA na Prática com Prompting (Comunicação Rotina e Produtividade).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "IA na Prática com Prompting: Comunicação Rotina e Produtividade",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "85CUM9GB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/85CUM9GB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 287,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Criar Prompt da Newsletter de Divulgação Interna de Novos Produtos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criar Prompt da Newsletter de Divulgação Interna de Novos Produtos",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "VGRMUQX0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VGRMUQX0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 286,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Criar Guideline da Newsletter de Divulgação Interna de Novos Produtos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criar Guideline da Newsletter de Divulgação Interna de Novos Produtos",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "7DEL8GWL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7DEL8GWL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 285,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Criar Template de Newsletter para Divulgação Interna de Novos Produtos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criar Template de Newsletter para Divulgação Interna de Novos Produtos",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "ARLSCWH3",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ARLSCWH3.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 284,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Panorama da IA e Aplicações no Dia a Dia.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Panorama da IA e Aplicações no Dia a Dia",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "WOJ3PXQ1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WOJ3PXQ1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 283,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Mapa de Oportunidades com IA no seu Dia a Dia.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Mapa de Oportunidades com IA no seu Dia a Dia",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "HP0YELJR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HP0YELJR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 282,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.04.22 · Digital Innovation One · Caixa - Inteligência Artificial na Prática.png",
