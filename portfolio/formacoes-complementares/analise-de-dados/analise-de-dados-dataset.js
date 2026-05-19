@@ -61,7 +61,7 @@ window.datasetCategoria = [
     nomeVerificacao: "Verificação: ",
 
     instituicao: "Digital Innovation One",
-    curso: "Potência Tech Powered by iFood · Ciência de Dados",
+    curso: "Potência Tech Powered by iFood | Ciência de Dados",
     cargaHoraria: "80 h",
     conclusaoISO: "2026-05-06",
     dataConclusao: "06 de maio de 2026",
