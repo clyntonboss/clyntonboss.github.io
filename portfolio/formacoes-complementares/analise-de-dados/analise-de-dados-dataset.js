@@ -49,6 +49,398 @@
 
 window.datasetCategoria = [
   {
+    id: 421,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Potência Tech Powered by iFood · Ciência de Dados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Potência Tech Powered by iFood · Ciência de Dados",
+    cargaHoraria: "80 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "BCG0BUMP",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BCG0BUMP.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 420,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Exercite sua Lógica com Desafios de Código em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Exercite sua Lógica com Desafios de Código em Python",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "HMJST9CY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HMJST9CY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 419,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Identificando Pedidos Veganos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Identificando Pedidos Veganos",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 418,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Gerenciamento de Pedidos de Comida Online.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciamento de Pedidos de Comida Online",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 417,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Ganhe uma Sobremesa Especial!.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Ganhe uma Sobremesa Especial!",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 416,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Calcular o Preço Final de um Pedido.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Calcular o Preço Final de um Pedido",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 415,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Tempo Estimado de Entrega.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Tempo Estimado de Entrega",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 414,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Princípios de Desenvolvimento de Software.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Princípios de Desenvolvimento de Software",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "LVVCQ0F8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LVVCQ0F8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 413,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Aula Inaugural - Potência Tech Powered by iFood (Ciência de Dados com Python).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aula Inaugural - Potência Tech Powered by iFood: Ciência de Dados com Python",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "DFM0GLHS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DFM0GLHS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 412,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Organizando seus Estudos com os Roadmaps DIO e o Notion.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Organizando seus Estudos com os Roadmaps DIO e o Notion",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "0CPMVMLW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0CPMVMLW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 411,
+
+    thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.05.06 · Digital Innovation One · Fundamentos de Lógica de Programação.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos de Lógica de Programação",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "NBYYQRRM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NBYYQRRM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 410,
 
     thumb: "/portfolio/formacoes-complementares/analise-de-dados/certificados/2026.04.22 · Digital Innovation One · Santander - Excel com Inteligência Artificial.png",
