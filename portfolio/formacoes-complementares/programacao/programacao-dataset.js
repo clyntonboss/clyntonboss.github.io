@@ -49,6 +49,370 @@
 
 window.datasetCategoria = [
   {
+    id: 733,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · TIVIT - .Net com GitHub Copilot.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "TIVIT - .Net com GitHub Copilot",
+    cargaHoraria: "71 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "KZKQWDAE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KZKQWDAE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 732,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Criando APIs com .NET C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando APIs com .NET C#",
+    cargaHoraria: "8 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "DY2ISZEM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DY2ISZEM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 731,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Introdução ao Desenvolvimento de API.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Desenvolvimento de API",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "0DIWHXRI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0DIWHXRI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 730,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Programação Orientada a Objetos com C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos com C#",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "R6Y9EWZO",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/R6Y9EWZO.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 729,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Aplicando Conceitos de POO em C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aplicando Conceitos de POO em C#",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 728,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Dados e Listas com .NET C.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Dados e Listas com .NET C#",
+    cargaHoraria: "10 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "VNIOB8PK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VNIOB8PK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 727,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Explorando Estruturas de Dados em .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Estruturas de Dados em .NET",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 726,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Introdução ao Ambiente .NET.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Ambiente .NET",
+    cargaHoraria: "9 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "KU2Z4UUW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KU2Z4UUW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 725,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Live de Lançamento - TIVIT .NET com GitHub Copilot.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Live de Lançamento - TIVIT .NET com GitHub Copilot",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "PAUQOREQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PAUQOREQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 724,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.06 · Digital Innovation One · Introdução ao Bootcamp - .Net com GitHub Copilot.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Bootcamp - .Net com GitHub Copilot",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-06",
+    dataConclusao: "06 de maio de 2026",
+    codigo: "927T55CK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/927T55CK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 723,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.03 · Digital Innovation One · Akad - Full Stack Developer.png",
