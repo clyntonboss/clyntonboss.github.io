@@ -49,6 +49,2149 @@
 
 window.datasetCategoria = [
   {
+    id: 299,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · GFT - Fundamentos de Cloud com AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "GFT - Fundamentos de Cloud com AWS",
+    cargaHoraria: "48 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "8YLMXVMS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8YLMXVMS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 298,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Automação e DevOps na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Automação e DevOps na AWS",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "HRWIASPZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/HRWIASPZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 297,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Explorando Ferramentas da AWS para DevOps.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Ferramentas da AWS para DevOps",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "RHRN7MB9",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RHRN7MB9.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 296,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Aplicando Conceitos de DevOps na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aplicando Conceitos de DevOps na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "GPDVMXZE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GPDVMXZE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 295,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Introdução ao DevOps.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao DevOps",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "7AP02AVJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/7AP02AVJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 294,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Infraestrutura como Código na AWS com Terraform.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Infraestrutura como Código na AWS com Terraform",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "A7DW6TQH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/A7DW6TQH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 293,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Executando Tarefas Automatizadas com Lambda Function e S3.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Executando Tarefas Automatizadas com Lambda Function e S3",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "LWGC7NUZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LWGC7NUZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 292,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Explorando Automatização de Tarefas na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Automatização de Tarefas na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "DDZTOYVK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/DDZTOYVK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 291,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Desenvolvimento e Ferramenta.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Desenvolvimento e Ferramenta",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "JOGJZUDZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JOGJZUDZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 290,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Automatizando Implantação de Aplicações com AWS CodeDeploy.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Automatizando Implantação de Aplicações com AWS CodeDeploy",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "MIWBSCTA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MIWBSCTA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 289,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Implementando Infraestrutura Automatizada com AWS CloudFormation.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Implementando Infraestrutura Automatizada com AWS CloudFormation",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "RDACJ4Z3",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RDACJ4Z3.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 288,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Explorando como Funcionam a AWS CLI e os SDKs.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando como Funcionam a AWS CLI e os SDKs",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "NCYNILLL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NCYNILLL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 287,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Segurança na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Segurança na AWS",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "TRYZEQTY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TRYZEQTY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 286,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Protegendo Aplicações Web com AWS WAF.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Protegendo Aplicações Web com AWS WAF",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "BJCHWROV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BJCHWROV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 285,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo a Criptografia de Dados na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo a Criptografia de Dados na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "CWHHMWGZ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CWHHMWGZ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 284,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Explorando Práticas Recomendadas de Segurança na Nuvem.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Práticas Recomendadas de Segurança na Nuvem",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "Q4OV2K5P",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/Q4OV2K5P.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 283,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Gerenciamento e Governança na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciamento e Governança na AWS",
+    cargaHoraria: "5 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "SAWWLKSM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SAWWLKSM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 282,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo e Gerenciando Policies e Roles na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo e Gerenciando Policies e Roles na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "WD3FDJMR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WD3FDJMR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 281,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Gerenciando Usuários e Permissões na AWS com Identity and Access Management.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciando Usuários e Permissões na AWS com Identity and Access Management",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "KXBCELZ5",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KXBCELZ5.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 280,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Implementando sua Primeira Stack com AWS CloudFormation.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Implementando sua Primeira Stack com AWS CloudFormation",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "RTJTHBMD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RTJTHBMD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 279,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Fundamentos do AWS CloudTrail para Auditoria e Segurança na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos do AWS CloudTrail para Auditoria e Segurança na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "9ZEXTJWW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9ZEXTJWW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 278,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo o que é o AWS CloudWatch.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo o que é o AWS CloudWatch",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "PQYQXAA8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PQYQXAA8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 277,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Serviços Intermediários e Avançados.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Serviços Intermediários e Avançados",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "CM0NUGMU",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CM0NUGMU.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 276,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Explorando Workflows Automatizados com AWS Step Functions.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Workflows Automatizados com AWS Step Functions",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "PZFYW0RW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PZFYW0RW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 275,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo como Funcionam o Amazon SNS e SQS na Comunicação Assíncrona.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo como Funcionam o Amazon SNS e SQS na Comunicação Assíncrona",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "JNOF5OIV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JNOF5OIV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 274,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo o que são Amazon ECS e EKS na Orquestração de Containers.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo o que são Amazon ECS e EKS na Orquestração de Containers",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "AF7Y3MRB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AF7Y3MRB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 273,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo como Funciona o AWS Lambda.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo como Funciona o AWS Lambda",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "WLN8SPS1",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/WLN8SPS1.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 272,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Serviços de Armazenamento e CDN.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Serviços de Armazenamento e CDN",
+    cargaHoraria: "4 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "PRURSWVK",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/PRURSWVK.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 271,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Aplicações Industriais com JavaScript e AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aplicações Industriais com JavaScript e AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 270,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo a Distribuição de Conteúdo com Amazon CloudFront.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo a Distribuição de Conteúdo com Amazon CloudFront",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "MCAYVCEI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MCAYVCEI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 269,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Conhecendo o Amazon Glacier.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conhecendo o Amazon Glacier",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "GOAAH00C",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/GOAAH00C.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 268,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Introdução ao Amazon S3.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Amazon S3",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "VFFZLG3S",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VFFZLG3S.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 267,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Banco de Dados na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Banco de Dados na AWS",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "H48SYTH0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/H48SYTH0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 266,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Explorando Estratégias de Backup e Recuperação de Dados na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando Estratégias de Backup e Recuperação de Dados na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "FJW59ZFL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FJW59ZFL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 265,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Introdução ao Amazon DynamoDB.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Amazon DynamoDB",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "ADMGFGSL",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ADMGFGSL.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 264,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo o que é o Amazon RDS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo o que é o Amazon RDS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "LOXYICU8",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/LOXYICU8.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 263,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Redes na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Redes na AWS",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "4OTGCMBH",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4OTGCMBH.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 262,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo o que é o Amazon Elastic Load Balancer.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo o que é o Amazon Elastic Load Balancer",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "FYA1EYVA",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FYA1EYVA.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 261,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Introdução à Distribuição de Conteúdo com Amazon CloudFront.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução à Distribuição de Conteúdo com Amazon CloudFront",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "NWWU01IG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/NWWU01IG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 260,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Explorando os Fundamentos do Route 53 na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Explorando os Fundamentos do Route 53 na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "2FPROAOX",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/2FPROAOX.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 259,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Introdução ao Security Group na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução ao Security Group na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "ZUTORL7L",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ZUTORL7L.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 258,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo o que é uma Subnet na Amazon VPC.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo o que é uma Subnet na Amazon VPC",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "OGI1HQZG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/OGI1HQZG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 257,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Introdução à Amazon VPC.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução à Amazon VPC",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "EPS6EOEY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EPS6EOEY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 256,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Criando Recursos na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Recursos na AWS",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "SBJGGL7O",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/SBJGGL7O.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 255,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Criando sua Primeira Função com Amazon Lambda.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando sua Primeira Função com Amazon Lambda",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "KQ7RMEEV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/KQ7RMEEV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 254,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Criando seu Primeiro Bucket no Amazon S3.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando seu Primeiro Bucket no Amazon S3",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "8UMJBR7I",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8UMJBR7I.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 253,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Criando sua Primeira Instância Amazon EC2.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando sua Primeira Instância Amazon EC2",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "EQUX18U7",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/EQUX18U7.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 252,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Computação na Nuvem com EC2.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Computação na Nuvem com EC2",
+    cargaHoraria: "3 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "AGWW9KXG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AGWW9KXG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 251,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Gerenciando Instâncias EC2 na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Gerenciando Instâncias EC2 na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "U6HKOSBB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U6HKOSBB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 250,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Armazenamento na Nuvem com Amazon EBS e S3.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Armazenamento na Nuvem com Amazon EBS e S3",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "JHQUMQ2W",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/JHQUMQ2W.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 249,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Entendendo as Instâncias EC2 e a Otimização de Recursos na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Entendendo as Instâncias EC2 e a Otimização de Recursos na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "4J1CVOGD",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4J1CVOGD.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 248,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Introdução à AWS e Conceitos Básicos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução à AWS e Conceitos Básicos",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "CXMLZS3D",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CXMLZS3D.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 247,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Live de Lançamento - GFT - Fundamentos de Cloud com AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Live de Lançamento - GFT - Fundamentos de Cloud com AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "8BDFW1GJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8BDFW1GJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 246,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Primeiros Passos com Acesso Seguro e Controle de Custos na AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Primeiros Passos com Acesso Seguro e Controle de Custos na AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "X6FMFIAG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/X6FMFIAG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 245,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Configurando sua Conta AWS com Segurança e Eficiência.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Configurando sua Conta AWS com Segurança e Eficiência",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "YMBRSMYE",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YMBRSMYE.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 244,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Fundamentos Essenciais da Infraestrutura AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Fundamentos Essenciais da Infraestrutura AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "3LIT6IIQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/3LIT6IIQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 243,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Introdução à AWS e ao Universo da Computação em Nuvem.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Introdução à AWS e ao Universo da Computação em Nuvem",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "FKWWBQHC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FKWWBQHC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 242,
+
+    thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.05.09 · Digital Innovation One · Boas-Vindas Bootcamp GFT - Fundamentos de Cloud com AWS.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Boas-Vindas Bootcamp GFT - Fundamentos de Cloud com AWS",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "UMQEUH44",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UMQEUH44.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 241,
 
     thumb: "/portfolio/formacoes-complementares/cloud-computing/certificados/2026.04.22 · Digital Innovation One · XP Inc. - Cloud com Inteligência Artificial.png",
