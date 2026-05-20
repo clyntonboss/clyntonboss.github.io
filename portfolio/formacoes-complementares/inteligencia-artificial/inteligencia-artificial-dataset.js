@@ -49,6 +49,259 @@
 
 window.datasetCategoria = [
   {
+    id: 298,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.09 · Digital Innovation One · Bootcamp Afya - Automação de Dados com IA.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Bootcamp Afya - Automação de Dados com IA",
+    cargaHoraria: "51 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "ARRNOHZQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/ARRNOHZQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 297,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.09 · Digital Innovation One · Preparação de Dados com Python (Bibliotecas Essenciais).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Preparação de Dados com Python: Bibliotecas Essenciais",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "S8PUOR0D",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/S8PUOR0D.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 296,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.09 · Digital Innovation One · Trabalhando com Arquivos e Dados Médicos em Python.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Trabalhando com Arquivos e Dados Médicos em Python",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 295,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.09 · Digital Innovation One · Programação Orientada a Objetos.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programação Orientada a Objetos",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "MGPX6J6O",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MGPX6J6O.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 294,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.09 · Digital Innovation One · Aplicações de Python no Universo HealthTech.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Aplicações de Python no Universo HealthTech",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 293,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.09 · Digital Innovation One · Onboarding IA para Acelerar o Desenvolvimento.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Onboarding + IA para Acelerar o Desenvolvimento",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "8XGN5TIY",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/8XGN5TIY.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 292,
+
+    thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.09 · Digital Innovation One · Live de Abertura a Experiência Afya.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Live de Abertura a Experiência Afya",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-09",
+    dataConclusao: "09 de maio de 2026",
+    codigo: "K2GFFY7D",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/K2GFFY7D.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 291,
 
     thumb: "/portfolio/formacoes-complementares/inteligencia-artificial/certificados/2026.05.06 · Digital Innovation One · Lupo - Primeiros Passos com Inteligência Artificial.png",
