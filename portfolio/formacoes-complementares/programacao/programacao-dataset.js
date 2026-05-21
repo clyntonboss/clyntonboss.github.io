@@ -49,6 +49,817 @@
 
 window.datasetCategoria = [
   {
+    id: 800,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Bootcamp NTT DATA (Back-End Java com Spring AI).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Bootcamp NTT DATA: Back-End Java com Spring AI",
+    cargaHoraria: "54 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "AGJSWBPJ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/AGJSWBPJ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 799,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Publicando Operando e Monitorando Soluções de Back-End na Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Publicando Operando e Monitorando Soluções de Back-End na Azure",
+    cargaHoraria: "6 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "YRVEJLSI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YRVEJLSI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 798,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Configurando a Análise de Logs.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Configurando a Análise de Logs",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "MJQTHITW",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/MJQTHITW.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 797,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Configurando Alertas do Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Configurando Alertas do Azure",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "4FIVZVMI",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/4FIVZVMI.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 796,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Configurando o Azure Monitor.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Configurando o Azure Monitor",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "FPZGEEUN",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FPZGEEUN.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 795,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Configurando Contas de Armazenamento.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Configurando Contas de Armazenamento",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "BAZ0KQPG",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/BAZ0KQPG.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 794,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Configurando os Serviços de Aplicativos do Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Configurando os Serviços de Aplicativos do Azure",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "YZGOQJ1Q",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YZGOQJ1Q.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 793,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Configurando Planos do Serviço de Aplicativo do Azure.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Configurando Planos do Serviço de Aplicativo do Azure",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "9XOTT3IR",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/9XOTT3IR.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 792,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Criando Soluções Inteligentes com Spring Boot e Java Moderno.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando Soluções Inteligentes com Spring Boot e Java Moderno",
+    cargaHoraria: "11 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "IG1HMMFQ",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/IG1HMMFQ.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 791,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Consumindo APIs Externas com o Spring Cloud OpenFeign.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Consumindo APIs Externas com o Spring Cloud OpenFeign",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "QLRANSEV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/QLRANSEV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 790,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Simplificando a Segurança em APIs REST com Spring Security.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Simplificando a Segurança em APIs REST com Spring Security",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "RCHUX3HB",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/RCHUX3HB.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 789,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Conectando sua API com Banco de Dados Através do Spring Data.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Conectando sua API com Banco de Dados Através do Spring Data",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "YWTBNWSX",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/YWTBNWSX.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 788,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Criando sua Primeira API REST com Spring Boot.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Criando sua Primeira API REST com Spring Boot",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "U6VSLZLM",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/U6VSLZLM.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 787,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Elevando a Qualidade do seu Código Java com Boas Práticas e Padrões.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Elevando a Qualidade do seu Código Java com Boas Práticas e Padrões",
+    cargaHoraria: "12 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "FCMTKWC0",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/FCMTKWC0.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 786,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Annotations em Java (Marcando o seu Código de Maneira Inteligente).png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Annotations em Java: Marcando o seu Código de Maneira Inteligente",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "XJSJQG49",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/XJSJQG49.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 785,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Simplificando I·O de Arquivos e Diretórios com Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Simplificando I/O de Arquivos e Diretórios com Java",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "UJZOAIWS",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/UJZOAIWS.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 784,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Revisando os Fundamentos Técnicos de Java.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Revisando os Fundamentos Técnicos de Java",
+    cargaHoraria: "18 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "652YSFBC",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/652YSFBC.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 783,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Programando com OO em Java na Prática.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Programando com OO em Java na Prática",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "Inaplicável",
+    mostrarCopiar: false,
+    verificacao: null,
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 782,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Copilotos Inteligentes no Apoio à Construção de Soluções.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Copilotos Inteligentes no Apoio à Construção de Soluções",
+    cargaHoraria: "7 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "TH7LLFQV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/TH7LLFQV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 781,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Live de Lançamento do Bootcamp NTT DATA 2026.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Live de Lançamento do Bootcamp NTT DATA 2026",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "0J4IEV0I",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/0J4IEV0I.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 780,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Tudo o que Você Precisa Saber para Começar a Usar Inteligência Artificial.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "Tudo o que Você Precisa Saber para Começar a Usar Inteligência Artificial",
+    cargaHoraria: "2 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "CACFLCZV",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/CACFLCZV.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
+    id: 779,
+
+    thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · O que é este Bootcamp.png",
+
+    nomeInstituicao: "Instituição: ",
+    nomeCurso: "Curso: ",
+    nomeCargaHoraria: "Carga Horária: ",
+    nomeDataConclusao: "Data de Conclusão: ",
+    nomeCodigo: "Código: ",
+    nomeVerificacao: "Verificação: ",
+
+    instituicao: "Digital Innovation One",
+    curso: "O que é este Bootcamp?",
+    cargaHoraria: "1 h",
+    conclusaoISO: "2026-05-10",
+    dataConclusao: "10 de maio de 2026",
+    codigo: "VD6WFCI6",
+    mostrarCopiar: false,
+    verificacao: {
+      url: "https://hermes.dio.me/certificates/VD6WFCI6.pdf",
+      texto: "Verificar Autenticidade"
+    },
+
+    nomeTitulo: "",
+    nomePeriodo: "",
+    nomeDuracao: "",
+    nomeStackTecnica: "",
+
+    titulo: "",
+    periodo: "",
+    duracao: "",
+    stackTecnica: "",
+    projetoInterativo: "",
+    descricaoProjeto: ""
+  },
+
+  {
     id: 778,
 
     thumb: "/portfolio/formacoes-complementares/programacao/certificados/2026.05.10 · Digital Innovation One · Globant - Java & Spring Boot AI Developer.png",
